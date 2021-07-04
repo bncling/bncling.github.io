@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ben&#39;s Math Site</title>
-    <link>https://bncling.github.io/</link>
-    <description>Recent content on Ben&#39;s Math Site</description>
+    <title>Posts on Ben&#39;s Math Site</title>
+    <link>https://bncling.github.io/posts/</link>
+    <description>Recent content in Posts on Ben&#39;s Math Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Jul 2021 12:52:30 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jul 2021 12:52:30 -0400</lastBuildDate><atom:link href="https://bncling.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>latex test</title>
       <link>https://bncling.github.io/posts/my-first-post/</link>
