@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/posts/link-file/</loc>
+    <lastmod>2021-07-04T16:51:33-04:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/posts/</loc>
+    <lastmod>2021-07-04T16:51:33-04:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/</loc>
     <lastmod>2021-07-04T15:02:17-04:00</lastmod>
   </url><url>
@@ -9,9 +15,6 @@
     <lastmod>2021-07-04T14:02:41-04:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/posts/my-first-post/</loc>
-    <lastmod>2021-07-04T12:52:30-04:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/posts/</loc>
     <lastmod>2021-07-04T12:52:30-04:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/categories/</loc>
