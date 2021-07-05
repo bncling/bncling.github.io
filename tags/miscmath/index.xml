@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>miscmath on Ben&#39;s Math Site</title>
+    <link>https://bncling.github.io/tags/miscmath/</link>
+    <description>Recent content in miscmath on Ben&#39;s Math Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cardinality and sizes of infinity</title>
+      <link>https://bncling.github.io/math-wiki/infty_sizes/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/infty_sizes/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>My Topology self-study work</title>
+      <link>https://bncling.github.io/math-wiki/top_selfstudy/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_selfstudy/</guid>
+      <description>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here:
+Math</description>
+    </item>
+    
+    <item>
+      <title>DeMorgan&#39;s Laws</title>
+      <link>https://bncling.github.io/math-wiki/demorgan/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/demorgan/</guid>
+      <description>DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]</description>
+    </item>
+    
+  </channel>
+</rss>

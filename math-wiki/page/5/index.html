@@ -93,27 +93,30 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2></h2>
+    <h2>Countable complement topology</h2>
   </header>
   <section class="entry-content">
-   <p>#topology...</p>
+   <p>Basically what the name makes it sound like. It’s similar in definition to the finite complement topology.
+Definition Let \(X\) be a set. A set \(U\) is in the countable complement topology if and only if \(X - U\) is countable or if \(U = \emptyset\). This topology is also called the cocountable topology.
+Properties Countable sets are closed in this topology....</p>
   </section>
   <footer class="entry-footer">
-    <time>January 1, 0001</time>
+    <time>July 4, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t4/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/countable_complement_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2></h2>
+    <h2>DeMorgan&#39;s Laws</h2>
   </header>
   <section class="entry-content">
-   <p>#calculus...</p>
+   <p>DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]...</p>
   </section>
   <footer class="entry-footer">
-    <time>January 1, 0001</time>
+    <time>July 4, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/thomae/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/demorgan/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -146,6 +149,30 @@
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });

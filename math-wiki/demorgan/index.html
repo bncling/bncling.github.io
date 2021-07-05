@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title> - Ben&#39;s Math Site</title>
+    <title>DeMorgan&#39;s Laws - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="DeMorgan&rsquo;s Laws DeMorgan&rsquo;s Laws relate complements of unions and intersections.
-Statement Let $X$ be a set and let ${A_\alpha}_{\alpha \in \lambda}$ be a collection of subsets of $X$. Then $$X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)$$ and $$X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).$$
-Proof for a finite collection The following is a proof of a less general version of DeMorgan&rsquo;s Laws using a finite collection of sets instead of the collection ${A_\alpha}_{\alpha \in \lambda}$.">
+    <meta name="description" content="DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -91,17 +90,18 @@ Proof for a finite collection The following is a proof of a less general version
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">DeMorgan&#39;s Laws</h1>
     <div class="post-meta">July 4, 2021</div>
   </header>
-  <div class="post-content"><h1 id="demorgans-laws">DeMorgan&rsquo;s Laws</h1>
-<p>DeMorgan&rsquo;s Laws relate complements of unions and intersections.</p>
-<h3 id="statement">Statement</h3>
-<p>Let $X$ be a set and let ${A_\alpha}_{\alpha \in \lambda}$ be a collection of subsets of $X$. Then $$X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)$$ and $$X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).$$</p>
-<h3 id="proof-for-a-finite-collection">Proof for a finite collection</h3>
-<p>The following is a proof of a less general version of DeMorgan&rsquo;s Laws using a finite collection of sets instead of the collection ${A_\alpha}_{\alpha \in \lambda}$. I wrote the proof as part of my summer 2021 <a href="https://bncling.github.io/math-wiki/top_selfstudy/">topology self-study</a>.</p>
-<p>#miscmath</p>
+  <div class="post-content"><p>DeMorgan’s Laws relate complements of unions and intersections.</p>
+<h2 id="statement">Statement</h2>
+<p>Let <span class="math inline">\(X\)</span> be a set and let <span class="math inline">\(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\)</span> be a collection of subsets of <span class="math inline">\(X\)</span>. Then <span class="math display">\[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\]</span> and <span class="math display">\[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]</span></p>
 </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/miscmath">miscmath</a></li>
+    </ul>
+  </footer>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
@@ -117,6 +117,30 @@ Proof for a finite collection The following is a proof of a less general version
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });
@@ -149,6 +173,30 @@ Proof for a finite collection The following is a proof of a less general version
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });

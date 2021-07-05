@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title> - Ben&#39;s Math Site</title>
+    <title>Intermediate Value Theorem (IVT) - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="Intermediate Value Theorem (IVT) Theorem statement Let $f: [a,b] \to \mathbb{R}$ be continuous and let $L \in \mathbb{R}$ be a number strictly between $f(a)$ and $f(b)$. Then there exists a $c \in (a,b)$ such that $f(c) = L$.
-Lemma Let $a, L \in \mathbb{R}$ and let $f$ be a function that is continuous at $a$ with $f(a) &lt; L$ ($f(a) &gt; L$). Then there exists a $\delta &gt; 0$ such that $) &lt; L$ ($f(x) &gt; L$).">
+    <meta name="description" content="Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
+Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &lt; L\) (\(f(a) &gt; L\)). Then there exists a \(\delta &gt; 0\) such that \() &lt; L\) (\(f(x) &gt; L\)).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -90,19 +90,22 @@ Lemma Let $a, L \in \mathbb{R}$ and let $f$ be a function that is continuous at 
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title"></h1>
-    <div class="post-meta">July 4, 2021</div>
+    <h1 class="post-title">Intermediate Value Theorem (IVT)</h1>
+    <div class="post-meta">July 5, 2021</div>
   </header>
-  <div class="post-content"><h1 id="intermediate-value-theorem-ivt">Intermediate Value Theorem (IVT)</h1>
-<h3 id="theorem-statement">Theorem statement</h3>
-<p>Let $f: [a,b] \to \mathbb{R}$ be <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> and let $L \in \mathbb{R}$ be a number strictly between $f(a)$ and $f(b)$. Then there exists a $c \in (a,b)$ such that $f(c) = L$.</p>
-<h5 id="lemma">Lemma</h5>
-<p>Let $a, L \in \mathbb{R}$ and let $f$ be a <a href="https://bncling.github.io/math-wiki/function/">function</a> that is continuous at $a$ with $f(a) &lt; L$ ($f(a) &gt; L$). Then there exists a $\delta &gt; 0$ such that $) &lt; L$ ($f(x) &gt; L$).</p>
-<p><em>Proof:</em> Set $\varepsilon = ) - L) - f(a)) - L) &lt; L$.</p>
-<h3 id="proof">Proof</h3>
-<p>Without loss of generality, assume $f(a) &lt; f(b)$. Let $$A = {d \in [a,b] \mid \text{for all } x \in [a,d], f(x) &lt; L}.$$ Then $a \in A$, so the set is nonempty, and $b$ is an upper bound of $[a,b]$ so it is also an upper bound of $A \subset [a,b]$. By the completeness axiom, $A$ has a <a href="https://bncling.github.io/math-wiki/inf_sup/">supremum</a>, say $c = \sup A$. By the lemma, there is a $\delta_1 &gt; 0$ such that $f(x) &lt; L$ for all $x \in [a, a + \delta_1)$ and a $\delta_2 &gt; 0$ such that $f(x) &gt; L$ for all $x \in (b - \delta_2,b]$. Then $a &lt; c &lt; b$. Suppose for contradiction that $f(c) &lt; L$ so that by the lemma there exists a $0 &lt; \delta_3 &lt; b-c$ such that $f(x) &lt; L$ whenever $) &gt; L$. By the lemme there exists a $0 &lt; \delta_4 &lt; c-a$ such that $f(x) &gt; L$ whenever $)$ so $f(x) &lt; L$, a contradiction. Therefore $f(c) = L$.</p>
-<p>#calculus</p>
+  <div class="post-content"><h2 id="theorem-statement">Theorem statement</h2>
+<p>Let <span class="math inline">\(f: [a,b] \to \mathbb{R}\)</span> be <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> and let <span class="math inline">\(L \in \mathbb{R}\)</span> be a number strictly between <span class="math inline">\(f(a)\)</span> and <span class="math inline">\(f(b)\)</span>. Then there exists a <span class="math inline">\(c \in (a,b)\)</span> such that <span class="math inline">\(f(c) = L\)</span>.</p>
+<h4 id="lemma">Lemma</h4>
+<p>Let <span class="math inline">\(a, L \in \mathbb{R}\)</span> and let <span class="math inline">\(f\)</span> be a <a href="https://bncling.github.io/math-wiki/function/">function</a> that is continuous at <span class="math inline">\(a\)</span> with <span class="math inline">\(f(a) &lt; L\)</span> (<span class="math inline">\(f(a) &gt; L\)</span>). Then there exists a <span class="math inline">\(\delta &gt; 0\)</span> such that <span class="math inline">\() &lt; L\)</span> (<span class="math inline">\(f(x) &gt; L\)</span>).</p>
+<p><em>Proof:</em> Set <span class="math inline">\(\varepsilon = ) - L) - f(a)) - L) &lt; L\)</span>.</p>
+<h2 id="proof">Proof</h2>
+<p>Without loss of generality, assume <span class="math inline">\(f(a) &lt; f(b)\)</span>. Let <span class="math display">\[A = \{d \in [a,b] \mid \text{for all } x \in [a,d], f(x) &lt; L\}.\]</span> Then <span class="math inline">\(a \in A\)</span>, so the set is nonempty, and <span class="math inline">\(b\)</span> is an upper bound of <span class="math inline">\([a,b]\)</span> so it is also an upper bound of <span class="math inline">\(A \subset [a,b]\)</span>. By the completeness axiom, <span class="math inline">\(A\)</span> has a <a href="https://bncling.github.io/math-wiki/inf_sup/">supremum</a>, say <span class="math inline">\(c = \sup A\)</span>. By the lemma, there is a <span class="math inline">\(\delta_1 &gt; 0\)</span> such that <span class="math inline">\(f(x) &lt; L\)</span> for all <span class="math inline">\(x \in [a, a + \delta_1)\)</span> and a <span class="math inline">\(\delta_2 &gt; 0\)</span> such that <span class="math inline">\(f(x) &gt; L\)</span> for all <span class="math inline">\(x \in (b - \delta_2,b]\)</span>. Then <span class="math inline">\(a &lt; c &lt; b\)</span>. Suppose for contradiction that <span class="math inline">\(f(c) &lt; L\)</span> so that by the lemma there exists a <span class="math inline">\(0 &lt; \delta_3 &lt; b-c\)</span> such that <span class="math inline">\(f(x) &lt; L\)</span> whenever <span class="math inline">\() &gt; L\)</span>. By the lemme there exists a <span class="math inline">\(0 &lt; \delta_4 &lt; c-a\)</span> such that <span class="math inline">\(f(x) &gt; L\)</span> whenever <span class="math inline">\()\)</span> so <span class="math inline">\(f(x) &lt; L\)</span>, a contradiction. Therefore <span class="math inline">\(f(c) = L\)</span>.</p>
 </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/calculus">calculus</a></li>
+    </ul>
+  </footer>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
@@ -118,6 +121,30 @@ Lemma Let $a, L \in \mathbb{R}$ and let $f$ be a function that is continuous at 
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });
@@ -150,6 +177,30 @@ Lemma Let $a, L \in \mathbb{R}$ and let $f$ be a function that is continuous at 
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });

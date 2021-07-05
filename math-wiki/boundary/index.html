@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title> - Ben&#39;s Math Site</title>
+    <title>Boundaries of sets - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="Boundaries of sets Definition For a set $A$ in a topological space $(X, \mathcal{T})$, the boundary of $A$, denoted $\partial A$ or Bd$(A)$, is the intersection of the closures of $A$ and its complement, that is, the set $\partial A = \overline{X} \cap \overline{X - A}$.
-Properties Theorem 2.28: If $A$ is a set in a topological space $(X, \mathcal{T})$, the interior of $A$, the boundary of $A$, and the interior of the complement of $A$ are disjoint sets whose union is $X$.">
+    <meta name="description" content="Definition For a set \(A\) in a topological space \((X, \mathcal{T})\), the boundary of \(A\), denoted \(\partial A\) or Bd\((A)\), is the intersection of the closures of \(A\) and its complement, that is, the set \(\partial A = \overline{X} \cap \overline{X - A}\).
+Properties Theorem 2.28: If \(A\) is a set in a topological space \((X, \mathcal{T})\), the interior of \(A\), the boundary of \(A\), and the interior of the complement of \(A\) are disjoint sets whose union is \(X\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -90,16 +90,19 @@ Properties Theorem 2.28: If $A$ is a set in a topological space $(X, \mathcal{T}
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">Boundaries of sets</h1>
     <div class="post-meta">July 4, 2021</div>
   </header>
-  <div class="post-content"><h1 id="boundaries-of-sets">Boundaries of sets</h1>
-<h3 id="definition">Definition</h3>
-<p>For a set $A$ in a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> $(X, \mathcal{T})$, the <strong>boundary</strong> of $A$, denoted $\partial A$ or Bd$(A)$, is the intersection of the <a href="https://bncling.github.io/math-wiki/closure/">closures</a> of $A$ and its complement, that is, the set $\partial A = \overline{X} \cap \overline{X - A}$.</p>
-<h3 id="properties">Properties</h3>
-<p>Theorem 2.28: If $A$ is a set in a topological space $(X, \mathcal{T})$, the <a href="https://bncling.github.io/math-wiki/interior/">interior</a> of $A$, the boundary of $A$, and the interior of the complement of $A$ are disjoint sets whose union is $X$.</p>
-<p>#topology</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>For a set <span class="math inline">\(A\)</span> in a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> <span class="math inline">\((X, \mathcal{T})\)</span>, the <strong>boundary</strong> of <span class="math inline">\(A\)</span>, denoted <span class="math inline">\(\partial A\)</span> or Bd<span class="math inline">\((A)\)</span>, is the intersection of the <a href="https://bncling.github.io/math-wiki/closure/">closures</a> of <span class="math inline">\(A\)</span> and its complement, that is, the set <span class="math inline">\(\partial A = \overline{X} \cap \overline{X - A}\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>Theorem 2.28: If <span class="math inline">\(A\)</span> is a set in a topological space <span class="math inline">\((X, \mathcal{T})\)</span>, the <a href="https://bncling.github.io/math-wiki/interior/">interior</a> of <span class="math inline">\(A\)</span>, the boundary of <span class="math inline">\(A\)</span>, and the interior of the complement of <span class="math inline">\(A\)</span> are disjoint sets whose union is <span class="math inline">\(X\)</span>.</p>
 </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/topology">topology</a></li>
+    </ul>
+  </footer>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
@@ -115,6 +118,30 @@ Properties Theorem 2.28: If $A$ is a set in a topological space $(X, \mathcal{T}
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });
@@ -147,6 +174,30 @@ Properties Theorem 2.28: If $A$ is a set in a topological space $(X, \mathcal{T}
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });

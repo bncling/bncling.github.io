@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calculus on Ben&#39;s Math Site</title>
+    <link>https://bncling.github.io/tags/calculus/</link>
+    <description>Recent content in calculus on Ben&#39;s Math Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuity</title>
+      <link>https://bncling.github.io/math-wiki/continuity/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
+      <description>Continuous functions can be drawn without picking up your pencil.
+The \(\varepsilon\)-\(\delta\) definition, limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous if and only if it is continuous at the point \(c\) for all \(c \in \mathcal{D}\).</description>
+    </item>
+    
+    <item>
+      <title>Dirichlet&#39;s function</title>
+      <link>https://bncling.github.io/math-wiki/dirichlet_function/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dirichlet_function/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Discontinuities</title>
+      <link>https://bncling.github.io/math-wiki/discontinuities/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/discontinuities/</guid>
+      <description>Definition A function \(f: \mathcal{D} \to \mathbb{R}\) is discontinuous at a point \(c \in \mathcal{D}\) if and only if \(f\) is not continuous at \(c\). That is, if the limit \(\lim \limits_{x \to c} f(x)\) does not exist or is not equal to \(f(c)\).
+Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and \(c \in \mathcal{D}\). Then - \(f\) has an infinite discontinuity at \(c\) if and only if \(\lim \limits_{x \to c} f(x) = \pm \infty\).</description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>https://bncling.github.io/math-wiki/function/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/function/</guid>
+      <description>Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\).
+We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
+Notation If \((a,b) \in f\), we write \(f(a)=b\).
+Examples  Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x^k.</description>
+    </item>
+    
+    <item>
+      <title>Infimum and supremum</title>
+      <link>https://bncling.github.io/math-wiki/inf_sup/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/inf_sup/</guid>
+      <description>Definitions Let \(A \subset \mathbb{R}\).
+ We say \(c \in \mathbb{R}\) is an upper bound of \(A\) if and only if \(c \geq a\) for all \(a \in A\). We say \(c \in \mathbb{R}\) is a lower bound of \(A\) if and only if \(c \leq a\) for all \(a \in A\). We say \(c \in \mathbb{R}\) is the greatest/largest/maximum element of \(A\) if and only if \(c\) is an upper bound of \(A\) and \(c \in A\).</description>
+    </item>
+    
+    <item>
+      <title>Intermediate Value Theorem (IVT)</title>
+      <link>https://bncling.github.io/math-wiki/ivt/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/ivt/</guid>
+      <description>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
+Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &amp;lt; L\) (\(f(a) &amp;gt; L\)). Then there exists a \(\delta &amp;gt; 0\) such that \() &amp;lt; L\) (\(f(x) &amp;gt; L\)).</description>
+    </item>
+    
+    <item>
+      <title>Limits</title>
+      <link>https://bncling.github.io/math-wiki/limits/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/limits/</guid>
+      <description>Intuitively, “\(\lim \limits_{x \to a} f(x) = L\)” means that the outputs of a function \(f\) approaches the value \(L\) as the inputs approach the value \(a\).
+The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \mathbb{R} \to \mathbb{R}\) be a function and let \(a,L \in \mathbb{R}\). - \(\lim \limits_{x \to a} f(x) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; ) - L) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists an \(N \in \mathbb{N}\) such that \(x &amp;gt; N\) implies that \() - L) = \infty\) if and only if for every \(N \in N\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; ) &amp;gt; N\).</description>
+    </item>
+    
+    <item>
+      <title>Natural numbers</title>
+      <link>https://bncling.github.io/math-wiki/natural_numbers/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/natural_numbers/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Rational numbers</title>
+      <link>https://bncling.github.io/math-wiki/rational_numbers/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/rational_numbers/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Real numbers</title>
+      <link>https://bncling.github.io/math-wiki/real_numbers/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/real_numbers/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Sequences</title>
+      <link>https://bncling.github.io/math-wiki/sequence/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/sequence/</guid>
+      <description>An infinite list of things.
+Definitions For real numbers, a sequence is a function \(f: \mathbb{N} \to \mathbb{R}\), where the image of the number \(n\) under \(f\) is typically called \(a_n\). The sequence is written by listing its images: \(a_1, a_2, \dots\) or for short, \(\{a_n\}\).
+In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \mathbb{N} \to X\), where the image of the number \(i\) under \(f\) is typically called \(x_i\).</description>
+    </item>
+    
+    <item>
+      <title>Thomae&#39;s function</title>
+      <link>https://bncling.github.io/math-wiki/thomae/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/thomae/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+  </channel>
+</rss>

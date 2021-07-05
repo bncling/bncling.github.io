@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title> - Ben&#39;s Math Site</title>
+    <title>Indiscrete topology - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="Indiscrete topology The coarsest possible topology on a set $X$.
-Definition Let $X$ be a set. The indiscrete topology is $\mathcal{T} = {\emptyset, X}$. The topological space $(X, {\emptyset, X})$ is called an indiscrete space.
-Properties By definition, the only sets in the indiscrete topology that are open are $X$ and $\emptyset$, and these are also the only closed sets.
-#topology">
+    <meta name="description" content="The coarsest possible topology on a set \(X\).
+Definition Let \(X\) be a set. The indiscrete topology is \(\mathcal{T} = \{\emptyset, X\}\). The topological space \((X, \{\emptyset, X\})\) is called an indiscrete space.
+Properties By definition, the only sets in the indiscrete topology that are open are \(X\) and \(\emptyset\), and these are also the only closed sets.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -92,17 +91,20 @@ Properties By definition, the only sets in the indiscrete topology that are open
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title"></h1>
-    <div class="post-meta">July 4, 2021</div>
+    <h1 class="post-title">Indiscrete topology</h1>
+    <div class="post-meta">July 5, 2021</div>
   </header>
-  <div class="post-content"><h1 id="indiscrete-topology">Indiscrete topology</h1>
-<p>The <a href="https://bncling.github.io/math-wiki/fine_coarse/">coarsest</a> possible <a href="https://bncling.github.io/math-wiki/topology_def/">topology</a> on a set $X$.</p>
-<h3 id="definition">Definition</h3>
-<p>Let $X$ be a set. The <strong>indiscrete topology</strong> is $\mathcal{T} = {\emptyset, X}$. The topological space $(X, {\emptyset, X})$ is called an <strong>indiscrete space</strong>.</p>
-<h3 id="properties">Properties</h3>
-<p>By definition, the only sets in the indiscrete topology that are <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> are $X$ and $\emptyset$, and these are also the only <a href="https://bncling.github.io/math-wiki/closed_sets/">closed sets</a>.</p>
-<p>#topology</p>
+  <div class="post-content"><p>The <a href="https://bncling.github.io/math-wiki/fine_coarse/">coarsest</a> possible <a href="https://bncling.github.io/math-wiki/topology_def/">topology</a> on a set <span class="math inline">\(X\)</span>.</p>
+<h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(X\)</span> be a set. The <strong>indiscrete topology</strong> is <span class="math inline">\(\mathcal{T} = \{\emptyset, X\}\)</span>. The topological space <span class="math inline">\((X, \{\emptyset, X\})\)</span> is called an <strong>indiscrete space</strong>.</p>
+<h2 id="properties">Properties</h2>
+<p>By definition, the only sets in the indiscrete topology that are <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> are <span class="math inline">\(X\)</span> and <span class="math inline">\(\emptyset\)</span>, and these are also the only <a href="https://bncling.github.io/math-wiki/closed_sets/">closed sets</a>.</p>
 </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/topology">topology</a></li>
+    </ul>
+  </footer>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
@@ -118,6 +120,30 @@ Properties By definition, the only sets in the indiscrete topology that are open
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });
@@ -150,6 +176,30 @@ Properties By definition, the only sets in the indiscrete topology that are open
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });

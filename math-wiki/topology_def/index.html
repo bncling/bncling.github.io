@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title> - Ben&#39;s Math Site</title>
+    <title>What does it mean to be a topology? - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="What does it mean to be a topology? A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being &ldquo;close&rdquo; in a way that isn&rsquo;t dependent on notions of distance. If $X$ is a set and $\mathcal{T}$ is a topology on $X$, then we call $(X, \mathcal{T})$ a topological space.
-Definition Let $X$ be a set.">
+    <meta name="description" content="A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
+Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -90,38 +90,41 @@ Definition Let $X$ be a set.">
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title"></h1>
-    <div class="post-meta">July 4, 2021</div>
+    <h1 class="post-title">What does it mean to be a topology?</h1>
+    <div class="post-meta">July 5, 2021</div>
   </header>
-  <div class="post-content"><h1 id="what-does-it-mean-to-be-a-topology">What does it mean to be a topology?</h1>
-<p>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of <a href="https://bncling.github.io/math-wiki/open_sets/">open sets</a> can be thought of as being &ldquo;close&rdquo; in a way that isn&rsquo;t dependent on notions of distance. If $X$ is a set and $\mathcal{T}$ is a topology on $X$, then we call $(X, \mathcal{T})$ a <strong>topological space</strong>.</p>
-<h3 id="definition">Definition</h3>
-<p>Let $X$ be a set. Then $\mathcal{T}$ is a <strong>topology</strong> on $X$ if and only if $\mathcal{T}$ is a collection of subsets of $X$ such that:</p>
-<h5 id="1-emptyset-in-mathcalt">1. $\emptyset \in \mathcal{T}$</h5>
+  <div class="post-content"><p>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of <a href="https://bncling.github.io/math-wiki/open_sets/">open sets</a> can be thought of as being “close” in a way that isn’t dependent on notions of distance. If <span class="math inline">\(X\)</span> is a set and <span class="math inline">\(\mathcal{T}\)</span> is a topology on <span class="math inline">\(X\)</span>, then we call <span class="math inline">\((X, \mathcal{T})\)</span> a <strong>topological space</strong>.</p>
+<h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(X\)</span> be a set. Then <span class="math inline">\(\mathcal{T}\)</span> is a <strong>topology</strong> on <span class="math inline">\(X\)</span> if and only if <span class="math inline">\(\mathcal{T}\)</span> is a collection of subsets of <span class="math inline">\(X\)</span> such that:</p>
+<h4 id="emptyset-in-mathcalt">1. <span class="math inline">\(\emptyset \in \mathcal{T}\)</span></h4>
 <p>The empty set is always an element of the topology (that is, the empty set is open).</p>
-<h5 id="2-x-in-mathcalt">2. $X \in \mathcal{T}$</h5>
-<p>The set $X$, the largest subset, is always an element of the topology (that is, the set $X$ is always open).</p>
-<h5 id="3-if-uv-in-mathcalt-then-u-cap-v-in-mathcalt">3. if $U,V \in \mathcal{T}$, then $U \cap V \in \mathcal{T}$</h5>
+<h4 id="x-in-mathcalt">2. <span class="math inline">\(X \in \mathcal{T}\)</span></h4>
+<p>The set <span class="math inline">\(X\)</span>, the largest subset, is always an element of the topology (that is, the set <span class="math inline">\(X\)</span> is always open).</p>
+<h4 id="if-uv-in-mathcalt-then-u-cap-v-in-mathcalt">3. if <span class="math inline">\(U,V \in \mathcal{T}\)</span>, then <span class="math inline">\(U \cap V \in \mathcal{T}\)</span></h4>
 <p>The intersection of two open sets (two elements of the topology) is open. This can be extended to show that the finite intersection of open sets is open, but the infinite intersection of open sets is not necessarily open.</p>
-<h5 id="4-if-u_alpha_alpha-in-lambda-is-a-collection-of-elements-of-mathcalt-then-bigcup_alpha-in-lambda-u_alpha-in-mathcalt">4. if ${U_\alpha}_{\alpha \in \lambda}$ is a collection of elements of $\mathcal{T}$, then $\bigcup_{\alpha \in \lambda} U_\alpha \in \mathcal{T}$.</h5>
+<h4 id="if-u_alpha_alpha-in-lambda-is-a-collection-of-elements-of-mathcalt-then-bigcup_alpha-in-lambda-u_alpha-in-mathcalt.">4. if <span class="math inline">\(\{U_\alpha\}_{\alpha \in \lambda}\)</span> is a collection of elements of <span class="math inline">\(\mathcal{T}\)</span>, then <span class="math inline">\(\bigcup_{\alpha \in \lambda} U_\alpha \in \mathcal{T}\)</span>.</h4>
 <p>The (possibly infinite) union of open sets is always open. Even an uncountably infinite union of open sets is open.</p>
-<h3 id="properties">Properties</h3>
-<p>If $X$ is a set, the subsets $X$ and $\emptyset$ are both <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> and <a href="https://bncling.github.io/math-wiki/closed_sets/">closed</a> under any topology $\mathcal{T}$.</p>
-<h3 id="examples">Examples</h3>
-<p>Given a set $X$, the following are all topologies on $X$:</p>
+<h2 id="properties">Properties</h2>
+<p>If <span class="math inline">\(X\)</span> is a set, the subsets <span class="math inline">\(X\)</span> and <span class="math inline">\(\emptyset\)</span> are both <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> and <a href="https://bncling.github.io/math-wiki/closed_sets/">closed</a> under any topology <span class="math inline">\(\mathcal{T}\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>Given a set <span class="math inline">\(X\)</span>, the following are all topologies on <span class="math inline">\(X\)</span>:</p>
 <ul>
-<li>The <a href="https://bncling.github.io/math-wiki/discrete_topology/">discrete topology</a> contains <em>all</em> subsets of $X$.</li>
-<li>The <a href="https://bncling.github.io/math-wiki/indiscrete_topology/">indiscrete topology</a> contains <em>only</em> $\emptyset$ and $X$.</li>
-<li>The <a href="https://bncling.github.io/math-wiki/finite_complement_topology/">finite complement topology</a> contains all subsets of $X$ that have a finite complement.</li>
-<li>The <a href="https://bncling.github.io/math-wiki/countable_complement_topology/">countable complement topology</a> contains all subsets of $X$ that have a countable complement.</li>
+<li>The <a href="https://bncling.github.io/math-wiki/discrete_topology/">discrete topology</a> contains <em>all</em> subsets of <span class="math inline">\(X\)</span>.</li>
+<li>The <a href="https://bncling.github.io/math-wiki/indiscrete_topology/">indiscrete topology</a> contains <em>only</em> <span class="math inline">\(\emptyset\)</span> and <span class="math inline">\(X\)</span>.</li>
+<li>The <a href="https://bncling.github.io/math-wiki/finite_complement_topology/">finite complement topology</a> contains all subsets of <span class="math inline">\(X\)</span> that have a finite complement.</li>
+<li>The <a href="https://bncling.github.io/math-wiki/countable_complement_topology/">countable complement topology</a> contains all subsets of <span class="math inline">\(X\)</span> that have a countable complement.</li>
 </ul>
-<p>Taking $X = \mathbb{R}$, the following are topological spaces:</p>
+<p>Taking <span class="math inline">\(X = \mathbb{R}\)</span>, the following are topological spaces:</p>
 <ul>
-<li>In the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a> on $\mathbb{R}$, a set $U$ is open if and only if for each point $p \in U$, there exists an $\varepsilon &gt; 0$ such that $$(p - \varepsilon, p + \varepsilon) \subset U.$$</li>
-<li>The <a href="https://bncling.github.io/math-wiki/lower_limit_topology/">lower limit topology</a> on $\mathbb{R}$, also called the Sorgenfrey Line, is generated by the <a href="https://bncling.github.io/math-wiki/basis/">basis</a> of sets of the form $[a, b) = {x \in \mathbb{R} \mid a \leq x &lt; b}$ for $a, b \in \mathbb{R}$.</li>
+<li>In the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a> on <span class="math inline">\(\mathbb{R}\)</span>, a set <span class="math inline">\(U\)</span> is open if and only if for each point <span class="math inline">\(p \in U\)</span>, there exists an <span class="math inline">\(\varepsilon &gt; 0\)</span> such that <span class="math display">\[(p - \varepsilon, p + \varepsilon) \subset U.\]</span></li>
+<li>The <a href="https://bncling.github.io/math-wiki/lower_limit_topology/">lower limit topology</a> on <span class="math inline">\(\mathbb{R}\)</span>, also called the Sorgenfrey Line, is generated by the <a href="https://bncling.github.io/math-wiki/basis/">basis</a> of sets of the form <span class="math inline">\([a, b) = \{x \in \mathbb{R} \mid a \leq x &lt; b\}\)</span> for <span class="math inline">\(a, b \in \mathbb{R}\)</span>.</li>
 </ul>
-<p>#topology</p>
 </div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/topology">topology</a></li>
+    </ul>
+  </footer>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
@@ -137,6 +140,30 @@ Definition Let $X$ be a set.">
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });
@@ -169,6 +196,30 @@ Definition Let $X$ be a set.">
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
           
           throwOnError : false
         });
