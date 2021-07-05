@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Link File - Ben&#39;s Math Site</title>
+    <title> - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="CLICK ME!">
+    <meta name="description" content="Basis for a topological space Similar to the ideas behind bases in other areas of math.
+Definition Let $(X, \mathcal{T})$ be a topological space and let $\mathcal{B} \subset \mathcal{T}$. $\mathcal{B}$ is a basis for the topology $\mathcal{T}$ if and only if every open set is the union of elements of $\mathcal{B}$.
+If $\mathcal{B}$ is a basis, we call $B \in \mathcal{B}$ a basic open set.
+Properties Theorem 3.1: A set $\mathcal{B}$ is the basis for a given topology $\mathcal{T}$ on a set $X$ if and only if">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -89,10 +92,31 @@
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Link File</h1>
+    <h1 class="post-title"></h1>
     <div class="post-meta">July 4, 2021</div>
   </header>
-  <div class="post-content"><p><a href="https://bncling.github.io/posts/my-first-post/">CLICK ME!</a></p>
+  <div class="post-content"><h1 id="basis-for-a-topological-space">Basis for a topological space</h1>
+<p>Similar to the ideas behind bases in other areas of math.</p>
+<h3 id="definition">Definition</h3>
+<p>Let $(X, \mathcal{T})$ be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> and let $\mathcal{B} \subset \mathcal{T}$. $\mathcal{B}$ is a <strong>basis</strong> for the topology $\mathcal{T}$ if and only if every open set is the union of elements of $\mathcal{B}$.</p>
+<p>If $\mathcal{B}$ is a basis, we call $B \in \mathcal{B}$ a <strong>basic open set</strong>.</p>
+<h3 id="properties">Properties</h3>
+<p>Theorem 3.1: A set $\mathcal{B}$ is the basis for a <em>given</em> topology $\mathcal{T}$ on a set $X$ if and only if</p>
+<ol>
+<li>$\mathcal{B} \subset \mathcal{T}$, and</li>
+<li>for each set $U \in \mathcal{T}$ and point $p \in U$, there exists a $V \in \mathcal{B}$ such that $p \in V \subset U$.</li>
+</ol>
+<p>Theorem 3.3: A set $\mathcal{B}$ is the basis for <em>some</em> topology on a set $X$ if and only if</p>
+<ol>
+<li>each point of $X$ is in some element of $\mathcal{B}$, and</li>
+<li>if $U$ and $V$ are sets in $\mathcal{B}$ and $p \in U \cap V$, then there is a set $W \in \mathcal{B}$ such that $p \in W \subset U \cap V$.</li>
+</ol>
+<p>A single topology on a set can have multiple different bases.</p>
+<h3 id="examples">Examples</h3>
+<p>$\mathcal{B} = {(a,b) \mid a,b \in \mathbb{R}}$ and $\mathcal{B} = {(a,b) \mid a,b \in \mathbb{Q}}$ are both bases for the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a> on $\mathbb{R}$.</p>
+<p>The collection of sets of the form $[a, b) = {x \in \mathbb{R} \mid a \leq x &lt; b}$ for $a, b \in \mathbb{R}$ is a basis for the <a href="https://bncling.github.io/math-wiki/lower_limit_topology/">lower limit topology</a> on $\mathbb{R}$.</p>
+<p>Let $\mathbb{R}_{+00}$ denote the set of all positive real numbers together with the numbers $0'$ and $0''$. Then the collection $\mathcal{B}$ containing sets of the form $(a,b)$, $(0,b) \cup {0'}$, and $(0,b) \cup {0''}$ where $a,b \in \mathbb{R}$ is a basis for the <a href="https://bncling.github.io/math-wiki/double_headed_snake/">Double Headed Snake</a> topology.</p>
+<p>#topology</p>
 </div>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">

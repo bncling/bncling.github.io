@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Link File - Ben&#39;s Math Site</title>
+    <title> - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="CLICK ME!">
+    <meta name="description" content="Discontinuities Definition A function $f: \mathcal{D} \to \mathbb{R}$ is discontinuous at a point $c \in \mathcal{D}$ if and only if $f$ is not continuous at $c$. That is, if the limit $\lim \limits_{x \to c} f(x)$ does not exist or is not equal to $f(c)$.
+Types of discontinuities Let $f: \mathcal{D} \to \mathbb{R}$ be a function and $c \in \mathcal{D}$. Then
+ $f$ has an infinite discontinuity at $c$ if and only if $\lim \limits_{x \to c} f(x) = \pm \infty$.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -89,10 +91,28 @@
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Link File</h1>
+    <h1 class="post-title"></h1>
     <div class="post-meta">July 4, 2021</div>
   </header>
-  <div class="post-content"><p><a href="https://bncling.github.io/posts/my-first-post/">CLICK ME!</a></p>
+  <div class="post-content"><h1 id="discontinuities">Discontinuities</h1>
+<h3 id="definition">Definition</h3>
+<p>A <a href="https://bncling.github.io/math-wiki/function/">function</a> $f: \mathcal{D} \to \mathbb{R}$ is discontinuous at a point $c \in \mathcal{D}$ if and only if $f$ is not <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> at $c$. That is, if the <a href="https://bncling.github.io/math-wiki/limits/">limit</a> $\lim \limits_{x \to c} f(x)$ does not exist or is not equal to $f(c)$.</p>
+<h3 id="types-of-discontinuities">Types of discontinuities</h3>
+<p>Let $f: \mathcal{D} \to \mathbb{R}$ be a function and $c \in \mathcal{D}$. Then</p>
+<ul>
+<li>$f$ has an <strong>infinite discontinuity</strong> at $c$ if and only if $\lim \limits_{x \to c} f(x) = \pm \infty$.</li>
+<li>$f$ has a <strong>jump discontinuity</strong> at $c$ if and only if $\lim \limits_{x \to c^-} f(x)$ and $\lim \limits_{x \to c^+} f(x)$ both exist but $\lim \limits_{x \to c^-} f(x) \neq \lim \limits_{x \to c^+} f(x)$.</li>
+<li>$f$ has a <strong>removable discontinuity</strong> or a <strong>hole</strong> at $c$ if and only if $\lim \limits_{x \to c} f(x)$ exists but $\lim \limits_{x \to c} f(x) \neq f(c)$.</li>
+</ul>
+<p>An <strong>essential discontinuity</strong> is any discontinuity that is not removable.</p>
+<h3 id="examples">Examples</h3>
+<ul>
+<li>$f(x) = \begin{cases} 1/x^2 &amp; x \neq 0 \ 0 &amp; x = 0 \end{cases} ,,$ has an infinite discontinuity at $x = 0$.</li>
+<li>$f(x) = \begin{cases} 1 &amp; x \neq 0 \ 0 &amp; x = 0 \end{cases} ,,$ has a removable discontinuity at $x=0$.</li>
+<li><a href="https://bncling.github.io/math-wiki/dirichlet_function/">Dirichlet&rsquo;s function</a> has an essential discontinuity at every point but they are not infinite discontinuities or jump discontinuities.</li>
+<li><a href="https://bncling.github.io/math-wiki/thomae/">Thomae&rsquo;s function</a> has a removable discontinuity at every rational input.</li>
+</ul>
+<p>#calculus</p>
 </div>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">

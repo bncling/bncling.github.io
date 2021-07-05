@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Math Wikis - Ben&#39;s Math Site</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://bncling.github.io/style.css" rel="stylesheet">
+    <link href="https://bncling.github.io/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="https://bncling.github.io/apple-touch-icon.png">
+    <link rel="icon" href="https://bncling.github.io/favicon.ico">
+    <meta name="generator" content="Hugo 0.84.4" />
+    
+    <link rel="alternate" type="application/rss+xml" href="https://bncling.github.io/math-wiki/index.xml" title="Ben's Math Site" />
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://bncling.github.io/">Ben&#39;s Math Site</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/math-wiki/">Math Wikis</a>
+          </li>
+          <li>
+            <a href="/posts/">Posts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+<header class="page-header"><h1>Math Wikis</h1></header>
+
+
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>Basis for a topological space Similar to the ideas behind bases in other areas of math.
+Definition Let $(X, \mathcal{T})$ be a topological space and let $\mathcal{B} \subset \mathcal{T}$. $\mathcal{B}$ is a basis for the topology $\mathcal{T}$ if and only if every open set is the union of elements of $\mathcal{B}$.
+If $\mathcal{B}$ is a basis, we call $B \in \mathcal{B}$ a basic open set.
+Properties Theorem 3.1: A set $\mathcal{B}$ is the basis for a given topology $\mathcal{T}$ on a set $X$ if and only if...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/basis/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>Boundaries of sets Definition For a set $A$ in a topological space $(X, \mathcal{T})$, the boundary of $A$, denoted $\partial A$ or Bd$(A)$, is the intersection of the closures of $A$ and its complement, that is, the set $\partial A = \overline{X} \cap \overline{X - A}$.
+Properties Theorem 2.28: If $A$ is a set in a topological space $(X, \mathcal{T})$, the interior of $A$, the boundary of $A$, and the interior of the complement of $A$ are disjoint sets whose union is $X$....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/boundary/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>Closed sets Definition In a topological space $(X, \mathcal{T})$, a closed set $A$ is a subset of $X$ that is equal to its closure ($\overline{A} = A$). That is, $A$ contains all its limit points.
+Properties of closed sets  A set $A$ is closed if and only if its complement $X - A$ is open. This is Theorem 2.14 from my self-study work. If ${A_\alpha}_{\alpha \in \lambda}$ is a collection of closed sets, then $\bigcap_{\alpha \in \lambda} A_\alpha$ is closed, but $\bigcup_{\alpha \in \lambda} A_\alpha$ need not be closed....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/closed_sets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>Closures Taking a set and adding a few points to make it closed.
+Definition Let $(X, \mathcal{T})$ be a topological space with $A \subset X$. The closure of $A$ in $X$, denoted $\overline{A}$, Cl$(A)$, or Cl$_X(A)$ is the set $A$ together with all its limit points in $X$.
+Properties Theorem 2.13: The closure of a set is closed, that is, for a set $A$ in a topological space $(X, \mathcal{T})$, we have that $\overline{\overline{A}} = \overline{A}$....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/closure/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>Continuity Continuous functions can be drawn without picking up your pencil.
+The $\varepsilon$-$\delta$ definition, limit related definition A function $f: \mathcal{D} \to \mathbb{R}$ is continuous at a point $c \in \mathcal{D}$ if and only if the limit of $f$ at $c$ exists and $\lim \limits_{x \to c} f(x) = f(c)$. A function $f: \mathcal{D} \to \mathbb{R}$ is **continuous** if and only if it is continuous at the point $c$ for all $c \in \mathcal{D}$....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/continuity/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>Countable complement topology Basically what the name makes it sound like. It’s similar in definition to the finite complement topology.
+Definition Let $X$ be a set. A set $U$ is in the countable complement topology if and only if $X - U$ is countable or if $U = \emptyset$. This topology is also called the cocountable topology.
+Properties Countable sets are closed in this topology.
+#topology...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/countable_complement_topology/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>DeMorgan’s Laws DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let $X$ be a set and let ${A_\alpha}_{\alpha \in \lambda}$ be a collection of subsets of $X$. Then $$X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)$$ and $$X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).$$
+Proof for a finite collection The following is a proof of a less general version of DeMorgan’s Laws using a finite collection of sets instead of the collection ${A_\alpha}_{\alpha \in \lambda}$....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/demorgan/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>Discontinuities Definition A function $f: \mathcal{D} \to \mathbb{R}$ is discontinuous at a point $c \in \mathcal{D}$ if and only if $f$ is not continuous at $c$. That is, if the limit $\lim \limits_{x \to c} f(x)$ does not exist or is not equal to $f(c)$.
+Types of discontinuities Let $f: \mathcal{D} \to \mathbb{R}$ be a function and $c \in \mathcal{D}$. Then
+ $f$ has an infinite discontinuity at $c$ if and only if $\lim \limits_{x \to c} f(x) = \pm \infty$....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/discontinuities/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>The discrete topology The discrete topology is the finest topology on a given set. A set together with the discrete topology is called a discrete space.
+Definition Let $X$ be a set. Then the discrete topology on $X$ contains all subsets of $X$, that is, the topology is $\mathcal{T} = 2^X$, the power set of $X$.
+Properties If $(X, \mathcal{T})$ is a topological space, then it is a discrete space if and only if all singletons are open....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/discrete_topology/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2></h2>
+  </header>
+  <section class="entry-content">
+   <p>The Double Headed Snake The body is the positive real line and the two heads are the points $0&#39;$ and $0&#39;&#39;$.
+Definition The Double Headed Snake is the topological space on the set $\mathbb{R}_{&#43;00}$ of all positive real numbers together with the numbers $0&#39;$ and $0&#39;&#39;$ that is generated by the basis $\mathcal{B}$ containing sets of the form $(a,b)$, $(0,b) \cup {0&#39;}$, and $(0,b) \cup {0&#39;&#39;}$ where $a,b \in \mathbb{R}$....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/double_headed_snake/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="/math-wiki/page/2/">Next Page →</a>
+  </nav>
+</footer></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben&#39;s Math Site</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://bncling.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

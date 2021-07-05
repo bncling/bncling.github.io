@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Link File - Ben&#39;s Math Site</title>
+    <title> - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="CLICK ME!">
+    <meta name="description" content="Intermediate Value Theorem (IVT) Theorem statement Let $f: [a,b] \to \mathbb{R}$ be continuous and let $L \in \mathbb{R}$ be a number strictly between $f(a)$ and $f(b)$. Then there exists a $c \in (a,b)$ such that $f(c) = L$.
+Lemma Let $a, L \in \mathbb{R}$ and let $f$ be a function that is continuous at $a$ with $f(a) &lt; L$ ($f(a) &gt; L$). Then there exists a $\delta &gt; 0$ such that $) &lt; L$ ($f(x) &gt; L$).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -89,10 +90,18 @@
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Link File</h1>
+    <h1 class="post-title"></h1>
     <div class="post-meta">July 4, 2021</div>
   </header>
-  <div class="post-content"><p><a href="https://bncling.github.io/posts/my-first-post/">CLICK ME!</a></p>
+  <div class="post-content"><h1 id="intermediate-value-theorem-ivt">Intermediate Value Theorem (IVT)</h1>
+<h3 id="theorem-statement">Theorem statement</h3>
+<p>Let $f: [a,b] \to \mathbb{R}$ be <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> and let $L \in \mathbb{R}$ be a number strictly between $f(a)$ and $f(b)$. Then there exists a $c \in (a,b)$ such that $f(c) = L$.</p>
+<h5 id="lemma">Lemma</h5>
+<p>Let $a, L \in \mathbb{R}$ and let $f$ be a <a href="https://bncling.github.io/math-wiki/function/">function</a> that is continuous at $a$ with $f(a) &lt; L$ ($f(a) &gt; L$). Then there exists a $\delta &gt; 0$ such that $) &lt; L$ ($f(x) &gt; L$).</p>
+<p><em>Proof:</em> Set $\varepsilon = ) - L) - f(a)) - L) &lt; L$.</p>
+<h3 id="proof">Proof</h3>
+<p>Without loss of generality, assume $f(a) &lt; f(b)$. Let $$A = {d \in [a,b] \mid \text{for all } x \in [a,d], f(x) &lt; L}.$$ Then $a \in A$, so the set is nonempty, and $b$ is an upper bound of $[a,b]$ so it is also an upper bound of $A \subset [a,b]$. By the completeness axiom, $A$ has a <a href="https://bncling.github.io/math-wiki/inf_sup/">supremum</a>, say $c = \sup A$. By the lemma, there is a $\delta_1 &gt; 0$ such that $f(x) &lt; L$ for all $x \in [a, a + \delta_1)$ and a $\delta_2 &gt; 0$ such that $f(x) &gt; L$ for all $x \in (b - \delta_2,b]$. Then $a &lt; c &lt; b$. Suppose for contradiction that $f(c) &lt; L$ so that by the lemma there exists a $0 &lt; \delta_3 &lt; b-c$ such that $f(x) &lt; L$ whenever $) &gt; L$. By the lemme there exists a $0 &lt; \delta_4 &lt; c-a$ such that $f(x) &gt; L$ whenever $)$ so $f(x) &lt; L$, a contradiction. Therefore $f(c) = L$.</p>
+<p>#calculus</p>
 </div>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
