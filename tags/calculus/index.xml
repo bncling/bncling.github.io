@@ -6,7 +6,17 @@
     <description>Recent content in calculus on Ben&#39;s Math Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intermediate Value Theorem (IVT)</title>
+      <link>https://bncling.github.io/math-wiki/ivt/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/ivt/</guid>
+      <description>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
+Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &amp;lt; L\) (\(f(a) &amp;gt; L\)). Then there exists a \(\delta &amp;gt; 0\) such that \(\vert x - a \vert &amp;lt; \delta\) implies that \(f(x) &amp;lt; L\) (\(f(x) &amp;gt; L\)).</description>
+    </item>
+    
     <item>
       <title>Continuity</title>
       <link>https://bncling.github.io/math-wiki/continuity/</link>
@@ -56,16 +66,6 @@ Examples  Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x
       <guid>https://bncling.github.io/math-wiki/inf_sup/</guid>
       <description>Definitions Let \(A \subset \mathbb{R}\).
  We say \(c \in \mathbb{R}\) is an upper bound of \(A\) if and only if \(c \geq a\) for all \(a \in A\). We say \(c \in \mathbb{R}\) is a lower bound of \(A\) if and only if \(c \leq a\) for all \(a \in A\). We say \(c \in \mathbb{R}\) is the greatest/largest/maximum element of \(A\) if and only if \(c\) is an upper bound of \(A\) and \(c \in A\).</description>
-    </item>
-    
-    <item>
-      <title>Intermediate Value Theorem (IVT)</title>
-      <link>https://bncling.github.io/math-wiki/ivt/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/ivt/</guid>
-      <description>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
-Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &amp;lt; L\) (\(f(a) &amp;gt; L\)). Then there exists a \(\delta &amp;gt; 0\) such that \() &amp;lt; L\) (\(f(x) &amp;gt; L\)).</description>
     </item>
     
     <item>

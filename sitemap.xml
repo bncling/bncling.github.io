@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/math-wiki/</loc>
+    <lastmod>2021-07-06T09:48:03-04:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/calculus/</loc>
+    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/ivt/</loc>
+    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/cryptography/</loc>
+    <lastmod>2021-07-05T18:07:46-04:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/elliptic-curves/</loc>
+    <lastmod>2021-07-05T18:07:46-04:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/posts/</loc>
     <lastmod>2021-07-05T18:07:46-04:00</lastmod>
   </url><url>
@@ -21,9 +39,6 @@
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/basis/</loc>
-    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/calculus/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/infty_sizes/</loc>
@@ -59,9 +74,6 @@
     <loc>https://bncling.github.io/math-wiki/interior/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/ivt/</loc>
-    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/isolated_point/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -72,9 +84,6 @@
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/limits/</loc>
-    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/miscmath/</loc>
@@ -102,9 +111,6 @@
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/sequence/</loc>
-    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/discrete_topology/</loc>
@@ -142,9 +148,6 @@
   </url><url>
     <loc>https://bncling.github.io/</loc>
     <lastmod>2021-07-04T15:02:17-04:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/test/</loc>
-    <lastmod>2021-07-04T14:02:41-04:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/posts/my-first-post/</loc>
     <lastmod>2021-07-04T12:52:30-04:00</lastmod>

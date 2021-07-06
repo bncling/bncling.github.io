@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Intermediate Value Theorem (IVT)</title>
+      <link>https://bncling.github.io/math-wiki/ivt/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/ivt/</guid>
+      <description>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
+Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &amp;lt; L\) (\(f(a) &amp;gt; L\)). Then there exists a \(\delta &amp;gt; 0\) such that \(\vert x - a \vert &amp;lt; \delta\) implies that \(f(x) &amp;lt; L\) (\(f(x) &amp;gt; L\)).</description>
+    </item>
+    
+    <item>
       <title>What is Elliptic Curve Cryptography?</title>
       <link>https://bncling.github.io/posts/elliptic_curve_explainer/</link>
       <pubDate>Mon, 05 Jul 2021 18:07:46 -0400</pubDate>
@@ -174,16 +184,6 @@ Properties By definition, the only sets in the indiscrete topology that are open
       <description>Points in the set and not on the boundary.
 Definition Let \((X, \mathcal{T})\) be a topological space and let \(A\) be a subset of \(X\). The interior of \(A\), denoted \(A^\circ\) or Int\((A)\), is the largest open set contained entirely within \(A\), that is, the set \[A^\circ = \bigcup_{U \subset A, \, U \in \mathcal{T}} U.\]
 Properties Theorem 2.26: A point \(p\) is an interior point of a set \(A\) in a topological space \((X, \mathcal{T})\) if and only if there exists an open set \(U\) with \(p \in U \subset A\).</description>
-    </item>
-    
-    <item>
-      <title>Intermediate Value Theorem (IVT)</title>
-      <link>https://bncling.github.io/math-wiki/ivt/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/ivt/</guid>
-      <description>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
-Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &amp;lt; L\) (\(f(a) &amp;gt; L\)). Then there exists a \(\delta &amp;gt; 0\) such that \() &amp;lt; L\) (\(f(x) &amp;gt; L\)).</description>
     </item>
     
     <item>
@@ -397,15 +397,6 @@ Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if an
       
       <guid>https://bncling.github.io/posts/link-file/</guid>
       <description>CLICK ME!</description>
-    </item>
-    
-    <item>
-      <title>Test post</title>
-      <link>https://bncling.github.io/test/</link>
-      <pubDate>Sun, 04 Jul 2021 14:02:41 -0400</pubDate>
-      
-      <guid>https://bncling.github.io/test/</guid>
-      <description>This is a test file, it doesn’t really have any content.</description>
     </item>
     
     <item>

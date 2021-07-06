@@ -6,13 +6,31 @@
     <description>Recent content in Tags on Ben&#39;s Math Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>calculus</title>
       <link>https://bncling.github.io/tags/calculus/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/calculus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cryptography</title>
+      <link>https://bncling.github.io/tags/cryptography/</link>
+      <pubDate>Mon, 05 Jul 2021 18:07:46 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elliptic curves</title>
+      <link>https://bncling.github.io/tags/elliptic-curves/</link>
+      <pubDate>Mon, 05 Jul 2021 18:07:46 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/tags/elliptic-curves/</guid>
       <description></description>
     </item>
     

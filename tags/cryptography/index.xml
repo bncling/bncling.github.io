@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cryptography on Ben&#39;s Math Site</title>
+    <link>https://bncling.github.io/tags/cryptography/</link>
+    <description>Recent content in cryptography on Ben&#39;s Math Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jul 2021 18:07:46 -0400</lastBuildDate><atom:link href="https://bncling.github.io/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Elliptic Curve Cryptography?</title>
+      <link>https://bncling.github.io/posts/elliptic_curve_explainer/</link>
+      <pubDate>Mon, 05 Jul 2021 18:07:46 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/posts/elliptic_curve_explainer/</guid>
+      <description>The following is an assignment for a writing class aimed at a non-math audience. For a more rigorous look at elliptic curve cryptography, look at… elsewhere, I dunno.
+Elliptic curves ​You might not have heard of elliptic curves before, but odds are you’ve used them without knowing it to securely pass information back and forth. Elliptic curves are abstract mathematical objects, and in the same way that you probably learned to represent equations like \(y = x^2\) or \(x^2 + y^2 = 4\) as curves in the \(xy\) plane in high school,​ we can graph elliptic curves.</description>
+    </item>
+    
+  </channel>
+</rss>
