@@ -98,7 +98,7 @@ Elliptic curves ​You might not have heard of elliptic curves before, but odds 
 ​You might not have heard of elliptic curves before, but odds are you’ve used them without knowing it to securely pass information back and forth. Elliptic curves are abstract mathematical objects, and in the same way that you probably learned to represent equations like <span class="math inline">\(y = x^2\)</span> or <span class="math inline">\(x^2 + y^2 = 4\)</span> as curves in the <span class="math inline">\(xy\)</span> plane in high school,​ we can graph elliptic curves. These curves have the form <span class="math inline">\(y^2 = x^3 + ax + b\)</span> where <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are numbers we can choose. When graphed, they look something like the following:<br />
 ​
 <center>
-<img src="/ecc_examples.png" title="fig:" alt="first" />
+<img src="/ecc_examples.png" title="fig:" alt="first" width="600" height=auto>
 </center>
 <p>These curves have many interesting properties and mathematicians have studied them for a long time, but what on earth do they have to do with the ciphers and codes used to secure information? You might not be familiar with many ideas from cryptography, the study of ciphers and information security, but if you ever learned about simple ciphers in school, passed codes back and forth with your friends, or even if you’ve just whispered to someone, you already have some idea of what cryptography is all about.</p>
 <h3 id="the-basic-idea-of-cryptography">The basic idea of cryptography</h3>
@@ -110,7 +110,7 @@ Elliptic curves ​You might not have heard of elliptic curves before, but odds 
 <h3 id="adding-and-multiplying-points-on-an-elliptic-curve">Adding and multiplying points on an elliptic curve</h3>
 <p>When we add, we take two numbers, put them together, and get a third number. This is also true of elliptic curve point addition​—it is a way of taking two points on a curve and obtaining a third one. An elliptic curve has the form <span class="math inline">\(y^2 = x^3 + ax + b\)</span>, and so points on the curve can be thought of as ordered pairs <span class="math inline">\((x,y)\)</span> satisfying this equation. When we take <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> to come from the real numbers, there is a very nice geometric way to describe point addition, illustrated in Figure 3:</p>
 <center>
-<img src="/ecc_addition.png" title="fig:" alt="first" width=auto height="400">
+<img src="/ecc_addition.png" title="fig:" alt="first" width="400" height=auto>
 </center>
 </div>
   
