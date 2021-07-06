@@ -26,7 +26,7 @@ Separation properties  \(T_1\)-space Hausdorff  ">
     <script>
       function setTheme() {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          document.body.classList.add('dark');
+          document.body.classList.add('light');
           return;
         }
 
@@ -40,7 +40,7 @@ Separation properties  \(T_1\)-space Hausdorff  ">
 
         function setBodyClass() {
           if (now > sunrise && now < sunset) return;
-          document.body.classList.add('dark');
+          document.body.classList.add('light');
         }
 
         if (date !== prev) {
@@ -80,9 +80,6 @@ Separation properties  \(T_1\)-space Hausdorff  ">
         <ul class="menu">
           <li>
             <a href="/math-wiki/">Math Wikis</a>
-          </li>
-          <li>
-            <a href="/posts/">Posts</a>
           </li>
         </ul>
       </nav>

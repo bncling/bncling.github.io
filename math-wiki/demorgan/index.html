@@ -24,7 +24,7 @@ Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lam
     <script>
       function setTheme() {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          document.body.classList.add('dark');
+          document.body.classList.add('light');
           return;
         }
 
@@ -38,7 +38,7 @@ Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lam
 
         function setBodyClass() {
           if (now > sunrise && now < sunset) return;
-          document.body.classList.add('dark');
+          document.body.classList.add('light');
         }
 
         if (date !== prev) {
@@ -78,9 +78,6 @@ Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lam
         <ul class="menu">
           <li>
             <a href="/math-wiki/">Math Wikis</a>
-          </li>
-          <li>
-            <a href="/posts/">Posts</a>
           </li>
         </ul>
       </nav>

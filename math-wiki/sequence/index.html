@@ -25,7 +25,7 @@ In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \math
     <script>
       function setTheme() {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          document.body.classList.add('dark');
+          document.body.classList.add('light');
           return;
         }
 
@@ -39,7 +39,7 @@ In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \math
 
         function setBodyClass() {
           if (now > sunrise && now < sunset) return;
-          document.body.classList.add('dark');
+          document.body.classList.add('light');
         }
 
         if (date !== prev) {
@@ -79,9 +79,6 @@ In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \math
         <ul class="menu">
           <li>
             <a href="/math-wiki/">Math Wikis</a>
-          </li>
-          <li>
-            <a href="/posts/">Posts</a>
           </li>
         </ul>
       </nav>
