@@ -8,6 +8,49 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Basis for a topological space</title>
+      <link>https://bncling.github.io/math-wiki/basis/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/basis/</guid>
+      <description>Similar to the ideas behind bases in other areas of math.
+Definition Let \((X, \T)\) be a topological space and let \(\B \subset \T\). \(\B\) is a basis for the topology \(\T\) if and only if every open set is the union of elements of \(\B\).
+If \(\mathcal{B}\) is a basis, we call \(B \in \B\) a basic open set.
+Properties Theorem 3.1: A set \(\mathcal{B}\) is the basis for a given topology \(\mathcal{T}\) on a set \(X\) if and only if 1.</description>
+    </item>
+    
+    <item>
+      <title>Boundaries of sets</title>
+      <link>https://bncling.github.io/math-wiki/boundary/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/boundary/</guid>
+      <description>Definition For a set \(A\) in a topological space \((X, \mathcal{T})\), the boundary of \(A\), denoted \(\partial A\) or Bd\((A)\), is the intersection of the closures of \(A\) and its complement, that is, the set \(\partial A = \overline{X} \cap \overline{X - A}\).
+Properties Theorem 2.28: If \(A\) is a set in a topological space \((X, \mathcal{T})\), the interior of \(A\), the boundary of \(A\), and the interior of the complement of \(A\) are disjoint sets whose union is \(X\).</description>
+    </item>
+    
+    <item>
+      <title>Closed sets</title>
+      <link>https://bncling.github.io/math-wiki/closed_sets/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/closed_sets/</guid>
+      <description>Definition In a topological space \((X, \mathcal{T})\), a closed set \(A\) is a subset of \(X\) that is equal to its closure (\(\overline{A} = A\)). That is, \(A\) contains all its limit points.
+Properties of closed sets  Theorem 2.14: A set \(A\) is closed if and only if its complement \(X - A\) is open. If \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) is a collection of closed sets, then \(\bigcap_{\alpha \in \lambda} A_\alpha\) is closed, but \(\bigcup_{\alpha \in \lambda} A_\alpha\) need not be closed.</description>
+    </item>
+    
+    <item>
+      <title>Closures</title>
+      <link>https://bncling.github.io/math-wiki/closure/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/closure/</guid>
+      <description>Taking a set and adding a few points to make it closed.
+Definition Let \((X, \mathcal{T})\) be a topological space with \(A \subset X\). The closure of \(A\) in \(X\), denoted \(\overline{A}\), Cl\((A)\), or Cl\(_X(A)\) is the set \(A\) together with all its limit points in \(X\).
+Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\) in a topological space \((X, \mathcal{T})\), we have that \(\overline{\overline{A}} = \overline{A}\).</description>
+    </item>
+    
+    <item>
       <title>Discontinuities</title>
       <link>https://bncling.github.io/math-wiki/discontinuities/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
@@ -19,6 +62,26 @@ Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and
     </item>
     
     <item>
+      <title>Fineness and Coarseness</title>
+      <link>https://bncling.github.io/math-wiki/fine_coarse/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/fine_coarse/</guid>
+      <description>Given two topologies on a set \(X\), we can compare them with the notions of fineness and coarseness. You can think about the fineness of a topology determining the amount you can see (you “see” the open sets) when looking at the set \(X\). If a topology is very fine, you can see a lot of open sets, but if the topology is very coarse, things are “blurry” because there are few open sets.</description>
+    </item>
+    
+    <item>
+      <title>Interior of a set</title>
+      <link>https://bncling.github.io/math-wiki/interior/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/interior/</guid>
+      <description>Points in the set and not on the boundary.
+Definition Let \((X, \mathcal{T})\) be a topological space and let \(A\) be a subset of \(X\). The interior of \(A\), denoted \(A^\circ\) or Int\((A)\), is the largest open set contained entirely within \(A\), that is, the set \[A^\circ = \bigcup_{U \subset A, \, U \in \mathcal{T}} U.\]
+Properties Theorem 2.26: A point \(p\) is an interior point of a set \(A\) in a topological space \((X, \mathcal{T})\) if and only if there exists an open set \(U\) with \(p \in U \subset A\).</description>
+    </item>
+    
+    <item>
       <title>Intermediate Value Theorem (IVT)</title>
       <link>https://bncling.github.io/math-wiki/ivt/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
@@ -26,6 +89,46 @@ Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and
       <guid>https://bncling.github.io/math-wiki/ivt/</guid>
       <description>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
 Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &amp;lt; L\) (\(f(a) &amp;gt; L\)). Then there exists a \(\delta &amp;gt; 0\) such that \(\vert x - a \vert &amp;lt; \delta\) implies that \(f(x) &amp;lt; L\) (\(f(x) &amp;gt; L\)).</description>
+    </item>
+    
+    <item>
+      <title>My Topology self-study work</title>
+      <link>https://bncling.github.io/math-wiki/top_selfstudy/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_selfstudy/</guid>
+      <description>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here.</description>
+    </item>
+    
+    <item>
+      <title>Open sets</title>
+      <link>https://bncling.github.io/math-wiki/open_sets/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/open_sets/</guid>
+      <description>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
+Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open.</description>
+    </item>
+    
+    <item>
+      <title>The Moore plane</title>
+      <link>https://bncling.github.io/math-wiki/moore_plane/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/moore_plane/</guid>
+      <description>Also called the Upper Half-Plane with the Sticky Bubble Topology and denoted \(\Hbub\) in the textbook I’ve been using.
+Definition Let \(\mathbb{H} = \{(x,y) \mid x,y \in \mathbb{R}, y \geq 0\}\). The Moore plane is this set with the topology generated by the basis containing - all balls of the form \(B((x,y), r)\) where \(0&amp;lt;r \leq y\), and - all balls of the form \(B((x,y),r) \cup \{(x,0)\}\) where \(r = y &amp;gt; 0\).</description>
+    </item>
+    
+    <item>
+      <title>The standard topology</title>
+      <link>https://bncling.github.io/math-wiki/standard_topology/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/standard_topology/</guid>
+      <description>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
+Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
+An open ball of radius \(\varepsilon &amp;gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &amp;lt; \varepsilon\}\).</description>
     </item>
     
     <item>
@@ -75,18 +178,6 @@ Elliptic curves ​You might not have heard of elliptic curves before, but odds 
     </item>
     
     <item>
-      <title>Basis for a topological space</title>
-      <link>https://bncling.github.io/math-wiki/basis/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/basis/</guid>
-      <description>Similar to the ideas behind bases in other areas of math.
-Definition Let \((X, \T)\) be a topological space and let \(\B \subset \T\). \(\B\) is a basis for the topology \(\T\) if and only if every open set is the union of elements of \(\B\).
-If \(\mathcal{B}\) is a basis, we call \(B \in \B\) a basic open set.
-Properties Theorem 3.1: A set \(\mathcal{B}\) is the basis for a given topology \(\mathcal{T}\) on a set \(X\) if and only if 1.</description>
-    </item>
-    
-    <item>
       <title>Cardinality and sizes of infinity</title>
       <link>https://bncling.github.io/math-wiki/infty_sizes/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
@@ -112,15 +203,6 @@ The \(\varepsilon\)-\(\delta\) definition, limit related definition A function \
       
       <guid>https://bncling.github.io/math-wiki/dirichlet_function/</guid>
       <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Fineness and Coarseness</title>
-      <link>https://bncling.github.io/math-wiki/fine_coarse/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/fine_coarse/</guid>
-      <description>Given two topologies on a set \(X\), we can compare them with the notions of fineness and coarseness. You can think about the fineness of a topology determining the amount you can see (you “see” the open sets) when looking at the set \(X\). If a topology is very fine, you can see a lot of open sets, but if the topology is very coarse, things are “blurry” because there are few open sets.</description>
     </item>
     
     <item>
@@ -177,17 +259,6 @@ Properties By definition, the only sets in the indiscrete topology that are open
     </item>
     
     <item>
-      <title>Interior of a set</title>
-      <link>https://bncling.github.io/math-wiki/interior/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/interior/</guid>
-      <description>Points in the set and not on the boundary.
-Definition Let \((X, \mathcal{T})\) be a topological space and let \(A\) be a subset of \(X\). The interior of \(A\), denoted \(A^\circ\) or Int\((A)\), is the largest open set contained entirely within \(A\), that is, the set \[A^\circ = \bigcup_{U \subset A, \, U \in \mathcal{T}} U.\]
-Properties Theorem 2.26: A point \(p\) is an interior point of a set \(A\) in a topological space \((X, \mathcal{T})\) if and only if there exists an open set \(U\) with \(p \in U \subset A\).</description>
-    </item>
-    
-    <item>
       <title>Isolated points</title>
       <link>https://bncling.github.io/math-wiki/isolated_point/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
@@ -231,16 +302,6 @@ The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \ma
     </item>
     
     <item>
-      <title>My Topology self-study work</title>
-      <link>https://bncling.github.io/math-wiki/top_selfstudy/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/top_selfstudy/</guid>
-      <description>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here:
-Math</description>
-    </item>
-    
-    <item>
       <title>Natural numbers</title>
       <link>https://bncling.github.io/math-wiki/natural_numbers/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
@@ -256,16 +317,6 @@ Math</description>
       
       <guid>https://bncling.github.io/math-wiki/normal/</guid>
       <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Open sets</title>
-      <link>https://bncling.github.io/math-wiki/open_sets/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/open_sets/</guid>
-      <description>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
-Properties of open sets  A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). This is Theorem 2.3 in: Theorem 2.3 from my self-study work. If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open.</description>
     </item>
     
     <item>
@@ -329,16 +380,6 @@ Properties Separation properties  \(T_1\)-space Hausdorff Not regular or a \(T_3
     </item>
     
     <item>
-      <title>The Moore plane</title>
-      <link>https://bncling.github.io/math-wiki/moore_plane/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/moore_plane/</guid>
-      <description>Also called the Upper Half-Plane with the Sticky Bubble Topology and denoted \(\Hbub\) in the textbook I’ve been using.
-Definition Let \(\mathbb{H} = \{(x,y) \mid x,y \in \mathbb{R}, y \geq 0\}\). The Moore plane is this set with the topology generated by the basis containing - all balls of the form \(B((x,y), r)\) where \(0&amp;lt;r \leq y\), and - all balls of the form \(B((x,y),r) \cup \{(x,0)\}\) where \(r = y &amp;gt; 0\).</description>
-    </item>
-    
-    <item>
       <title>The Sorgenfrey Line</title>
       <link>https://bncling.github.io/math-wiki/lower_limit_topology/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
@@ -347,17 +388,6 @@ Definition Let \(\mathbb{H} = \{(x,y) \mid x,y \in \mathbb{R}, y \geq 0\}\). The
       <description>It’s like \(\R\) but finer and… worse. It’s a topological space also known as the lower limit topology on \(\R\), sometimes denoted \(\RLL\) or \(\mathbb{R}_{\text{bad}}^1\).
 Definition The Sorgenfrey Line is the topological space on \(\mathbb{R}\) generated by the basis of sets of the form \([a, b) = \{x \in \mathbb{R} \mid a \leq x &amp;lt; b\}\) for \(a, b \in \mathbb{R}\).
 Properties Separation properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space Normal and a \(T_4\)-space  </description>
-    </item>
-    
-    <item>
-      <title>The standard topology</title>
-      <link>https://bncling.github.io/math-wiki/standard_topology/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/standard_topology/</guid>
-      <description>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
-Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
-An open ball of radius \(\varepsilon &amp;gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &amp;lt; \varepsilon\}\).</description>
     </item>
     
     <item>
@@ -408,37 +438,6 @@ Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if an
       <guid>https://bncling.github.io/posts/latex-test/</guid>
       <description>This is some content here! I’ve got some \(LaTeX\)!
 \[\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}\]</description>
-    </item>
-    
-    <item>
-      <title>Boundaries of sets</title>
-      <link>https://bncling.github.io/math-wiki/boundary/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/boundary/</guid>
-      <description>Definition For a set \(A\) in a topological space \((X, \mathcal{T})\), the boundary of \(A\), denoted \(\partial A\) or Bd\((A)\), is the intersection of the closures of \(A\) and its complement, that is, the set \(\partial A = \overline{X} \cap \overline{X - A}\).
-Properties Theorem 2.28: If \(A\) is a set in a topological space \((X, \mathcal{T})\), the interior of \(A\), the boundary of \(A\), and the interior of the complement of \(A\) are disjoint sets whose union is \(X\).</description>
-    </item>
-    
-    <item>
-      <title>Closed sets</title>
-      <link>https://bncling.github.io/math-wiki/closed_sets/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/closed_sets/</guid>
-      <description>Definition In a topological space \((X, \mathcal{T})\), a closed set \(A\) is a subset of \(X\) that is equal to its closure (\(\overline{A} = A\)). That is, \(A\) contains all its limit points.
-Properties of closed sets  A set \(A\) is closed if and only if its complement \(X - A\) is open. This is Theorem 2.14 from my self-study work. If \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) is a collection of closed sets, then \(\bigcap_{\alpha \in \lambda} A_\alpha\) is closed, but \(\bigcup_{\alpha \in \lambda} A_\alpha\) need not be closed.</description>
-    </item>
-    
-    <item>
-      <title>Closures</title>
-      <link>https://bncling.github.io/math-wiki/closure/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/closure/</guid>
-      <description>Taking a set and adding a few points to make it closed.
-Definition Let \((X, \mathcal{T})\) be a topological space with \(A \subset X\). The closure of \(A\) in \(X\), denoted \(\overline{A}\), Cl\((A)\), or Cl\(_X(A)\) is the set \(A\) together with all its limit points in \(X\).
-Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\) in a topological space \((X, \mathcal{T})\), we have that \(\overline{\overline{A}} = \overline{A}\).</description>
     </item>
     
     <item>
