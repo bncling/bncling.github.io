@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>What is Elliptic Curve Cryptography?</title>
+      <link>https://bncling.github.io/posts/elliptic_curve_explainer/</link>
+      <pubDate>Mon, 05 Jul 2021 18:07:46 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/posts/elliptic_curve_explainer/</guid>
+      <description>The following is an assignment for a writing class aimed at a non-math audience. For a more rigorous look at elliptic curve cryptography, look at… elsewhere, I dunno.
+Elliptic curves ​You might not have heard of elliptic curves before, but odds are you’ve used them without knowing it to securely pass information back and forth. Elliptic curves are abstract mathematical objects, and in the same way that you probably learned to represent equations like \(y = x^2\) or \(x^2 + y^2 = 4\) as curves in the \(xy\) plane in high school,​ we can graph elliptic curves.</description>
+    </item>
+    
+    <item>
       <title>$T_1$ spaces</title>
       <link>https://bncling.github.io/math-wiki/t1/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
@@ -381,12 +391,31 @@ Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if an
     </item>
     
     <item>
+      <title>Link File</title>
+      <link>https://bncling.github.io/posts/link-file/</link>
+      <pubDate>Sun, 04 Jul 2021 16:51:33 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/posts/link-file/</guid>
+      <description>CLICK ME!</description>
+    </item>
+    
+    <item>
       <title>Test post</title>
       <link>https://bncling.github.io/test/</link>
       <pubDate>Sun, 04 Jul 2021 14:02:41 -0400</pubDate>
       
       <guid>https://bncling.github.io/test/</guid>
       <description>This is a test file, it doesn’t really have any content.</description>
+    </item>
+    
+    <item>
+      <title>latex test</title>
+      <link>https://bncling.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 04 Jul 2021 12:52:30 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/posts/my-first-post/</guid>
+      <description>Gotta test that math rendering This is some content here! I’ve got some \(LaTeX\)!
+\[\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}\]</description>
     </item>
     
     <item>

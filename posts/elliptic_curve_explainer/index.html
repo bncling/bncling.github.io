@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Functions - Ben&#39;s Math Site</title>
+    <title>What is Elliptic Curve Cryptography? - Ben&#39;s Math Site</title>
     
-    <meta name="description" content="Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\).
-We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
-Notation If \((a,b) \in f\), we write \(f(a)=b\).
-Examples  Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x^k.">
-    <meta name="author" content="">
+    <meta name="description" content="The following is an assignment for a writing class aimed at a non-math audience. For a more rigorous look at elliptic curve cryptography, look at… elsewhere, I dunno.
+Elliptic curves ​You might not have heard of elliptic curves before, but odds are you’ve used them without knowing it to securely pass information back and forth. Elliptic curves are abstract mathematical objects, and in the same way that you probably learned to represent equations like \(y = x^2\) or \(x^2 &#43; y^2 = 4\) as curves in the \(xy\) plane in high school,​ we can graph elliptic curves.">
+    <meta name="author" content="Ben Clingenpeel">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
     <link href="https://bncling.github.io/style.css" rel="stylesheet">
@@ -92,30 +90,29 @@ Examples  Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Functions</h1>
-    <div class="post-meta">July 5, 2021</div>
+    <h1 class="post-title">What is Elliptic Curve Cryptography?</h1>
+    <div class="post-meta">Ben Clingenpeel · July 5, 2021</div>
   </header>
-  <div class="post-content"><h2 id="definitions">Definitions</h2>
-<p>A <strong>function</strong> <span class="math inline">\(f: \mathcal{D} \to \mathcal{C}\)</span> is a set of ordered pairs <span class="math inline">\((a,b)\)</span> where <span class="math inline">\(a \in \mathcal{D}\)</span> and <span class="math inline">\(b \in \mathcal{C}\)</span> with the property that if <span class="math inline">\((a,b) \in f\)</span> and <span class="math inline">\((a,c) \in f\)</span>, then <span class="math inline">\(b=c\)</span>.</p>
-<p>We call the set <span class="math inline">\(\mathcal{D}\)</span> the <strong>domain</strong> of <span class="math inline">\(f\)</span> and the set <span class="math inline">\(\mathcal{C}\)</span> the <strong>codomain</strong> of <span class="math inline">\(f\)</span>.</p>
-<h2 id="notation">Notation</h2>
-<p>If <span class="math inline">\((a,b) \in f\)</span>, we write <span class="math inline">\(f(a)=b\)</span>.</p>
-<h2 id="examples">Examples</h2>
-<ul>
-<li><strong>Polynomial</strong> functions are those of the form <span class="math display">\[p(x) = \sum_{k=0}^n a_k x^k.\]</span> We call <span class="math inline">\(n\)</span> the <strong>degree</strong> of the polynomial and <span class="math inline">\(a_n\)</span> the <strong>leading coefficient</strong> of the polynomial.</li>
-<li><strong>Rational</strong> functions are those of the form <span class="math inline">\(r(x) = p(x)/q(x)\)</span> where <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> are polynomial functions. The domain of a rational function over the <a href="https://bncling.github.io/math-wiki/real_numbers/">real numbers</a> is the set <span class="math inline">\(\lbrace x \in \mathbb{R} \mid q(x) \neq 0 \rbrace\)</span>.</li>
-<li><strong><a href="https://bncling.github.io/math-wiki/dirichlet_function/">Dirichlet’s function</a></strong> is <span class="math display">\[D(x) = \begin{cases} 
-  1 &amp; x \in \mathbb{Q} \\\ 
-  0 &amp; x \in \mathbb{R} - \mathbb{Q}
-\end{cases}\]</span> where <span class="math inline">\(\mathbb{R}\)</span> denotes the <a href="https://bncling.github.io/math-wiki/real_numbers/">real numbers</a> and <span class="math inline">\(\mathbb{Q}\)</span> denotes the <a href="https://bncling.github.io/math-wiki/rational_numbers/">rational numbers</a>.</li>
-<li>A <strong><a href="https://bncling.github.io/math-wiki/sequence/">sequence</a></strong> is a function <span class="math inline">\(f: \mathbb{N} \to \mathcal{C}\)</span> where <span class="math inline">\(\mathbb{N}\)</span> denotes the <a href="https://bncling.github.io/math-wiki/natural_numbers/">natural numbers</a> and <span class="math inline">\(\mathcal{C}\)</span> is an arbitrary codomain. For notation, <span class="math inline">\(f(n)\)</span> is usually written as <span class="math inline">\(a_n\)</span> for each natural number <span class="math inline">\(n\)</span>.</li>
-</ul>
+  <div class="post-content"><p>The following is an assignment for a writing class aimed at a non-math audience. For a more rigorous look at elliptic curve cryptography, look at… elsewhere, I dunno.</p>
+<h3 id="elliptic-curves">Elliptic curves</h3>
+​You might not have heard of elliptic curves before, but odds are you’ve used them without knowing it to securely pass information back and forth. Elliptic curves are abstract mathematical objects, and in the same way that you probably learned to represent equations like <span class="math inline">\(y = x^2\)</span> or <span class="math inline">\(x^2 + y^2 = 4\)</span> as curves in the <span class="math inline">\(xy\)</span> plane in high school,​ we can graph elliptic curves. These curves have the form <span class="math inline">\(y^2 = x^3 + ax + b\)</span> where <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are numbers we can choose. When graphed, they look something like the following:<br />
+​
+<center>
+<img src="/ecc_examples.png" title="fig:" alt="first" />
+</center>
+<p>These curves have many interesting properties and mathematicians have studied them for a long time, but what on earth do they have to do with the ciphers and codes used to secure information? You might not be familiar with many ideas from cryptography, the study of ciphers and information security, but if you ever learned about simple ciphers in school, passed codes back and forth with your friends, or even if you’ve just whispered to someone, you already have some idea of what cryptography is all about.</p>
+<h3 id="the-basic-idea-of-cryptography">The basic idea of cryptography</h3>
+<p>You might have heard before of something called a shift cipher, also known as a Caesar cipher, in which someone wanting to encrypt a message simply takes each letter in the message and shifts it by a fixed amount, say, by three letters. In the message “message,” for example, the letter ‘m’ would be shifted by three letters to become ‘p,’ and the letter ‘e’ would be shifted by three letters to become ‘h,’ so the full message becomes “phvvdjh.” In order to decrypt this message, the intended recipient needs to know how much the sender shifted each letter in order to do the reverse.</p>
+<p>​​The shift cipher is very simple, but it manages to capture the fundamental idea of <strong>symmetric</strong> systems in cryptography. In these symmetric cryptosystems, both parties communicating have some kind of shared secret, some information only they know that they can use to encrypt and decrypt messages. One party uses this secret key to turn a message into something that looks like gibberish and sends it to another party with the key. The idea is that anyone other than the intended recipient won’t be able to turn the gibberish back into English. This is the motivation behind the simple shift cipher, which isn’t secure at all, and it’s also the motivation behind very sophisticated and secure ciphers, like the Advanced Encryption Standard (AES) used by governments and businesses all over the world.</p>
+<h3 id="asymmetric-systems-and-one-way-functions">Asymmetric systems and one-way functions</h3>
+<p>One potential issue with symmetric systems is this need for a shared secret key—after all, how would two parties without secure means of communication come to agree on a key to use? Suppose two people, Alice and Bob, have begun to suspect that someone is reading their messages and would like to start encrypting their communications using a symmetric cipher like AES. To do this, they need to have a shared secret—a large number that only the two of them know. Now suppose that Alice and Bob live in the same town and would like to meet up at a coffee shop to discuss this large number to use. Unfortunately, they realize that throughout their conversation, some eavesdropper nearby has been taking notes. Very suspicious. How might they have avoided this scenario in which they need to pass this large number back and forth?</p>
+<p>One answer comes from <strong>asymmetric</strong> cryptosystems, in which a public key that potentially anyone could access is used in combination with users’ private keys. First proposed in the mid 70s, these systems can provide a means for two parties to arrive at a shared key without ever having to exchange any sensitive information over an insecure channel (that is, Alice and Bob never have to share their large number when they meet up at the coffee shop). To do this, asymmetric systems rely on <strong>one-way</strong> functions. These aren’t necessarily functions in the way that <span class="math inline">\(y = x^2\)</span> is a function, but rather, these are mathematical procedures that are relatively easy to perform in one direction, but so difficult to perform in reverse that it would take even the most powerful computers longer than the 14 billion years our universe has existed to do it. This is where elliptic curves come into play–they provide an extremely useful one-way function that is the basis of many efficient and secure algorithms that can solve the problem Alice and Bob encountered trying to agree on keys to use for symmetric systems. Before we can discuss these algorithms, however, we need to learn a little bit about operations on the points of an elliptic curve.</p>
+<h3 id="adding-and-multiplying-points-on-an-elliptic-curve">Adding and multiplying points on an elliptic curve</h3>
+<p>When we add, we take two numbers, put them together, and get a third number. This is also true of elliptic curve point addition​—it is a way of taking two points on a curve and obtaining a third one. An elliptic curve has the form <span class="math inline">\(y^2 = x^3 + ax + b\)</span>, and so points on the curve can be thought of as ordered pairs <span class="math inline">\((x,y)\)</span> satisfying this equation. When we take <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> to come from the real numbers, there is a very nice geometric way to describe point addition, illustrated in Figure 3:</p>
+<center>
+<img src="/ecc_addition.png" title="fig:" alt="first" width=auto height="400">
+</center>
 </div>
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="https://bncling.github.io/tags/calculus">calculus</a></li>
-    </ul>
-  </footer>
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
