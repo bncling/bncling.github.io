@@ -10,8 +10,8 @@
 -------------------------------------------------- */
 :root {
   --gap: 24px;
-  --content-gap: 40px;
-  --nav-width: 1024px;
+  --content-gap: 20px;
+  --nav-width: 1080px;
   --main-width: 760px;
   --header-height: 60px;
   --footer-height: 60px;
@@ -58,10 +58,10 @@ html {
 }
 body {
   margin: 0;
-  color: var(--primary);
+  color: var(--content);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
   'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   word-break: break-word;
   background: var(--theme);
@@ -90,12 +90,12 @@ h6 {
   line-height: 1.2;
 }
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: .5;
+  margin-bottom: .5;
 }
 strong,
 b {
-  font-weight: 500;
+  font-weight: 700;
 }
 ul {
   margin: 0;
@@ -154,14 +154,16 @@ img {
 .nav a {
   display: block;
   line-height: var(--header-height);
+  color: var(--content);
 }
 .logo,
 .menu {
   margin-left: var(--gap);
   margin-right: var(--gap);
+  margin-top: 0px;
 }
 .logo a {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
 }
 .menu {
