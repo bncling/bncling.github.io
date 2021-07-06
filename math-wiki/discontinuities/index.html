@@ -8,7 +8,8 @@
     <title>Discontinuities - Ben&#39;s Math Site</title>
     
     <meta name="description" content="Definition A function \(f: \mathcal{D} \to \mathbb{R}\) is discontinuous at a point \(c \in \mathcal{D}\) if and only if \(f\) is not continuous at \(c\). That is, if the limit \(\lim \limits_{x \to c} f(x)\) does not exist or is not equal to \(f(c)\).
-Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and \(c \in \mathcal{D}\). Then - \(f\) has an infinite discontinuity at \(c\) if and only if \(\lim \limits_{x \to c} f(x) = \pm \infty\).">
+Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and \(c \in \mathcal{D}\). Then
+ \(f\) has an infinite discontinuity at \(c\) if and only if \(\lim \limits_{x \to c} f(x) = \pm \infty\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -97,17 +98,22 @@ Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Discontinuities</h1>
-    <div class="post-meta">July 5, 2021</div>
+    <div class="post-meta">July 6, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>A <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: \mathcal{D} \to \mathbb{R}\)</span> is discontinuous at a point <span class="math inline">\(c \in \mathcal{D}\)</span> if and only if <span class="math inline">\(f\)</span> is not <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> at <span class="math inline">\(c\)</span>. That is, if the <a href="https://bncling.github.io/math-wiki/limits/">limit</a> <span class="math inline">\(\lim \limits_{x \to c} f(x)\)</span> does not exist or is not equal to <span class="math inline">\(f(c)\)</span>.</p>
 <h2 id="types-of-discontinuities">Types of discontinuities</h2>
-<p>Let <span class="math inline">\(f: \mathcal{D} \to \mathbb{R}\)</span> be a function and <span class="math inline">\(c \in \mathcal{D}\)</span>. Then - <span class="math inline">\(f\)</span> has an <strong>infinite discontinuity</strong> at <span class="math inline">\(c\)</span> if and only if <span class="math inline">\(\lim \limits_{x \to c} f(x) = \pm \infty\)</span>. - <span class="math inline">\(f\)</span> has a <strong>jump discontinuity</strong> at <span class="math inline">\(c\)</span> if and only if <span class="math inline">\(\lim \limits_{x \to c^-} f(x)\)</span> and <span class="math inline">\(\lim \limits_{x \to c^+} f(x)\)</span> both exist but <span class="math inline">\(\lim \limits_{x \to c^-} f(x) \neq \lim \limits_{x \to c^+} f(x)\)</span>. - <span class="math inline">\(f\)</span> has a <strong>removable discontinuity</strong> or a <strong>hole</strong> at <span class="math inline">\(c\)</span> if and only if <span class="math inline">\(\lim \limits_{x \to c} f(x)\)</span> exists but <span class="math inline">\(\lim \limits_{x \to c} f(x) \neq f(c)\)</span>.</p>
+<p>Let <span class="math inline">\(f: \mathcal{D} \to \mathbb{R}\)</span> be a function and <span class="math inline">\(c \in \mathcal{D}\)</span>. Then</p>
+<ul>
+<li><span class="math inline">\(f\)</span> has an <strong>infinite discontinuity</strong> at <span class="math inline">\(c\)</span> if and only if <span class="math inline">\(\lim \limits_{x \to c} f(x) = \pm \infty\)</span>.</li>
+<li><span class="math inline">\(f\)</span> has a <strong>jump discontinuity</strong> at <span class="math inline">\(c\)</span> if and only if <span class="math inline">\(\lim \limits_{x \to c^-} f(x)\)</span> and <span class="math inline">\(\lim \limits_{x \to c^+} f(x)\)</span> both exist but <span class="math inline">\(\lim \limits_{x \to c^-} f(x) \neq \lim \limits_{x \to c^+} f(x)\)</span>.</li>
+<li><span class="math inline">\(f\)</span> has a <strong>removable discontinuity</strong> or a <strong>hole</strong> at <span class="math inline">\(c\)</span> if and only if <span class="math inline">\(\lim \limits_{x \to c} f(x)\)</span> exists but <span class="math inline">\(\lim \limits_{x \to c} f(x) \neq f(c)\)</span>.</li>
+</ul>
 <p>An <strong>essential discontinuity</strong> is any discontinuity that is not removable.</p>
 <h2 id="examples">Examples</h2>
 <ul>
-<li>The function <span class="math display">\[f(x) = \begin{cases} 1/x^2 &amp; x \neq 0 \\\ 0 &amp; x = 0 \end{cases}\]</span> has an infinite discontinuity at <span class="math inline">\(x = 0\)</span>.</li>
-<li>The function <span class="math display">\[f(x) = \begin{cases} 1 &amp; x \neq 0 \\\ 0 &amp; x = 0 \end{cases}\]</span> has a removable discontinuity at <span class="math inline">\(x=0\)</span>.</li>
+<li>The function <span class="math display">\[f(x) = \begin{cases} \frac{1}{x^2} &amp; x \neq 0 \\ 0 &amp; x = 0 \end{cases}\]</span> has an infinite discontinuity at <span class="math inline">\(x = 0\)</span>.</li>
+<li>The function <span class="math display">\[f(x) = \begin{cases} 1 &amp; x \neq 0 \\ 0 &amp; x = 0 \end{cases}\]</span> has a removable discontinuity at <span class="math inline">\(x=0\)</span>.</li>
 <li><a href="https://bncling.github.io/math-wiki/dirichlet_function/">Dirichlet’s function</a> has an essential discontinuity at every point but they are not infinite discontinuities or jump discontinuities.</li>
 <li><a href="https://bncling.github.io/math-wiki/thomae/">Thomae’s function</a> has a removable discontinuity at every rational input.</li>
 </ul>

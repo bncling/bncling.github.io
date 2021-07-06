@@ -12,20 +12,20 @@
   --gap: 24px;
   --content-gap: 40px;
   --nav-width: 1024px;
-  --main-width: 640px;
+  --main-width: 760px;
   --header-height: 60px;
   --footer-height: 60px;
   --radius: 8px;
 
-  --theme: #fff;
-  --entry: #fff;
-  --primary: rgba(0, 0, 0, 0.88);
-  --secondary: rgba(0, 0, 0, 0.56);
-  --tertiary: rgba(0, 0, 0, 0.16);
-  --content: rgba(0, 0, 0, 0.88);
+  --theme: #fff; /* background on single pages */
+  --entry: #fff; /* background of list page entries */
+  --primary: rgba(39, 144, 85, .92); /* content on list pages, links on all pages */
+  --secondary: rgba(4, 16, 9, .56); /* content in list page previews of other pages, subtitles (date, name, etc) */
+  --tertiary: rgba(4, 16, 9, .16); /* UNKNOWN */
+  --content: rgba(4, 16, 9, .88); /* content on single pages */
 
-  --hljs-bg: #1c1d21;
-  --code-bg: #f5f5f5;
+  --hljs-bg: #1c1d21; /* UNKNOWN */
+  --code-bg: #f4f6f5; /* background on list pages */
   --border: #eee;
 }
 .dark {
