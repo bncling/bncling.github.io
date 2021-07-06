@@ -27,12 +27,12 @@ Elliptic curves ​You might not have heard of elliptic curves before, but odds 
     </item>
     
     <item>
-      <title>latex test</title>
-      <link>https://bncling.github.io/posts/my-first-post/</link>
+      <title>Gotta test that math rendering!</title>
+      <link>https://bncling.github.io/posts/latex-test/</link>
       <pubDate>Sun, 04 Jul 2021 12:52:30 -0400</pubDate>
       
-      <guid>https://bncling.github.io/posts/my-first-post/</guid>
-      <description>Gotta test that math rendering This is some content here! I’ve got some \(LaTeX\)!
+      <guid>https://bncling.github.io/posts/latex-test/</guid>
+      <description>This is some content here! I’ve got some \(LaTeX\)!
 \[\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}\]</description>
     </item>
     
