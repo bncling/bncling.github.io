@@ -56,7 +56,10 @@ Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is
       <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/lex_square/</guid>
-      <description>Content coming soon.</description>
+      <description>Sets have interesting closures.
+Definition The unit square \([0,1] \times [0,1]\) is totally ordered by the lexicographic order, and the lexicographically ordered square is the topological space formed from the unit square together with the associated order topology.
+Properties Many sets have very interesting, unexpected closures. See Exercise 3.21.
+Separation properties </description>
     </item>
     
     <item>

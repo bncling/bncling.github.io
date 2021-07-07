@@ -49,6 +49,17 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
     </item>
     
     <item>
+      <title>DeMorgan&#39;s Laws</title>
+      <link>https://bncling.github.io/math-wiki/demorgan/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/demorgan/</guid>
+      <description>DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]
+Proof The proof here is for a weaker version of the laws for a finite collection of sets, written as an exercise for my topology work.</description>
+    </item>
+    
+    <item>
       <title>Limits</title>
       <link>https://bncling.github.io/math-wiki/limits/</link>
       <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
@@ -95,7 +106,10 @@ Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is
       <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/lex_square/</guid>
-      <description>Content coming soon.</description>
+      <description>Sets have interesting closures.
+Definition The unit square \([0,1] \times [0,1]\) is totally ordered by the lexicographic order, and the lexicographically ordered square is the topological space formed from the unit square together with the associated order topology.
+Properties Many sets have very interesting, unexpected closures. See Exercise 3.21.
+Separation properties </description>
     </item>
     
     <item>
@@ -511,16 +525,6 @@ This next one is going to be extremely long to test overflow:
       <description>Basically what the name makes it sound like. It’s similar in definition to the finite complement topology.
 Definition Let \(X\) be a set. A set \(U\) is in the countable complement topology if and only if \(X - U\) is countable or if \(U = \emptyset\). This topology is also called the cocountable topology.
 Properties Countable sets are closed in this topology.</description>
-    </item>
-    
-    <item>
-      <title>DeMorgan&#39;s Laws</title>
-      <link>https://bncling.github.io/math-wiki/demorgan/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/demorgan/</guid>
-      <description>DeMorgan’s Laws relate complements of unions and intersections.
-Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]</description>
     </item>
     
   </channel>
