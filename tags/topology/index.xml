@@ -15,7 +15,7 @@
       <guid>https://bncling.github.io/math-wiki/limits/</guid>
       <description>Intuitively, “\(\lim \limits_{x \to a} f(x) = L\)” means that the outputs of a function \(f\) approaches the value \(L\) as the inputs approach the value \(a\).
 The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \mathbb{R} \to \mathbb{R}\) be a function and let \(a,L \in \mathbb{R}\).
- \(\lim \limits_{x \to a} f(x) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; ) - L) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists an \(N \in \mathbb{N}\) such that \(x &amp;gt; N\) implies that \() - L) = \infty\) if and only if for every \(N \in N\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; ) &amp;gt; N\).</description>
+ \(\lim \limits_{x \to a} f(x) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; \vert x - a \vert &amp;lt; \delta\) implies that \(\vert f(x) - L \vert &amp;lt; \varepsilon\).</description>
     </item>
     
     <item>
