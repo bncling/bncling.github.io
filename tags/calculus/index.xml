@@ -28,6 +28,17 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
     </item>
     
     <item>
+      <title>Limits</title>
+      <link>https://bncling.github.io/math-wiki/limits/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/limits/</guid>
+      <description>Intuitively, “\(\lim \limits_{x \to a} f(x) = L\)” means that the outputs of a function \(f\) approaches the value \(L\) as the inputs approach the value \(a\).
+The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \mathbb{R} \to \mathbb{R}\) be a function and let \(a,L \in \mathbb{R}\).
+ \(\lim \limits_{x \to a} f(x) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; ) - L) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists an \(N \in \mathbb{N}\) such that \(x &amp;gt; N\) implies that \() - L) = \infty\) if and only if for every \(N \in N\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; ) &amp;gt; N\).</description>
+    </item>
+    
+    <item>
       <title>Discontinuities</title>
       <link>https://bncling.github.io/math-wiki/discontinuities/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
@@ -77,16 +88,6 @@ Examples  Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x
       <guid>https://bncling.github.io/math-wiki/inf_sup/</guid>
       <description>Definitions Let \(A \subset \mathbb{R}\).
  We say \(c \in \mathbb{R}\) is an upper bound of \(A\) if and only if \(c \geq a\) for all \(a \in A\). We say \(c \in \mathbb{R}\) is a lower bound of \(A\) if and only if \(c \leq a\) for all \(a \in A\). We say \(c \in \mathbb{R}\) is the greatest/largest/maximum element of \(A\) if and only if \(c\) is an upper bound of \(A\) and \(c \in A\).</description>
-    </item>
-    
-    <item>
-      <title>Limits</title>
-      <link>https://bncling.github.io/math-wiki/limits/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/limits/</guid>
-      <description>Intuitively, “\(\lim \limits_{x \to a} f(x) = L\)” means that the outputs of a function \(f\) approaches the value \(L\) as the inputs approach the value \(a\).
-The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \mathbb{R} \to \mathbb{R}\) be a function and let \(a,L \in \mathbb{R}\). - \(\lim \limits_{x \to a} f(x) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; ) - L) = L\) if and only if for every \(\varepsilon &amp;gt; 0\), there exists an \(N \in \mathbb{N}\) such that \(x &amp;gt; N\) implies that \() - L) = \infty\) if and only if for every \(N \in N\), there exists a \(\delta &amp;gt; 0\) such that \(0 &amp;lt; ) &amp;gt; N\).</description>
     </item>
     
     <item>
