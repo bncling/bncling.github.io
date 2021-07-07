@@ -266,7 +266,8 @@ img {
   color: var(--secondary);
   font-size: 14px;
   line-height: 1.6;
-  overflow: auto;
+  overflow: hidden;
+  overflow-y: visible; 
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
