@@ -457,7 +457,9 @@ Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if an
       
       <guid>https://bncling.github.io/posts/latex-test/</guid>
       <description>This is some content here! I’ve got some \(LaTeX\)!
-\[\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}\]</description>
+\[\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}\]
+This next one is going to be extremely long to test overflow:
+\[hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\]</description>
     </item>
     
     <item>

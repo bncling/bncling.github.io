@@ -168,6 +168,7 @@ img {
 }
 .menu {
   display: flex;
+  white-space: nowrap;
   list-style: none;
   word-break: keep-all;
   overflow-x: auto;
