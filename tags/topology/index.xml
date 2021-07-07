@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Basis for a topological space</title>
+      <link>https://bncling.github.io/math-wiki/basis/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/basis/</guid>
+      <description>Similar to the ideas behind bases in other areas of math.
+Definition Let \((X, \T)\) be a topological space and let \(\B \subset \T\). \(\B\) is a basis for the topology \(\T\) if and only if every open set is the union of elements of \(\B\).
+If \(\mathcal{B}\) is a basis, we call \(B \in \B\) a basic open set.
+Properties Theorem 3.1: A set \(\mathcal{B}\) is the basis for a given topology \(\mathcal{T}\) on a set \(X\) if and only if 1.</description>
+    </item>
+    
+    <item>
+      <title>Boundaries of sets</title>
+      <link>https://bncling.github.io/math-wiki/boundary/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/boundary/</guid>
+      <description>Definition For a set \(A\) in a topological space \((X, \mathcal{T})\), the boundary of \(A\), denoted \(\partial A\) or Bd\((A)\), is the intersection of the closures of \(A\) and its complement, that is, the set \(\partial A = \overline{X} \cap \overline{X - A}\).
+Properties Theorem 2.28: If \(A\) is a set in a topological space \((X, \mathcal{T})\), the interior of \(A\), the boundary of \(A\), and the interior of the complement of \(A\) are disjoint sets whose union is \(X\).</description>
+    </item>
+    
+    <item>
       <title>Closures</title>
       <link>https://bncling.github.io/math-wiki/closure/</link>
       <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
@@ -16,6 +38,26 @@
       <description>Taking a set and adding a few points to make it closed.
 Definition Let \((X, \mathcal{T})\) be a topological space with \(A \subset X\). The closure of \(A\) in \(X\), denoted \(\overline{A}\), Cl\((A)\), or Cl\(_X(A)\) is the set \(A\) together with all its limit points in \(X\).
 Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\) in a topological space \((X, \mathcal{T})\), we have that \(\overline{\overline{A}} = \overline{A}\).</description>
+    </item>
+    
+    <item>
+      <title>Fineness and Coarseness</title>
+      <link>https://bncling.github.io/math-wiki/fine_coarse/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/fine_coarse/</guid>
+      <description>Given two topologies on a set \(X\), we can compare them with the notions of fineness and coarseness. You can think about the fineness of a topology determining the amount you can see (you “see” the open sets) when looking at the set \(X\). If a topology is very fine, you can see a lot of open sets, but if the topology is very coarse, things are “blurry” because there are few open sets.</description>
+    </item>
+    
+    <item>
+      <title>Interior of a set</title>
+      <link>https://bncling.github.io/math-wiki/interior/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/interior/</guid>
+      <description>Points in the set and not on the boundary.
+Definition Let \((X, \mathcal{T})\) be a topological space and let \(A\) be a subset of \(X\). The interior of \(A\), denoted \(A^\circ\) or Int\((A)\), is the largest open set contained entirely within \(A\), that is, the set \[A^\circ = \bigcup_{U \subset A, \, U \in \mathcal{T}} U.\]
+Properties Theorem 2.26: A point \(p\) is an interior point of a set \(A\) in a topological space \((X, \mathcal{T})\) if and only if there exists an open set \(U\) with \(p \in U \subset A\).</description>
     </item>
     
     <item>
@@ -63,28 +105,6 @@ Separation properties </description>
     </item>
     
     <item>
-      <title>Basis for a topological space</title>
-      <link>https://bncling.github.io/math-wiki/basis/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/basis/</guid>
-      <description>Similar to the ideas behind bases in other areas of math.
-Definition Let \((X, \T)\) be a topological space and let \(\B \subset \T\). \(\B\) is a basis for the topology \(\T\) if and only if every open set is the union of elements of \(\B\).
-If \(\mathcal{B}\) is a basis, we call \(B \in \B\) a basic open set.
-Properties Theorem 3.1: A set \(\mathcal{B}\) is the basis for a given topology \(\mathcal{T}\) on a set \(X\) if and only if 1.</description>
-    </item>
-    
-    <item>
-      <title>Boundaries of sets</title>
-      <link>https://bncling.github.io/math-wiki/boundary/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/boundary/</guid>
-      <description>Definition For a set \(A\) in a topological space \((X, \mathcal{T})\), the boundary of \(A\), denoted \(\partial A\) or Bd\((A)\), is the intersection of the closures of \(A\) and its complement, that is, the set \(\partial A = \overline{X} \cap \overline{X - A}\).
-Properties Theorem 2.28: If \(A\) is a set in a topological space \((X, \mathcal{T})\), the interior of \(A\), the boundary of \(A\), and the interior of the complement of \(A\) are disjoint sets whose union is \(X\).</description>
-    </item>
-    
-    <item>
       <title>Closed sets</title>
       <link>https://bncling.github.io/math-wiki/closed_sets/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
@@ -92,26 +112,6 @@ Properties Theorem 2.28: If \(A\) is a set in a topological space \((X, \mathcal
       <guid>https://bncling.github.io/math-wiki/closed_sets/</guid>
       <description>Definition In a topological space \((X, \mathcal{T})\), a closed set \(A\) is a subset of \(X\) that is equal to its closure (\(\overline{A} = A\)). That is, \(A\) contains all its limit points.
 Properties of closed sets  Theorem 2.14: A set \(A\) is closed if and only if its complement \(X - A\) is open. If \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) is a collection of closed sets, then \(\bigcap_{\alpha \in \lambda} A_\alpha\) is closed, but \(\bigcup_{\alpha \in \lambda} A_\alpha\) need not be closed.</description>
-    </item>
-    
-    <item>
-      <title>Fineness and Coarseness</title>
-      <link>https://bncling.github.io/math-wiki/fine_coarse/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/fine_coarse/</guid>
-      <description>Given two topologies on a set \(X\), we can compare them with the notions of fineness and coarseness. You can think about the fineness of a topology determining the amount you can see (you “see” the open sets) when looking at the set \(X\). If a topology is very fine, you can see a lot of open sets, but if the topology is very coarse, things are “blurry” because there are few open sets.</description>
-    </item>
-    
-    <item>
-      <title>Interior of a set</title>
-      <link>https://bncling.github.io/math-wiki/interior/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/interior/</guid>
-      <description>Points in the set and not on the boundary.
-Definition Let \((X, \mathcal{T})\) be a topological space and let \(A\) be a subset of \(X\). The interior of \(A\), denoted \(A^\circ\) or Int\((A)\), is the largest open set contained entirely within \(A\), that is, the set \[A^\circ = \bigcup_{U \subset A, \, U \in \mathcal{T}} U.\]
-Properties Theorem 2.26: A point \(p\) is an interior point of a set \(A\) in a topological space \((X, \mathcal{T})\) if and only if there exists an open set \(U\) with \(p \in U \subset A\).</description>
     </item>
     
     <item>
