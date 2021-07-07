@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Animations on Ben Clingenpeel</title>
+    <link>https://bncling.github.io/animations/</link>
+    <description>Recent content in Animations on Ben Clingenpeel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jul 2021 19:58:26 -0400</lastBuildDate><atom:link href="https://bncling.github.io/animations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The first fundamental theorem of calculus</title>
+      <link>https://bncling.github.io/animations/ftoc1/</link>
+      <pubDate>Tue, 06 Jul 2021 20:12:01 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/animations/ftoc1/</guid>
+      <description>This is a video I made using the manim python library based on a proof of the first fundamental theorem of calculus I found lying around in my notes from my first calculus class.
+  </description>
+    </item>
+    
+    <item>
+      <title>James Garfield&#39;s proof of the Pythagorean Theorem</title>
+      <link>https://bncling.github.io/animations/garfield/</link>
+      <pubDate>Tue, 06 Jul 2021 20:03:43 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/animations/garfield/</guid>
+      <description>This was the first video I made with the manim python library.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

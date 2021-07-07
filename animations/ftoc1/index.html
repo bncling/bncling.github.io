@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>calculus - Ben Clingenpeel</title>
+    <title>The first fundamental theorem of calculus - Ben Clingenpeel</title>
     
-    <meta name="description" content="">
+    <meta name="description" content="This is a video I made using the manim python library based on a proof of the first fundamental theorem of calculus I found lying around in my notes from my first calculus class.
+  ">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -18,7 +19,6 @@
     <link rel="icon" href="https://bncling.github.io/favicon.ico">
     <meta name="generator" content="Hugo 0.84.4" />
     
-    <link rel="alternate" type="application/rss+xml" href="https://bncling.github.io/tags/calculus/index.xml" title="Ben Clingenpeel" />
     
     
     <script>
@@ -68,7 +68,7 @@
       }
     </script>
   </head>
-  <body class="list">
+  <body class="single">
     <script>
       setTheme();
     </script>
@@ -93,53 +93,69 @@
     </header>
     <main class="main">
 
-<header class="page-header"><h1>calculus</h1></header>
 
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">The first fundamental theorem of calculus</h1>
+    <div class="post-meta">July 6, 2021</div>
+  </header>
+  <div class="post-content"><p>This is a video I made using the <a href="https://www.manim.community/">manim</a> <code>python</code> library based on a proof of the first fundamental theorem of calculus I found lying around in my notes from my first calculus class.</p>
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/UEfD4YfR73Y" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Real numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 5, 2021</time>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/calculus">calculus</a></li>
+    </ul>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/real_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Sequences</h2>
-  </header>
-  <section class="entry-content">
-   <p>An infinite list of things.
-Definitions For real numbers, a sequence is a function \(f: \mathbb{N} \to \mathbb{R}\), where the image of the number \(n\) under \(f\) is typically called \(a_n\). The sequence is written by listing its images: \(a_1, a_2, \dots\) or for short, \(\{a_n\}\).
-In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \mathbb{N} \to X\), where the image of the number \(i\) under \(f\) is typically called \(x_i\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/sequence/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Thomae&#39;s function</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/thomae/"></a>
-</article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="prev" href="/tags/calculus/">← Prev Page</a>
-  </nav>
-</footer></main>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</article></main>
 <footer class="footer">
   <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
   <span>&middot;</span>

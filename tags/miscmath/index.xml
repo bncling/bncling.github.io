@@ -6,7 +6,17 @@
     <description>Recent content in miscmath on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 20:03:43 -0400</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>James Garfield&#39;s proof of the Pythagorean Theorem</title>
+      <link>https://bncling.github.io/animations/garfield/</link>
+      <pubDate>Tue, 06 Jul 2021 20:03:43 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/animations/garfield/</guid>
+      <description>This was the first video I made with the manim python library.
+  </description>
+    </item>
+    
     <item>
       <title>My Topology self-study work</title>
       <link>https://bncling.github.io/math-wiki/top_selfstudy/</link>

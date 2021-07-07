@@ -8,6 +8,26 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The first fundamental theorem of calculus</title>
+      <link>https://bncling.github.io/animations/ftoc1/</link>
+      <pubDate>Tue, 06 Jul 2021 20:12:01 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/animations/ftoc1/</guid>
+      <description>This is a video I made using the manim python library based on a proof of the first fundamental theorem of calculus I found lying around in my notes from my first calculus class.
+  </description>
+    </item>
+    
+    <item>
+      <title>James Garfield&#39;s proof of the Pythagorean Theorem</title>
+      <link>https://bncling.github.io/animations/garfield/</link>
+      <pubDate>Tue, 06 Jul 2021 20:03:43 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/animations/garfield/</guid>
+      <description>This was the first video I made with the manim python library.
+  </description>
+    </item>
+    
+    <item>
       <title>Basis for a topological space</title>
       <link>https://bncling.github.io/math-wiki/basis/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
