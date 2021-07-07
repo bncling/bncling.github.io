@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Closures - Ben Clingenpeel</title>
+    <title>Subbasis for a topological space - Ben Clingenpeel</title>
     
-    <meta name="description" content="Taking a set and adding a few points to make it closed.
-Definition Let \((X, \mathcal{T})\) be a topological space with \(A \subset X\). The closure of \(A\) in \(X\), denoted \(\overline{A}\), Cl\((A)\), or Cl\(_X(A)\) is the set \(A\) together with all its limit points in \(X\).
-Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\) in a topological space \((X, \mathcal{T})\), we have that \(\overline{\overline{A}} = \overline{A}\).">
+    <meta name="description" content="Definition Let \((X, \T)\) be a topological space and let \(\Sub \subset \T\). \(\Sub\) is a subbasis for the topology \(\T\) if and only if the collection \(\B\) of all finite intersections of sets in \(\Sub\) is a basis for \(\T\).
+If \(\Sub\) is a subbasis, we call \(S \in \Sub\) a subbasic open set.
+Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is also a subbasis.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -102,22 +102,19 @@ Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Closures</h1>
+    <h1 class="post-title">Subbasis for a topological space</h1>
     <div class="post-meta">July 7, 2021</div>
   </header>
-  <div class="post-content"><p>Taking a set and adding a few points to make it <a href="https://bncling.github.io/math-wiki/closed_sets/">closed</a>.</p>
-<h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\((X, \mathcal{T})\)</span> be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> with <span class="math inline">\(A \subset X\)</span>. The <strong>closure</strong> of <span class="math inline">\(A\)</span> in <span class="math inline">\(X\)</span>, denoted <span class="math inline">\(\overline{A}\)</span>, Cl<span class="math inline">\((A)\)</span>, or Cl<span class="math inline">\(_X(A)\)</span> is the set <span class="math inline">\(A\)</span> together with all its <a href="https://bncling.github.io/math-wiki/limit_points/">limit points</a> in <span class="math inline">\(X\)</span>.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\((X, \T)\)</span> be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> and let <span class="math inline">\(\Sub \subset \T\)</span>. <span class="math inline">\(\Sub\)</span> is a <strong>subbasis</strong> for the topology <span class="math inline">\(\T\)</span> if and only if the collection <span class="math inline">\(\B\)</span> of all finite intersections of sets in <span class="math inline">\(\Sub\)</span> is a <a href="https://bncling.github.io/math-wiki/basis/">basis</a> for <span class="math inline">\(\T\)</span>.</p>
+<p>If <span class="math inline">\(\Sub\)</span> is a subbasis, we call <span class="math inline">\(S \in \Sub\)</span> a <strong>subbasic open set</strong>.</p>
 <h2 id="properties">Properties</h2>
-<p><a href="\work.pdf#page=10">Theorem 2.13:</a> The closure of a set is closed, that is, for a set <span class="math inline">\(A\)</span> in a topological space <span class="math inline">\((X, \mathcal{T})\)</span>, we have that <span class="math inline">\(\overline{\overline{A}} = \overline{A}\)</span>.</p>
-<p><a href="\work.pdf#page=13">Theorem 2.20:</a> The closure of a set <span class="math inline">\(A\)</span> is the smallest closed set containing <span class="math inline">\(A\)</span>, that is, it is the intersection of all closed sets containing <span class="math inline">\(A\)</span>: <span class="math display">\[\overline{A} = \bigcap_{B \supset A, \, B \in \mathcal{C}} B\]</span> where <span class="math inline">\(\mathcal{C}\)</span> is the collection of all closed sets in <span class="math inline">\((X, \mathcal{T})\)</span>.</p>
-<p><a href="\work.pdf#page=14">Theorem 2.22:</a> If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are sets in a topological space <span class="math inline">\((X, \mathcal{T})\)</span>, then - <span class="math inline">\(A \subset B \implies \overline{A} \subset \overline{B}\)</span> - <span class="math inline">\(\overline{A \cup B} = \overline{A} \cup \overline{B}\)</span></p>
-<p><a href="\work.pdf#page=15">Lemma 2.28:</a> The closure of a set <span class="math inline">\(A\)</span> in a topological space <span class="math inline">\((X, \mathcal{T})\)</span> is <span class="math inline">\(\overline{A} = X - (X - A)^\circ\)</span> where <span class="math inline">\(B^\circ\)</span> denotes the <a href="https://bncling.github.io/math-wiki/interior/">interior</a> of the set <span class="math inline">\(B\)</span>.</p>
-<p>The closure of <span class="math inline">\(A\)</span> is the disjoint union of the <a href="https://bncling.github.io/math-wiki/interior/">interior</a> and <a href="https://bncling.github.io/math-wiki/boundary/">boundary</a> of <span class="math inline">\(A\)</span>.</p>
-<p><a href="\work.pdf#page=16">Theorem 2.30:</a> If <span class="math inline">\(A\)</span> is a set in a topological space <span class="math inline">\((X, \mathcal{T})\)</span> and <span class="math inline">\(p \in X\)</span> such that there exists a <a href="https://bncling.github.io/math-wiki/sequence/">sequence</a> with <span class="math inline">\(\lbrace x_i \rbrace_{i \in \mathbb{N}} \subset A\)</span> and <span class="math inline">\(x_i \to p\)</span>, then <span class="math inline">\(p \in \overline{A}\)</span>.</p>
+<p><a href="\work.pdf#page=22">Exercise 3.13:</a> If <span class="math inline">\(\B\)</span> is a <a href="https://bncling.github.io/math-wiki/basis/">basis</a> for a topology <span class="math inline">\(\T\)</span>, then it is also a subbasis.</p>
+<p>Theorem 3.15: A set <span class="math inline">\(\B\)</span> is the subbasis for a <em>given</em> topology <span class="math inline">\(\T\)</span> on a set <span class="math inline">\(X\)</span> if and only if 1. <span class="math inline">\(\Sub \subset \T\)</span>, and 2. for each set <span class="math inline">\(U \in \T\)</span> and point <span class="math inline">\(p \in U\)</span>, there exists a finite collection <span class="math inline">\(\{V_i\}_{i=1}^n\)</span> of elements of <span class="math inline">\(\Sub\)</span> such that <span class="math display">\[p \in \bigcap_{i=1}^n V_i \subset U.\]</span></p>
+<p><a href="\work.pdf#page=22">Theorem 3.16:</a> A set <span class="math inline">\(\mathcal{B}\)</span> is the basis for <em>some</em> topology on a set <span class="math inline">\(X\)</span> if and only if 1. each point of <span class="math inline">\(X\)</span> is in some element of <span class="math inline">\(\mathcal{B}\)</span>, and 2. if <span class="math inline">\(U\)</span> and <span class="math inline">\(V\)</span> are sets in <span class="math inline">\(\mathcal{B}\)</span> and <span class="math inline">\(p \in U \cap V\)</span>, then there is a set <span class="math inline">\(W \in \mathcal{B}\)</span> such that <span class="math inline">\(p \in W \subset U \cap V\)</span>.</p>
 <h2 id="examples">Examples</h2>
-<p>The closure of the <a href="https://bncling.github.io/math-wiki/top_sine/">topologist’s sine curve</a> is the set <span class="math inline">\(\lbrace (0,y) \mid -1 \leq y \leq 1 \rbrace\)</span>.</p>
-<p>In the <a href="https://bncling.github.io/math-wiki/lex_square/">lexicographically ordered square</a>, the set <span class="math inline">\(\left\{ \left( \frac{1}{n}, 0 \right) \mid n \in \N \right\}\)</span> has closure <span class="math inline">\(\left\{ \left( \frac{1}{n}, 0 \right) \mid n \in \N \right\} \cup (0,1)\)</span>.</p>
+<p><a href="\work.pdf#page=22">Exercise 3.14:</a> The collection of rays of the form <span class="math inline">\(\{x \mid x &lt; a\}\)</span> and <span class="math inline">\(\{x \mid a &lt; x\}\)</span> where <span class="math inline">\(a \in \R\)</span> is a subbasis for the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a> on <span class="math inline">\(\R\)</span>.</p>
+<p><a href="\work.pdf#page=23">Exercise 3.17:</a> The collection of rays of the form <span class="math inline">\(\{x \mid x &lt; a\}\)</span> and <span class="math inline">\(\{x \mid a \leq x\}\)</span> where <span class="math inline">\(a \in \R\)</span> is a subbasis for the <a href="https://bncling.github.io/math-wiki/lower_limit_topology/">lower limit topology</a> on <span class="math inline">\(\R\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
