@@ -18,6 +18,16 @@
     </item>
     
     <item>
+      <title>Continuity</title>
+      <link>https://bncling.github.io/math-wiki/continuity/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
+      <description>Continuous functions can be drawn without picking up your pencil.
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous if and only if it is continuous at the point \(c\) for all \(c \in \mathcal{D}\).</description>
+    </item>
+    
+    <item>
       <title>Discontinuities</title>
       <link>https://bncling.github.io/math-wiki/discontinuities/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
@@ -36,16 +46,6 @@ Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and
       <guid>https://bncling.github.io/math-wiki/ivt/</guid>
       <description>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
 Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &amp;lt; L\) (\(f(a) &amp;gt; L\)). Then there exists a \(\delta &amp;gt; 0\) such that \(\vert x - a \vert &amp;lt; \delta\) implies that \(f(x) &amp;lt; L\) (\(f(x) &amp;gt; L\)).</description>
-    </item>
-    
-    <item>
-      <title>Continuity</title>
-      <link>https://bncling.github.io/math-wiki/continuity/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
-      <description>Continuous functions can be drawn without picking up your pencil.
-The \(\varepsilon\)-\(\delta\) definition, limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous if and only if it is continuous at the point \(c\) for all \(c \in \mathcal{D}\).</description>
     </item>
     
     <item>
