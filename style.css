@@ -530,3 +530,8 @@ img {
   font-size: 160px;
   font-weight: 700;
 }
+/* math
+-------------------------------------------------- */
+.math {
+  overflow-x: auto;
+}
