@@ -6,20 +6,11 @@
     <description>Recent content in Tags on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jul 2021 20:12:01 -0400</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>calculus</title>
-      <link>https://bncling.github.io/tags/calculus/</link>
-      <pubDate>Tue, 06 Jul 2021 20:12:01 -0400</pubDate>
-      
-      <guid>https://bncling.github.io/tags/calculus/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>miscmath</title>
       <link>https://bncling.github.io/tags/miscmath/</link>
-      <pubDate>Tue, 06 Jul 2021 20:12:01 -0400</pubDate>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/miscmath/</guid>
       <description></description>
@@ -28,9 +19,18 @@
     <item>
       <title>topology</title>
       <link>https://bncling.github.io/tags/topology/</link>
-      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/topology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calculus</title>
+      <link>https://bncling.github.io/tags/calculus/</link>
+      <pubDate>Tue, 06 Jul 2021 20:12:01 -0400</pubDate>
+      
+      <guid>https://bncling.github.io/tags/calculus/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,17 @@
     <description>Recent content in topology on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subspaces in topology</title>
+      <link>https://bncling.github.io/math-wiki/top_subspaces/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_subspaces/</guid>
+      <description>Much like in other areas, a subspace is a subset that still has extra structure.
+Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \(X\). The collection \[\T_Y = \{ U \mid U = V \cap Y \text{ for some } V \in \T \}\] is a topology on \(Y\) called the subspace topology or the relative topology on \(Y\) inherited from \(X\). The space \((Y, \T_Y)\) is called a (topological) subspace of \((X, \T)\).</description>
+    </item>
+    
     <item>
       <title>Basis for a topological space</title>
       <link>https://bncling.github.io/math-wiki/basis/</link>

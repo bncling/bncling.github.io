@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Cartesian products - Ben Clingenpeel</title>
+    
+    <meta name="description" content="Definitions (two sets) Let \(A\) and \(B\) be sets. Their Cartesian product, \(A \times B\), is the set \(\{(a,b) \mid a \in A, b \in B\}\).
+An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or \(B\) with the projection functions \(\pi_X : X \times Y \to X\) and \(\pi_Y : X \times Y \to Y\) defined as \(\pi_X (a,b) = a\) and \(\pi_Y (a,b) = b\).">
+    <meta name="author" content="">
+    
+    <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://bncling.github.io/style.css" rel="stylesheet">
+    <link href="https://bncling.github.io/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="generator" content="Hugo 0.84.4" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('light');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('light');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://bncling.github.io/">Ben Clingenpeel</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/animations/">Animations</a>
+          </li>
+          <li>
+            <a href="/math-wiki/">Math Wikis</a>
+          </li>
+          <li>
+            <a href="/posts/">Posts</a>
+          </li>
+          <li>
+            <a href="/tags/">Tags</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Cartesian products</h1>
+    <div class="post-meta">July 8, 2021</div>
+  </header>
+  <div class="post-content"><h2 id="definitions-two-sets">Definitions (two sets)</h2>
+<p>Let <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> be sets. Their <strong>Cartesian product</strong>, <span class="math inline">\(A \times B\)</span>, is the set <span class="math inline">\(\{(a,b) \mid a \in A, b \in B\}\)</span>.</p>
+<p>An element <span class="math inline">\((a,b)\)</span> of <span class="math inline">\(A \times B\)</span> can be projected back to the set <span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span> with the <strong>projection functions</strong> <span class="math inline">\(\pi_X : X \times Y \to X\)</span> and <span class="math inline">\(\pi_Y : X \times Y \to Y\)</span> defined as <span class="math inline">\(\pi_X (a,b) = a\)</span> and <span class="math inline">\(\pi_Y (a,b) = b\)</span>.</p>
+<h2 id="definitions-arbitrary-collection-of-sets">Definitions (arbitrary collection of sets)</h2>
+<h3 id="motivation">Motivation</h3>
+<p>A generic element of <span class="math inline">\(X_1 \times X_2\)</span> is <span class="math inline">\((a,b)\)</span> where <span class="math inline">\(a \in X_1\)</span> and <span class="math inline">\(b \in X_2\)</span>, but we can also think of <span class="math inline">\((a,b)\)</span> as a <a href="https://bncling.github.io/math-wiki/function/">function</a> from the index set <span class="math inline">\(\{1,2\}\)</span> to <span class="math inline">\(X_1 \cup X_2\)</span> with the restriction that the image of the function at each index value needs to be an element of the set corresponding to that index. That is, in our case with <span class="math inline">\(X_1 \times X_2\)</span>, the element <span class="math inline">\((a,b)\)</span> can be thought of as the function <span class="math inline">\(f: \{1,2\} \to X_1 \cup X_2\)</span> where <span class="math inline">\(f(1) = a \in X_1\)</span> and <span class="math inline">\(f(2) = b \in X_2\)</span>. Then the whole set <span class="math inline">\(X_1 \times X_2\)</span> can be thought of as the collection of functions <span class="math display">\[X_1 \times X_2 = \{ f: \{1,2\} \to X_1 \cup X_2 \mid f(1) \in X_1, f(2) \in X_2 \}.\]</span></p>
+<h3 id="definitions">Definitions</h3>
+<p>Let <span class="math inline">\(\{X_\alpha\}_{\alpha \in \lambda}\)</span> be a collection of sets. The <strong>Cartesian product</strong> <span class="math inline">\(\prod_{\alpha \in \lambda} X_\alpha\)</span> is the set of functions <span class="math display">\[\prod_{\alpha \in \lambda} X_\alpha = \left\{ f: \lambda \to \bigcup_{\alpha \in \lambda} X_\alpha \, \bigg \vert \, \text{for all } \alpha \in \lambda, f(\alpha) \in X_\alpha \right\}.\]</span></p>
+<p>We call <span class="math inline">\(f(\alpha)\)</span> the <strong><span class="math inline">\(\alpha\)</span>th coordinate of <span class="math inline">\(f\)</span></strong> and the set <span class="math inline">\(X_\alpha\)</span> a <strong>factor</strong> of the product.</p>
+<p>Similarly, elements of the product can be projected back into its factors using projection functions. For each <span class="math inline">\(\beta \in \lambda\)</span>, define the <strong>projection function</strong> <span class="math display">\[\pi_\beta: \prod_{\alpha \in \lambda} X_\alpha \to X_\beta\]</span> by <span class="math inline">\(\pi_\beta (f) = f(\beta)\)</span>. So the image of the projection function <span class="math inline">\(\pi_\beta\)</span> at an element of the product (thought of here as a function <span class="math inline">\(f\)</span>) is the <span class="math inline">\(\beta\)</span>th coordinate of <span class="math inline">\(f\)</span>.</p>
+<p>If all the factors <span class="math inline">\(X_\alpha\)</span> are the same, say <span class="math inline">\(X_\alpha = X\)</span> for all <span class="math inline">\(\alpha \in \lambda\)</span>, we write the product as <span class="math inline">\(X^\lambda = \prod_{\alpha \in \lambda} X\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>The set <span class="math inline">\(\R^\N = \prod_{n \in \N} \R\)</span> is the product of countably many copies of <span class="math inline">\(\R\)</span>. Per the definition above, we have that <span class="math display">\[\R^\N = \left\{ f: \N \to \bigcup_{n \in \N} \R \, \bigg \vert \, \text{for all } n \in \N, f(n) \in \R \right\},\]</span> which is just the collection <span class="math inline">\(\{f: \N \to \R\}\)</span> of <a href="https://bncling.github.io/math-wiki/sequence/">sequences</a>. In this case, the projection function <span class="math inline">\(\pi_n: \R^\N \to \R\)</span> takes a sequence as its input and gives its <span class="math inline">\(n\)</span>th term as its output, that is, <span class="math inline">\(\pi_n (f) = f(n)\)</span>.</p>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/miscmath">miscmath</a></li>
+    </ul>
+  </footer>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</article></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://bncling.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</html>
+

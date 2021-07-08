@@ -8,6 +8,26 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cartesian products</title>
+      <link>https://bncling.github.io/math-wiki/cartesian/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/cartesian/</guid>
+      <description>Definitions (two sets) Let \(A\) and \(B\) be sets. Their Cartesian product, \(A \times B\), is the set \(\{(a,b) \mid a \in A, b \in B\}\).
+An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or \(B\) with the projection functions \(\pi_X : X \times Y \to X\) and \(\pi_Y : X \times Y \to Y\) defined as \(\pi_X (a,b) = a\) and \(\pi_Y (a,b) = b\).</description>
+    </item>
+    
+    <item>
+      <title>Subspaces in topology</title>
+      <link>https://bncling.github.io/math-wiki/top_subspaces/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_subspaces/</guid>
+      <description>Much like in other areas, a subspace is a subset that still has extra structure.
+Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \(X\). The collection \[\T_Y = \{ U \mid U = V \cap Y \text{ for some } V \in \T \}\] is a topology on \(Y\) called the subspace topology or the relative topology on \(Y\) inherited from \(X\). The space \((Y, \T_Y)\) is called a (topological) subspace of \((X, \T)\).</description>
+    </item>
+    
+    <item>
       <title>The first fundamental theorem of calculus</title>
       <link>https://bncling.github.io/animations/ftoc1/</link>
       <pubDate>Tue, 06 Jul 2021 20:12:01 -0400</pubDate>
