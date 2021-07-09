@@ -6,7 +6,52 @@
     <description>Recent content in calculus on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jul 2021 20:12:01 -0400</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dirichlet&#39;s function</title>
+      <link>https://bncling.github.io/math-wiki/dirichlet_function/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dirichlet_function/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Natural numbers</title>
+      <link>https://bncling.github.io/math-wiki/natural_numbers/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/natural_numbers/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Rational numbers</title>
+      <link>https://bncling.github.io/math-wiki/rational_numbers/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/rational_numbers/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Real numbers</title>
+      <link>https://bncling.github.io/math-wiki/real_numbers/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/real_numbers/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Thomae&#39;s function</title>
+      <link>https://bncling.github.io/math-wiki/thomae/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/thomae/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
     <item>
       <title>The first fundamental theorem of calculus</title>
       <link>https://bncling.github.io/animations/ftoc1/</link>
@@ -60,15 +105,6 @@ Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous
     </item>
     
     <item>
-      <title>Dirichlet&#39;s function</title>
-      <link>https://bncling.github.io/math-wiki/dirichlet_function/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/dirichlet_function/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Functions</title>
       <link>https://bncling.github.io/math-wiki/function/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
@@ -91,33 +127,6 @@ Examples  Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x
     </item>
     
     <item>
-      <title>Natural numbers</title>
-      <link>https://bncling.github.io/math-wiki/natural_numbers/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/natural_numbers/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Rational numbers</title>
-      <link>https://bncling.github.io/math-wiki/rational_numbers/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/rational_numbers/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Real numbers</title>
-      <link>https://bncling.github.io/math-wiki/real_numbers/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/real_numbers/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Sequences</title>
       <link>https://bncling.github.io/math-wiki/sequence/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
@@ -126,15 +135,6 @@ Examples  Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x
       <description>An infinite list of things.
 Definitions For real numbers, a sequence is a function \(f: \mathbb{N} \to \mathbb{R}\), where the image of the number \(n\) under \(f\) is typically called \(a_n\). The sequence is written by listing its images: \(a_1, a_2, \dots\) or for short, \(\{a_n\}\).
 In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \mathbb{N} \to X\), where the image of the number \(i\) under \(f\) is typically called \(x_i\).</description>
-    </item>
-    
-    <item>
-      <title>Thomae&#39;s function</title>
-      <link>https://bncling.github.io/math-wiki/thomae/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/thomae/</guid>
-      <description>Content coming soon.</description>
     </item>
     
   </channel>

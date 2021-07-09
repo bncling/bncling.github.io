@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cardinality and sizes of infinity</title>
+      <link>https://bncling.github.io/math-wiki/infty_sizes/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/infty_sizes/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
       <title>Cartesian products</title>
       <link>https://bncling.github.io/math-wiki/cartesian/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
@@ -23,6 +32,15 @@ An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/inj_surj_bij/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Order relations</title>
+      <link>https://bncling.github.io/math-wiki/orderings/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/orderings/</guid>
       <description>Content coming soon.</description>
     </item>
     
@@ -67,30 +85,12 @@ Proof The proof here is for a weaker version of the laws for a finite collection
     </item>
     
     <item>
-      <title>Order relations</title>
-      <link>https://bncling.github.io/math-wiki/orderings/</link>
-      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/orderings/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>My Topology self-study work</title>
       <link>https://bncling.github.io/math-wiki/top_selfstudy/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/top_selfstudy/</guid>
       <description>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here.</description>
-    </item>
-    
-    <item>
-      <title>Cardinality and sizes of infinity</title>
-      <link>https://bncling.github.io/math-wiki/infty_sizes/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/infty_sizes/</guid>
-      <description>Content coming soon.</description>
     </item>
     
   </channel>
