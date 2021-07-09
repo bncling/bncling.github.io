@@ -13,7 +13,7 @@
       <pubDate>Fri, 09 Jul 2021 14:40:49 -0400</pubDate>
       
       <guid>https://bncling.github.io/posts/separation_table/</guid>
-      <description>  Topological space \(T_1\) Hausdorff Regular Normal    \(\Rs\) ☑       </description>
+      <description>  Topological space \(T_1\) Hausdorff Regular Normal    \(\Rs\) ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✗ ✗  Discrete topology ✓ ✓ ✓ ✓  Finite complement (infinite set) ✓ ✗ ✗ ✗  Countable complement (uncountable set) ✓ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓  Double Headed Snake ✓ ✗ ✗ ✗  K-topology ✓ ✓ ✗ ✗  Moore plane ✓ ✓ ✓   Arithmetic progressions      Lexicographically ordered square      \(2^X\)        </description>
     </item>
     
     <item>
