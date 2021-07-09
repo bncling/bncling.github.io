@@ -8,33 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/coming_soon/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>$T_1$ spaces</title>
-      <link>https://bncling.github.io/math-wiki/t1/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/t1/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>$T_3$ spaces</title>
-      <link>https://bncling.github.io/math-wiki/t3/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/t3/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>$T_4$ spaces</title>
-      <link>https://bncling.github.io/math-wiki/t4/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/t4/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Cardinality and sizes of infinity</title>
       <link>https://bncling.github.io/math-wiki/infty_sizes/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
@@ -53,15 +26,6 @@
     </item>
     
     <item>
-      <title>Hausdorff spaces</title>
-      <link>https://bncling.github.io/math-wiki/hausdorff/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/hausdorff/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Injectivity, surjectivity, and bijectivity</title>
       <link>https://bncling.github.io/math-wiki/inj_surj_bij/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
@@ -76,15 +40,6 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/natural_numbers/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Normal spaces</title>
-      <link>https://bncling.github.io/math-wiki/normal/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/normal/</guid>
       <description>Content coming soon.</description>
     </item>
     
@@ -112,15 +67,6 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/real_numbers/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Regular spaces</title>
-      <link>https://bncling.github.io/math-wiki/regular/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/regular/</guid>
       <description>Content coming soon.</description>
     </item>
     
