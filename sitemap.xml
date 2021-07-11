@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/math-wiki/order_topology/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/lex_square/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/topology/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/posts/separation_table/</loc>
     <lastmod>2021-07-09T14:40:49-04:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/posts/</loc>
-    <lastmod>2021-07-09T14:40:49-04:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
-    <lastmod>2021-07-09T14:40:49-04:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/topology/</loc>
     <lastmod>2021-07-09T14:40:49-04:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/t1/</loc>
@@ -23,7 +29,16 @@
     <loc>https://bncling.github.io/math-wiki/t4/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bncling.github.io/math-wiki/countable_complement_topology/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/finite_complement_topology/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/math-wiki/hausdorff/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/indiscrete_topology/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/k_topology/</loc>
@@ -35,7 +50,13 @@
     <loc>https://bncling.github.io/math-wiki/regular/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bncling.github.io/math-wiki/discrete_topology/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/math-wiki/double_headed_snake/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/moore_plane/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/lower_limit_topology/</loc>
@@ -119,13 +140,7 @@
     <loc>https://bncling.github.io/math-wiki/limits/</loc>
     <lastmod>2021-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/order_topology/</loc>
-    <lastmod>2021-07-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/subbasis/</loc>
-    <lastmod>2021-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/lex_square/</loc>
     <lastmod>2021-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/animations/</loc>
@@ -152,9 +167,6 @@
     <loc>https://bncling.github.io/math-wiki/open_sets/</loc>
     <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/moore_plane/</loc>
-    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/standard_topology/</loc>
     <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -170,13 +182,7 @@
     <loc>https://bncling.github.io/math-wiki/zarith/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/finite_complement_topology/</loc>
-    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/function/</loc>
-    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/indiscrete_topology/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/inf_sup/</loc>
@@ -189,9 +195,6 @@
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/sequence/</loc>
-    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/discrete_topology/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/top_sine/</loc>
@@ -211,8 +214,5 @@
   </url><url>
     <loc>https://bncling.github.io/posts/latex-test/</loc>
     <lastmod>2021-07-04T12:52:30-04:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/countable_complement_topology/</loc>
-    <lastmod>2021-07-04T00:00:00+00:00</lastmod>
   </url>
 </urlset>

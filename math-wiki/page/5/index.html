@@ -107,6 +107,58 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Intermediate Value Theorem (IVT)</h2>
+  </header>
+  <section class="entry-content">
+   <p>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
+Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &lt; L\) (\(f(a) &gt; L\)). Then there exists a \(\delta &gt; 0\) such that \(\vert x - a \vert &lt; \delta\) implies that \(f(x) &lt; L\) (\(f(x) &gt; L\))....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ivt/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>My Topology self-study work</h2>
+  </header>
+  <section class="entry-content">
+   <p>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_selfstudy/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Open sets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
+Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_sets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The standard topology</h2>
+  </header>
+  <section class="entry-content">
+   <p>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
+Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
+An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &lt; \varepsilon\}\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/standard_topology/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Arithmetic progression topology</h2>
   </header>
   <section class="entry-content">
@@ -116,20 +168,6 @@
     <time>July 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/zarith/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Finite complement topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Basically what the name makes it sound like. Similar in definition to the countable complement topology.
-Definition Let \(X\) be a set. A set \(U\) is in the finite complement topology if and only if \(X - U\) is finite or if \(U = \emptyset\). This topology is also called the cofinite topology.
-Properties Finite sets are closed in the finite complement topology....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/finite_complement_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -145,20 +183,6 @@ Examples  Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x
     <time>July 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/function/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Indiscrete topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>The coarsest possible topology on a set \(X\).
-Definition Let \(X\) be a set. The indiscrete topology is \(\mathcal{T} = \{\emptyset, X\}\). The topological space \((X, \{\emptyset, X\})\) is called an indiscrete space.
-Properties By definition, the only sets in the indiscrete topology that are open are \(X\) and \(\emptyset\), and these are also the only closed sets....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/indiscrete_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -213,35 +237,6 @@ In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \math
     <time>July 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/sequence/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The discrete topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>The discrete topology is the finest topology on a given set. A set together with the discrete topology is called a discrete space.
-Definition Let \(X\) be a set. Then the discrete topology on \(X\) contains all subsets of \(X\), that is, the topology is \(\mathcal{T} = 2^X\), the power set of \(X\).
-Properties If \((X, \mathcal{T})\) is a topological space, then it is a discrete space if and only if all singletons are open....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/discrete_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The topologist&#39;s sine curve</h2>
-  </header>
-  <section class="entry-content">
-   <p>A set in the standard topology on \(\mathbb{R}^2\).
-Definition In \((\mathbb{R}^2, \mathcal{T}_\text{std})\), the topologist’s sine curve is the set \[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]
-Properties Every point in the set \(\{(0,y) \mid -1 \leq y \leq 1 \}\) is a limit point of the topologist’s sine curve.
-Since none of the above points are in \(S\), \(S\) is not closed....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_sine/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
