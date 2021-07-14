@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Subspaces in topology - Ben Clingenpeel</title>
+    <title>Completely normal spaces - Ben Clingenpeel</title>
     
-    <meta name="description" content="Much like in other areas, a subspace is a subset that still has extra structure.
-Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \(X\). The collection \[\T_Y = \{ U \mid U = V \cap Y \text{ for some } V \in \T \}\] is a topology on \(Y\) called the subspace topology or the relative topology on \(Y\) inherited from \(X\). The space \((Y, \T_Y)\) is called a (topological) subspace of \((X, \T)\).">
+    <meta name="description" content="Definitions Two sets \(A\) and \(B\) in a topological space are separated if and only if \(\overline{A} \cap B = \emptyset\) and \(A \cap \overline{B} = \emptyset\).
+A topological space \((X, \T)\) is completely normal if and only if for any two separated sets \(A\) and \(B\), there exist open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset A\).
+Properties If a space \((X, \T)\) is \(T_5\), it is also completely normal by definition.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,21 +102,15 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Subspaces in topology</h1>
+    <h1 class="post-title">Completely normal spaces</h1>
     <div class="post-meta">July 13, 2021</div>
   </header>
-  <div class="post-content"><p>Much like in other areas, a subspace is a subset that still has extra structure.</p>
-<h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\((X, \T)\)</span> be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> and let <span class="math inline">\(Y\)</span> be a subset of <span class="math inline">\(X\)</span>. The collection <span class="math display">\[\T_Y = \{ U \mid U = V \cap Y \text{ for some } V \in \T \}\]</span> is a topology on <span class="math inline">\(Y\)</span> called the <strong>subspace topology</strong> or the <strong>relative topology</strong> on <span class="math inline">\(Y\)</span> inherited from <span class="math inline">\(X\)</span>. The space <span class="math inline">\((Y, \T_Y)\)</span> is called a (topological) <strong>subspace</strong> of <span class="math inline">\((X, \T)\)</span>. If <span class="math inline">\(U \in \T_Y\)</span> we say <span class="math inline">\(U\)</span> is <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> in <span class="math inline">\(Y\)</span>.</p>
+  <div class="post-content"><h2 id="definitions">Definitions</h2>
+<p>Two sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> in a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> are <strong>separated</strong> if and only if <span class="math inline">\(\overline{A} \cap B = \emptyset\)</span> and <span class="math inline">\(A \cap \overline{B} = \emptyset\)</span>.</p>
+<p>A topological space <span class="math inline">\((X, \T)\)</span> is <strong>completely normal</strong> if and only if for any two separated sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, there exist <a href="https://bncling.github.io/math-wiki/open_sets/">open sets</a> <span class="math inline">\(U\)</span> and <span class="math inline">\(V\)</span> such that <span class="math inline">\(A \subset U\)</span> and <span class="math inline">\(B \subset A\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p>If a set <span class="math inline">\(U\)</span> is open in <span class="math inline">\((Y, \T_Y)\)</span>, it is not necessarily open in <span class="math inline">\((X, \T)\)</span>.</p>
-<p><a href="\work.pdf#page=25">Theorem 3.28:</a> Let <span class="math inline">\((Y, \T_Y)\)</span> be a subspace of <span class="math inline">\((X,\T)\)</span>. A subset <span class="math inline">\(C \subset Y\)</span> is <a href="https://bncling.github.io/math-wiki/closed_sets/">closed</a> in <span class="math inline">\((Y, \T_Y)\)</span> if and only if there is a set <span class="math inline">\(D \subset X\)</span> that is closed in <span class="math inline">\((X, \T)\)</span> such that <span class="math inline">\(C = D \cap Y\)</span>.</p>
-<p><a href="\work.pdf#page=26">Theorem 3.30:</a> Let <span class="math inline">\((Y, \T_Y)\)</span> be a subspace of <span class="math inline">\((X,\T)\)</span>. If <span class="math inline">\(\B\)</span> is a <a href="https://bncling.github.io/math-wiki/basis/">basis</a> for <span class="math inline">\(\T\)</span>, then <span class="math inline">\(\B_Y = \{B \cap Y \mid B \in \B \}\)</span> is a basis for <span class="math inline">\(\T_Y\)</span>.</p>
-<p><a href="\work.pdf#page=39">Theorems 4.19 and 4.20:</a> Every subspace of a <a href="https://bncling.github.io/math-wiki/hausdorff/">Hausdorff</a> space is Hausdorff and every subspace of a <a href="https://bncling.github.io/math-wiki/regular/">regular</a> space is regular.</p>
-<p><a href="\work.pdf#page=39">Theorem 4.23:</a> If <span class="math inline">\((Y, \T_Y)\)</span> is a subspace of <span class="math inline">\((X, \T)\)</span> where <span class="math inline">\(Y\)</span> is closed in <span class="math inline">\((X, \T)\)</span> and <span class="math inline">\((X, \T)\)</span> is <a href="https://bncling.github.io/math-wiki/normal/">normal</a>, then <span class="math inline">\((Y, \T_Y)\)</span> is normal as well.</p>
-<p><a href="\work.pdf#page=40">Theorem 4.25:</a> Let <span class="math inline">\((Y, \T_Y)\)</span> be a subspace of <span class="math inline">\((X, \T)\)</span> and let <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> be disjoint closed sets in <span class="math inline">\((Y, \T_Y)\)</span>. Then we have that <span class="math inline">\(\overline{A} \cap B = A \cap \overline{B} = \emptyset\)</span> where the <a href="https://bncling.github.io/math-wiki/closure/">closures</a> are taken in <span class="math inline">\((X, \T)\)</span>. That is, <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are <a href="https://bncling.github.io/math-wiki/completely_normal/">separated</a>.</p>
-<h2 id="examples">Examples</h2>
-<p>The set <span class="math inline">\(Y =\)</span> <span class="math inline">\([0,1)\)</span> is a subset of <span class="math inline">\(\R\)</span> and therefore it is a subspace of <span class="math inline">\(\R\)</span> with the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a>. The set <span class="math inline">\((-1,\frac{1}{2})\)</span> is open in <span class="math inline">\(\Rs\)</span>, so the set <span class="math inline">\(Y \cap (-1, \frac{1}{2}) = [0, \frac{1}{2})\)</span> is open in <span class="math inline">\((Y, \T_Y)\)</span> even though it is not open in <span class="math inline">\(\Rs\)</span>. The complement of <span class="math inline">\([0, \frac{1}{2})\)</span> in <span class="math inline">\(Y\)</span> is <span class="math inline">\([ \frac{1}{2}, 1)\)</span>, which is therefore closed in <span class="math inline">\((Y, \T_Y)\)</span> even though it is not closed in <span class="math inline">\(\Rs\)</span>.</p>
+<p>If a space <span class="math inline">\((X, \T)\)</span> is <a href="https://bncling.github.io/math-wiki/t5/"><span class="math inline">\(T_5\)</span></a>, it is also completely normal by definition.</p>
+<p>Being normal does not necessarily imply being <a href="https://bncling.github.io/math-wiki/t3/"><span class="math inline">\(T_3\)</span></a>, <a href="https://bncling.github.io/math-wiki/regular/">regular</a>, <a href="https://bncling.github.io/math-wiki/hausdorff/">Hausdorff</a>, or <a href="https://bncling.github.io/math-wiki/t1/"><span class="math inline">\(T_1\)</span></a>, but it does imply being <a href="https://bncling.github.io/math-wiki/normal/">normal</a> since disjoint <a href="https://bncling.github.io/math-wiki/closed_sets/">closed sets</a> are separated.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
