@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Subspaces of a vector space - Ben Clingenpeel</title>
+    
+    <meta name="description" content="Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
+Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
+ additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u &#43; v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).">
+    <meta name="author" content="">
+    
+    <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://bncling.github.io/style.css" rel="stylesheet">
+    <link href="https://bncling.github.io/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="generator" content="Hugo 0.84.4" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('light');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('light');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://bncling.github.io/">Ben Clingenpeel</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/animations/">Animations</a>
+          </li>
+          <li>
+            <a href="/math-wiki/">Math Wikis</a>
+          </li>
+          <li>
+            <a href="/posts/">Posts</a>
+          </li>
+          <li>
+            <a href="/tags/">Tags</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Subspaces of a vector space</h1>
+    <div class="post-meta">July 15, 2021</div>
+  </header>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(V\)</span> be a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a>. A subset <span class="math inline">\(U\)</span> of <span class="math inline">\(V\)</span> is a subspace of <span class="math inline">\(V\)</span> if and only if it is also a vector space.</p>
+<h2 id="properties">Properties</h2>
+<p>Since many properties of the vector space <span class="math inline">\(V\)</span> are inherited, a subset <span class="math inline">\(U\)</span> is a subspace provided it satisfies the following:</p>
+<ul>
+<li><strong>additive identity:</strong> <span class="math inline">\(0 \in U\)</span>;</li>
+<li><strong>closed under addition:</strong> <span class="math inline">\(u,v \in U\)</span> implies <span class="math inline">\(u + v \in U\)</span>;</li>
+<li><strong>closed under scalar multiplication:</strong> <span class="math inline">\(a \in \F\)</span>, <span class="math inline">\(v \in V\)</span> implies <span class="math inline">\(av \in U\)</span>.</li>
+</ul>
+<p>But, just to double check…</p>
+<ul>
+<li>vector addition in <span class="math inline">\(U\)</span> is commutative because vectors in <span class="math inline">\(U\)</span> are also vectors in <span class="math inline">\(V\)</span>, a vector space;</li>
+<li>vector addition in <span class="math inline">\(U\)</span> is associative because vectors in <span class="math inline">\(U\)</span> are also vectors in <span class="math inline">\(V\)</span>, a vector space, and addition in <span class="math inline">\(\F\)</span> is associative since <span class="math inline">\(V\)</span> is also a vector space over <span class="math inline">\(\F\)</span>;</li>
+<li>assuming the above three properties hold, <span class="math inline">\(0 \in U\)</span>, so there exists an additive identity;</li>
+<li><span class="math inline">\(u \in U\)</span> implies <span class="math inline">\((-1)u \in U\)</span> since <span class="math inline">\(U\)</span> is closed under scalar multiplication, so every vector in <span class="math inline">\(U\)</span> has an additive inverse;</li>
+<li><span class="math inline">\(1u = u\)</span> for all vectors <span class="math inline">\(u \in U\)</span> since vectors in <span class="math inline">\(U\)</span> are also vectors in <span class="math inline">\(V\)</span>, in which <span class="math inline">\(1v = v\)</span> for all <span class="math inline">\(v \in V\)</span>;</li>
+<li>the distributive properties hold for vectors in <span class="math inline">\(U\)</span> since vectors in <span class="math inline">\(U\)</span> are also vectors in <span class="math inline">\(V\)</span>, a vector space.</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<p>If <span class="math inline">\(b = 0\)</span>, then <span class="math inline">\(U = \{(x_1, x_2, x_3, x_4) \in \F^4 \mid x_3 = 5x_4 + b\}\)</span> is a subspace of <span class="math inline">\(\F^4\)</span> since</p>
+<ul>
+<li><span class="math inline">\((0,0,0,0)\)</span> satisfies <span class="math inline">\(0 = 5(0)\)</span>;</li>
+<li><span class="math inline">\((x_1, x_2, 5x_4, x_4) + (y_1, y_2, 5y_4, y_4) = (x_1 + y_1, x_2 + y_2, 5(x_4 + y_4), x_4 + y_4)\)</span>;</li>
+<li><span class="math inline">\(a \cdot (x_1, x_2, 5x_4, x_4) = (ax_1, ax_2, 5(ax_4), x_4)\)</span>.</li>
+</ul>
+<p>If <span class="math inline">\(b \neq 0\)</span>, then <span class="math inline">\(U\)</span> is not a subspace since <span class="math inline">\((0,0,0,0)\)</span> has <span class="math inline">\(x_3 = 0 \neq b = 5(0) + b = 5x_4 + b\)</span>.</p>
+<p>The set <span class="math inline">\(U = \{p \in \P(\F): p(3) = b\}\)</span> is a subspace of <span class="math inline">\(\P(\F)\)</span> (the set of polynomial <a href="https://bncling.github.io/math-wiki/function/">functions</a> <span class="math inline">\(p: \F \to \F\)</span>) if and only if <span class="math inline">\(b = 0\)</span> for similar reasons.</p>
+<ul>
+<li>The zero polynomial <span class="math inline">\(p(z) = 0\)</span> has <span class="math inline">\(p(3) = 0\)</span>;</li>
+<li>If <span class="math inline">\(p, q \in U\)</span>, then <span class="math inline">\((p+q)(3) = p(3) + q(3) = 0\)</span>, so <span class="math inline">\(p+q \in U\)</span>;</li>
+<li>If <span class="math inline">\(p \in U\)</span> and <span class="math inline">\(a \in \F\)</span>, then <span class="math inline">\((ap)(3) = ap(3) = a(0) = 0\)</span>, so <span class="math inline">\(ap \in U\)</span>.</li>
+</ul>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/linear_algebra">linear_algebra</a></li>
+    </ul>
+  </footer>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\P":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</article></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://bncling.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\P":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</html>
+

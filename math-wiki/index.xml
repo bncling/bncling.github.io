@@ -8,9 +8,61 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Direct sums of subspaces</title>
+      <link>https://bncling.github.io/math-wiki/subspace_direct_sums/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/subspace_direct_sums/</guid>
+      <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\) such that the sum \(U_1 + \dots + U_m\) is the whole space \(V\). If each element \(v \in V\) can be written uniquely as a sum \(u_1 + \dots + u_m\) where each \(u_i \in U_i\). In this case, we write \(V = U_1 \oplus \dots \oplus U_m\).
+Properties Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).</description>
+    </item>
+    
+    <item>
+      <title>Subspaces of a vector space</title>
+      <link>https://bncling.github.io/math-wiki/linalg_subspaces/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linalg_subspaces/</guid>
+      <description>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
+Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
+ additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u + v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).</description>
+    </item>
+    
+    <item>
+      <title>Sums of subspaces</title>
+      <link>https://bncling.github.io/math-wiki/subspace_sums/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/subspace_sums/</guid>
+      <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 + \dots + U_m = \{u_1 + \dots + u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
+Properties The sum of subspaces \(U_1 + \dots + U_m\) is a subspace.
+ \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 + \dots + 0}^{m \text{ times}} \in U_1 + \dots + U_m\).</description>
+    </item>
+    
+    <item>
+      <title>Vector spaces</title>
+      <link>https://bncling.github.io/math-wiki/vector_space/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
+      <description>Definition A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
+    </item>
+    
+    <item>
+      <title>$T_4$ spaces</title>
+      <link>https://bncling.github.io/math-wiki/t4/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/t4/</guid>
+      <description>Definition Let \((X, \T)\) be a topological space. It is \(T_4\) if and only if it is both \(T_1\) and normal.
+Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also normal, \(T_3\), regular, Hausdorff, and \(T_1\).</description>
+    </item>
+    
+    <item>
       <title>$T_5$ spaces</title>
       <link>https://bncling.github.io/math-wiki/t5/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/t5/</guid>
       <description>Definition Let \((X, \T)\) be a topological space. It is \(T_5\) if and only if it is both \(T_1\) and completely normal.
@@ -20,30 +72,31 @@ Properties Theorem 4.7: If a space \((X, \T)\) is \(T_5\), it is also completely
     <item>
       <title>Completely normal spaces</title>
       <link>https://bncling.github.io/math-wiki/completely_normal/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/completely_normal/</guid>
       <description>Definitions Two sets \(A\) and \(B\) in a topological space are separated if and only if \(\overline{A} \cap B = \emptyset\) and \(A \cap \overline{B} = \emptyset\).
 A topological space \((X, \T)\) is completely normal if and only if for any two separated sets \(A\) and \(B\), there exist open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset A\).
-Properties If a space \((X, \T)\) is \(T_5\), it is also completely normal by definition.</description>
+Properties Theorem 4.26: A topological space \((X, \T)\) is completely normal if and only if it is hereditarily normal.</description>
     </item>
     
     <item>
       <title>Heredity</title>
       <link>https://bncling.github.io/math-wiki/heredity/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/heredity/</guid>
       <description>What properties do subspaces inherit?
 Definition Let \(P\) be a property of a topological space \((X, \T)\). Then the space is hereditarily \(P\) if and only if every subspace \(Y \subset X\) with the relative topology \(\T_Y\) also has the property \(P\).
+Properties Theorem 4.26: A topological space \((X, \T)\) is hereditarily normal if and only if it is completely normal.
 Examples Theorem 4.19: Hausdorff spaces are hereditarily Hausdorff.
-Theorem 4.20: Regular spaces are hereditarily regular.</description>
+Theorem 4.</description>
     </item>
     
     <item>
       <title>Subspaces in topology</title>
       <link>https://bncling.github.io/math-wiki/top_subspaces/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/top_subspaces/</guid>
       <description>Much like in other areas, a subspace is a subset that still has extra structure.
@@ -255,16 +308,6 @@ Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is als
       <guid>https://bncling.github.io/math-wiki/t3/</guid>
       <description>Definition Let \((X, \T)\) be a topological space. It is \(T_3\) if and only if it is both \(T_1\) and regular.
 Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also \(T_3\), and therefore also regular, Hausdorff, and \(T_1\).</description>
-    </item>
-    
-    <item>
-      <title>$T_4$ spaces</title>
-      <link>https://bncling.github.io/math-wiki/t4/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/t4/</guid>
-      <description>Definition Let \((X, \T)\) be a topological space. It is \(T_4\) if and only if it is both \(T_1\) and normal.
-Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also normal, \(T_3\), regular, Hausdorff, and \(T_1\).</description>
     </item>
     
     <item>

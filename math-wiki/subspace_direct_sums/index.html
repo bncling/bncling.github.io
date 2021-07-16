@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Direct sums of subspaces - Ben Clingenpeel</title>
+    
+    <meta name="description" content="Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\) such that the sum \(U_1 &#43; \dots &#43; U_m\) is the whole space \(V\). If each element \(v \in V\) can be written uniquely as a sum \(u_1 &#43; \dots &#43; u_m\) where each \(u_i \in U_i\). In this case, we write \(V = U_1 \oplus \dots \oplus U_m\).
+Properties Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).">
+    <meta name="author" content="">
+    
+    <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://bncling.github.io/style.css" rel="stylesheet">
+    <link href="https://bncling.github.io/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="generator" content="Hugo 0.84.4" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('light');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('light');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://bncling.github.io/">Ben Clingenpeel</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/animations/">Animations</a>
+          </li>
+          <li>
+            <a href="/math-wiki/">Math Wikis</a>
+          </li>
+          <li>
+            <a href="/posts/">Posts</a>
+          </li>
+          <li>
+            <a href="/tags/">Tags</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Direct sums of subspaces</h1>
+    <div class="post-meta">July 16, 2021</div>
+  </header>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(U_1, \dots, U_m\)</span> be <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspaces</a> of a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a> <span class="math inline">\(V\)</span> such that the <a href="https://bncling.github.io/math-wiki/subspace_sums/">sum</a> <span class="math inline">\(U_1 + \dots + U_m\)</span> is the whole space <span class="math inline">\(V\)</span>. If each element <span class="math inline">\(v \in V\)</span> can be written <em>uniquely</em> as a sum <span class="math inline">\(u_1 + \dots + u_m\)</span> where each <span class="math inline">\(u_i \in U_i\)</span>. In this case, we write <span class="math inline">\(V = U_1 \oplus \dots \oplus U_m\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>Let <span class="math inline">\(U_1, \dots, U_n\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span>. Then <span class="math inline">\(V = U_1 \oplus \dots \oplus U_n\)</span> if and only if both</p>
+<ul>
+<li><span class="math inline">\(V = U_1 + \dots + U_n\)</span>, and</li>
+<li>the only way to write <span class="math inline">\(0\)</span> as a sum <span class="math inline">\(u_1 + \dots + u_n\)</span> where <span class="math inline">\(u_i \in U_i\)</span> is by setting <span class="math inline">\(u_i = 0\)</span> for all <span class="math inline">\(i = 1, \dots, n\)</span>.</li>
+</ul>
+<p>Let <span class="math inline">\(U\)</span> and <span class="math inline">\(W\)</span> be subspaces of a vector space <span class="math inline">\(V\)</span>. Then <span class="math inline">\(V = U \oplus W\)</span> if and only if <span class="math inline">\(V = U + W\)</span> and <span class="math inline">\(U \cap W = \{0\}\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>Let <span class="math inline">\(U_i\)</span> be the subspace of <span class="math inline">\(\F^n\)</span> containing vectors with coordinates all equal to zero except possibly the <span class="math inline">\(i\)</span>th coordinate, that is, <span class="math display">\[U_i = \{ (0, \dots, x, \dots, 0) \in \F^n \mid x \in \F \}.\]</span> Then <span class="math inline">\(\F^n = U_1 \oplus \dots \oplus U_n\)</span> is the direct sum of the <span class="math inline">\(U_i\)</span> since <span class="math inline">\(v \in V\)</span> has a unique representation as <span class="math inline">\(v = (v_1, \dots, v_n) = u_1 + \dots + u_n\)</span> where <span class="math inline">\(u_i = (0, \dots, v_i, \dots, 0) \in U_i\)</span>.</p>
+<p>The set <span class="math inline">\(U_e\)</span> containing <a href="https://bncling.github.io/math-wiki/function/">polynomials</a> <span class="math inline">\(p\)</span> of the form <span class="math inline">\(p(z) = a_0 + a_2 z^2 + \dots + a_{2m} z^{2m}\)</span> is a subspace of <span class="math inline">\(\P(\F)\)</span>, as is the set <span class="math inline">\(U_o\)</span> containing polynomials of the form <span class="math inline">\(p(z) = a_1 z + \dots + a_{2m + 1} z^{2m + 1}\)</span> (<span class="math inline">\(m \in \N\)</span> and <span class="math inline">\(a_i \in \F\)</span>). Then we have that <span class="math inline">\(\P(\F) = U_e \oplus U_o\)</span> is the direct sum of the set of even polynomials and the set of odd polynomials.</p>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/linear_algebra">linear_algebra</a></li>
+    </ul>
+  </footer>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\P":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</article></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://bncling.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\P":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</html>
+
