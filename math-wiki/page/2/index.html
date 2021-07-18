@@ -102,139 +102,145 @@
 
 
 <p>This is a collection of several brief explanations of various math concepts / objects I’ve come across, organized into one nice central location for my own use.</p>
-<p>In pages with the <a href="https://bncling.github.io/tags/topology/">topology tag</a>, there are sometimes references to theorems, lemmas, and exercises from the book <em>Topology Through Inquiry</em> by Michael Starbird and Francis Su that I’ve been working with this summer. The theorems that are referenced in these pages are (usually) ones that I’ve proven (or at least tried to prove—no guarantees all the proofs work), and you can find a compilation of all the work I’ve done <a href="https://bncling.github.io/math-wiki/top_selfstudy/">here</a>.</p>
+<p>In pages with the <a href="https://bncling.github.io/tags/topology/">“topology” tag</a>, there are sometimes references to theorems, lemmas, and exercises from the book <a href="https://bookstore.ams.org/text-58/"><em>Topology Through Inquiry</em></a> by Michael Starbird and Francis Su that I’ve been working with this summer. The theorems that are referenced in these pages are (usually) ones that I’ve proven (or at least tried to prove—no guarantees all the proofs work), and you can find a compilation of all the work I’ve done <a href="https://bncling.github.io/math-wiki/top_selfstudy/">here</a>.</p>
+<p>In pages with the <a href="https://bncling.github.io/tags/topology/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>.</p>
 <p>The collection is currently organized to have the latest updated pages at the top, but I might be looking to change that at some point.</p>
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Fineness and Coarseness</h2>
+    <h2>Subspaces in topology</h2>
   </header>
   <section class="entry-content">
-   <p>Given two topologies on a set \(X\), we can compare them with the notions of fineness and coarseness. You can think about the fineness of a topology determining the amount you can see (you “see” the open sets) when looking at the set \(X\). If a topology is very fine, you can see a lot of open sets, but if the topology is very coarse, things are “blurry” because there are few open sets....</p>
+   <p>Much like in other areas, a subspace is a subset that still has extra structure.
+Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \(X\). The collection \[\T_Y = \{ U \mid U = V \cap Y \text{ for some } V \in \T \}\] is a topology on \(Y\) called the subspace topology or the relative topology on \(Y\) inherited from \(X\). The space \((Y, \T_Y)\) is called a (topological) subspace of \((X, \T)\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/fine_coarse/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_subspaces/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Functions</h2>
+    <h2>Subspaces of a vector space</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\).
-We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
-Notation If \((a,b) \in f\), we write \(f(a)=b\).
-Examples Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x^k....</p>
+   <p>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
+Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
+ additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u &#43; v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/function/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_subspaces/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Infimum and supremum</h2>
+    <h2>The Double Headed Snake</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions Let \(A \subset \mathbb{R}\).
- We say \(c \in \mathbb{R}\) is an upper bound of \(A\) if and only if \(c \geq a\) for all \(a \in A\). We say \(c \in \mathbb{R}\) is a lower bound of \(A\) if and only if \(c \leq a\) for all \(a \in A\). We say \(c \in \mathbb{R}\) is the greatest/largest/maximum element of \(A\) if and only if \(c\) is an upper bound of \(A\) and \(c \in A\)....</p>
+   <p>The body is the positive real line and the two heads are the points \(0&#39;\) and \(0&#39;&#39;\).
+Definition The Double Headed Snake is the topological space on the set \(\R_{&#43;00}\) of all positive real numbers together with the numbers \(0&#39;\) and \(0&#39;&#39;\) that is generated by the basis \(\B\) containing sets of the form \((a,b)\), \((0,b) \cup \{0&#39;\}\), and \((0,b) \cup \{0&#39;&#39;\}\) where \(a,b \in \mathbb{R}\).
+Properties Separation properties  \(T_1\)-space Not Hausdorff (can’t separate \(0&#39;\) and \(0&#39;&#39;\)) Not regular or a \(T_3\)-space Not normal or a \(T_4\)-space  ...</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/inf_sup/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/double_headed_snake/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Intermediate Value Theorem (IVT)</h2>
+    <h2>The Moore plane</h2>
   </header>
   <section class="entry-content">
-   <p>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
-Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &lt; L\) (\(f(a) &gt; L\)). Then there exists a \(\delta &gt; 0\) such that \(\vert x - a \vert &lt; \delta\) implies that \(f(x) &lt; L\) (\(f(x) &gt; L\))....</p>
+   <p>Also called the Upper Half-Plane with the Sticky Bubble Topology and denoted \(\Hbub\) in the textbook I’ve been using.
+Definition Let \(\mathbb{H} = \{(x,y) \mid x,y \in \mathbb{R}, y \geq 0\}\). The Moore plane is this set with the topology generated by the basis containing - all balls of the form \(B((x,y), r)\) where \(0&lt;r \leq y\), and - all balls of the form \(B((x,y),r) \cup \{(x,0)\}\) where \(r = y &gt; 0\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/ivt/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/moore_plane/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>My Topology self-study work</h2>
+    <h2>The product topology</h2>
   </header>
   <section class="entry-content">
-   <p>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here....</p>
+   <p>Definitely review the page on infinite cartesian products for this one.
+Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a collection of topological spaces. We can define a topology on the product \(\prod_{\alpha \in \lambda} X_\alpha\) generated by the subbasis consisting of sets of the form \(\pi_\beta\inv (U_\beta)\) where \(\pi_\beta\) is a projection function, \(\beta \in \lambda\), and \(U_\beta\) is open in the space \((X_\beta, \T_\beta)\). We call this topology the product topology....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_selfstudy/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/product_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Open sets</h2>
+    <h2>The Sorgenfrey line</h2>
   </header>
   <section class="entry-content">
-   <p>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
-Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open....</p>
+   <p>It’s like \(\R\) but finer and… worse. It’s a topological space also known as the lower limit topology on \(\R\), sometimes denoted \(\RLL\) or \(\mathbb{R}_{\text{bad}}^1\).
+Definition The Sorgenfrey Line is the topological space on \(\mathbb{R}\) generated by the basis of sets of the form \([a, b) = \{x \in \mathbb{R} \mid a \leq x &lt; b\}\) for \(a, b \in \mathbb{R}\).
+Properties Separation properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space Normal and a \(T_4\)-space  ...</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_sets/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lower_limit_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Order topology</h2>
+    <h2>The standard topology</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \(X\) be a set totally ordered by a relation \(\leq\). The order topology on \(X\) is the topology generated by the basis \(\B\) where \(\B\) is the collection of subsets of \(X\) of the form \(\{x \in X \mid x &lt; a\}\), \(\{x \in X \mid a &lt; x\}\), or \(\{x \in X \mid a &lt; x &lt; b\}\) for \(a, b \in X\).
-Properties If \(X\) is a set totally ordered by a relation \(\leq\), then the order topology on \(X\) has a subbasis \(\Sub\) containing sets of the form \(\{x \in X \mid x &lt; a\}\) or \(\{x \in X \mid a &lt; x\}\)....</p>
+   <p>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
+Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
+An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &lt; \varepsilon\}\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/order_topology/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/standard_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Power sets</h2>
+    <h2>The topologist&#39;s sine curve</h2>
   </header>
   <section class="entry-content">
-   <p>Content coming soon....</p>
+   <p>A set in the standard topology on \(\mathbb{R}^2\).
+Definition In \((\mathbb{R}^2, \mathcal{T}_\text{std})\), the topologist’s sine curve is the set \[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]
+Properties Every point in the set \(\{(0,y) \mid -1 \leq y \leq 1 \}\) is a limit point of the topologist’s sine curve.
+Since none of the above points are in \(S\), \(S\) is not closed....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/power_set/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_sine/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Real number exponents</h2>
+    <h2>Vector spaces</h2>
   </header>
   <section class="entry-content">
-   <p>If \(a&gt;0\) and \(r\) are real numbers, does \(a^r\) make sense? We need to extend exponentiation beyond repeated multiplication…
-\(n\)th roots Let \(n \in \N\) be a natural number and let \(a &gt; 0\). Then we define the \(n\)th root of \(a\), written \(a^{\frac{1}{n}}\) or \(\sqrt[n]{a}\) to be the unique positive real number whose \(n\)th power is \(a\).
-Proposition: Such a number \(\sqrt[n]{a}\) exists for all \(a&gt;0\) and \(n \in \N\)....</p>
+   <p>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(&#43;\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u &#43; v = v &#43; u\) for all \(u, v \in V\); associativity: \((u &#43; v) &#43; w = u &#43; (v &#43; w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v &#43; 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v &#43; w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u &#43; v) = au &#43; av\) and \((a &#43; b)v = av &#43; bv\) for all \(v,w \in V\) and \(a,b \in \F\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/real_exponents/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/vector_space/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The boundedness theorem</h2>
+    <h2>What does it mean to be a topology?</h2>
   </header>
   <section class="entry-content">
-   <p>Theorem statement If \(f: [a,b] \to \R\) is a continuous function, then \(f\) is bounded.
-Lemmata Lemma 1: If \(f: \mathcal{D} \to \R\) is continuous at \(a \in \mathcal{D}\), then there exists a \(\delta &gt; 0\) such that \(f\) is bounded on \((a - \delta, a &#43; \delta)\).
-Proof 1: Let \(\varepsilon = 1\). By the continuity of \(f\) at \(a\), choose \(\delta &gt; 0\) such that \(\vert x - a \vert &lt; \delta\) implies \(\vert f(x) - f(a) \vert &lt; \varepsilon = 1\)....</p>
+   <p>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
+Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:...</p>
   </section>
   <footer class="entry-footer">
-    <time>July 12, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/boundedness_thm/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/topology_def/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -278,7 +284,7 @@ Proof 1: Let \(\varepsilon = 1\). By the continuity of \(f\) at \(a\), choose \(
             "\\C":"\\mathbb{C}",
             "\\Even":"\\mathbb{E}",
             "\\Odd":"\\mathbb{O}",
-            "\\P":"\\mathcal{P}",
+            "\\Poly":"\\mathcal{P}",
             "\\st":"\\text{ s.t. }",
             "\\T":"\\mathcal{T}",
             "\\Ts":"\\mathcal{T}_\\text{std}",
@@ -293,7 +299,9 @@ Proof 1: Let \(\varepsilon = 1\). By the continuity of \(f\) at \(a\), choose \(
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}"
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}"
           },
           
           throwOnError : false

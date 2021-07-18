@@ -104,143 +104,138 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Basis for a topological space</h2>
+    <h2>The standard topology</h2>
   </header>
   <section class="entry-content">
-   <p>Similar to the ideas behind bases in other areas of math.
-Definition Let \((X, \T)\) be a topological space and let \(\B \subset \T\). \(\B\) is a basis for the topology \(\T\) if and only if every open set is the union of elements of \(\B\).
-If \(\mathcal{B}\) is a basis, we call \(B \in \B\) a basic open set.
-Properties Theorem 3.1: A set \(\mathcal{B}\) is the basis for a given topology \(\mathcal{T}\) on a set \(X\) if and only if...</p>
+   <p>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
+Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
+An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &lt; \varepsilon\}\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 11, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/basis/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/standard_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Closures</h2>
+    <h2>The topologist&#39;s sine curve</h2>
   </header>
   <section class="entry-content">
-   <p>Taking a set and adding a few points to make it closed.
-Definition Let \((X, \mathcal{T})\) be a topological space with \(A \subset X\). The closure of \(A\) in \(X\), denoted \(\overline{A}\), Cl\((A)\), or Cl\(_X(A)\) is the set \(A\) together with all its limit points in \(X\).
-Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\) in a topological space \((X, \mathcal{T})\), we have that \(\overline{\overline{A}} = \overline{A}\)....</p>
+   <p>A set in the standard topology on \(\mathbb{R}^2\).
+Definition In \((\mathbb{R}^2, \mathcal{T}_\text{std})\), the topologist’s sine curve is the set \[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]
+Properties Every point in the set \(\{(0,y) \mid -1 \leq y \leq 1 \}\) is a limit point of the topologist’s sine curve.
+Since none of the above points are in \(S\), \(S\) is not closed....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 11, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/closure/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_sine/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Subbasis for a topological space</h2>
+    <h2>What does it mean to be a topology?</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space and let \(\Sub \subset \T\). \(\Sub\) is a subbasis for the topology \(\T\) if and only if the collection \(\B\) of all finite intersections of sets in \(\Sub\) is a basis for \(\T\).
-If \(\Sub\) is a subbasis, we call \(S \in \Sub\) a subbasic open set.
-Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is also a subbasis....</p>
+   <p>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
+Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:...</p>
   </section>
   <footer class="entry-footer">
-    <time>July 11, 2021</time>
+    <time>July 17, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subbasis/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/topology_def/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The lexicographically ordered square</h2>
+    <h2>$T_4$ spaces</h2>
   </header>
   <section class="entry-content">
-   <p>Sets have interesting closures.
-Definition The unit square \([0,1] \times [0,1]\) is totally ordered by the lexicographic order, and the lexicographically ordered square is the topological space formed from the unit square together with the associated order topology.
-Properties Many sets have very interesting, unexpected closures. See Exercise 3.21.
-Separation Properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space Normal and a \(T_4\)-space  These follow from the fact that this is a space with an order topology....</p>
+   <p>Definition Let \((X, \T)\) be a topological space. It is \(T_4\) if and only if it is both \(T_1\) and normal.
+Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also normal, \(T_3\), regular, Hausdorff, and \(T_1\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 11, 2021</time>
+    <time>July 14, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lex_square/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/t4/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The product topology</h2>
+    <h2>$T_5$ spaces</h2>
   </header>
   <section class="entry-content">
-   <p>Definitely review the page on infinite cartesian products for this one.
-Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a collection of topological spaces. We can define a topology on the product \(\prod_{\alpha \in \lambda} X_\alpha\) generated by the subbasis consisting of sets of the form \(\pi_\beta\inv (U_\beta)\) where \(\pi_\beta\) is a projection function, \(\beta \in \lambda\), and \(U_\beta\) is open in the space \((X_\beta, \T_\beta)\). We call this topology the product topology....</p>
+   <p>Definition Let \((X, \T)\) be a topological space. It is \(T_5\) if and only if it is both \(T_1\) and completely normal.
+Properties Theorem 4.7: If a space \((X, \T)\) is \(T_5\), it is also completely normal by definition, normal since disjoint closed sets are separated, \(T_3\), regular, Hausdorff, and \(T_1\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 11, 2021</time>
+    <time>July 14, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/product_topology/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/t5/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>A big table of spaces and separation properties</h2>
+    <h2>Completely normal spaces</h2>
   </header>
   <section class="entry-content">
-   <p>    Topological space \(T_1\) Hausdorff Regular Normal    \(\Rs\) ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✗ ✗  Discrete topology ✓ ✓ ✓ ✓  Finite complement (infinite set) ✓ ✗ ✗ ✗  Countable complement (uncountable set) ✓ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓  Double Headed Snake ✓ ✗ ✗ ✗  K-topology ✓ ✓ ✗ ✗  Moore plane ✓ ✓ ✓   Arithmetic progressions      Lexicographically ordered square ✓ ✓ ✓ ✓  Order topologies ✓ ✓ ✓ ✓  Product topology (on spaces all of which satisfy a given property) ✓ ✓ ✓     ...</p>
+   <p>Definitions Two sets \(A\) and \(B\) in a topological space are separated if and only if \(\overline{A} \cap B = \emptyset\) and \(A \cap \overline{B} = \emptyset\).
+A topological space \((X, \T)\) is completely normal if and only if for any two separated sets \(A\) and \(B\), there exist open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset A\).
+Properties Theorem 4.26: A topological space \((X, \T)\) is completely normal if and only if it is hereditarily normal....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 9, 2021</time>
+    <time>July 14, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/posts/separation_table/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/completely_normal/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>$T_1$ spaces</h2>
+    <h2>Heredity</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is a \(T_1\)-space if and only if for every pair of distinct points \(x\) and \(y\), there exist open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\) but \(x \notin V\) and \(y \notin U\).
-Properties Theorem 4.1: A space \((X, \T)\) is \(T_1\) if and only if singletons are closed.
-Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is also \(T_1\)....</p>
+   <p>What properties do subspaces inherit?
+Definition Let \(P\) be a property of a topological space \((X, \T)\). Then the space is hereditarily \(P\) if and only if every subspace \(Y \subset X\) with the relative topology \(\T_Y\) also has the property \(P\).
+Properties Theorem 4.26: A topological space \((X, \T)\) is hereditarily normal if and only if it is completely normal.
+Examples Theorem 4.19: Hausdorff spaces are hereditarily Hausdorff.
+Theorem 4....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 9, 2021</time>
+    <time>July 14, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t1/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/heredity/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>$T_3$ spaces</h2>
+    <h2>Fineness and Coarseness</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is \(T_3\) if and only if it is both \(T_1\) and regular.
-Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also \(T_3\), and therefore also regular, Hausdorff, and \(T_1\)....</p>
+   <p>Given two topologies on a set \(X\), we can compare them with the notions of fineness and coarseness. You can think about the fineness of a topology determining the amount you can see (you “see” the open sets) when looking at the set \(X\). If a topology is very fine, you can see a lot of open sets, but if the topology is very coarse, things are “blurry” because there are few open sets....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 9, 2021</time>
+    <time>July 12, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t3/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/fine_coarse/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Countable complement topology</h2>
+    <h2>My Topology self-study work</h2>
   </header>
   <section class="entry-content">
-   <p>Basically what the name makes it sound like. It’s similar in definition to the finite complement topology.
-Definition Let \(X\) be a set. A set \(U\) is in the countable complement topology if and only if \(X - U\) is countable or if \(U = \emptyset\). This topology is also called the cocountable topology.
-Properties Countable sets are closed in this topology.
-For a countable set, the countable complement topology is just the discrete_topology....</p>
+   <p>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 9, 2021</time>
+    <time>July 12, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/countable_complement_topology/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_selfstudy/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Finite complement topology</h2>
+    <h2>Open sets</h2>
   </header>
   <section class="entry-content">
-   <p>Basically what the name makes it sound like. Similar in definition to the countable complement topology.
-Definition Let \(X\) be a set. A set \(U\) is in the finite complement topology if and only if \(X - U\) is finite or if \(U = \emptyset\). This topology is also called the cofinite topology.
-Properties Finite sets are closed in the finite complement topology.
-For a finite set, the finite complement topology is just the discrete topology....</p>
+   <p>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
+Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 9, 2021</time>
+    <time>July 12, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/finite_complement_topology/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_sets/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -284,7 +279,7 @@ For a finite set, the finite complement topology is just the discrete topology..
             "\\C":"\\mathbb{C}",
             "\\Even":"\\mathbb{E}",
             "\\Odd":"\\mathbb{O}",
-            "\\P":"\\mathcal{P}",
+            "\\Poly":"\\mathcal{P}",
             "\\st":"\\text{ s.t. }",
             "\\T":"\\mathcal{T}",
             "\\Ts":"\\mathcal{T}_\\text{std}",
@@ -299,7 +294,9 @@ For a finite set, the finite complement topology is just the discrete topology..
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}"
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}"
           },
           
           throwOnError : false

@@ -115,7 +115,7 @@ Properties Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).">
 <p>Let <span class="math inline">\(U\)</span> and <span class="math inline">\(W\)</span> be subspaces of a vector space <span class="math inline">\(V\)</span>. Then <span class="math inline">\(V = U \oplus W\)</span> if and only if <span class="math inline">\(V = U + W\)</span> and <span class="math inline">\(U \cap W = \{0\}\)</span>.</p>
 <h2 id="examples">Examples</h2>
 <p>Let <span class="math inline">\(U_i\)</span> be the subspace of <span class="math inline">\(\F^n\)</span> containing vectors with coordinates all equal to zero except possibly the <span class="math inline">\(i\)</span>th coordinate, that is, <span class="math display">\[U_i = \{ (0, \dots, x, \dots, 0) \in \F^n \mid x \in \F \}.\]</span> Then <span class="math inline">\(\F^n = U_1 \oplus \dots \oplus U_n\)</span> is the direct sum of the <span class="math inline">\(U_i\)</span> since <span class="math inline">\(v \in V\)</span> has a unique representation as <span class="math inline">\(v = (v_1, \dots, v_n) = u_1 + \dots + u_n\)</span> where <span class="math inline">\(u_i = (0, \dots, v_i, \dots, 0) \in U_i\)</span>.</p>
-<p>The set <span class="math inline">\(U_e\)</span> containing <a href="https://bncling.github.io/math-wiki/function/">polynomials</a> <span class="math inline">\(p\)</span> of the form <span class="math inline">\(p(z) = a_0 + a_2 z^2 + \dots + a_{2m} z^{2m}\)</span> is a subspace of <span class="math inline">\(\P(\F)\)</span>, as is the set <span class="math inline">\(U_o\)</span> containing polynomials of the form <span class="math inline">\(p(z) = a_1 z + \dots + a_{2m + 1} z^{2m + 1}\)</span> (<span class="math inline">\(m \in \N\)</span> and <span class="math inline">\(a_i \in \F\)</span>). Then we have that <span class="math inline">\(\P(\F) = U_e \oplus U_o\)</span> is the direct sum of the set of even polynomials and the set of odd polynomials.</p>
+<p>The set <span class="math inline">\(U_e\)</span> containing <a href="https://bncling.github.io/math-wiki/function/">polynomials</a> <span class="math inline">\(p\)</span> of the form <span class="math inline">\(p(z) = a_0 + a_2 z^2 + \dots + a_{2m} z^{2m}\)</span> is a subspace of <span class="math inline">\(\Poly(\F)\)</span>, as is the set <span class="math inline">\(U_o\)</span> containing polynomials of the form <span class="math inline">\(p(z) = a_1 z + \dots + a_{2m + 1} z^{2m + 1}\)</span> (<span class="math inline">\(m \in \N\)</span> and <span class="math inline">\(a_i \in \F\)</span>). Then we have that <span class="math inline">\(\Poly(\F) = U_e \oplus U_o\)</span> is the direct sum of the set of even polynomials and the set of odd polynomials.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
@@ -147,7 +147,7 @@ Properties Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).">
             "\\C":"\\mathbb{C}",
             "\\Even":"\\mathbb{E}",
             "\\Odd":"\\mathbb{O}",
-            "\\P":"\\mathcal{P}",
+            "\\Poly":"\\mathcal{P}",
             "\\st":"\\text{ s.t. }",
             "\\T":"\\mathcal{T}",
             "\\Ts":"\\mathcal{T}_\\text{std}",
@@ -162,7 +162,9 @@ Properties Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).">
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}"
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}"
           },
           
           throwOnError : false
@@ -206,7 +208,7 @@ Properties Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).">
             "\\C":"\\mathbb{C}",
             "\\Even":"\\mathbb{E}",
             "\\Odd":"\\mathbb{O}",
-            "\\P":"\\mathcal{P}",
+            "\\Poly":"\\mathcal{P}",
             "\\st":"\\text{ s.t. }",
             "\\T":"\\mathcal{T}",
             "\\Ts":"\\mathcal{T}_\\text{std}",
@@ -221,7 +223,9 @@ Properties Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).">
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}"
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}"
           },
           
           throwOnError : false

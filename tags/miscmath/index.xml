@@ -6,7 +6,18 @@
     <description>Recent content in miscmath on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lists</title>
+      <link>https://bncling.github.io/math-wiki/lists/</link>
+      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lists/</guid>
+      <description>Definition Let \(n\) be a nonnegative integer. Then a list of length \(n\) is an ordered collection of \(n\) objects, \((x_1, \dots, x_n)\).
+For \(j \in \{1, \dots, n\}\), we call the element \(x_j\) the \(j\)th coordinate of the list.
+Properties Two lists are equal if and only if they have the same length and the same coordinates in the same order. That is \((x_1, \dots, x_n) = (y_1, \dots, y_m)\) if and only if \(n = m\) and \(x_j = y_j\) for all \(j = 1, \dots, n\).</description>
+    </item>
+    
     <item>
       <title>My Topology self-study work</title>
       <link>https://bncling.github.io/math-wiki/top_selfstudy/</link>

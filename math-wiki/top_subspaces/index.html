@@ -102,7 +102,7 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Subspaces in topology</h1>
-    <div class="post-meta">July 14, 2021</div>
+    <div class="post-meta">July 17, 2021</div>
   </header>
   <div class="post-content"><p>Much like in other areas, a subspace is a subset that still has extra structure.</p>
 <h2 id="definition">Definition</h2>
@@ -111,7 +111,7 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
 <p>If a set <span class="math inline">\(U\)</span> is open in <span class="math inline">\((Y, \T_Y)\)</span>, it is not necessarily open in <span class="math inline">\((X, \T)\)</span>.</p>
 <p><a href="\work.pdf#page=25">Theorem 3.28:</a> Let <span class="math inline">\((Y, \T_Y)\)</span> be a subspace of <span class="math inline">\((X,\T)\)</span>. A subset <span class="math inline">\(C \subset Y\)</span> is <a href="https://bncling.github.io/math-wiki/closed_sets/">closed</a> in <span class="math inline">\((Y, \T_Y)\)</span> if and only if there is a set <span class="math inline">\(D \subset X\)</span> that is closed in <span class="math inline">\((X, \T)\)</span> such that <span class="math inline">\(C = D \cap Y\)</span>.</p>
 <p><a href="\work.pdf#page=39">Corollary 3.29:</a> Let <span class="math inline">\((Y, \T_Y)\)</span> be a subspace of <span class="math inline">\((X, \T)\)</span>. A subset <span class="math inline">\(C \subset Y\)</span> is closed in <span class="math inline">\((Y, \T_Y)\)</span> if and only if <span class="math inline">\(\overline{C} \cap Y = C\)</span> where the closure is taken in <span class="math inline">\((X, \T)\)</span>.</p>
-<p><a href="\work.pdf#page=26">Theorem 3.30:</a> Let <span class="math inline">\((Y, \T_Y)\)</span> be a subspace of <span class="math inline">\((X,\T)\)</span>. If <span class="math inline">\(\B\)</span> is a <a href="https://bncling.github.io/math-wiki/basis/">basis</a> for <span class="math inline">\(\T\)</span>, then <span class="math inline">\(\B_Y = \{B \cap Y \mid B \in \B \}\)</span> is a basis for <span class="math inline">\(\T_Y\)</span>.</p>
+<p><a href="\work.pdf#page=26">Theorem 3.30:</a> Let <span class="math inline">\((Y, \T_Y)\)</span> be a subspace of <span class="math inline">\((X,\T)\)</span>. If <span class="math inline">\(\B\)</span> is a <a href="https://bncling.github.io/math-wiki/top_basis/">basis</a> for <span class="math inline">\(\T\)</span>, then <span class="math inline">\(\B_Y = \{B \cap Y \mid B \in \B \}\)</span> is a basis for <span class="math inline">\(\T_Y\)</span>.</p>
 <p><a href="\work.pdf#page=39">Theorems 4.19 and 4.20:</a> Every subspace of a <a href="https://bncling.github.io/math-wiki/hausdorff/">Hausdorff</a> space is Hausdorff and every subspace of a <a href="https://bncling.github.io/math-wiki/regular/">regular</a> space is regular.</p>
 <p><a href="\work.pdf#page=39">Theorem 4.23:</a> If <span class="math inline">\((Y, \T_Y)\)</span> is a subspace of <span class="math inline">\((X, \T)\)</span> where <span class="math inline">\(Y\)</span> is closed in <span class="math inline">\((X, \T)\)</span> and <span class="math inline">\((X, \T)\)</span> is <a href="https://bncling.github.io/math-wiki/normal/">normal</a>, then <span class="math inline">\((Y, \T_Y)\)</span> is normal as well.</p>
 <p><a href="\work.pdf#page=40">Theorem 4.25:</a> Let <span class="math inline">\((Y, \T_Y)\)</span> be a subspace of <span class="math inline">\((X, \T)\)</span> and let <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> be disjoint closed sets in <span class="math inline">\((Y, \T_Y)\)</span>. Then we have that <span class="math inline">\(\overline{A} \cap B = A \cap \overline{B} = \emptyset\)</span> where the <a href="https://bncling.github.io/math-wiki/closure/">closures</a> are taken in <span class="math inline">\((X, \T)\)</span>. That is, <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are <a href="https://bncling.github.io/math-wiki/completely_normal/">separated</a>.</p>
@@ -148,7 +148,7 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
             "\\C":"\\mathbb{C}",
             "\\Even":"\\mathbb{E}",
             "\\Odd":"\\mathbb{O}",
-            "\\P":"\\mathcal{P}",
+            "\\Poly":"\\mathcal{P}",
             "\\st":"\\text{ s.t. }",
             "\\T":"\\mathcal{T}",
             "\\Ts":"\\mathcal{T}_\\text{std}",
@@ -163,7 +163,9 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}"
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}"
           },
           
           throwOnError : false
@@ -207,7 +209,7 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
             "\\C":"\\mathbb{C}",
             "\\Even":"\\mathbb{E}",
             "\\Odd":"\\mathbb{O}",
-            "\\P":"\\mathcal{P}",
+            "\\Poly":"\\mathcal{P}",
             "\\st":"\\text{ s.t. }",
             "\\T":"\\mathcal{T}",
             "\\Ts":"\\mathcal{T}_\\text{std}",
@@ -222,7 +224,9 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}"
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}"
           },
           
           throwOnError : false

@@ -103,7 +103,7 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Subspaces of a vector space</h1>
-    <div class="post-meta">July 15, 2021</div>
+    <div class="post-meta">July 17, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>Let <span class="math inline">\(V\)</span> be a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a>. A subset <span class="math inline">\(U\)</span> of <span class="math inline">\(V\)</span> is a subspace of <span class="math inline">\(V\)</span> if and only if it is also a vector space.</p>
@@ -131,11 +131,17 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
 <li><span class="math inline">\(a \cdot (x_1, x_2, 5x_4, x_4) = (ax_1, ax_2, 5(ax_4), x_4)\)</span>.</li>
 </ul>
 <p>If <span class="math inline">\(b \neq 0\)</span>, then <span class="math inline">\(U\)</span> is not a subspace since <span class="math inline">\((0,0,0,0)\)</span> has <span class="math inline">\(x_3 = 0 \neq b = 5(0) + b = 5x_4 + b\)</span>.</p>
-<p>The set <span class="math inline">\(U = \{p \in \P(\F): p(3) = b\}\)</span> is a subspace of <span class="math inline">\(\P(\F)\)</span> (the set of polynomial <a href="https://bncling.github.io/math-wiki/function/">functions</a> <span class="math inline">\(p: \F \to \F\)</span>) if and only if <span class="math inline">\(b = 0\)</span> for similar reasons.</p>
+<p>The set <span class="math inline">\(U = \{p \in \Poly(\F): p(3) = b\}\)</span> is a subspace of <span class="math inline">\(\Poly(\F)\)</span> (the set of <a href="https://bncling.github.io/math-wiki/function/">polynomials</a> <span class="math inline">\(p: \F \to \F\)</span>) if and only if <span class="math inline">\(b = 0\)</span> for similar reasons.</p>
 <ul>
-<li>The zero polynomial <span class="math inline">\(p(z) = 0\)</span> has <span class="math inline">\(p(3) = 0\)</span>;</li>
-<li>If <span class="math inline">\(p, q \in U\)</span>, then <span class="math inline">\((p+q)(3) = p(3) + q(3) = 0\)</span>, so <span class="math inline">\(p+q \in U\)</span>;</li>
+<li>The zero polynomial <span class="math inline">\(p(z) = 0\)</span> has <span class="math inline">\(p(3) = 0\)</span>.</li>
+<li>If <span class="math inline">\(p, q \in U\)</span>, then <span class="math inline">\((p+q)(3) = p(3) + q(3) = 0\)</span>, so <span class="math inline">\(p+q \in U\)</span>.</li>
 <li>If <span class="math inline">\(p \in U\)</span> and <span class="math inline">\(a \in \F\)</span>, then <span class="math inline">\((ap)(3) = ap(3) = a(0) = 0\)</span>, so <span class="math inline">\(ap \in U\)</span>.</li>
+</ul>
+<p><span class="math inline">\(\Poly_n (\F)\)</span>, the set of polynomials with coefficients in <span class="math inline">\(\F\)</span> of degree less than of equal to <span class="math inline">\(n\)</span> is a finite dimensional subspace of <span class="math inline">\(\Poly (\F)\)</span>, an infinite dimensional vector space.</p>
+<ul>
+<li>The zero polynomial has degree <span class="math inline">\(-\infty \leq n\)</span>.</li>
+<li>If <span class="math inline">\(p,q \in \Poly_n (\F)\)</span>, then <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> have degree <span class="math inline">\(\leq n\)</span>, so <span class="math inline">\(p + q\)</span> also has degree <span class="math inline">\(\leq n\)</span> and therefore <span class="math inline">\(p + q \in \Poly_n (\F)\)</span>.</li>
+<li>If <span class="math inline">\(p \in \Poly_n (\F)\)</span> and <span class="math inline">\(a \in \F\)</span>, then <span class="math inline">\(p\)</span> has degree <span class="math inline">\(\leq n\)</span>, so <span class="math inline">\(ap\)</span> also has degree <span class="math inline">\(\leq n\)</span> and therefore <span class="math inline">\(ap \in \Poly_n (\F)\)</span>.</li>
 </ul>
 </div>
   <footer class="post-footer">
@@ -168,7 +174,7 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
             "\\C":"\\mathbb{C}",
             "\\Even":"\\mathbb{E}",
             "\\Odd":"\\mathbb{O}",
-            "\\P":"\\mathcal{P}",
+            "\\Poly":"\\mathcal{P}",
             "\\st":"\\text{ s.t. }",
             "\\T":"\\mathcal{T}",
             "\\Ts":"\\mathcal{T}_\\text{std}",
@@ -183,7 +189,9 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}"
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}"
           },
           
           throwOnError : false
@@ -227,7 +235,7 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
             "\\C":"\\mathbb{C}",
             "\\Even":"\\mathbb{E}",
             "\\Odd":"\\mathbb{O}",
-            "\\P":"\\mathcal{P}",
+            "\\Poly":"\\mathcal{P}",
             "\\st":"\\text{ s.t. }",
             "\\T":"\\mathcal{T}",
             "\\Ts":"\\mathcal{T}_\\text{std}",
@@ -242,7 +250,9 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}"
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}"
           },
           
           throwOnError : false

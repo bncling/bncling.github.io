@@ -6,17 +6,28 @@
     <description>Recent content in calculus on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Functions</title>
       <link>https://bncling.github.io/math-wiki/function/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/function/</guid>
       <description>Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\).
 We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
 Notation If \((a,b) \in f\), we write \(f(a)=b\).
 Examples Polynomial functions are those of the form \[p(x) = \sum_{k=0}^n a_k x^k.</description>
+    </item>
+    
+    <item>
+      <title>Sequences</title>
+      <link>https://bncling.github.io/math-wiki/sequence/</link>
+      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/sequence/</guid>
+      <description>They’re like lists but they’re infinitely long.
+Definitions For real numbers, a sequence is a function \(f: \mathbb{N} \to \mathbb{R}\), where the image of the number \(n\) under \(f\) is typically called \(a_n\). The sequence is written by listing its images: \(a_1, a_2, \dots\) or for short, \(\{a_n\}\).
+In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \mathbb{N} \to X\), where the image of the number \(i\) under \(f\) is typically called \(x_i\).</description>
     </item>
     
     <item>
@@ -165,17 +176,6 @@ The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \ma
       <description>Definition A function \(f: \mathcal{D} \to \mathbb{R}\) is discontinuous at a point \(c \in \mathcal{D}\) if and only if \(f\) is not continuous at \(c\). That is, if the limit \(\lim \limits_{x \to c} f(x)\) does not exist or is not equal to \(f(c)\).
 Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and \(c \in \mathcal{D}\). Then
  \(f\) has an infinite discontinuity at \(c\) if and only if \(\lim \limits_{x \to c} f(x) = \pm \infty\).</description>
-    </item>
-    
-    <item>
-      <title>Sequences</title>
-      <link>https://bncling.github.io/math-wiki/sequence/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/sequence/</guid>
-      <description>An infinite list of things.
-Definitions For real numbers, a sequence is a function \(f: \mathbb{N} \to \mathbb{R}\), where the image of the number \(n\) under \(f\) is typically called \(a_n\). The sequence is written by listing its images: \(a_1, a_2, \dots\) or for short, \(\{a_n\}\).
-In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \mathbb{N} \to X\), where the image of the number \(i\) under \(f\) is typically called \(x_i\).</description>
     </item>
     
   </channel>
