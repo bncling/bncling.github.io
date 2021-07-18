@@ -6,16 +6,16 @@
     <description>Recent content in linear_algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linear (in)dependence</title>
       <link>https://bncling.github.io/math-wiki/linear_independence/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/linear_independence/</guid>
       <description>Definitions A list of vectors \((v_1, \dots, v_n)\) in a vector space \(V\) is linearly independent if and only if \(a_1 v_1 + \dots + a_n v_n = 0\) implies that \(a_1 = \dots = a_n = 0\).
 The list is linearly dependent if and only if it is not linearly independent.
-Examples The list \(((1,0,0,0), (0,1,0,0), (0,0,0,1))\) is linearly independent in \(\F^4\), but \(((1,0,0,0), (0,1,0,0), (1,1,0,0))\) is linearly dependent in \(\F^4\).</description>
+Note: These definitions follow Sheldon Axler’s book Linear Algebra Done Right, in which linear (in)dependence is defined in terms of lists of vectors, and not sets of vectors.</description>
     </item>
     
     <item>

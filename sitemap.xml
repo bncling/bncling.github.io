@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/math-wiki/linear_independence/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/linear_algebra/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/math-wiki/zarith/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,13 +23,7 @@
     <loc>https://bncling.github.io/math-wiki/k_topology/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/linear_independence/</loc>
-    <lastmod>2021-07-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/linear_combo/</loc>
-    <lastmod>2021-07-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/linear_algebra/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/lists/</loc>
@@ -45,9 +48,6 @@
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/linalg_subspaces/</loc>
-    <lastmod>2021-07-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/double_headed_snake/</loc>

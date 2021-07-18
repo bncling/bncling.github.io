@@ -9,7 +9,7 @@
     
     <meta name="description" content="Definitions A list of vectors \((v_1, \dots, v_n)\) in a vector space \(V\) is linearly independent if and only if \(a_1 v_1 &#43; \dots &#43; a_n v_n = 0\) implies that \(a_1 = \dots = a_n = 0\).
 The list is linearly dependent if and only if it is not linearly independent.
-Examples The list \(((1,0,0,0), (0,1,0,0), (0,0,0,1))\) is linearly independent in \(\F^4\), but \(((1,0,0,0), (0,1,0,0), (1,1,0,0))\) is linearly dependent in \(\F^4\).">
+Note: These definitions follow Sheldon Axler’s book Linear Algebra Done Right, in which linear (in)dependence is defined in terms of lists of vectors, and not sets of vectors.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -103,11 +103,15 @@ Examples The list \(((1,0,0,0), (0,1,0,0), (0,0,0,1))\) is linearly independent 
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Linear (in)dependence</h1>
-    <div class="post-meta">July 17, 2021</div>
+    <div class="post-meta">July 18, 2021</div>
   </header>
   <div class="post-content"><h2 id="definitions">Definitions</h2>
 <p>A <a href="https://bncling.github.io/math-wiki/lists/">list</a> of vectors <span class="math inline">\((v_1, \dots, v_n)\)</span> in a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a> <span class="math inline">\(V\)</span> is <strong>linearly independent</strong> if and only if <span class="math inline">\(a_1 v_1 + \dots + a_n v_n = 0\)</span> implies that <span class="math inline">\(a_1 = \dots = a_n = 0\)</span>.</p>
 <p>The list is <strong>linearly dependent</strong> if and only if it is not linearly independent.</p>
+<p><strong>Note:</strong> These definitions follow Sheldon Axler’s book <em>Linear Algebra Done Right</em>, in which linear (in)dependence is defined in terms of <a href="https://bncling.github.io/math-wiki/lists/">lists</a> of vectors, and <strong>not</strong> sets of vectors. This difference means that the <em>list</em> <span class="math inline">\(((1,0,0), (0,1,0), (1,0,0))\)</span> is linearly dependent in <span class="math inline">\(\R^3\)</span> but the <em>set</em> <span class="math inline">\(\{(1,0,0), (0,1,0), (1,0,0)\}\)</span> of the same vectors is linearly <em>independent</em> in <span class="math inline">\(\R^3\)</span> since <span class="math display">\[\{(1,0,0), (0,1,0), (1,0,0)\} = \{(1,0,0), (0,1,0)\}.\]</span></p>
+<h2 id="properties">Properties</h2>
+<p><strong>Linear Dependence Lemma:</strong> If <span class="math inline">\((v_1, \dots, v_m)\)</span> is linearly dependent in <span class="math inline">\(V\)</span> and <span class="math inline">\(v_1 \neq 0\)</span>, then there exists <span class="math inline">\(j \in \{2, \dots, m\}\)</span> such that 1. <span class="math inline">\(v_j \in \Span(v_1, \dots, v_{j-1})\)</span>, and 2. removing the <span class="math inline">\(j\)</span>th vector does not change the span, that is <span class="math inline">\(\Span(v_1, \dots, v_m) = \Span(v_1, \dots, v_{j-1}, v_{j+1}, \dots, v_m)\)</span>.</p>
+<p><strong>Theorem:</strong></p>
 <h2 id="examples">Examples</h2>
 <p>The list <span class="math inline">\(((1,0,0,0), (0,1,0,0), (0,0,0,1))\)</span> is linearly independent in <span class="math inline">\(\F^4\)</span>, but <span class="math inline">\(((1,0,0,0), (0,1,0,0), (1,1,0,0))\)</span> is linearly dependent in <span class="math inline">\(\F^4\)</span>.</p>
 <p>Any list containing the zero vector is linearly dependent.</p>
