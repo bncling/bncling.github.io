@@ -8,6 +8,38 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Basis of a vector space</title>
+      <link>https://bncling.github.io/math-wiki/linalg_basis/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linalg_basis/</guid>
+      <description>Definition Let \(V\) be a vector space. A basis of \(V\) is a list of vectors in \(V\) that is linearly independent and spans \(V\).
+Properties (2.8) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
+(2.10) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list.</description>
+    </item>
+    
+    <item>
+      <title>Dimension of a vector space</title>
+      <link>https://bncling.github.io/math-wiki/linalg_dimension/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linalg_dimension/</guid>
+      <description>Definition The dimension of a finite dimensional vector space \(V\), denoted \(\dim V\), is the length of any basis of \(V\).
+Properties (2.18) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2).\]
+Examples For \(\F^n\), the space of lists of length \(n\), \(\dim \F^n = n\), and for \(\Poly_n (\F)\), the space of polynomials of degree \(\leq n\), \(\dim \Poly_n (\F) = n+1\).</description>
+    </item>
+    
+    <item>
+      <title>Direct sums of subspaces</title>
+      <link>https://bncling.github.io/math-wiki/subspace_direct_sums/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/subspace_direct_sums/</guid>
+      <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\) such that the sum \(U_1 + \dots + U_m\) is the whole space \(V\). If each element \(v \in V\) can be written uniquely as a sum \(u_1 + \dots + u_m\) where each \(u_i \in U_i\). In this case, we write \(V = U_1 \oplus \dots \oplus U_m\).
+Properties (1.8) Proposition: Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).</description>
+    </item>
+    
+    <item>
       <title>Linear (in)dependence</title>
       <link>https://bncling.github.io/math-wiki/linear_independence/</link>
       <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
@@ -16,6 +48,38 @@
       <description>Definitions A list of vectors \((v_1, \dots, v_n)\) in a vector space \(V\) is linearly independent if and only if \(a_1 v_1 + \dots + a_n v_n = 0\) implies that \(a_1 = \dots = a_n = 0\).
 The list is linearly dependent if and only if it is not linearly independent.
 Note: These definitions follow Sheldon Axler’s book Linear Algebra Done Right, in which linear (in)dependence is defined in terms of lists of vectors, and not sets of vectors.</description>
+    </item>
+    
+    <item>
+      <title>Subspaces of a vector space</title>
+      <link>https://bncling.github.io/math-wiki/linalg_subspaces/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linalg_subspaces/</guid>
+      <description>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
+Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
+ additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u + v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).</description>
+    </item>
+    
+    <item>
+      <title>Sums of subspaces</title>
+      <link>https://bncling.github.io/math-wiki/subspace_sums/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/subspace_sums/</guid>
+      <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 + \dots + U_m = \{u_1 + \dots + u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
+Properties The sum of subspaces \(U_1 + \dots + U_m\) is a subspace.
+ \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 + \dots + 0}^{m \text{ times}} \in U_1 + \dots + U_m\).</description>
+    </item>
+    
+    <item>
+      <title>Vector spaces</title>
+      <link>https://bncling.github.io/math-wiki/vector_space/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
+      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
     </item>
     
     <item>
@@ -36,48 +100,6 @@ Examples The vector \((7,2,9) \in \R^3\) is a linear combination of the vectors 
       <guid>https://bncling.github.io/math-wiki/span/</guid>
       <description>Definition Let \(v_1, \dots, v_n \in V\) be vectors in a vector space over \(\F\). The span of the list \((v_1, \dots, v_n)\), denoted \(\Span(v_1, \dots, v_n)\), is the set of all linear combinations, that is \[\Span(v_1, \dots, v_n) = \{a_1 v_1 + \dots + a_n v_n \mid a_1, \dots, a_n \in \F \}.\]
 Properties For a list of vectors \((v_1, \dots, v_n)\) in \(V\), \(\Span(v_1, \dots, v_n)\) is a subspace of \(V\).</description>
-    </item>
-    
-    <item>
-      <title>Subspaces of a vector space</title>
-      <link>https://bncling.github.io/math-wiki/linalg_subspaces/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linalg_subspaces/</guid>
-      <description>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
-Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
- additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u + v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).</description>
-    </item>
-    
-    <item>
-      <title>Vector spaces</title>
-      <link>https://bncling.github.io/math-wiki/vector_space/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
-      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
-    </item>
-    
-    <item>
-      <title>Direct sums of subspaces</title>
-      <link>https://bncling.github.io/math-wiki/subspace_direct_sums/</link>
-      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/subspace_direct_sums/</guid>
-      <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\) such that the sum \(U_1 + \dots + U_m\) is the whole space \(V\). If each element \(v \in V\) can be written uniquely as a sum \(u_1 + \dots + u_m\) where each \(u_i \in U_i\). In this case, we write \(V = U_1 \oplus \dots \oplus U_m\).
-Properties Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).</description>
-    </item>
-    
-    <item>
-      <title>Sums of subspaces</title>
-      <link>https://bncling.github.io/math-wiki/subspace_sums/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/subspace_sums/</guid>
-      <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 + \dots + U_m = \{u_1 + \dots + u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
-Properties The sum of subspaces \(U_1 + \dots + U_m\) is a subspace.
- \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 + \dots + 0}^{m \text{ times}} \in U_1 + \dots + U_m\).</description>
     </item>
     
   </channel>

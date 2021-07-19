@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Vector spaces - Ben Clingenpeel</title>
+    <title>Basis of a vector space - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(&#43;\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u &#43; v = v &#43; u\) for all \(u, v \in V\); associativity: \((u &#43; v) &#43; w = u &#43; (v &#43; w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v &#43; 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v &#43; w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u &#43; v) = au &#43; av\) and \((a &#43; b)v = av &#43; bv\) for all \(v,w \in V\) and \(a,b \in \F\).">
+    <meta name="description" content="Definition Let \(V\) be a vector space. A basis of \(V\) is a list of vectors in \(V\) that is linearly independent and spans \(V\).
+Properties (2.8) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
+(2.10) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,32 +102,36 @@
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Vector spaces</h1>
+    <h1 class="post-title">Basis of a vector space</h1>
     <div class="post-meta">July 18, 2021</div>
   </header>
-  <div class="post-content"><h2 id="definitions">Definitions</h2>
-<p>A <strong>vector space</strong> over a field <span class="math inline">\(\F\)</span> (here either <span class="math inline">\(\R\)</span> or <span class="math inline">\(\C\)</span>) is a set <span class="math inline">\(V\)</span>, together with addition (<span class="math inline">\(+\)</span>) and scalar multiplication (<span class="math inline">\(\cdot\)</span>) operations such that the following properties hold:</p>
-<ul>
-<li><strong>commutativity:</strong> <span class="math inline">\(u + v = v + u\)</span> for all <span class="math inline">\(u, v \in V\)</span>;</li>
-<li><strong>associativity:</strong> <span class="math inline">\((u + v) + w = u + (v + w)\)</span> and <span class="math inline">\((ab)v = a(bv)\)</span> for all <span class="math inline">\(u,v,w \in V\)</span>, <span class="math inline">\(a,b \in \F\)</span>;</li>
-<li><strong>additive identity:</strong> there exists an element <span class="math inline">\(0 \in V\)</span> such that <span class="math inline">\(v + 0 = v\)</span> for all <span class="math inline">\(v \in V\)</span>;</li>
-<li><strong>additive inverse:</strong> for every <span class="math inline">\(v \in V\)</span>, there exists an element <span class="math inline">\(w \in V\)</span> such that <span class="math inline">\(v + w = 0\)</span>;</li>
-<li><strong>multiplicative identity:</strong> <span class="math inline">\(1v = v\)</span> for all <span class="math inline">\(v \in V\)</span>;</li>
-<li><strong>distributive properties:</strong> <span class="math inline">\(a(u + v) = au + av\)</span> and <span class="math inline">\((a + b)v = av + bv\)</span> for all <span class="math inline">\(v,w \in V\)</span> and <span class="math inline">\(a,b \in \F\)</span>.</li>
-</ul>
-<p>We call elements of a vector space <strong>vectors</strong>.</p>
-<p>We call a vector space <span class="math inline">\(V\)</span> <strong>finite dimensional</strong> if some <a href="https://bncling.github.io/math-wiki/lists/">list</a> if vectors <a href="https://bncling.github.io/math-wiki/span/">spans</a> it. Otherwise, <span class="math inline">\(V\)</span> is <strong>infinite dimensional</strong>.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(V\)</span> be a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a>. A <strong>basis</strong> of <span class="math inline">\(V\)</span> is a <a href="https://bncling.github.io/math-wiki/lists/">list</a> of vectors in <span class="math inline">\(V\)</span> that is <a href="https://bncling.github.io/math-wiki/linear_independence/">linearly independent</a> and <a href="https://bncling.github.io/math-wiki/span/">spans</a> <span class="math inline">\(V\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p><strong>The additive identity (zero vector) of a vector space is unique.</strong> Let <span class="math inline">\(0\)</span> and <span class="math inline">\(0&#39;\)</span> be additive identites. Then <span class="math inline">\(0 = 0 + 0&#39; = 0&#39;\)</span>. <span class="math inline">\(\quad \square\)</span></p>
-<p><strong>Additive identities in a vector space are unique.</strong> Let <span class="math inline">\(v \in V\)</span> and let <span class="math inline">\(w\)</span> and <span class="math inline">\(w&#39;\)</span> be additive inverses of <span class="math inline">\(v\)</span>. Then <span class="math display">\[w = w + 0 = w + (v + w&#39;) = (w + v) + w&#39; = 0 + w&#39; = w&#39;. \quad \square\]</span></p>
-<p><strong>Zero times a vector is always the zero vector.</strong> Let <span class="math inline">\(v \in V\)</span>. Then <span class="math inline">\(0v = (0 + 0)v = 0v + 0v\)</span>, so <span class="math inline">\(0v + (-0v) = 0v + 0v + (-0v)\)</span> implies that <span class="math inline">\(0 = 0v\)</span>. <span class="math inline">\(\quad \square\)</span></p>
-<p><strong>A scalar times the zero vector is the zero vector.</strong> Let <span class="math inline">\(a \in \F\)</span>. Then <span class="math inline">\(a0 = a(0 + 0) = a0 + a0\)</span>, so <span class="math inline">\(0 = a0\)</span> as above. <span class="math inline">\(\quad \square\)</span></p>
-<p><strong>For all <span class="math inline">\(v \in V\)</span>, <span class="math inline">\((-1)v\)</span> is the additive inverse of <span class="math inline">\(v\)</span>.</strong> Let <span class="math inline">\(v \in V\)</span>. Then <span class="math display">\[(-1)v + v = (-1)v + 1v = (-1 + 1)v = 0v = 0. \quad \square\]</span></p>
-<p><strong>For all <span class="math inline">\(v \in V\)</span>, the additive inverse of the additive inverse is <span class="math inline">\(v\)</span>, that is<span class="math inline">\(-(-v) = v\)</span>.</strong> Note that <span class="math inline">\(-(-v)\)</span> is the additive inverse of <span class="math inline">\(-v\)</span>, but also <span class="math inline">\(v\)</span> is the additive inverse of <span class="math inline">\(-v\)</span>, so by the uniqueness of additive inverses in a vector space (Proposition 1.3), <span class="math inline">\(-(-v) = v\)</span> for all <span class="math inline">\(v \in V\)</span>. <span class="math inline">\(\quad \square\)</span></p>
+<p><strong>(2.8) Proposition:</strong> A list <span class="math inline">\((v_1, \dots, v_n)\)</span> is a basis of <span class="math inline">\(V\)</span> if and only if every <span class="math inline">\(v \in V\)</span> can be <em>uniquely</em> expressed as a <a href="https://bncling.github.io/math-wiki/linear_combo/">linear combination</a> of <span class="math inline">\((v_1, \dots, v_n)\)</span>.</p>
+<p><strong>(2.10) Theorem:</strong> Every spanning list <span class="math inline">\((v_1, \dots, v_n)\)</span> of <span class="math inline">\(V\)</span> can be reduced to a basis by removing some of the <span class="math inline">\(v_i\)</span> from the list.</p>
+<p>To do the above in practice, follow these steps for <span class="math inline">\(i = 1, \dots, n\)</span>:</p>
+<ul>
+<li>Step 1: If <span class="math inline">\(v_1 = 0\)</span>, remove <span class="math inline">\(v_1\)</span>.</li>
+<li>Step <span class="math inline">\(i\)</span>: If <span class="math inline">\(v_i \in \Span(v_1, \dots, v_{i-1})\)</span>, remove <span class="math inline">\(v_i\)</span>.</li>
+</ul>
+<p><strong>(2.11) Corollary:</strong> Every finite-dimensional vector space has a basis.</p>
+<p><strong>(2.12) Theorem:</strong> Every linearly independent list of vectors in a finite dimensional vector space <span class="math inline">\(V\)</span> can be extended to a basis by adding some vectors to the list.</p>
+<p><strong>(2.14) Theorem:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any two bases have the same length.</p>
+<p><strong>(2.16) Proposition:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any list of vectors with length <span class="math inline">\(\dim V\)</span> that spans <span class="math inline">\(V\)</span> is a basis (where <span class="math inline">\(\dim V\)</span> is the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of <span class="math inline">\(V\)</span>).</p>
+<p><strong>(2.17) Proposition:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any list of vectors with length <span class="math inline">\(\dim V\)</span> that is linearly independent is a basis.</p>
 <h2 id="examples">Examples</h2>
-<p><span class="math inline">\(\F^n\)</span> is a finite dimensional vector space with elements that are list of the form <span class="math inline">\((x_1, x_2, \dots, x_n)\)</span> with <span class="math inline">\(x_i \in \F\)</span> for all <span class="math inline">\(i = 1, 2, \dots, n\)</span>.</p>
-<p><span class="math inline">\(\F^\infty\)</span> is also a vector space that has elements that are <a href="https://bncling.github.io/math-wiki/sequence/">sequences</a> with elements in <span class="math inline">\(\F\)</span>. (It is infinite dimensional.)</p>
-<p><span class="math inline">\(\Poly(\F)\)</span>, the set of polynomial <a href="https://bncling.github.io/math-wiki/function/">functions</a> with coefficients in <span class="math inline">\(\F\)</span> is an infinite dimensional vector space, that is, the set of functions <span class="math inline">\(p: \F \to \F\)</span> of the form <span class="math display">\[p(z) = a_0 + a_1 z + \dots + a_m z^m\]</span> for <span class="math inline">\(z, a_0, \dots, a_m \in \F\)</span>.</p>
+<p>The list <span class="math inline">\(((1,0, \dots, 0), (0,1,0, \dots, 0), \dots, (0, \dots, 0, 1))\)</span> is a basis of <span class="math inline">\(\F^n\)</span> called the <strong>standard basis</strong>.</p>
+<p>The <strong>standard basis</strong> of <span class="math inline">\(\Poly_n(\F)\)</span> is <span class="math inline">\((1, z, \dots, z^n)\)</span>.</p>
+<p>Recall that <span class="math inline">\(\Span() = \{0\}\)</span>, so <span class="math inline">\(()\)</span> is a basis for <span class="math inline">\(\{0\}\)</span> since it was defined to be linearly independent.</p>
+<p>The list <span class="math inline">\(A = ((1,2), (3,6), (4,7), (5,9))\)</span> spans <span class="math inline">\(\R^2\)</span> but is linearly dependent. By (2.10) above, it can be reduced to a basis as follows:</p>
+<ul>
+<li>Step 1: <span class="math inline">\((1,2) \neq 0\)</span>, so <span class="math inline">\(A_1 = ((1,2), (3,6), (4,7), (5,9))\)</span>.</li>
+<li>Step 2: <span class="math inline">\((3,6) = 3(1,2)\)</span>, so <span class="math inline">\(v_2 \in \Span(v_1)\)</span>. We remove <span class="math inline">\(v_2\)</span> and have <span class="math inline">\(A_2 = ((1,2), (4,7), (5,9))\)</span>.</li>
+<li>Step 3: <span class="math inline">\((4,7) \notin \Span((1,2), (3,6))\)</span>, so <span class="math inline">\(A_3 = ((1,2), (4,7), (5,9))\)</span>.</li>
+<li>Step 4: <span class="math inline">\((5,9) = (1,2) + (4,7)\)</span>, so <span class="math inline">\(v_4 \in \Span(v_1, v_2, v_3)\)</span>. We remove <span class="math inline">\(v_4\)</span> and have <span class="math inline">\(A_4 = ((1,2), (4,7))\)</span>.</li>
+</ul>
+<p>Now we are left with a basis of <span class="math inline">\(\R^2\)</span>, <span class="math inline">\(((1,2), (4,7))\)</span> made out of the original spanning list.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
