@@ -8,6 +8,45 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Differentiation and derivatives</title>
+      <link>https://bncling.github.io/math-wiki/differentiation/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/differentiation/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Integration and integrals</title>
+      <link>https://bncling.github.io/math-wiki/integration/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/integration/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Linear maps</title>
+      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
+      <description>Also called linear transformations.
+Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
+ additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\L (V, W)\).</description>
+    </item>
+    
+    <item>
+      <title>Products of linear maps</title>
+      <link>https://bncling.github.io/math-wiki/map_products/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/map_products/</guid>
+      <description>Definition Let \(U\), \(V\), and \(W\) be vector spaces. If \(T \in \L(U, V)\) and \(S \in \L(V, W)\) are linear maps such that \(T\) maps \(U\) into the domain of \(S\), then we define the product \(ST \in \L(U, W)\) by \((ST)v = S(Tv)\), that is, \(ST\) is the composition \(S \circ T\) of the two maps.
+Properties Associativity. If \(T_1\), \(T_2\), and \(T_3\) are linear maps such that \(T_3\) maps into the domain of \(T_2\) which in turn maps into the domain of \(T_1\), then \((T_1 T_2) T_3 = T_1 (T_2 T_3)\).</description>
+    </item>
+    
+    <item>
       <title>Basis of a vector space</title>
       <link>https://bncling.github.io/math-wiki/linalg_basis/</link>
       <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>

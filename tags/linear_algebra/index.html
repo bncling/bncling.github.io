@@ -104,6 +104,33 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Linear maps</h2>
+  </header>
+  <section class="entry-content">
+   <p>Also called linear transformations.
+Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
+ additivity: \(T(u &#43; v) = T(u) &#43; T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\L (V, W)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 23, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_maps/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Products of linear maps</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(U\), \(V\), and \(W\) be vector spaces. If \(T \in \L(U, V)\) and \(S \in \L(V, W)\) are linear maps such that \(T\) maps \(U\) into the domain of \(S\), then we define the product \(ST \in \L(U, W)\) by \((ST)v = S(Tv)\), that is, \(ST\) is the composition \(S \circ T\) of the two maps.
+Properties Associativity. If \(T_1\), \(T_2\), and \(T_3\) are linear maps such that \(T_3\) maps into the domain of \(T_2\) which in turn maps into the domain of \(T_1\), then \((T_1 T_2) T_3 = T_1 (T_2 T_3)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 23, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/map_products/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Basis of a vector space</h2>
   </header>
   <section class="entry-content">
@@ -211,19 +238,11 @@ Examples The vector \((7,2,9) \in \R^3\) is a linear combination of the vectors 
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_combo/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Span</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(v_1, \dots, v_n \in V\) be vectors in a vector space over \(\F\). The span of the list \((v_1, \dots, v_n)\), denoted \(\Span(v_1, \dots, v_n)\), is the set of all linear combinations, that is \[\Span(v_1, \dots, v_n) = \{a_1 v_1 &#43; \dots &#43; a_n v_n \mid a_1, \dots, a_n \in \F \}.\]
-Properties For a list of vectors \((v_1, \dots, v_n)\) in \(V\), \(\Span(v_1, \dots, v_n)\) is a subspace of \(V\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/span/"></a>
-</article></main>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="/tags/linear_algebra/page/2/">Next Page →</a>
+  </nav>
+</footer></main>
 <footer class="footer">
   <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
   <span>&middot;</span>
@@ -277,7 +296,8 @@ Properties For a list of vectors \((v_1, \dots, v_n)\) in \(V\), \(\Span(v_1, \d
             "\\lcm":"\\text{lcm}",
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
-            "\\Span":"\\text{span}"
+            "\\Span":"\\text{span}",
+            "\\L":"\\mathcal{L}"
           },
           
           throwOnError : false

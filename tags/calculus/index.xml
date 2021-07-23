@@ -6,7 +6,25 @@
     <description>Recent content in calculus on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Differentiation and derivatives</title>
+      <link>https://bncling.github.io/math-wiki/differentiation/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/differentiation/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Integration and integrals</title>
+      <link>https://bncling.github.io/math-wiki/integration/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/integration/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
     <item>
       <title>Functions</title>
       <link>https://bncling.github.io/math-wiki/function/</link>

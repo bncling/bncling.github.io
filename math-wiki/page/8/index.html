@@ -108,6 +108,61 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Limits</h2>
+  </header>
+  <section class="entry-content">
+   <p>Intuitively, “\(\lim \limits_{x \to a} f(x) = L\)” means that the outputs of a function \(f\) approaches the value \(L\) as the inputs approach the value \(a\).
+The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \mathbb{R} \to \mathbb{R}\) be a function and let \(a,L \in \mathbb{R}\).
+ \(\lim \limits_{x \to a} f(x) = L\) if and only if for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(0 &lt; \vert x - a \vert &lt; \delta\) implies that \(\vert f(x) - L \vert &lt; \varepsilon\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/limits/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Closed sets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition In a topological space \((X, \mathcal{T})\), a closed set \(A\) is a subset of \(X\) that is equal to its closure (\(\overline{A} = A\)). That is, \(A\) contains all its limit points.
+Properties of closed sets  Theorem 2.14: A set \(A\) is closed if and only if its complement \(X - A\) is open. If \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) is a collection of closed sets, then \(\bigcap_{\alpha \in \lambda} A_\alpha\) is closed, but \(\bigcup_{\alpha \in \lambda} A_\alpha\) need not be closed....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/closed_sets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Discontinuities</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A function \(f: \mathcal{D} \to \mathbb{R}\) is discontinuous at a point \(c \in \mathcal{D}\) if and only if \(f\) is not continuous at \(c\). That is, if the limit \(\lim \limits_{x \to c} f(x)\) does not exist or is not equal to \(f(c)\).
+Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and \(c \in \mathcal{D}\). Then
+ \(f\) has an infinite discontinuity at \(c\) if and only if \(\lim \limits_{x \to c} f(x) = \pm \infty\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/discontinuities/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Isolated points</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X,\mathcal{T})\) be a topological space, \(A\) a subset of \(X\), and \(p \in A\) a point. We say \(p\) is an isolated point if it is not a limit point of \(A\).
+Properties If \(p\) is an isolated point of a set \(A\) in a topological space \((X, \mathcal{T})\), then there exists an open set \(U\) such that \(U \cap A = \{p\}\).
+Examples In the topological space defined by \(X = \{a,b,c,d\}\) and \(\mathcal{T} = \{\emptyset, X, \{a\},\{a,b\}\}\), the point \(b\) is in the set \(A = \{b,c\}\), but is not a limit point of \(A\) since \(\{a,b\}\) is open but \((\{a,b\} - \{b\}) \cap A = \emptyset\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/isolated_point/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Limit points</h2>
   </header>
   <section class="entry-content">
@@ -177,7 +232,8 @@ Definition Let \((X, \mathcal{T})\) be a topological space, let \(A \subset X\) 
             "\\lcm":"\\text{lcm}",
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
-            "\\Span":"\\text{span}"
+            "\\Span":"\\text{span}",
+            "\\L":"\\mathcal{L}"
           },
           
           throwOnError : false
