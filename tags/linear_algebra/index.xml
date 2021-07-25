@@ -6,7 +6,18 @@
     <description>Recent content in linear_algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Null spaces</title>
+      <link>https://bncling.github.io/math-wiki/null_space/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/null_space/</guid>
+      <description>Definition Let \(T \in \L(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The null space of \(T\), denoted \(\null T\), is the subset of \(V\) containing vectors that \(T\) maps to the zero vector in \(W\), that is, \[\null T = \{v \in V \mid Tv = 0\}.\]
+Properties (3.1) Proposition: If \(T \in \L(V,W)\), then \(\null T\) is a subspace of \(V\).
+(3.2) Proposition: Let \(T \in \L(V,W)\).</description>
+    </item>
+    
     <item>
       <title>Linear maps</title>
       <link>https://bncling.github.io/math-wiki/linear_maps/</link>

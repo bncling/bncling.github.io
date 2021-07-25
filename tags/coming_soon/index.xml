@@ -6,7 +6,18 @@
     <description>Recent content in coming_soon on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/coming_soon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/coming_soon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Injectivity, surjectivity, and bijectivity</title>
+      <link>https://bncling.github.io/math-wiki/inj_surj_bij/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/inj_surj_bij/</guid>
+      <description>Definitions A function or map \(f: \mathcal{D} \to \mathcal{C}\) is called injective if and only if for all \(a,b \in \mathcal{D}\) such that \(a \neq b\), we have that \(f(a) \neq f(b)\).
+It is called surjective if and only if for all \(y \in \mathcal{C}\), there exists an \(x \in \mathcal{D}\) such that \(f(x) = y\).
+It is called bijective if and only if it is both injective and surjective.</description>
+    </item>
+    
     <item>
       <title>Differentiation and derivatives</title>
       <link>https://bncling.github.io/math-wiki/differentiation/</link>
@@ -58,15 +69,6 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/dirichlet_function/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Injectivity, surjectivity, and bijectivity</title>
-      <link>https://bncling.github.io/math-wiki/inj_surj_bij/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/inj_surj_bij/</guid>
       <description>Content coming soon.</description>
     </item>
     

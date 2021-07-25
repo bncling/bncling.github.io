@@ -6,20 +6,11 @@
     <description>Recent content in Tags on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>calculus</title>
-      <link>https://bncling.github.io/tags/calculus/</link>
-      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/calculus/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>coming_soon</title>
       <link>https://bncling.github.io/tags/coming_soon/</link>
-      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/coming_soon/</guid>
       <description></description>
@@ -28,7 +19,7 @@
     <item>
       <title>linear_algebra</title>
       <link>https://bncling.github.io/tags/linear_algebra/</link>
-      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/linear_algebra/</guid>
       <description></description>
@@ -37,9 +28,18 @@
     <item>
       <title>miscmath</title>
       <link>https://bncling.github.io/tags/miscmath/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/miscmath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calculus</title>
+      <link>https://bncling.github.io/tags/calculus/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/calculus/</guid>
       <description></description>
     </item>
     
