@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/math-wiki/linear_maps/</loc>
+    <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/linear_algebra/</loc>
+    <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/matrices/</loc>
+    <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/null_space/</loc>
+    <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/range/</loc>
+    <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/vector_space/</loc>
+    <lastmod>2021-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/linalg_dimension/</loc>
+    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/tags/coming_soon/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/inj_surj_bij/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/tags/linear_algebra/</loc>
-    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/tags/miscmath/</loc>
-    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/null_space/</loc>
-    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/calculus/</loc>
@@ -29,16 +44,10 @@
     <loc>https://bncling.github.io/math-wiki/integration/</loc>
     <lastmod>2021-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/linear_maps/</loc>
-    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/map_products/</loc>
     <lastmod>2021-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/linalg_basis/</loc>
-    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/linalg_dimension/</loc>
     <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/subspace_direct_sums/</loc>
@@ -53,10 +62,10 @@
     <loc>https://bncling.github.io/math-wiki/subspace_sums/</loc>
     <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/vector_space/</loc>
-    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/zarith/</loc>
+    <lastmod>2021-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/complex_numbers/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/function/</loc>

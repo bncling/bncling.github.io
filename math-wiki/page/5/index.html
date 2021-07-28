@@ -108,6 +108,44 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Intermediate Value Theorem (IVT)</h2>
+  </header>
+  <section class="entry-content">
+   <p>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
+Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &lt; L\) (\(f(a) &gt; L\)). Then there exists a \(\delta &gt; 0\) such that \(\vert x - a \vert &lt; \delta\) implies that \(f(x) &lt; L\) (\(f(x) &gt; L\))....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ivt/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>My Topology self-study work</h2>
+  </header>
+  <section class="entry-content">
+   <p>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_selfstudy/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Open sets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
+Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_sets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Power sets</h2>
   </header>
   <section class="entry-content">
@@ -203,48 +241,6 @@ Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/closure/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The lexicographically ordered square</h2>
-  </header>
-  <section class="entry-content">
-   <p>Sets have interesting closures.
-Definition The unit square \([0,1] \times [0,1]\) is totally ordered by the lexicographic order, and the lexicographically ordered square is the topological space formed from the unit square together with the associated order topology.
-Properties Many sets have very interesting, unexpected closures. See Exercise 3.21.
-Separation Properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space Normal and a \(T_4\)-space  These follow from the fact that this is a space with an order topology....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 11, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lex_square/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>$T_1$ spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is a \(T_1\)-space if and only if for every pair of distinct points \(x\) and \(y\), there exist open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\) but \(x \notin V\) and \(y \notin U\).
-Properties Theorem 4.1: A space \((X, \T)\) is \(T_1\) if and only if singletons are closed.
-Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is also \(T_1\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 9, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t1/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>$T_3$ spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is \(T_3\) if and only if it is both \(T_1\) and regular.
-Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also \(T_3\), and therefore also regular, Hausdorff, and \(T_1\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 9, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t3/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/4/">← Prev Page</a>
@@ -306,7 +302,9 @@ Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also \(T_3\), a
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
             "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }"
+            "\\null":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}"
           },
           
           throwOnError : false

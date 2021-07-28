@@ -6,27 +6,70 @@
     <description>Recent content in linear_algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Null spaces</title>
-      <link>https://bncling.github.io/math-wiki/null_space/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/null_space/</guid>
-      <description>Definition Let \(T \in \L(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The null space of \(T\), denoted \(\null T\), is the subset of \(V\) containing vectors that \(T\) maps to the zero vector in \(W\), that is, \[\null T = \{v \in V \mid Tv = 0\}.\]
-Properties (3.1) Proposition: If \(T \in \L(V,W)\), then \(\null T\) is a subspace of \(V\).
-(3.2) Proposition: Let \(T \in \L(V,W)\).</description>
-    </item>
-    
+    <lastBuildDate>Wed, 28 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linear maps</title>
       <link>https://bncling.github.io/math-wiki/linear_maps/</link>
-      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
       <description>Also called linear transformations.
 Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
  additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\L (V, W)\).</description>
+    </item>
+    
+    <item>
+      <title>Matrices</title>
+      <link>https://bncling.github.io/math-wiki/matrices/</link>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/matrices/</guid>
+      <description>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp;amp; \dots &amp;amp; a_{1,n} \\ \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{m,1} &amp;amp; \dots &amp;amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
+Matrix of a linear map If \(V\) and \(W\) are finite-dimensional vector spaces and \(T \in \L(V, W)\) is a linear map, then \(V\) has a basis \((v_1, \dots, v_n)\) and \(W\) has a basis \((w_1, \dots w_m)\).</description>
+    </item>
+    
+    <item>
+      <title>Null spaces</title>
+      <link>https://bncling.github.io/math-wiki/null_space/</link>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/null_space/</guid>
+      <description>Also known as kernels…
+Definition Let \(T \in \L(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The null space of \(T\), denoted \(\null T\), is the subset of \(V\) containing vectors that \(T\) maps to the zero vector in \(W\), that is, \[\null T = \{v \in V \mid Tv = 0\}.\]
+Properties (3.1) Proposition: If \(T \in \L(V,W)\), then \(\null T\) is a subspace of \(V\).</description>
+    </item>
+    
+    <item>
+      <title>Range</title>
+      <link>https://bncling.github.io/math-wiki/range/</link>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/range/</guid>
+      <description>Also known as the image…
+Definition Let \(T \in \L(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The range of \(T\), denoted \(\range T\), is the subset of \(W\) containing vectors of the form \(Tv\) for some \(v \in V\), that is, \[\range T = \{Tv \mid v \in V\}.\]
+Properties (3.3) Proposition: If \(T \in \L(V,W)\), then \(\range T\) is a subspace of \(W\).
+(3.4) Theorem: If \(V\) is a finite-dimensional vector space and \(T \in \L(V,W)\) is a linear map, then \[\dim V = \dim \, \null T + \dim \, \range T,\] where \(\null T\) denotes the null space of \(T\) and \(\dim V\) is the dimension of the space \(V\).</description>
+    </item>
+    
+    <item>
+      <title>Vector spaces</title>
+      <link>https://bncling.github.io/math-wiki/vector_space/</link>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
+      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
+    </item>
+    
+    <item>
+      <title>Dimension of a vector space</title>
+      <link>https://bncling.github.io/math-wiki/linalg_dimension/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linalg_dimension/</guid>
+      <description>Definition The dimension of a finite dimensional vector space \(V\), denoted \(\dim V\), is the length of any basis of \(V\).
+Properties (2.18) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2).\]
+(3.4) Theorem: If \(V\) is a finite-dimensional vector space and \(T \in \L(V,W)\) is a linear map, then \[\dim V = \dim \, \null T + \dim \, \range T,\] where \(\null T\) and \(\range T\) denote the null space and range of \(T\), respectively.</description>
     </item>
     
     <item>
@@ -48,17 +91,6 @@ Properties Associativity. If \(T_1\), \(T_2\), and \(T_3\) are linear maps such 
       <description>Definition Let \(V\) be a vector space. A basis of \(V\) is a list of vectors in \(V\) that is linearly independent and spans \(V\).
 Properties (2.8) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
 (2.10) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list.</description>
-    </item>
-    
-    <item>
-      <title>Dimension of a vector space</title>
-      <link>https://bncling.github.io/math-wiki/linalg_dimension/</link>
-      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linalg_dimension/</guid>
-      <description>Definition The dimension of a finite dimensional vector space \(V\), denoted \(\dim V\), is the length of any basis of \(V\).
-Properties (2.18) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2).\]
-Examples For \(\F^n\), the space of lists of length \(n\), \(\dim \F^n = n\), and for \(\Poly_n (\F)\), the space of polynomials of degree \(\leq n\), \(\dim \Poly_n (\F) = n+1\).</description>
     </item>
     
     <item>
@@ -102,16 +134,6 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
       <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 + \dots + U_m = \{u_1 + \dots + u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
 Properties The sum of subspaces \(U_1 + \dots + U_m\) is a subspace.
  \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 + \dots + 0}^{m \text{ times}} \in U_1 + \dots + U_m\).</description>
-    </item>
-    
-    <item>
-      <title>Vector spaces</title>
-      <link>https://bncling.github.io/math-wiki/vector_space/</link>
-      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
-      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
     </item>
     
     <item>

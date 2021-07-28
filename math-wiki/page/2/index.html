@@ -108,6 +108,47 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Basis of a vector space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) be a vector space. A basis of \(V\) is a list of vectors in \(V\) that is linearly independent and spans \(V\).
+Properties (2.8) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
+(2.10) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 18, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_basis/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Direct sums of subspaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\) such that the sum \(U_1 &#43; \dots &#43; U_m\) is the whole space \(V\). If each element \(v \in V\) can be written uniquely as a sum \(u_1 &#43; \dots &#43; u_m\) where each \(u_i \in U_i\). In this case, we write \(V = U_1 \oplus \dots \oplus U_m\).
+Properties (1.8) Proposition: Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 18, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subspace_direct_sums/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Linear (in)dependence</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A list of vectors \((v_1, \dots, v_n)\) in a vector space \(V\) is linearly independent if and only if \(a_1 v_1 &#43; \dots &#43; a_n v_n = 0\) implies that \(a_1 = \dots = a_n = 0\).
+The list is linearly dependent if and only if it is not linearly independent.
+Note: These definitions follow Sheldon Axler’s book Linear Algebra Done Right, in which linear (in)dependence is defined in terms of lists of vectors, and not sets of vectors....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 18, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_independence/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Subspaces of a vector space</h2>
   </header>
   <section class="entry-content">
@@ -136,19 +177,6 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Vector spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(&#43;\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u &#43; v = v &#43; u\) for all \(u, v \in V\); associativity: \((u &#43; v) &#43; w = u &#43; (v &#43; w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v &#43; 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v &#43; w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u &#43; v) = au &#43; av\) and \((a &#43; b)v = av &#43; bv\) for all \(v,w \in V\) and \(a,b \in \F\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 18, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/vector_space/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
     <h2>Arithmetic progression topology</h2>
   </header>
   <section class="entry-content">
@@ -158,6 +186,18 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
     <time>July 17, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/zarith/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Complex numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/complex_numbers/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -201,47 +241,6 @@ Examples The vector \((7,2,9) \in \R^3\) is a linear combination of the vectors 
     <time>July 17, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_combo/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lists</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(n\) be a nonnegative integer. Then a list of length \(n\) is an ordered collection of \(n\) objects, \((x_1, \dots, x_n)\).
-For \(j \in \{1, \dots, n\}\), we call the element \(x_j\) the \(j\)th coordinate of the list.
-Properties Two lists are equal if and only if they have the same length and the same coordinates in the same order. That is \((x_1, \dots, x_n) = (y_1, \dots, y_m)\) if and only if \(n = m\) and \(x_j = y_j\) for all \(j = 1, \dots, n\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lists/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Order topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(X\) be a set totally ordered by a relation \(\leq\). The order topology on \(X\) is the topology generated by the basis \(\B\) where \(\B\) is the collection of subsets of \(X\) of the form \(\{x \in X \mid x &lt; a\}\), \(\{x \in X \mid a &lt; x\}\), or \(\{x \in X \mid a &lt; x &lt; b\}\) for \(a, b \in X\).
-Properties If \(X\) is a set totally ordered by a relation \(\leq\), then the order topology on \(X\) has a subbasis \(\Sub\) containing sets of the form \(\{x \in X \mid x &lt; a\}\) or \(\{x \in X \mid a &lt; x\}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/order_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Sequences</h2>
-  </header>
-  <section class="entry-content">
-   <p>They’re like lists but they’re infinitely long.
-Definitions For real numbers, a sequence is a function \(f: \mathbb{N} \to \mathbb{R}\), where the image of the number \(n\) under \(f\) is typically called \(a_n\). The sequence is written by listing its images: \(a_1, a_2, \dots\) or for short, \(\{a_n\}\).
-In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \mathbb{N} \to X\), where the image of the number \(i\) under \(f\) is typically called \(x_i\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/sequence/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -304,7 +303,9 @@ In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \math
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
             "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }"
+            "\\null":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}"
           },
           
           throwOnError : false
