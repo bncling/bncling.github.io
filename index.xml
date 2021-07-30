@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Linear maps</title>
+      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
+      <description>Also called linear transformations.
+Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
+ additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\L (V, W)\).</description>
+    </item>
+    
+    <item>
       <title>Matrices</title>
       <link>https://bncling.github.io/math-wiki/matrices/</link>
       <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
@@ -26,17 +37,6 @@ For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by
       <description>Definitions A function or map \(f: \mathcal{D} \to \mathcal{C}\) is called injective if and only if for all \(a,b \in \mathcal{D}\) such that \(a \neq b\), we have that \(f(a) \neq f(b)\).
 It is called surjective if and only if for all \(y \in \mathcal{C}\), there exists an \(x \in \mathcal{D}\) such that \(f(x) = y\).
 It is called bijective if and only if it is both injective and surjective.</description>
-    </item>
-    
-    <item>
-      <title>Linear maps</title>
-      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
-      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
-      <description>Also called linear transformations.
-Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
- additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\L (V, W)\).</description>
     </item>
     
     <item>
