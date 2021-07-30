@@ -8,7 +8,7 @@
     <title>Matrices - Ben Clingenpeel</title>
     
     <meta name="description" content="Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp; \dots &amp; a_{1,n} \\ \vdots &amp; \ddots &amp; \vdots \\ a_{m,1} &amp; \dots &amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
-Matrix of a linear map If \(V\) and \(W\) are finite-dimensional vector spaces and \(T \in \L(V, W)\) is a linear map, then \(V\) has a basis \((v_1, \dots, v_n)\) and \(W\) has a basis \((w_1, \dots w_m)\).">
+For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\)">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -102,7 +102,7 @@ Matrix of a linear map If \(V\) and \(W\) are finite-dimensional vector spaces a
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Matrices</h1>
-    <div class="post-meta">July 28, 2021</div>
+    <div class="post-meta">July 30, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>A <strong>matrix</strong> is a rectangular array with <span class="math inline">\(m\)</span> rows and <span class="math inline">\(n\)</span> columns for positive integers <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span>. <span class="math display">\[\begin{bmatrix} 
@@ -110,6 +110,7 @@ Matrix of a linear map If \(V\) and \(W\) are finite-dimensional vector spaces a
     \vdots &amp; \ddots &amp; \vdots \\
     a_{m,1} &amp; \dots &amp; a_{m,n}
 \end{bmatrix}\]</span> A generic matrix looks like the above, where <span class="math inline">\(a_{i,j}\)</span> are usually elements of <span class="math inline">\(\F\)</span>, either the <a href="https://bncling.github.io/math-wiki/real_numbers/">reals</a> or the <a href="https://bncling.github.io/math-wiki/complex_numbers/">complex numbers</a>.</p>
+<p>For a matrix <span class="math inline">\(A\)</span>, we denote the entry in the <span class="math inline">\(i\)</span>th row and <span class="math inline">\(j\)</span>th column by <span class="math inline">\(A_{i,j}\)</span></p>
 <h2 id="matrix-of-a-linear-map">Matrix of a linear map</h2>
 <p>If <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> are finite-dimensional <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> and <span class="math inline">\(T \in \L(V, W)\)</span> is a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>, then <span class="math inline">\(V\)</span> has a <a href="https://bncling.github.io/math-wiki/linalg_basis/">basis</a> <span class="math inline">\((v_1, \dots, v_n)\)</span> and <span class="math inline">\(W\)</span> has a basis <span class="math inline">\((w_1, \dots w_m)\)</span>. For each <span class="math inline">\(i = 1, \dots, n\)</span>, the vector <span class="math inline">\(Tv_i \in W\)</span> can be written as a linear combination <span class="math inline">\(Tv_i = a_{1,i} w_1 + \dots + a_{m,i} w_m\)</span>. Then the matrix of <span class="math inline">\(T\)</span> with respect to the bases <span class="math inline">\((v_1, \dots, v_m)\)</span> and <span class="math inline">\((w_1, \dots, w_m)\)</span> is <span class="math display">\[\M(T, (v_1, \dots, v_n), (w_1, \dots, w_m)) = \begin{bmatrix}
     a_{1,1} &amp; \dots &amp; a_{1,n} \\
@@ -117,6 +118,16 @@ Matrix of a linear map If \(V\) and \(W\) are finite-dimensional vector spaces a
     a_{m,1} &amp; \dots &amp; a_{m,n}
 \end{bmatrix}.\]</span> Then the columns of this matrix are the images of the <span class="math inline">\(n\)</span> basis vectors of <span class="math inline">\(V\)</span> under the map <span class="math inline">\(T\)</span>, that is, column <span class="math inline">\(i\)</span> of this matrix is <span class="math inline">\(Tv_i\)</span> for <span class="math inline">\(i = 1, \dots, n\)</span>.</p>
 <h2 id="properties">Properties</h2>
+<p>We define addition and (scalar) multiplication of matrices so that the matrices of linear maps behave the same way linear maps do when added and <a href="https://bncling.github.io/math-wiki/map_products/">multiplied</a>.</p>
+<p>Let <span class="math inline">\(A\)</span> be a matrix with entries <span class="math inline">\(A_{i,j} = a_{i,j} \in \F\)</span> and let <span class="math inline">\(B\)</span> be a matrix with entries <span class="math inline">\(B_{i,j} = b_{i,j} \in \F\)</span> for <span class="math inline">\(i = 1, \dots, n\)</span> and <span class="math inline">\(j = 1, \dots, m\)</span> for some <span class="math inline">\(n, m \in \N\)</span>. Then we define <span class="math inline">\(A + B\)</span> to be the matrix with entries <span class="math inline">\((A + B)_{i,j} = a_{i,j} + b_{i,j}\)</span>. (Addition only makes sense when <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are both <span class="math inline">\(n \times m\)</span> matrices.)</p>
+<p>If <span class="math inline">\(c \in \F\)</span> is a scalar and <span class="math inline">\(A\)</span> is a matrix with entries <span class="math inline">\(A_{i,j} = a_{i,j} \in \F\)</span> for <span class="math inline">\(i = 1, \dots, n\)</span> and <span class="math inline">\(j = 1, \dots, m\)</span> for some <span class="math inline">\(n, m \in \N\)</span>, we define <span class="math inline">\(cA\)</span> to be the matrix with entries <span class="math inline">\((cA)_{i,j} = ca_{i,j}\)</span>.</p>
+<p>If <span class="math inline">\(A\)</span> is a matrix with entries <span class="math inline">\(A_{i,j} = a_{i,j} \in \F\)</span> and <span class="math inline">\(B\)</span> is a matrix with entries <span class="math inline">\(B_{j,k} = b_{j,k} \in \F\)</span> for <span class="math inline">\(i = 1, \dots, n\)</span>, <span class="math inline">\(j = 1, \dots, m\)</span>, and <span class="math inline">\(k = 1, \dots, p\)</span> for some <span class="math inline">\(n, m, p \in \N\)</span>, then we define <span class="math inline">\(AB\)</span> to be the matrix with entries <span class="math display">\[(AB)_{i,p} = \sum_{l = 1}^m a_{i,l} b_{l,p}.\]</span> (Multiplication only makes sense when <span class="math inline">\(A\)</span> has the same number of columns as <span class="math inline">\(B\)</span> has rows.)</p>
+<h2 id="examples">Examples</h2>
+<p>If <span class="math inline">\(T \in \L(\F^2, \F^3)\)</span> is the linear map defined by <span class="math inline">\(T(x,y) = (x + 3y, 2x + 5y, 7x + 9y)\)</span>, then <span class="math display">\[\M (T) = \begin{bmatrix}
+    1 &amp; 3 \\
+    2 &amp; 5 \\
+    7 &amp; 9
+\end{bmatrix}\]</span> is the matrix of <span class="math inline">\(T\)</span>, where the lack of specified bases for <span class="math inline">\(\F^2\)</span> and <span class="math inline">\(\F^3\)</span> means the standard bases are being used.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

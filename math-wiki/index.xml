@@ -8,6 +8,27 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Matrices</title>
+      <link>https://bncling.github.io/math-wiki/matrices/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/matrices/</guid>
+      <description>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp;amp; \dots &amp;amp; a_{1,n} \\ \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{m,1} &amp;amp; \dots &amp;amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
+For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\)</description>
+    </item>
+    
+    <item>
+      <title>Injectivity, surjectivity, and bijectivity</title>
+      <link>https://bncling.github.io/math-wiki/inj_surj_bij/</link>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/inj_surj_bij/</guid>
+      <description>Definitions A function or map \(f: \mathcal{D} \to \mathcal{C}\) is called injective if and only if for all \(a,b \in \mathcal{D}\) such that \(a \neq b\), we have that \(f(a) \neq f(b)\).
+It is called surjective if and only if for all \(y \in \mathcal{C}\), there exists an \(x \in \mathcal{D}\) such that \(f(x) = y\).
+It is called bijective if and only if it is both injective and surjective.</description>
+    </item>
+    
+    <item>
       <title>Linear maps</title>
       <link>https://bncling.github.io/math-wiki/linear_maps/</link>
       <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
@@ -16,16 +37,6 @@
       <description>Also called linear transformations.
 Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
  additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\L (V, W)\).</description>
-    </item>
-    
-    <item>
-      <title>Matrices</title>
-      <link>https://bncling.github.io/math-wiki/matrices/</link>
-      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/matrices/</guid>
-      <description>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp;amp; \dots &amp;amp; a_{1,n} \\ \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{m,1} &amp;amp; \dots &amp;amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
-Matrix of a linear map If \(V\) and \(W\) are finite-dimensional vector spaces and \(T \in \L(V, W)\) is a linear map, then \(V\) has a basis \((v_1, \dots, v_n)\) and \(W\) has a basis \((w_1, \dots w_m)\).</description>
     </item>
     
     <item>
@@ -70,17 +81,6 @@ Properties (3.3) Proposition: If \(T \in \L(V,W)\), then \(\range T\) is a subsp
       <description>Definition The dimension of a finite dimensional vector space \(V\), denoted \(\dim V\), is the length of any basis of \(V\).
 Properties (2.18) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2).\]
 (3.4) Theorem: If \(V\) is a finite-dimensional vector space and \(T \in \L(V,W)\) is a linear map, then \[\dim V = \dim \, \null T + \dim \, \range T,\] where \(\null T\) and \(\range T\) denote the null space and range of \(T\), respectively.</description>
-    </item>
-    
-    <item>
-      <title>Injectivity, surjectivity, and bijectivity</title>
-      <link>https://bncling.github.io/math-wiki/inj_surj_bij/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/inj_surj_bij/</guid>
-      <description>Definitions A function or map \(f: \mathcal{D} \to \mathcal{C}\) is called injective if and only if for all \(a,b \in \mathcal{D}\) such that \(a \neq b\), we have that \(f(a) \neq f(b)\).
-It is called surjective if and only if for all \(y \in \mathcal{C}\), there exists an \(x \in \mathcal{D}\) such that \(f(x) = y\).
-It is called bijective if and only if it is both injective and surjective.</description>
     </item>
     
     <item>
