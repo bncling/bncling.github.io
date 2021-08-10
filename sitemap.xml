@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bncling.github.io/math-wiki/linear_maps/</loc>
-    <lastmod>2021-07-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/tags/linear_algebra/</loc>
-    <lastmod>2021-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/matrices/</loc>
-    <lastmod>2021-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/linear_maps/</loc>
     <lastmod>2021-07-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/inj_surj_bij/</loc>
