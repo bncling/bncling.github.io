@@ -104,20 +104,6 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Subspaces of a vector space</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
-Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
- additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u &#43; v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 18, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_subspaces/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
     <h2>Sums of subspaces</h2>
   </header>
   <section class="entry-content">
@@ -126,9 +112,35 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
  \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 &#43; \dots &#43; 0}^{m \text{ times}} \in U_1 &#43; \dots &#43; U_m\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 18, 2021</time>
+    <time>August 12, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/subspace_sums/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Systems of linear equations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
+An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_systems/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Vector spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(&#43;\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u &#43; v = v &#43; u\) for all \(u, v \in V\); associativity: \((u &#43; v) &#43; w = u &#43; (v &#43; w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v &#43; 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v &#43; w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u &#43; v) = au &#43; av\) and \((a &#43; b)v = av &#43; bv\) for all \(v,w \in V\) and \(a,b \in \F\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/vector_space/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -215,8 +227,8 @@ Properties For a list of vectors \((v_1, \dots, v_n)\) in \(V\), \(\Span(v_1, \d
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },

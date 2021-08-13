@@ -8,8 +8,8 @@
     <title>Basis of a vector space - Ben Clingenpeel</title>
     
     <meta name="description" content="Definition Let \(V\) be a vector space. A basis of \(V\) is a list of vectors in \(V\) that is linearly independent and spans \(V\).
-Properties (2.8) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
-(2.10) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list.">
+Properties (2.29) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
+(2.31) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -103,23 +103,23 @@ Properties (2.8) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) i
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Basis of a vector space</h1>
-    <div class="post-meta">July 18, 2021</div>
+    <div class="post-meta">August 12, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>Let <span class="math inline">\(V\)</span> be a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a>. A <strong>basis</strong> of <span class="math inline">\(V\)</span> is a <a href="https://bncling.github.io/math-wiki/lists/">list</a> of vectors in <span class="math inline">\(V\)</span> that is <a href="https://bncling.github.io/math-wiki/linear_independence/">linearly independent</a> and <a href="https://bncling.github.io/math-wiki/span/">spans</a> <span class="math inline">\(V\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p><strong>(2.8) Proposition:</strong> A list <span class="math inline">\((v_1, \dots, v_n)\)</span> is a basis of <span class="math inline">\(V\)</span> if and only if every <span class="math inline">\(v \in V\)</span> can be <em>uniquely</em> expressed as a <a href="https://bncling.github.io/math-wiki/linear_combo/">linear combination</a> of <span class="math inline">\((v_1, \dots, v_n)\)</span>.</p>
-<p><strong>(2.10) Theorem:</strong> Every spanning list <span class="math inline">\((v_1, \dots, v_n)\)</span> of <span class="math inline">\(V\)</span> can be reduced to a basis by removing some of the <span class="math inline">\(v_i\)</span> from the list.</p>
+<p><strong>(2.29) Proposition:</strong> A list <span class="math inline">\((v_1, \dots, v_n)\)</span> is a basis of <span class="math inline">\(V\)</span> if and only if every <span class="math inline">\(v \in V\)</span> can be <em>uniquely</em> expressed as a <a href="https://bncling.github.io/math-wiki/linear_combo/">linear combination</a> of <span class="math inline">\((v_1, \dots, v_n)\)</span>.</p>
+<p><strong>(2.31) Theorem:</strong> Every spanning list <span class="math inline">\((v_1, \dots, v_n)\)</span> of <span class="math inline">\(V\)</span> can be reduced to a basis by removing some of the <span class="math inline">\(v_i\)</span> from the list.</p>
 <p>To do the above in practice, follow these steps for <span class="math inline">\(i = 1, \dots, n\)</span>:</p>
 <ul>
 <li>Step 1: If <span class="math inline">\(v_1 = 0\)</span>, remove <span class="math inline">\(v_1\)</span>.</li>
 <li>Step <span class="math inline">\(i\)</span>: If <span class="math inline">\(v_i \in \Span(v_1, \dots, v_{i-1})\)</span>, remove <span class="math inline">\(v_i\)</span>.</li>
 </ul>
-<p><strong>(2.11) Corollary:</strong> Every finite-dimensional vector space has a basis.</p>
-<p><strong>(2.12) Theorem:</strong> Every linearly independent list of vectors in a finite dimensional vector space <span class="math inline">\(V\)</span> can be extended to a basis by adding some vectors to the list.</p>
-<p><strong>(2.14) Theorem:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any two bases have the same length.</p>
-<p><strong>(2.16) Proposition:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any list of vectors with length <span class="math inline">\(\dim V\)</span> that spans <span class="math inline">\(V\)</span> is a basis (where <span class="math inline">\(\dim V\)</span> is the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of <span class="math inline">\(V\)</span>).</p>
-<p><strong>(2.17) Proposition:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any list of vectors with length <span class="math inline">\(\dim V\)</span> that is linearly independent is a basis.</p>
+<p><strong>(2.32) Corollary:</strong> Every finite-dimensional vector space has a basis.</p>
+<p><strong>(2.33) Theorem:</strong> Every linearly independent list of vectors in a finite dimensional vector space <span class="math inline">\(V\)</span> can be extended to a basis by adding some vectors to the list.</p>
+<p><strong>(2.35) Theorem:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any two bases have the same length.</p>
+<p><strong>(2.42) Proposition:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any list of vectors with length <span class="math inline">\(\dim V\)</span> that spans <span class="math inline">\(V\)</span> is a basis (where <span class="math inline">\(\dim V\)</span> is the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of <span class="math inline">\(V\)</span>).</p>
+<p><strong>(2.39) Proposition:</strong> Let <span class="math inline">\(V\)</span> be a finite dimensional vector space. Any list of vectors with length <span class="math inline">\(\dim V\)</span> that is linearly independent is a basis.</p>
 <h2 id="examples">Examples</h2>
 <p>The list <span class="math inline">\(((1,0, \dots, 0), (0,1,0, \dots, 0), \dots, (0, \dots, 0, 1))\)</span> is a basis of <span class="math inline">\(\F^n\)</span> called the <strong>standard basis</strong>.</p>
 <p>The <strong>standard basis</strong> of <span class="math inline">\(\Poly_n(\F)\)</span> is <span class="math inline">\((1, z, \dots, z^n)\)</span>.</p>
@@ -181,8 +181,8 @@ Properties (2.8) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) i
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },
@@ -246,8 +246,8 @@ Properties (2.8) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) i
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },

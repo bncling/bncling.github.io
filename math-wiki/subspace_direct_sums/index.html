@@ -7,8 +7,8 @@
     
     <title>Direct sums of subspaces - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\) such that the sum \(U_1 &#43; \dots &#43; U_m\) is the whole space \(V\). If each element \(v \in V\) can be written uniquely as a sum \(u_1 &#43; \dots &#43; u_m\) where each \(u_i \in U_i\). In this case, we write \(V = U_1 \oplus \dots \oplus U_m\).
-Properties (1.8) Proposition: Let \(U_1, \dots, U_n\) are subspaces of a vector space \(V\).">
+    <meta name="description" content="Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). If each element \(u \in U_1 &#43; \dots &#43; U_m\) can be written uniquely as a sum \(u_1 &#43; \dots &#43; u_m\) where each \(u_i \in U_i\), then this sum is called a direct sum. In this case, we write the sum as \(U_1 \oplus \dots \oplus U_m\).
+Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector space \(V\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -102,20 +102,15 @@ Properties (1.8) Proposition: Let \(U_1, \dots, U_n\) are subspaces of a vector 
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Direct sums of subspaces</h1>
-    <div class="post-meta">July 18, 2021</div>
+    <div class="post-meta">August 12, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\(U_1, \dots, U_m\)</span> be <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspaces</a> of a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a> <span class="math inline">\(V\)</span> such that the <a href="https://bncling.github.io/math-wiki/subspace_sums/">sum</a> <span class="math inline">\(U_1 + \dots + U_m\)</span> is the whole space <span class="math inline">\(V\)</span>. If each element <span class="math inline">\(v \in V\)</span> can be written <em>uniquely</em> as a sum <span class="math inline">\(u_1 + \dots + u_m\)</span> where each <span class="math inline">\(u_i \in U_i\)</span>. In this case, we write <span class="math inline">\(V = U_1 \oplus \dots \oplus U_m\)</span>.</p>
+<p>Let <span class="math inline">\(U_1, \dots, U_m\)</span> be <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspaces</a> of a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a> <span class="math inline">\(V\)</span>. If each element <span class="math inline">\(u \in U_1 + \dots + U_m\)</span> can be written <em>uniquely</em> as a sum <span class="math inline">\(u_1 + \dots + u_m\)</span> where each <span class="math inline">\(u_i \in U_i\)</span>, then this sum is called a <strong>direct sum</strong>. In this case, we write the sum as <span class="math inline">\(U_1 \oplus \dots \oplus U_m\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p><strong>(1.8) Proposition:</strong> Let <span class="math inline">\(U_1, \dots, U_n\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span>. Then <span class="math inline">\(V = U_1 \oplus \dots \oplus U_n\)</span> if and only if both</p>
-<ul>
-<li><span class="math inline">\(V = U_1 + \dots + U_n\)</span>, and</li>
-<li>the only way to write <span class="math inline">\(0\)</span> as a sum <span class="math inline">\(u_1 + \dots + u_n\)</span> where <span class="math inline">\(u_i \in U_i\)</span> is by setting <span class="math inline">\(u_i = 0\)</span> for all <span class="math inline">\(i = 1, \dots, n\)</span>.</li>
-</ul>
-<p><strong>(1.9) Proposition:</strong> Let <span class="math inline">\(U\)</span> and <span class="math inline">\(W\)</span> be subspaces of a vector space <span class="math inline">\(V\)</span>. Then <span class="math inline">\(V = U \oplus W\)</span> if and only if <span class="math inline">\(V = U + W\)</span> and <span class="math inline">\(U \cap W = \{0\}\)</span>.</p>
-<p><strong>(1.15) Exercise:</strong> Let <span class="math inline">\(U_1\)</span>, <span class="math inline">\(U_2\)</span>, and <span class="math inline">\(W\)</span> be subspaces of a vector space <span class="math inline">\(V\)</span> such that <span class="math inline">\(U_1 \oplus W = V = U_2 \oplus W\)</span>. Then <span class="math inline">\(U_1 = U_2\)</span>.</p>
-<p><strong>(2.13) Proposition:</strong> Let <span class="math inline">\(U\)</span> be a subspace of a finite-dimensional vector space <span class="math inline">\(V\)</span>. There exists a subspace <span class="math inline">\(W\)</span> of <span class="math inline">\(V\)</span> such that <span class="math inline">\(V = U \oplus W\)</span>.</p>
-<p><strong>(2.19) Theorem:</strong> If <span class="math inline">\(U_1, \dots, U_m\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span> such that <span class="math inline">\(V = U_1 + \dots + U_m\)</span> and <span class="math inline">\(\dim U_1 + \dots + \dim U_m\)</span> (where <span class="math inline">\(\dim U\)</span> denotes the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of a space <span class="math inline">\(U\)</span>), then <span class="math inline">\(V = U_1 \oplus \dots \oplus U_m\)</span>.</p>
+<p><strong>(1.44) Proposition:</strong> Let <span class="math inline">\(U_1, \dots, U_n\)</span> be subspaces of a vector space <span class="math inline">\(V\)</span>. Then <span class="math inline">\(V = U_1 \oplus \dots \oplus U_n\)</span> if and only if the only way to write <span class="math inline">\(0\)</span> as a sum <span class="math inline">\(u_1 + \dots + u_n\)</span> where <span class="math inline">\(u_i \in U_i\)</span> is by setting <span class="math inline">\(u_i = 0\)</span> for all <span class="math inline">\(i = 1, \dots, n\)</span>.</p>
+<p><strong>(1.45) Proposition:</strong> Let <span class="math inline">\(U\)</span> and <span class="math inline">\(W\)</span> be subspaces of a vector space <span class="math inline">\(V\)</span>. Then <span class="math inline">\(U + W\)</span> is a direct sum if and only if <span class="math inline">\(U \cap W = \{0\}\)</span>.</p>
+<p><strong>Exercise:</strong> Let <span class="math inline">\(U_1\)</span>, <span class="math inline">\(U_2\)</span>, and <span class="math inline">\(W\)</span> be subspaces of a vector space <span class="math inline">\(V\)</span> such that <span class="math inline">\(U_1 \oplus W = V = U_2 \oplus W\)</span>. Then <span class="math inline">\(U_1 = U_2\)</span>.</p>
+<p><strong>(2.34) Proposition:</strong> Let <span class="math inline">\(U\)</span> be a subspace of a finite-dimensional vector space <span class="math inline">\(V\)</span>. There exists a subspace <span class="math inline">\(W\)</span> of <span class="math inline">\(V\)</span> such that <span class="math inline">\(V = U \oplus W\)</span>.</p>
 <h2 id="examples">Examples</h2>
 <p>Let <span class="math inline">\(U_i\)</span> be the subspace of <span class="math inline">\(\F^n\)</span> containing vectors with coordinates all equal to zero except possibly the <span class="math inline">\(i\)</span>th coordinate, that is, <span class="math display">\[U_i = \{ (0, \dots, x, \dots, 0) \in \F^n \mid x \in \F \}.\]</span> Then <span class="math inline">\(\F^n = U_1 \oplus \dots \oplus U_n\)</span> is the direct sum of the <span class="math inline">\(U_i\)</span> since <span class="math inline">\(v \in V\)</span> has a unique representation as <span class="math inline">\(v = (v_1, \dots, v_n) = u_1 + \dots + u_n\)</span> where <span class="math inline">\(u_i = (0, \dots, v_i, \dots, 0) \in U_i\)</span>.</p>
 <p>The set <span class="math inline">\(U_e\)</span> containing <a href="https://bncling.github.io/math-wiki/function/">polynomials</a> <span class="math inline">\(p\)</span> of the form <span class="math inline">\(p(z) = a_0 + a_2 z^2 + \dots + a_{2m} z^{2m}\)</span> is a subspace of <span class="math inline">\(\Poly(\F)\)</span>, as is the set <span class="math inline">\(U_o\)</span> containing polynomials of the form <span class="math inline">\(p(z) = a_1 z + \dots + a_{2m + 1} z^{2m + 1}\)</span> (<span class="math inline">\(m \in \N\)</span> and <span class="math inline">\(a_i \in \F\)</span>). Then we have that <span class="math inline">\(\Poly(\F) = U_e \oplus U_o\)</span> is the direct sum of the set of even polynomials and the set of odd polynomials.</p>
@@ -168,8 +163,8 @@ Properties (1.8) Proposition: Let \(U_1, \dots, U_n\) are subspaces of a vector 
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },
@@ -233,8 +228,8 @@ Properties (1.8) Proposition: Let \(U_1, \dots, U_n\) are subspaces of a vector 
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },

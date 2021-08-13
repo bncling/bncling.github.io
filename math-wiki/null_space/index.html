@@ -8,8 +8,8 @@
     <title>Null spaces - Ben Clingenpeel</title>
     
     <meta name="description" content="Also known as kernels…
-Definition Let \(T \in \L(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The null space of \(T\), denoted \(\null T\), is the subset of \(V\) containing vectors that \(T\) maps to the zero vector in \(W\), that is, \[\null T = \{v \in V \mid Tv = 0\}.\]
-Properties (3.1) Proposition: If \(T \in \L(V,W)\), then \(\null T\) is a subspace of \(V\).">
+Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The null space of \(T\), denoted \(\nl T\), is the subset of \(V\) containing vectors that \(T\) maps to the zero vector in \(W\), that is, \[\nl T = \{v \in V \mid Tv = 0\}.\]
+Properties (3.14) Proposition: If \(T \in \Lin(V,W)\), then \(\nl T\) is a subspace of \(V\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -103,18 +103,18 @@ Properties (3.1) Proposition: If \(T \in \L(V,W)\), then \(\null T\) is a subspa
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Null spaces</h1>
-    <div class="post-meta">July 28, 2021</div>
+    <div class="post-meta">August 12, 2021</div>
   </header>
   <div class="post-content"><p>Also known as kernels…</p>
 <h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\(T \in \L(V,W)\)</span> be a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a> between <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span>. The <strong>null space of <span class="math inline">\(T\)</span></strong>, denoted <span class="math inline">\(\null T\)</span>, is the subset of <span class="math inline">\(V\)</span> containing vectors that <span class="math inline">\(T\)</span> maps to the zero vector in <span class="math inline">\(W\)</span>, that is, <span class="math display">\[\null T = \{v \in V \mid Tv = 0\}.\]</span></p>
+<p>Let <span class="math inline">\(T \in \Lin(V,W)\)</span> be a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a> between <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span>. The <strong>null space of <span class="math inline">\(T\)</span></strong>, denoted <span class="math inline">\(\nl T\)</span>, is the subset of <span class="math inline">\(V\)</span> containing vectors that <span class="math inline">\(T\)</span> maps to the zero vector in <span class="math inline">\(W\)</span>, that is, <span class="math display">\[\nl T = \{v \in V \mid Tv = 0\}.\]</span></p>
 <h2 id="properties">Properties</h2>
-<p><strong>(3.1) Proposition:</strong> If <span class="math inline">\(T \in \L(V,W)\)</span>, then <span class="math inline">\(\null T\)</span> is a <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspace</a> of <span class="math inline">\(V\)</span>.</p>
-<p><strong>(3.2) Proposition:</strong> Let <span class="math inline">\(T \in \L(V,W)\)</span>. Then <span class="math inline">\(T\)</span> is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> if and only if <span class="math inline">\(\null T = \{0\}\)</span>.</p>
-<p><strong>(3.4) Theorem:</strong> If <span class="math inline">\(V\)</span> is a finite-dimensional vector space and <span class="math inline">\(T \in \L(V,W)\)</span> is a linear map, then <span class="math display">\[\dim V = \dim \, \null T + \dim \, \range T,\]</span> where <span class="math inline">\(\range T\)</span> denotes the <a href="https://bncling.github.io/math-wiki/range/">range</a> of <span class="math inline">\(T\)</span> and <span class="math inline">\(\dim V\)</span> is the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of the space <span class="math inline">\(V\)</span>.</p>
+<p><strong>(3.14) Proposition:</strong> If <span class="math inline">\(T \in \Lin(V,W)\)</span>, then <span class="math inline">\(\nl T\)</span> is a <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspace</a> of <span class="math inline">\(V\)</span>.</p>
+<p><strong>(3.16) Proposition:</strong> Let <span class="math inline">\(T \in \Lin(V,W)\)</span>. Then <span class="math inline">\(T\)</span> is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> if and only if <span class="math inline">\(\nl T = \{0\}\)</span>.</p>
+<p><strong>(3.22) Fundamental Theorem of Linear Maps:</strong> If <span class="math inline">\(V\)</span> is a finite-dimensional vector space and <span class="math inline">\(T \in \Lin(V,W)\)</span> is a linear map, then <span class="math display">\[\dim V = \dim \, \nl T + \dim \, \range T,\]</span> where <span class="math inline">\(\range T\)</span> denotes the <a href="https://bncling.github.io/math-wiki/range/">range</a> of <span class="math inline">\(T\)</span> and <span class="math inline">\(\dim V\)</span> is the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of the space <span class="math inline">\(V\)</span>.</p>
 <h2 id="examples">Examples</h2>
-<p>If <span class="math inline">\(T \in \L(\Poly(\R), \Poly(\R))\)</span> is defined by <span class="math inline">\(Tp = p&#39;\)</span>, then <span class="math inline">\(\null T = \{p \in \Poly(\R) \mid p(x) = c\}\)</span> for some <span class="math inline">\(c \in \R\)</span>.</p>
-<p>If <span class="math inline">\(T \in \L(\Poly(\R), \Poly(\R))\)</span> is defined by <span class="math inline">\((Tp)(x) = x^2 p(x)\)</span>, then <span class="math inline">\(\null T = \{0\}\)</span>.</p>
+<p>If <span class="math inline">\(T \in \Lin(\Poly(\R), \Poly(\R))\)</span> is defined by <span class="math inline">\(Tp = p&#39;\)</span>, then <span class="math inline">\(\nl T = \{p \in \Poly(\R) \mid p(x) = c\}\)</span> for some <span class="math inline">\(c \in \R\)</span>.</p>
+<p>If <span class="math inline">\(T \in \Lin(\Poly(\R), \Poly(\R))\)</span> is defined by <span class="math inline">\((Tp)(x) = x^2 p(x)\)</span>, then <span class="math inline">\(\nl T = \{0\}\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
@@ -164,8 +164,8 @@ Properties (3.1) Proposition: If \(T \in \L(V,W)\), then \(\null T\) is a subspa
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },
@@ -229,8 +229,8 @@ Properties (3.1) Proposition: If \(T \in \L(V,W)\), then \(\null T\) is a subspa
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },

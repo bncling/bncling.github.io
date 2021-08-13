@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Subspaces of a vector space - Ben Clingenpeel</title>
+    <title>Systems of linear equations - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
-Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
- additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u &#43; v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).">
+    <meta name="description" content="Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
+An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -102,51 +101,23 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Subspaces of a vector space</h1>
+    <h1 class="post-title">Systems of linear equations</h1>
     <div class="post-meta">August 12, 2021</div>
   </header>
-  <div class="post-content"><h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\(V\)</span> be a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a>. A subset <span class="math inline">\(U\)</span> of <span class="math inline">\(V\)</span> is a subspace of <span class="math inline">\(V\)</span> if and only if it is also a vector space.</p>
+  <div class="post-content"><h2 id="definitions">Definitions</h2>
+<p>A <strong>homogeneous system of linear equations</strong> is a system consisting of <span class="math inline">\(m\)</span> linear equations in <span class="math inline">\(n\)</span> variables for some positive integers <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span> of the form <span class="math display">\[\begin{align*}
+    \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\
+    &amp;\vdots \\
+    \sum_{k=1}^n A_{m,k} x_k &amp;= 0
+\end{align*}\]</span> where <span class="math inline">\(A_j,k \in \F\)</span> for <span class="math inline">\(j=1, \dots m\)</span> and <span class="math inline">\(k=1, \dots n\)</span>.</p>
+<p>An <strong>inhomogeneous system of linear equations</strong> is a system consisting of <span class="math inline">\(m\)</span> linear equations in <span class="math inline">\(n\)</span> variables for some positive integers <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span> of the form <span class="math display">\[\begin{align*}
+    \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\
+    &amp;\vdots \\
+    \sum_{k=1}^n A_{m,k} x_k &amp;= c_m
+\end{align*}\]</span> where <span class="math inline">\(A_{j,k}, c_j \in \F\)</span> for <span class="math inline">\(j=1, \dots m\)</span>, <span class="math inline">\(k=1, \dots n\)</span>, and the <span class="math inline">\(c_j\)</span> are not all zero.</p>
 <h2 id="properties">Properties</h2>
-<p>Since many properties of the vector space <span class="math inline">\(V\)</span> are inherited, a subset <span class="math inline">\(U\)</span> is a subspace provided it satisfies the following:</p>
-<ul>
-<li><strong>additive identity:</strong> <span class="math inline">\(0 \in U\)</span>;</li>
-<li><strong>closed under addition:</strong> <span class="math inline">\(u,v \in U\)</span> implies <span class="math inline">\(u + v \in U\)</span>;</li>
-<li><strong>closed under scalar multiplication:</strong> <span class="math inline">\(a \in \F\)</span>, <span class="math inline">\(v \in V\)</span> implies <span class="math inline">\(av \in U\)</span>.</li>
-</ul>
-<p>But, just to double check…</p>
-<ul>
-<li>vector addition in <span class="math inline">\(U\)</span> is commutative because vectors in <span class="math inline">\(U\)</span> are also vectors in <span class="math inline">\(V\)</span>, a vector space;</li>
-<li>vector addition in <span class="math inline">\(U\)</span> is associative because vectors in <span class="math inline">\(U\)</span> are also vectors in <span class="math inline">\(V\)</span>, a vector space, and addition in <span class="math inline">\(\F\)</span> is associative since <span class="math inline">\(V\)</span> is also a vector space over <span class="math inline">\(\F\)</span>;</li>
-<li>assuming the above three properties hold, <span class="math inline">\(0 \in U\)</span>, so there exists an additive identity;</li>
-<li><span class="math inline">\(u \in U\)</span> implies <span class="math inline">\((-1)u \in U\)</span> since <span class="math inline">\(U\)</span> is closed under scalar multiplication, so every vector in <span class="math inline">\(U\)</span> has an additive inverse;</li>
-<li><span class="math inline">\(1u = u\)</span> for all vectors <span class="math inline">\(u \in U\)</span> since vectors in <span class="math inline">\(U\)</span> are also vectors in <span class="math inline">\(V\)</span>, in which <span class="math inline">\(1v = v\)</span> for all <span class="math inline">\(v \in V\)</span>;</li>
-<li>the distributive properties hold for vectors in <span class="math inline">\(U\)</span> since vectors in <span class="math inline">\(U\)</span> are also vectors in <span class="math inline">\(V\)</span>, a vector space.</li>
-</ul>
-<p><strong>Exercise:</strong> The intersection of any collection of subspaces of <span class="math inline">\(V\)</span> is itself a subspace of <span class="math inline">\(V\)</span>.</p>
-<p><strong>Exercise:</strong> The union of two subspaces of <span class="math inline">\(V\)</span> is itself a subspace if and only if one is a subset of the other.</p>
-<p><strong>(2.26) Theorem:</strong> Every subspace of a <a href="https://bncling.github.io/math-wiki/vector_space/">finite-dimensional</a> vector space is itself finite-dimensional.</p>
-<p><strong>(2.38) Proposition:</strong> If <span class="math inline">\(U\)</span> is a <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspace</a> of <span class="math inline">\(V\)</span>, then <span class="math inline">\(\dim U \leq \dim V\)</span>.</p>
-<h2 id="examples">Examples</h2>
-<p>If <span class="math inline">\(b = 0\)</span>, then <span class="math inline">\(U = \{(x_1, x_2, x_3, x_4) \in \F^4 \mid x_3 = 5x_4 + b\}\)</span> is a subspace of <span class="math inline">\(\F^4\)</span> since</p>
-<ul>
-<li><span class="math inline">\((0,0,0,0)\)</span> satisfies <span class="math inline">\(0 = 5(0)\)</span>;</li>
-<li><span class="math inline">\((x_1, x_2, 5x_4, x_4) + (y_1, y_2, 5y_4, y_4) = (x_1 + y_1, x_2 + y_2, 5(x_4 + y_4), x_4 + y_4)\)</span>;</li>
-<li><span class="math inline">\(a \cdot (x_1, x_2, 5x_4, x_4) = (ax_1, ax_2, 5(ax_4), x_4)\)</span>.</li>
-</ul>
-<p>If <span class="math inline">\(b \neq 0\)</span>, then <span class="math inline">\(U\)</span> is not a subspace since <span class="math inline">\((0,0,0,0)\)</span> has <span class="math inline">\(x_3 = 0 \neq b = 5(0) + b = 5x_4 + b\)</span>.</p>
-<p>The set <span class="math inline">\(U = \{p \in \Poly(\F): p(3) = b\}\)</span> is a subspace of <span class="math inline">\(\Poly(\F)\)</span> (the set of <a href="https://bncling.github.io/math-wiki/function/">polynomials</a> <span class="math inline">\(p: \F \to \F\)</span>) if and only if <span class="math inline">\(b = 0\)</span> for similar reasons.</p>
-<ul>
-<li>The zero polynomial <span class="math inline">\(p(z) = 0\)</span> has <span class="math inline">\(p(3) = 0\)</span>.</li>
-<li>If <span class="math inline">\(p, q \in U\)</span>, then <span class="math inline">\((p+q)(3) = p(3) + q(3) = 0\)</span>, so <span class="math inline">\(p+q \in U\)</span>.</li>
-<li>If <span class="math inline">\(p \in U\)</span> and <span class="math inline">\(a \in \F\)</span>, then <span class="math inline">\((ap)(3) = ap(3) = a(0) = 0\)</span>, so <span class="math inline">\(ap \in U\)</span>.</li>
-</ul>
-<p><span class="math inline">\(\Poly_n (\F)\)</span>, the set of polynomials with coefficients in <span class="math inline">\(\F\)</span> of degree less than of equal to <span class="math inline">\(n\)</span> is a finite dimensional subspace of <span class="math inline">\(\Poly (\F)\)</span>, an infinite dimensional vector space.</p>
-<ul>
-<li>The zero polynomial has degree <span class="math inline">\(-\infty \leq n\)</span>.</li>
-<li>If <span class="math inline">\(p,q \in \Poly_n (\F)\)</span>, then <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> have degree <span class="math inline">\(\leq n\)</span>, so <span class="math inline">\(p + q\)</span> also has degree <span class="math inline">\(\leq n\)</span> and therefore <span class="math inline">\(p + q \in \Poly_n (\F)\)</span>.</li>
-<li>If <span class="math inline">\(p \in \Poly_n (\F)\)</span> and <span class="math inline">\(a \in \F\)</span>, then <span class="math inline">\(p\)</span> has degree <span class="math inline">\(\leq n\)</span>, so <span class="math inline">\(ap\)</span> also has degree <span class="math inline">\(\leq n\)</span> and therefore <span class="math inline">\(ap \in \Poly_n (\F)\)</span>.</li>
-</ul>
+<p><strong>(3.26) Proposition:</strong> A homogeneous system of linear equations with more variables than equations has nonzero solutions. We can reframe this in terms of <a href="https://bncling.github.io/math-wiki/linear_maps/">linear maps</a> by asking whether a map <span class="math inline">\(T \in \Lin(\F^n, \F^m)\)</span> defined by <span class="math display">\[T(x_1, \dots, x_n) = \left( \sum_{k=1}^n A_{1,k} x_k, \dots, \sum_{k=1}^n A_{m,k} x_k \right)\]</span> has a <a href="https://bncling.github.io/math-wiki/null_space/">null space</a> strictly larger than <span class="math inline">\(\{0\}\)</span>. Since <span class="math inline">\(T\)</span> is not <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> when <span class="math inline">\(n &gt; m\)</span>, the system has nonzero solutions.</p>
+<p><strong>(3.29) Proposition:</strong> An inhomogeneous system of linear equations with more equations than variables has no solution for some choice of the <span class="math inline">\(c_j\)</span>. Again considering the map <span class="math inline">\(T\)</span> defined as above, we’re really asking whether <span class="math inline">\(\range T = \F^m\)</span> or not, and we always have <span class="math inline">\(\range T \neq \F^m\)</span> when <span class="math inline">\(m &gt; n\)</span>, which coresponds to a choice of the <span class="math inline">\(c_j\)</span> for which the system has no solution.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

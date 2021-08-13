@@ -8,8 +8,8 @@
     <title>Dimension of a vector space - Ben Clingenpeel</title>
     
     <meta name="description" content="Definition The dimension of a finite dimensional vector space \(V\), denoted \(\dim V\), is the length of any basis of \(V\).
-Properties (2.18) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 &#43; U_2) = \dim U_1 &#43; \dim U_2 - \dim (U_1 \cap U_2).\]
-(3.4) Theorem: If \(V\) is a finite-dimensional vector space and \(T \in \L(V,W)\) is a linear map, then \[\dim V = \dim \, \null T &#43; \dim \, \range T,\] where \(\null T\) and \(\range T\) denote the null space and range of \(T\), respectively.">
+Properties (2.43) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 &#43; U_2) = \dim U_1 &#43; \dim U_2 - \dim (U_1 \cap U_2).\]
+(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T &#43; \dim \, \range T,\] where \(\nl T\) and \(\range T\) denote the null space and range of \(T\), respectively.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -103,13 +103,13 @@ Properties (2.18) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector spac
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Dimension of a vector space</h1>
-    <div class="post-meta">July 27, 2021</div>
+    <div class="post-meta">August 12, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>The <strong>dimension</strong> of a finite dimensional <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a> <span class="math inline">\(V\)</span>, denoted <span class="math inline">\(\dim V\)</span>, is the length of any <a href="https://bncling.github.io/math-wiki/linalg_basis/">basis</a> of <span class="math inline">\(V\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p><strong>(2.18) Theorem:</strong> If <span class="math inline">\(U_1\)</span> and <span class="math inline">\(U_2\)</span> are <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspaces</a> of a vector space <span class="math inline">\(V\)</span>, then their <a href="https://bncling.github.io/math-wiki/subspace_sums/">sum</a> satisfies <span class="math display">\[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2).\]</span></p>
-<p><strong>(3.4) Theorem:</strong> If <span class="math inline">\(V\)</span> is a finite-dimensional vector space and <span class="math inline">\(T \in \L(V,W)\)</span> is a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>, then <span class="math display">\[\dim V = \dim \, \null T + \dim \, \range T,\]</span> where <span class="math inline">\(\null T\)</span> and <span class="math inline">\(\range T\)</span> denote the <a href="https://bncling.github.io/math-wiki/null_space/">null space</a> and <a href="https://bncling.github.io/math-wiki/range/">range</a> of <span class="math inline">\(T\)</span>, respectively.</p>
+<p><strong>(2.43) Theorem:</strong> If <span class="math inline">\(U_1\)</span> and <span class="math inline">\(U_2\)</span> are <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspaces</a> of a vector space <span class="math inline">\(V\)</span>, then their <a href="https://bncling.github.io/math-wiki/subspace_sums/">sum</a> satisfies <span class="math display">\[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2).\]</span></p>
+<p><strong>(3.22) Fundamental Theorem of Linear Maps:</strong> If <span class="math inline">\(V\)</span> is a finite-dimensional vector space and <span class="math inline">\(T \in \Lin(V,W)\)</span> is a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>, then <span class="math display">\[\dim V = \dim \, \nl T + \dim \, \range T,\]</span> where <span class="math inline">\(\nl T\)</span> and <span class="math inline">\(\range T\)</span> denote the <a href="https://bncling.github.io/math-wiki/null_space/">null space</a> and <a href="https://bncling.github.io/math-wiki/range/">range</a> of <span class="math inline">\(T\)</span>, respectively.</p>
 <h2 id="examples">Examples</h2>
 <p>For <span class="math inline">\(\F^n\)</span>, the space of <a href="https://bncling.github.io/math-wiki/lists/">lists</a> of length <span class="math inline">\(n\)</span>, <span class="math inline">\(\dim \F^n = n\)</span>, and for <span class="math inline">\(\Poly_n (\F)\)</span>, the space of <a href="https://bncling.github.io/math-wiki/function/">polynomials</a> of degree <span class="math inline">\(\leq n\)</span>, <span class="math inline">\(\dim \Poly_n (\F) = n+1\)</span>.</p>
 </div>
@@ -161,8 +161,8 @@ Properties (2.18) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector spac
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },
@@ -226,8 +226,8 @@ Properties (2.18) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector spac
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },

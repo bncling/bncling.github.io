@@ -102,7 +102,7 @@
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Vector spaces</h1>
-    <div class="post-meta">July 28, 2021</div>
+    <div class="post-meta">August 12, 2021</div>
   </header>
   <div class="post-content"><h2 id="definitions">Definitions</h2>
 <p>A <strong>vector space</strong> over a field <span class="math inline">\(\F\)</span> (here either <a href="https://bncling.github.io/math-wiki/real_numbers/"><span class="math inline">\(\R\)</span></a> or <a href="https://bncling.github.io/math-wiki/complex_numbers/"><span class="math inline">\(\C\)</span></a>) is a set <span class="math inline">\(V\)</span>, together with addition (<span class="math inline">\(+\)</span>) and scalar multiplication (<span class="math inline">\(\cdot\)</span>) operations such that the following properties hold:</p>
@@ -122,7 +122,7 @@
 <p><strong>Zero times a vector is always the zero vector.</strong> Let <span class="math inline">\(v \in V\)</span>. Then <span class="math inline">\(0v = (0 + 0)v = 0v + 0v\)</span>, so <span class="math inline">\(0v + (-0v) = 0v + 0v + (-0v)\)</span> implies that <span class="math inline">\(0 = 0v\)</span>. <span class="math inline">\(\quad \square\)</span></p>
 <p><strong>A scalar times the zero vector is the zero vector.</strong> Let <span class="math inline">\(a \in \F\)</span>. Then <span class="math inline">\(a0 = a(0 + 0) = a0 + a0\)</span>, so <span class="math inline">\(0 = a0\)</span> as above. <span class="math inline">\(\quad \square\)</span></p>
 <p><strong>For all <span class="math inline">\(v \in V\)</span>, <span class="math inline">\((-1)v\)</span> is the additive inverse of <span class="math inline">\(v\)</span>.</strong> Let <span class="math inline">\(v \in V\)</span>. Then <span class="math display">\[(-1)v + v = (-1)v + 1v = (-1 + 1)v = 0v = 0. \quad \square\]</span></p>
-<p><strong>For all <span class="math inline">\(v \in V\)</span>, the additive inverse of the additive inverse is <span class="math inline">\(v\)</span>, that is<span class="math inline">\(-(-v) = v\)</span>.</strong> Note that <span class="math inline">\(-(-v)\)</span> is the additive inverse of <span class="math inline">\(-v\)</span>, but also <span class="math inline">\(v\)</span> is the additive inverse of <span class="math inline">\(-v\)</span>, so by the uniqueness of additive inverses in a vector space (Proposition 1.3), <span class="math inline">\(-(-v) = v\)</span> for all <span class="math inline">\(v \in V\)</span>. <span class="math inline">\(\quad \square\)</span></p>
+<p><strong>For all <span class="math inline">\(v \in V\)</span>, the additive inverse of the additive inverse is <span class="math inline">\(v\)</span>, that is<span class="math inline">\(-(-v) = v\)</span>.</strong> Note that <span class="math inline">\(-(-v)\)</span> is the additive inverse of <span class="math inline">\(-v\)</span>, but also <span class="math inline">\(v\)</span> is the additive inverse of <span class="math inline">\(-v\)</span>, so by the uniqueness of additive inverses in a vector space (Proposition 1.26), <span class="math inline">\(-(-v) = v\)</span> for all <span class="math inline">\(v \in V\)</span>. <span class="math inline">\(\quad \square\)</span></p>
 <h2 id="examples">Examples</h2>
 <p><span class="math inline">\(\F^n\)</span> is a finite dimensional vector space with elements that are list of the form <span class="math inline">\((x_1, x_2, \dots, x_n)\)</span> with <span class="math inline">\(x_i \in \F\)</span> for all <span class="math inline">\(i = 1, 2, \dots, n\)</span>.</p>
 <p><span class="math inline">\(\F^\infty\)</span> is also a vector space that has elements that are <a href="https://bncling.github.io/math-wiki/sequence/">sequences</a> with elements in <span class="math inline">\(\F\)</span>. (It is infinite dimensional.)</p>
@@ -176,8 +176,8 @@
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },
@@ -241,8 +241,8 @@
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },

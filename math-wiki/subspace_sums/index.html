@@ -103,7 +103,7 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Sums of subspaces</h1>
-    <div class="post-meta">July 18, 2021</div>
+    <div class="post-meta">August 12, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>Let <span class="math inline">\(U_1, \dots, U_m\)</span> be <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspaces</a> of a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a> <span class="math inline">\(V\)</span>. The <strong>sum</strong> of <span class="math inline">\(U_1, \dots, U_m\)</span> is <span class="math display">\[U_1 + \dots + U_m = \{u_1 + \dots + u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\]</span> the set of all possible sums of elements of the <span class="math inline">\(U_i\)</span>.</p>
@@ -114,8 +114,8 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
 <li>If <span class="math inline">\(u, v \in U_1 + \dots + U_m\)</span>, then <span class="math inline">\(u = u_1 + \dots + u_m\)</span> and <span class="math inline">\(v = v_1 + \dots + v_m\)</span> where <span class="math inline">\(u_i, v_i \in U_i\)</span>. Then <span class="math inline">\(u_i + v_i \in U_i\)</span> for all <span class="math inline">\(i = 1, \dots, m\)</span> and therefore <span class="math inline">\(u + v \in U_1 + \dots + U_m\)</span>.</li>
 <li>If <span class="math inline">\(u \in U_1 + \dots + U_m\)</span> and <span class="math inline">\(a \in \F\)</span>, then <span class="math inline">\(u = u_1 + \dots + u_m\)</span> and <span class="math inline">\(au_i \in U_i\)</span> for all <span class="math inline">\(i = 1, \dots, m\)</span>, so <span class="math display">\[au = au_1 + \dots + au_m \in U_1 + \dots + U_m.\]</span></li>
 </ul>
-<p><strong>(1.13) Exercise:</strong> It is not necessarily the case that if <span class="math inline">\(U_1\)</span>, <span class="math inline">\(U_2\)</span>, and <span class="math inline">\(W\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span> such that <span class="math inline">\(U_1 + W = U_2 + W\)</span>, then <span class="math inline">\(U_1 = U_2\)</span>.</p>
-<p><strong>(2.18) Theorem:</strong> If <span class="math inline">\(U_1\)</span> and <span class="math inline">\(U_2\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span>, then their sum satisfies <span class="math display">\[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2)\]</span> where <span class="math inline">\(\dim U\)</span> is the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of a space <span class="math inline">\(U\)</span>.</p>
+<p><strong>Exercise:</strong> It is not necessarily the case that if <span class="math inline">\(U_1\)</span>, <span class="math inline">\(U_2\)</span>, and <span class="math inline">\(W\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span> such that <span class="math inline">\(U_1 + W = U_2 + W\)</span>, then <span class="math inline">\(U_1 = U_2\)</span>.</p>
+<p><strong>(2.43) Theorem:</strong> If <span class="math inline">\(U_1\)</span> and <span class="math inline">\(U_2\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span>, then their sum satisfies <span class="math display">\[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2)\]</span> where <span class="math inline">\(\dim U\)</span> is the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of a space <span class="math inline">\(U\)</span>.</p>
 <h2 id="examples">Examples</h2>
 <p><span class="math inline">\(U = \{(x,0,0) \in \F^3 \mid x \in \F\}\)</span> and <span class="math inline">\(V = \{(0,y,0) \in \F^3 \mid y \in \F\}\)</span> are both subspaces of <span class="math inline">\(\F^3\)</span>, and their sum is <span class="math inline">\(U + V = \{(x,y,0) \in \F^3 \mid x,y \in \F\}\)</span>.</p>
 <p>Similarly, <span class="math inline">\(U = \{(x,0,0) \in \F^3 \mid x \in \F\}\)</span> and <span class="math inline">\(V = \{(y,y,0) \in \F^3 \mid y \in \F\}\)</span> are both subspaces of <span class="math inline">\(\F^3\)</span>, and their sum is <span class="math inline">\(U + V = \{(x,y,0) \in \F^3 \mid x,y \in \F\}\)</span>.</p>
@@ -168,8 +168,8 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },
@@ -233,8 +233,8 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
             "\\Sub":"\\mathcal{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
-            "\\L":"\\mathcal{L}",
-            "\\null":"\\text{null }",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}"
           },
