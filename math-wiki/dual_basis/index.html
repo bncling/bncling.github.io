@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Systems of linear equations - Ben Clingenpeel</title>
+    <title>The dual basis - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
-An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero.">
+    <meta name="description" content="Definition Let \(V\) be a vector space with basis \((v_1, \dots, v_n)\). We define the dual basis to be the list \((\varphi_1, \dots, \varphi_n)\) of linear functionals on \(V\) such that \[\varphi_j(v_k) = \begin{cases} 1 &amp; k=j \\ 0 &amp; k \neq j \end{cases},\] that is, \(\varphi_j\) is the linear map from \(V\) to \(\F\) assigning \(1\) to the \(j\)th basis vector of \(V\) and \(0\) to all other basis vectors.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,23 +100,20 @@ An inhomogeneous system of linear equations is a system consisting of \(m\) line
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Systems of linear equations</h1>
-    <div class="post-meta">August 18, 2021</div>
+    <h1 class="post-title">The dual basis</h1>
+    <div class="post-meta">August 15, 2021</div>
   </header>
-  <div class="post-content"><h2 id="definitions">Definitions</h2>
-<p>A <strong>homogeneous system of linear equations</strong> is a system consisting of <span class="math inline">\(m\)</span> linear equations in <span class="math inline">\(n\)</span> variables for some positive integers <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span> of the form <span class="math display">\[\begin{align*}
-    \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\
-    &amp;\vdots \\
-    \sum_{k=1}^n A_{m,k} x_k &amp;= 0
-\end{align*}\]</span> where <span class="math inline">\(A_j,k \in \F\)</span> for <span class="math inline">\(j=1, \dots m\)</span> and <span class="math inline">\(k=1, \dots n\)</span>.</p>
-<p>An <strong>inhomogeneous system of linear equations</strong> is a system consisting of <span class="math inline">\(m\)</span> linear equations in <span class="math inline">\(n\)</span> variables for some positive integers <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span> of the form <span class="math display">\[\begin{align*}
-    \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\
-    &amp;\vdots \\
-    \sum_{k=1}^n A_{m,k} x_k &amp;= c_m
-\end{align*}\]</span> where <span class="math inline">\(A_{j,k}, c_j \in \F\)</span> for <span class="math inline">\(j=1, \dots m\)</span>, <span class="math inline">\(k=1, \dots n\)</span>, and the <span class="math inline">\(c_j\)</span> are not all zero.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(V\)</span> be a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a> with <a href="https://bncling.github.io/math-wiki/linalg_basis/">basis</a> <span class="math inline">\((v_1, \dots, v_n)\)</span>. We define the <strong>dual basis</strong> to be the <a href="https://bncling.github.io/math-wiki/lists/">list</a> <span class="math inline">\((\varphi_1, \dots, \varphi_n)\)</span> of <a href="https://bncling.github.io/math-wiki/dual_space/">linear functionals</a> on <span class="math inline">\(V\)</span> such that <span class="math display">\[\varphi_j(v_k) = \begin{cases}
+    1 &amp; k=j \\
+    0 &amp; k \neq j
+\end{cases},\]</span> that is, <span class="math inline">\(\varphi_j\)</span> is the <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a> from <span class="math inline">\(V\)</span> to <span class="math inline">\(\F\)</span> assigning <span class="math inline">\(1\)</span> to the <span class="math inline">\(j\)</span>th basis vector of <span class="math inline">\(V\)</span> and <span class="math inline">\(0\)</span> to all other basis vectors.</p>
 <h2 id="properties">Properties</h2>
-<p><strong>(3.26) Proposition:</strong> A homogeneous system of linear equations with more variables than equations has nonzero solutions. We can reframe this in terms of <a href="https://bncling.github.io/math-wiki/linear_maps/">linear maps</a> between the <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> <span class="math inline">\(\F^n\)</span> and <span class="math inline">\(\F^m\)</span> by asking whether a map <span class="math inline">\(T \in \Lin(\F^n, \F^m)\)</span> defined by <span class="math display">\[T(x_1, \dots, x_n) = \left( \sum_{k=1}^n A_{1,k} x_k, \dots, \sum_{k=1}^n A_{m,k} x_k \right)\]</span> has a <a href="https://bncling.github.io/math-wiki/null_space/">null space</a> strictly larger than <span class="math inline">\(\{0\}\)</span>. Since <span class="math inline">\(T\)</span> is not <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> when <span class="math inline">\(n &gt; m\)</span>, the system has nonzero solutions.</p>
-<p><strong>(3.29) Proposition:</strong> An inhomogeneous system of linear equations with more equations than variables has no solution for some choice of the <span class="math inline">\(c_j\)</span>. Again considering the map <span class="math inline">\(T\)</span> defined as above, we’re really asking whether <span class="math inline">\(\range T = \F^m\)</span> or not, and we always have <span class="math inline">\(\range T \neq \F^m\)</span> when <span class="math inline">\(m &gt; n\)</span>, which corresponds to a choice of the <span class="math inline">\(c_j\)</span> for which the system has no solution.</p>
+<p>The functional <span class="math inline">\(\varphi_j\)</span> is well-defined since a linear map is uniquely determined by the values it takes on a basis of its domain.</p>
+<p>If <span class="math inline">\((v_1, \dots, v_n)\)</span> is a basis of <span class="math inline">\(V\)</span>, then <span class="math inline">\(v \in V\)</span> can be uniquely written as a <a href="https://bncling.github.io/math-wiki/linear_combo/">linear combination</a> <span class="math inline">\(v = a_1 v_1 + \dots + a_n v_n\)</span> for some scalars <span class="math inline">\(a_1, \dots, a_n \in \F\)</span>. We have that <span class="math display">\[\varphi_j(v) = \varphi_j(a_1 v_1 + \dots + a_n v_n) = a_1 \varphi_j(v_1) + \dots + a_n \varphi_j(v_n) = a_j.\]</span></p>
+<p><strong>(3.98) Proposition:</strong> The dual basis <span class="math inline">\((\varphi_1, \dots, \varphi_n)\)</span> of a basis <span class="math inline">\((v_1, \dots, v_n)\)</span> of a vector space <span class="math inline">\(V\)</span> is a basis of the <a href="https://bncling.github.io/math-wiki/dual_space/">dual space</a> <span class="math inline">\(V&#39;\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>The list <span class="math inline">\(((1,0), \, (0,1))\)</span> is a basis of <span class="math inline">\(\R^2\)</span>, and the corresponding dual basis is the list <span class="math inline">\((\varphi_1, \varphi_2)\)</span> where <span class="math inline">\(\varphi_1(a,b) = a\)</span> and <span class="math inline">\(\varphi_2(a,b) = b\)</span>. Every linear functional on <span class="math inline">\(\R^2\)</span> can be written as a unique linear combination of these basis vectors. For example, the linear functional <span class="math inline">\(\varphi: \R^2 \to \R\)</span> defined by <span class="math inline">\(\varphi(a,b) = 3a - 5b\)</span> satisfies <span class="math inline">\(\varphi = 3\varphi_1 - 5\varphi_2\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

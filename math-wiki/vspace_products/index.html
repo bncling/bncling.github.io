@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Systems of linear equations - Ben Clingenpeel</title>
+    <title>Products of vector spaces - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
-An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero.">
+    <meta name="description" content="Guess what? They are also vector spaces.
+Definition Let \(V_1, \dots, V_n\) be vector spaces over \(\F\). The product of these spaces, denoted \(V_1 \times \dots \times V_n\) is the set \[\{(v_1, \dots, v_n) \mid v_1 \in V_1, \dots, v_n \in V_n\}.\] (This is the same way we define finite cartesian products.)
+Properties We define addition and scalar multiplication on \(V_1 \times \dots \times V_n\) as follows: \[\begin{gather*} (a_1, \dots, a_n) &#43; (b_1, \dots, b_n) = (a_1 &#43; b_1, \dots, a_n &#43; b_n); \\ c (a_1, \dots, a_n) = (ca_1, \dots, ca_n).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,23 +102,22 @@ An inhomogeneous system of linear equations is a system consisting of \(m\) line
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Systems of linear equations</h1>
-    <div class="post-meta">August 18, 2021</div>
+    <h1 class="post-title">Products of vector spaces</h1>
+    <div class="post-meta">August 14, 2021</div>
   </header>
-  <div class="post-content"><h2 id="definitions">Definitions</h2>
-<p>A <strong>homogeneous system of linear equations</strong> is a system consisting of <span class="math inline">\(m\)</span> linear equations in <span class="math inline">\(n\)</span> variables for some positive integers <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span> of the form <span class="math display">\[\begin{align*}
-    \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\
-    &amp;\vdots \\
-    \sum_{k=1}^n A_{m,k} x_k &amp;= 0
-\end{align*}\]</span> where <span class="math inline">\(A_j,k \in \F\)</span> for <span class="math inline">\(j=1, \dots m\)</span> and <span class="math inline">\(k=1, \dots n\)</span>.</p>
-<p>An <strong>inhomogeneous system of linear equations</strong> is a system consisting of <span class="math inline">\(m\)</span> linear equations in <span class="math inline">\(n\)</span> variables for some positive integers <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span> of the form <span class="math display">\[\begin{align*}
-    \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\
-    &amp;\vdots \\
-    \sum_{k=1}^n A_{m,k} x_k &amp;= c_m
-\end{align*}\]</span> where <span class="math inline">\(A_{j,k}, c_j \in \F\)</span> for <span class="math inline">\(j=1, \dots m\)</span>, <span class="math inline">\(k=1, \dots n\)</span>, and the <span class="math inline">\(c_j\)</span> are not all zero.</p>
+  <div class="post-content"><p>Guess what? They are also vector spaces.</p>
+<h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(V_1, \dots, V_n\)</span> be <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> over <span class="math inline">\(\F\)</span>. The <strong>product</strong> of these spaces, denoted <span class="math inline">\(V_1 \times \dots \times V_n\)</span> is the set <span class="math display">\[\{(v_1, \dots, v_n) \mid v_1 \in V_1, \dots, v_n \in V_n\}.\]</span> (This is the same way we define finite <a href="https://bncling.github.io/math-wiki/cartesian/">cartesian products</a>.)</p>
 <h2 id="properties">Properties</h2>
-<p><strong>(3.26) Proposition:</strong> A homogeneous system of linear equations with more variables than equations has nonzero solutions. We can reframe this in terms of <a href="https://bncling.github.io/math-wiki/linear_maps/">linear maps</a> between the <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> <span class="math inline">\(\F^n\)</span> and <span class="math inline">\(\F^m\)</span> by asking whether a map <span class="math inline">\(T \in \Lin(\F^n, \F^m)\)</span> defined by <span class="math display">\[T(x_1, \dots, x_n) = \left( \sum_{k=1}^n A_{1,k} x_k, \dots, \sum_{k=1}^n A_{m,k} x_k \right)\]</span> has a <a href="https://bncling.github.io/math-wiki/null_space/">null space</a> strictly larger than <span class="math inline">\(\{0\}\)</span>. Since <span class="math inline">\(T\)</span> is not <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> when <span class="math inline">\(n &gt; m\)</span>, the system has nonzero solutions.</p>
-<p><strong>(3.29) Proposition:</strong> An inhomogeneous system of linear equations with more equations than variables has no solution for some choice of the <span class="math inline">\(c_j\)</span>. Again considering the map <span class="math inline">\(T\)</span> defined as above, we’re really asking whether <span class="math inline">\(\range T = \F^m\)</span> or not, and we always have <span class="math inline">\(\range T \neq \F^m\)</span> when <span class="math inline">\(m &gt; n\)</span>, which corresponds to a choice of the <span class="math inline">\(c_j\)</span> for which the system has no solution.</p>
+<p>We define addition and scalar multiplication on <span class="math inline">\(V_1 \times \dots \times V_n\)</span> as follows: <span class="math display">\[\begin{gather*} 
+    (a_1, \dots, a_n) + (b_1, \dots, b_n) = (a_1 + b_1, \dots, a_n + b_n); \\
+    c (a_1, \dots, a_n) = (ca_1, \dots, ca_n).
+\end{gather*}\]</span></p>
+<p><strong>(3.73) Proposition:</strong> With the above definitions, <span class="math inline">\(V_1 \times \dots \times V_n\)</span> is a vector space.</p>
+<p><strong>(3.76) Proposition:</strong> Let <span class="math inline">\(V_1, \dots, V_n\)</span> be <a href="https://bncling.github.io/math-wiki/linalg_dimension/">finite-dimensional</a> vector spaces. Then <span class="math inline">\(V_1 \times \dots \times V_n\)</span> is also finite-dimensional and <span class="math display">\[\dim(V_1 \times \dots \times V_n) = \dim V_1 + \dots + \dim V_n.\]</span></p>
+<p><strong>(3.77) Theorem:</strong> Let <span class="math inline">\(U_1, \dots, U_n\)</span> be <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspaces</a> of a vector space <span class="math inline">\(V\)</span>. Define the <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a> <span class="math inline">\(\Gamma: U_1 \times \dots \times U_n \to U_1 + \dots + U_n\)</span> by <span class="math display">\[\Gamma (u_1, \dots, u_n) = u_1 + \dots + u_n.\]</span> Then the <a href="https://bncling.github.io/math-wiki/subspace_sums/">sum of subspaces</a> <span class="math inline">\(U_1 + \dots + U_n\)</span> is a <a href="https://bncling.github.io/math-wiki/subspace_direct_sums/">direct sum</a> if and only if <span class="math inline">\(\Gamma\)</span> is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a>.</p>
+<h2 id="examples">Examples</h2>
+<p><span class="math inline">\(\Poly_2(\R) \times \R^2\)</span> is a vector space with a <a href="https://bncling.github.io/math-wiki/linalg_basis/">basis</a> <span class="math display">\[(1,(0,0)), \, (x, (0,0)), \, (x^2, (0,0)) \, (0, (1,0)), \, (0, (0,1)).\]</span></p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

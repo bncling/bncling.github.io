@@ -8,13 +8,127 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Quotients of vector spaces</title>
+      <link>https://bncling.github.io/math-wiki/vspace_quotients/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/vspace_quotients/</guid>
+      <description>They are themselves also vector spaces.
+Definitions Let \(U\) be a subspace of a vector space \(V\). The quotient space \(V / U\) is the set of all affine subsets of \(V\) parallel to \(U\). That is, \[V / U = \{v + U \mid v \in V\}.\]
+For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\) is a linear map defined by \(\pi(v) = v + U\).</description>
+    </item>
+    
+    <item>
+      <title>Systems of linear equations</title>
+      <link>https://bncling.github.io/math-wiki/linear_systems/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linear_systems/</guid>
+      <description>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;amp;= 0 \\ &amp;amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
+An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;amp;= c_1 \\ &amp;amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero.</description>
+    </item>
+    
+    <item>
+      <title>Affine subsets</title>
+      <link>https://bncling.github.io/math-wiki/affine_subsets/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/affine_subsets/</guid>
+      <description>Definition An affine subset of a vector space \(V\) is a subset of the form \(v + U\) where \(v \in V\), \(U\) is a subspace of \(V\), and \[v + U = \{v + u \mid u \in U\}\] is the sum of the vector \(v\) and the space \(U\).
+For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v + U\) is parallel to \(U\).</description>
+    </item>
+    
+    <item>
+      <title>The dual basis</title>
+      <link>https://bncling.github.io/math-wiki/dual_basis/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dual_basis/</guid>
+      <description>Definition Let \(V\) be a vector space with basis \((v_1, \dots, v_n)\). We define the dual basis to be the list \((\varphi_1, \dots, \varphi_n)\) of linear functionals on \(V\) such that \[\varphi_j(v_k) = \begin{cases} 1 &amp;amp; k=j \\ 0 &amp;amp; k \neq j \end{cases},\] that is, \(\varphi_j\) is the linear map from \(V\) to \(\F\) assigning \(1\) to the \(j\)th basis vector of \(V\) and \(0\) to all other basis vectors.</description>
+    </item>
+    
+    <item>
+      <title>The dual map</title>
+      <link>https://bncling.github.io/math-wiki/dual_map/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dual_map/</guid>
+      <description>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map.</description>
+    </item>
+    
+    <item>
+      <title>The dual space</title>
+      <link>https://bncling.github.io/math-wiki/dual_space/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dual_space/</guid>
+      <description>Definitions Let \(V\) be a vector space over \(\F\). A linear functional on \(V\) is a linear map \(T \in \Lin(V, \F)\). We call \(V&amp;#39; = \Lin(V, \F)\) the dual space of \(V\), the vector space of all linear functionals on \(V\).
+Properties We have that \(\dim V&amp;#39; = \dim (\Lin (V, \F)) = (\dim V) (\dim \F) = \dim V\).
+Examples Let \(V = \Poly (\R)\). Then \(V&amp;#39;\) is the space of all linear maps from \(\Poly (\R)\) to \(\R\).</description>
+    </item>
+    
+    <item>
+      <title>Direct sums of subspaces</title>
+      <link>https://bncling.github.io/math-wiki/subspace_direct_sums/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/subspace_direct_sums/</guid>
+      <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). If each element \(u \in U_1 + \dots + U_m\) can be written uniquely as a sum \(u_1 + \dots + u_m\) where each \(u_i \in U_i\), then this sum is called a direct sum. In this case, we write the sum as \(U_1 \oplus \dots \oplus U_m\).
+Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector space \(V\).</description>
+    </item>
+    
+    <item>
+      <title>Linear maps</title>
+      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
+      <description>Also called linear transformations.
+Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
+ additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\).</description>
+    </item>
+    
+    <item>
       <title>Matrices</title>
       <link>https://bncling.github.io/math-wiki/matrices/</link>
-      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/matrices/</guid>
       <description>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp;amp; \dots &amp;amp; a_{1,n} \\ \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{m,1} &amp;amp; \dots &amp;amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
 For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\).</description>
+    </item>
+    
+    <item>
+      <title>Operators</title>
+      <link>https://bncling.github.io/math-wiki/operators/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/operators/</guid>
+      <description>Definition Let \(V\) be a vector space. An operator on \(V\) is a linear map from \(V\) to itself. We denote the space of operators on \(V\) by \(\Lin (V)\) (shortening the notation from \(\Lin (V, V))\).
+Properties (3.69) Theorem: Let \(V\) be a finite-dimensional vector space. For an operator \(T \in \Lin(V)\), the following are equivalent:
+ \(T\) is invertible; \(T\) is injective; \(T\) is surjective.  </description>
+    </item>
+    
+    <item>
+      <title>Products of vector spaces</title>
+      <link>https://bncling.github.io/math-wiki/vspace_products/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/vspace_products/</guid>
+      <description>Guess what? They are also vector spaces.
+Definition Let \(V_1, \dots, V_n\) be vector spaces over \(\F\). The product of these spaces, denoted \(V_1 \times \dots \times V_n\) is the set \[\{(v_1, \dots, v_n) \mid v_1 \in V_1, \dots, v_n \in V_n\}.\] (This is the same way we define finite cartesian products.)
+Properties We define addition and scalar multiplication on \(V_1 \times \dots \times V_n\) as follows: \[\begin{gather*} (a_1, \dots, a_n) + (b_1, \dots, b_n) = (a_1 + b_1, \dots, a_n + b_n); \\ c (a_1, \dots, a_n) = (ca_1, \dots, ca_n).</description>
+    </item>
+    
+    <item>
+      <title>Invertibility of linear maps</title>
+      <link>https://bncling.github.io/math-wiki/invertibility/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/invertibility/</guid>
+      <description>Definitions Let \(V\) and \(W\) be vector spaces. A linear map \(T \in \Lin (V, W)\) is called invertible if there exists a map \(S \in \Lin(W, V)\) such that the products \(ST\) and \(TS\) are the identity maps on \(V\) and \(W\), respectively.
+We call the map \(S\) the inverse of \(T\), denoted \(T\inv\) (see the uniqueness property below).
+An invertible linear map \(T \in \Lin(V, W)\) is called an isomorphism, and the spaces \(V\) and \(W\) are called isomorphic to one another.</description>
     </item>
     
     <item>
@@ -40,16 +154,6 @@ Properties (2.43) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector spac
     </item>
     
     <item>
-      <title>Direct sums of subspaces</title>
-      <link>https://bncling.github.io/math-wiki/subspace_direct_sums/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/subspace_direct_sums/</guid>
-      <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). If each element \(u \in U_1 + \dots + U_m\) can be written uniquely as a sum \(u_1 + \dots + u_m\) where each \(u_i \in U_i\), then this sum is called a direct sum. In this case, we write the sum as \(U_1 \oplus \dots \oplus U_m\).
-Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector space \(V\).</description>
-    </item>
-    
-    <item>
       <title>Linear (in)dependence</title>
       <link>https://bncling.github.io/math-wiki/linear_independence/</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
@@ -58,17 +162,6 @@ Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector 
       <description>Definitions A list of vectors \((v_1, \dots, v_n)\) in a vector space \(V\) is linearly independent if and only if \(a_1 v_1 + \dots + a_n v_n = 0\) implies that \(a_1 = \dots = a_n = 0\).
 The list is linearly dependent if and only if it is not linearly independent.
 Note: These definitions follow Sheldon Axler’s book Linear Algebra Done Right, in which linear (in)dependence is defined in terms of lists of vectors, and not sets of vectors.</description>
-    </item>
-    
-    <item>
-      <title>Linear maps</title>
-      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
-      <description>Also called linear transformations.
-Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
- additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\).</description>
     </item>
     
     <item>
@@ -124,16 +217,6 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
       <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 + \dots + U_m = \{u_1 + \dots + u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
 Properties The sum of subspaces \(U_1 + \dots + U_m\) is a subspace.
  \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 + \dots + 0}^{m \text{ times}} \in U_1 + \dots + U_m\).</description>
-    </item>
-    
-    <item>
-      <title>Systems of linear equations</title>
-      <link>https://bncling.github.io/math-wiki/linear_systems/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linear_systems/</guid>
-      <description>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;amp;= 0 \\ &amp;amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
-An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;amp;= c_1 \\ &amp;amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero.</description>
     </item>
     
     <item>

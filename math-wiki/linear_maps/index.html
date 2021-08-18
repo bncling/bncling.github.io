@@ -103,7 +103,7 @@ Definition A linear map from a vector space \(V\) to a vector space \(W\) is a f
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Linear maps</h1>
-    <div class="post-meta">August 12, 2021</div>
+    <div class="post-meta">August 14, 2021</div>
   </header>
   <div class="post-content"><p>Also called <strong>linear transformations</strong>.</p>
 <h2 id="definition">Definition</h2>
@@ -122,6 +122,7 @@ Definition A linear map from a vector space \(V\) to a vector space \(W\) is a f
 <p>If <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> are <a href="https://bncling.github.io/math-wiki/linalg_dimension/">finite-dimensional</a> vector spaces, then no linear maps in <span class="math inline">\(\Lin(V,W)\)</span> are <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> if <span class="math inline">\(\dim V &gt; \dim W\)</span>, and no linear maps in <span class="math inline">\(\Lin(V,W)\)</span> are <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjective</a> if <span class="math inline">\(\dim V &lt; \dim W\)</span>.</p>
 <p><strong>(3.5) Theorem:</strong> Let <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> be vector spaces with <span class="math inline">\((v_1, \dots, v_n)\)</span> a <a href="https://bncling.github.io/math-wiki/linalg_basis/">basis</a> of <span class="math inline">\(V\)</span> and <span class="math inline">\(w_1, \dots, w_n \in W\)</span> vectors in <span class="math inline">\(W\)</span>. There exists a <em>unique</em> linear map <span class="math inline">\(T \in \Lin(V,W)\)</span> such that <span class="math inline">\(Tv_j = w_j\)</span> for all <span class="math inline">\(j = 1, \dots, n\)</span>. This theorem means that a map <span class="math inline">\(T\)</span> is determined by the values it takes on a basis of the domain.</p>
 <p><strong>(3.22) Fundamental Theorem of Linear Maps:</strong> If <span class="math inline">\(V\)</span> is a finite-dimensional vector space and <span class="math inline">\(T \in \Lin(V,W)\)</span> is a linear map, then <span class="math display">\[\dim V = \dim \, \nl T + \dim \, \range T,\]</span> where <span class="math inline">\(\nl T\)</span> and <span class="math inline">\(\range T\)</span> denote the <a href="https://bncling.github.io/math-wiki/null_space/">null space</a> and <a href="https://bncling.github.io/math-wiki/range/">range</a> of <span class="math inline">\(T\)</span>, respectively.</p>
+<p><strong>(3.61) Theorem:</strong> Let <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> be vector spaces. Then <span class="math inline">\(\dim (\Lin (V,W)) = (\dim V)(\dim W)\)</span>.</p>
 <h2 id="examples">Examples</h2>
 <p>The zero map <span class="math inline">\(0 \in \Lin (V,W)\)</span> that takes every vector in <span class="math inline">\(V\)</span> to the zero vector in <span class="math inline">\(W\)</span> is a linear map.</p>
 <p>The identity map <span class="math inline">\(I \in \Lin (V,V)\)</span> that takes every vector in <span class="math inline">\(V\)</span> to itself is a linear map.</p>

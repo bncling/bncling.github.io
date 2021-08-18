@@ -3,12 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bncling.github.io/tags/linear_algebra/</loc>
-    <lastmod>2021-08-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/matrices/</loc>
-    <lastmod>2021-08-13T00:00:00+00:00</lastmod>
+    <loc>https://bncling.github.io/math-wiki/vspace_quotients/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/linear_systems/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/affine_subsets/</loc>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/dual_basis/</loc>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/dual_map/</loc>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/dual_space/</loc>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/subspace_direct_sums/</loc>
+    <lastmod>2021-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/linear_maps/</loc>
+    <lastmod>2021-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/matrices/</loc>
+    <lastmod>2021-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/operators/</loc>
+    <lastmod>2021-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/vspace_products/</loc>
+    <lastmod>2021-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/invertibility/</loc>
     <lastmod>2021-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/linalg_basis/</loc>
@@ -17,13 +50,7 @@
     <loc>https://bncling.github.io/math-wiki/linalg_dimension/</loc>
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/subspace_direct_sums/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/linear_independence/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/linear_maps/</loc>
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/null_space/</loc>
@@ -39,9 +66,6 @@
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/subspace_sums/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/linear_systems/</loc>
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/vector_space/</loc>

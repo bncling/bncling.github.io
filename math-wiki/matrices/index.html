@@ -102,7 +102,7 @@ For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Matrices</h1>
-    <div class="post-meta">August 13, 2021</div>
+    <div class="post-meta">August 14, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>A <strong>matrix</strong> is a rectangular array with <span class="math inline">\(m\)</span> rows and <span class="math inline">\(n\)</span> columns for positive integers <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span>. <span class="math display">\[\begin{bmatrix} 
@@ -117,18 +117,32 @@ For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by
     a_{1,1} &amp; \dots &amp; a_{1,n} \\
     \vdots &amp; \ddots &amp; \vdots \\
     a_{m,1} &amp; \dots &amp; a_{m,n}
-\end{bmatrix}.\]</span> Then the columns of this matrix are the images of the <span class="math inline">\(n\)</span> basis vectors of <span class="math inline">\(V\)</span> under the map <span class="math inline">\(T\)</span>, that is, column <span class="math inline">\(i\)</span> of this matrix is <span class="math inline">\(Tv_i\)</span> for <span class="math inline">\(i = 1, \dots, n\)</span>.</p>
+\end{bmatrix}\]</span> where the columns of this matrix are the images of the <span class="math inline">\(n\)</span> basis vectors of <span class="math inline">\(V\)</span> under the map <span class="math inline">\(T\)</span>, that is, column <span class="math inline">\(i\)</span> of this matrix is <span class="math inline">\(Tv_i\)</span> for <span class="math inline">\(i = 1, \dots, n\)</span>. (That is, <span class="math inline">\(\M(T)_{\cdot,i} = \M(v_i)\)</span>).</p>
+<h2 id="matrix-of-a-vector">Matrix of a vector</h2>
+<p>If <span class="math inline">\(V\)</span> is a vector space with a basis <span class="math inline">\((v_1, \dots, v_n)\)</span>, then we can define the matrix of a vector <span class="math inline">\(v \in V\)</span> with respect to this basis to be <span class="math display">\[\M(v) = \begin{bmatrix}
+    c_1 \\
+    \vdots \\
+    c_n
+\end{bmatrix}\]</span> where <span class="math inline">\(c_1, \dots, c_n\)</span> are scalars such that <span class="math inline">\(v = c_1 v_1 + \dots + c_n v_n\)</span>.</p>
 <h2 id="properties">Properties</h2>
 <p>We define addition and multiplication of matrices so that the matrices of linear maps behave the same way linear maps do when added and <a href="https://bncling.github.io/math-wiki/map_products/">multiplied</a>.</p>
 <p>Let <span class="math inline">\(A\)</span> be a matrix with entries <span class="math inline">\(A_{i,j} \in \F\)</span> and let <span class="math inline">\(B\)</span> be a matrix with entries <span class="math inline">\(B_{i,j} \in \F\)</span> for <span class="math inline">\(i = 1, \dots, m\)</span> and <span class="math inline">\(j = 1, \dots, n\)</span> for some <span class="math inline">\(n, m \in \N\)</span>. Then we define <span class="math inline">\(A + B\)</span> to be the matrix with entries <span class="math inline">\((A + B)_{i,j} = A_{i,j} + B_{i,j}\)</span>. (Addition only makes sense when <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are both <span class="math inline">\(m\)</span>-by-<span class="math inline">\(n\)</span> matrices.)</p>
 <p>If <span class="math inline">\(c \in \F\)</span> is a scalar and <span class="math inline">\(A\)</span> is a matrix with entries <span class="math inline">\(A_{i,j} \in \F\)</span> for <span class="math inline">\(i = 1, \dots, m\)</span> and <span class="math inline">\(j = 1, \dots, n\)</span> for some <span class="math inline">\(n, m \in \N\)</span>, we define <span class="math inline">\(cA\)</span> to be the matrix with entries <span class="math inline">\((cA)_{i,j} = c(A_{i,j})\)</span>.</p>
 <p>If <span class="math inline">\(A\)</span> is a matrix with entries <span class="math inline">\(A_{i,j} \in \F\)</span> and <span class="math inline">\(B\)</span> is a matrix with entries <span class="math inline">\(B_{j,k} \in \F\)</span> for <span class="math inline">\(i = 1, \dots, m\)</span>, <span class="math inline">\(j = 1, \dots, n\)</span>, and <span class="math inline">\(k = 1, \dots, p\)</span> for some <span class="math inline">\(n, m, p \in \N\)</span>, then we define <span class="math inline">\(AB\)</span> to be the matrix with entries <span class="math display">\[(AB)_{i,p} = \sum_{l = 1}^n a_{i,l} b_{l,p}.\]</span> (Multiplication only makes sense when <span class="math inline">\(A\)</span> has the same number of columns as <span class="math inline">\(B\)</span> has rows.)</p>
+<p><strong>(3.60) Theorem:</strong> Let <span class="math inline">\(V\)</span> be a vector space with <span class="math inline">\(\dim V = n\)</span> and <span class="math inline">\(W\)</span> a vector space with <span class="math inline">\(\dim W = m\)</span>. The map <span class="math inline">\(\M: \Lin(V, W) \to \F^{m,n}\)</span> is an <a href="https://bncling.github.io/math-wiki/invertibility/">isomorphism</a>.</p>
+<p><strong>(3.65) Proposition:</strong> Let <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> be vector spaces with bases <span class="math inline">\((v_1, \dots, v_n)\)</span> and <span class="math inline">\((w_1, \dots, w_m)\)</span>, respectively. If <span class="math inline">\(T \in \Lin(V, W)\)</span> and <span class="math inline">\(v \in V\)</span>, then <span class="math inline">\(\M(Tv) = \M(T) \M(v)\)</span> with respect to these bases.</p>
 <h2 id="examples">Examples</h2>
 <p>If <span class="math inline">\(T \in \Lin(\F^2, \F^3)\)</span> is the linear map defined by <span class="math inline">\(T(x,y) = (x + 3y, 2x + 5y, 7x + 9y)\)</span>, then <span class="math display">\[\M (T) = \begin{bmatrix}
     1 &amp; 3 \\
     2 &amp; 5 \\
     7 &amp; 9
 \end{bmatrix}\]</span> is the matrix of <span class="math inline">\(T\)</span>, where the lack of specified bases for <span class="math inline">\(\F^2\)</span> and <span class="math inline">\(\F^3\)</span> means the standard bases are being used.</p>
+<p>The matrix of <span class="math inline">\(2 - 7x + 5x^3\)</span> with respect to the standard basis of <span class="math inline">\(\Poly_3 (\R)\)</span> is <span class="math display">\[\begin{bmatrix}
+    2 \\
+    -7 \\
+    0 \\
+    5
+\end{bmatrix}.\]</span></p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
