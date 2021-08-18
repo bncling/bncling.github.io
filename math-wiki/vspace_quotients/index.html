@@ -117,6 +117,7 @@ For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\)
 <li><span class="math inline">\(c(v + U) = (cv) + U\)</span>.</li>
 </ul>
 <p><strong>(3.87) Theorem:</strong> With the rules for addition and scalar multiplication above, <span class="math inline">\(V / U\)</span> is a vector space.</p>
+<p><strong>(3.89) Theorem:</strong> If <span class="math inline">\(V\)</span> is a <a href="https://bncling.github.io/math-wiki/linalg_dimension/">finite-dimensional</a> vector space with a subspace <span class="math inline">\(U\)</span>, then <span class="math inline">\(\dim V / U = \dim V - \dim U\)</span>.</p>
 <p><strong>(3.91) Proposition:</strong> Let <span class="math inline">\(T \in \Lin(V, W)\)</span>. Then the map <span class="math inline">\(\tilde{T}\)</span> defined above has the following properties:</p>
 <ul>
 <li><span class="math inline">\(\tilde{T}\)</span> is a linear map from <span class="math inline">\(V / (\nl T)\)</span> to <span class="math inline">\(W\)</span>;</li>
@@ -126,6 +127,7 @@ For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\)
 </ul>
 <h2 id="example">Example</h2>
 <p>If <span class="math inline">\(V = \R^2\)</span>, then <span class="math inline">\(U = \{(x, 2x) \mid x \in \R\}\)</span>, the line through the origin with slope <span class="math inline">\(2\)</span>, is a subspace of <span class="math inline">\(V\)</span> and <span class="math inline">\(V / U\)</span> is the set of all lines with slope <span class="math inline">\(2\)</span>.</p>
+<p>If <span class="math inline">\(T \in \Lin(\R^2, \R^2)\)</span> is the map defined by <span class="math inline">\(T(a,b) = (a - \frac{b}{2}, 0)\)</span>, then <span class="math inline">\(\nl T = U\)</span>, the subspace given above, and <span class="math inline">\(\range T = \{(x, 0) \mid x \in \R\}\)</span>, the <span class="math inline">\(x\)</span>-axis. Then <span class="math inline">\(V / (\nl T)\)</span> is the space of all lines with slope <span class="math inline">\(2\)</span>, and the map <span class="math inline">\(\tilde{T}: \R^2 / U \to \R^2\)</span> takes one of these lines to its <span class="math inline">\(x\)</span>-intercept. Verifying 3.89 and 3.91 above, we see that <span class="math inline">\(\dim (\R^2 / U) = 1\)</span>, the dimension of the plane <span class="math inline">\(\R^2\)</span> minus the dimension of the line <span class="math inline">\(U\)</span>. Since <span class="math inline">\(\range T\)</span> is the <span class="math inline">\(x\)</span>-axis with dimension <span class="math inline">\(1\)</span>, we see that <span class="math inline">\(\R^2 / U\)</span> is indeed isomorphic to <span class="math inline">\(\range T\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

@@ -29,6 +29,16 @@ An inhomogeneous system of linear equations is a system consisting of \(m\) line
     </item>
     
     <item>
+      <title>The dual map</title>
+      <link>https://bncling.github.io/math-wiki/dual_map/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dual_map/</guid>
+      <description>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&amp;#39;: W&amp;#39; \to V&amp;#39;\) is defined by \(T&amp;#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&amp;#39;\) where \(V&amp;#39;\) and \(W&amp;#39;\) are the dual spaces of \(V\) and \(W\).
+Properties The map \(T&amp;#39;\) is linear since it is the composition of a linear map and a linear functional.</description>
+    </item>
+    
+    <item>
       <title>Affine subsets</title>
       <link>https://bncling.github.io/math-wiki/affine_subsets/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
@@ -45,15 +55,6 @@ For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v
       
       <guid>https://bncling.github.io/math-wiki/dual_basis/</guid>
       <description>Definition Let \(V\) be a vector space with basis \((v_1, \dots, v_n)\). We define the dual basis to be the list \((\varphi_1, \dots, \varphi_n)\) of linear functionals on \(V\) such that \[\varphi_j(v_k) = \begin{cases} 1 &amp;amp; k=j \\ 0 &amp;amp; k \neq j \end{cases},\] that is, \(\varphi_j\) is the linear map from \(V\) to \(\F\) assigning \(1\) to the \(j\)th basis vector of \(V\) and \(0\) to all other basis vectors.</description>
-    </item>
-    
-    <item>
-      <title>The dual map</title>
-      <link>https://bncling.github.io/math-wiki/dual_map/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/dual_map/</guid>
-      <description>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map.</description>
     </item>
     
     <item>

@@ -7,7 +7,8 @@
     
     <title>The dual map - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map.">
+    <meta name="description" content="Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&#39;: W&#39; \to V&#39;\) is defined by \(T&#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&#39;\) where \(V&#39;\) and \(W&#39;\) are the dual spaces of \(V\) and \(W\).
+Properties The map \(T&#39;\) is linear since it is the composition of a linear map and a linear functional.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,10 +102,18 @@
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">The dual map</h1>
-    <div class="post-meta">August 15, 2021</div>
+    <div class="post-meta">August 18, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> be <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> and let <span class="math inline">\(T \in \Lin(V, W)\)</span> be a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>.</p>
+<p>Let <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> be <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> and let <span class="math inline">\(T \in \Lin(V, W)\)</span> be a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>. Then the <strong>dual map</strong> <span class="math inline">\(T&#39;: W&#39; \to V&#39;\)</span> is defined by <span class="math inline">\(T&#39; (\varphi) = \varphi \circ T\)</span> for <span class="math inline">\(\varphi \in W&#39;\)</span> where <span class="math inline">\(V&#39;\)</span> and <span class="math inline">\(W&#39;\)</span> are the <a href="https://bncling.github.io/math-wiki/dual_space/">dual spaces</a> of <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>The map <span class="math inline">\(T&#39;\)</span> is linear since it is the composition of a linear map and a <a href="https://bncling.github.io/math-wiki/dual_space/">linear functional</a>.</p>
+<p>The map from <span class="math inline">\(&#39;: \Lin(V, W) \to \Lin(W&#39;, V&#39;)\)</span> is itself a linear map since if <span class="math inline">\(T, S \in \Lin(V, W)\)</span> and <span class="math inline">\(a \in \F\)</span>,</p>
+<ul>
+<li><span class="math inline">\((T + S)&#39; = T&#39; + S&#39;\)</span>;</li>
+<li><span class="math inline">\((aT)&#39; = aT&#39;\)</span>.</li>
+</ul>
+<p><strong>(3.101) Proposition:</strong> If <span class="math inline">\(T \in \Lin(U, V)\)</span> and <span class="math inline">\(S \in \Lin(V, W)\)</span>, then <span class="math inline">\((ST)&#39; = T&#39;S&#39;\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
