@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The dual map</title>
+      <link>https://bncling.github.io/math-wiki/dual_map/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dual_map/</guid>
+      <description>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&amp;#39;: W&amp;#39; \to V&amp;#39;\) is defined by \(T&amp;#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&amp;#39;\) where \(V&amp;#39;\) and \(W&amp;#39;\) are the dual spaces of \(V\) and \(W\).
+Properties The map \(T&amp;#39;\) is linear since it is the composition of a linear map and a linear functional.</description>
+    </item>
+    
+    <item>
       <title>Quotients of vector spaces</title>
       <link>https://bncling.github.io/math-wiki/vspace_quotients/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
@@ -26,16 +36,6 @@ For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\)
       <guid>https://bncling.github.io/math-wiki/linear_systems/</guid>
       <description>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;amp;= 0 \\ &amp;amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
 An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;amp;= c_1 \\ &amp;amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero.</description>
-    </item>
-    
-    <item>
-      <title>The dual map</title>
-      <link>https://bncling.github.io/math-wiki/dual_map/</link>
-      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/dual_map/</guid>
-      <description>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&amp;#39;: W&amp;#39; \to V&amp;#39;\) is defined by \(T&amp;#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&amp;#39;\) where \(V&amp;#39;\) and \(W&amp;#39;\) are the dual spaces of \(V\) and \(W\).
-Properties The map \(T&amp;#39;\) is linear since it is the composition of a linear map and a linear functional.</description>
     </item>
     
     <item>
