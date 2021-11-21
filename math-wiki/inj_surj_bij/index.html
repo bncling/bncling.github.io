@@ -103,12 +103,18 @@ It is called bijective if and only if it is both injective and surjective.">
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Injectivity, surjectivity, and bijectivity</h1>
-    <div class="post-meta">July 28, 2021</div>
+    <div class="post-meta">November 21, 2021</div>
   </header>
   <div class="post-content"><h2 id="definitions">Definitions</h2>
 <p>A <a href="https://bncling.github.io/math-wiki/function/">function</a> or map <span class="math inline">\(f: \mathcal{D} \to \mathcal{C}\)</span> is called <strong>injective</strong> if and only if for all <span class="math inline">\(a,b \in \mathcal{D}\)</span> such that <span class="math inline">\(a \neq b\)</span>, we have that <span class="math inline">\(f(a) \neq f(b)\)</span>.</p>
 <p>It is called <strong>surjective</strong> if and only if for all <span class="math inline">\(y \in \mathcal{C}\)</span>, there exists an <span class="math inline">\(x \in \mathcal{D}\)</span> such that <span class="math inline">\(f(x) = y\)</span>.</p>
 <p>It is called <strong>bijective</strong> if and only if it is both injective and surjective.</p>
+<p>It has a <strong>left inverse</strong> if there is a function <span class="math inline">\(g: \mathcal{C} \to \mathcal{D}\)</span> such that <span class="math inline">\(g \circ f: \mathcal{D} \to \mathcal{D}\)</span> is the identity map on <span class="math inline">\(\mathcal{D}\)</span>.</p>
+<p>It has a <strong>right inverse</strong> if there is a function <span class="math inline">\(h: \mathcal{C} \to \mathcal{D}\)</span> such that <span class="math inline">\(f \circ h: \mathcal{C} \to \mathcal{C}\)</span> is the indentity matp on <span class="math inline">\(\mathcal{C}\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>A function <span class="math inline">\(f: \mathcal{D} \to \mathcal{C}\)</span> is injective if and only if it has a left inverse.</p>
+<p>A function <span class="math inline">\(f: \mathcal{D} \to \mathcal{C}\)</span> is surjective if and only if it has a right inverse.</p>
+<p>If <span class="math inline">\(\mathcal{D}\)</span> and <span class="math inline">\(\mathcal{C}\)</span> are finite sets with the same <a href="https://bncling.github.io/math-wiki/cardinality/">cardinality</a>, then for a function <span class="math inline">\(f: \mathcal{D} \to \mathcal{C}\)</span>, being injective, surjective, and bijective are equivalent.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
