@@ -8,6 +8,81 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Abelian Groups</title>
+      <link>https://bncling.github.io/math-wiki/abelian/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/abelian/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Groups</title>
+      <link>https://bncling.github.io/math-wiki/groups/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/groups/</guid>
+      <description>The symmetries of something.
+Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operation \(\cdot: G \times G \to G\) such that
+ The group operation is associative: \((ab)c = a(bc)\) for all \(a,b,c \in G\); \(G\) has an identity element: there exists \(e \in G\) such that \(ae = a = ea\) for all \(a \in G\); Every element is invertible: for all \(a \in G\), there exists a \(b \in G\) such that \(ab = e = ba\).</description>
+    </item>
+    
+    <item>
+      <title>Matrices</title>
+      <link>https://bncling.github.io/math-wiki/matrices/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/matrices/</guid>
+      <description>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp;amp; \dots &amp;amp; a_{1,n} \\ \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{m,1} &amp;amp; \dots &amp;amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
+For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\).</description>
+    </item>
+    
+    <item>
+      <title>The Dihedral Group</title>
+      <link>https://bncling.github.io/math-wiki/dihedral/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dihedral/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>The General Linear Group</title>
+      <link>https://bncling.github.io/math-wiki/gen_linear/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/gen_linear/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>The Group of Units</title>
+      <link>https://bncling.github.io/math-wiki/units/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/units/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>The Symmetric Group</title>
+      <link>https://bncling.github.io/math-wiki/symm_group/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/symm_group/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Equivalence Relations</title>
+      <link>https://bncling.github.io/math-wiki/equiv_rels/</link>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/equiv_rels/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
       <title>Injectivity, surjectivity, and bijectivity</title>
       <link>https://bncling.github.io/math-wiki/inj_surj_bij/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
@@ -107,16 +182,6 @@ Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector 
       <description>Also called linear transformations.
 Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
  additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\).</description>
-    </item>
-    
-    <item>
-      <title>Matrices</title>
-      <link>https://bncling.github.io/math-wiki/matrices/</link>
-      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/matrices/</guid>
-      <description>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp;amp; \dots &amp;amp; a_{1,n} \\ \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{m,1} &amp;amp; \dots &amp;amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
-For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\).</description>
     </item>
     
     <item>
@@ -971,6 +1036,15 @@ Examples In the topological space defined by \(X = \{a,b,c,d\}\) and \(\mathcal{
       <guid>https://bncling.github.io/math-wiki/limit_points/</guid>
       <description>Generalizing more things from calculus – this time the idea of a point being “arbitrarily close” to a set.
 Definition Let \((X, \mathcal{T})\) be a topological space, let \(A \subset X\) be a subset, and let \(p \in X\) be a point. We say that \(p\) is a limit point of \(A\) if and only if for each open set \(U\) containing \(p\), \((U - \{p\}) \cap A \neq \emptyset\).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://bncling.github.io/math-wiki/untitled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/untitled/</guid>
+      <description></description>
     </item>
     
   </channel>
