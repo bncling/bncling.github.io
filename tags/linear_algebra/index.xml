@@ -6,7 +6,29 @@
     <description>Recent content in linear_algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Range</title>
+      <link>https://bncling.github.io/math-wiki/range/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/range/</guid>
+      <description>Also known as the image…
+Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The range of \(T\), denoted \(\range T\), is the subset of \(W\) containing vectors of the form \(Tv\) for some \(v \in V\), that is, \[\range T = \{Tv \mid v \in V\}.\]
+Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a subspace of \(W\).
+(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T + \dim \, \range T,\] where \(\nl T\) denotes the null space of \(T\) and \(\dim V\) is the dimension of the space \(V\).</description>
+    </item>
+    
+    <item>
+      <title>Vector spaces</title>
+      <link>https://bncling.github.io/math-wiki/vector_space/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
+      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
+    </item>
+    
     <item>
       <title>Matrices</title>
       <link>https://bncling.github.io/math-wiki/matrices/</link>
@@ -187,18 +209,6 @@ Properties Associativity. If \(T_1\), \(T_2\), and \(T_3\) are linear maps such 
     </item>
     
     <item>
-      <title>Range</title>
-      <link>https://bncling.github.io/math-wiki/range/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/range/</guid>
-      <description>Also known as the image…
-Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The range of \(T\), denoted \(\range T\), is the subset of \(W\) containing vectors of the form \(Tv\) for some \(v \in V\), that is, \[\range T = \{Tv \mid v \in V\}.\]
-Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a subspace of \(W\).
-(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T + \dim \, \range T,\] where \(\nl T\) denotes the null space of \(T\) and \(\dim V\) is the dimension of the space \(V\).</description>
-    </item>
-    
-    <item>
       <title>Subspaces of a vector space</title>
       <link>https://bncling.github.io/math-wiki/linalg_subspaces/</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
@@ -218,16 +228,6 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
       <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 + \dots + U_m = \{u_1 + \dots + u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
 Properties The sum of subspaces \(U_1 + \dots + U_m\) is a subspace.
  \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 + \dots + 0}^{m \text{ times}} \in U_1 + \dots + U_m\).</description>
-    </item>
-    
-    <item>
-      <title>Vector spaces</title>
-      <link>https://bncling.github.io/math-wiki/vector_space/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
-      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
     </item>
     
     <item>

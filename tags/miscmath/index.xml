@@ -6,14 +6,27 @@
     <description>Recent content in miscmath on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Equivalence Relations</title>
       <link>https://bncling.github.io/math-wiki/equiv_rels/</link>
-      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/equiv_rels/</guid>
-      <description>Content coming soon.</description>
+      <description>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
+The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
+Properties The equivalence classes of a relation \(R\) partition the set \(S\).</description>
+    </item>
+    
+    <item>
+      <title>Relations</title>
+      <link>https://bncling.github.io/math-wiki/relations/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/relations/</guid>
+      <description>Definitions A relation on a set \(S\) is a subset \(R \subset S \times S\). Two elements \(a,b \in S\) are related if and only if \((a,b) \in R\), and this is sometimes written \(aRb\).
+Relations are called
+ reflexive if \((a,a) \in R\) for all \(a \in S\) (\(a\) is related to itself); irreflexive if \((a,a) \notin R\) for all \(a \in S\); symmetric if \((a,b) \in R\) implies \((b,a) \in R\); asymmetric if \((a,b) \in R\) implies \((b,a) \notin R\); antisymmetric if \((a,b),(b,a) \in R\) implies that \(a = b\); transitive if \((a,b),(b,c) \in R\) implies that \((a,c) \in R\).</description>
     </item>
     
     <item>

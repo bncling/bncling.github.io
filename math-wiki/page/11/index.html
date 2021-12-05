@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Math Wiki - Ben Clingenpeel</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://bncling.github.io/style.css" rel="stylesheet">
+    <link href="https://bncling.github.io/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="generator" content="Hugo 0.84.4" />
+    
+    <link rel="alternate" type="application/rss+xml" href="https://bncling.github.io/math-wiki/index.xml" title="Ben Clingenpeel" />
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('light');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('light');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://bncling.github.io/">Ben Clingenpeel</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/animations/">Animations</a>
+          </li>
+          <li>
+            <a href="/math-wiki/">Math Wikis</a>
+          </li>
+          <li>
+            <a href="/posts/">Posts</a>
+          </li>
+          <li>
+            <a href="/tags/">Tags</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+<header class="page-header"><h1>Math Wiki</h1></header>
+
+
+<p>This is a collection of several brief explanations of various math concepts / objects I’ve come across, organized into one nice central location for my own use.</p>
+<p>In pages with the <a href="https://bncling.github.io/tags/topology/">“topology” tag</a>, there are sometimes references to theorems, lemmas, and exercises from the book <a href="https://bookstore.ams.org/text-58/"><em>Topology Through Inquiry</em></a> by Michael Starbird and Francis Su that I’ve been working with this summer. The theorems that are referenced in these pages are (usually) ones that I’ve proven (or at least tried to prove—no guarantees all the proofs work), and you can find a compilation of all the work I’ve done <a href="https://bncling.github.io/math-wiki/top_selfstudy/">here</a>.</p>
+<p>In pages with the <a href="https://bncling.github.io/tags/topology/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>. There are also references to theorems and exercises from the book.</p>
+<p>The collection is currently organized to have the latest updated pages at the top, but I might be looking to change that at some point.</p>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Real numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/real_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The box topology</h2>
+  </header>
+  <section class="entry-content">
+   <p>Another, weirder topology on an infinite product.
+Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a (possibly infinite) collection of topological spaces. The box topology on the product \(\prod_{\alpha \in \lambda} X_\alpha\) is the topology generated by a basis consisting of sets of the form \(\prod_{\alpha \in \lambda} U_\alpha\) where \(U_\alpha\) is open in \((X_\alpha, \T_\alpha)\) for each \(\alpha\).
+Properties As a consequence of Theorem 3.27, if the collection \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) is finite, the box topology on \(\prod_{\alpha \in \lambda} X_\alpha\) is the same as the product topology....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/box_topology/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The completeness axiom</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/completeness_axiom/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Thomae&#39;s function</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/thomae/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Boundaries of sets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition For a set \(A\) in a topological space \((X, \mathcal{T})\), the boundary of \(A\), denoted \(\partial A\) or Bd\((A)\), is the intersection of the closures of \(A\) and its complement, that is, the set \(\partial A = \overline{X} \cap \overline{X - A}\).
+Properties Theorem 2.28: If \(A\) is a set in a topological space \((X, \mathcal{T})\), the interior of \(A\), the boundary of \(A\), and the interior of the complement of \(A\) are disjoint sets whose union is \(X\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/boundary/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Continuity</h2>
+  </header>
+  <section class="entry-content">
+   <p>Continuous functions can be drawn without picking up your pencil.
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous if and only if it is continuous at the point \(c\) for all \(c \in \mathcal{D}\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/continuity/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>DeMorgan&#39;s Laws</h2>
+  </header>
+  <section class="entry-content">
+   <p>DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]
+Proof The proof here is for a weaker version of the laws for a finite collection of sets, written as an exercise for my topology work....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/demorgan/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Interior of a set</h2>
+  </header>
+  <section class="entry-content">
+   <p>Points in the set and not on the boundary.
+Definition Let \((X, \mathcal{T})\) be a topological space and let \(A\) be a subset of \(X\). The interior of \(A\), denoted \(A^\circ\) or Int\((A)\), is the largest open set contained entirely within \(A\), that is, the set \[A^\circ = \bigcup_{U \subset A, \, U \in \mathcal{T}} U.\]
+Properties Theorem 2.26: A point \(p\) is an interior point of a set \(A\) in a topological space \((X, \mathcal{T})\) if and only if there exists an open set \(U\) with \(p \in U \subset A\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/interior/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Limits</h2>
+  </header>
+  <section class="entry-content">
+   <p>Intuitively, “\(\lim \limits_{x \to a} f(x) = L\)” means that the outputs of a function \(f\) approaches the value \(L\) as the inputs approach the value \(a\).
+The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \mathbb{R} \to \mathbb{R}\) be a function and let \(a,L \in \mathbb{R}\).
+ \(\lim \limits_{x \to a} f(x) = L\) if and only if for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(0 &lt; \vert x - a \vert &lt; \delta\) implies that \(\vert f(x) - L \vert &lt; \varepsilon\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/limits/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Closed sets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition In a topological space \((X, \mathcal{T})\), a closed set \(A\) is a subset of \(X\) that is equal to its closure (\(\overline{A} = A\)). That is, \(A\) contains all its limit points.
+Properties of closed sets  Theorem 2.14: A set \(A\) is closed if and only if its complement \(X - A\) is open. If \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) is a collection of closed sets, then \(\bigcap_{\alpha \in \lambda} A_\alpha\) is closed, but \(\bigcup_{\alpha \in \lambda} A_\alpha\) need not be closed....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/closed_sets/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="/math-wiki/page/10/">← Prev Page</a>
+    <a class="next" href="/math-wiki/page/12/">Next Page →</a>
+  </nav>
+</footer></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://bncling.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\Poly":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}",
+            "\\Sym":"\\text{Sym}",
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</html>
+

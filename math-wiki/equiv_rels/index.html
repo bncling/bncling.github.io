@@ -7,7 +7,9 @@
     
     <title>Equivalence Relations - Ben Clingenpeel</title>
     
-    <meta name="description" content="Content coming soon.">
+    <meta name="description" content="Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
+The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
+Properties The equivalence classes of a relation \(R\) partition the set \(S\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,14 +103,19 @@
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Equivalence Relations</h1>
-    <div class="post-meta">December 2, 2021</div>
+    <div class="post-meta">December 3, 2021</div>
   </header>
-  <div class="post-content"><p>Content coming soon.</p>
+  <div class="post-content"><h2 id="definitions">Definitions</h2>
+<p>A <a href="https://bncling.github.io/math-wiki/relations/">relation</a> <span class="math inline">\(R\)</span> on a set <span class="math inline">\(S\)</span> is called an <strong>equivalence relation</strong> if it is reflexive, symmetric, and transitive. When <span class="math inline">\((a,b) \in R\)</span>, we write <span class="math inline">\(a \sim b\)</span>.</p>
+<p>The <strong>equivalence class</strong> of an element <span class="math inline">\(a \in S\)</span> with equivalence relation <span class="math inline">\(R\)</span> is the set <span class="math inline">\([a] := \{b \in S \mid a \sim b\}\)</span> of elements equivalent to <span class="math inline">\(a\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>The equivalence classes of a relation <span class="math inline">\(R\)</span> partition the set <span class="math inline">\(S\)</span>. That is, equivalence classes are either equal or disjoint (<span class="math inline">\(x \in [a] \cap [b]\)</span> means <span class="math inline">\([a] = [b]\)</span>), and <span class="math inline">\(S\)</span> can be written as the disjoint union of all the equivalence classes <span class="math display">\[S = \bigsqcup_{a \in S} [a].\]</span></p>
+<h2 id="examples">Examples</h2>
+<p>Let <span class="math inline">\(S = \Z\)</span>, the set of integers. For <span class="math inline">\(n \in \Z\)</span>, define the relation <span class="math inline">\(\sim_n\)</span> such that <span class="math inline">\(a \sim_n b \iff n \mid a - b\)</span>. That is, two integers are equivalent if and only if they have the same remainder when divided by <span class="math inline">\(n\)</span>. This equivalence relation gives rise to modular arithmetic through the definition of the <a href="https://bncling.github.io/math-wiki/abelian/">abelian</a> <a href="https://bncling.github.io/math-wiki/groups/">group</a> <span class="math inline">\(\Z_n\)</span>, the set of equivalence classes under this relation.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://bncling.github.io/tags/miscmath">miscmath</a></li>
-      <li><a href="https://bncling.github.io/tags/coming_soon">coming_soon</a></li>
     </ul>
   </footer>
   
@@ -159,7 +166,8 @@
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
-            "\\Aut":"\\text{Aut}"
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false
@@ -226,7 +234,8 @@
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
-            "\\Aut":"\\text{Aut}"
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false

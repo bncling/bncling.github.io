@@ -108,101 +108,136 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Interior of a set</h2>
+    <h2>Indiscrete topology</h2>
   </header>
   <section class="entry-content">
-   <p>Points in the set and not on the boundary.
-Definition Let \((X, \mathcal{T})\) be a topological space and let \(A\) be a subset of \(X\). The interior of \(A\), denoted \(A^\circ\) or Int\((A)\), is the largest open set contained entirely within \(A\), that is, the set \[A^\circ = \bigcup_{U \subset A, \, U \in \mathcal{T}} U.\]
-Properties Theorem 2.26: A point \(p\) is an interior point of a set \(A\) in a topological space \((X, \mathcal{T})\) if and only if there exists an open set \(U\) with \(p \in U \subset A\)....</p>
+   <p>The coarsest possible topology on a set \(X\).
+Definition Let \(X\) be a set. The indiscrete topology is \(\mathcal{T} = \{\emptyset, X\}\). The topological space \((X, \{\emptyset, X\})\) is called an indiscrete space.
+Properties By definition, the only sets in the indiscrete topology that are open are \(X\) and \(\emptyset\), and these are also the only closed sets.
+Separation Properties  Not a \(T_1\)-space Not Hausdorff Not regular or a \(T_3\)-space Not normal or a \(T_4\)-space  ...</p>
   </section>
   <footer class="entry-footer">
-    <time>July 7, 2021</time>
+    <time>July 9, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/interior/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/indiscrete_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Limits</h2>
+    <h2>Normal spaces</h2>
   </header>
   <section class="entry-content">
-   <p>Intuitively, “\(\lim \limits_{x \to a} f(x) = L\)” means that the outputs of a function \(f\) approaches the value \(L\) as the inputs approach the value \(a\).
-The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \mathbb{R} \to \mathbb{R}\) be a function and let \(a,L \in \mathbb{R}\).
- \(\lim \limits_{x \to a} f(x) = L\) if and only if for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(0 &lt; \vert x - a \vert &lt; \delta\) implies that \(\vert f(x) - L \vert &lt; \varepsilon\)....</p>
+   <p>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
+Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 7, 2021</time>
+    <time>July 9, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/limits/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Closed sets</h2>
+    <h2>Regular spaces</h2>
   </header>
   <section class="entry-content">
-   <p>Definition In a topological space \((X, \mathcal{T})\), a closed set \(A\) is a subset of \(X\) that is equal to its closure (\(\overline{A} = A\)). That is, \(A\) contains all its limit points.
-Properties of closed sets  Theorem 2.14: A set \(A\) is closed if and only if its complement \(X - A\) is open. If \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) is a collection of closed sets, then \(\bigcap_{\alpha \in \lambda} A_\alpha\) is closed, but \(\bigcup_{\alpha \in \lambda} A_\alpha\) need not be closed....</p>
+   <p>Definition Let \((X, \T)\) be a topological space. It is regular if and only if for every point \(x \in X\) and closed set \(A \subset X\) with \(x \notin A\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(A \subset V\).
+Properties Theorem 4.8: A space \((X, \T)\) is regular if and only if for each point \(p \in X\) and open set \(U\) with \(p \in U\), there exists an open set \(V\) such that \(p \in V\) and \(\overline{V} \subset U\) (where \(\overline{V}\) is the closure of \(V\) in \((X, \T)\))....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 6, 2021</time>
+    <time>July 9, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/closed_sets/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/regular/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Discontinuities</h2>
+    <h2>The discrete topology</h2>
   </header>
   <section class="entry-content">
-   <p>Definition A function \(f: \mathcal{D} \to \mathbb{R}\) is discontinuous at a point \(c \in \mathcal{D}\) if and only if \(f\) is not continuous at \(c\). That is, if the limit \(\lim \limits_{x \to c} f(x)\) does not exist or is not equal to \(f(c)\).
-Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and \(c \in \mathcal{D}\). Then
- \(f\) has an infinite discontinuity at \(c\) if and only if \(\lim \limits_{x \to c} f(x) = \pm \infty\)....</p>
+   <p>The discrete topology is the finest topology on a given set. A set together with the discrete topology is called a discrete space.
+Definition Let \(X\) be a set. Then the discrete topology on \(X\) contains all subsets of \(X\), that is, the topology is \(\mathcal{T} = 2^X\), the power set of \(X\).
+Properties If \((X, \mathcal{T})\) is a topological space, then it is a discrete space if and only if all singletons are open....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 6, 2021</time>
+    <time>July 9, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/discontinuities/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/discrete_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Isolated points</h2>
+    <h2>Cardinality and sizes of infinity</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \((X,\mathcal{T})\) be a topological space, \(A\) a subset of \(X\), and \(p \in A\) a point. We say \(p\) is an isolated point if it is not a limit point of \(A\).
-Properties If \(p\) is an isolated point of a set \(A\) in a topological space \((X, \mathcal{T})\), then there exists an open set \(U\) such that \(U \cap A = \{p\}\).
-Examples In the topological space defined by \(X = \{a,b,c,d\}\) and \(\mathcal{T} = \{\emptyset, X, \{a\},\{a,b\}\}\), the point \(b\) is in the set \(A = \{b,c\}\), but is not a limit point of \(A\) since \(\{a,b\}\) is open but \((\{a,b\} - \{b\}) \cap A = \emptyset\)....</p>
+   <p>Content coming soon....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 5, 2021</time>
+    <time>July 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/isolated_point/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/infty_sizes/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Limit points</h2>
+    <h2>Cartesian products</h2>
   </header>
   <section class="entry-content">
-   <p>Generalizing more things from calculus – this time the idea of a point being “arbitrarily close” to a set.
-Definition Let \((X, \mathcal{T})\) be a topological space, let \(A \subset X\) be a subset, and let \(p \in X\) be a point. We say that \(p\) is a limit point of \(A\) if and only if for each open set \(U\) containing \(p\), \((U - \{p\}) \cap A \neq \emptyset\)....</p>
+   <p>Definitions (two sets) Let \(A\) and \(B\) be sets. Their Cartesian product, \(A \times B\), is the set \(\{(a,b) \mid a \in A, b \in B\}\).
+An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or \(B\) with the projection functions \(\pi_X : X \times Y \to X\) and \(\pi_Y : X \times Y \to Y\) defined as \(\pi_X (a,b) = a\) and \(\pi_Y (a,b) = b\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>July 5, 2021</time>
+    <time>July 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/limit_points/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/cartesian/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2></h2>
+    <h2>Dirichlet&#39;s function</h2>
   </header>
   <section class="entry-content">
-   <p>...</p>
+   <p>Content coming soon....</p>
   </section>
   <footer class="entry-footer">
-    <time>January 1, 0001</time>
+    <time>July 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/untitled/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dirichlet_function/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Natural numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/natural_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Order relations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/orderings/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Rational numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/rational_numbers/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/9/">← Prev Page</a>
+    <a class="next" href="/math-wiki/page/11/">Next Page →</a>
   </nav>
 </footer></main>
 <footer class="footer">
@@ -264,7 +299,8 @@ Definition Let \((X, \mathcal{T})\) be a topological space, let \(A \subset X\) 
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
-            "\\Aut":"\\text{Aut}"
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false

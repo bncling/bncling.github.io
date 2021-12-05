@@ -6,20 +6,38 @@
     <description>Recent content in Tags on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>algebra</title>
       <link>https://bncling.github.io/tags/algebra/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/algebra/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>calculus</title>
+      <link>https://bncling.github.io/tags/calculus/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/calculus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>combinatorics</title>
+      <link>https://bncling.github.io/tags/combinatorics/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/combinatorics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>coming_soon</title>
       <link>https://bncling.github.io/tags/coming_soon/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/coming_soon/</guid>
       <description></description>
@@ -28,9 +46,18 @@
     <item>
       <title>linear_algebra</title>
       <link>https://bncling.github.io/tags/linear_algebra/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/linear_algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miscmath</title>
+      <link>https://bncling.github.io/tags/miscmath/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/miscmath/</guid>
       <description></description>
     </item>
     
@@ -40,24 +67,6 @@
       <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/number_theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>miscmath</title>
-      <link>https://bncling.github.io/tags/miscmath/</link>
-      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/miscmath/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>calculus</title>
-      <link>https://bncling.github.io/tags/calculus/</link>
-      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/calculus/</guid>
       <description></description>
     </item>
     

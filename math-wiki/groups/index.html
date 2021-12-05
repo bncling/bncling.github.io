@@ -103,7 +103,7 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Groups</h1>
-    <div class="post-meta">December 3, 2021</div>
+    <div class="post-meta">December 5, 2021</div>
   </header>
   <div class="post-content"><p>The symmetries of something.</p>
 <h2 id="definitions">Definitions</h2>
@@ -124,9 +124,9 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
 <li><span class="math inline">\(ba = ca\)</span> implies that <span class="math inline">\(b = c\)</span> for all <span class="math inline">\(a,b,c \in G\)</span>.</li>
 </ul>
 <h2 id="examples">Examples</h2>
-<p>The set of integers under addition, <span class="math inline">\((\Z, +)\)</span>, is a group. <span class="math inline">\(\Z\)</span> is closed under addition, addition is associative, the identity element is <span class="math inline">\(0\)</span>, and if <span class="math inline">\(n \in \Z\)</span>, then its inverse is <span class="math inline">\(-n \in \Z\)</span>. Similarly, <span class="math inline">\(\Q\)</span>, <span class="math inline">\(\R\)</span>, <span class="math inline">\(\C\)</span>, <span class="math inline">\(\Z_n\)</span>, the set of <a href="https://bncling.github.io/math-wiki/equiv_rels/">equivalence classes</a> mod <span class="math inline">\(n\)</span>, and <span class="math inline">\(\M_{m \times n} (\R)\)</span>, the set of <span class="math inline">\(m\)</span>-by-<span class="math inline">\(n\)</span> <a href="https://bncling.github.io/math-wiki/matrices/">matrices</a> are all groups with respect to addition.</p>
+<p>The set of <a href="https://bncling.github.io/math-wiki/integer_group/">integers</a> under addition, <span class="math inline">\((\Z, +)\)</span>, is a group. <span class="math inline">\(\Z\)</span> is closed under addition, addition is associative, the identity element is <span class="math inline">\(0\)</span>, and if <span class="math inline">\(n \in \Z\)</span>, then its inverse is <span class="math inline">\(-n \in \Z\)</span>. Similarly, <span class="math inline">\(\Q\)</span>, <span class="math inline">\(\R\)</span>, <span class="math inline">\(\C\)</span>, <span class="math inline">\(\Z_n\)</span>, the set of <a href="https://bncling.github.io/math-wiki/equiv_rels/">equivalence classes</a> mod <span class="math inline">\(n\)</span>, and <span class="math inline">\(\M_{m \times n} (\R)\)</span>, the set of <span class="math inline">\(m\)</span>-by-<span class="math inline">\(n\)</span> <a href="https://bncling.github.io/math-wiki/matrices/">matrices</a> are all groups with respect to addition.</p>
 <p>The set of nonzero <a href="https://bncling.github.io/math-wiki/real_numbers/">real numbers</a> under multiplication, <span class="math inline">\((\R^\times, \cdot)\)</span>, is a group. <span class="math inline">\(\R^\times\)</span> is closed under multiplication, multiplication is associative, the identity element is <span class="math inline">\(1\)</span>, and if <span class="math inline">\(a \in \R^\times\)</span>, then its inverse is <span class="math inline">\(1 / a\)</span>, which is defined because <span class="math inline">\(a \in \R^\times\)</span> means <span class="math inline">\(a \neq 0\)</span>. Similarly, <span class="math inline">\(\Q^\times\)</span> and <span class="math inline">\(\C^\times\)</span> are groups formed by removing the element <span class="math inline">\(0\)</span>.</p>
-<p>Some sets have more non-invertable elements than just <span class="math inline">\(0\)</span>, but we can make them into groups under multiplcation similarly by removing all non-invertible elements. Doing so, we get the <a href="https://bncling.github.io/math-wiki/gen_linear/">general linear group</a> of real invertible matrices, denoted <span class="math inline">\(GL_n(\R)\)</span>, and the <a href="https://bncling.github.io/math-wiki/units/">group of units</a> mod <span class="math inline">\(n\)</span>, the group of equivalence classes mod <span class="math inline">\(n\)</span> with inverses under multiplcation, denoted <span class="math inline">\(U(n)\)</span>.</p>
+<p>Some sets have more non-invertable elements than just <span class="math inline">\(0\)</span>, but we can make them into groups under multiplcation similarly by removing all non-invertible elements. Doing so, we get the <a href="https://bncling.github.io/math-wiki/gen_linear/">general linear group</a> of real invertible matrices, denoted <span class="math inline">\(GL_n(\R)\)</span>, and the <a href="https://bncling.github.io/math-wiki/unit_grp/">group of units</a> mod <span class="math inline">\(n\)</span>, the group of equivalence classes mod <span class="math inline">\(n\)</span> with inverses under multiplcation, denoted <span class="math inline">\(U(n)\)</span>.</p>
 <p>If <span class="math inline">\(X\)</span> is a set, the group of symmetries of <span class="math inline">\(X\)</span>, denoted <span class="math inline">\(\Sym(X)\)</span>, is the set of all <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">bijective</a> <a href="https://bncling.github.io/math-wiki/function/">functions</a> <span class="math display">\[\Sym(X) = \{f : X \to X \mid f \text{ is bijective} \}.\]</span> A special case is when the set <span class="math inline">\(X\)</span> is <span class="math inline">\(X = [n] := \{1, \dots, n\}\)</span>, in which case we call this the <strong><a href="https://bncling.github.io/math-wiki/symm_group/">symmetric group</a> on <span class="math inline">\(n\)</span> symbols</strong> and write it as <span class="math inline">\(S_n\)</span>.</p>
 <p>We get another group considering the symmetries of regular polygons. The <strong><a href="https://bncling.github.io/math-wiki/dihedral/">dihedral group</a></strong>, denoted <span class="math inline">\(D_n\)</span> is the group of symmetries of a regular <span class="math inline">\(n\)</span>-gon.</p>
 </div>
@@ -183,7 +183,8 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
-            "\\Aut":"\\text{Aut}"
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false
@@ -250,7 +251,8 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
-            "\\Aut":"\\text{Aut}"
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false

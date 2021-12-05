@@ -104,16 +104,17 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Vector spaces</h2>
+    <h2>Sums of subspaces</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(&#43;\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u &#43; v = v &#43; u\) for all \(u, v \in V\); associativity: \((u &#43; v) &#43; w = u &#43; (v &#43; w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v &#43; 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v &#43; w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u &#43; v) = au &#43; av\) and \((a &#43; b)v = av &#43; bv\) for all \(v,w \in V\) and \(a,b \in \F\)....</p>
+   <p>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 &#43; \dots &#43; U_m = \{u_1 &#43; \dots &#43; u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
+Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
+ \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 &#43; \dots &#43; 0}^{m \text{ times}} \in U_1 &#43; \dots &#43; U_m\)....</p>
   </section>
   <footer class="entry-footer">
     <time>August 12, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/vector_space/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subspace_sums/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -205,7 +206,8 @@ Properties For a list of vectors \((v_1, \dots, v_n)\) in \(V\), \(\Span(v_1, \d
             "\\range":"\\text{range }",
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
-            "\\Aut":"\\text{Aut}"
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false

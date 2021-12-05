@@ -6,13 +6,85 @@
     <description>Recent content in coming_soon on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/coming_soon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/coming_soon/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Abelian Groups</title>
-      <link>https://bncling.github.io/math-wiki/abelian/</link>
+      <title>Cayley&#39;s Theorem</title>
+      <link>https://bncling.github.io/math-wiki/cayley_thm/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/cayley_thm/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Fields</title>
+      <link>https://bncling.github.io/math-wiki/fields/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/fields/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Group Automorphisms</title>
+      <link>https://bncling.github.io/math-wiki/grp_auto/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_auto/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Group Presentations</title>
+      <link>https://bncling.github.io/math-wiki/grp_presentations/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_presentations/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Permutations</title>
+      <link>https://bncling.github.io/math-wiki/permutations/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/permutations/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Simple Groups</title>
+      <link>https://bncling.github.io/math-wiki/simple_groups/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/simple_groups/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>External Direct Products</title>
+      <link>https://bncling.github.io/math-wiki/grp_edp/</link>
       <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bncling.github.io/math-wiki/abelian/</guid>
+      <guid>https://bncling.github.io/math-wiki/grp_edp/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Prime Numbers</title>
+      <link>https://bncling.github.io/math-wiki/prime/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/prime/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Subgroups</title>
+      <link>https://bncling.github.io/math-wiki/subgroups/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/subgroups/</guid>
       <description>Content coming soon.</description>
     </item>
     
@@ -26,47 +98,20 @@
     </item>
     
     <item>
-      <title>The General Linear Group</title>
-      <link>https://bncling.github.io/math-wiki/gen_linear/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/gen_linear/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>The Group of Units</title>
-      <link>https://bncling.github.io/math-wiki/units/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/units/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>The Symmetric Group</title>
-      <link>https://bncling.github.io/math-wiki/symm_group/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/symm_group/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Equivalence Relations</title>
-      <link>https://bncling.github.io/math-wiki/equiv_rels/</link>
-      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/equiv_rels/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Cardinality</title>
       <link>https://bncling.github.io/math-wiki/cardinality/</link>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/cardinality/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Greatest Common Divisors</title>
+      <link>https://bncling.github.io/math-wiki/gcd/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/gcd/</guid>
       <description>Content coming soon.</description>
     </item>
     
@@ -94,15 +139,6 @@
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/complex_numbers/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Coprime numbers</title>
-      <link>https://bncling.github.io/math-wiki/coprime/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/coprime/</guid>
       <description>Content coming soon.</description>
     </item>
     
