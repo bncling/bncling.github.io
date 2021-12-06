@@ -104,6 +104,19 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Cosets of a Subgroup</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Cayley&#39;s Theorem</h2>
   </header>
   <section class="entry-content">
@@ -113,18 +126,6 @@
     <time>December 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/cayley_thm/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cosets of a Subgroup</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -290,7 +291,8 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
             "\\Sym":"\\text{Sym}",
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
-            "\\inn":"\\text{Inn}"
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}"
           },
           
           throwOnError : false

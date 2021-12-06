@@ -108,6 +108,49 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Abelian Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Groups that commute.
+Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
+Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
+If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
+Examples The set of integers under addition, \((\Z, &#43;)\), is an abelian group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/abelian/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Cosets of a Subgroup</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Cyclic Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
+Properties All cyclic groups are abelian.
+If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Group Homomorphisms</h2>
   </header>
   <section class="entry-content">
@@ -136,18 +179,17 @@ Examples The center of \(D_n\) is trivial if \(n\) is odd, and equal to \(\{e,r^
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Abelian Groups</h2>
+    <h2>The Dihedral Group</h2>
   </header>
   <section class="entry-content">
-   <p>Groups that commute.
-Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
-Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
-Examples The set of integers under addition, \((\Z, &#43;)\), is an abelian group. \(\Z\) is closed under addition, addition is associative and commutative, the identity element is \(0\), and if \(n \in \Z\), then its inverse is \(-n \in \Z\)....</p>
+   <p>Symmetries of a polygon.
+Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
+Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 5, 2021</time>
+    <time>December 6, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/abelian/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -160,32 +202,6 @@ Examples The set of integers under addition, \((\Z, &#43;)\), is an abelian grou
     <time>December 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/cayley_thm/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cosets of a Subgroup</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cyclic Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
-Properties All cyclic groups are abelian.
-If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -225,18 +241,6 @@ We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted 
     <time>December 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/function/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group Automorphisms</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_auto/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -304,7 +308,8 @@ We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted 
             "\\Sym":"\\text{Sym}",
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
-            "\\inn":"\\text{Inn}"
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}"
           },
           
           throwOnError : false

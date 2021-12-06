@@ -7,7 +7,8 @@
     
     <title>Cosets of a Subgroup - Ben Clingenpeel</title>
     
-    <meta name="description" content="Content coming soon.">
+    <meta name="description" content="Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,9 +102,42 @@
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Cosets of a Subgroup</h1>
-    <div class="post-meta">December 5, 2021</div>
+    <div class="post-meta">December 6, 2021</div>
   </header>
-  <div class="post-content"><p>Content coming soon.</p>
+  <div class="post-content"><h2 id="definitions">Definitions</h2>
+<p>Let <span class="math inline">\((G, \cdot)\)</span> be a <a href="https://bncling.github.io/math-wiki/groups/">group</a> with a <a href="https://bncling.github.io/math-wiki/subgroups/">subgroup</a> <span class="math inline">\(H\)</span>. We say that elements <span class="math inline">\(a, b \in G\)</span> are <strong>left-equivalent</strong>, written <span class="math inline">\(a \sim_L b\)</span>, if and only if <span class="math inline">\(a\inv b \in H\)</span>. Similarly, we say they are <strong>right-equivalent</strong>, written <span class="math inline">\(a \sim_R b\)</span>, if and only if <span class="math inline">\(ab\inv \in H\)</span>. Then <span class="math inline">\(\sim_L\)</span> and <span class="math inline">\(\sim_R\)</span> are <a href="https://bncling.github.io/math-wiki/relations/">relations</a> on <span class="math inline">\(G\)</span>, and we have that</p>
+<ul>
+<li><span class="math inline">\(a\inv a = e \in H &lt; G\)</span>, meaning <span class="math inline">\(a \sim_L a\)</span> for all <span class="math inline">\(a \in G\)</span>,</li>
+<li><span class="math inline">\(a \sim_L b\)</span> means <span class="math inline">\(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\)</span> for all <span class="math inline">\(a,b \in G\)</span>, and</li>
+<li><span class="math inline">\(a \sim_L b\)</span> and <span class="math inline">\(b \sim_L c\)</span> means <span class="math inline">\(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\)</span> for all <span class="math inline">\(a,b,c \in G\)</span>,</li>
+</ul>
+<p>which means <span class="math inline">\(\sim_L\)</span> is an <a href="https://bncling.github.io/math-wiki/equiv_rels/">equivalence relation</a> on <span class="math inline">\(G\)</span>. Similarly, <span class="math inline">\(\sim_R\)</span> is an equivalence relation as well.</p>
+<p>A <strong>left coset</strong> of <span class="math inline">\(H\)</span> in <span class="math inline">\(G\)</span> is an equivalence class of the relation <span class="math inline">\(\sim_L\)</span>. Similarly, a <strong>right coset</strong> of <span class="math inline">\(H\)</span> in <span class="math inline">\(G\)</span> is an equivalence class of the relation <span class="math inline">\(\sim_R\)</span>. For notation, we write <span class="math inline">\(gH\)</span> to mean the left coset of <span class="math inline">\(H\)</span> in <span class="math inline">\(G\)</span> with representative <span class="math inline">\(g\)</span> (that is, <span class="math inline">\(gH := [g]_{\sim_L}\)</span>).</p>
+<p>We call the number of distinct left cosets of <span class="math inline">\(H\)</span> in <span class="math inline">\(G\)</span> the <strong>index</strong> of <span class="math inline">\(H\)</span> in <span class="math inline">\(G\)</span>, and we write it <span class="math inline">\([G:H]\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>Since <span class="math inline">\(gH\)</span> is the equivalence class of <span class="math inline">\(g\)</span>, <span class="math inline">\(gH = \{a \in G \mid g \sim_L a\}\)</span>, which is the set <span class="math display">\[gH = \{a \in G \mid g\inv a \in H\} = \{a \in G \mid g\inv a = h, \, h \in H\} = \{a \in G \mid a = gh, \, h \in H\},\]</span> which we can further simplify to <span class="math inline">\(gH = \{gh \mid h \in H\}\)</span>.</p>
+<p>Because (left) cosets are equivalence classes, they partition the group <span class="math inline">\(G\)</span>, and because the map <span class="math inline">\(f: H \to gH\)</span> defined by <span class="math inline">\(f(h) =gh\)</span> is a <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">bijection</a>, all (left) cosets have the same <a href="https://bncling.github.io/math-wiki/cardinality/">cardinality</a>.</p>
+<p>For all <span class="math inline">\(a \in G\)</span>, <span class="math inline">\(aH = H\)</span> if and only if <span class="math inline">\(a \in H\)</span>.</p>
+<p><strong>Proposition:</strong> The following are equivalent.</p>
+<ul>
+<li><span class="math inline">\(aH = bH\)</span>;</li>
+<li><span class="math inline">\(Ha\inv = Hb\inv\)</span>;</li>
+<li><span class="math inline">\(aH \subset bH\)</span>;</li>
+<li><span class="math inline">\(b \in aH\)</span>;</li>
+<li><span class="math inline">\(a\inv b \in H\)</span>.</li>
+</ul>
+<p><strong>Proposition:</strong> The set of distinct left cosets <span class="math inline">\(S\)</span> of a subgroup <span class="math inline">\(H &lt; G\)</span> has the same cardinality as the set of distinct right cosets <span class="math inline">\(T\)</span>. For the proof, define the map <span class="math inline">\(f:S \to T\)</span> by <span class="math inline">\(f(gH) = Hg\inv\)</span>. This is a bijection. One consequence of this is that the index <span class="math inline">\([G:H]\)</span> is also the number of distinct right cosets of <span class="math inline">\(H\)</span> in <span class="math inline">\(G\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>In <a href="https://bncling.github.io/math-wiki/symm_group/"><span class="math inline">\(S_3\)</span></a>, the left cosets of the subgroup <span class="math inline">\(H = \{\id, (1\,2)\}\)</span> are</p>
+<ul>
+<li><span class="math inline">\((1\,2\,3) H = \{(1\,2\,3), (1\,3)\}\)</span> and</li>
+<li><span class="math inline">\((1\,3\,2) H = \{(1\,3\,2), (2\,3)\}\)</span>,</li>
+</ul>
+<p>and the right cosets are</p>
+<ul>
+<li><span class="math inline">\(H (1\,2\,3) = \{(1\,2\,3), (2\,3)\}\)</span> and</li>
+<li><span class="math inline">\(H (1\,3\,2) = \{(1\,3\,2), (1\,3)\}\)</span>.</li>
+</ul>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
@@ -161,7 +195,8 @@
             "\\Sym":"\\text{Sym}",
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
-            "\\inn":"\\text{Inn}"
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}"
           },
           
           throwOnError : false
@@ -230,7 +265,8 @@
             "\\Sym":"\\text{Sym}",
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
-            "\\inn":"\\text{Inn}"
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}"
           },
           
           throwOnError : false

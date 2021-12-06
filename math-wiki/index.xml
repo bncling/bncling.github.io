@@ -8,6 +8,40 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Abelian Groups</title>
+      <link>https://bncling.github.io/math-wiki/abelian/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/abelian/</guid>
+      <description>Groups that commute.
+Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
+Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
+If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
+Examples The set of integers under addition, \((\Z, +)\), is an abelian group.</description>
+    </item>
+    
+    <item>
+      <title>Cosets of a Subgroup</title>
+      <link>https://bncling.github.io/math-wiki/grp_cosets/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_cosets/</guid>
+      <description>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &amp;lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &amp;lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &amp;lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\).</description>
+    </item>
+    
+    <item>
+      <title>Cyclic Groups</title>
+      <link>https://bncling.github.io/math-wiki/cyclic/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/cyclic/</guid>
+      <description>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
+Properties All cyclic groups are abelian.
+If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, +)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group.</description>
+    </item>
+    
+    <item>
       <title>Group Homomorphisms</title>
       <link>https://bncling.github.io/math-wiki/grp_morph/</link>
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
@@ -30,15 +64,14 @@ Examples The center of \(D_n\) is trivial if \(n\) is odd, and equal to \(\{e,r^
     </item>
     
     <item>
-      <title>Abelian Groups</title>
-      <link>https://bncling.github.io/math-wiki/abelian/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      <title>The Dihedral Group</title>
+      <link>https://bncling.github.io/math-wiki/dihedral/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bncling.github.io/math-wiki/abelian/</guid>
-      <description>Groups that commute.
-Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
-Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
-Examples The set of integers under addition, \((\Z, +)\), is an abelian group. \(\Z\) is closed under addition, addition is associative and commutative, the identity element is \(0\), and if \(n \in \Z\), then its inverse is \(-n \in \Z\).</description>
+      <guid>https://bncling.github.io/math-wiki/dihedral/</guid>
+      <description>Symmetries of a polygon.
+Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
+Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &amp;lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\).</description>
     </item>
     
     <item>
@@ -48,26 +81,6 @@ Examples The set of integers under addition, \((\Z, +)\), is an abelian group. \
       
       <guid>https://bncling.github.io/math-wiki/cayley_thm/</guid>
       <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Cosets of a Subgroup</title>
-      <link>https://bncling.github.io/math-wiki/grp_cosets/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_cosets/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Cyclic Groups</title>
-      <link>https://bncling.github.io/math-wiki/cyclic/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/cyclic/</guid>
-      <description>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
-Properties All cyclic groups are abelian.
-If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, +)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group.</description>
     </item>
     
     <item>
@@ -373,15 +386,6 @@ For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by
       <description>Definitions A relation on a set \(S\) is a subset \(R \subset S \times S\). Two elements \(a,b \in S\) are related if and only if \((a,b) \in R\), and this is sometimes written \(aRb\).
 Relations are called
  reflexive if \((a,a) \in R\) for all \(a \in S\) (\(a\) is related to itself); irreflexive if \((a,a) \notin R\) for all \(a \in S\); symmetric if \((a,b) \in R\) implies \((b,a) \in R\); asymmetric if \((a,b) \in R\) implies \((b,a) \notin R\); antisymmetric if \((a,b),(b,a) \in R\) implies that \(a = b\); transitive if \((a,b),(b,c) \in R\) implies that \((a,c) \in R\).</description>
-    </item>
-    
-    <item>
-      <title>The Dihedral Group</title>
-      <link>https://bncling.github.io/math-wiki/dihedral/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/dihedral/</guid>
-      <description>Content coming soon.</description>
     </item>
     
     <item>

@@ -2,7 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/math-wiki/abelian/</loc>
+    <lastmod>2021-12-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/tags/algebra/</loc>
+    <lastmod>2021-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/coming_soon/</loc>
+    <lastmod>2021-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/grp_cosets/</loc>
+    <lastmod>2021-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/cyclic/</loc>
     <lastmod>2021-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/grp_morph/</loc>
@@ -14,8 +26,8 @@
     <loc>https://bncling.github.io/math-wiki/grp_center/</loc>
     <lastmod>2021-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/abelian/</loc>
-    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+    <loc>https://bncling.github.io/math-wiki/dihedral/</loc>
+    <lastmod>2021-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/calculus/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
@@ -24,15 +36,6 @@
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/combinatorics/</loc>
-    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/coming_soon/</loc>
-    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/grp_cosets/</loc>
-    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/cyclic/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/determinant/</loc>
@@ -132,9 +135,6 @@
     <lastmod>2021-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/relations/</loc>
-    <lastmod>2021-12-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/dihedral/</loc>
     <lastmod>2021-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/inj_surj_bij/</loc>
