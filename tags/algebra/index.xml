@@ -29,6 +29,15 @@ Examples The set of integers under addition, \((\Z, +)\), is an abelian group. \
     </item>
     
     <item>
+      <title>Cosets of a Subgroup</title>
+      <link>https://bncling.github.io/math-wiki/grp_cosets/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_cosets/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
       <title>Cyclic Groups</title>
       <link>https://bncling.github.io/math-wiki/cyclic/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
@@ -88,6 +97,35 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
     </item>
     
     <item>
+      <title>Lagrange&#39;s Theorem</title>
+      <link>https://bncling.github.io/math-wiki/lagrange/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lagrange/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Normal Subgroups</title>
+      <link>https://bncling.github.io/math-wiki/normal_subgroups/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/normal_subgroups/</guid>
+      <description>Definition A subgroup \(H\) of \(G\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).</description>
+    </item>
+    
+    <item>
+      <title>Order of an Element in a Group</title>
+      <link>https://bncling.github.io/math-wiki/grp_element_order/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_element_order/</guid>
+      <description>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
+Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
+If \(g^m = e\), then the order of \(g\) divides \(m\).</description>
+    </item>
+    
+    <item>
       <title>Simple Groups</title>
       <link>https://bncling.github.io/math-wiki/simple_groups/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
@@ -97,12 +135,43 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
     </item>
     
     <item>
+      <title>Subgroups</title>
+      <link>https://bncling.github.io/math-wiki/subgroups/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/subgroups/</guid>
+      <description>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &amp;lt; G\) if \(H\) is a subgroup of \(G\).
+Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups.</description>
+    </item>
+    
+    <item>
+      <title>The Alternating Group</title>
+      <link>https://bncling.github.io/math-wiki/alternating/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/alternating/</guid>
+      <description>Definition The alternating group is the normal subgroup of \(S_n\) containing all even permutations.
+Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).</description>
+    </item>
+    
+    <item>
+      <title>The Center of a Group</title>
+      <link>https://bncling.github.io/math-wiki/grp_center/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_center/</guid>
+      <description>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
+Properties If \(G\) is an abelian group, then \(Z(G) = G\).
+The center of \(G\) is always a normal subgroup of \(G\).</description>
+    </item>
+    
+    <item>
       <title>The General Linear Group</title>
       <link>https://bncling.github.io/math-wiki/gen_linear/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/gen_linear/</guid>
-      <description>Definition The general linear group denoted \(GL_n(\F)\) is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\).</description>
+      <description>Definition The general linear group, denoted \(GL_n(\F)\), is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\).</description>
     </item>
     
     <item>
@@ -141,6 +210,16 @@ Alternatively, the group can be thought of as the subgroup of the general linear
     </item>
     
     <item>
+      <title>The Special Linear Group</title>
+      <link>https://bncling.github.io/math-wiki/special_linear/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/special_linear/</guid>
+      <description>Definition The special linear group denoted \(SL_n(\F)\) is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\) with determinant \(1\).
+Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the general linear group \(GL_n(\F)\).</description>
+    </item>
+    
+    <item>
       <title>The Symmetric Group</title>
       <link>https://bncling.github.io/math-wiki/symm_group/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
@@ -148,7 +227,7 @@ Alternatively, the group can be thought of as the subgroup of the general linear
       <guid>https://bncling.github.io/math-wiki/symm_group/</guid>
       <description>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
 The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
-Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\), and it is simple for \(n \geq 5\).</description>
+Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\).</description>
     </item>
     
     <item>
@@ -168,15 +247,6 @@ Every subgroup of \(\Z\) has the form \(n\Z = \langle n \rangle = \{nz \mid z \i
       <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/grp_edp/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Subgroups</title>
-      <link>https://bncling.github.io/math-wiki/subgroups/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/subgroups/</guid>
       <description>Content coming soon.</description>
     </item>
     

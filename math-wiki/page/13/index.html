@@ -108,136 +108,34 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Equivalence Relations</h2>
+    <h2>Isolated points</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
-The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
-Properties The equivalence classes of a relation \(R\) partition the set \(S\)....</p>
+   <p>Definition Let \((X,\mathcal{T})\) be a topological space, \(A\) a subset of \(X\), and \(p \in A\) a point. We say \(p\) is an isolated point if it is not a limit point of \(A\).
+Properties If \(p\) is an isolated point of a set \(A\) in a topological space \((X, \mathcal{T})\), then there exists an open set \(U\) such that \(U \cap A = \{p\}\).
+Examples In the topological space defined by \(X = \{a,b,c,d\}\) and \(\mathcal{T} = \{\emptyset, X, \{a\},\{a,b\}\}\), the point \(b\) is in the set \(A = \{b,c\}\), but is not a limit point of \(A\) since \(\{a,b\}\) is open but \((\{a,b\} - \{b\}) \cap A = \emptyset\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 3, 2021</time>
+    <time>July 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/equiv_rels/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/isolated_point/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Euler&#39;s Totient Function</h2>
+    <h2>Limit points</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions Euler’s totient function is a function \(\phi: \N \to \N\) such that \(\phi(n)\) is the number of numbers that are less than or equal to \(n\) and relatively prime to \(n\). That is, \[\phi(n) = \# \{m \in \N \mid m \leq n \text{ and } \gcd(m,n) = 1\}.\]
-Properties If \(p\) is a prime number, then \(\phi(p) = p-1\) because every natural number less than or equal to \(p\) is relatively prime to it except \(p\) itself....</p>
+   <p>Generalizing more things from calculus – this time the idea of a point being “arbitrarily close” to a set.
+Definition Let \((X, \mathcal{T})\) be a topological space, let \(A \subset X\) be a subset, and let \(p \in X\) be a point. We say that \(p\) is a limit point of \(A\) if and only if for each open set \(U\) containing \(p\), \((U - \{p\}) \cap A \neq \emptyset\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 3, 2021</time>
+    <time>July 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/totient/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>External Direct Products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Matrices</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp; \dots &amp; a_{1,n} \\ \vdots &amp; \ddots &amp; \vdots \\ a_{m,1} &amp; \dots &amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
-For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrices/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Prime Numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/prime/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Relations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A relation on a set \(S\) is a subset \(R \subset S \times S\). Two elements \(a,b \in S\) are related if and only if \((a,b) \in R\), and this is sometimes written \(aRb\).
-Relations are called
- reflexive if \((a,a) \in R\) for all \(a \in S\) (\(a\) is related to itself); irreflexive if \((a,a) \notin R\) for all \(a \in S\); symmetric if \((a,b) \in R\) implies \((b,a) \in R\); asymmetric if \((a,b) \in R\) implies \((b,a) \notin R\); antisymmetric if \((a,b),(b,a) \in R\) implies that \(a = b\); transitive if \((a,b),(b,c) \in R\) implies that \((a,c) \in R\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/relations/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Dihedral Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Injectivity, surjectivity, and bijectivity</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A function or map \(f: \mathcal{D} \to \mathcal{C}\) is called injective if and only if for all \(a,b \in \mathcal{D}\) such that \(a \neq b\), we have that \(f(a) \neq f(b)\).
-It is called surjective if and only if for all \(y \in \mathcal{C}\), there exists an \(x \in \mathcal{D}\) such that \(f(x) = y\).
-It is called bijective if and only if it is both injective and surjective....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>November 21, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/inj_surj_bij/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cardinality</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>November 20, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cardinality/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Greatest Common Divisors</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>November 20, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/gcd/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/limit_points/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="/math-wiki/page/3/">← Prev Page</a>
-    <a class="next" href="/math-wiki/page/5/">Next Page →</a>
+    <a class="prev" href="/math-wiki/page/12/">← Prev Page</a>
   </nav>
 </footer></main>
 <footer class="footer">

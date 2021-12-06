@@ -104,6 +104,96 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Normal Subgroups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subgroup \(H\) of \(G\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Order of an Element in a Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
+Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
+If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Simple Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Subgroups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &lt; G\) if \(H\) is a subgroup of \(G\).
+Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Alternating Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The alternating group is the normal subgroup of \(S_n\) containing all even permutations.
+Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Center of a Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
+Properties If \(G\) is an abelian group, then \(Z(G) = G\).
+The center of \(G\) is always a normal subgroup of \(G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_center/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The General Linear Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The general linear group, denoted \(GL_n(\F)\), is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/gen_linear/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>The Group of Integers</h2>
   </header>
   <section class="entry-content">
@@ -146,73 +236,10 @@ Alternatively, the group can be thought of as the subgroup of the general linear
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/klein4/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Symmetric Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
-The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
-Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\), and it is simple for \(n \geq 5\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Group of Integers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The set of integers, \(\Z\), together with the operation addition forms an infinite group.
-Properties The group is cyclic generated by \(\pm 1\), and abelian since addition is commutative.
-Every subgroup of \(\Z\) has the form \(n\Z = \langle n \rangle = \{nz \mid z \in \Z\}\) for some \(n \in \Z\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 4, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_group/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>External Direct Products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Subgroups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Dihedral Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/tags/algebra/">← Prev Page</a>
+    <a class="next" href="/tags/algebra/page/3/">Next Page →</a>
   </nav>
 </footer></main>
 <footer class="footer">

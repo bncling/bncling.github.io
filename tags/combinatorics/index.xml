@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Permutation Matrices</title>
+      <link>https://bncling.github.io/math-wiki/perm_matrices/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/perm_matrices/</guid>
+      <description>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
+Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
+Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols.</description>
+    </item>
+    
+    <item>
       <title>Permutations</title>
       <link>https://bncling.github.io/math-wiki/permutations/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>

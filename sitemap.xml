@@ -20,7 +20,13 @@
     <loc>https://bncling.github.io/tags/coming_soon/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bncling.github.io/math-wiki/grp_cosets/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/math-wiki/cyclic/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/determinant/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/fields/</loc>
@@ -41,7 +47,19 @@
     <loc>https://bncling.github.io/math-wiki/groups/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bncling.github.io/math-wiki/lagrange/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/tags/linear_algebra/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/normal_subgroups/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/grp_element_order/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/perm_matrices/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/permutations/</loc>
@@ -53,7 +71,16 @@
     <loc>https://bncling.github.io/math-wiki/simple_groups/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bncling.github.io/math-wiki/subgroups/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/alternating/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/grp_center/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/gen_linear/</loc>
@@ -66,6 +93,9 @@
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/klein4/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/special_linear/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/symm_group/</loc>
@@ -102,9 +132,6 @@
     <lastmod>2021-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/relations/</loc>
-    <lastmod>2021-12-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/subgroups/</loc>
     <lastmod>2021-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/dihedral/</loc>
