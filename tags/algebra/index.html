@@ -104,6 +104,34 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Group Homomorphisms</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
+If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Center of a Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
+Properties If \(G\) is an abelian group, then \(Z(G) = G\).
+The center of \(G\) is always a normal subgroup of \(G\).
+Examples The center of \(D_n\) is trivial if \(n\) is odd, and equal to \(\{e,r^{n/2}\}\) if \(n\) is even....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_center/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Abelian Groups</h2>
   </header>
   <section class="entry-content">
@@ -181,19 +209,6 @@ If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Group Homomorphisms</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
-If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
     <h2>Group Presentations</h2>
   </header>
   <section class="entry-content">
@@ -217,18 +232,6 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
     <time>December 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lagrange&#39;s Theorem</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -295,7 +298,8 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
             "\\Aut":"\\text{Aut}",
-            "\\im":"\\text{im}"
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}"
           },
           
           throwOnError : false

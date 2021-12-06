@@ -102,7 +102,7 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Group Homomorphisms</h1>
-    <div class="post-meta">December 5, 2021</div>
+    <div class="post-meta">December 6, 2021</div>
   </header>
   <div class="post-content"><h2 id="definitions">Definitions</h2>
 <p>Let <span class="math inline">\((G, \cdot)\)</span> and <span class="math inline">\((H, \circ)\)</span> be <a href="https://bncling.github.io/math-wiki/groups/">groups</a>. A <a href="https://bncling.github.io/math-wiki/function/">map</a> <span class="math inline">\(\varphi: G \to H\)</span> is called a <strong>group homomorphism</strong> if it preserves the group operation. That is, <span class="math inline">\(\varphi\)</span> is a homomorphism if and only if for all <span class="math inline">\(a,b \in G\)</span> we have <span class="math inline">\(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\)</span>.</p>
@@ -138,6 +138,7 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
 <p>The map <span class="math inline">\(\det: GL_n(\R) \to \R^\times\)</span> that sends a <a href="https://bncling.github.io/math-wiki/matrices/">matrix</a> <span class="math inline">\(A\)</span> to its <a href="https://bncling.github.io/math-wiki/determinant/">determinant</a> is a homomorphism from the <a href="https://bncling.github.io/math-wiki/gen_linear/">general linear group</a> to the reals with image <span class="math inline">\(\R^\times\)</span> (so it is surjective), and kernel <span class="math inline">\(SL_n(\R)\)</span>, the <a href="https://bncling.github.io/math-wiki/special_linear/">special linear group</a>.</p>
 <p>The map <span class="math inline">\(f: S_n \to GL_n(\R)\)</span> that takes a <a href="https://bncling.github.io/math-wiki/permutations/">permutation</a> <span class="math inline">\(\sigma\)</span> to its corresponding <span class="math inline">\(0/1\)</span> <a href="https://bncling.github.io/math-wiki/perm_matrices/">permutation matrix</a> <span class="math inline">\(A_\sigma\)</span> is an injective homomorphism whose image is the group of all permutation matrices.</p>
 <p>The map <span class="math inline">\(\det \circ f: S_n \to \R^\times\)</span> given by the composition of the above two homomorphisms is itself a homomorphism with image <span class="math inline">\(\{1, -1\}\)</span> and kernel <span class="math inline">\(A_n\)</span>, the <a href="https://bncling.github.io/math-wiki/alternating/">alternating group</a>. This homomorphism sends even permutations to <span class="math inline">\(1\)</span> and odd permutations to <span class="math inline">\(-1\)</span>.</p>
+<p>The map <span class="math inline">\(\varphi: G \to \Aut(G)\)</span> given by <span class="math inline">\(\varphi(g) = i_g\)</span> where <span class="math inline">\(i_g\)</span> is the <a href="https://bncling.github.io/math-wiki/grp_auto/">inner automorphism</a> corresponding to <span class="math inline">\(g\)</span> is a homomorphism with image <span class="math inline">\(\inn(G)\)</span> and kernel <span class="math inline">\(Z(G)\)</span>, the <a href="https://bncling.github.io/math-wiki/grp_center/">center</a> of <span class="math inline">\(G\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
@@ -193,7 +194,8 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
             "\\Aut":"\\text{Aut}",
-            "\\im":"\\text{im}"
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}"
           },
           
           throwOnError : false
@@ -261,7 +263,8 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
             "\\M":"\\mathcal{M}",
             "\\Sym":"\\text{Sym}",
             "\\Aut":"\\text{Aut}",
-            "\\im":"\\text{im}"
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}"
           },
           
           throwOnError : false

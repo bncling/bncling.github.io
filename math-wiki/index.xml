@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Group Homomorphisms</title>
+      <link>https://bncling.github.io/math-wiki/grp_morph/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_morph/</guid>
+      <description>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
+If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective.</description>
+    </item>
+    
+    <item>
+      <title>The Center of a Group</title>
+      <link>https://bncling.github.io/math-wiki/grp_center/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_center/</guid>
+      <description>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
+Properties If \(G\) is an abelian group, then \(Z(G) = G\).
+The center of \(G\) is always a normal subgroup of \(G\).
+Examples The center of \(D_n\) is trivial if \(n\) is odd, and equal to \(\{e,r^{n/2}\}\) if \(n\) is even.</description>
+    </item>
+    
+    <item>
       <title>Abelian Groups</title>
       <link>https://bncling.github.io/math-wiki/abelian/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
@@ -85,16 +107,6 @@ We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted 
       
       <guid>https://bncling.github.io/math-wiki/grp_auto/</guid>
       <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Group Homomorphisms</title>
-      <link>https://bncling.github.io/math-wiki/grp_morph/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_morph/</guid>
-      <description>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
-If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective.</description>
     </item>
     
     <item>
@@ -205,17 +217,6 @@ Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(
       <guid>https://bncling.github.io/math-wiki/alternating/</guid>
       <description>Definition The alternating group is the normal subgroup of \(S_n\) containing all even permutations.
 Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).</description>
-    </item>
-    
-    <item>
-      <title>The Center of a Group</title>
-      <link>https://bncling.github.io/math-wiki/grp_center/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_center/</guid>
-      <description>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
-Properties If \(G\) is an abelian group, then \(Z(G) = G\).
-The center of \(G\) is always a normal subgroup of \(G\).</description>
     </item>
     
     <item>
