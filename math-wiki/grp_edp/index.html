@@ -7,7 +7,8 @@
     
     <title>External Direct Products - Ben Clingenpeel</title>
     
-    <meta name="description" content="Content coming soon.">
+    <meta name="description" content="Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
+For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,14 +102,21 @@
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">External Direct Products</h1>
-    <div class="post-meta">December 3, 2021</div>
+    <div class="post-meta">December 6, 2021</div>
   </header>
-  <div class="post-content"><p>Content coming soon.</p>
+  <div class="post-content"><h2 id="definitions">Definitions</h2>
+<p>Let <span class="math inline">\((G, \cdot)\)</span> and <span class="math inline">\((H, \circ)\)</span> be <a href="https://bncling.github.io/math-wiki/groups/">groups</a>. The <strong>external direct product</strong> of <span class="math inline">\(G\)</span> and <span class="math inline">\(H\)</span>, is the set <span class="math inline">\(G \times H\)</span>, the <a href="https://bncling.github.io/math-wiki/cartesian/">cartesian product</a> of <span class="math inline">\(G\)</span> and <span class="math inline">\(H\)</span> as sets, together with a group operation given by performing the group operations of <span class="math inline">\(G\)</span> and <span class="math inline">\(H\)</span> component-wise. That is, <span class="math inline">\((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\)</span> for elements <span class="math inline">\(g_1,g_2 \in G\)</span> and <span class="math inline">\(h_1, h_2 \in H\)</span>.</p>
+<p>For an arbitrary collection of groups <span class="math inline">\(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\)</span>, the external direct product is defined analogously as the set <span class="math inline">\(G = \prod_{\alpha \in \lambda} G_\alpha\)</span> together with the group operation <span class="math inline">\(\circ\)</span> defined so that if <span class="math inline">\(x,y \in G\)</span>, then the <a href="https://bncling.github.io/math-wiki/cartesian/">projections</a> satisfy <span class="math inline">\(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\)</span> for all <span class="math inline">\(\beta \in \lambda\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>The order of the external direct product of <span class="math inline">\(G\)</span> and <span class="math inline">\(H\)</span> is the product of their orders if both are finite, and infinite if one or both are infinite.</p>
+<p><strong>Proposition:</strong> If <span class="math inline">\(g \in G\)</span> has <a href="https://bncling.github.io/math-wiki/groups/">order</a> <span class="math inline">\(r\)</span> and <span class="math inline">\(h \in H\)</span> has order <span class="math inline">\(s\)</span>, then the order of <span class="math inline">\((g,h) \in G \times H\)</span> is the <a href="https://bncling.github.io/math-wiki/lcm/">least common multiple</a> of <span class="math inline">\(r\)</span> and <span class="math inline">\(s\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>The <a href="https://bncling.github.io/math-wiki/klein4/">Klein four-group</a> can be thought of as the external direct product <span class="math inline">\(\Z_2 \times \Z_2\)</span>.</p>
+<p>If <span class="math inline">\(n\)</span> has <a href="https://bncling.github.io/math-wiki/prime/">prime factorization</a> <span class="math inline">\(n = p_1^{k_1} \dots p_m^{k_m}\)</span>, then the group <a href="https://bncling.github.io/math-wiki/ints_modn/"><span class="math inline">\(\Z_n\)</span></a> is <a href="https://bncling.github.io/math-wiki/grp_morph/">isomorphic</a> to the external direct product <span class="math display">\[\Z_n \cong \Z_{p_1^{k_1}} \times \dots \times \Z_{p_m^{k_m}}.\]</span></p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://bncling.github.io/tags/algebra">algebra</a></li>
-      <li><a href="https://bncling.github.io/tags/coming_soon">coming_soon</a></li>
     </ul>
   </footer>
   

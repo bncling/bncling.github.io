@@ -42,6 +42,16 @@ If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((
     </item>
     
     <item>
+      <title>External Direct Products</title>
+      <link>https://bncling.github.io/math-wiki/grp_edp/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_edp/</guid>
+      <description>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
+For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\).</description>
+    </item>
+    
+    <item>
       <title>Group Homomorphisms</title>
       <link>https://bncling.github.io/math-wiki/grp_morph/</link>
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
@@ -49,6 +59,26 @@ If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((
       <guid>https://bncling.github.io/math-wiki/grp_morph/</guid>
       <description>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
 If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective.</description>
+    </item>
+    
+    <item>
+      <title>Least Common Multiples</title>
+      <link>https://bncling.github.io/math-wiki/lcm/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lcm/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Normal Subgroups</title>
+      <link>https://bncling.github.io/math-wiki/normal_subgroups/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/normal_subgroups/</guid>
+      <description>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
+Properties Proposition: The following are equivalent.
+ \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\).</description>
     </item>
     
     <item>
@@ -149,15 +179,6 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
       
       <guid>https://bncling.github.io/math-wiki/lagrange/</guid>
       <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Normal Subgroups</title>
-      <link>https://bncling.github.io/math-wiki/normal_subgroups/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/normal_subgroups/</guid>
-      <description>Definition A subgroup \(H\) of \(G\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).</description>
     </item>
     
     <item>
@@ -347,15 +368,6 @@ Properties The equivalence classes of a relation \(R\) partition the set \(S\).<
       <guid>https://bncling.github.io/math-wiki/totient/</guid>
       <description>Definitions Euler’s totient function is a function \(\phi: \N \to \N\) such that \(\phi(n)\) is the number of numbers that are less than or equal to \(n\) and relatively prime to \(n\). That is, \[\phi(n) = \# \{m \in \N \mid m \leq n \text{ and } \gcd(m,n) = 1\}.\]
 Properties If \(p\) is a prime number, then \(\phi(p) = p-1\) because every natural number less than or equal to \(p\) is relatively prime to it except \(p\) itself.</description>
-    </item>
-    
-    <item>
-      <title>External Direct Products</title>
-      <link>https://bncling.github.io/math-wiki/grp_edp/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_edp/</guid>
-      <description>Content coming soon.</description>
     </item>
     
     <item>

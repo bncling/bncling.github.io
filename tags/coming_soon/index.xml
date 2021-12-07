@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>Least Common Multiples</title>
+      <link>https://bncling.github.io/math-wiki/lcm/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lcm/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
       <title>Cayley&#39;s Theorem</title>
       <link>https://bncling.github.io/math-wiki/cayley_thm/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
@@ -97,15 +106,6 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/simple_groups/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>External Direct Products</title>
-      <link>https://bncling.github.io/math-wiki/grp_edp/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_edp/</guid>
       <description>Content coming soon.</description>
     </item>
     
