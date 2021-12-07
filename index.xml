@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Group Automorphisms</title>
+      <link>https://bncling.github.io/math-wiki/grp_auto/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_auto/</guid>
+      <description>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
+An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
+Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\).</description>
+    </item>
+    
+    <item>
       <title>Internal Direct Products</title>
       <link>https://bncling.github.io/math-wiki/grp_idp/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
@@ -37,6 +48,15 @@ Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint
 A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
 A permutation is said to be a derangement if it has no fixed points.
 Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles.</description>
+    </item>
+    
+    <item>
+      <title>Quotient Groups</title>
+      <link>https://bncling.github.io/math-wiki/quotient_groups/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/quotient_groups/</guid>
+      <description>Content coming soon.</description>
     </item>
     
     <item>
@@ -196,15 +216,6 @@ Properties The group contains \(n\) rotations (counting the identity as a rotati
 Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\).
 We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
 We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im (f)\).</description>
-    </item>
-    
-    <item>
-      <title>Group Automorphisms</title>
-      <link>https://bncling.github.io/math-wiki/grp_auto/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_auto/</guid>
-      <description>Content coming soon.</description>
     </item>
     
     <item>

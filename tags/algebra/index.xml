@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Group Automorphisms</title>
+      <link>https://bncling.github.io/math-wiki/grp_auto/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_auto/</guid>
+      <description>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
+An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
+Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\).</description>
+    </item>
+    
+    <item>
       <title>Internal Direct Products</title>
       <link>https://bncling.github.io/math-wiki/grp_idp/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
@@ -25,6 +36,15 @@
       <guid>https://bncling.github.io/math-wiki/lagrange/</guid>
       <description>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
 Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert.</description>
+    </item>
+    
+    <item>
+      <title>Quotient Groups</title>
+      <link>https://bncling.github.io/math-wiki/quotient_groups/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/quotient_groups/</guid>
+      <description>Content coming soon.</description>
     </item>
     
     <item>
@@ -153,15 +173,6 @@ Properties The group contains \(n\) rotations (counting the identity as a rotati
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/fields/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Group Automorphisms</title>
-      <link>https://bncling.github.io/math-wiki/grp_auto/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_auto/</guid>
       <description>Content coming soon.</description>
     </item>
     

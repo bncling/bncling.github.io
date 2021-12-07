@@ -7,7 +7,9 @@
     
     <title>Group Automorphisms - Ben Clingenpeel</title>
     
-    <meta name="description" content="Content coming soon.">
+    <meta name="description" content="Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
+An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
+Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -78,9 +80,6 @@
         <p class="logo"><a href="https://bncling.github.io/">Ben Clingenpeel</a></p>
         <ul class="menu">
           <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
             <a href="/animations/">Animations</a>
           </li>
           <li>
@@ -101,14 +100,21 @@
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Group Automorphisms</h1>
-    <div class="post-meta">December 5, 2021</div>
+    <div class="post-meta">December 7, 2021</div>
   </header>
-  <div class="post-content"><p>Content coming soon.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>An <strong>automorphism</strong> of a <a href="https://bncling.github.io/math-wiki/groups/">group</a> <span class="math inline">\((G, \cdot)\)</span> is a <a href="https://bncling.github.io/math-wiki/function/">map</a> <span class="math inline">\(f: G \to G\)</span> that is an <a href="https://bncling.github.io/math-wiki/grp_morph/">ismorphism</a>.</p>
+<p>An <strong>inner automorphism</strong> of <span class="math inline">\(G\)</span> is an automorphism <span class="math inline">\(i_g: G \to G\)</span> given by conjugation: <span class="math inline">\(i_g (x) = gxg\inv\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>Because automorphisms are <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">bijections</a> from the set <span class="math inline">\(G\)</span> to itself, the set of all automorphisms, denoted <span class="math inline">\(\Aut (G)\)</span>, is a subset of <span class="math inline">\(\Sym(G)\)</span>, the <a href="https://bncling.github.io/math-wiki/symm_group/">symmetric group</a> on <span class="math inline">\(G\)</span>. In fact, <span class="math inline">\(\Aut(G)\)</span> is a <a href="https://bncling.github.io/math-wiki/subgroups/">subgroup</a> of <span class="math inline">\(\Sym(G)\)</span>.</p>
+<p>The set of inner automorphisms, <span class="math inline">\(\inn(G)\)</span>, is a subgroup of <span class="math inline">\(\Aut(G)\)</span> and is isomorphic to the <a href="https://bncling.github.io/math-wiki/quotient_groups/">quotient group</a> <span class="math inline">\(G / Z(G)\)</span> where <span class="math inline">\(Z(G)\)</span> is the <a href="https://bncling.github.io/math-wiki/grp_center/">center</a> of <span class="math inline">\(G\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>Let <span class="math inline">\(f: \Z \to \Z\)</span> be an automorphism of the <a href="https://bncling.github.io/math-wiki/integer_group/">integers</a> under addition. The group <span class="math inline">\((\Z, +)\)</span> is <a href="https://bncling.github.io/math-wiki/cyclic/">cyclic</a>, so the map <span class="math inline">\(f\)</span> is entirely determined by where <span class="math inline">\(f\)</span> sends the element <span class="math inline">\(1\)</span>, since <span class="math inline">\(\Z = \langle 1 \rangle\)</span>. Since <span class="math inline">\(f\)</span> is an isomorphism, <span class="math inline">\(f(1)\)</span> must generate the group in the codomain, which is also <span class="math inline">\(\Z\)</span>, meaning <span class="math inline">\(f(1) = \pm 1\)</span>. Therefore there are two possibilities for <span class="math inline">\(f\)</span>, one in which <span class="math inline">\(f(n) = n\)</span> and one in which <span class="math inline">\(f(n) = -n\)</span>, and so <span class="math inline">\(\Aut(\Z)\)</span> has just two elements, meaning <span class="math inline">\(\Aut(\Z) \cong\)</span> <a href="https://bncling.github.io/math-wiki/ints_modn/"><span class="math inline">\(\Z_2\)</span></a>.</p>
+<p>We have <span class="math inline">\(\Aut(\Z_n) \cong U(n)\)</span>, the <a href="https://bncling.github.io/math-wiki/unit_grp/">group of units</a> mod <span class="math inline">\(n\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://bncling.github.io/tags/algebra">algebra</a></li>
-      <li><a href="https://bncling.github.io/tags/coming_soon">coming_soon</a></li>
     </ul>
   </footer>
   
