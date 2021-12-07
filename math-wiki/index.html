@@ -105,6 +105,34 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Abelian Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Groups that commute.
+Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
+Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
+If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
+If the quotient group \(G/Z(G)\) is cyclic, then \(G\) is abelian....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/abelian/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Centralizers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/centralizers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Group Automorphisms</h2>
   </header>
   <section class="entry-content">
@@ -116,6 +144,19 @@ Properties Because automorphisms are bijections from the set \(G\) to itself, th
     <time>December 7, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_auto/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Group Homomorphisms</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
+If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -145,6 +186,20 @@ Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint
 </article>
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Normal Subgroups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
+Properties Proposition: The following are equivalent.
+ \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Permutations</h2>
   </header>
   <section class="entry-content">
@@ -163,7 +218,9 @@ Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic sh
     <h2>Quotient Groups</h2>
   </header>
   <section class="entry-content">
-   <p>Content coming soon....</p>
+   <p>Also called factor groups.
+Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
+Properties The quotient group is a group....</p>
   </section>
   <footer class="entry-footer">
     <time>December 7, 2021</time>
@@ -184,63 +241,6 @@ Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\).
     <time>December 7, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Symmetric Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
-The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
-Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Abelian Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Groups that commute.
-Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
-Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
-If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
-Examples The set of integers under addition, \((\Z, &#43;)\), is an abelian group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/abelian/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cosets of a Subgroup</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
- \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cyclic Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
-Properties All cyclic groups are abelian.
-If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

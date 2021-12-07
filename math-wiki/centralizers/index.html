@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Group Homomorphisms - Ben Clingenpeel</title>
+    <title>Centralizers - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
-If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective.">
+    <meta name="description" content="Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -98,45 +97,17 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Group Homomorphisms</h1>
+    <h1 class="post-title">Centralizers</h1>
     <div class="post-meta">December 7, 2021</div>
   </header>
   <div class="post-content"><h2 id="definitions">Definitions</h2>
-<p>Let <span class="math inline">\((G, \cdot)\)</span> and <span class="math inline">\((H, \circ)\)</span> be <a href="https://bncling.github.io/math-wiki/groups/">groups</a>. A <a href="https://bncling.github.io/math-wiki/function/">map</a> <span class="math inline">\(\varphi: G \to H\)</span> is called a <strong>group homomorphism</strong> if it preserves the group operation. That is, <span class="math inline">\(\varphi\)</span> is a homomorphism if and only if for all <span class="math inline">\(a,b \in G\)</span> we have <span class="math inline">\(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\)</span>.</p>
-<p>If a homomorphism <span class="math inline">\(\varphi\)</span> is called a <strong>monomorphism</strong> if it is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a>, an <strong>epimorphism</strong> if it is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjective</a>, and an <strong>isomorphism</strong> if it is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">bijective</a>.</p>
-<p>A homomorphism from a group to itself is called an <strong>endomorphism</strong>, and an isomorphism from a group to itself is called an <strong><a href="https://bncling.github.io/math-wiki/grp_auto/">automorphism</a></strong>.</p>
-<p>If <span class="math inline">\(\varphi: G \to H\)</span> is a homomorphism, we call the set <span class="math inline">\(\{g \in G \mid \varphi(g) = e_H\}\)</span> the <strong>kernel</strong> of <span class="math inline">\(\varphi\)</span>, denoted <span class="math inline">\(\ker \varphi\)</span>, where <span class="math inline">\(e_H\)</span> is the identity element of <span class="math inline">\(H\)</span>.</p>
+<p>Let <span class="math inline">\((G, \cdot)\)</span> be a <a href="https://bncling.github.io/math-wiki/groups/">group</a> with a <a href="https://bncling.github.io/math-wiki/subgroups/">subgroup</a> <span class="math inline">\(H\)</span>. The <strong>centralizer of the subgroup</strong> <span class="math inline">\(H\)</span> in <span class="math inline">\(G\)</span>, denoted <span class="math inline">\(C(H)\)</span>, is the set of elements of <span class="math inline">\(G\)</span> that commute with all elements of <span class="math inline">\(H\)</span>. That is, <span class="math inline">\(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\)</span>. For an element <span class="math inline">\(x \in G\)</span>, the <strong>centralizer of the element</strong> <span class="math inline">\(x\)</span> in <span class="math inline">\(G\)</span>, denoted <span class="math inline">\(C(x)\)</span> is the set of elements of <span class="math inline">\(G\)</span> that commute with the element <span class="math inline">\(x\)</span>. That is, <span class="math inline">\(C(x) = \{g \in G \mid gx = xg\}\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<h3 id="properties-of-homomorphisms">Properties of Homomorphisms</h3>
-<p>Let <span class="math inline">\(\varphi: G \to H\)</span> be a group homomorphism. Then</p>
-<ul>
-<li><span class="math inline">\(\varphi(e_G) = e_H\)</span> where <span class="math inline">\(e_G\)</span> and <span class="math inline">\(e_H\)</span> are the identities in <span class="math inline">\(G\)</span> and <span class="math inline">\(H\)</span>,</li>
-<li><span class="math inline">\(\varphi(g^n) = \varphi(g)^n\)</span> for all <span class="math inline">\(g \in G\)</span>,</li>
-<li><span class="math inline">\(ab = ba\)</span> in <span class="math inline">\(G\)</span> implies <span class="math inline">\(\varphi(a) \varphi(b) = \varphi(b) \varphi(a)\)</span> in <span class="math inline">\(H\)</span>,</li>
-<li>the order of <span class="math inline">\(\varphi(g)\)</span> in <span class="math inline">\(H\)</span> divides the order of <span class="math inline">\(g\)</span> in <span class="math inline">\(G\)</span> for all <span class="math inline">\(g \in G\)</span>,</li>
-<li>if <span class="math inline">\(G&#39;\)</span> is a (<a href="https://bncling.github.io/math-wiki/normal_subgroups/">normal</a>) <a href="https://bncling.github.io/math-wiki/subgroups/">subgroup</a> of <span class="math inline">\(G\)</span>, then <span class="math inline">\(\varphi(G&#39;)\)</span> is a (normal) subgroup of <span class="math inline">\(H\)</span>,</li>
-<li>if <span class="math inline">\(H&#39;\)</span> is a subgroup of <span class="math inline">\(H\)</span>, then <span class="math inline">\(\varphi \inv(H&#39;)\)</span> is a subgroup of <span class="math inline">\(G\)</span>,</li>
-<li>the <a href="https://bncling.github.io/math-wiki/function/">image</a> of <span class="math inline">\(\varphi\)</span> is a subgroup of <span class="math inline">\(H\)</span>,</li>
-<li>the kernel of <span class="math inline">\(\varphi\)</span> is a subgroup of <span class="math inline">\(G\)</span>,</li>
-<li><span class="math inline">\(\varphi\)</span> is surjective if and only if its image is <span class="math inline">\(H\)</span>, and</li>
-<li><span class="math inline">\(\varphi\)</span> is injective if and only if its kernel is <span class="math inline">\(\{e_G\}\)</span>.</li>
-</ul>
-<h3 id="properties-of-isomorphisms">Properties of Isomorphisms</h3>
-<p>Let <span class="math inline">\(\varphi: G \to H\)</span> be a group isomorphism. Then</p>
-<ul>
-<li><span class="math inline">\(\varphi \inv: H \to G\)</span> is also an isomorphism,</li>
-<li>if <span class="math inline">\(G = \langle a \rangle\)</span> is <a href="https://bncling.github.io/math-wiki/cyclic/">cyclic</a>, then so is <span class="math inline">\(H = \langle \varphi(a) \rangle\)</span>,</li>
-<li>if <span class="math inline">\(G\)</span> is <a href="https://bncling.github.io/math-wiki/abelian/">abelian</a>, then so is <span class="math inline">\(H\)</span>,</li>
-<li>if <span class="math inline">\(G&#39;\)</span> is normal in <span class="math inline">\(G\)</span>, then <span class="math inline">\(\varphi(G&#39;)\)</span> is normal in <span class="math inline">\(H\)</span>,</li>
-<li>the order of <span class="math inline">\(\varphi(g)\)</span> in <span class="math inline">\(H\)</span> is the order of <span class="math inline">\(g\)</span> in <span class="math inline">\(G\)</span> for all <span class="math inline">\(g \in G\)</span>,</li>
-<li><span class="math inline">\(G\)</span> and <span class="math inline">\(H\)</span> have the same numbers of elements of a given order.</li>
-</ul>
+<p>Let <span class="math inline">\(G\)</span> be a group with <span class="math inline">\(H &lt; G\)</span> and <span class="math inline">\(x \in G\)</span>. Then both <span class="math inline">\(C(H)\)</span> and <span class="math inline">\(C(x)\)</span> are subgroups of <span class="math inline">\(G\)</span>.</p>
+<p>If <span class="math inline">\(G\)</span> is an <a href="https://bncling.github.io/math-wiki/abelian/">abelian</a> group, then both kinds of centralizers are just the whole group <span class="math inline">\(G\)</span>.</p>
+<p><strong>Proposition:</strong> If <span class="math inline">\(\langle g \rangle\)</span>, the <a href="https://bncling.github.io/math-wiki/cyclic/">cyclic subgroup</a> generated by <span class="math inline">\(g \in G\)</span>, is <a href="https://bncling.github.io/math-wiki/normal_subgroups/">normal</a> in <span class="math inline">\(G\)</span>, then <span class="math inline">\(C(g)\)</span> is also normal in <span class="math inline">\(G\)</span>.</p>
 <h2 id="examples">Examples</h2>
-<p>The map <span class="math inline">\(h: (\R, +) \to (\R^&gt;, \cdot)\)</span> defined by <span class="math inline">\(h(x) = e^x\)</span> is a group homomorphism since <span class="math inline">\(h(x + y) = e^{x + y} = e^x e^y = h(x) h(y)\)</span>. Since <span class="math inline">\(h\)</span> is a bijection (<span class="math inline">\(\R^&gt;\)</span> denotes the positive reals), it is an isomorphism.</p>
-<p>The map <span class="math inline">\(\det: GL_n(\R) \to \R^\times\)</span> that sends a <a href="https://bncling.github.io/math-wiki/matrices/">matrix</a> <span class="math inline">\(A\)</span> to its <a href="https://bncling.github.io/math-wiki/determinant/">determinant</a> is a homomorphism from the <a href="https://bncling.github.io/math-wiki/gen_linear/">general linear group</a> to the reals with image <span class="math inline">\(\R^\times\)</span> (so it is surjective), and kernel <span class="math inline">\(SL_n(\R)\)</span>, the <a href="https://bncling.github.io/math-wiki/special_linear/">special linear group</a>.</p>
-<p>The map <span class="math inline">\(f: S_n \to GL_n(\R)\)</span> that takes a <a href="https://bncling.github.io/math-wiki/permutations/">permutation</a> <span class="math inline">\(\sigma\)</span> to its corresponding <span class="math inline">\(0/1\)</span> <a href="https://bncling.github.io/math-wiki/perm_matrices/">permutation matrix</a> <span class="math inline">\(A_\sigma\)</span> is an injective homomorphism whose image is the group of all permutation matrices.</p>
-<p>The map <span class="math inline">\(\det \circ f: S_n \to \R^\times\)</span> given by the composition of the above two homomorphisms is itself a homomorphism with image <span class="math inline">\(\{1, -1\}\)</span> and kernel <span class="math inline">\(A_n\)</span>, the <a href="https://bncling.github.io/math-wiki/alternating/">alternating group</a>. This homomorphism sends even permutations to <span class="math inline">\(1\)</span> and odd permutations to <span class="math inline">\(-1\)</span>.</p>
-<p>The map <span class="math inline">\(\varphi: G \to \Aut(G)\)</span> given by <span class="math inline">\(\varphi(g) = i_g\)</span> where <span class="math inline">\(i_g\)</span> is the <a href="https://bncling.github.io/math-wiki/grp_auto/">inner automorphism</a> corresponding to <span class="math inline">\(g\)</span> is a homomorphism with image <span class="math inline">\(\inn(G)\)</span> and kernel <span class="math inline">\(Z(G)\)</span>, the <a href="https://bncling.github.io/math-wiki/grp_center/">center</a> of <span class="math inline">\(G\)</span>.</p>
+<p>In <a href="https://bncling.github.io/math-wiki/dihedral/"><span class="math inline">\(D_4\)</span></a>, the centralizer of <span class="math inline">\(\{e,r^2\}\)</span> is <span class="math inline">\(C(\{e, r^2\}) = D_4\)</span> (and in general the centralizer of the center is the whole group). We also have that the centralizer of the element <span class="math inline">\(r\)</span> is <span class="math inline">\(C(r) = \{e, r, r^2, r^3\}\)</span>, since these are the elements that commute with <span class="math inline">\(r\)</span>. This subgroup is normal in <span class="math inline">\(D_4\)</span> because <span class="math inline">\(\langle r \rangle\)</span> is normal in <span class="math inline">\(G\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

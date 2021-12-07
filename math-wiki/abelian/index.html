@@ -11,7 +11,7 @@
 Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
 Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
 If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
-Examples The set of integers under addition, \((\Z, &#43;)\), is an abelian group.">
+If the quotient group \(G/Z(G)\) is cyclic, then \(G\) is abelian.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -102,7 +102,7 @@ Examples The set of integers under addition, \((\Z, &#43;)\), is an abelian grou
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Abelian Groups</h1>
-    <div class="post-meta">December 6, 2021</div>
+    <div class="post-meta">December 7, 2021</div>
   </header>
   <div class="post-content"><p>Groups that commute.</p>
 <h2 id="definition">Definition</h2>
@@ -110,6 +110,7 @@ Examples The set of integers under addition, \((\Z, &#43;)\), is an abelian grou
 <h2 id="properties">Properties</h2>
 <p>In an abelian group, we have that <span class="math inline">\((ab)^n = a^n b^n\)</span> for all <span class="math inline">\(a,b \in G\)</span> and <span class="math inline">\(n \in \Z\)</span>.</p>
 <p>If <span class="math inline">\(G\)</span> is abelian, then its <a href="https://bncling.github.io/math-wiki/grp_center/">center</a> is the entire group <span class="math inline">\(G\)</span>, and every <a href="https://bncling.github.io/math-wiki/subgroups/">subgroup</a> is <a href="https://bncling.github.io/math-wiki/normal_subgroups/">normal</a>.</p>
+<p>If the <a href="https://bncling.github.io/math-wiki/quotient_groups/">quotient group</a> <span class="math inline">\(G/Z(G)\)</span> is <a href="https://bncling.github.io/math-wiki/cyclic/">cyclic</a>, then <span class="math inline">\(G\)</span> is abelian.</p>
 <h2 id="examples">Examples</h2>
 <p>The set of <a href="https://bncling.github.io/math-wiki/integer_group/">integers</a> under addition, <span class="math inline">\((\Z, +)\)</span>, is an abelian group. <span class="math inline">\(\Z\)</span> is closed under addition, addition is associative and commutative, the identity element is <span class="math inline">\(0\)</span>, and if <span class="math inline">\(n \in \Z\)</span>, then its inverse is <span class="math inline">\(-n \in \Z\)</span>. Similarly, <span class="math inline">\(\Q\)</span>, <span class="math inline">\(\R\)</span>, <span class="math inline">\(\C\)</span>, <a href="https://bncling.github.io/math-wiki/ints_modn/"><span class="math inline">\(\Z_n\)</span></a>, the set of <a href="https://bncling.github.io/math-wiki/equiv_rels/">equivalence classes</a> mod <span class="math inline">\(n\)</span>, and <span class="math inline">\(\M_{m \times n} (\R)\)</span>, the set of <span class="math inline">\(m\)</span>-by-<span class="math inline">\(n\)</span> <a href="https://bncling.github.io/math-wiki/matrices/">matrices</a> are all groups with respect to addition, and all are abelian since the addition operation on each is commutative.</p>
 <p>The set of nonzero <a href="https://bncling.github.io/math-wiki/real_numbers/">real numbers</a> under multiplication, <span class="math inline">\((\R^\times, \cdot)\)</span>, is an abelian group. <span class="math inline">\(\R^\times\)</span> is closed under multiplication, multiplication is associative and commutative, the identity element is <span class="math inline">\(1\)</span>, and if <span class="math inline">\(a \in \R^\times\)</span>, then its inverse is <span class="math inline">\(1 / a\)</span>, which is defined because <span class="math inline">\(a \in \R^\times\)</span> means <span class="math inline">\(a \neq 0\)</span>. Similarly, <span class="math inline">\(\Q^\times\)</span> and <span class="math inline">\(\C^\times\)</span> are abelian groups formed by removing the element <span class="math inline">\(0\)</span>.</p>

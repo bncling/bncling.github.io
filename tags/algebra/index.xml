@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Abelian Groups</title>
+      <link>https://bncling.github.io/math-wiki/abelian/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/abelian/</guid>
+      <description>Groups that commute.
+Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
+Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
+If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
+If the quotient group \(G/Z(G)\) is cyclic, then \(G\) is abelian.</description>
+    </item>
+    
+    <item>
+      <title>Centralizers</title>
+      <link>https://bncling.github.io/math-wiki/centralizers/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/centralizers/</guid>
+      <description>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\).</description>
+    </item>
+    
+    <item>
       <title>Group Automorphisms</title>
       <link>https://bncling.github.io/math-wiki/grp_auto/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
@@ -16,6 +38,16 @@
       <description>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
 An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
 Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\).</description>
+    </item>
+    
+    <item>
+      <title>Group Homomorphisms</title>
+      <link>https://bncling.github.io/math-wiki/grp_morph/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_morph/</guid>
+      <description>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
+If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective.</description>
     </item>
     
     <item>
@@ -39,12 +71,25 @@ Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint
     </item>
     
     <item>
+      <title>Normal Subgroups</title>
+      <link>https://bncling.github.io/math-wiki/normal_subgroups/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/normal_subgroups/</guid>
+      <description>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
+Properties Proposition: The following are equivalent.
+ \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\).</description>
+    </item>
+    
+    <item>
       <title>Quotient Groups</title>
       <link>https://bncling.github.io/math-wiki/quotient_groups/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/quotient_groups/</guid>
-      <description>Content coming soon.</description>
+      <description>Also called factor groups.
+Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
+Properties The quotient group is a group.</description>
     </item>
     
     <item>
@@ -68,19 +113,6 @@ Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\).
       <description>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
 The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
 Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\).</description>
-    </item>
-    
-    <item>
-      <title>Abelian Groups</title>
-      <link>https://bncling.github.io/math-wiki/abelian/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/abelian/</guid>
-      <description>Groups that commute.
-Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
-Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
-If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
-Examples The set of integers under addition, \((\Z, +)\), is an abelian group.</description>
     </item>
     
     <item>
@@ -112,27 +144,6 @@ If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((
       <guid>https://bncling.github.io/math-wiki/grp_edp/</guid>
       <description>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
 For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\).</description>
-    </item>
-    
-    <item>
-      <title>Group Homomorphisms</title>
-      <link>https://bncling.github.io/math-wiki/grp_morph/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_morph/</guid>
-      <description>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
-If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective.</description>
-    </item>
-    
-    <item>
-      <title>Normal Subgroups</title>
-      <link>https://bncling.github.io/math-wiki/normal_subgroups/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/normal_subgroups/</guid>
-      <description>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
-Properties Proposition: The following are equivalent.
- \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\).</description>
     </item>
     
     <item>

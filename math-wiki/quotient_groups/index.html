@@ -7,7 +7,9 @@
     
     <title>Quotient Groups - Ben Clingenpeel</title>
     
-    <meta name="description" content="Content coming soon.">
+    <meta name="description" content="Also called factor groups.
+Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
+Properties The quotient group is a group.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -100,7 +102,14 @@
     <h1 class="post-title">Quotient Groups</h1>
     <div class="post-meta">December 7, 2021</div>
   </header>
-  <div class="post-content"><p>Content coming soon.</p>
+  <div class="post-content"><p>Also called factor groups.</p>
+<h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\((G, \cdot)\)</span> be a <a href="https://bncling.github.io/math-wiki/groups/">group</a> with <a href="https://bncling.github.io/math-wiki/normal_subgroups/">normal subgroup</a> <span class="math inline">\(N\)</span>. Then its corresponding <strong>quotient group</strong>, denoted <span class="math inline">\(G/N\)</span>, is the set of all left <a href="https://bncling.github.io/math-wiki/grp_cosets/">cosets</a> of <span class="math inline">\(G\)</span> (though <span class="math inline">\(N \triangleleft G\)</span> means these are the same as the right cosets) together with group operation <span class="math inline">\(\cdot: G/N \times G/N\)</span> given as follows. If <span class="math inline">\(aN, bN \in G/N\)</span>, then <span class="math inline">\(aN \cdot bN = (ab) N\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p>The quotient group is a group. This requires checking that the group operation is well-defined, which can be seen as follows. If <span class="math inline">\(aN = a&#39;N\)</span> and <span class="math inline">\(bN = b&#39;N\)</span>, then we have that <span class="math inline">\(a\inv a&#39; \in N\)</span>, which means there exists an <span class="math inline">\(n_1 \in N\)</span> such that <span class="math inline">\(a\inv a&#39; = n_1\)</span>. Since <span class="math inline">\(N\)</span> is normal, we have that <span class="math inline">\(b\inv n_1 \in b\inv N = N b\inv\)</span>, meaning there exists an <span class="math inline">\(n_2 \in N\)</span> such that <span class="math inline">\(b\inv n_1 = n_2 b\inv\)</span>. Therefore we have that <span class="math display">\[(ab)\inv (a&#39;b&#39;) = b\inv a\inv a&#39;b&#39; = b\inv n_1 b&#39; = n_2 b\inv b&#39;,\]</span> and we know that <span class="math inline">\(b\inv b&#39; \in N\)</span> because <span class="math inline">\(bN = b&#39;N\)</span>. Therefore <span class="math inline">\((ab)\inv (a&#39;b&#39;) = n_2 b\inv b&#39; \in N\)</span>, which means <span class="math inline">\((ab)N = (a&#39;b&#39;)N\)</span> and so the group operation on the quotient group is indeed well-defined.</p>
+<h2 id="examples">Examples</h2>
+<p>The <a href="https://bncling.github.io/math-wiki/symm_group/">symmetric group</a> <span class="math inline">\(S_n\)</span> has normal subgroup <span class="math inline">\(A_n\)</span>, the <a href="https://bncling.github.io/math-wiki/alternating/">alternating group</a>, and its quotient is <a href="https://bncling.github.io/math-wiki/grp_morph/">isomorphic</a> to <a href="https://bncling.github.io/math-wiki/ints_modn/"><span class="math inline">\(\Z_2\)</span></a>.</p>
+<p>For any group <span class="math inline">\(G\)</span>, its <a href="https://bncling.github.io/math-wiki/grp_center/">center</a>, the subgroup <span class="math inline">\(Z(G)\)</span>, is normal in <span class="math inline">\(G\)</span>, and the the quotient group is <span class="math inline">\(G/Z(G) \cong \inn(G)\)</span>, the <a href="https://bncling.github.io/math-wiki/grp_auto/">inner automorphism group</a>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
