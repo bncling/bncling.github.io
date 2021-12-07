@@ -8,6 +8,61 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Internal Direct Products</title>
+      <link>https://bncling.github.io/math-wiki/grp_idp/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_idp/</guid>
+      <description>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
+\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\).</description>
+    </item>
+    
+    <item>
+      <title>Lagrange&#39;s Theorem</title>
+      <link>https://bncling.github.io/math-wiki/lagrange/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lagrange/</guid>
+      <description>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
+Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert.</description>
+    </item>
+    
+    <item>
+      <title>Permutations</title>
+      <link>https://bncling.github.io/math-wiki/permutations/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/permutations/</guid>
+      <description>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
+A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
+A permutation is said to be a derangement if it has no fixed points.
+Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles.</description>
+    </item>
+    
+    <item>
+      <title>The Alternating Group</title>
+      <link>https://bncling.github.io/math-wiki/alternating/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/alternating/</guid>
+      <description>Definition The alternating group, denoted \(A_n\), is the normal subgroup of \(S_n\) containing all even permutations.
+Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).
+Because \([S_n:A_n] = 2\), \(A_n\) is normal in \(S_n\).
+Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\). This is because if \(H\) is a subgroup of order \(6\), it contains at least two \(3\)-cycles because \(A_4\) contains all eight \(3\)-cycles (since all odd-length cycles are even).</description>
+    </item>
+    
+    <item>
+      <title>The Symmetric Group</title>
+      <link>https://bncling.github.io/math-wiki/symm_group/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/symm_group/</guid>
+      <description>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
+The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
+Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\).</description>
+    </item>
+    
+    <item>
       <title>Abelian Groups</title>
       <link>https://bncling.github.io/math-wiki/abelian/</link>
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
@@ -173,15 +228,6 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
     </item>
     
     <item>
-      <title>Lagrange&#39;s Theorem</title>
-      <link>https://bncling.github.io/math-wiki/lagrange/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/lagrange/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Order of an Element in a Group</title>
       <link>https://bncling.github.io/math-wiki/grp_element_order/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
@@ -201,15 +247,6 @@ If \(g^m = e\), then the order of \(g\) divides \(m\).</description>
       <description>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
 Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
 Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols.</description>
-    </item>
-    
-    <item>
-      <title>Permutations</title>
-      <link>https://bncling.github.io/math-wiki/permutations/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/permutations/</guid>
-      <description>Content coming soon.</description>
     </item>
     
     <item>
@@ -241,16 +278,6 @@ Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a su
       <guid>https://bncling.github.io/math-wiki/subgroups/</guid>
       <description>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &amp;lt; G\) if \(H\) is a subgroup of \(G\).
 Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups.</description>
-    </item>
-    
-    <item>
-      <title>The Alternating Group</title>
-      <link>https://bncling.github.io/math-wiki/alternating/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/alternating/</guid>
-      <description>Definition The alternating group is the normal subgroup of \(S_n\) containing all even permutations.
-Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).</description>
     </item>
     
     <item>
@@ -305,17 +332,6 @@ Alternatively, the group can be thought of as the subgroup of the general linear
       <guid>https://bncling.github.io/math-wiki/special_linear/</guid>
       <description>Definition The special linear group denoted \(SL_n(\F)\) is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\) with determinant \(1\).
 Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the general linear group \(GL_n(\F)\).</description>
-    </item>
-    
-    <item>
-      <title>The Symmetric Group</title>
-      <link>https://bncling.github.io/math-wiki/symm_group/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/symm_group/</guid>
-      <description>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
-The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
-Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\).</description>
     </item>
     
     <item>

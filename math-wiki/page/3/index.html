@@ -108,6 +108,48 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>The symmetries of something.
+Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operation \(\cdot: G \times G \to G\) such that
+ The group operation is associative: \((ab)c = a(bc)\) for all \(a,b,c \in G\); \(G\) has an identity element: there exists \(e \in G\) such that \(ae = a = ea\) for all \(a \in G\); Every element is invertible: for all \(a \in G\), there exists a \(b \in G\) such that \(ab = e = ba\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Order of an Element in a Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
+Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
+If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Permutation Matrices</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
+Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
+Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Range</h2>
   </header>
   <section class="entry-content">
@@ -145,19 +187,6 @@ Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(
     <time>December 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Alternating Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The alternating group is the normal subgroup of \(S_n\) containing all even permutations.
-Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -214,33 +243,6 @@ Alternatively, the group can be thought of as the subgroup of the general linear
     <time>December 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/klein4/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Special Linear Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The special linear group denoted \(SL_n(\F)\) is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\) with determinant \(1\).
-Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the general linear group \(GL_n(\F)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/special_linear/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Symmetric Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
-The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
-Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
