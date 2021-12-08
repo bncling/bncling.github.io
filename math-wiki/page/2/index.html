@@ -105,6 +105,88 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Lagrange&#39;s Theorem</h2>
+  </header>
+  <section class="entry-content">
+   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
+Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Normal Subgroups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
+Properties Proposition: The following are equivalent.
+ \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Permutations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
+A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
+A permutation is said to be a derangement if it has no fixed points.
+Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/permutations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Solvable Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/solvable_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Subgroups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &lt; G\) if \(H\) is a subgroup of \(G\).
+Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Alternating Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The alternating group, denoted \(A_n\), is the normal subgroup of \(S_n\) containing all even permutations.
+Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).
+Because \([S_n:A_n] = 2\), \(A_n\) is normal in \(S_n\).
+Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\). This is because if \(H\) is a subgroup of order \(6\), it contains at least two \(3\)-cycles because \(A_4\) contains all eight \(3\)-cycles (since all odd-length cycles are even)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>The Symmetric Group</h2>
   </header>
   <section class="entry-content">
@@ -156,83 +238,6 @@ For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in
     <time>December 6, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Least Common Multiples</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lcm/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Center of a Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
-Properties If \(G\) is an abelian group, then \(Z(G) = G\).
-The center of \(G\) is always a normal subgroup of \(G\).
-Examples The center of \(D_n\) is trivial if \(n\) is odd, and equal to \(\{e,r^{n/2}\}\) if \(n\) is even....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_center/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Dihedral Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Symmetries of a polygon.
-Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
-Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cayley&#39;s Theorem</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cayley_thm/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Determinants</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/determinant/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Fields</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/fields/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

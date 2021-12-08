@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Subgroups - Ben Clingenpeel</title>
+    <title>Group Isomorphism Theorems - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &lt; G\) if \(H\) is a subgroup of \(G\).
-Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups.">
+    <meta name="description" content="The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:
+  Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -98,25 +98,23 @@ Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Subgroups</h1>
-    <div class="post-meta">December 7, 2021</div>
+    <h1 class="post-title">Group Isomorphism Theorems</h1>
+    <div class="post-meta">December 8, 2021</div>
   </header>
-  <div class="post-content"><h2 id="definition">Definition</h2>
-<p>A <strong>subgroup</strong> of a <a href="https://bncling.github.io/math-wiki/groups/">group</a> <span class="math inline">\((G,\cdot)\)</span> is a subset <span class="math inline">\(H \subset G\)</span> such that <span class="math inline">\((H, \cdot)\)</span> is a group under the same operation as <span class="math inline">\(G\)</span>. We write <span class="math inline">\(H &lt; G\)</span> if <span class="math inline">\(H\)</span> is a subgroup of <span class="math inline">\(G\)</span>.</p>
-<h2 id="properties">Properties</h2>
-<p>The sets <span class="math inline">\(\{e\}\)</span> and <span class="math inline">\(G\)</span> are subgroups of <span class="math inline">\(G\)</span> for all groups <span class="math inline">\(G\)</span>. Subgroups that are not <span class="math inline">\(\{e\}\)</span> are called <strong>nontrivial</strong>, and subgroups that are not <span class="math inline">\(G\)</span> are called <strong>proper</strong> subgroups.</p>
-<p><strong>Theorem:</strong> A subset <span class="math inline">\(H\)</span> of <span class="math inline">\(G\)</span> is a subgroup if and only if</p>
-<ul>
-<li>the identity of <span class="math inline">\(G\)</span> is in <span class="math inline">\(H\)</span>, that is, <span class="math inline">\(e \in H\)</span>,</li>
-<li><span class="math inline">\(H\)</span> is closed under the group operation, that is, <span class="math inline">\(a,b \in H \implies ab \in H\)</span>, and</li>
-<li>elements in <span class="math inline">\(H\)</span> have their inverses in <span class="math inline">\(H\)</span>, that is, <span class="math inline">\(h \in H \implies h\inv \in H\)</span>.</li>
-</ul>
-<p><strong>Theorem:</strong> A non-empty subset <span class="math inline">\(H\)</span> of <span class="math inline">\(G\)</span> is a subgroup if and only if <span class="math inline">\(a,b \in H\)</span> implies that <span class="math inline">\(ab\inv \in H\)</span>.</p>
-<p>If <span class="math inline">\(H\)</span> and <span class="math inline">\(K\)</span> are subgroups of <span class="math inline">\(G\)</span>, then <span class="math inline">\(H \cap K\)</span> is a subgroup.</p>
+  <div class="post-content"><h2 id="the-first-isomorphism-theorem">The First Isomorphism Theorem</h2>
+<p>Let <span class="math inline">\(G\)</span> and <span class="math inline">\(H\)</span> be <a href="https://bncling.github.io/math-wiki/groups/">groups</a> and let <span class="math inline">\(\varphi: G \to H\)</span> be a <a href="https://bncling.github.io/math-wiki/grp_morph/">homomorphism</a> with kernel <span class="math inline">\(K\)</span>. Let <span class="math inline">\(\pi: G \to G/K\)</span> be the canonical homomorphism from the group <span class="math inline">\(G\)</span> to the <a href="https://bncling.github.io/math-wiki/quotient_groups/">quotient group</a> <span class="math inline">\(G/K\)</span>. Then there is a unique isomorphism <span class="math inline">\(\tilde\varphi: G/K \to \im(G)\)</span> such that <span class="math inline">\(\varphi = \tilde\varphi \circ \pi\)</span>. We have the following diagram:</p>
+<center>
+<img src="/first_isom_groups.png" title="fig" alt="first_isom" width="700" height=auto>
+</center>
+<p><strong>Corollary:</strong> If <span class="math inline">\(\varphi\)</span> is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjective</a>, then <span class="math inline">\(G/K \cong H\)</span>.</p>
+<h2 id="the-second-isomorphism-theorem">The Second Isomorphism Theorem</h2>
+<p>Let <span class="math inline">\(G\)</span> be a group with a <a href="https://bncling.github.io/math-wiki/subgroups/">subgroup</a> <span class="math inline">\(H\)</span> and a <a href="https://bncling.github.io/math-wiki/normal_subgroups/">normal subgroup</a> <span class="math inline">\(N\)</span>. Then <span class="math inline">\(HN\)</span> is a subgroup of <span class="math inline">\(G\)</span>, <span class="math inline">\(H \cap N\)</span> is a normal subgroup of <span class="math inline">\(G\)</span>, and <span class="math inline">\(H / H \cap N \cong HN / N\)</span>.</p>
+<h2 id="the-correspondence-theorem">The Correspondence Theorem</h2>
+<p>Let <span class="math inline">\(G\)</span> and <span class="math inline">\(G&#39;\)</span> be groups and let <span class="math inline">\(\varphi: G \to G&#39;\)</span> be a homomorphism with kernel <span class="math inline">\(K\)</span>. Then <span class="math inline">\(\varphi\)</span> defines a one-to-one correspondence between subgroups of <span class="math inline">\(G\)</span> containing <span class="math inline">\(K\)</span> and subgroups of <span class="math inline">\(G&#39;\)</span>, where a subgroup <span class="math inline">\(H&#39; &lt; G&#39;\)</span> corresponds to the subgroup <span class="math inline">\(H = \varphi\inv (H&#39;) &lt; G\)</span> and we have that <span class="math inline">\(K \triangleleft H\)</span> and <span class="math inline">\(H/K \cong H&#39;\)</span>.</p>
+<h2 id="the-third-isomorphism-theorem">The Third Isomorphism Theorem</h2>
+<p>Let <span class="math inline">\(G\)</span> be a group with normal subgroups <span class="math inline">\(H\)</span> and <span class="math inline">\(N\)</span> with <span class="math inline">\(N \subset H\)</span>. Then <span class="math display">\[G/H \cong \frac{G/N}{H/N}.\]</span></p>
 <h2 id="examples">Examples</h2>
-<p>For any group <span class="math inline">\((G, \cdot)\)</span>, and element <span class="math inline">\(g \in G\)</span>, there is a subgroup called the <strong>cyclic subgroup</strong> of <span class="math inline">\(G\)</span> generated by <span class="math inline">\(g\)</span>, given by <span class="math display">\[ \langle g \rangle = \{g^k \mid k \in \Z\}. \]</span> As the name suggests, this subgroup is <a href="https://bncling.github.io/math-wiki/cyclic/">cyclic</a> with generator <span class="math inline">\(g\)</span>. It is the smallest subgroup of <span class="math inline">\(G\)</span> that contains <span class="math inline">\(g\)</span>, since by the Theorem above, any subgroup of <span class="math inline">\(G\)</span> containing <span class="math inline">\(g\)</span> contains all powers of <span class="math inline">\(g\)</span>.</p>
-<p>The <a href="https://bncling.github.io/math-wiki/dihedral/">dihedral</a> group <span class="math inline">\(D_3\)</span> has nontrivial, proper subgroups <span class="math inline">\(\{e,r,r^2\}\)</span>, <span class="math inline">\(\{e,f\}\)</span>, <span class="math inline">\(\{e,fr\}\)</span>, and <span class="math inline">\(\{e,fr^2\}\)</span>.</p>
-<p>If <span class="math inline">\(H\)</span> is a subgroup of a group <span class="math inline">\(G\)</span> and <span class="math inline">\(g \in G\)</span> is an element of the group, then the conjugate <span class="math inline">\(gHg\inv := \{ghg\inv \mid h \in H\}\)</span> is also a subgroup.</p>
+<p>Note that given groups <span class="math inline">\(K\)</span> and <span class="math inline">\(H\)</span> from the statement of the First Isomorphism Theorem, you can’t recover the group <span class="math inline">\(G\)</span>. For example, note that both <a href="https://bncling.github.io/math-wiki/dihedral/"><span class="math inline">\(D_3\)</span></a> and <a href="https://bncling.github.io/math-wiki/ints_modn/"><span class="math inline">\(\Z_6\)</span></a> have normal subgroups isomorphic to <span class="math inline">\(\Z_3\)</span> with quotients isomorphic to <span class="math inline">\(\Z_2\)</span>, but are not the same. <span class="math inline">\(D_3/\{e,r,r^2\} \cong \Z_2\)</span> and <span class="math inline">\(\Z_6 / \{0,2,4\} \cong \Z_2\)</span> with <span class="math inline">\(\{e,r,r^2\} \cong \{0,2,4\}\)</span>, yet <span class="math inline">\(D_3 \not \cong \Z_6\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

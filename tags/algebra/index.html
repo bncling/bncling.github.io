@@ -101,6 +101,61 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Group Isomorphism Theorems</h2>
+  </header>
+  <section class="entry-content">
+   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:
+  Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_iso_thms/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Group Isomorphism Theorems</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/isom_thms/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Quotient Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Also called factor groups.
+Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
+Properties The quotient group is a group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Simple Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Building blocks.
+Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial proper normal subgroups.
+Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
+Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
+The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Abelian Groups</h2>
   </header>
   <section class="entry-content">
@@ -179,63 +234,6 @@ Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint
     <time>December 7, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Normal Subgroups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
-Properties Proposition: The following are equivalent.
- \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Quotient Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called factor groups.
-Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
-Properties The quotient group is a group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Alternating Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The alternating group, denoted \(A_n\), is the normal subgroup of \(S_n\) containing all even permutations.
-Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).
-Because \([S_n:A_n] = 2\), \(A_n\) is normal in \(S_n\).
-Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\). This is because if \(H\) is a subgroup of order \(6\), it contains at least two \(3\)-cycles because \(A_4\) contains all eight \(3\)-cycles (since all odd-length cycles are even)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Symmetric Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
-The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
-Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

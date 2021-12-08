@@ -105,6 +105,45 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Affine subsets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition An affine subset of a vector space \(V\) is a subset of the form \(v &#43; U\) where \(v \in V\), \(U\) is a subspace of \(V\), and \[v &#43; U = \{v &#43; u \mid u \in U\}\] is the sum of the vector \(v\) and the space \(U\).
+For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v &#43; U\) is parallel to \(U\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 15, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/affine_subsets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The dual basis</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) be a vector space with basis \((v_1, \dots, v_n)\). We define the dual basis to be the list \((\varphi_1, \dots, \varphi_n)\) of linear functionals on \(V\) such that \[\varphi_j(v_k) = \begin{cases} 1 &amp; k=j \\ 0 &amp; k \neq j \end{cases},\] that is, \(\varphi_j\) is the linear map from \(V\) to \(\F\) assigning \(1\) to the \(j\)th basis vector of \(V\) and \(0\) to all other basis vectors....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 15, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_basis/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The dual space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \(V\) be a vector space over \(\F\). A linear functional on \(V\) is a linear map \(T \in \Lin(V, \F)\). We call \(V&#39; = \Lin(V, \F)\) the dual space of \(V\), the vector space of all linear functionals on \(V\).
+Properties We have that \(\dim V&#39; = \dim (\Lin (V, \F)) = (\dim V) (\dim \F) = \dim V\).
+Examples Let \(V = \Poly (\R)\). Then \(V&#39;\) is the space of all linear maps from \(\Poly (\R)\) to \(\R\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 15, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_space/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Direct sums of subspaces</h2>
   </header>
   <section class="entry-content">
@@ -199,47 +238,6 @@ Properties (2.43) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector spac
     <time>August 12, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_dimension/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Linear (in)dependence</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A list of vectors \((v_1, \dots, v_n)\) in a vector space \(V\) is linearly independent if and only if \(a_1 v_1 &#43; \dots &#43; a_n v_n = 0\) implies that \(a_1 = \dots = a_n = 0\).
-The list is linearly dependent if and only if it is not linearly independent.
-Note: These definitions follow Sheldon Axler’s book Linear Algebra Done Right, in which linear (in)dependence is defined in terms of lists of vectors, and not sets of vectors....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_independence/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Null spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also known as kernels…
-Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The null space of \(T\), denoted \(\nl T\), is the subset of \(V\) containing vectors that \(T\) maps to the zero vector in \(W\), that is, \[\nl T = \{v \in V \mid Tv = 0\}.\]
-Properties (3.14) Proposition: If \(T \in \Lin(V,W)\), then \(\nl T\) is a subspace of \(V\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/null_space/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Products of linear maps</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(U\), \(V\), and \(W\) be vector spaces. If \(T \in \Lin(U, V)\) and \(S \in \Lin(V, W)\) are linear maps such that \(T\) maps \(U\) into the domain of \(S\), then we define the product \(ST \in \Lin(U, W)\) by \((ST)v = S(Tv)\), that is, \(ST\) is the composition \(S \circ T\) of the two maps.
-Properties Associativity. If \(T_1\), \(T_2\), and \(T_3\) are linear maps such that \(T_3\) maps into the domain of \(T_2\) which in turn maps into the domain of \(T_1\), then \((T_1 T_2) T_3 = T_1 (T_2 T_3)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/map_products/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
