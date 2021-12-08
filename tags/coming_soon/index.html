@@ -101,16 +101,39 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Cosets of a Subgroup</h2>
+    <h2>Catalan Numbers</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
- \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
+   <p>Content coming soon....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 6, 2021</time>
+    <time>December 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/catalan/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Combinations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/combinations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Solvable Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/solvable_groups/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -174,20 +197,6 @@
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Permutation Matrices</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
-Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
-Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
     <h2>Prime Numbers</h2>
   </header>
   <section class="entry-content">
@@ -209,18 +218,6 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
     <time>November 20, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/cardinality/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Greatest Common Divisors</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>November 20, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/gcd/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -289,7 +286,9 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
             "\\inn":"\\text{Inn}",
-            "\\id":"\\text{id}"
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
           },
           
           throwOnError : false

@@ -101,18 +101,68 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Permutations</h2>
+    <h2>Bell Numbers</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
-A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
-A permutation is said to be a derangement if it has no fixed points.
-Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles....</p>
+   <p>Definition The \(n\)th Bell number, denoted \(B_n\) is the total number of ways of partitioning the set \([n]\).
+Properties The Bell numbers are given by the formula \[B_n = \sum_{k=0}^n \stirlingII{n}{k}\] where \(\stirlingII{n}{k}\) is the Stirling number of the second kind which counts the number of ways to partition \([n]\) into \(k\) nonempty parts.
+Theorem: For \(n \geq 1\), the bell numbers satisfy the recursion \[B_n = \sum_{k=0}^{n-1} \binom{n-1}{k} B_k.\]...</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/permutations/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/bell_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Catalan Numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/catalan/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Combinations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/combinations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Integer Partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
+Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the stirling number of the first kind, \(\stirlingI{n}{k}\).
+The total number of ways to partition the number \(n\) is given by \[p(n) := \sum_{k=1}^n \stirlingI{n}{k}....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Noncrossing Partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Noncrossing partitions of \([n]\) are partitions of \([n]\) into parts \(\{B_1, \dots, B_k\}\) such that if \(a &lt; b &lt; c &lt; d\) are elements of \([n]\) with \(a,c \in B_i\) and \(b,d \in B_j\), then \(i = j\). Otherwise, a partition is crossing.
+Properties Noncrossing partitions of \([n]\) can be visually represented as a series of \(n\) labeled dots with partitions represented by arcs connecting the dots that belong to a given part....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/nc_partitions/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -124,9 +174,50 @@ Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A
 Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 5, 2021</time>
+    <time>December 8, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Permutations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
+A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
+Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/permutations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Set Partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A partition on a set \(X\) is a set \(\mathcal{P}\) of disjoint subsets of \(X\) such that \(X = \bigsqcup_{P \in \mathcal{P}} P\) where the sets \(P \in \mathcal{P}\) are called the parts of \(\mathcal{P}\).
+Properties The number of ways to partition a set of size \(n\) into exactly \(k\) nonempty parts is given by the stirling number of the second kind, \(\stirlingII{n}{k}\).
+The total number of ways to partition a set of size \(n\) is the \(n\)th Bell number....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/set_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Stirling Numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions The Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number of ways integers \(n\) can be partitioned into \(k\) pieces, each of which is greater than or equal to one. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
+Properties The Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-k}{k} &#43; \stirlingI{n-1}{k-1},\] and we also have the following: \[\begin{align*} &amp;\stirlingI{n}{n} = 1 \\ &amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;\stirlingI{n}{k} = 0 \quad k &gt; n \\ &amp;\stirlingI{n}{n-1} = 1 \\ &amp;\stirlingI{n}{1} = 1 \\ &amp;\stirlingI{n}{n-2} = 2 \\ &amp;\stirlingI{n}{2} = \bigg \lfloor \frac{n}{2} \bigg \rfloor....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/stirling_numbers/"></a>
 </article></main>
 <footer class="footer">
   <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
@@ -190,7 +281,9 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
             "\\inn":"\\text{Inn}",
-            "\\id":"\\text{id}"
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
           },
           
           throwOnError : false

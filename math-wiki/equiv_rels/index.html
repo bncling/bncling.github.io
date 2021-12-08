@@ -100,13 +100,13 @@ Properties The equivalence classes of a relation \(R\) partition the set \(S\)."
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Equivalence Relations</h1>
-    <div class="post-meta">December 3, 2021</div>
+    <div class="post-meta">December 8, 2021</div>
   </header>
   <div class="post-content"><h2 id="definitions">Definitions</h2>
 <p>A <a href="https://bncling.github.io/math-wiki/relations/">relation</a> <span class="math inline">\(R\)</span> on a set <span class="math inline">\(S\)</span> is called an <strong>equivalence relation</strong> if it is reflexive, symmetric, and transitive. When <span class="math inline">\((a,b) \in R\)</span>, we write <span class="math inline">\(a \sim b\)</span>.</p>
 <p>The <strong>equivalence class</strong> of an element <span class="math inline">\(a \in S\)</span> with equivalence relation <span class="math inline">\(R\)</span> is the set <span class="math inline">\([a] := \{b \in S \mid a \sim b\}\)</span> of elements equivalent to <span class="math inline">\(a\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p>The equivalence classes of a relation <span class="math inline">\(R\)</span> partition the set <span class="math inline">\(S\)</span>. That is, equivalence classes are either equal or disjoint (<span class="math inline">\(x \in [a] \cap [b]\)</span> means <span class="math inline">\([a] = [b]\)</span>), and <span class="math inline">\(S\)</span> can be written as the disjoint union of all the equivalence classes <span class="math display">\[S = \bigsqcup_{a \in S} [a].\]</span></p>
+<p>The equivalence classes of a relation <span class="math inline">\(R\)</span> <a href="https://bncling.github.io/math-wiki/set_partitions/">partition</a> the set <span class="math inline">\(S\)</span>. That is, equivalence classes are either equal or disjoint (<span class="math inline">\(x \in [a] \cap [b]\)</span> means <span class="math inline">\([a] = [b]\)</span>), and <span class="math inline">\(S\)</span> can be written as the disjoint union of all the equivalence classes <span class="math display">\[S = \bigsqcup_{a \in S} [a].\]</span></p>
 <h2 id="examples">Examples</h2>
 <p>Let <span class="math inline">\(S = \Z\)</span>, the set of integers. For <span class="math inline">\(n \in \Z\)</span>, define the relation <span class="math inline">\(\sim_n\)</span> such that <span class="math inline">\(a \sim_n b \iff n \mid a - b\)</span>. That is, two integers are equivalent if and only if they have the same remainder when divided by <span class="math inline">\(n\)</span>. This equivalence relation gives rise to modular arithmetic through the definition of the <a href="https://bncling.github.io/math-wiki/abelian/">abelian</a> <a href="https://bncling.github.io/math-wiki/groups/">group</a> <span class="math inline">\(\Z_n\)</span>, the set of equivalence classes under this relation.</p>
 </div>
@@ -166,7 +166,9 @@ Properties The equivalence classes of a relation \(R\) partition the set \(S\)."
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
             "\\inn":"\\text{Inn}",
-            "\\id":"\\text{id}"
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
           },
           
           throwOnError : false
@@ -236,7 +238,9 @@ Properties The equivalence classes of a relation \(R\) partition the set \(S\)."
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
             "\\inn":"\\text{Inn}",
-            "\\id":"\\text{id}"
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
           },
           
           throwOnError : false

@@ -8,13 +8,22 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cosets of a Subgroup</title>
+      <link>https://bncling.github.io/math-wiki/grp_cosets/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_cosets/</guid>
+      <description>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &amp;lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &amp;lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &amp;lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\).</description>
+    </item>
+    
+    <item>
       <title>Group Isomorphism Theorems</title>
       <link>https://bncling.github.io/math-wiki/grp_iso_thms/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/grp_iso_thms/</guid>
-      <description>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:
-  Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\).</description>
+      <description>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\).</description>
     </item>
     
     <item>
@@ -39,6 +48,26 @@ Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial 
 Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
 Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
 The alternating group \(A_n\) is simple for \(n \geq 5\).</description>
+    </item>
+    
+    <item>
+      <title>Solvable Groups</title>
+      <link>https://bncling.github.io/math-wiki/solvable_groups/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/solvable_groups/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>The Dihedral Group</title>
+      <link>https://bncling.github.io/math-wiki/dihedral/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dihedral/</guid>
+      <description>Symmetries of a polygon.
+Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
+Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &amp;lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\).</description>
     </item>
     
     <item>
@@ -116,15 +145,6 @@ Properties Proposition: The following are equivalent.
     </item>
     
     <item>
-      <title>Solvable Groups</title>
-      <link>https://bncling.github.io/math-wiki/solvable_groups/</link>
-      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/solvable_groups/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Subgroups</title>
       <link>https://bncling.github.io/math-wiki/subgroups/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
@@ -158,16 +178,6 @@ Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\).</descrip
     </item>
     
     <item>
-      <title>Cosets of a Subgroup</title>
-      <link>https://bncling.github.io/math-wiki/grp_cosets/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_cosets/</guid>
-      <description>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
- \(a\inv a = e \in H &amp;lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &amp;lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &amp;lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\).</description>
-    </item>
-    
-    <item>
       <title>Cyclic Groups</title>
       <link>https://bncling.github.io/math-wiki/cyclic/</link>
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
@@ -198,17 +208,6 @@ For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in
 Properties If \(G\) is an abelian group, then \(Z(G) = G\).
 The center of \(G\) is always a normal subgroup of \(G\).
 Examples The center of \(D_n\) is trivial if \(n\) is odd, and equal to \(\{e,r^{n/2}\}\) if \(n\) is even.</description>
-    </item>
-    
-    <item>
-      <title>The Dihedral Group</title>
-      <link>https://bncling.github.io/math-wiki/dihedral/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/dihedral/</guid>
-      <description>Symmetries of a polygon.
-Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
-Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &amp;lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\).</description>
     </item>
     
     <item>

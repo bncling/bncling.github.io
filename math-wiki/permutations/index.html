@@ -9,7 +9,6 @@
     
     <meta name="description" content="Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
 A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
-A permutation is said to be a derangement if it has no fixed points.
 Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles.">
     <meta name="author" content="">
     
@@ -101,16 +100,16 @@ Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic sh
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Permutations</h1>
-    <div class="post-meta">December 7, 2021</div>
+    <div class="post-meta">December 8, 2021</div>
   </header>
   <div class="post-content"><h2 id="definitions">Definitions</h2>
 <p>A <strong>permutation</strong> on a set <span class="math inline">\(X\)</span> is a <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">bijection</a> <span class="math inline">\(\sigma: X \to X\)</span>. The set of all permutations on the set <span class="math inline">\([n]\)</span> is a <a href="https://bncling.github.io/math-wiki/groups/">group</a> under composition and is called the <a href="https://bncling.github.io/math-wiki/symm_group/">symmetric group</a> on <span class="math inline">\(n\)</span> symbols.</p>
 <p>A <strong>fixed point</strong> of a permutation <span class="math inline">\(\sigma\)</span> is an element <span class="math inline">\(i \in X\)</span> such that <span class="math inline">\(\sigma(i) = i\)</span>.</p>
-<p>A permutation is said to be a <strong>derangement</strong> if it has no fixed points.</p>
 <h3 id="cycle-notation">Cycle Notation</h3>
 <p>A permutation <span class="math inline">\(\sigma\)</span> can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles. For example, the permutation <span class="math inline">\(\sigma \in S_5\)</span> defined by <span class="math inline">\(\sigma(1) = 2\)</span>, <span class="math inline">\(\sigma(2) = 4\)</span>, <span class="math inline">\(\sigma(3) = 5\)</span>, <span class="math inline">\(\sigma(4) = 1\)</span>, and <span class="math inline">\(\sigma(5) = 3\)</span> can be broken into two disjoint cycles and written as <span class="math inline">\((1\,2\,4) (3\,5)\)</span> where <span class="math inline">\((1\,2\,4)\)</span> is the permutation sending <span class="math inline">\(1\)</span> to <span class="math inline">\(2\)</span>, <span class="math inline">\(2\)</span> to <span class="math inline">\(4\)</span>, and then <span class="math inline">\(4\)</span> back to <span class="math inline">\(1\)</span>, and <span class="math inline">\((3\,5)\)</span> is the permutation swapping <span class="math inline">\(3\)</span> and <span class="math inline">\(5\)</span>.</p>
 <p>We call a cycle of length <span class="math inline">\(k\)</span> a <strong><span class="math inline">\(k\)</span>-cycle</strong>, and we call <span class="math inline">\(2\)</span>-cycles <strong>transpositions</strong>.</p>
 <h2 id="properties">Properties</h2>
+<p>There are <span class="math inline">\(n!\)</span> permutations on a set with <span class="math inline">\(n\)</span> elements.</p>
 <p>Disjoint cycles commute.</p>
 <p>Every permutation can be written as the product of either an even number or odd number transpositions. If <span class="math inline">\(\sigma\)</span> can be written as an even number of transpositions, then it is called an <strong>even permutation</strong>, and similarly, if it can be written with an odd number, then it is called an <strong>odd permutation</strong>.</p>
 <p>If <span class="math inline">\(k\)</span> is odd, all <span class="math inline">\(k\)</span>-cycles are even, and if <span class="math inline">\(k\)</span> is even, all <span class="math inline">\(k\)</span>-cycles are odd.</p>
@@ -172,7 +171,9 @@ Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic sh
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
             "\\inn":"\\text{Inn}",
-            "\\id":"\\text{id}"
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
           },
           
           throwOnError : false
@@ -242,7 +243,9 @@ Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic sh
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
             "\\inn":"\\text{Inn}",
-            "\\id":"\\text{id}"
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
           },
           
           throwOnError : false

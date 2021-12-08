@@ -101,11 +101,23 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Cosets of a Subgroup</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Group Isomorphism Theorems</h2>
   </header>
   <section class="entry-content">
-   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:
-  Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
+   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
   </section>
   <footer class="entry-footer">
     <time>December 8, 2021</time>
@@ -141,6 +153,32 @@ The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
     <time>December 8, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Solvable Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/solvable_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Dihedral Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Symmetries of a polygon.
+Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
+Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -196,46 +234,6 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
     <time>December 7, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Internal Direct Products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
-\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lagrange&#39;s Theorem</h2>
-  </header>
-  <section class="entry-content">
-   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
-Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Normal Subgroups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
-Properties Proposition: The following are equivalent.
- \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -304,7 +302,9 @@ Properties Proposition: The following are equivalent.
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
             "\\inn":"\\text{Inn}",
-            "\\id":"\\text{id}"
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
           },
           
           throwOnError : false

@@ -105,6 +105,71 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Bell Numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The \(n\)th Bell number, denoted \(B_n\) is the total number of ways of partitioning the set \([n]\).
+Properties The Bell numbers are given by the formula \[B_n = \sum_{k=0}^n \stirlingII{n}{k}\] where \(\stirlingII{n}{k}\) is the Stirling number of the second kind which counts the number of ways to partition \([n]\) into \(k\) nonempty parts.
+Theorem: For \(n \geq 1\), the bell numbers satisfy the recursion \[B_n = \sum_{k=0}^{n-1} \binom{n-1}{k} B_k.\]...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/bell_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Catalan Numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/catalan/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Combinations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/combinations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Cosets of a Subgroup</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Equivalence Relations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
+The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
+Properties The equivalence classes of a relation \(R\) partition the set \(S\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/equiv_rels/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Functions</h2>
   </header>
   <section class="entry-content">
@@ -123,8 +188,7 @@ We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted 
     <h2>Group Isomorphism Theorems</h2>
   </header>
   <section class="entry-content">
-   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:
-  Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
+   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
   </section>
   <footer class="entry-footer">
     <time>December 8, 2021</time>
@@ -133,114 +197,44 @@ We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted 
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Quotient Groups</h2>
+    <h2>Integer Partitions</h2>
   </header>
   <section class="entry-content">
-   <p>Also called factor groups.
-Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
-Properties The quotient group is a group....</p>
+   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
+Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the stirling number of the first kind, \(\stirlingI{n}{k}\).
+The total number of ways to partition the number \(n\) is given by \[p(n) := \sum_{k=1}^n \stirlingI{n}{k}....</p>
   </section>
   <footer class="entry-footer">
     <time>December 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Simple Groups</h2>
+    <h2>Noncrossing Partitions</h2>
   </header>
   <section class="entry-content">
-   <p>Building blocks.
-Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial proper normal subgroups.
-Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
-Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
-The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
+   <p>Definition Noncrossing partitions of \([n]\) are partitions of \([n]\) into parts \(\{B_1, \dots, B_k\}\) such that if \(a &lt; b &lt; c &lt; d\) are elements of \([n]\) with \(a,c \in B_i\) and \(b,d \in B_j\), then \(i = j\). Otherwise, a partition is crossing.
+Properties Noncrossing partitions of \([n]\) can be visually represented as a series of \(n\) labeled dots with partitions represented by arcs connecting the dots that belong to a given part....</p>
   </section>
   <footer class="entry-footer">
     <time>December 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/nc_partitions/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Abelian Groups</h2>
+    <h2>Permutation Matrices</h2>
   </header>
   <section class="entry-content">
-   <p>Groups that commute.
-Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
-Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
-If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
-If the quotient group \(G/Z(G)\) is cyclic, then \(G\) is abelian....</p>
+   <p>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
+Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
+Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/abelian/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Centralizers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/centralizers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group Automorphisms</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
-An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
-Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_auto/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group Homomorphisms</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
-If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Internal Direct Products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
-\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lagrange&#39;s Theorem</h2>
-  </header>
-  <section class="entry-content">
-   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
-Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -309,7 +303,9 @@ Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint
             "\\Aut":"\\text{Aut}",
             "\\im":"\\text{im}",
             "\\inn":"\\text{Inn}",
-            "\\id":"\\text{id}"
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
           },
           
           throwOnError : false

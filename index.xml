@@ -8,6 +8,56 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bell Numbers</title>
+      <link>https://bncling.github.io/math-wiki/bell_numbers/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/bell_numbers/</guid>
+      <description>Definition The \(n\)th Bell number, denoted \(B_n\) is the total number of ways of partitioning the set \([n]\).
+Properties The Bell numbers are given by the formula \[B_n = \sum_{k=0}^n \stirlingII{n}{k}\] where \(\stirlingII{n}{k}\) is the Stirling number of the second kind which counts the number of ways to partition \([n]\) into \(k\) nonempty parts.
+Theorem: For \(n \geq 1\), the bell numbers satisfy the recursion \[B_n = \sum_{k=0}^{n-1} \binom{n-1}{k} B_k.\]</description>
+    </item>
+    
+    <item>
+      <title>Catalan Numbers</title>
+      <link>https://bncling.github.io/math-wiki/catalan/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/catalan/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Combinations</title>
+      <link>https://bncling.github.io/math-wiki/combinations/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/combinations/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Cosets of a Subgroup</title>
+      <link>https://bncling.github.io/math-wiki/grp_cosets/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_cosets/</guid>
+      <description>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &amp;lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &amp;lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &amp;lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\).</description>
+    </item>
+    
+    <item>
+      <title>Equivalence Relations</title>
+      <link>https://bncling.github.io/math-wiki/equiv_rels/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/equiv_rels/</guid>
+      <description>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
+The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
+Properties The equivalence classes of a relation \(R\) partition the set \(S\).</description>
+    </item>
+    
+    <item>
       <title>Functions</title>
       <link>https://bncling.github.io/math-wiki/function/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
@@ -25,8 +75,50 @@ We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted 
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/grp_iso_thms/</guid>
-      <description>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:
-  Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\).</description>
+      <description>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\).</description>
+    </item>
+    
+    <item>
+      <title>Integer Partitions</title>
+      <link>https://bncling.github.io/math-wiki/integer_partitions/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/integer_partitions/</guid>
+      <description>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 + a_2 + \dots + a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
+Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the stirling number of the first kind, \(\stirlingI{n}{k}\).
+The total number of ways to partition the number \(n\) is given by \[p(n) := \sum_{k=1}^n \stirlingI{n}{k}.</description>
+    </item>
+    
+    <item>
+      <title>Noncrossing Partitions</title>
+      <link>https://bncling.github.io/math-wiki/nc_partitions/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/nc_partitions/</guid>
+      <description>Definition Noncrossing partitions of \([n]\) are partitions of \([n]\) into parts \(\{B_1, \dots, B_k\}\) such that if \(a &amp;lt; b &amp;lt; c &amp;lt; d\) are elements of \([n]\) with \(a,c \in B_i\) and \(b,d \in B_j\), then \(i = j\). Otherwise, a partition is crossing.
+Properties Noncrossing partitions of \([n]\) can be visually represented as a series of \(n\) labeled dots with partitions represented by arcs connecting the dots that belong to a given part.</description>
+    </item>
+    
+    <item>
+      <title>Permutation Matrices</title>
+      <link>https://bncling.github.io/math-wiki/perm_matrices/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/perm_matrices/</guid>
+      <description>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
+Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
+Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols.</description>
+    </item>
+    
+    <item>
+      <title>Permutations</title>
+      <link>https://bncling.github.io/math-wiki/permutations/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/permutations/</guid>
+      <description>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
+A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
+Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles.</description>
     </item>
     
     <item>
@@ -41,6 +133,17 @@ Properties The quotient group is a group.</description>
     </item>
     
     <item>
+      <title>Set Partitions</title>
+      <link>https://bncling.github.io/math-wiki/set_partitions/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/set_partitions/</guid>
+      <description>Definition A partition on a set \(X\) is a set \(\mathcal{P}\) of disjoint subsets of \(X\) such that \(X = \bigsqcup_{P \in \mathcal{P}} P\) where the sets \(P \in \mathcal{P}\) are called the parts of \(\mathcal{P}\).
+Properties The number of ways to partition a set of size \(n\) into exactly \(k\) nonempty parts is given by the stirling number of the second kind, \(\stirlingII{n}{k}\).
+The total number of ways to partition a set of size \(n\) is the \(n\)th Bell number.</description>
+    </item>
+    
+    <item>
       <title>Simple Groups</title>
       <link>https://bncling.github.io/math-wiki/simple_groups/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
@@ -51,6 +154,36 @@ Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial 
 Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
 Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
 The alternating group \(A_n\) is simple for \(n \geq 5\).</description>
+    </item>
+    
+    <item>
+      <title>Solvable Groups</title>
+      <link>https://bncling.github.io/math-wiki/solvable_groups/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/solvable_groups/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Stirling Numbers</title>
+      <link>https://bncling.github.io/math-wiki/stirling_numbers/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/stirling_numbers/</guid>
+      <description>Definitions The Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number of ways integers \(n\) can be partitioned into \(k\) pieces, each of which is greater than or equal to one. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
+Properties The Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-k}{k} + \stirlingI{n-1}{k-1},\] and we also have the following: \[\begin{align*} &amp;amp;\stirlingI{n}{n} = 1 \\ &amp;amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;amp;\stirlingI{n}{k} = 0 \quad k &amp;gt; n \\ &amp;amp;\stirlingI{n}{n-1} = 1 \\ &amp;amp;\stirlingI{n}{1} = 1 \\ &amp;amp;\stirlingI{n}{n-2} = 2 \\ &amp;amp;\stirlingI{n}{2} = \bigg \lfloor \frac{n}{2} \bigg \rfloor.</description>
+    </item>
+    
+    <item>
+      <title>The Dihedral Group</title>
+      <link>https://bncling.github.io/math-wiki/dihedral/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dihedral/</guid>
+      <description>Symmetries of a polygon.
+Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
+Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &amp;lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\).</description>
     </item>
     
     <item>
@@ -128,27 +261,6 @@ Properties Proposition: The following are equivalent.
     </item>
     
     <item>
-      <title>Permutations</title>
-      <link>https://bncling.github.io/math-wiki/permutations/</link>
-      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/permutations/</guid>
-      <description>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
-A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
-A permutation is said to be a derangement if it has no fixed points.
-Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles.</description>
-    </item>
-    
-    <item>
-      <title>Solvable Groups</title>
-      <link>https://bncling.github.io/math-wiki/solvable_groups/</link>
-      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/solvable_groups/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Subgroups</title>
       <link>https://bncling.github.io/math-wiki/subgroups/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
@@ -179,16 +291,6 @@ Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\).
       <description>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
 The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
 Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\).</description>
-    </item>
-    
-    <item>
-      <title>Cosets of a Subgroup</title>
-      <link>https://bncling.github.io/math-wiki/grp_cosets/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_cosets/</guid>
-      <description>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
- \(a\inv a = e \in H &amp;lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &amp;lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &amp;lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\).</description>
     </item>
     
     <item>
@@ -231,17 +333,6 @@ For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in
 Properties If \(G\) is an abelian group, then \(Z(G) = G\).
 The center of \(G\) is always a normal subgroup of \(G\).
 Examples The center of \(D_n\) is trivial if \(n\) is odd, and equal to \(\{e,r^{n/2}\}\) if \(n\) is even.</description>
-    </item>
-    
-    <item>
-      <title>The Dihedral Group</title>
-      <link>https://bncling.github.io/math-wiki/dihedral/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/dihedral/</guid>
-      <description>Symmetries of a polygon.
-Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
-Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &amp;lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\).</description>
     </item>
     
     <item>
@@ -300,17 +391,6 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
       <description>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
 Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
 If \(g^m = e\), then the order of \(g\) divides \(m\).</description>
-    </item>
-    
-    <item>
-      <title>Permutation Matrices</title>
-      <link>https://bncling.github.io/math-wiki/perm_matrices/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/perm_matrices/</guid>
-      <description>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
-Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
-Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols.</description>
     </item>
     
     <item>
@@ -408,17 +488,6 @@ Every subgroup of \(\Z\) has the form \(n\Z = \langle n \rangle = \{nz \mid z \i
       <guid>https://bncling.github.io/math-wiki/coprime/</guid>
       <description>Definition Two numbers \(a,b \in \N\) are said to be coprime or relatively prime if their greatest common divisor is 1.
 Properties Because the gcd of two numbers \(a\) and \(b\) can always be written as an integral linear combination of \(a\) and \(b\), there always exist \(s,t \in \Z\) such that \(as + bt = 1\) if and only if \(a\) and \(b\) are coprime.</description>
-    </item>
-    
-    <item>
-      <title>Equivalence Relations</title>
-      <link>https://bncling.github.io/math-wiki/equiv_rels/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/equiv_rels/</guid>
-      <description>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
-The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
-Properties The equivalence classes of a relation \(R\) partition the set \(S\).</description>
     </item>
     
     <item>
