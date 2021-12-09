@@ -6,7 +6,28 @@
     <description>Recent content in linear_algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linear maps</title>
+      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
+      <description>Also called linear transformations.
+Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
+ additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\).</description>
+    </item>
+    
+    <item>
+      <title>Vector spaces</title>
+      <link>https://bncling.github.io/math-wiki/vector_space/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
+      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
+    </item>
+    
     <item>
       <title>Determinants</title>
       <link>https://bncling.github.io/math-wiki/determinant/</link>
@@ -26,16 +47,6 @@
 Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The range of \(T\), denoted \(\range T\), is the subset of \(W\) containing vectors of the form \(Tv\) for some \(v \in V\), that is, \[\range T = \{Tv \mid v \in V\}.\]
 Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a subspace of \(W\).
 (3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T + \dim \, \range T,\] where \(\nl T\) denotes the null space of \(T\) and \(\dim V\) is the dimension of the space \(V\).</description>
-    </item>
-    
-    <item>
-      <title>Vector spaces</title>
-      <link>https://bncling.github.io/math-wiki/vector_space/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
-      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
     </item>
     
     <item>
@@ -117,17 +128,6 @@ Examples Let \(V = \Poly (\R)\). Then \(V&amp;#39;\) is the space of all linear 
       <guid>https://bncling.github.io/math-wiki/subspace_direct_sums/</guid>
       <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). If each element \(u \in U_1 + \dots + U_m\) can be written uniquely as a sum \(u_1 + \dots + u_m\) where each \(u_i \in U_i\), then this sum is called a direct sum. In this case, we write the sum as \(U_1 \oplus \dots \oplus U_m\).
 Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector space \(V\).</description>
-    </item>
-    
-    <item>
-      <title>Linear maps</title>
-      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
-      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
-      <description>Also called linear transformations.
-Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
- additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\).</description>
     </item>
     
     <item>

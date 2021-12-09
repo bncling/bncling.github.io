@@ -105,6 +105,48 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Abelian Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Groups that commute.
+Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
+Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
+If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
+If the quotient group \(G/Z(G)\) is cyclic, then \(G\) is abelian....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/abelian/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Centralizers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/centralizers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Group Automorphisms</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
+An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
+Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_auto/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Group Homomorphisms</h2>
   </header>
   <section class="entry-content">
@@ -197,45 +239,6 @@ Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
     <time>December 7, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cyclic Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
-Properties All cyclic groups are abelian.
-If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>External Direct Products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
-For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Least Common Multiples</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lcm/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

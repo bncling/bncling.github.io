@@ -105,17 +105,57 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Permutations</h2>
+    <h2>Functions</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
-A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
-Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles....</p>
+   <p>Also called maps.
+Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\). If \((a,b) \in f\), we write \(f(a)=b\).
+We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
+We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im (f)\)....</p>
   </section>
   <footer class="entry-footer">
     <time>December 8, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/permutations/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/function/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Group Isomorphism Theorems</h2>
+  </header>
+  <section class="entry-content">
+   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_iso_thms/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Integer Partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
+Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the stirling number of the first kind, \(\stirlingI{n}{k}\).
+The total number of ways to partition the number \(n\) is given by \[p(n) := \sum_{k=1}^n \stirlingI{n}{k}....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Noncrossing Partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Noncrossing partitions of \([n]\) are partitions of \([n]\) into parts \(\{B_1, \dots, B_k\}\) such that if \(a &lt; b &lt; c &lt; d\) are elements of \([n]\) with \(a,c \in B_i\) and \(b,d \in B_j\), then \(i = j\). Otherwise, a partition is crossing.
+Properties Noncrossing partitions of \([n]\) can be visually represented as a series of \(n\) labeled dots with partitions represented by arcs connecting the dots that belong to a given part....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/nc_partitions/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -199,48 +239,6 @@ Properties The group contains \(n\) rotations (counting the identity as a rotati
     <time>December 8, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Abelian Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Groups that commute.
-Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
-Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
-If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
-If the quotient group \(G/Z(G)\) is cyclic, then \(G\) is abelian....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/abelian/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Centralizers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/centralizers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group Automorphisms</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
-An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
-Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_auto/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

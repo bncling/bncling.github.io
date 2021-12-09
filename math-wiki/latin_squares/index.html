@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Vector spaces - Ben Clingenpeel</title>
+    <title>Latin Squares - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(&#43;\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u &#43; v = v &#43; u\) for all \(u, v \in V\); associativity: \((u &#43; v) &#43; w = u &#43; (v &#43; w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v &#43; 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v &#43; w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u &#43; v) = au &#43; av\) and \((a &#43; b)v = av &#43; bv\) for all \(v,w \in V\) and \(a,b \in \F\).">
+    <meta name="description" content="Definition A Latin square of order \(n\) is an \(n \times n\) array such that each row is a permutation of \([n]\) and all rows are pairwise discordant. (Though Latin squares can be formed out of any set of \(n\) elements, not just \([n]\)).
+The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \(A \otimes B\), has entries in \([n] \times [n]\) where \((A \otimes B)_{ij}\) is the pair \((A_{ij}, B_{ij})\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -98,37 +98,37 @@
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Vector spaces</h1>
+    <h1 class="post-title">Latin Squares</h1>
     <div class="post-meta">December 9, 2021</div>
   </header>
-  <div class="post-content"><h2 id="definitions">Definitions</h2>
-<p>A <strong>vector space</strong> over a <a href="https://bncling.github.io/math-wiki/fields/">field</a> <span class="math inline">\(\F\)</span> (here either <a href="https://bncling.github.io/math-wiki/real_numbers/"><span class="math inline">\(\R\)</span></a> or <a href="https://bncling.github.io/math-wiki/complex_numbers/"><span class="math inline">\(\C\)</span></a>) is a set <span class="math inline">\(V\)</span>, together with addition (<span class="math inline">\(+\)</span>) and scalar multiplication (<span class="math inline">\(\cdot\)</span>) operations such that the following properties hold:</p>
-<ul>
-<li><strong>commutativity:</strong> <span class="math inline">\(u + v = v + u\)</span> for all <span class="math inline">\(u, v \in V\)</span>;</li>
-<li><strong>associativity:</strong> <span class="math inline">\((u + v) + w = u + (v + w)\)</span> and <span class="math inline">\((ab)v = a(bv)\)</span> for all <span class="math inline">\(u,v,w \in V\)</span>, <span class="math inline">\(a,b \in \F\)</span>;</li>
-<li><strong>additive identity:</strong> there exists an element <span class="math inline">\(0 \in V\)</span> such that <span class="math inline">\(v + 0 = v\)</span> for all <span class="math inline">\(v \in V\)</span>;</li>
-<li><strong>additive inverse:</strong> for every <span class="math inline">\(v \in V\)</span>, there exists an element <span class="math inline">\(w \in V\)</span> such that <span class="math inline">\(v + w = 0\)</span>;</li>
-<li><strong>multiplicative identity:</strong> <span class="math inline">\(1v = v\)</span> for all <span class="math inline">\(v \in V\)</span>;</li>
-<li><strong>distributive properties:</strong> <span class="math inline">\(a(u + v) = au + av\)</span> and <span class="math inline">\((a + b)v = av + bv\)</span> for all <span class="math inline">\(v,w \in V\)</span> and <span class="math inline">\(a,b \in \F\)</span>.</li>
-</ul>
-<p>We call elements of a vector space <strong>vectors</strong>.</p>
-<p>We call a vector space <span class="math inline">\(V\)</span> <strong>finite dimensional</strong> if some <a href="https://bncling.github.io/math-wiki/lists/">list</a> if vectors <a href="https://bncling.github.io/math-wiki/span/">spans</a> it. Otherwise, <span class="math inline">\(V\)</span> is <strong>infinite dimensional</strong>.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>A <strong>Latin square</strong> of order <span class="math inline">\(n\)</span> is an <span class="math inline">\(n \times n\)</span> array such that each row is a <a href="https://bncling.github.io/math-wiki/permutations/">permutation</a> of <span class="math inline">\([n]\)</span> and all rows are pairwise <a href="https://bncling.github.io/math-wiki/permutations/">discordant</a>. (Though Latin squares can be formed out of any set of <span class="math inline">\(n\)</span> elements, not just <span class="math inline">\([n]\)</span>).</p>
+<p>The <strong>juxtaposition</strong> of two Latin squares <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> of order <span class="math inline">\(n\)</span>, denoted <span class="math inline">\(A \otimes B\)</span>, has entries in <span class="math inline">\([n] \times [n]\)</span> where <span class="math inline">\((A \otimes B)_{ij}\)</span> is the pair <span class="math inline">\((A_{ij}, B_{ij})\)</span>. Two Latin squares are called <strong>orthogonal</strong> if all entries of their juxtaposition are unique.</p>
+<p>The <strong>level sets</strong> of a Latin square are the sets of entries each containing the same value. A <strong>transversal</strong> of a Latin square is a set of entries each of which is from a unique row and column that contain all different entries.</p>
 <h2 id="properties">Properties</h2>
-<p><strong>The additive identity (zero vector) of a vector space is unique.</strong> Let <span class="math inline">\(0\)</span> and <span class="math inline">\(0&#39;\)</span> be additive identites. Then <span class="math inline">\(0 = 0 + 0&#39; = 0&#39;\)</span>. <span class="math inline">\(\quad \square\)</span></p>
-<p><strong>Additive identities in a vector space are unique.</strong> Let <span class="math inline">\(v \in V\)</span> and let <span class="math inline">\(w\)</span> and <span class="math inline">\(w&#39;\)</span> be additive inverses of <span class="math inline">\(v\)</span>. Then <span class="math display">\[w = w + 0 = w + (v + w&#39;) = (w + v) + w&#39; = 0 + w&#39; = w&#39;. \quad \square\]</span></p>
-<p><strong>Zero times a vector is always the zero vector.</strong> Let <span class="math inline">\(v \in V\)</span>. Then <span class="math inline">\(0v = (0 + 0)v = 0v + 0v\)</span>, so <span class="math inline">\(0v + (-0v) = 0v + 0v + (-0v)\)</span> implies that <span class="math inline">\(0 = 0v\)</span>. <span class="math inline">\(\quad \square\)</span></p>
-<p><strong>A scalar times the zero vector is the zero vector.</strong> Let <span class="math inline">\(a \in \F\)</span>. Then <span class="math inline">\(a0 = a(0 + 0) = a0 + a0\)</span>, so <span class="math inline">\(0 = a0\)</span> as above. <span class="math inline">\(\quad \square\)</span></p>
-<p><strong>For all <span class="math inline">\(v \in V\)</span>, <span class="math inline">\((-1)v\)</span> is the additive inverse of <span class="math inline">\(v\)</span>.</strong> Let <span class="math inline">\(v \in V\)</span>. Then <span class="math display">\[(-1)v + v = (-1)v + 1v = (-1 + 1)v = 0v = 0. \quad \square\]</span></p>
-<p><strong>For all <span class="math inline">\(v \in V\)</span>, the additive inverse of the additive inverse is <span class="math inline">\(v\)</span>, that is<span class="math inline">\(-(-v) = v\)</span>.</strong> Note that <span class="math inline">\(-(-v)\)</span> is the additive inverse of <span class="math inline">\(-v\)</span>, but also <span class="math inline">\(v\)</span> is the additive inverse of <span class="math inline">\(-v\)</span>, so by the uniqueness of additive inverses in a vector space (Proposition 1.26), <span class="math inline">\(-(-v) = v\)</span> for all <span class="math inline">\(v \in V\)</span>. <span class="math inline">\(\quad \square\)</span></p>
-<p>For a vector space <span class="math inline">\(V\)</span>, the set <span class="math inline">\(V\)</span> together with the operation <span class="math inline">\(+\)</span> forms an <a href="https://bncling.github.io/math-wiki/abelian/">abelian</a> <a href="https://bncling.github.io/math-wiki/groups/">group</a>.</p>
+<p>For <span class="math inline">\(n = 2\)</span> and <span class="math inline">\(n = 6\)</span>, there are no two orthogonal Latin squares, but for all other <span class="math inline">\(n\)</span> there exists at least a pair of orthogonal Latin squares.</p>
+<p>For two orthogonal Latin squares <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, the level sets of <span class="math inline">\(A\)</span> correspond to transversals of <span class="math inline">\(B\)</span>.</p>
 <h2 id="examples">Examples</h2>
-<p><span class="math inline">\(\F^n\)</span> is a finite dimensional vector space with elements that are list of the form <span class="math inline">\((x_1, x_2, \dots, x_n)\)</span> with <span class="math inline">\(x_i \in \F\)</span> for all <span class="math inline">\(i = 1, 2, \dots, n\)</span>.</p>
-<p><span class="math inline">\(\F^\infty\)</span> is also a vector space that has elements that are <a href="https://bncling.github.io/math-wiki/sequence/">sequences</a> with elements in <span class="math inline">\(\F\)</span>. (It is infinite dimensional.)</p>
-<p><span class="math inline">\(\Poly(\F)\)</span>, the set of polynomial <a href="https://bncling.github.io/math-wiki/function/">functions</a> with coefficients in <span class="math inline">\(\F\)</span> is an infinite dimensional vector space, that is, the set of functions <span class="math inline">\(p: \F \to \F\)</span> of the form <span class="math display">\[p(z) = a_0 + a_1 z + \dots + a_m z^m\]</span> for <span class="math inline">\(z, a_0, \dots, a_m \in \F\)</span>.</p>
+<p>The Latin squares <span class="math display">\[A = \, \begin{array}{cccc}  
+1 &amp; 2 &amp; 3 &amp; 4 \\ 
+2 &amp; 1 &amp; 4 &amp; 3 \\
+4 &amp; 3 &amp; 2 &amp; 1 \\
+3 &amp; 4 &amp; 1 &amp; 2
+\end{array} \quad \text{and} \quad B = \, \begin{array}{cccc}
+3 &amp; 4 &amp; 2 &amp; 1 \\
+1 &amp; 2 &amp; 4 &amp; 3 \\
+2 &amp; 1 &amp; 3 &amp; 4 \\
+4 &amp; 3 &amp; 1 &amp; 2
+\end{array}\]</span> are orthogonal with juxtaposition <span class="math display">\[A \otimes B = \, \begin{array}{cccc}  
+1,3 &amp; 2,4 &amp; 3,2 &amp; 4,1 \\ 
+2,1 &amp; 1,2 &amp; 4,4 &amp; 3,3 \\
+4,2 &amp; 3,1 &amp; 2,3 &amp; 1,4 \\
+3,4 &amp; 4,3 &amp; 1,1 &amp; 2,2
+\end{array}\]</span> and we see that indeed, level sets of <span class="math inline">\(A\)</span> are transversals of <span class="math inline">\(B\)</span>. For example, the level set of <span class="math inline">\(A\)</span> containing all <span class="math inline">\(2\)</span>s is the set of indices containing <span class="math inline">\((1,1)\)</span>, <span class="math inline">\((2,2)\)</span>, <span class="math inline">\((3,4)\)</span>, and <span class="math inline">\((4,3)\)</span>, and we see that in <span class="math inline">\(B\)</span>, <span class="math inline">\(B_{11} = 3\)</span>, <span class="math inline">\(B_{22} = 2\)</span>, <span class="math inline">\(B_{34} = 4\)</span>, and <span class="math inline">\(B_{43}\)</span>, so this set of indices is a transversal.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://bncling.github.io/tags/linear_algebra">linear_algebra</a></li>
+      <li><a href="https://bncling.github.io/tags/combinatorics">combinatorics</a></li>
     </ul>
   </footer>
   

@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>combinatorics</title>
+      <link>https://bncling.github.io/tags/combinatorics/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/combinatorics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linear_algebra</title>
+      <link>https://bncling.github.io/tags/linear_algebra/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/linear_algebra/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>algebra</title>
       <link>https://bncling.github.io/tags/algebra/</link>
@@ -22,15 +40,6 @@
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/calculus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>combinatorics</title>
-      <link>https://bncling.github.io/tags/combinatorics/</link>
-      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/combinatorics/</guid>
       <description></description>
     </item>
     
@@ -58,15 +67,6 @@
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/number_theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linear_algebra</title>
-      <link>https://bncling.github.io/tags/linear_algebra/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/linear_algebra/</guid>
       <description></description>
     </item>
     

@@ -8,6 +8,60 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Latin Squares</title>
+      <link>https://bncling.github.io/math-wiki/latin_squares/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/latin_squares/</guid>
+      <description>Definition A Latin square of order \(n\) is an \(n \times n\) array such that each row is a permutation of \([n]\) and all rows are pairwise discordant. (Though Latin squares can be formed out of any set of \(n\) elements, not just \([n]\)).
+The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \(A \otimes B\), has entries in \([n] \times [n]\) where \((A \otimes B)_{ij}\) is the pair \((A_{ij}, B_{ij})\).</description>
+    </item>
+    
+    <item>
+      <title>Linear maps</title>
+      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
+      <description>Also called linear transformations.
+Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
+ additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\).</description>
+    </item>
+    
+    <item>
+      <title>Permutation Matrices</title>
+      <link>https://bncling.github.io/math-wiki/perm_matrices/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/perm_matrices/</guid>
+      <description>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
+Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
+Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols.</description>
+    </item>
+    
+    <item>
+      <title>Permutations</title>
+      <link>https://bncling.github.io/math-wiki/permutations/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/permutations/</guid>
+      <description>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
+A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
+Two permutations are called discordant if they disagree everywhere.
+Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles.</description>
+    </item>
+    
+    <item>
+      <title>Vector spaces</title>
+      <link>https://bncling.github.io/math-wiki/vector_space/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
+      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
+    </item>
+    
+    <item>
       <title>Bell Numbers</title>
       <link>https://bncling.github.io/math-wiki/bell_numbers/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
@@ -97,28 +151,6 @@ The total number of ways to partition the number \(n\) is given by \[p(n) := \su
       <guid>https://bncling.github.io/math-wiki/nc_partitions/</guid>
       <description>Definition Noncrossing partitions of \([n]\) are partitions of \([n]\) into parts \(\{B_1, \dots, B_k\}\) such that if \(a &amp;lt; b &amp;lt; c &amp;lt; d\) are elements of \([n]\) with \(a,c \in B_i\) and \(b,d \in B_j\), then \(i = j\). Otherwise, a partition is crossing.
 Properties Noncrossing partitions of \([n]\) can be visually represented as a series of \(n\) labeled dots with partitions represented by arcs connecting the dots that belong to a given part.</description>
-    </item>
-    
-    <item>
-      <title>Permutation Matrices</title>
-      <link>https://bncling.github.io/math-wiki/perm_matrices/</link>
-      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/perm_matrices/</guid>
-      <description>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
-Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
-Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols.</description>
-    </item>
-    
-    <item>
-      <title>Permutations</title>
-      <link>https://bncling.github.io/math-wiki/permutations/</link>
-      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/permutations/</guid>
-      <description>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
-A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
-Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles.</description>
     </item>
     
     <item>
@@ -460,16 +492,6 @@ Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the gen
     </item>
     
     <item>
-      <title>Vector spaces</title>
-      <link>https://bncling.github.io/math-wiki/vector_space/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/vector_space/</guid>
-      <description>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(+\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
- commutativity: \(u + v = v + u\) for all \(u, v \in V\); associativity: \((u + v) + w = u + (v + w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v + 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v + w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u + v) = au + av\) and \((a + b)v = av + bv\) for all \(v,w \in V\) and \(a,b \in \F\).</description>
-    </item>
-    
-    <item>
       <title>The Group of Integers</title>
       <link>https://bncling.github.io/math-wiki/integer_group/</link>
       <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
@@ -628,17 +650,6 @@ Examples Let \(V = \Poly (\R)\). Then \(V&amp;#39;\) is the space of all linear 
       <guid>https://bncling.github.io/math-wiki/subspace_direct_sums/</guid>
       <description>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). If each element \(u \in U_1 + \dots + U_m\) can be written uniquely as a sum \(u_1 + \dots + u_m\) where each \(u_i \in U_i\), then this sum is called a direct sum. In this case, we write the sum as \(U_1 \oplus \dots \oplus U_m\).
 Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector space \(V\).</description>
-    </item>
-    
-    <item>
-      <title>Linear maps</title>
-      <link>https://bncling.github.io/math-wiki/linear_maps/</link>
-      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linear_maps/</guid>
-      <description>Also called linear transformations.
-Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
- additivity: \(T(u + v) = T(u) + T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\).</description>
     </item>
     
     <item>
