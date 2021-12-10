@@ -105,6 +105,33 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Cosets of a Subgroup</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Equivalence Relations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
+The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
+Properties The equivalence classes of a relation \(R\) partition the set \(S\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/equiv_rels/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Functions</h2>
   </header>
   <section class="entry-content">
@@ -129,20 +156,6 @@ We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted 
     <time>December 8, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_iso_thms/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Integer Partitions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
-Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the stirling number of the first kind, \(\stirlingI{n}{k}\).
-The total number of ways to partition the number \(n\) is given by \[p(n) := \sum_{k=1}^n \stirlingI{n}{k}....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -212,19 +225,6 @@ The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
     <time>December 8, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/solvable_groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Stirling Numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions The Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number of ways integers \(n\) can be partitioned into \(k\) pieces, each of which is greater than or equal to one. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
-Properties The Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-k}{k} &#43; \stirlingI{n-1}{k-1},\] and we also have the following: \[\begin{align*} &amp;\stirlingI{n}{n} = 1 \\ &amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;\stirlingI{n}{k} = 0 \quad k &gt; n \\ &amp;\stirlingI{n}{n-1} = 1 \\ &amp;\stirlingI{n}{1} = 1 \\ &amp;\stirlingI{n}{n-2} = 2 \\ &amp;\stirlingI{n}{2} = \bigg \lfloor \frac{n}{2} \bigg \rfloor....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/stirling_numbers/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">

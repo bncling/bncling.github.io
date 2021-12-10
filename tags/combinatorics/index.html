@@ -101,6 +101,47 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Integer Partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
+Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the partition function \(p_k(n)\), which satisfies \[\begin{align*} &amp;p_n(n) = 1 \\ &amp;p_0(n) = 0 \quad n \geq 1 \\ &amp;p_k(n) = 0 \quad k &gt; n \\ &amp;p_{n-1}(n) = 1 \\ &amp;p_1(n) = 1 \\ &amp;p_{n-2}(n) = 2 \\ &amp;p_2(n) = \bigg \lfloor \frac{n}{2} \bigg \rfloor, \end{align*}\] along with the recursion \(p_k(n) = p_k(n-k) &#43; p_{k-1}(n-1)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 10, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Permutations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
+A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
+Two permutations are called discordant if they disagree everywhere.
+Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 10, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/permutations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Stirling Numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions The unsigned Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number permutations of \([n]\) with \(k\) cycles in their disjoint cycle decompositions. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
+Properties The (unsigned) Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-1}{k-1} &#43; (n-1) \stirlingI{n-1}{k},\] and we also have the following: \[\begin{align*} &amp;\stirlingI{n}{n} = 1 \\ &amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;\stirlingI{n}{k} = 0 \quad k &gt; n \end{align*}\]...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 10, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/stirling_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Latin Squares</h2>
   </header>
   <section class="entry-content">
@@ -125,21 +166,6 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
     <time>December 9, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Permutations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
-A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
-Two permutations are called discordant if they disagree everywhere.
-Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 9, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/permutations/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -181,20 +207,6 @@ Theorem: For \(n \geq 1\), the bell numbers satisfy the recursion \[B_n = \sum_{
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Integer Partitions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
-Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the stirling number of the first kind, \(\stirlingI{n}{k}\).
-The total number of ways to partition the number \(n\) is given by \[p(n) := \sum_{k=1}^n \stirlingI{n}{k}....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
     <h2>Noncrossing Partitions</h2>
   </header>
   <section class="entry-content">
@@ -219,19 +231,6 @@ The total number of ways to partition a set of size \(n\) is the \(n\)th Bell nu
     <time>December 8, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/set_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Stirling Numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions The Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number of ways integers \(n\) can be partitioned into \(k\) pieces, each of which is greater than or equal to one. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
-Properties The Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-k}{k} &#43; \stirlingI{n-1}{k-1},\] and we also have the following: \[\begin{align*} &amp;\stirlingI{n}{n} = 1 \\ &amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;\stirlingI{n}{k} = 0 \quad k &gt; n \\ &amp;\stirlingI{n}{n-1} = 1 \\ &amp;\stirlingI{n}{1} = 1 \\ &amp;\stirlingI{n}{n-2} = 2 \\ &amp;\stirlingI{n}{2} = \bigg \lfloor \frac{n}{2} \bigg \rfloor....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/stirling_numbers/"></a>
 </article></main>
 <footer class="footer">
   <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
