@@ -102,7 +102,34 @@
 <p>In pages with the <a href="https://bncling.github.io/tags/topology/">“topology” tag</a>, there are sometimes references to theorems, lemmas, and exercises from the book <a href="https://bookstore.ams.org/text-58/"><em>Topology Through Inquiry</em></a> by Michael Starbird and Francis Su that I’ve been working with this summer. The theorems that are referenced in these pages are (usually) ones that I’ve proven (or at least tried to prove—no guarantees all the proofs work), and you can find a compilation of all the work I’ve done <a href="https://bncling.github.io/math-wiki/top_selfstudy/">here</a>.</p>
 <p>In pages with the <a href="https://bncling.github.io/tags/topology/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>. There are also references to theorems and exercises from the book.</p>
 <p>The collection is currently organized to have the latest updated pages at the top, but I might be looking to change that at some point.</p>
+<p>For now, you can look at an alphabetical index of all wiki entries <a href="https://bncling.github.io/alphabetical/">here</a>.</p>
 
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Euler&#39;s Totient Function</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Euler’s totient function is a function \(\phi: \N \to \N\) such that \(\phi(n)\) is the number of numbers that are less than or equal to \(n\) and relatively prime to \(n\). That is, \[\phi(n) = \# \{m \in \N \mid m \leq n \text{ and } \gcd(m,n) = 1\}.\]
+Properties If \(p\) is a prime number, then \(\phi(p) = p-1\) because every natural number less than or equal to \(p\) is relatively prime to it except \(p\) itself....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 3, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/totient/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Matrices</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp; \dots &amp; a_{1,n} \\ \vdots &amp; \ddots &amp; \vdots \\ a_{m,1} &amp; \dots &amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
+For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 3, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrices/"></a>
+</article>
 <article class="post-entry">
   <header class="entry-header">
     <h2>Prime Numbers</h2>
@@ -206,31 +233,6 @@ An inhomogeneous system of linear equations is a system consisting of \(m\) line
     <time>August 18, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_systems/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Affine subsets</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition An affine subset of a vector space \(V\) is a subset of the form \(v &#43; U\) where \(v \in V\), \(U\) is a subspace of \(V\), and \[v &#43; U = \{v &#43; u \mid u \in U\}\] is the sum of the vector \(v\) and the space \(U\).
-For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v &#43; U\) is parallel to \(U\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 15, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/affine_subsets/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The dual basis</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space with basis \((v_1, \dots, v_n)\). We define the dual basis to be the list \((\varphi_1, \dots, \varphi_n)\) of linear functionals on \(V\) such that \[\varphi_j(v_k) = \begin{cases} 1 &amp; k=j \\ 0 &amp; k \neq j \end{cases},\] that is, \(\varphi_j\) is the linear map from \(V\) to \(\F\) assigning \(1\) to the \(j\)th basis vector of \(V\) and \(0\) to all other basis vectors....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 15, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_basis/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Alphabetical List of Wiki Entries - Ben Clingenpeel</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://bncling.github.io/style.css" rel="stylesheet">
+    <link href="https://bncling.github.io/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="generator" content="Hugo 0.84.4" />
+    
+    <link rel="alternate" type="application/rss+xml" href="https://bncling.github.io/alphabetical/index.xml" title="Ben Clingenpeel" />
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('light');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('light');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://bncling.github.io/">Ben Clingenpeel</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/animations/">Animations</a>
+          </li>
+          <li>
+            <a href="/math-wiki/">Math Wikis</a>
+          </li>
+          <li>
+            <a href="/posts/">Posts</a>
+          </li>
+          <li>
+            <a href="/tags/">Tags</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+<header class="page-header"><h1>Alphabetical List of Wiki Entries</h1></header>
+
+
+<p><a href="https://bncling.github.io/math-wiki/t1/"><span class="math inline">\(T_1\)</span> spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/t3/"><span class="math inline">\(T_3\)</span> spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/t4/"><span class="math inline">\(T_4\)</span> spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/t5/"><span class="math inline">\(T_5\)</span> spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/abelian/">Abelian Groups</a><br />
+<a href="https://bncling.github.io/math-wiki/affine_subsets/">Affine subsets</a><br />
+<a href="https://bncling.github.io/math-wiki/zarith/">Arithmetic progression topology</a><br />
+<a href="https://bncling.github.io/math-wiki/basis/">Basis for a topological space</a><br />
+<a href="https://bncling.github.io/math-wiki/top_basis/">Basis for a topological space</a><br />
+<a href="https://bncling.github.io/math-wiki/linalg_basis/">Basis of a vector space</a><br />
+<a href="https://bncling.github.io/math-wiki/bell_numbers/">Bell Numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/boundary/">Boundaries of sets</a><br />
+<a href="https://bncling.github.io/math-wiki/infty_sizes/">Cardinality and sizes of infinity</a><br />
+<a href="https://bncling.github.io/math-wiki/cardinality/">Cardinality</a><br />
+<a href="https://bncling.github.io/math-wiki/cartesian/">Cartesian products</a><br />
+<a href="https://bncling.github.io/math-wiki/catalan/">Catalan Numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/cayley_thm/">Cayley’s Theorem</a><br />
+<a href="https://bncling.github.io/math-wiki/centralizers/">Centralizers</a><br />
+<a href="https://bncling.github.io/math-wiki/closed_sets/">Closed sets</a><br />
+<a href="https://bncling.github.io/math-wiki/closure/">Closures</a><br />
+<a href="https://bncling.github.io/math-wiki/combinations/">Combinations</a><br />
+<a href="https://bncling.github.io/math-wiki/completely_normal/">Completely normal spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/complex_numbers/">Complex numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/continuity/">Continuity</a><br />
+<a href="https://bncling.github.io/math-wiki/coprime/">Coprime numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_cosets/">Cosets of a Subgroup</a><br />
+<a href="https://bncling.github.io/math-wiki/countable_complement_topology/">Countable complement topology</a><br />
+<a href="https://bncling.github.io/math-wiki/cyclic/">Cyclic Groups</a><br />
+<a href="https://bncling.github.io/math-wiki/demorgan/">DeMorgan’s Laws</a><br />
+<a href="https://bncling.github.io/math-wiki/topology_def/">Definition of a Topology</a><br />
+<a href="https://bncling.github.io/math-wiki/determinant/">Determinants</a><br />
+<a href="https://bncling.github.io/math-wiki/differentiation/">Differentiation and derivatives</a><br />
+<a href="https://bncling.github.io/math-wiki/linalg_dimension/">Dimension of a vector space</a><br />
+<a href="https://bncling.github.io/math-wiki/subspace_direct_sums/">Direct sums of subspaces</a><br />
+<a href="https://bncling.github.io/math-wiki/dirichlet_function/">Dirichlet’s function</a><br />
+<a href="https://bncling.github.io/math-wiki/discontinuities/">Discontinuities</a><br />
+<a href="https://bncling.github.io/math-wiki/equiv_rels/">Equivalence Relations</a><br />
+<a href="https://bncling.github.io/math-wiki/totient/">Euler’s Totient Function</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_edp/">External Direct Products</a><br />
+<a href="https://bncling.github.io/math-wiki/fields/">Fields</a><br />
+<a href="https://bncling.github.io/math-wiki/fine_coarse/">Fineness and Coarseness</a><br />
+<a href="https://bncling.github.io/math-wiki/finite_complement_topology/">Finite complement topology</a><br />
+<a href="https://bncling.github.io/math-wiki/function/">Functions</a><br />
+<a href="https://bncling.github.io/math-wiki/gcd/">Greatest Common Divisors</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_auto/">Group Automorphisms</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_morph/">Group Homomorphisms</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_iso_thms/">Group Isomorphism Theorems</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_presentations/">Group Presentations</a><br />
+<a href="https://bncling.github.io/math-wiki/groups/">Groups</a><br />
+<a href="https://bncling.github.io/math-wiki/hausdorff/">Hausdorff spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/heredity/">Heredity</a><br />
+<a href="https://bncling.github.io/math-wiki/indiscrete_topology/">Indiscrete topology</a><br />
+<a href="https://bncling.github.io/math-wiki/inf_sup/">Infimum and supremum</a><br />
+<a href="https://bncling.github.io/math-wiki/inj_surj_bij/">Injectivity, surjectivity, and bijectivity</a><br />
+<a href="https://bncling.github.io/math-wiki/integer_partitions/">Integer Partitions</a><br />
+<a href="https://bncling.github.io/math-wiki/integration/">Integration and integrals</a><br />
+<a href="https://bncling.github.io/math-wiki/interior/">Interior of a set</a><br />
+<a href="https://bncling.github.io/math-wiki/ivt/">Intermediate Value Theorem (IVT)</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_idp/">Internal Direct Products</a><br />
+<a href="https://bncling.github.io/math-wiki/invertibility/">Invertibility of linear maps</a><br />
+<a href="https://bncling.github.io/math-wiki/isolated_point/">Isolated points</a><br />
+<a href="https://bncling.github.io/math-wiki/k_topology/">K-topology</a><br />
+<a href="https://bncling.github.io/math-wiki/lagrange/">Lagrange’s Theorem</a><br />
+<a href="https://bncling.github.io/math-wiki/latin_squares/">Latin Squares</a><br />
+<a href="https://bncling.github.io/math-wiki/lcm/">Least Common Multiples</a><br />
+<a href="https://bncling.github.io/math-wiki/limit_points/">Limit points</a><br />
+<a href="https://bncling.github.io/math-wiki/limits/">Limits</a><br />
+<a href="https://bncling.github.io/math-wiki/linear_independence/">Linear (in)dependence</a><br />
+<a href="https://bncling.github.io/math-wiki/linear_combo/">Linear combinations</a><br />
+<a href="https://bncling.github.io/math-wiki/linear_maps/">Linear maps</a><br />
+<a href="https://bncling.github.io/math-wiki/lists/">Lists</a><br />
+<a href="https://bncling.github.io/math-wiki/matrices/">Matrices</a><br />
+<a href="https://bncling.github.io/math-wiki/top_selfstudy/">My Topology self-study work</a><br />
+<a href="https://bncling.github.io/math-wiki/natural_numbers/">Natural numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/nc_partitions/">Noncrossing Partitions</a><br />
+<a href="https://bncling.github.io/math-wiki/normal_subgroups/">Normal Subgroups</a><br />
+<a href="https://bncling.github.io/math-wiki/normal/">Normal spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/null_space/">Null spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/open_sets/">Open sets</a><br />
+<a href="https://bncling.github.io/math-wiki/operators/">Operators</a><br />
+<a href="https://bncling.github.io/math-wiki/order_topology/">Order Topology</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_element_order/">Order of an Element in a Group</a><br />
+<a href="https://bncling.github.io/math-wiki/orderings/">Order relations</a><br />
+<a href="https://bncling.github.io/math-wiki/perm_matrices/">Permutation Matrices</a><br />
+<a href="https://bncling.github.io/math-wiki/permutations/">Permutations</a><br />
+<a href="https://bncling.github.io/math-wiki/power_set/">Power sets</a><br />
+<a href="https://bncling.github.io/math-wiki/prime/">Prime Numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/map_products/">Products of linear maps</a><br />
+<a href="https://bncling.github.io/math-wiki/vspace_products/">Products of vector spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/quotient_groups/">Quotient Groups</a><br />
+<a href="https://bncling.github.io/math-wiki/vspace_quotients/">Quotients of vector spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/range/">Range</a><br />
+<a href="https://bncling.github.io/math-wiki/rational_numbers/">Rational numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/real_exponents/">Real number exponents</a><br />
+<a href="https://bncling.github.io/math-wiki/real_numbers/">Real numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/regular/">Regular spaces</a><br />
+<a href="https://bncling.github.io/math-wiki/relations/">Relations</a><br />
+<a href="https://bncling.github.io/math-wiki/sequence/">Sequences</a><br />
+<a href="https://bncling.github.io/math-wiki/set_partitions/">Set Partitions</a><br />
+<a href="https://bncling.github.io/math-wiki/simple_groups/">Simple Groups</a><br />
+<a href="https://bncling.github.io/math-wiki/solvable_groups/">Solvable Groups</a><br />
+<a href="https://bncling.github.io/math-wiki/span/">Span</a><br />
+<a href="https://bncling.github.io/math-wiki/stirling_numbers/">Stirling Numbers</a><br />
+<a href="https://bncling.github.io/math-wiki/subbasis/">Subbasis for a topological space</a><br />
+<a href="https://bncling.github.io/math-wiki/subgroups/">Subgroups</a><br />
+<a href="https://bncling.github.io/math-wiki/top_subspaces/">Subspaces in topology</a><br />
+<a href="https://bncling.github.io/math-wiki/linalg_subspaces/">Subspaces of a vector space</a><br />
+<a href="https://bncling.github.io/math-wiki/subspace_sums/">Sums of subspaces</a><br />
+<a href="https://bncling.github.io/math-wiki/linear_systems/">Systems of linear equations</a><br />
+<a href="https://bncling.github.io/math-wiki/alternating/">The Alternating Group</a><br />
+<a href="https://bncling.github.io/math-wiki/grp_center/">The Center of a Group</a><br />
+<a href="https://bncling.github.io/math-wiki/dihedral/">The Dihedral Group</a><br />
+<a href="https://bncling.github.io/math-wiki/double_headed_snake/">The Double Headed Snake</a><br />
+<a href="https://bncling.github.io/math-wiki/evt/">The Extreme Value Theorem (EVT)</a><br />
+<a href="https://bncling.github.io/math-wiki/gen_linear/">The General Linear Group</a><br />
+<a href="https://bncling.github.io/math-wiki/integer_group/">The Group of Integers</a><br />
+<a href="https://bncling.github.io/math-wiki/ints_modn/">The Group of Integers</a><br />
+<a href="https://bncling.github.io/math-wiki/unit_grp/">The Group of Units</a><br />
+<a href="https://bncling.github.io/math-wiki/klein4/">The Klein Four-group</a><br />
+<a href="https://bncling.github.io/math-wiki/moore_plane/">The Moore plane</a><br />
+<a href="https://bncling.github.io/math-wiki/lower_limit_topology/">The Sorgenfrey line</a><br />
+<a href="https://bncling.github.io/math-wiki/special_linear/">The Special Linear Group</a><br />
+<a href="https://bncling.github.io/math-wiki/symm_group/">The Symmetric Group</a><br />
+<a href="https://bncling.github.io/math-wiki/boundedness_thm/">The boundedness theorem</a><br />
+<a href="https://bncling.github.io/math-wiki/box_topology/">The box topology</a><br />
+<a href="https://bncling.github.io/math-wiki/completeness_axiom/">The completeness axiom</a><br />
+<a href="https://bncling.github.io/math-wiki/discrete_topology/">The discrete topology</a><br />
+<a href="https://bncling.github.io/math-wiki/dual_basis/">The dual basis</a><br />
+<a href="https://bncling.github.io/math-wiki/dual_map/">The dual map</a><br />
+<a href="https://bncling.github.io/math-wiki/dual_space/">The dual space</a><br />
+<a href="https://bncling.github.io/math-wiki/lex_square/">The lexicographically ordered square</a><br />
+<a href="https://bncling.github.io/math-wiki/product_topology/">The product topology</a><br />
+<a href="https://bncling.github.io/math-wiki/standard_topology/">The standard topology</a><br />
+<a href="https://bncling.github.io/math-wiki/top_sine/">The topologist’s sine curve</a><br />
+<a href="https://bncling.github.io/math-wiki/thomae/">Thomae’s function</a><br />
+<a href="https://bncling.github.io/math-wiki/vector_space/">Vector spaces</a><br />
+</p>
+</main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://bncling.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\Poly":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}",
+            "\\Sym":"\\text{Sym}",
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</html>
+
