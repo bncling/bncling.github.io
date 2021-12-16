@@ -6,7 +6,16 @@
     <description>Recent content in combinatorics on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catalan Numbers</title>
+      <link>https://bncling.github.io/math-wiki/catalan/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/catalan/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
     <item>
       <title>Integer Partitions</title>
       <link>https://bncling.github.io/math-wiki/integer_partitions/</link>
@@ -69,15 +78,6 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
       <description>Definition The \(n\)th Bell number, denoted \(B_n\) is the total number of ways of partitioning the set \([n]\).
 Properties The Bell numbers are given by the formula \[B_n = \sum_{k=0}^n \stirlingII{n}{k}\] where \(\stirlingII{n}{k}\) is the Stirling number of the second kind which counts the number of ways to partition \([n]\) into \(k\) nonempty parts.
 Theorem: For \(n \geq 1\), the bell numbers satisfy the recursion \[B_n = \sum_{k=0}^{n-1} \binom{n-1}{k} B_k.\]</description>
-    </item>
-    
-    <item>
-      <title>Catalan Numbers</title>
-      <link>https://bncling.github.io/math-wiki/catalan/</link>
-      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/catalan/</guid>
-      <description>Content coming soon.</description>
     </item>
     
     <item>

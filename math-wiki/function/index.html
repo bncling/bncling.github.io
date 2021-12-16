@@ -10,7 +10,7 @@
     <meta name="description" content="Also called maps.
 Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\). If \((a,b) \in f\), we write \(f(a)=b\).
 We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
-We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im (f)\).">
+We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im f\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -101,15 +101,19 @@ We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted 
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Functions</h1>
-    <div class="post-meta">December 8, 2021</div>
+    <div class="post-meta">December 16, 2021</div>
   </header>
   <div class="post-content"><p>Also called maps.</p>
 <h2 id="definitions">Definitions</h2>
 <p>A <strong>function</strong> <span class="math inline">\(f: \mathcal{D} \to \mathcal{C}\)</span> is a set of ordered pairs <span class="math inline">\((a,b)\)</span> where <span class="math inline">\(a \in \mathcal{D}\)</span> and <span class="math inline">\(b \in \mathcal{C}\)</span> with the property that if <span class="math inline">\((a,b) \in f\)</span> and <span class="math inline">\((a,c) \in f\)</span>, then <span class="math inline">\(b=c\)</span>. If <span class="math inline">\((a,b) \in f\)</span>, we write <span class="math inline">\(f(a)=b\)</span>.</p>
 <p>We call the set <span class="math inline">\(\mathcal{D}\)</span> the <strong>domain</strong> of <span class="math inline">\(f\)</span> and the set <span class="math inline">\(\mathcal{C}\)</span> the <strong>codomain</strong> of <span class="math inline">\(f\)</span>.</p>
-<p>We call the set <span class="math inline">\(\{f(x) \mid x \in \mathcal{D}\}\)</span> the <strong>image</strong> of <span class="math inline">\(f\)</span>, denoted <span class="math inline">\(\im (f)\)</span>.</p>
+<p>We call the set <span class="math inline">\(\{f(x) \mid x \in \mathcal{D}\}\)</span> the <strong>image</strong> of <span class="math inline">\(f\)</span>, denoted <span class="math inline">\(\im f\)</span>.</p>
 <p>If <span class="math inline">\(D\)</span> is a subset of the codomain <span class="math inline">\(\mathcal{D}\)</span>, then we call the set <span class="math inline">\(\{x \in \mathcal{C} \mid f(x) \in D \}\)</span> the <strong>preimage</strong> of <span class="math inline">\(D\)</span> under <span class="math inline">\(f\)</span>, denoted <span class="math inline">\(f\inv (D)\)</span>. If <span class="math inline">\(D\)</span> is a singleton <span class="math inline">\(\{d\}\)</span> for some <span class="math inline">\(d \in \mathcal{D}\)</span>, then we call its preimage the <strong>fiber</strong> of <span class="math inline">\(f\)</span> over <span class="math inline">\(d\)</span>.</p>
 <h2 id="examples">Examples</h2>
+On the left below, we have a function <span class="math inline">\(f: \mathcal{D} \to \mathcal{C}\)</span>, whereas on the right, there is an input point that is mapped to two different output points, that is, there exists an <span class="math inline">\(a \in \mathcal{D}\)</span> and <span class="math inline">\(b,c \in \mathcal{C}\)</span> such that <span class="math inline">\((a,b), (a,c) \in f\)</span> but <span class="math inline">\(b \neq c\)</span>, so <span class="math inline">\(f\)</span> in the image on the right is not a function.
+<center>
+<img src="/injection.png" title="fig" alt="inj" width="450" height=auto align="left"><img src="/not_function.png" title="fig" alt="bad" width="450" height=auto>
+</center>
 <p><strong>Polynomial</strong> functions are those of the form <span class="math display">\[p(x) = \sum_{k=0}^n a_k x^k.\]</span> We call <span class="math inline">\(n\)</span> the <strong>degree</strong> of the polynomial and <span class="math inline">\(a_n\)</span> the <strong>leading coefficient</strong> of the polynomial. The polynomial that is identically <span class="math inline">\(0\)</span> is said to have degree <span class="math inline">\(-\infty\)</span>.</p>
 <p><strong>Rational</strong> functions are those of the form <span class="math inline">\(r(x) = p(x)/q(x)\)</span> where <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> are polynomial functions. The domain of a rational function over the <a href="https://bncling.github.io/math-wiki/real_numbers/">real numbers</a> is the set <span class="math inline">\(\lbrace x \in \mathbb{R} \mid q(x) \neq 0 \rbrace\)</span>.</p>
 <p><strong><a href="https://bncling.github.io/math-wiki/dirichlet_function/">Dirichlet’s function</a></strong> is <span class="math display">\[D(x) = \begin{cases} 
