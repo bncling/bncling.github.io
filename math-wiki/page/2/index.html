@@ -105,6 +105,48 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Permutations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
+A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
+Two permutations are called discordant if they disagree everywhere.
+Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 10, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/permutations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Stirling Numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions The unsigned Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number permutations of \([n]\) with \(k\) cycles in their disjoint cycle decompositions. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
+Properties The (unsigned) Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-1}{k-1} &#43; (n-1) \stirlingI{n-1}{k},\] and we also have the following: \[\begin{align*} &amp;\stirlingI{n}{n} = 1 \\ &amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;\stirlingI{n}{k} = 0 \quad k &gt; n \end{align*}\]...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 10, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/stirling_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Permutation Matrices</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
+Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
+Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 9, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Vector spaces</h2>
   </header>
   <section class="entry-content">
@@ -193,50 +235,6 @@ Properties Noncrossing partitions of \([n]\) can be visually represented as a se
     <time>December 8, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/nc_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Quotient Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called factor groups.
-Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
-Properties The quotient group is a group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Set Partitions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A partition on a set \(X\) is a set \(\mathcal{P}\) of disjoint subsets of \(X\) such that \(X = \bigsqcup_{P \in \mathcal{P}} P\) where the sets \(P \in \mathcal{P}\) are called the parts of \(\mathcal{P}\).
-Properties The number of ways to partition a set of size \(n\) into exactly \(k\) nonempty parts is given by the stirling number of the second kind, \(\stirlingII{n}{k}\).
-The total number of ways to partition a set of size \(n\) is the \(n\)th Bell number....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/set_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Simple Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Building blocks.
-Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial proper normal subgroups.
-Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
-Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
-The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

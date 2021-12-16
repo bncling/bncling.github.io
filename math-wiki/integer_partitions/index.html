@@ -99,7 +99,7 @@ Properties The number of ways to partition the number \(n\) into \(k\) positive 
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Integer Partitions</h1>
-    <div class="post-meta">December 10, 2021</div>
+    <div class="post-meta">December 16, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>An <strong>integer partition</strong> of the number <span class="math inline">\(n\)</span> into <span class="math inline">\(k\)</span> parts is a writing of <span class="math inline">\(n\)</span> as a sum of <span class="math inline">\(k\)</span> positive integers <span class="math inline">\(n = a_1 + a_2 + \dots + a_k\)</span> where <span class="math inline">\(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\)</span>.</p>
@@ -115,11 +115,13 @@ Properties The number of ways to partition the number \(n\) into \(k\) positive 
 \end{align*}\]</span> along with the recursion <span class="math inline">\(p_k(n) = p_k(n-k) + p_{k-1}(n-1)\)</span>.</p>
 <p>The total number of ways to partition the number <span class="math inline">\(n\)</span> is given by <span class="math display">\[p(n) := \sum_{k=1}^n p_k(n).\]</span></p>
 <p>Integer partitions can be visually represented by <strong>Ferrers diagrams</strong> which have <span class="math inline">\(k\)</span> rows of lengths <span class="math inline">\(a_1\)</span>, <span class="math inline">\(a_2\)</span>, and so on (see the first example below).</p>
+<p>If we define the <span class="math inline">\(p_{\text{odd}}(n)\)</span> to be the number of ways to partition the number <span class="math inline">\(n\)</span> into only odd parts and <span class="math inline">\(p_{\text{dist}}(n)\)</span> to be the number of ways to partition the number <span class="math inline">\(n\)</span> into distinct parts, then we have a result that says <span class="math inline">\(p_{\text{odd}}(n) = p_{\text{dist}}(n)\)</span> for all <span class="math inline">\(n\)</span>.</p>
 <h2 id="examples">Examples</h2>
 An integer partition looks like <span class="math inline">\(7 = 3 + 2 + 2\)</span>, for example, which has Ferrers diagram
 <center>
 <img src="/322_ferrers.png" title="fig" alt="ferrers" width="500" height=auto>
 </center>
+<p>For <span class="math inline">\(n = 7\)</span>, we have that <span class="math inline">\(p_\text{odd}(7) = 5\)</span>, since <span class="math inline">\(7\)</span> can be partitioned into odd numbers as follows: <span class="math display">\[7 = 7, \quad 7 = 5 + 1 + 1, \quad 7 = 3 + 3 + 1, \quad 7 = 3 + 1 + 1 + 1 + 1, \quad 7 = 1 + 1 + 1 + 1 + 1 + 1 + 1,\]</span> and similarly, we have that <span class="math inline">\(p_\text{dist}(7) = 5\)</span> because <span class="math inline">\(7\)</span> can be partitioned into distinct numbers as follows: <span class="math display">\[7 = 7, \quad 7 = 6 + 1, \quad 7 = 5 + 2, \quad 7 = 4 + 3, \quad 7 = 4 + 2 + 1.\]</span></p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

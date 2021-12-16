@@ -6,7 +6,28 @@
     <description>Recent content in linear_algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Affine subsets</title>
+      <link>https://bncling.github.io/math-wiki/affine_subsets/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/affine_subsets/</guid>
+      <description>Definition An affine subset of a vector space \(V\) is a subset of the form \(v + U\) where \(v \in V\), \(U\) is a subspace of \(V\), and \[v + U = \{v + u \mid u \in U\}\] is the sum of the vector \(v\) and the space \(U\).
+For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v + U\) is parallel to \(U\).</description>
+    </item>
+    
+    <item>
+      <title>Subspaces of a vector space</title>
+      <link>https://bncling.github.io/math-wiki/linalg_subspaces/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linalg_subspaces/</guid>
+      <description>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
+Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
+ additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u + v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).</description>
+    </item>
+    
     <item>
       <title>Linear maps</title>
       <link>https://bncling.github.io/math-wiki/linear_maps/</link>
@@ -88,16 +109,6 @@ For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\)
       <guid>https://bncling.github.io/math-wiki/linear_systems/</guid>
       <description>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;amp;= 0 \\ &amp;amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
 An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;amp;= c_1 \\ &amp;amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero.</description>
-    </item>
-    
-    <item>
-      <title>Affine subsets</title>
-      <link>https://bncling.github.io/math-wiki/affine_subsets/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/affine_subsets/</guid>
-      <description>Definition An affine subset of a vector space \(V\) is a subset of the form \(v + U\) where \(v \in V\), \(U\) is a subspace of \(V\), and \[v + U = \{v + u \mid u \in U\}\] is the sum of the vector \(v\) and the space \(U\).
-For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v + U\) is parallel to \(U\).</description>
     </item>
     
     <item>
@@ -215,17 +226,6 @@ Properties (3.14) Proposition: If \(T \in \Lin(V,W)\), then \(\nl T\) is a subsp
       <guid>https://bncling.github.io/math-wiki/map_products/</guid>
       <description>Definition Let \(U\), \(V\), and \(W\) be vector spaces. If \(T \in \Lin(U, V)\) and \(S \in \Lin(V, W)\) are linear maps such that \(T\) maps \(U\) into the domain of \(S\), then we define the product \(ST \in \Lin(U, W)\) by \((ST)v = S(Tv)\), that is, \(ST\) is the composition \(S \circ T\) of the two maps.
 Properties Associativity. If \(T_1\), \(T_2\), and \(T_3\) are linear maps such that \(T_3\) maps into the domain of \(T_2\) which in turn maps into the domain of \(T_1\), then \((T_1 T_2) T_3 = T_1 (T_2 T_3)\).</description>
-    </item>
-    
-    <item>
-      <title>Subspaces of a vector space</title>
-      <link>https://bncling.github.io/math-wiki/linalg_subspaces/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linalg_subspaces/</guid>
-      <description>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
-Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
- additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u + v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).</description>
     </item>
     
     <item>

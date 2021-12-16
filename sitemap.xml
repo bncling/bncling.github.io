@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/math-wiki/affine_subsets/</loc>
+    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/tags/calculus/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,6 +20,21 @@
     <loc>https://bncling.github.io/math-wiki/function/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bncling.github.io/math-wiki/integer_partitions/</loc>
+    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/latin_squares/</loc>
+    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/linear_algebra/</loc>
+    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/syt/</loc>
+    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/linalg_subspaces/</loc>
+    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/tags/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -26,26 +44,17 @@
     <loc>https://bncling.github.io/math-wiki/linear_maps/</loc>
     <lastmod>2021-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/tags/linear_algebra/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/order_topology/</loc>
     <lastmod>2021-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/topology/</loc>
     <lastmod>2021-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/integer_partitions/</loc>
-    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/permutations/</loc>
     <lastmod>2021-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/stirling_numbers/</loc>
     <lastmod>2021-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/latin_squares/</loc>
-    <lastmod>2021-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/perm_matrices/</loc>
     <lastmod>2021-12-09T00:00:00+00:00</lastmod>
@@ -209,9 +218,6 @@
     <loc>https://bncling.github.io/math-wiki/linear_systems/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/affine_subsets/</loc>
-    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/dual_basis/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -243,9 +249,6 @@
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/map_products/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/linalg_subspaces/</loc>
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/subspace_sums/</loc>

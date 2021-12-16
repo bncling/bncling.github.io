@@ -105,6 +105,50 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Quotient Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Also called factor groups.
+Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
+Properties The quotient group is a group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Set Partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A partition on a set \(X\) is a set \(\mathcal{P}\) of disjoint subsets of \(X\) such that \(X = \bigsqcup_{P \in \mathcal{P}} P\) where the sets \(P \in \mathcal{P}\) are called the parts of \(\mathcal{P}\).
+Properties The number of ways to partition a set of size \(n\) into exactly \(k\) nonempty parts is given by the stirling number of the second kind, \(\stirlingII{n}{k}\).
+The total number of ways to partition a set of size \(n\) is the \(n\)th Bell number....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/set_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Simple Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Building blocks.
+Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial proper normal subgroups.
+Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
+Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
+The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Solvable Groups</h2>
   </header>
   <section class="entry-content">
@@ -196,46 +240,6 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
     <time>December 7, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lagrange&#39;s Theorem</h2>
-  </header>
-  <section class="entry-content">
-   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
-Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Normal Subgroups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
-Properties Proposition: The following are equivalent.
- \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Subgroups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &lt; G\) if \(H\) is a subgroup of \(G\).
-Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

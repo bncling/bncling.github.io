@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Affine subsets</title>
+      <link>https://bncling.github.io/math-wiki/affine_subsets/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/affine_subsets/</guid>
+      <description>Definition An affine subset of a vector space \(V\) is a subset of the form \(v + U\) where \(v \in V\), \(U\) is a subspace of \(V\), and \[v + U = \{v + u \mid u \in U\}\] is the sum of the vector \(v\) and the space \(U\).
+For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v + U\) is parallel to \(U\).</description>
+    </item>
+    
+    <item>
       <title>Catalan Numbers</title>
       <link>https://bncling.github.io/math-wiki/catalan/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
@@ -26,6 +36,46 @@
 Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\). If \((a,b) \in f\), we write \(f(a)=b\).
 We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
 We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im f\).</description>
+    </item>
+    
+    <item>
+      <title>Integer Partitions</title>
+      <link>https://bncling.github.io/math-wiki/integer_partitions/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/integer_partitions/</guid>
+      <description>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 + a_2 + \dots + a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
+Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the partition function \(p_k(n)\), which satisfies \[\begin{align*} &amp;amp;p_n(n) = 1 \\ &amp;amp;p_0(n) = 0 \quad n \geq 1 \\ &amp;amp;p_k(n) = 0 \quad k &amp;gt; n \\ &amp;amp;p_{n-1}(n) = 1 \\ &amp;amp;p_1(n) = 1 \\ &amp;amp;p_{n-2}(n) = 2 \\ &amp;amp;p_2(n) = \bigg \lfloor \frac{n}{2} \bigg \rfloor, \end{align*}\] along with the recursion \(p_k(n) = p_k(n-k) + p_{k-1}(n-1)\).</description>
+    </item>
+    
+    <item>
+      <title>Latin Squares</title>
+      <link>https://bncling.github.io/math-wiki/latin_squares/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/latin_squares/</guid>
+      <description>Definition A Latin square of order \(n\) is an \(n \times n\) array such that each row is a permutation of \([n]\) and all rows are pairwise discordant. (Though Latin squares can be formed out of any set of \(n\) elements, not just \([n]\)).
+The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \(A \otimes B\), has entries in \([n] \times [n]\) where \((A \otimes B)_{ij}\) is the pair \((A_{ij}, B_{ij})\).</description>
+    </item>
+    
+    <item>
+      <title>Standard Young Tableaux</title>
+      <link>https://bncling.github.io/math-wiki/syt/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/syt/</guid>
+      <description>Definitions A Young tableau is a Ferrers diagram filled in with all numbers \(1, \dots, n\). A standard Young tableau is a Young tableau in which the numbers \(1, \dots, n\) are arranged so that they are increasing left to right along rows and increasing top to bottom along columns. The tableau is said to have shape \(\lambda = (a_1, \dots, a_k)\) where \(n = a_1 + \dots + a_k\) is a partition of \(n\).</description>
+    </item>
+    
+    <item>
+      <title>Subspaces of a vector space</title>
+      <link>https://bncling.github.io/math-wiki/linalg_subspaces/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/linalg_subspaces/</guid>
+      <description>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
+Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
+ additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u + v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).</description>
     </item>
     
     <item>
@@ -60,16 +110,6 @@ Properties If \(X\) is a set totally ordered by a relation \(\leq\), then the or
     </item>
     
     <item>
-      <title>Integer Partitions</title>
-      <link>https://bncling.github.io/math-wiki/integer_partitions/</link>
-      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/integer_partitions/</guid>
-      <description>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 + a_2 + \dots + a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
-Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the partition function \(p_k(n)\), which satisfies \[\begin{align*} &amp;amp;p_n(n) = 1 \\ &amp;amp;p_0(n) = 0 \quad n \geq 1 \\ &amp;amp;p_k(n) = 0 \quad k &amp;gt; n \\ &amp;amp;p_{n-1}(n) = 1 \\ &amp;amp;p_1(n) = 1 \\ &amp;amp;p_{n-2}(n) = 2 \\ &amp;amp;p_2(n) = \bigg \lfloor \frac{n}{2} \bigg \rfloor, \end{align*}\] along with the recursion \(p_k(n) = p_k(n-k) + p_{k-1}(n-1)\).</description>
-    </item>
-    
-    <item>
       <title>Permutations</title>
       <link>https://bncling.github.io/math-wiki/permutations/</link>
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
@@ -89,16 +129,6 @@ Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic sh
       <guid>https://bncling.github.io/math-wiki/stirling_numbers/</guid>
       <description>Definitions The unsigned Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number permutations of \([n]\) with \(k\) cycles in their disjoint cycle decompositions. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
 Properties The (unsigned) Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-1}{k-1} + (n-1) \stirlingI{n-1}{k},\] and we also have the following: \[\begin{align*} &amp;amp;\stirlingI{n}{n} = 1 \\ &amp;amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;amp;\stirlingI{n}{k} = 0 \quad k &amp;gt; n \end{align*}\]</description>
-    </item>
-    
-    <item>
-      <title>Latin Squares</title>
-      <link>https://bncling.github.io/math-wiki/latin_squares/</link>
-      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/latin_squares/</guid>
-      <description>Definition A Latin square of order \(n\) is an \(n \times n\) array such that each row is a permutation of \([n]\) and all rows are pairwise discordant. (Though Latin squares can be formed out of any set of \(n\) elements, not just \([n]\)).
-The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \(A \otimes B\), has entries in \([n] \times [n]\) where \((A \otimes B)_{ij}\) is the pair \((A_{ij}, B_{ij})\).</description>
     </item>
     
     <item>
@@ -632,16 +662,6 @@ An inhomogeneous system of linear equations is a system consisting of \(m\) line
     </item>
     
     <item>
-      <title>Affine subsets</title>
-      <link>https://bncling.github.io/math-wiki/affine_subsets/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/affine_subsets/</guid>
-      <description>Definition An affine subset of a vector space \(V\) is a subset of the form \(v + U\) where \(v \in V\), \(U\) is a subspace of \(V\), and \[v + U = \{v + u \mid u \in U\}\] is the sum of the vector \(v\) and the space \(U\).
-For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v + U\) is parallel to \(U\).</description>
-    </item>
-    
-    <item>
       <title>The dual basis</title>
       <link>https://bncling.github.io/math-wiki/dual_basis/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
@@ -756,17 +776,6 @@ Properties (3.14) Proposition: If \(T \in \Lin(V,W)\), then \(\nl T\) is a subsp
       <guid>https://bncling.github.io/math-wiki/map_products/</guid>
       <description>Definition Let \(U\), \(V\), and \(W\) be vector spaces. If \(T \in \Lin(U, V)\) and \(S \in \Lin(V, W)\) are linear maps such that \(T\) maps \(U\) into the domain of \(S\), then we define the product \(ST \in \Lin(U, W)\) by \((ST)v = S(Tv)\), that is, \(ST\) is the composition \(S \circ T\) of the two maps.
 Properties Associativity. If \(T_1\), \(T_2\), and \(T_3\) are linear maps such that \(T_3\) maps into the domain of \(T_2\) which in turn maps into the domain of \(T_1\), then \((T_1 T_2) T_3 = T_1 (T_2 T_3)\).</description>
-    </item>
-    
-    <item>
-      <title>Subspaces of a vector space</title>
-      <link>https://bncling.github.io/math-wiki/linalg_subspaces/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/linalg_subspaces/</guid>
-      <description>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
-Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
- additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u + v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\).</description>
     </item>
     
     <item>
