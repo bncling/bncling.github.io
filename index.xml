@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The Center of a Group</title>
+      <link>https://bncling.github.io/math-wiki/grp_center/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/grp_center/</guid>
+      <description>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
+Properties If \(G\) is an abelian group, then \(Z(G) = G\).
+The center of \(G\) is always a normal subgroup of \(G\).
+The center of \(G\) is the intersection of the centralizers of all of its elements: \[Z(G) = \bigcap_{g \in G} C(g).</description>
+    </item>
+    
+    <item>
       <title>The Integers mod $n$</title>
       <link>https://bncling.github.io/math-wiki/ints_modn/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
@@ -412,18 +424,6 @@ For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in
       
       <guid>https://bncling.github.io/math-wiki/lcm/</guid>
       <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>The Center of a Group</title>
-      <link>https://bncling.github.io/math-wiki/grp_center/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/grp_center/</guid>
-      <description>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
-Properties If \(G\) is an abelian group, then \(Z(G) = G\).
-The center of \(G\) is always a normal subgroup of \(G\).
-Examples The center of \(D_n\) is trivial if \(n\) is odd, and equal to \(\{e,r^{n/2}\}\) if \(n\) is even.</description>
     </item>
     
     <item>
