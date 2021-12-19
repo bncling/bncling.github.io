@@ -105,6 +105,58 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Latin Squares</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A Latin square of order \(n\) is an \(n \times n\) array such that each row is a permutation of \([n]\) and all rows are pairwise discordant. (Though Latin squares can be formed out of any set of \(n\) elements, not just \([n]\)).
+The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \(A \otimes B\), has entries in \([n] \times [n]\) where \((A \otimes B)_{ij}\) is the pair \((A_{ij}, B_{ij})\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 16, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/latin_squares/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Standard Young Tableaux</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A Young tableau is a Ferrers diagram filled in with all numbers \(1, \dots, n\). A standard Young tableau is a Young tableau in which the numbers \(1, \dots, n\) are arranged so that they are increasing left to right along rows and increasing top to bottom along columns. The tableau is said to have shape \(\lambda = (a_1, \dots, a_k)\) where \(n = a_1 &#43; \dots &#43; a_k\) is a partition of \(n\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 16, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/syt/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Subspaces of a vector space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
+Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
+ additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u &#43; v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 16, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_subspaces/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Definition of a Topology</h2>
+  </header>
+  <section class="entry-content">
+   <p>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
+Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 15, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/topology_def/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Linear maps</h2>
   </header>
   <section class="entry-content">
@@ -184,59 +236,6 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
     <time>December 9, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/vector_space/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Bell Numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The \(n\)th Bell number, denoted \(B_n\) is the total number of ways of partitioning the set \([n]\).
-Properties The Bell numbers are given by the formula \[B_n = \sum_{k=0}^n \stirlingII{n}{k}\] where \(\stirlingII{n}{k}\) is the Stirling number of the second kind which counts the number of ways to partition \([n]\) into \(k\) nonempty parts.
-Theorem: For \(n \geq 1\), the bell numbers satisfy the recursion \[B_n = \sum_{k=0}^{n-1} \binom{n-1}{k} B_k.\]...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/bell_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Combinations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/combinations/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cosets of a Subgroup</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
- \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Equivalence Relations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
-The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
-Properties The equivalence classes of a relation \(R\) partition the set \(S\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/equiv_rels/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

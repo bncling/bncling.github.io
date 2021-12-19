@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bncling.github.io/tags/algebra/</loc>
-    <lastmod>2021-12-18T00:00:00+00:00</lastmod>
+    <loc>https://bncling.github.io/math-wiki/annihilators/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/linear_algebra/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/matrix_rank/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/dual_map/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/matrix_transpose/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/algebra/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/grp_center/</loc>
@@ -36,9 +51,6 @@
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/latin_squares/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/linear_algebra/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/syt/</loc>
@@ -208,9 +220,6 @@
   </url><url>
     <loc>https://bncling.github.io/math-wiki/gcd/</loc>
     <lastmod>2021-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/dual_map/</loc>
-    <lastmod>2021-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/vspace_quotients/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>

@@ -101,6 +101,60 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Annihilators</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(U\) be a subset of \(V\), a vector space. Then the annihilator of \(U\), denoted \(U^0\), is the set \[U^0 = \{\varphi \in V&#39; \mid \varphi(u) = 0 \,\, \forall u \in U\}\] where \(V&#39;\) is the dual space of \(V\) and \(\varphi\) is therefore a linear functional.
+Properties (3.105) Proposition: If \(U \subset V\), then \(U^0\) is a subspace of \(V&#39;\).
+(3.106) Theorem: If \(V\) is finite-dimensional with subspace \(U\), then \(\dim \, U &#43; \dim \, U^0 = \dim \, V\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 19, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/annihilators/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Rank of a Matrix</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \(A \in \F^{m,n}\) be a matrix. Then the row rank of \(A\) is the dimension of the span of the rows of \(A\) (thought of as matrices in \(\F^{1,n}\)), and the column rank of \(A\) is the dimension of the span of the columns of \(A\) (thought of as matrices in \(\F^{m,1}\)).
+Properties (3.117) Proposition: The column rank of \(A\) is the dimension of the range of \(T\), where \(T\) is the linear map that \(A\) represents....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 19, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrix_rank/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The dual map</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&#39;: W&#39; \to V&#39;\) is defined by \(T&#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&#39;\) where \(V&#39;\) and \(W&#39;\) are the dual spaces of \(V\) and \(W\).
+Properties The map \(T&#39;\) is linear since it is the composition of a linear map and a linear functional....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 19, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_map/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Transpose of a Matrix</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(A \in \F^{m,n}\) be a matrix. We define its transpose, denoted \(A^t\), to be the matrix in \(\F^{n,m}\) obtained by interchanging the rows and columns of \(A\). That is, the entries of \(A^t\) are \((A^t)_{k,j} = A_{j,k}\), i.e., the \((k,j)\)th entry of \(A^t\) is the \((j,k)\)th entry of \(A\).
+Properties (3.113) Proposition: Let \(A \in \F^{m,n}\) and \(B \in \F^{n,p}\) be matrices. Then \((AB)^t = B^t A^t\).
+(3.114) Theorem: Let \(T \in \Lin(V,W)\) be a linear map....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 19, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrix_transpose/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Affine subsets</h2>
   </header>
   <section class="entry-content">
@@ -179,59 +233,6 @@ Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a su
     <time>December 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/range/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Matrices</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp; \dots &amp; a_{1,n} \\ \vdots &amp; \ddots &amp; \vdots \\ a_{m,1} &amp; \dots &amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
-For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrices/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The dual map</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&#39;: W&#39; \to V&#39;\) is defined by \(T&#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&#39;\) where \(V&#39;\) and \(W&#39;\) are the dual spaces of \(V\) and \(W\).
-Properties The map \(T&#39;\) is linear since it is the composition of a linear map and a linear functional....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>October 13, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_map/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Quotients of vector spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>They are themselves also vector spaces.
-Definitions Let \(U\) be a subspace of a vector space \(V\). The quotient space \(V / U\) is the set of all affine subsets of \(V\) parallel to \(U\). That is, \[V / U = \{v &#43; U \mid v \in V\}.\]
-For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\) is a linear map defined by \(\pi(v) = v &#43; U\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 18, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/vspace_quotients/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Systems of linear equations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
-An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 18, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_systems/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

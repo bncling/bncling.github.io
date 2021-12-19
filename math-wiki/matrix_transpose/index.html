@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>The dual map - Ben Clingenpeel</title>
+    <title>Transpose of a Matrix - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&#39;: W&#39; \to V&#39;\) is defined by \(T&#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&#39;\) where \(V&#39;\) and \(W&#39;\) are the dual spaces of \(V\) and \(W\).
-Properties The map \(T&#39;\) is linear since it is the composition of a linear map and a linear functional.">
+    <meta name="description" content="Definition Let \(A \in \F^{m,n}\) be a matrix. We define its transpose, denoted \(A^t\), to be the matrix in \(\F^{n,m}\) obtained by interchanging the rows and columns of \(A\). That is, the entries of \(A^t\) are \((A^t)_{k,j} = A_{j,k}\), i.e., the \((k,j)\)th entry of \(A^t\) is the \((j,k)\)th entry of \(A\).
+Properties (3.113) Proposition: Let \(A \in \F^{m,n}\) and \(B \in \F^{n,p}\) be matrices. Then \((AB)^t = B^t A^t\).
+(3.114) Theorem: Let \(T \in \Lin(V,W)\) be a linear map.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -98,26 +99,16 @@ Properties The map \(T&#39;\) is linear since it is the composition of a linear 
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">The dual map</h1>
+    <h1 class="post-title">Transpose of a Matrix</h1>
     <div class="post-meta">December 19, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> be <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> and let <span class="math inline">\(T \in \Lin(V, W)\)</span> be a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>. Then the <strong>dual map</strong> <span class="math inline">\(T&#39;: W&#39; \to V&#39;\)</span> is defined by <span class="math inline">\(T&#39; (\varphi) = \varphi \circ T\)</span> for <span class="math inline">\(\varphi \in W&#39;\)</span> where <span class="math inline">\(V&#39;\)</span> and <span class="math inline">\(W&#39;\)</span> are the <a href="https://bncling.github.io/math-wiki/dual_space/">dual spaces</a> of <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span>.</p>
+<p>Let <span class="math inline">\(A \in \F^{m,n}\)</span> be a <a href="https://bncling.github.io/math-wiki/matrices/">matrix</a>. We define its <strong>transpose</strong>, denoted <span class="math inline">\(A^t\)</span>, to be the matrix in <span class="math inline">\(\F^{n,m}\)</span> obtained by interchanging the rows and columns of <span class="math inline">\(A\)</span>. That is, the entries of <span class="math inline">\(A^t\)</span> are <span class="math inline">\((A^t)_{k,j} = A_{j,k}\)</span>, i.e., the <span class="math inline">\((k,j)\)</span>th entry of <span class="math inline">\(A^t\)</span> is the <span class="math inline">\((j,k)\)</span>th entry of <span class="math inline">\(A\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p>The map <span class="math inline">\(T&#39;\)</span> is linear since it is the composition of a linear map and a <a href="https://bncling.github.io/math-wiki/dual_space/">linear functional</a>.</p>
-<p>The map <span class="math inline">\(&#39;: \Lin(V, W) \to \Lin(W&#39;, V&#39;)\)</span> is itself a linear map since if <span class="math inline">\(T, S \in \Lin(V, W)\)</span> and <span class="math inline">\(a \in \F\)</span>,</p>
-<ul>
-<li><span class="math inline">\((T + S)&#39; = T&#39; + S&#39;\)</span>;</li>
-<li><span class="math inline">\((aT)&#39; = aT&#39;\)</span>.</li>
-</ul>
-<p><strong>(3.107, 3.109) Theorem:</strong> If <span class="math inline">\(T \in \mathcal{L} (V,W)\)</span> is a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>, then <span class="math inline">\(\nl T&#39; = (\range T)^0\)</span>, where <span class="math inline">\((\range T)^0\)</span> is the <a href="https://bncling.github.io/math-wiki/annihilators/">annihilator</a> of <span class="math inline">\(\range T\)</span>. Similarly, <span class="math inline">\(\range T&#39; = (\nl T)^0\)</span>. Because of this, we also have the following result about the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of these spaces:</p>
-<ul>
-<li><span class="math inline">\(\dim \, \nl T&#39; = \dim \, \nl T + \dim \, W + \dim \, V\)</span>, and</li>
-<li><span class="math inline">\(\dim \, \range T&#39; = \dim \, \range T\)</span>.</li>
-</ul>
-<p><strong>(3.101) Proposition:</strong> If <span class="math inline">\(T \in \Lin(U, V)\)</span> and <span class="math inline">\(S \in \Lin(V, W)\)</span>, then <span class="math inline">\((ST)&#39; = T&#39;S&#39;\)</span>.</p>
-<p><strong>(3.108, 3.110) Proposition:</strong> If <span class="math inline">\(T \in \Lin(V,W)\)</span>, then <span class="math inline">\(T\)</span> is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> if and only if <span class="math inline">\(T&#39;\)</span> is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjective</a>, and similarly, <span class="math inline">\(T\)</span> is surjective if and only if <span class="math inline">\(T&#39;\)</span> is injective.</p>
-<p><strong>(3.114) Theorem:</strong> Let <span class="math inline">\(T \in \Lin(V,W)\)</span> be a linear map. Then the <a href="https://bncling.github.io/math-wiki/matrices/">matrix</a> of the dual map <span class="math inline">\(T&#39;\)</span> is <span class="math inline">\(\M(T&#39;) = (\M(T))^t\)</span>, the <a href="https://bncling.github.io/math-wiki/matrix_transpose/">transpose</a> of the matrix of <span class="math inline">\(T\)</span>.</p>
+<p><strong>(3.113) Proposition:</strong> Let <span class="math inline">\(A \in \F^{m,n}\)</span> and <span class="math inline">\(B \in \F^{n,p}\)</span> be matrices. Then <span class="math inline">\((AB)^t = B^t A^t\)</span>.</p>
+<p><strong>(3.114) Theorem:</strong> Let <span class="math inline">\(T \in \Lin(V,W)\)</span> be a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>. Then the matrix of the <a href="https://bncling.github.io/math-wiki/dual_map/">dual map</a> <span class="math inline">\(T&#39;\)</span> is <span class="math inline">\(\M(T&#39;) = (\M(T))^t\)</span>, the transpose of the matrix of <span class="math inline">\(T\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p><span class="math display">\[A = \begin{pmatrix} 5 &amp; -7 \\ 3 &amp; 8 \\ -4 &amp; 2 \end{pmatrix} \implies A^t = \begin{pmatrix} 5 &amp; 3 &amp; 4 \\ -7 &amp; 8 &amp; 2 \end{pmatrix}\]</span></p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

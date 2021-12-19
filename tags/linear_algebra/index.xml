@@ -6,7 +6,49 @@
     <description>Recent content in linear_algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Annihilators</title>
+      <link>https://bncling.github.io/math-wiki/annihilators/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/annihilators/</guid>
+      <description>Definition Let \(U\) be a subset of \(V\), a vector space. Then the annihilator of \(U\), denoted \(U^0\), is the set \[U^0 = \{\varphi \in V&amp;#39; \mid \varphi(u) = 0 \,\, \forall u \in U\}\] where \(V&amp;#39;\) is the dual space of \(V\) and \(\varphi\) is therefore a linear functional.
+Properties (3.105) Proposition: If \(U \subset V\), then \(U^0\) is a subspace of \(V&amp;#39;\).
+(3.106) Theorem: If \(V\) is finite-dimensional with subspace \(U\), then \(\dim \, U + \dim \, U^0 = \dim \, V\).</description>
+    </item>
+    
+    <item>
+      <title>Rank of a Matrix</title>
+      <link>https://bncling.github.io/math-wiki/matrix_rank/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/matrix_rank/</guid>
+      <description>Definitions Let \(A \in \F^{m,n}\) be a matrix. Then the row rank of \(A\) is the dimension of the span of the rows of \(A\) (thought of as matrices in \(\F^{1,n}\)), and the column rank of \(A\) is the dimension of the span of the columns of \(A\) (thought of as matrices in \(\F^{m,1}\)).
+Properties (3.117) Proposition: The column rank of \(A\) is the dimension of the range of \(T\), where \(T\) is the linear map that \(A\) represents.</description>
+    </item>
+    
+    <item>
+      <title>The dual map</title>
+      <link>https://bncling.github.io/math-wiki/dual_map/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dual_map/</guid>
+      <description>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&amp;#39;: W&amp;#39; \to V&amp;#39;\) is defined by \(T&amp;#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&amp;#39;\) where \(V&amp;#39;\) and \(W&amp;#39;\) are the dual spaces of \(V\) and \(W\).
+Properties The map \(T&amp;#39;\) is linear since it is the composition of a linear map and a linear functional.</description>
+    </item>
+    
+    <item>
+      <title>Transpose of a Matrix</title>
+      <link>https://bncling.github.io/math-wiki/matrix_transpose/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/matrix_transpose/</guid>
+      <description>Definition Let \(A \in \F^{m,n}\) be a matrix. We define its transpose, denoted \(A^t\), to be the matrix in \(\F^{n,m}\) obtained by interchanging the rows and columns of \(A\). That is, the entries of \(A^t\) are \((A^t)_{k,j} = A_{j,k}\), i.e., the \((k,j)\)th entry of \(A^t\) is the \((j,k)\)th entry of \(A\).
+Properties (3.113) Proposition: Let \(A \in \F^{m,n}\) and \(B \in \F^{n,p}\) be matrices. Then \((AB)^t = B^t A^t\).
+(3.114) Theorem: Let \(T \in \Lin(V,W)\) be a linear map.</description>
+    </item>
+    
     <item>
       <title>Affine subsets</title>
       <link>https://bncling.github.io/math-wiki/affine_subsets/</link>
@@ -78,16 +120,6 @@ Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a su
       <guid>https://bncling.github.io/math-wiki/matrices/</guid>
       <description>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp;amp; \dots &amp;amp; a_{1,n} \\ \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{m,1} &amp;amp; \dots &amp;amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
 For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\).</description>
-    </item>
-    
-    <item>
-      <title>The dual map</title>
-      <link>https://bncling.github.io/math-wiki/dual_map/</link>
-      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/dual_map/</guid>
-      <description>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&amp;#39;: W&amp;#39; \to V&amp;#39;\) is defined by \(T&amp;#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&amp;#39;\) where \(V&amp;#39;\) and \(W&amp;#39;\) are the dual spaces of \(V\) and \(W\).
-Properties The map \(T&amp;#39;\) is linear since it is the composition of a linear map and a linear functional.</description>
     </item>
     
     <item>

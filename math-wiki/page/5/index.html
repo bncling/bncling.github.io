@@ -105,6 +105,59 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>The Symmetric Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
+The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
+Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Cyclic Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
+Properties All cyclic groups are abelian.
+If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>External Direct Products</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
+For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Least Common Multiples</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lcm/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Cayley&#39;s Theorem</h2>
   </header>
   <section class="entry-content">
@@ -178,64 +231,6 @@ If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
     <time>December 5, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Range</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also known as the image…
-Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The range of \(T\), denoted \(\range T\), is the subset of \(W\) containing vectors of the form \(Tv\) for some \(v \in V\), that is, \[\range T = \{Tv \mid v \in V\}.\]
-Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a subspace of \(W\).
-(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T &#43; \dim \, \range T,\] where \(\nl T\) denotes the null space of \(T\) and \(\dim V\) is the dimension of the space \(V\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/range/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The General Linear Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The general linear group, denoted \(GL_n(\F)\), is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/gen_linear/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Group of Units</h2>
-  </header>
-  <section class="entry-content">
-   <p>Sometimes denoted \(\Z_n^\times\).
-Definition The group of units mod \(n\), denoted \(U(n)\), is a finite group formed by removing the non-invertible elements of \(\Z_n\) (which are equivalence classes) under multiplication.
-Properties The group of units is an abelian group since multiplcation of equivalence classes is commutative.
-The group of units mod \(n\) is not always cyclic in general, but if \(n\) is \(2\), \(4\), \(p^k\), or \(2p^k\) for a prime \(p\) and natural number \(k\), then it is cyclic becuase the group has a generator....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/unit_grp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Klein Four-group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The Klein four-group is a group that can be thought of in many ways, one of which is as the external direct product \(\Z_2 \times \Z_2\), and is typically denoted by \(V\).
-Properties The group is abelian.
-Every non-identity element has order \(2\).
-Examples The group can also be thought of as being given by the group presentation \(\langle a,b \mid a^2, b^2, (ab)^2 \rangle\).
-Alternatively, the group can be thought of as the subgroup of the general linear group \(GL_2(\R)\) given by \[V = \left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} \right\}....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/klein4/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

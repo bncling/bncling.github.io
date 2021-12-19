@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>The dual map - Ben Clingenpeel</title>
+    <title>Annihilators - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&#39;: W&#39; \to V&#39;\) is defined by \(T&#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&#39;\) where \(V&#39;\) and \(W&#39;\) are the dual spaces of \(V\) and \(W\).
-Properties The map \(T&#39;\) is linear since it is the composition of a linear map and a linear functional.">
+    <meta name="description" content="Definition Let \(U\) be a subset of \(V\), a vector space. Then the annihilator of \(U\), denoted \(U^0\), is the set \[U^0 = \{\varphi \in V&#39; \mid \varphi(u) = 0 \,\, \forall u \in U\}\] where \(V&#39;\) is the dual space of \(V\) and \(\varphi\) is therefore a linear functional.
+Properties (3.105) Proposition: If \(U \subset V\), then \(U^0\) is a subspace of \(V&#39;\).
+(3.106) Theorem: If \(V\) is finite-dimensional with subspace \(U\), then \(\dim \, U &#43; \dim \, U^0 = \dim \, V\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -98,26 +99,18 @@ Properties The map \(T&#39;\) is linear since it is the composition of a linear 
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">The dual map</h1>
+    <h1 class="post-title">Annihilators</h1>
     <div class="post-meta">December 19, 2021</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span> be <a href="https://bncling.github.io/math-wiki/vector_space/">vector spaces</a> and let <span class="math inline">\(T \in \Lin(V, W)\)</span> be a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>. Then the <strong>dual map</strong> <span class="math inline">\(T&#39;: W&#39; \to V&#39;\)</span> is defined by <span class="math inline">\(T&#39; (\varphi) = \varphi \circ T\)</span> for <span class="math inline">\(\varphi \in W&#39;\)</span> where <span class="math inline">\(V&#39;\)</span> and <span class="math inline">\(W&#39;\)</span> are the <a href="https://bncling.github.io/math-wiki/dual_space/">dual spaces</a> of <span class="math inline">\(V\)</span> and <span class="math inline">\(W\)</span>.</p>
+<p>Let <span class="math inline">\(U\)</span> be a subset of <span class="math inline">\(V\)</span>, a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a>. Then the <strong>annihilator</strong> of <span class="math inline">\(U\)</span>, denoted <span class="math inline">\(U^0\)</span>, is the set <span class="math display">\[U^0 = \{\varphi \in V&#39; \mid \varphi(u) = 0 \,\, \forall u \in U\}\]</span> where <span class="math inline">\(V&#39;\)</span> is the <a href="https://bncling.github.io/math-wiki/dual_space/">dual space</a> of <span class="math inline">\(V\)</span> and <span class="math inline">\(\varphi\)</span> is therefore a linear functional.</p>
 <h2 id="properties">Properties</h2>
-<p>The map <span class="math inline">\(T&#39;\)</span> is linear since it is the composition of a linear map and a <a href="https://bncling.github.io/math-wiki/dual_space/">linear functional</a>.</p>
-<p>The map <span class="math inline">\(&#39;: \Lin(V, W) \to \Lin(W&#39;, V&#39;)\)</span> is itself a linear map since if <span class="math inline">\(T, S \in \Lin(V, W)\)</span> and <span class="math inline">\(a \in \F\)</span>,</p>
-<ul>
-<li><span class="math inline">\((T + S)&#39; = T&#39; + S&#39;\)</span>;</li>
-<li><span class="math inline">\((aT)&#39; = aT&#39;\)</span>.</li>
-</ul>
-<p><strong>(3.107, 3.109) Theorem:</strong> If <span class="math inline">\(T \in \mathcal{L} (V,W)\)</span> is a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>, then <span class="math inline">\(\nl T&#39; = (\range T)^0\)</span>, where <span class="math inline">\((\range T)^0\)</span> is the <a href="https://bncling.github.io/math-wiki/annihilators/">annihilator</a> of <span class="math inline">\(\range T\)</span>. Similarly, <span class="math inline">\(\range T&#39; = (\nl T)^0\)</span>. Because of this, we also have the following result about the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of these spaces:</p>
-<ul>
-<li><span class="math inline">\(\dim \, \nl T&#39; = \dim \, \nl T + \dim \, W + \dim \, V\)</span>, and</li>
-<li><span class="math inline">\(\dim \, \range T&#39; = \dim \, \range T\)</span>.</li>
-</ul>
-<p><strong>(3.101) Proposition:</strong> If <span class="math inline">\(T \in \Lin(U, V)\)</span> and <span class="math inline">\(S \in \Lin(V, W)\)</span>, then <span class="math inline">\((ST)&#39; = T&#39;S&#39;\)</span>.</p>
-<p><strong>(3.108, 3.110) Proposition:</strong> If <span class="math inline">\(T \in \Lin(V,W)\)</span>, then <span class="math inline">\(T\)</span> is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> if and only if <span class="math inline">\(T&#39;\)</span> is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjective</a>, and similarly, <span class="math inline">\(T\)</span> is surjective if and only if <span class="math inline">\(T&#39;\)</span> is injective.</p>
-<p><strong>(3.114) Theorem:</strong> Let <span class="math inline">\(T \in \Lin(V,W)\)</span> be a linear map. Then the <a href="https://bncling.github.io/math-wiki/matrices/">matrix</a> of the dual map <span class="math inline">\(T&#39;\)</span> is <span class="math inline">\(\M(T&#39;) = (\M(T))^t\)</span>, the <a href="https://bncling.github.io/math-wiki/matrix_transpose/">transpose</a> of the matrix of <span class="math inline">\(T\)</span>.</p>
+<p><strong>(3.105) Proposition:</strong> If <span class="math inline">\(U \subset V\)</span>, then <span class="math inline">\(U^0\)</span> is a <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspace</a> of <span class="math inline">\(V&#39;\)</span>.</p>
+<p><strong>(3.106) Theorem:</strong> If <span class="math inline">\(V\)</span> is <a href="https://bncling.github.io/math-wiki/linalg_dimension/">finite-dimensional</a> with subspace <span class="math inline">\(U\)</span>, then <span class="math inline">\(\dim \, U + \dim \, U^0 = \dim \, V\)</span>.</p>
+<p><strong>(3.107, 3.109) Theorem:</strong> If <span class="math inline">\(T \in \mathcal{L} (V,W)\)</span> is a <a href="https://bncling.github.io/math-wiki/linear_maps/">linear map</a>, then <span class="math inline">\(\nl T&#39; = (\range T)^0\)</span>, where <span class="math inline">\(T&#39;\)</span> is the <a href="https://bncling.github.io/math-wiki/dual_map/">dual map</a> of <span class="math inline">\(T\)</span>. Similarly, <span class="math inline">\(\range T&#39; = (\nl T)^0\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>The annihilator of the set containing only the zero vector is the entire dual space <span class="math inline">\(V&#39;\)</span> since every element of <span class="math inline">\(V&#39;\)</span> is a linear functional taking the zero vector to the zero vector. Similarly, the annihilator of the entire vector space <span class="math inline">\(V\)</span> is just the zero vector because the only linear functional in <span class="math inline">\(V&#39;\)</span> that is identically zero for all possible <span class="math inline">\(v \in V\)</span> is the zero map.</p>
+<p>The set <span class="math inline">\(x^2 \Poly(\R)\)</span> of polynomials over <span class="math inline">\(\R\)</span> with factors of <span class="math inline">\(x^2\)</span> is a subset of <span class="math inline">\(\Poly(\R)\)</span>, and the linear functional <span class="math inline">\(\varphi \in \Lin(\Poly(\R), \R)\)</span> given by <span class="math inline">\(\varphi(p) = p&#39;(0)\)</span> is an example of an element of the annihilator <span class="math inline">\((x^2 \Poly(\R))^0\)</span>. Let <span class="math inline">\(p \in x^2 \Poly(\R)\)</span>. Then <span class="math inline">\(p(x)\)</span> can be rewritten as <span class="math inline">\(x^2 q(x)\)</span> for some <span class="math inline">\(q \in \Poly(R)\)</span>. Then <span class="math display">\[p&#39;(x) = (x^2 q(x))&#39; = 2x q(x) + x^2q&#39;(x),\]</span> and so <span class="math inline">\(\varphi(p) = p&#39;(0) = 2(0) q(0) + (0)^2 q&#39;(0) = 0\)</span>, meaning <span class="math inline">\(\varphi\)</span> is indeed an element of the annihilator <span class="math inline">\((x^2 \Poly(\R))^0\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
