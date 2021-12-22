@@ -105,6 +105,48 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>The dual map</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&#39;: W&#39; \to V&#39;\) is defined by \(T&#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&#39;\) where \(V&#39;\) and \(W&#39;\) are the dual spaces of \(V\) and \(W\).
+Properties The map \(T&#39;\) is linear since it is the composition of a linear map and a linear functional....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 19, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_map/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Transpose of a Matrix</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(A \in \F^{m,n}\) be a matrix. We define its transpose, denoted \(A^t\), to be the matrix in \(\F^{n,m}\) obtained by interchanging the rows and columns of \(A\). That is, the entries of \(A^t\) are \((A^t)_{k,j} = A_{j,k}\), i.e., the \((k,j)\)th entry of \(A^t\) is the \((j,k)\)th entry of \(A\).
+Properties (3.113) Proposition: Let \(A \in \F^{m,n}\) and \(B \in \F^{n,p}\) be matrices. Then \((AB)^t = B^t A^t\).
+(3.114) Theorem: Let \(T \in \Lin(V,W)\) be a linear map....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 19, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrix_transpose/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Center of a Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
+Properties If \(G\) is an abelian group, then \(Z(G) = G\).
+The center of \(G\) is always a normal subgroup of \(G\).
+The center of \(G\) is the intersection of the centralizers of all of its elements: \[Z(G) = \bigcap_{g \in G} C(g)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 18, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_center/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>The Integers mod $n$</h2>
   </header>
   <section class="entry-content">
@@ -193,47 +235,6 @@ The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \
     <time>December 16, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/syt/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Subspaces of a vector space</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
-Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
- additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u &#43; v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 16, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_subspaces/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Definition of a Topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
-Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 15, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/topology_def/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Linear maps</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called linear transformations.
-Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
- additivity: \(T(u &#43; v) = T(u) &#43; T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 15, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_maps/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
