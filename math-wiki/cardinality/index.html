@@ -7,7 +7,9 @@
     
     <title>Cardinality - Ben Clingenpeel</title>
     
-    <meta name="description" content="Content coming soon.">
+    <meta name="description" content="One way of thinking about how big a set is.
+Definitions Two sets \(A\) and \(B\) have the same cardinality if and only if there exists a bijection between \(A\) and \(B\). The cardinality of a set \(A\) is denoted \(\vert A \vert\).
+A set \(A\) is finite if and only if it is \(\vert A \vert = n\) for some natural number \(n\) (taking natural numbers to include \(0\)—the empty set is also finite).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -98,14 +100,25 @@
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Cardinality</h1>
-    <div class="post-meta">November 20, 2021</div>
+    <div class="post-meta">December 21, 2021</div>
   </header>
-  <div class="post-content"><p>Content coming soon.</p>
+  <div class="post-content"><p>One way of thinking about how <em>big</em> a set is.</p>
+<h2 id="definitions">Definitions</h2>
+<p>Two sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> have the same <strong>cardinality</strong> if and only if there exists a <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">bijection</a> between <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>. The cardinality of a set <span class="math inline">\(A\)</span> is denoted <span class="math inline">\(\vert A \vert\)</span>.</p>
+<p>A set <span class="math inline">\(A\)</span> is <strong>finite</strong> if and only if it is <span class="math inline">\(\vert A \vert = n\)</span> for some <a href="https://bncling.github.io/math-wiki/natural_numbers/">natural number</a> <span class="math inline">\(n\)</span> (taking natural numbers to include <span class="math inline">\(0\)</span>—the empty set is also finite).</p>
+<p>A set <span class="math inline">\(A\)</span> is <strong>countable</strong> if and only if it is finite or has the same cardinality as the natural numbers, here denoted by <span class="math inline">\(\vert \N \vert = \aleph_0\)</span>. A set <span class="math inline">\(A\)</span> is <strong>uncountable</strong> if and only if it is not countable.</p>
+<h2 id="properties">Properties</h2>
+<p><a href="\work.pdf#page=2">Theorem 1.8:</a> Every subset of <span class="math inline">\(\N\)</span> is countable.</p>
+<p><a href="\work.pdf#page=3">Theorem 1.11:</a> The union of two countable sets is countable.</p>
+<p><a href="\work.pdf#page=6">Theorem 1.28:</a> The cardinality of the unit square <span class="math inline">\([0,1] \times [0,1]\)</span> is the same as the cardinality of the unit interval <span class="math inline">\([0,1]\)</span>.</p>
+<p><strong>The Cantor-Schröder-Bernstein Theorem:</strong> If <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are sets such that there exist <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injections</a> <span class="math inline">\(f: A \to B\)</span> and <span class="math inline">\(g: B \to A\)</span>, then <span class="math inline">\(\vert A \vert = \vert B \vert\)</span>. The same works if <span class="math inline">\(f\)</span> and <span class="math inline">\(g\)</span> are both <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjections</a>. As a result of this theorem, we write <span class="math inline">\(\vert A \vert \leq \vert B \vert\)</span> if and only if there is an injection from <span class="math inline">\(A\)</span> to <span class="math inline">\(B\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>The natural numbers, the integers, the even integers, the <a href="https://bncling.github.io/math-wiki/rational_numbers/">rationals</a>, and the rationals in the interval <span class="math inline">\([0,1]\)</span> all have the same cardinality (<span class="math inline">\(\aleph_0\)</span>), so they are all countable.</p>
+<p>The <a href="https://bncling.github.io/math-wiki/real_numbers/">real numbers</a> are uncountable. That is, they have cardinality strictly greater than <span class="math inline">\(\aleph_0\)</span>. In fact, <span class="math inline">\(\vert \R \vert = \vert 2^\N \vert\)</span>, the cardinality of the <a href="https://bncling.github.io/math-wiki/power_set/">power set</a> of <span class="math inline">\(\N\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://bncling.github.io/tags/miscmath">miscmath</a></li>
-      <li><a href="https://bncling.github.io/tags/coming_soon">coming_soon</a></li>
     </ul>
   </footer>
   

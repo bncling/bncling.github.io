@@ -105,132 +105,141 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The Symmetric Group</h2>
+    <h2>Quotient Groups</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
-The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
-Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
+   <p>Also called factor groups.
+Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
+Properties The quotient group is a group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Set Partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A partition on a set \(X\) is a set \(\mathcal{P}\) of disjoint subsets of \(X\) such that \(X = \bigsqcup_{P \in \mathcal{P}} P\) where the sets \(P \in \mathcal{P}\) are called the parts of \(\mathcal{P}\).
+Properties The number of ways to partition a set of size \(n\) into exactly \(k\) nonempty parts is given by the stirling number of the second kind, \(\stirlingII{n}{k}\).
+The total number of ways to partition a set of size \(n\) is the \(n\)th Bell number....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/set_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Simple Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Building blocks.
+Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial proper normal subgroups.
+Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
+Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
+The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Solvable Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/solvable_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Dihedral Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Symmetries of a polygon.
+Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
+Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Abelian Groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Groups that commute.
+Definition A group \((G, \cdot)\) is abelian if the group operation is commutative. That is, if \(a \cdot b = b \cdot a\) for all \(a,b \in G\).
+Properties In an abelian group, we have that \((ab)^n = a^n b^n\) for all \(a,b \in G\) and \(n \in \Z\).
+If \(G\) is abelian, then its center is the entire group \(G\), and every subgroup is normal.
+If the quotient group \(G/Z(G)\) is cyclic, then \(G\) is abelian....</p>
   </section>
   <footer class="entry-footer">
     <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/abelian/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Cyclic Groups</h2>
+    <h2>Centralizers</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
-Properties All cyclic groups are abelian.
-If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 6, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/centralizers/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>External Direct Products</h2>
+    <h2>Group Automorphisms</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
-For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\)....</p>
+   <p>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
+An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
+Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 6, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_auto/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Least Common Multiples</h2>
+    <h2>Group Homomorphisms</h2>
   </header>
   <section class="entry-content">
-   <p>Content coming soon....</p>
+   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
+If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 6, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lcm/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Cayley&#39;s Theorem</h2>
+    <h2>Internal Direct Products</h2>
   </header>
   <section class="entry-content">
-   <p>Content coming soon....</p>
+   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
+\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 5, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cayley_thm/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Determinants</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/determinant/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Fields</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/fields/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group Presentations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_presentations/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>The symmetries of something.
-Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operation \(\cdot: G \times G \to G\) such that
- The group operation is associative: \((ab)c = a(bc)\) for all \(a,b,c \in G\); \(G\) has an identity element: there exists \(e \in G\) such that \(ae = a = ea\) for all \(a \in G\); Every element is invertible: for all \(a \in G\), there exists a \(b \in G\) such that \(ab = e = ba\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Order of an Element in a Group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
-Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
-If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

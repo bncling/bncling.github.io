@@ -105,135 +105,140 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Relations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A relation on a set \(S\) is a subset \(R \subset S \times S\). Two elements \(a,b \in S\) are related if and only if \((a,b) \in R\), and this is sometimes written \(aRb\).
-Relations are called
- reflexive if \((a,a) \in R\) for all \(a \in S\) (\(a\) is related to itself); irreflexive if \((a,a) \notin R\) for all \(a \in S\); symmetric if \((a,b) \in R\) implies \((b,a) \in R\); asymmetric if \((a,b) \in R\) implies \((b,a) \notin R\); antisymmetric if \((a,b),(b,a) \in R\) implies that \(a = b\); transitive if \((a,b),(b,c) \in R\) implies that \((a,c) \in R\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/relations/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Injectivity, surjectivity, and bijectivity</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A function or map \(f: \mathcal{D} \to \mathcal{C}\) is called injective if and only if for all \(a,b \in \mathcal{D}\) such that \(a \neq b\), we have that \(f(a) \neq f(b)\).
-It is called surjective if and only if for all \(y \in \mathcal{C}\), there exists an \(x \in \mathcal{D}\) such that \(f(x) = y\).
-It is called bijective if and only if it is both injective and surjective....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>November 21, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/inj_surj_bij/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cardinality</h2>
+    <h2>Fields</h2>
   </header>
   <section class="entry-content">
    <p>Content coming soon....</p>
   </section>
   <footer class="entry-footer">
-    <time>November 20, 2021</time>
+    <time>December 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cardinality/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/fields/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Greatest Common Divisors</h2>
+    <h2>Group Presentations</h2>
   </header>
   <section class="entry-content">
    <p>Content coming soon....</p>
   </section>
   <footer class="entry-footer">
-    <time>November 20, 2021</time>
+    <time>December 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/gcd/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_presentations/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Quotients of vector spaces</h2>
+    <h2>Groups</h2>
   </header>
   <section class="entry-content">
-   <p>They are themselves also vector spaces.
-Definitions Let \(U\) be a subspace of a vector space \(V\). The quotient space \(V / U\) is the set of all affine subsets of \(V\) parallel to \(U\). That is, \[V / U = \{v &#43; U \mid v \in V\}.\]
-For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\) is a linear map defined by \(\pi(v) = v &#43; U\)....</p>
+   <p>The symmetries of something.
+Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operation \(\cdot: G \times G \to G\) such that
+ The group operation is associative: \((ab)c = a(bc)\) for all \(a,b,c \in G\); \(G\) has an identity element: there exists \(e \in G\) such that \(ae = a = ea\) for all \(a \in G\); Every element is invertible: for all \(a \in G\), there exists a \(b \in G\) such that \(ab = e = ba\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>August 18, 2021</time>
+    <time>December 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/vspace_quotients/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/groups/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Systems of linear equations</h2>
+    <h2>Order of an Element in a Group</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
-An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero....</p>
+   <p>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
+Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
+If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>August 18, 2021</time>
+    <time>December 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_systems/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The dual basis</h2>
+    <h2>Range</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space with basis \((v_1, \dots, v_n)\). We define the dual basis to be the list \((\varphi_1, \dots, \varphi_n)\) of linear functionals on \(V\) such that \[\varphi_j(v_k) = \begin{cases} 1 &amp; k=j \\ 0 &amp; k \neq j \end{cases},\] that is, \(\varphi_j\) is the linear map from \(V\) to \(\F\) assigning \(1\) to the \(j\)th basis vector of \(V\) and \(0\) to all other basis vectors....</p>
+   <p>Also known as the image…
+Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The range of \(T\), denoted \(\range T\), is the subset of \(W\) containing vectors of the form \(Tv\) for some \(v \in V\), that is, \[\range T = \{Tv \mid v \in V\}.\]
+Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a subspace of \(W\).
+(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T &#43; \dim \, \range T,\] where \(\nl T\) denotes the null space of \(T\) and \(\dim V\) is the dimension of the space \(V\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>August 15, 2021</time>
+    <time>December 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_basis/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/range/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The dual space</h2>
+    <h2>The General Linear Group</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions Let \(V\) be a vector space over \(\F\). A linear functional on \(V\) is a linear map \(T \in \Lin(V, \F)\). We call \(V&#39; = \Lin(V, \F)\) the dual space of \(V\), the vector space of all linear functionals on \(V\).
-Properties We have that \(\dim V&#39; = \dim (\Lin (V, \F)) = (\dim V) (\dim \F) = \dim V\).
-Examples Let \(V = \Poly (\R)\). Then \(V&#39;\) is the space of all linear maps from \(\Poly (\R)\) to \(\R\)....</p>
+   <p>Definition The general linear group, denoted \(GL_n(\F)\), is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>August 15, 2021</time>
+    <time>December 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_space/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/gen_linear/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Direct sums of subspaces</h2>
+    <h2>The Group of Units</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). If each element \(u \in U_1 &#43; \dots &#43; U_m\) can be written uniquely as a sum \(u_1 &#43; \dots &#43; u_m\) where each \(u_i \in U_i\), then this sum is called a direct sum. In this case, we write the sum as \(U_1 \oplus \dots \oplus U_m\).
-Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector space \(V\)....</p>
+   <p>Sometimes denoted \(\Z_n^\times\).
+Definition The group of units mod \(n\), denoted \(U(n)\), is a finite group formed by removing the non-invertible elements of \(\Z_n\) (which are equivalence classes) under multiplication.
+Properties The group of units is an abelian group since multiplcation of equivalence classes is commutative.
+The group of units mod \(n\) is not always cyclic in general, but if \(n\) is \(2\), \(4\), \(p^k\), or \(2p^k\) for a prime \(p\) and natural number \(k\), then it is cyclic becuase the group has a generator....</p>
   </section>
   <footer class="entry-footer">
-    <time>August 14, 2021</time>
+    <time>December 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subspace_direct_sums/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/unit_grp/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Operators</h2>
+    <h2>The Klein Four-group</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space. An operator on \(V\) is a linear map from \(V\) to itself. We denote the space of operators on \(V\) by \(\Lin (V)\) (shortening the notation from \(\Lin (V, V))\).
-Properties (3.69) Theorem: Let \(V\) be a finite-dimensional vector space. For an operator \(T \in \Lin(V)\), the following are equivalent:
- \(T\) is invertible; \(T\) is injective; \(T\) is surjective.  ...</p>
+   <p>Definition The Klein four-group is a group that can be thought of in many ways, one of which is as the external direct product \(\Z_2 \times \Z_2\), and is typically denoted by \(V\).
+Properties The group is abelian.
+Every non-identity element has order \(2\).
+Examples The group can also be thought of as being given by the group presentation \(\langle a,b \mid a^2, b^2, (ab)^2 \rangle\).
+Alternatively, the group can be thought of as the subgroup of the general linear group \(GL_2(\R)\) given by \[V = \left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} \right\}....</p>
   </section>
   <footer class="entry-footer">
-    <time>August 14, 2021</time>
+    <time>December 5, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/operators/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/klein4/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Special Linear Group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The special linear group denoted \(SL_n(\F)\) is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\) with determinant \(1\).
+Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the general linear group \(GL_n(\F)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/special_linear/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Group of Integers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The set of integers, \(\Z\), together with the operation addition forms an infinite group.
+Properties The group is cyclic generated by \(\pm 1\), and abelian since addition is commutative.
+Every subgroup of \(\Z\) has the form \(n\Z = \langle n \rangle = \{nz \mid z \in \Z\}\) for some \(n \in \Z\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 4, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_group/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -105,139 +105,135 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Range</h2>
+    <h2>Lagrange&#39;s Theorem</h2>
   </header>
   <section class="entry-content">
-   <p>Also known as the image…
-Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The range of \(T\), denoted \(\range T\), is the subset of \(W\) containing vectors of the form \(Tv\) for some \(v \in V\), that is, \[\range T = \{Tv \mid v \in V\}.\]
-Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a subspace of \(W\).
-(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T &#43; \dim \, \range T,\] where \(\nl T\) denotes the null space of \(T\) and \(\dim V\) is the dimension of the space \(V\)....</p>
+   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
+Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 5, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/range/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The General Linear Group</h2>
+    <h2>Normal Subgroups</h2>
   </header>
   <section class="entry-content">
-   <p>Definition The general linear group, denoted \(GL_n(\F)\), is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\)....</p>
+   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
+Properties Proposition: The following are equivalent.
+ \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 5, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/gen_linear/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The Group of Units</h2>
+    <h2>Subgroups</h2>
   </header>
   <section class="entry-content">
-   <p>Sometimes denoted \(\Z_n^\times\).
-Definition The group of units mod \(n\), denoted \(U(n)\), is a finite group formed by removing the non-invertible elements of \(\Z_n\) (which are equivalence classes) under multiplication.
-Properties The group of units is an abelian group since multiplcation of equivalence classes is commutative.
-The group of units mod \(n\) is not always cyclic in general, but if \(n\) is \(2\), \(4\), \(p^k\), or \(2p^k\) for a prime \(p\) and natural number \(k\), then it is cyclic becuase the group has a generator....</p>
+   <p>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &lt; G\) if \(H\) is a subgroup of \(G\).
+Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 5, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/unit_grp/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The Klein Four-group</h2>
+    <h2>The Alternating Group</h2>
   </header>
   <section class="entry-content">
-   <p>Definition The Klein four-group is a group that can be thought of in many ways, one of which is as the external direct product \(\Z_2 \times \Z_2\), and is typically denoted by \(V\).
-Properties The group is abelian.
-Every non-identity element has order \(2\).
-Examples The group can also be thought of as being given by the group presentation \(\langle a,b \mid a^2, b^2, (ab)^2 \rangle\).
-Alternatively, the group can be thought of as the subgroup of the general linear group \(GL_2(\R)\) given by \[V = \left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} \right\}....</p>
+   <p>Definition The alternating group, denoted \(A_n\), is the normal subgroup of \(S_n\) containing all even permutations.
+Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).
+Because \([S_n:A_n] = 2\), \(A_n\) is normal in \(S_n\).
+Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\). This is because if \(H\) is a subgroup of order \(6\), it contains at least two \(3\)-cycles because \(A_4\) contains all eight \(3\)-cycles (since all odd-length cycles are even)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 5, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/klein4/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The Special Linear Group</h2>
+    <h2>The Symmetric Group</h2>
   </header>
   <section class="entry-content">
-   <p>Definition The special linear group denoted \(SL_n(\F)\) is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\) with determinant \(1\).
-Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the general linear group \(GL_n(\F)\)....</p>
+   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
+The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
+Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 5, 2021</time>
+    <time>December 7, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/special_linear/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The Group of Integers</h2>
+    <h2>Cyclic Groups</h2>
   </header>
   <section class="entry-content">
-   <p>Definition The set of integers, \(\Z\), together with the operation addition forms an infinite group.
-Properties The group is cyclic generated by \(\pm 1\), and abelian since addition is commutative.
-Every subgroup of \(\Z\) has the form \(n\Z = \langle n \rangle = \{nz \mid z \in \Z\}\) for some \(n \in \Z\)....</p>
+   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
+Properties All cyclic groups are abelian.
+If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 4, 2021</time>
+    <time>December 6, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_group/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Coprime numbers</h2>
+    <h2>External Direct Products</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Two numbers \(a,b \in \N\) are said to be coprime or relatively prime if their greatest common divisor is 1.
-Properties Because the gcd of two numbers \(a\) and \(b\) can always be written as an integral linear combination of \(a\) and \(b\), there always exist \(s,t \in \Z\) such that \(as &#43; bt = 1\) if and only if \(a\) and \(b\) are coprime....</p>
+   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
+For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 3, 2021</time>
+    <time>December 6, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/coprime/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Euler&#39;s Totient Function</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Euler’s totient function is a function \(\phi: \N \to \N\) such that \(\phi(n)\) is the number of numbers that are less than or equal to \(n\) and relatively prime to \(n\). That is, \[\phi(n) = \# \{m \in \N \mid m \leq n \text{ and } \gcd(m,n) = 1\}.\]
-Properties If \(p\) is a prime number, then \(\phi(p) = p-1\) because every natural number less than or equal to \(p\) is relatively prime to it except \(p\) itself....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/totient/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Matrices</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp; \dots &amp; a_{1,n} \\ \vdots &amp; \ddots &amp; \vdots \\ a_{m,1} &amp; \dots &amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
-For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrices/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Prime Numbers</h2>
+    <h2>Least Common Multiples</h2>
   </header>
   <section class="entry-content">
    <p>Content coming soon....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 3, 2021</time>
+    <time>December 6, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/prime/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lcm/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Cayley&#39;s Theorem</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/cayley_thm/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Determinants</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/determinant/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

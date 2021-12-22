@@ -6,7 +6,139 @@
     <description>Recent content in topology on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Countable complement topology</title>
+      <link>https://bncling.github.io/math-wiki/countable_complement_topology/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/countable_complement_topology/</guid>
+      <description>Basically what the name makes it sound like. It’s similar in definition to the finite complement topology.
+Definition Let \(X\) be a set. A set \(U\) is in the countable complement topology if and only if \(X - U\) is countable or if \(U = \emptyset\). This topology is also called the cocountable topology.
+Properties Countable sets are closed in this topology.
+For a countable set, the countable complement topology is just the discrete topology.</description>
+    </item>
+    
+    <item>
+      <title>Dense Subsets</title>
+      <link>https://bncling.github.io/math-wiki/dense_subsets/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/dense_subsets/</guid>
+      <description>Definition A subset \(A \subset X\) in a topological space \((X, \T)\) is dense in \(X\) if and only if \(\overline{A} = X\), where \(\overline{A}\) is the closure of \(A\) in \((X, \T)\).
+Properties Exercise 5.1 A subset \(A \subset X\) is dense in \(X\) if and only if every open set in \((X, \T)\) contains a point in \(A\).
+Examples The rationals are dense in the reals with the standard topology \(\Rs\).</description>
+    </item>
+    
+    <item>
+      <title>Finite complement topology</title>
+      <link>https://bncling.github.io/math-wiki/finite_complement_topology/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/finite_complement_topology/</guid>
+      <description>Basically what the name makes it sound like. Similar in definition to the countable complement topology.
+Definition Let \(X\) be a set. A set \(U\) is in the finite complement topology if and only if \(X - U\) is finite or if \(U = \emptyset\). This topology is also called the cofinite topology.
+Properties Finite sets are closed in the finite complement topology.
+For a finite set, the finite complement topology is just the discrete topology.</description>
+    </item>
+    
+    <item>
+      <title>Indiscrete topology</title>
+      <link>https://bncling.github.io/math-wiki/indiscrete_topology/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/indiscrete_topology/</guid>
+      <description>The coarsest possible topology on a set \(X\).
+Definition Let \(X\) be a set. The indiscrete topology is \(\mathcal{T} = \{\emptyset, X\}\). The topological space \((X, \{\emptyset, X\})\) is called an indiscrete space.
+Properties By definition, the only sets in the indiscrete topology that are open are \(X\) and \(\emptyset\), and these are also the only closed sets.
+Separation Properties  Not a \(T_1\)-space Not Hausdorff Not regular or a \(T_3\)-space Not normal or a \(T_4\)-space Separable  </description>
+    </item>
+    
+    <item>
+      <title>Normal spaces</title>
+      <link>https://bncling.github.io/math-wiki/normal/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/normal/</guid>
+      <description>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
+Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\).</description>
+    </item>
+    
+    <item>
+      <title>Regular spaces</title>
+      <link>https://bncling.github.io/math-wiki/regular/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/regular/</guid>
+      <description>Definition Let \((X, \T)\) be a topological space. It is regular if and only if for every point \(x \in X\) and closed set \(A \subset X\) with \(x \notin A\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(A \subset V\).
+Properties Theorem 4.8: A space \((X, \T)\) is regular if and only if for each point \(p \in X\) and open set \(U\) with \(p \in U\), there exists an open set \(V\) such that \(p \in V\) and \(\overline{V} \subset U\) (where \(\overline{V}\) is the closure of \(V\) in \((X, \T)\)).</description>
+    </item>
+    
+    <item>
+      <title>Separable Spaces</title>
+      <link>https://bncling.github.io/math-wiki/separable_spaces/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/separable_spaces/</guid>
+      <description>Defintion A topological space \((X, \T)\) is separable if and only if \(X\) has a countable dense subset.
+Examples The space \(\Rs\) is separable, but \(\R\) with the discrete topology is not separable because the reals are uncountable and so for any countable subset, there is point not in the subset, and the set containing this point is open in the discrete topology, meaning not all open sets contain a point in the countable subset and so no countable subset can be dense.</description>
+    </item>
+    
+    <item>
+      <title>The box topology</title>
+      <link>https://bncling.github.io/math-wiki/box_topology/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/box_topology/</guid>
+      <description>Another, weirder topology on an infinite product.
+Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a (possibly infinite) collection of topological spaces. The box topology on the product \(\prod_{\alpha \in \lambda} X_\alpha\) is the topology generated by a basis consisting of sets of the form \(\prod_{\alpha \in \lambda} U_\alpha\) where \(U_\alpha\) is open in \((X_\alpha, \T_\alpha)\) for each \(\alpha\).
+Properties As a consequence of Theorem 3.27, if the collection \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) is finite, the box topology on \(\prod_{\alpha \in \lambda} X_\alpha\) is the same as the product topology.</description>
+    </item>
+    
+    <item>
+      <title>The discrete topology</title>
+      <link>https://bncling.github.io/math-wiki/discrete_topology/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/discrete_topology/</guid>
+      <description>The discrete topology is the finest topology on a given set. A set together with the discrete topology is called a discrete space.
+Definition Let \(X\) be a set. Then the discrete topology on \(X\) contains all subsets of \(X\), that is, the topology is \(\mathcal{T} = 2^X\), the power set of \(X\).
+Properties If \((X, \mathcal{T})\) is a topological space, then it is a discrete space if and only if all singletons are open.</description>
+    </item>
+    
+    <item>
+      <title>The Double Headed Snake</title>
+      <link>https://bncling.github.io/math-wiki/double_headed_snake/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/double_headed_snake/</guid>
+      <description>The body is the positive real line and the two heads are the points \(0&amp;#39;\) and \(0&amp;#39;&amp;#39;\).
+Definition The Double Headed Snake is the topological space on the set \(\R_{+00}\) of all positive real numbers together with the numbers \(0&amp;#39;\) and \(0&amp;#39;&amp;#39;\) that is generated by the basis \(\B\) containing sets of the form \((a,b)\), \((0,b) \cup \{0&amp;#39;\}\), and \((0,b) \cup \{0&amp;#39;&amp;#39;\}\) where \(a,b \in \mathbb{R}\).
+Properties Separation properties  \(T_1\)-space Not Hausdorff (can’t separate \(0&amp;#39;\) and \(0&amp;#39;&amp;#39;\)) Not regular or a \(T_3\)-space Not normal or a \(T_4\)-space Separable  </description>
+    </item>
+    
+    <item>
+      <title>The Sorgenfrey line</title>
+      <link>https://bncling.github.io/math-wiki/lower_limit_topology/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lower_limit_topology/</guid>
+      <description>It’s like \(\R\) but finer and… worse. It’s a topological space also known as the lower limit topology on \(\R\), sometimes denoted \(\RLL\) or \(\mathbb{R}_{\text{bad}}^1\).
+Definition The Sorgenfrey Line is the topological space on \(\mathbb{R}\) generated by the basis of sets of the form \([a, b) = \{x \in \mathbb{R} \mid a \leq x &amp;lt; b\}\) for \(a, b \in \mathbb{R}\).
+Properties Separation properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space Normal and a \(T_4\)-space Separable  </description>
+    </item>
+    
+    <item>
+      <title>The standard topology</title>
+      <link>https://bncling.github.io/math-wiki/standard_topology/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/standard_topology/</guid>
+      <description>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
+Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
+An open ball of radius \(\varepsilon &amp;gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &amp;lt; \varepsilon\}\).</description>
+    </item>
+    
     <item>
       <title>Definition of a Topology</title>
       <link>https://bncling.github.io/math-wiki/topology_def/</link>
@@ -81,27 +213,6 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
     </item>
     
     <item>
-      <title>The Double Headed Snake</title>
-      <link>https://bncling.github.io/math-wiki/double_headed_snake/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/double_headed_snake/</guid>
-      <description>The body is the positive real line and the two heads are the points \(0&amp;#39;\) and \(0&amp;#39;&amp;#39;\).
-Definition The Double Headed Snake is the topological space on the set \(\R_{+00}\) of all positive real numbers together with the numbers \(0&amp;#39;\) and \(0&amp;#39;&amp;#39;\) that is generated by the basis \(\B\) containing sets of the form \((a,b)\), \((0,b) \cup \{0&amp;#39;\}\), and \((0,b) \cup \{0&amp;#39;&amp;#39;\}\) where \(a,b \in \mathbb{R}\).
-Properties Separation properties  \(T_1\)-space Not Hausdorff (can’t separate \(0&amp;#39;\) and \(0&amp;#39;&amp;#39;\)) Not regular or a \(T_3\)-space Not normal or a \(T_4\)-space  </description>
-    </item>
-    
-    <item>
-      <title>The Moore plane</title>
-      <link>https://bncling.github.io/math-wiki/moore_plane/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/moore_plane/</guid>
-      <description>Also called the Upper Half-Plane with the Sticky Bubble Topology and denoted \(\Hbub\) in the textbook I’ve been using.
-Definition Let \(\mathbb{H} = \{(x,y) \mid x,y \in \mathbb{R}, y \geq 0\}\). The Moore plane is this set with the topology generated by the basis containing - all balls of the form \(B((x,y), r)\) where \(0&amp;lt;r \leq y\), and - all balls of the form \(B((x,y),r) \cup \{(x,0)\}\) where \(r = y &amp;gt; 0\).</description>
-    </item>
-    
-    <item>
       <title>The product topology</title>
       <link>https://bncling.github.io/math-wiki/product_topology/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
@@ -112,25 +223,13 @@ Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a collectio
     </item>
     
     <item>
-      <title>The Sorgenfrey line</title>
-      <link>https://bncling.github.io/math-wiki/lower_limit_topology/</link>
+      <title>The Sticky Bubble Topology</title>
+      <link>https://bncling.github.io/math-wiki/sticky_bubble/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bncling.github.io/math-wiki/lower_limit_topology/</guid>
-      <description>It’s like \(\R\) but finer and… worse. It’s a topological space also known as the lower limit topology on \(\R\), sometimes denoted \(\RLL\) or \(\mathbb{R}_{\text{bad}}^1\).
-Definition The Sorgenfrey Line is the topological space on \(\mathbb{R}\) generated by the basis of sets of the form \([a, b) = \{x \in \mathbb{R} \mid a \leq x &amp;lt; b\}\) for \(a, b \in \mathbb{R}\).
-Properties Separation properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space Normal and a \(T_4\)-space  </description>
-    </item>
-    
-    <item>
-      <title>The standard topology</title>
-      <link>https://bncling.github.io/math-wiki/standard_topology/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/standard_topology/</guid>
-      <description>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
-Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
-An open ball of radius \(\varepsilon &amp;gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &amp;lt; \varepsilon\}\).</description>
+      <guid>https://bncling.github.io/math-wiki/sticky_bubble/</guid>
+      <description>Definition Let \(\mathbb{H} = \{(x,y) \mid x,y \in \mathbb{R}, y \geq 0\}\). The upper half plane with the sticky bubble topology is this set (the upper half plane) with the topology generated by the basis containing - all balls of the form \(B((x,y), r)\) where \(0&amp;lt;r \leq y\), and - all balls of the form \(B((x,y),r) \cup \{(x,0)\}\) where \(r = y &amp;gt; 0\).
+Properties Separation properties  \(T_1\)-space (since it’s Hausdorff) Hausdorff (since it’s \(T_3\)) Regular and a \(T_3\)-space (proof)  </description>
     </item>
     
     <item>
@@ -253,12 +352,13 @@ Separation Properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space Norma
     </item>
     
     <item>
-      <title>A big table of spaces and separation properties</title>
-      <link>https://bncling.github.io/posts/separation_table/</link>
+      <title>A big table of spaces and properties</title>
+      <link>https://bncling.github.io/posts/space_table/</link>
       <pubDate>Fri, 09 Jul 2021 14:40:49 -0400</pubDate>
       
-      <guid>https://bncling.github.io/posts/separation_table/</guid>
-      <description>    Topological space \(T_1\) Hausdorff Regular Normal    \(\Rs\) ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✗ ✗  Discrete topology ✓ ✓ ✓ ✓  Finite complement (infinite set) ✓ ✗ ✗ ✗  Countable complement (uncountable set) ✓ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓  Double Headed Snake ✓ ✗ ✗ ✗  K-topology ✓ ✓ ✗ ✗  Moore plane ✓ ✓ ✓   Arithmetic progressions      Lexicographically ordered square ✓ ✓ ✓ ✓  Order topologies ✓ ✓ ✓ ✓  Product topology (on spaces all of which satisfy a given property) ✓ ✓ ✓     </description>
+      <guid>https://bncling.github.io/posts/space_table/</guid>
+      <description>In spaces where the base set \(X\) is not given, \(X\) is assumed to be uncountably infinite, and in the row for the product topology, it is assume all factor spaces have a given property (e.g. there product of regular spaces is regular).
+   Topological space \(T_1\) Hausdorff Regular Normal Separable    \(\Rs\) ✓ ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✗ ✗ ✓  Discrete topology ✓ ✓ ✓ ✓ ✗  Finite complement ✓ ✗ ✗ ✗ ✓  Countable complement ✓ ✗ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓ ✓  Double Headed Snake ✓ ✗ ✗ ✗ ✓  K-topology ✓ ✓ ✗ ✗ ✓  \(\Hbub\) ✓ ✓ ✓    Arithmetic progressions       Lexicographically ordered square ✓ ✓ ✓ ✓   Order topologies ✓ ✓ ✓ ✓   Product topology (on spaces all of which satisfy a given property) ✓ ✓ ✓      </description>
     </item>
     
     <item>
@@ -283,30 +383,6 @@ Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also \(T_3\), a
     </item>
     
     <item>
-      <title>Countable complement topology</title>
-      <link>https://bncling.github.io/math-wiki/countable_complement_topology/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/countable_complement_topology/</guid>
-      <description>Basically what the name makes it sound like. It’s similar in definition to the finite complement topology.
-Definition Let \(X\) be a set. A set \(U\) is in the countable complement topology if and only if \(X - U\) is countable or if \(U = \emptyset\). This topology is also called the cocountable topology.
-Properties Countable sets are closed in this topology.
-For a countable set, the countable complement topology is just the discrete_topology.</description>
-    </item>
-    
-    <item>
-      <title>Finite complement topology</title>
-      <link>https://bncling.github.io/math-wiki/finite_complement_topology/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/finite_complement_topology/</guid>
-      <description>Basically what the name makes it sound like. Similar in definition to the countable complement topology.
-Definition Let \(X\) be a set. A set \(U\) is in the finite complement topology if and only if \(X - U\) is finite or if \(U = \emptyset\). This topology is also called the cofinite topology.
-Properties Finite sets are closed in the finite complement topology.
-For a finite set, the finite complement topology is just the discrete topology.</description>
-    </item>
-    
-    <item>
       <title>Hausdorff spaces</title>
       <link>https://bncling.github.io/math-wiki/hausdorff/</link>
       <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
@@ -315,60 +391,6 @@ For a finite set, the finite complement topology is just the discrete topology.<
       <description>Also called \(T_2\)-spaces.
 Definition Let \((X, \T)\) be a topological space. It is Hausdorff if and only if for every pair of distinct points \(x\) and \(y\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\).
 Properties Theorem 4.7: If a space \((X, \T)\) is \(T_3\), or \(T_4\), it is also Hausdorff and therefore also \(T_1\).</description>
-    </item>
-    
-    <item>
-      <title>Indiscrete topology</title>
-      <link>https://bncling.github.io/math-wiki/indiscrete_topology/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/indiscrete_topology/</guid>
-      <description>The coarsest possible topology on a set \(X\).
-Definition Let \(X\) be a set. The indiscrete topology is \(\mathcal{T} = \{\emptyset, X\}\). The topological space \((X, \{\emptyset, X\})\) is called an indiscrete space.
-Properties By definition, the only sets in the indiscrete topology that are open are \(X\) and \(\emptyset\), and these are also the only closed sets.
-Separation Properties  Not a \(T_1\)-space Not Hausdorff Not regular or a \(T_3\)-space Not normal or a \(T_4\)-space  </description>
-    </item>
-    
-    <item>
-      <title>Normal spaces</title>
-      <link>https://bncling.github.io/math-wiki/normal/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/normal/</guid>
-      <description>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
-Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\).</description>
-    </item>
-    
-    <item>
-      <title>Regular spaces</title>
-      <link>https://bncling.github.io/math-wiki/regular/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/regular/</guid>
-      <description>Definition Let \((X, \T)\) be a topological space. It is regular if and only if for every point \(x \in X\) and closed set \(A \subset X\) with \(x \notin A\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(A \subset V\).
-Properties Theorem 4.8: A space \((X, \T)\) is regular if and only if for each point \(p \in X\) and open set \(U\) with \(p \in U\), there exists an open set \(V\) such that \(p \in V\) and \(\overline{V} \subset U\) (where \(\overline{V}\) is the closure of \(V\) in \((X, \T)\)).</description>
-    </item>
-    
-    <item>
-      <title>The discrete topology</title>
-      <link>https://bncling.github.io/math-wiki/discrete_topology/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/discrete_topology/</guid>
-      <description>The discrete topology is the finest topology on a given set. A set together with the discrete topology is called a discrete space.
-Definition Let \(X\) be a set. Then the discrete topology on \(X\) contains all subsets of \(X\), that is, the topology is \(\mathcal{T} = 2^X\), the power set of \(X\).
-Properties If \((X, \mathcal{T})\) is a topological space, then it is a discrete space if and only if all singletons are open.</description>
-    </item>
-    
-    <item>
-      <title>The box topology</title>
-      <link>https://bncling.github.io/math-wiki/box_topology/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/box_topology/</guid>
-      <description>Another, weirder topology on an infinite product.
-Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a (possibly infinite) collection of topological spaces. The box topology on the product \(\prod_{\alpha \in \lambda} X_\alpha\) is the topology generated by a basis consisting of sets of the form \(\prod_{\alpha \in \lambda} U_\alpha\) where \(U_\alpha\) is open in \((X_\alpha, \T_\alpha)\) for each \(\alpha\).
-Properties As a consequence of Theorem 3.27, if the collection \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) is finite, the box topology on \(\prod_{\alpha \in \lambda} X_\alpha\) is the same as the product topology.</description>
     </item>
     
     <item>
