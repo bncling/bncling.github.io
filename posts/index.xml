@@ -14,7 +14,7 @@
       
       <guid>https://bncling.github.io/posts/space_table/</guid>
       <description>In spaces where the base set \(X\) is not given, \(X\) is assumed to be uncountably infinite, and in the row for the product topology, it is assume all factor spaces have a given property (e.g. there product of regular spaces is regular).
-   Topological space \(T_1\) Hausdorff Regular Normal Separable    \(\Rs\) ✓ ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✗ ✗ ✓  Discrete topology ✓ ✓ ✓ ✓ ✗  Finite complement ✓ ✗ ✗ ✗ ✓  Countable complement ✓ ✗ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓ ✓  Double Headed Snake ✓ ✗ ✗ ✗ ✓  K-topology ✓ ✓ ✗ ✗ ✓  \(\Hbub\) ✓ ✓ ✓    Arithmetic progressions       Lexicographically ordered square ✓ ✓ ✓ ✓   Order topologies ✓ ✓ ✓ ✓   Product topology (on spaces all of which satisfy a given property) ✓ ✓ ✓      </description>
+   Topological space \(T_1\) Hausdorff Regular Normal Separable    \(\Rs\) ✓ ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✗ ✗ ✓  Discrete topology ✓ ✓ ✓ ✓ ✗  Finite complement ✓ ✗ ✗ ✗ ✓  Countable complement ✓ ✗ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓ ✓  Double Headed Snake ✓ ✗ ✗ ✗ ✓  K-topology ✓ ✓ ✗ ✗ ✓  \(\Hbub\) ✓ ✓ ✓  ✓  Arithmetic progressions       Lexicographically ordered square ✓ ✓ ✓ ✓ ✗  Order topologies ✓ ✓ ✓ ✓ ✗  Product topology (on spaces all of which satisfy a given property) ✓ ✓ ✓      </description>
     </item>
     
     <item>
