@@ -6,7 +6,28 @@
     <description>Recent content in linear_algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/linear_algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rank of a matrix</title>
+      <link>https://bncling.github.io/math-wiki/matrix_rank/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/matrix_rank/</guid>
+      <description>Definitions Let \(A \in \F^{m,n}\) be a matrix. Then the row rank of \(A\) is the dimension of the span of the rows of \(A\) (thought of as matrices in \(\F^{1,n}\)), and the column rank of \(A\) is the dimension of the span of the columns of \(A\) (thought of as matrices in \(\F^{m,1}\)).
+Properties (3.117) Proposition: The column rank of \(A\) is the dimension of the range of \(T\), where \(T\) is the linear map that \(A\) represents.</description>
+    </item>
+    
+    <item>
+      <title>Transpose of a matrix</title>
+      <link>https://bncling.github.io/math-wiki/matrix_transpose/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/matrix_transpose/</guid>
+      <description>Definition Let \(A \in \F^{m,n}\) be a matrix. We define its transpose, denoted \(A^t\), to be the matrix in \(\F^{n,m}\) obtained by interchanging the rows and columns of \(A\). That is, the entries of \(A^t\) are \((A^t)_{k,j} = A_{j,k}\), i.e., the \((k,j)\)th entry of \(A^t\) is the \((j,k)\)th entry of \(A\).
+Properties (3.113) Proposition: Let \(A \in \F^{m,n}\) and \(B \in \F^{n,p}\) be matrices. Then \((AB)^t = B^t A^t\).
+(3.114) Theorem: Let \(T \in \Lin(V,W)\) be a linear map.</description>
+    </item>
+    
     <item>
       <title>Annihilators</title>
       <link>https://bncling.github.io/math-wiki/annihilators/</link>
@@ -19,16 +40,6 @@ Properties (3.105) Proposition: If \(U \subset V\), then \(U^0\) is a subspace o
     </item>
     
     <item>
-      <title>Rank of a Matrix</title>
-      <link>https://bncling.github.io/math-wiki/matrix_rank/</link>
-      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/matrix_rank/</guid>
-      <description>Definitions Let \(A \in \F^{m,n}\) be a matrix. Then the row rank of \(A\) is the dimension of the span of the rows of \(A\) (thought of as matrices in \(\F^{1,n}\)), and the column rank of \(A\) is the dimension of the span of the columns of \(A\) (thought of as matrices in \(\F^{m,1}\)).
-Properties (3.117) Proposition: The column rank of \(A\) is the dimension of the range of \(T\), where \(T\) is the linear map that \(A\) represents.</description>
-    </item>
-    
-    <item>
       <title>The dual map</title>
       <link>https://bncling.github.io/math-wiki/dual_map/</link>
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
@@ -36,17 +47,6 @@ Properties (3.117) Proposition: The column rank of \(A\) is the dimension of the
       <guid>https://bncling.github.io/math-wiki/dual_map/</guid>
       <description>Definition Let \(V\) and \(W\) be vector spaces and let \(T \in \Lin(V, W)\) be a linear map. Then the dual map \(T&amp;#39;: W&amp;#39; \to V&amp;#39;\) is defined by \(T&amp;#39; (\varphi) = \varphi \circ T\) for \(\varphi \in W&amp;#39;\) where \(V&amp;#39;\) and \(W&amp;#39;\) are the dual spaces of \(V\) and \(W\).
 Properties The map \(T&amp;#39;\) is linear since it is the composition of a linear map and a linear functional.</description>
-    </item>
-    
-    <item>
-      <title>Transpose of a Matrix</title>
-      <link>https://bncling.github.io/math-wiki/matrix_transpose/</link>
-      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/matrix_transpose/</guid>
-      <description>Definition Let \(A \in \F^{m,n}\) be a matrix. We define its transpose, denoted \(A^t\), to be the matrix in \(\F^{n,m}\) obtained by interchanging the rows and columns of \(A\). That is, the entries of \(A^t\) are \((A^t)_{k,j} = A_{j,k}\), i.e., the \((k,j)\)th entry of \(A^t\) is the \((j,k)\)th entry of \(A\).
-Properties (3.113) Proposition: Let \(A \in \F^{m,n}\) and \(B \in \F^{n,p}\) be matrices. Then \((AB)^t = B^t A^t\).
-(3.114) Theorem: Let \(T \in \Lin(V,W)\) be a linear map.</description>
     </item>
     
     <item>

@@ -8,6 +8,60 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>algebra</title>
+      <link>https://bncling.github.io/tags/algebra/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>combinatorics</title>
+      <link>https://bncling.github.io/tags/combinatorics/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/combinatorics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coming_soon</title>
+      <link>https://bncling.github.io/tags/coming_soon/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/coming_soon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linear_algebra</title>
+      <link>https://bncling.github.io/tags/linear_algebra/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/linear_algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miscmath</title>
+      <link>https://bncling.github.io/tags/miscmath/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/miscmath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>number_theory</title>
+      <link>https://bncling.github.io/tags/number_theory/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/number_theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>topology</title>
       <link>https://bncling.github.io/tags/topology/</link>
       <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
@@ -17,65 +71,11 @@
     </item>
     
     <item>
-      <title>miscmath</title>
-      <link>https://bncling.github.io/tags/miscmath/</link>
-      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/miscmath/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linear_algebra</title>
-      <link>https://bncling.github.io/tags/linear_algebra/</link>
-      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/linear_algebra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>algebra</title>
-      <link>https://bncling.github.io/tags/algebra/</link>
-      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/algebra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>calculus</title>
       <link>https://bncling.github.io/tags/calculus/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/calculus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>combinatorics</title>
-      <link>https://bncling.github.io/tags/combinatorics/</link>
-      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/combinatorics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coming_soon</title>
-      <link>https://bncling.github.io/tags/coming_soon/</link>
-      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/coming_soon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>number_theory</title>
-      <link>https://bncling.github.io/tags/number_theory/</link>
-      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/number_theory/</guid>
       <description></description>
     </item>
     

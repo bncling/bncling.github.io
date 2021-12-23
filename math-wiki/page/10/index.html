@@ -105,6 +105,128 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Systems of linear equations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
+An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 18, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_systems/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The dual basis</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) be a vector space with basis \((v_1, \dots, v_n)\). We define the dual basis to be the list \((\varphi_1, \dots, \varphi_n)\) of linear functionals on \(V\) such that \[\varphi_j(v_k) = \begin{cases} 1 &amp; k=j \\ 0 &amp; k \neq j \end{cases},\] that is, \(\varphi_j\) is the linear map from \(V\) to \(\F\) assigning \(1\) to the \(j\)th basis vector of \(V\) and \(0\) to all other basis vectors....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 15, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_basis/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The dual space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \(V\) be a vector space over \(\F\). A linear functional on \(V\) is a linear map \(T \in \Lin(V, \F)\). We call \(V&#39; = \Lin(V, \F)\) the dual space of \(V\), the vector space of all linear functionals on \(V\).
+Properties We have that \(\dim V&#39; = \dim (\Lin (V, \F)) = (\dim V) (\dim \F) = \dim V\).
+Examples Let \(V = \Poly (\R)\). Then \(V&#39;\) is the space of all linear maps from \(\Poly (\R)\) to \(\R\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 15, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dual_space/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Direct sums of subspaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). If each element \(u \in U_1 &#43; \dots &#43; U_m\) can be written uniquely as a sum \(u_1 &#43; \dots &#43; u_m\) where each \(u_i \in U_i\), then this sum is called a direct sum. In this case, we write the sum as \(U_1 \oplus \dots \oplus U_m\).
+Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector space \(V\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 14, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subspace_direct_sums/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Operators</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) be a vector space. An operator on \(V\) is a linear map from \(V\) to itself. We denote the space of operators on \(V\) by \(\Lin (V)\) (shortening the notation from \(\Lin (V, V))\).
+Properties (3.69) Theorem: Let \(V\) be a finite-dimensional vector space. For an operator \(T \in \Lin(V)\), the following are equivalent:
+ \(T\) is invertible; \(T\) is injective; \(T\) is surjective.  ...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 14, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/operators/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Products of vector spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Guess what? They are also vector spaces.
+Definition Let \(V_1, \dots, V_n\) be vector spaces over \(\F\). The product of these spaces, denoted \(V_1 \times \dots \times V_n\) is the set \[\{(v_1, \dots, v_n) \mid v_1 \in V_1, \dots, v_n \in V_n\}.\] (This is the same way we define finite cartesian products.)
+Properties We define addition and scalar multiplication on \(V_1 \times \dots \times V_n\) as follows: \[\begin{gather*} (a_1, \dots, a_n) &#43; (b_1, \dots, b_n) = (a_1 &#43; b_1, \dots, a_n &#43; b_n); \\ c (a_1, \dots, a_n) = (ca_1, \dots, ca_n)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 14, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/vspace_products/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Invertibility of linear maps</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \(V\) and \(W\) be vector spaces. A linear map \(T \in \Lin (V, W)\) is called invertible if there exists a map \(S \in \Lin(W, V)\) such that the products \(ST\) and \(TS\) are the identity maps on \(V\) and \(W\), respectively.
+We call the map \(S\) the inverse of \(T\), denoted \(T\inv\) (see the uniqueness property below).
+An invertible linear map \(T \in \Lin(V, W)\) is called an isomorphism, and the spaces \(V\) and \(W\) are called isomorphic to one another....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 13, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/invertibility/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Basis of a vector space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) be a vector space. A basis of \(V\) is a list of vectors in \(V\) that is linearly independent and spans \(V\).
+Properties (2.29) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
+(2.31) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_basis/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Dimension of a vector space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The dimension of a finite dimensional vector space \(V\), denoted \(\dim V\), is the length of any basis of \(V\).
+Properties (2.43) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 &#43; U_2) = \dim U_1 &#43; \dim U_2 - \dim (U_1 \cap U_2).\]
+(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T &#43; \dim \, \range T,\] where \(\nl T\) and \(\range T\) denote the null space and range of \(T\), respectively....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_dimension/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Linear (in)dependence</h2>
   </header>
   <section class="entry-content">
@@ -116,122 +238,6 @@ Note: These definitions follow Sheldon Axler’s book Linear Algebra Done Right,
     <time>August 12, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_independence/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Null spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also known as kernels…
-Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The null space of \(T\), denoted \(\nl T\), is the subset of \(V\) containing vectors that \(T\) maps to the zero vector in \(W\), that is, \[\nl T = \{v \in V \mid Tv = 0\}.\]
-Properties (3.14) Proposition: If \(T \in \Lin(V,W)\), then \(\nl T\) is a subspace of \(V\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/null_space/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Products of linear maps</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(U\), \(V\), and \(W\) be vector spaces. If \(T \in \Lin(U, V)\) and \(S \in \Lin(V, W)\) are linear maps such that \(T\) maps \(U\) into the domain of \(S\), then we define the product \(ST \in \Lin(U, W)\) by \((ST)v = S(Tv)\), that is, \(ST\) is the composition \(S \circ T\) of the two maps.
-Properties Associativity. If \(T_1\), \(T_2\), and \(T_3\) are linear maps such that \(T_3\) maps into the domain of \(T_2\) which in turn maps into the domain of \(T_1\), then \((T_1 T_2) T_3 = T_1 (T_2 T_3)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/map_products/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Sums of subspaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 &#43; \dots &#43; U_m = \{u_1 &#43; \dots &#43; u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
-Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
- \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 &#43; \dots &#43; 0}^{m \text{ times}} \in U_1 &#43; \dots &#43; U_m\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subspace_sums/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Differentiation and derivatives</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 23, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/differentiation/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Integration and integrals</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 23, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/integration/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Arithmetic progression topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The arithmetic progression topology is a topology on \(\mathbb{Z}\) generated by the basis of sets of arithmetic progressions (sets of the form \(\{az &#43; b \mid z \in \mathbb{Z}\}\) for \(a,b \in \mathbb{Z}\), \(a \neq 0\)) and is denoted \(\mathbb{Z}_\text{arith}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/zarith/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Complex numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/complex_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Linear combinations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space over \(\F\) and let \((v_1, \dots, v_n)\) be a list of vectors in \(V\). A linear combination of this list is a vector of the form \[a_1 v_1 &#43; \dots &#43; a_n v_n\] where \(a_1, \dots, a_n \in \F\).
-Examples The vector \((7,2,9) \in \R^3\) is a linear combination of the vectors \((2,1,3)\) and \((1,0,1)\) since \[(7,2,9) = 2(2,1,3) &#43; 3(1,0,1)\]...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_combo/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lists</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(n\) be a nonnegative integer. Then a list of length \(n\) is an ordered collection of \(n\) objects, \((x_1, \dots, x_n)\).
-For \(j \in \{1, \dots, n\}\), we call the element \(x_j\) the \(j\)th coordinate of the list.
-Properties Two lists are equal if and only if they have the same length and the same coordinates in the same order. That is \((x_1, \dots, x_n) = (y_1, \dots, y_m)\) if and only if \(n = m\) and \(x_j = y_j\) for all \(j = 1, \dots, n\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lists/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

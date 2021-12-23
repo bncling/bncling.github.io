@@ -105,139 +105,145 @@
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Group Automorphisms</h2>
+    <h2>The center of a group</h2>
   </header>
   <section class="entry-content">
-   <p>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
-An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
-Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\)....</p>
+   <p>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
+Properties If \(G\) is an abelian group, then \(Z(G) = G\).
+The center of \(G\) is always a normal subgroup of \(G\).
+The center of \(G\) is the intersection of the centralizers of all of its elements: \[Z(G) = \bigcap_{g \in G} C(g)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_auto/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_center/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Group Homomorphisms</h2>
+    <h2>The dihedral group</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
-If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective....</p>
+   <p>Symmetries of a polygon.
+Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
+Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Internal Direct Products</h2>
+    <h2>The discrete topology</h2>
   </header>
   <section class="entry-content">
-   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
-\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
+   <p>The discrete topology is the finest topology on a given set. A set together with the discrete topology is called a discrete space.
+Definition Let \(X\) be a set. Then the discrete topology on \(X\) contains all subsets of \(X\), that is, the topology is \(\mathcal{T} = 2^X\), the power set of \(X\).
+Properties If \((X, \mathcal{T})\) is a topological space, then it is a discrete space if and only if all singletons are open....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/discrete_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Lagrange&#39;s Theorem</h2>
+    <h2>The Double Headed Snake</h2>
   </header>
   <section class="entry-content">
-   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
-Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
+   <p>The body is the positive real line and the two heads are the points \(0&#39;\) and \(0&#39;&#39;\).
+Definition The Double Headed Snake is the topological space on the set \(\R_{&#43;00}\) of all positive real numbers together with the numbers \(0&#39;\) and \(0&#39;&#39;\) that is generated by the basis \(\B\) containing sets of the form \((a,b)\), \((0,b) \cup \{0&#39;\}\), and \((0,b) \cup \{0&#39;&#39;\}\) where \(a,b \in \mathbb{R}\).
+Properties Separation properties  \(T_1\)-space Not Hausdorff (can’t separate \(0&#39;\) and \(0&#39;&#39;\)) Not regular or a \(T_3\)-space Not normal or a \(T_4\)-space  Countability Properties  Separable  ...</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/double_headed_snake/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Normal Subgroups</h2>
+    <h2>The general linear group</h2>
   </header>
   <section class="entry-content">
-   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
-Properties Proposition: The following are equivalent.
- \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
+   <p>Definition The general linear group, denoted \(GL_n(\F)\), is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/gen_linear/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Subgroups</h2>
+    <h2>The group of integers</h2>
   </header>
   <section class="entry-content">
-   <p>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &lt; G\) if \(H\) is a subgroup of \(G\).
-Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups....</p>
+   <p>Definition The set of integers, \(\Z\), together with the operation addition forms an infinite group.
+Properties The group is cyclic generated by \(\pm 1\), and abelian since addition is commutative.
+Every subgroup of \(\Z\) has the form \(n\Z = \langle n \rangle = \{nz \mid z \in \Z\}\) for some \(n \in \Z\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_group/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The Alternating Group</h2>
+    <h2>The group of units</h2>
   </header>
   <section class="entry-content">
-   <p>Definition The alternating group, denoted \(A_n\), is the normal subgroup of \(S_n\) containing all even permutations.
-Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).
-Because \([S_n:A_n] = 2\), \(A_n\) is normal in \(S_n\).
-Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\). This is because if \(H\) is a subgroup of order \(6\), it contains at least two \(3\)-cycles because \(A_4\) contains all eight \(3\)-cycles (since all odd-length cycles are even)....</p>
+   <p>Sometimes denoted \(\Z_n^\times\).
+Definition The group of units mod \(n\), denoted \(U(n)\), is a finite group formed by removing the non-invertible elements of \(\Z_n\) (which are equivalence classes) under multiplication.
+Properties The group of units is an abelian group since multiplcation of equivalence classes is commutative.
+The group of units mod \(n\) is not always cyclic in general, but if \(n\) is \(2\), \(4\), \(p^k\), or \(2p^k\) for a prime \(p\) and natural number \(k\), then it is cyclic becuase the group has a generator....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/unit_grp/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>The Symmetric Group</h2>
+    <h2>The integers mod $n$</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
-The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
-Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
+   <p>Definition The set of equivalence classes on \(\Z\) modulo \(n\) forms a finite group.
+Properties The group is cyclic generated by the equivalence classes of numbers relatively prime to \(n\), and abelian since addition of equivalence classes is commutative....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 7, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ints_modn/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Cyclic Groups</h2>
+    <h2>The Klein four-group</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
-Properties All cyclic groups are abelian.
-If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
+   <p>Definition The Klein four-group is a group that can be thought of in many ways, one of which is as the external direct product \(\Z_2 \times \Z_2\), and is typically denoted by \(V\).
+Properties The group is abelian.
+Every non-identity element has order \(2\).
+Examples The group can also be thought of as being given by the group presentation \(\langle a,b \mid a^2, b^2, (ab)^2 \rangle\).
+Alternatively, the group can be thought of as the subgroup of the general linear group \(GL_2(\R)\) given by \[V = \left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} \right\}....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 6, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/klein4/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>External Direct Products</h2>
+    <h2>The lexicographically ordered square</h2>
   </header>
   <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
-For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\)....</p>
+   <p>Sets have interesting closures.
+Definition The unit square \([0,1] \times [0,1]\) is totally ordered by the lexicographic order, and the lexicographically ordered square is the topological space formed from the unit square together with the associated order topology.
+Properties Many sets have very interesting, unexpected closures. See Exercise 3.21.
+Separation Properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space  These follow from the fact that this is a space with an order topology....</p>
   </section>
   <footer class="entry-footer">
-    <time>December 6, 2021</time>
+    <time>December 22, 2021</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lex_square/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

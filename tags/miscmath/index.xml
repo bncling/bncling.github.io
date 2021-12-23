@@ -6,7 +6,38 @@
     <description>Recent content in miscmath on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeMorgan&#39;s laws</title>
+      <link>https://bncling.github.io/math-wiki/demorgan/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/demorgan/</guid>
+      <description>DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]
+Proof The proof here is for a weaker version of the laws for a finite collection of sets, written as an exercise for my topology work.</description>
+    </item>
+    
+    <item>
+      <title>Equivalence relations</title>
+      <link>https://bncling.github.io/math-wiki/equiv_rels/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/equiv_rels/</guid>
+      <description>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
+The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
+Properties The equivalence classes of a relation \(R\) partition the set \(S\).</description>
+    </item>
+    
+    <item>
+      <title>My topology self-study work</title>
+      <link>https://bncling.github.io/math-wiki/top_selfstudy/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_selfstudy/</guid>
+      <description>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here.</description>
+    </item>
+    
     <item>
       <title>Cardinality</title>
       <link>https://bncling.github.io/math-wiki/cardinality/</link>
@@ -28,17 +59,6 @@ A set \(A\) is finite if and only if it is \(\vert A \vert = n\) for some natura
 Properties Theorem 1.18: If the set \(A\) is finite, then its power set has cardinality \(\vert 2^A \vert = 2^{\vert A \vert}\).
 Theorem 1.19: For any set \(A\), there exists an injection from \(A\) into \(2^A\).
 Theorem 1.20: The cardinality of \(2^A\) is the same as the cardinality of the set of all functions \(f: A \to \{0,1\}\).</description>
-    </item>
-    
-    <item>
-      <title>Equivalence Relations</title>
-      <link>https://bncling.github.io/math-wiki/equiv_rels/</link>
-      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/equiv_rels/</guid>
-      <description>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
-The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
-Properties The equivalence classes of a relation \(R\) partition the set \(S\).</description>
     </item>
     
     <item>
@@ -81,15 +101,6 @@ It is called bijective if and only if it is both injective and surjective.</desc
       <description>Definition Let \(n\) be a nonnegative integer. Then a list of length \(n\) is an ordered collection of \(n\) objects, \((x_1, \dots, x_n)\).
 For \(j \in \{1, \dots, n\}\), we call the element \(x_j\) the \(j\)th coordinate of the list.
 Properties Two lists are equal if and only if they have the same length and the same coordinates in the same order. That is \((x_1, \dots, x_n) = (y_1, \dots, y_m)\) if and only if \(n = m\) and \(x_j = y_j\) for all \(j = 1, \dots, n\).</description>
-    </item>
-    
-    <item>
-      <title>My Topology self-study work</title>
-      <link>https://bncling.github.io/math-wiki/top_selfstudy/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/top_selfstudy/</guid>
-      <description>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here.</description>
     </item>
     
     <item>
@@ -138,17 +149,6 @@ An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or
       <guid>https://bncling.github.io/animations/garfield/</guid>
       <description>This was the first video I made with the manim python library.
   </description>
-    </item>
-    
-    <item>
-      <title>DeMorgan&#39;s Laws</title>
-      <link>https://bncling.github.io/math-wiki/demorgan/</link>
-      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/demorgan/</guid>
-      <description>DeMorgan’s Laws relate complements of unions and intersections.
-Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]
-Proof The proof here is for a weaker version of the laws for a finite collection of sets, written as an exercise for my topology work.</description>
     </item>
     
   </channel>
