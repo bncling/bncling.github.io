@@ -101,7 +101,7 @@ For a finite set, the finite complement topology is just the discrete topology."
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Finite complement topology</h1>
-    <div class="post-meta">December 22, 2021</div>
+    <div class="post-meta">December 25, 2021</div>
   </header>
   <div class="post-content"><p>Basically what the name makes it sound like. Similar in definition to the <a href="https://bncling.github.io/math-wiki/countable_complement_topology/">countable complement topology</a>.</p>
 <h2 id="definition">Definition</h2>
@@ -119,7 +119,9 @@ For a finite set, the finite complement topology is just the discrete topology."
 <h4 id="countability-properties">Countability Properties</h4>
 <ul>
 <li><a href="https://bncling.github.io/math-wiki/separable_spaces/">Separable</a></li>
+<li><strong>Not</strong> <a href="https://bncling.github.io/math-wiki/second_countable/">2<sup>nd</sup> countable</a></li>
 </ul>
+<p><em>Proof:</em> Let <span class="math inline">\(\B = \{B_i \mid i \in \N\}\)</span> be a countable collection of open sets in an uncountable space <span class="math inline">\(X\)</span>. Then <span class="math inline">\(X - B_i\)</span> is finite, and therefore <span class="math display">\[X - \bigcap_{i \in \N} B_i = \bigcup_{i \in \N} (X - B_i)\]</span> is the countable union of finite sets and is therefore countable. Since <span class="math inline">\(X\)</span> is uncountable, the set <span class="math inline">\(\bigcap_{i \in \N} B_i\)</span> is uncountable, so there is a point <span class="math inline">\(p\)</span> in that intersection. The set <span class="math inline">\(X - \{p\}\)</span> is open since its complement is finite, but <span class="math inline">\(p \in B_i\)</span> for all <span class="math inline">\(i \in \N\)</span>, so <span class="math inline">\(X - \{p\}\)</span> is not the union of sets in <span class="math inline">\(\B\)</span>, meaning <span class="math inline">\(\B\)</span> is not a basis. Hence no countable collection <span class="math inline">\(\B\)</span> is a basis, and <span class="math inline">\(X\)</span> is therefore not 2<sup>nd</sup> countable.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

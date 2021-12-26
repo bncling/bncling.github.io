@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>topology</title>
+      <link>https://bncling.github.io/tags/topology/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/tags/topology/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>algebra</title>
       <link>https://bncling.github.io/tags/algebra/</link>
@@ -58,15 +67,6 @@
       <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/tags/number_theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>topology</title>
-      <link>https://bncling.github.io/tags/topology/</link>
-      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/tags/topology/</guid>
       <description></description>
     </item>
     

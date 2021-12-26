@@ -13,8 +13,8 @@
       <pubDate>Fri, 09 Jul 2021 14:40:49 -0400</pubDate>
       
       <guid>https://bncling.github.io/posts/space_table/</guid>
-      <description>In spaces where the base set \(X\) is not given, \(X\) is assumed to be uncountably infinite, and in the row for the product topology on \(X \times Y\), it is assumed that both \(X\) and \(Y\) have the property of interest.
-  Topological space \(T_1\) Hausdorff Regular Normal Separable    \(\Rs\) ✓ ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✗ ✗ ✓  Discrete topology ✓ ✓ ✓ ✓ ✗  Finite complement ✓ ✗ ✗ ✗ ✓  Countable complement ✓ ✗ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓ ✓  Double Headed Snake ✓ ✗ ✗ ✗ ✓  K-topology ✓ ✓ ✗ ✗ ✓  \(\Hbub\) ✓ ✓ ✓  ✓  Arithmetic progressions       Lexicographically ordered square ✓ ✓ ✓  ✗  Order topologies ✓ ✓ ✓  ✗  Product topology ✓ ✓ ✓      </description>
+      <description>In spaces where the base set \(X\) is not given, \(X\) is assumed to be uncountably infinite, and in the row for the product topology on \(X \times Y\), it is assumed that both \(X\) and \(Y\) have the property of interest. The labels 2nd and 1st are abbreviations for the countability properties.
+  Topological space \(T_1\) Hausdorff Regular Normal Separable 2nd    \(\Rs\) ✓ ✓ ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✓ ✓ ✓ ✓  Discrete topology ✓ ✓ ✓ ✓ ✗ ✗  Finite complement ✓ ✗ ✗ ✗ ✓ ✗  Countable complement ✓ ✗ ✗ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓ ✓ ✗  Double Headed Snake ✓ ✗ ✗ ✗ ✓ ✓  K-topology ✓ ✓ ✗ ✗ ✓ ✓  \(\Hbub\) ✓ ✓ ✓  ✓ ✗  Arithmetic progressions        Lexicographically ordered square ✓ ✓ ✓  ✗ ✗  Order topologies ✓ ✓ ✓  ✗ ✗  Product topology ✓ ✓ ✓  ✓ ✓    </description>
     </item>
     
     <item>

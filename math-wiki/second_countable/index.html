@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>The standard topology - Ben Clingenpeel</title>
+    <title>Second countable spaces - Ben Clingenpeel</title>
     
-    <meta name="description" content="The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
-Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
-An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &lt; \varepsilon\}\).">
+    <meta name="description" content="Definition A topological space \((X, \T)\) is called 2nd countable if and only if it has a countable basis.
+Properties Theorem 5.9: All 2nd countable spaces are separable.
+Examples The standard topology on \(\R^n\) is 2nd countable because it has a basis consisting of open balls of rational radii centered at rational points.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -99,30 +99,15 @@ An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">The standard topology</h1>
+    <h1 class="post-title">Second countable spaces</h1>
     <div class="post-meta">December 25, 2021</div>
   </header>
-  <div class="post-content"><p>The standard topology is a <a href="https://bncling.github.io/math-wiki/topology_def/">topology</a> defined on <span class="math inline">\(\mathbb{R}^n\)</span> for <span class="math inline">\(n \in \mathbb{N}\)</span>.</p>
-<h2 id="definitions">Definitions</h2>
-<p>The <strong>Euclidean distance</strong> between two points <span class="math inline">\(x = (x_1, x_2, \dots, x_n)\)</span> and <span class="math inline">\(y = (y_1, y_2, \dots, y_n)\)</span> is defined as <span class="math display">\[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]</span></p>
-<p>An <strong>open ball</strong> of radius <span class="math inline">\(\varepsilon &gt; 0\)</span> around a point <span class="math inline">\(p \in \mathbb{R}^n\)</span> is the set <span class="math inline">\(B(p, \varepsilon) = \{x \mid d(p,x) &lt; \varepsilon\}\)</span>.</p>
-<p>The <strong>standard topology</strong> <span class="math inline">\(\mathcal{T}_{\text{std}}\)</span> on <span class="math inline">\(\mathbb{R}^n\)</span> contains all sets <span class="math inline">\(U \subset \mathbb{R}^n\)</span> such that for all <span class="math inline">\(p \in U\)</span>, there exists an <span class="math inline">\(\varepsilon_p &gt; 0\)</span> such that <span class="math inline">\(B(p, \varepsilon_p) \subset U\)</span>.</p>
-<h2 id="basis">Basis</h2>
-<p>One <a href="https://bncling.github.io/math-wiki/top_basis/">basis</a> for the standard topology on <span class="math inline">\(\mathbb{R}\)</span> is <span class="math inline">\(\mathcal{B} = \{(a,b) \mid a,b \in \mathbb{R}\}\)</span>.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>A <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> <span class="math inline">\((X, \T)\)</span> is called <strong>2<sup>nd</sup> countable</strong> if and only if it has a <a href="https://bncling.github.io/math-wiki/cardinality/">countable</a> <a href="https://bncling.github.io/math-wiki/top_basis/">basis</a>.</p>
 <h2 id="properties">Properties</h2>
-<p><a href="\work.pdf#page=17">Theorem 2.31:</a> If <span class="math inline">\(p\)</span> is a <a href="https://bncling.github.io/math-wiki/limit_points/">limit point</a> of a set <span class="math inline">\(A\)</span> in <span class="math inline">\((\mathbb{R}^n, \mathcal{T}_\text{std})\)</span>, then there exists a <a href="https://bncling.github.io/math-wiki/sequence/">sequence</a> of points in <span class="math inline">\(A\)</span> that converges to <span class="math inline">\(p\)</span>.</p>
-<h4 id="separation-properties">Separation Properties</h4>
-<ul>
-<li><a href="https://bncling.github.io/math-wiki/t1/"><span class="math inline">\(T_1\)</span>-space</a> (since it’s Hausdorff)</li>
-<li><a href="https://bncling.github.io/math-wiki/hausdorff/">Hausdorff</a> (since it’s <span class="math inline">\(T_3\)</span>)</li>
-<li><a href="https://bncling.github.io/math-wiki/regular/">Regular</a> and a <a href="https://bncling.github.io/math-wiki/t3/"><span class="math inline">\(T_3\)</span>-space</a> (since it’s <span class="math inline">\(T_4\)</span>)</li>
-<li><a href="https://bncling.github.io/math-wiki/normal/">Normal</a> and a <a href="https://bncling.github.io/math-wiki/t4/"><span class="math inline">\(T_4\)</span>-space</a> (<a href="\work.pdf#page=30">proof</a> for <span class="math inline">\(\mathbb{R}^2\)</span> that generalizes)</li>
-</ul>
-<h4 id="countability-properties">Countability Properties</h4>
-<ul>
-<li><a href="https://bncling.github.io/math-wiki/separable_spaces/">Separable</a></li>
-<li><a href="https://bncling.github.io/math-wiki/second_countable/">2<sup>nd</sup> countable</a></li>
-</ul>
+<p><a href="\work.pdf#page=43">Theorem 5.9:</a> All 2<sup>nd</sup> countable spaces are <a href="https://bncling.github.io/math-wiki/separable_spaces/">separable</a>.</p>
+<h2 id="examples">Examples</h2>
+<p>The <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a> on <span class="math inline">\(\R^n\)</span> is 2<sup>nd</sup> countable because it has a basis consisting of open balls of rational radii centered at rational points.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

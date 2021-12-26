@@ -105,6 +105,125 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Group isomorphism theorems</h2>
+  </header>
+  <section class="entry-content">
+   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_iso_thms/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Group presentations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_presentations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Hausdorff spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Also called \(T_2\)-spaces.
+Definition Let \((X, \T)\) be a topological space. It is Hausdorff if and only if for every pair of distinct points \(x\) and \(y\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\).
+Properties Theorem 4.7: If a space \((X, \T)\) is \(T_3\), or \(T_4\), it is also Hausdorff and therefore also \(T_1\).
+Theorem 4.16:) The product of Hausdorff spaces is product, even for a possibly uncountable product....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/hausdorff/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Heredity</h2>
+  </header>
+  <section class="entry-content">
+   <p>What properties do subspaces inherit?
+Definition Let \(P\) be a property of a topological space \((X, \T)\). Then the space is hereditarily \(P\) if and only if every subspace \(Y \subset X\) with the relative topology \(\T_Y\) also has the property \(P\).
+Properties Theorem 4.26: A topological space \((X, \T)\) is hereditarily normal if and only if it is completely normal.
+Examples Theorem 4.19: Hausdorff spaces are hereditarily Hausdorff.
+Theorem 4....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/heredity/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Integer partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
+Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the partition function \(p_k(n)\), which satisfies \[\begin{align*} &amp;p_n(n) = 1 \\ &amp;p_0(n) = 0 \quad n \geq 1 \\ &amp;p_k(n) = 0 \quad k &gt; n \\ &amp;p_{n-1}(n) = 1 \\ &amp;p_1(n) = 1 \\ &amp;p_{n-2}(n) = 2 \\ &amp;p_2(n) = \bigg \lfloor \frac{n}{2} \bigg \rfloor, \end{align*}\] along with the recursion \(p_k(n) = p_k(n-k) &#43; p_{k-1}(n-1)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Internal direct products</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
+\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Lagrange&#39;s theorem</h2>
+  </header>
+  <section class="entry-content">
+   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
+Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Latin squares</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A Latin square of order \(n\) is an \(n \times n\) array such that each row is a permutation of \([n]\) and all rows are pairwise discordant. (Though Latin squares can be formed out of any set of \(n\) elements, not just \([n]\)).
+The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \(A \otimes B\), has entries in \([n] \times [n]\) where \((A \otimes B)_{ij}\) is the pair \((A_{ij}, B_{ij})\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/latin_squares/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Least common multiples</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lcm/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>My topology self-study work</h2>
   </header>
   <section class="entry-content">
@@ -114,126 +233,6 @@
     <time>December 22, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/top_selfstudy/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Noncrossing partitions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Noncrossing partitions of \([n]\) are partitions of \([n]\) into parts \(\{B_1, \dots, B_k\}\) such that if \(a &lt; b &lt; c &lt; d\) are elements of \([n]\) with \(a,c \in B_i\) and \(b,d \in B_j\), then \(i = j\). Otherwise, a partition is crossing.
-Properties Noncrossing partitions of \([n]\) can be visually represented as a series of \(n\) labeled dots with partitions represented by arcs connecting the dots that belong to a given part....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/nc_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Normal spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
-Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Normal subgroups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
-Properties Proposition: The following are equivalent.
- \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Order of an element in a group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
-Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
-If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Order topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(X\) be a set totally ordered by a relation \(\leq\). The order topology on \(X\) is the topology generated by the basis \(\B\) where \(\B\) is the collection of subsets of \(X\) of the form \(\{x \in X \mid x &lt; a\}\), \(\{x \in X \mid a &lt; x\}\), or \(\{x \in X \mid a &lt; x &lt; b\}\) for \(a, b \in X\).
-Properties If \(X\) is a set totally ordered by a relation \(\leq\), then the order topology on \(X\) has a subbasis \(\Sub\) containing sets of the form \(\{x \in X \mid x &lt; a\}\) or \(\{x \in X \mid a &lt; x\}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/order_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Permutation matrices</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
-Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
-Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Prime numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/prime/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Quotient groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called factor groups.
-Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
-Properties The quotient group is a group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Rank of a matrix</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \(A \in \F^{m,n}\) be a matrix. Then the row rank of \(A\) is the dimension of the span of the rows of \(A\) (thought of as matrices in \(\F^{1,n}\)), and the column rank of \(A\) is the dimension of the span of the columns of \(A\) (thought of as matrices in \(\F^{m,1}\)).
-Properties (3.117) Proposition: The column rank of \(A\) is the dimension of the range of \(T\), where \(T\) is the linear map that \(A\) represents....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrix_rank/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
