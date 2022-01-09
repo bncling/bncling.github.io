@@ -100,9 +100,37 @@
 
 <p>This is a collection of several brief explanations of various math concepts / objects I’ve come across, organized into one nice central location for my own use.</p>
 <p>In pages with the <a href="https://bncling.github.io/tags/topology/">“topology” tag</a>, there are sometimes references to theorems, lemmas, and exercises from the book <a href="https://bookstore.ams.org/text-58/"><em>Topology Through Inquiry</em></a> by Michael Starbird and Francis Su that I’ve been working with this summer. The theorems that are referenced in these pages are (usually) ones that I’ve proven (or at least tried to prove—no guarantees all the proofs work), and you can find a compilation of all the work I’ve done <a href="https://bncling.github.io/math-wiki/top_selfstudy/">here</a>.</p>
-<p>In pages with the <a href="https://bncling.github.io/tags/topology/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>. There are also references to theorems and exercises from the book.</p>
+<p>In pages with the <a href="https://bncling.github.io/tags/linear_algebra/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>. There are also references to theorems and exercises from the book.</p>
 <p>The collection is currently organized to have the latest updated pages at the top, but I might be looking to change that at some point. For now, you can look at an alphabetical list of all wiki entries <a href="https://bncling.github.io/alphabetical/">here</a>.</p>
 
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Basis of a vector space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) be a vector space. A basis of \(V\) is a list of vectors in \(V\) that is linearly independent and spans \(V\).
+Properties (2.29) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
+(2.31) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_basis/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Dimension of a vector space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The dimension of a finite dimensional vector space \(V\), denoted \(\dim V\), is the length of any basis of \(V\).
+Properties (2.43) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 &#43; U_2) = \dim U_1 &#43; \dim U_2 - \dim (U_1 \cap U_2).\]
+(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T &#43; \dim \, \range T,\] where \(\nl T\) and \(\range T\) denote the null space and range of \(T\), respectively....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_dimension/"></a>
+</article>
 <article class="post-entry">
   <header class="entry-header">
     <h2>Linear (in)dependence</h2>
@@ -206,33 +234,6 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/complex_numbers/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Linear combinations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space over \(\F\) and let \((v_1, \dots, v_n)\) be a list of vectors in \(V\). A linear combination of this list is a vector of the form \[a_1 v_1 &#43; \dots &#43; a_n v_n\] where \(a_1, \dots, a_n \in \F\).
-Examples The vector \((7,2,9) \in \R^3\) is a linear combination of the vectors \((2,1,3)\) and \((1,0,1)\) since \[(7,2,9) = 2(2,1,3) &#43; 3(1,0,1)\]...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_combo/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lists</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(n\) be a nonnegative integer. Then a list of length \(n\) is an ordered collection of \(n\) objects, \((x_1, \dots, x_n)\).
-For \(j \in \{1, \dots, n\}\), we call the element \(x_j\) the \(j\)th coordinate of the list.
-Properties Two lists are equal if and only if they have the same length and the same coordinates in the same order. That is \((x_1, \dots, x_n) = (y_1, \dots, y_m)\) if and only if \(n = m\) and \(x_j = y_j\) for all \(j = 1, \dots, n\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 17, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lists/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/10/">← Prev Page</a>
@@ -240,7 +241,7 @@ Properties Two lists are equal if and only if they have the same length and the 
   </nav>
 </footer></main>
 <footer class="footer">
-  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&copy; 2022 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
   <span>&middot;</span>

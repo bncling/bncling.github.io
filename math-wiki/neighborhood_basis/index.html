@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Animations - Ben Clingenpeel</title>
+    <title>Neighborhood bases - Ben Clingenpeel</title>
     
-    <meta name="description" content="">
+    <meta name="description" content="Definition Let \(p\) be a point in a topological space \((X, \T)\). A collection of open sets \(\{U_\alpha\}_{\alpha \in \lambda}\) in \(X\) is called a neighborhood basis for \(p\) if and only if
+ \(p \in U_\alpha\) for all \(\alpha \in \lambda\), and for all open sets \(V\) with \(p \in V\), there exists a \(\beta \in \lambda\) such that \(p \in U_\beta \subset V\).  Properties Theorem 5.15: If \(p\) is a point in a topological space with a countable neighborhood basis, then \(p\) also has a nested neighborhood basis.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -20,7 +21,6 @@
     <link rel="manifest" href="/site.webmanifest">
     <meta name="generator" content="Hugo 0.84.4" />
     
-    <link rel="alternate" type="application/rss+xml" href="https://bncling.github.io/animations/index.xml" title="Ben Clingenpeel" />
     
     
     <script>
@@ -70,7 +70,7 @@
       }
     </script>
   </head>
-  <body class="list">
+  <body class="single">
     <script>
       setTheme();
     </script>
@@ -95,36 +95,86 @@
     </header>
     <main class="main">
 
-<header class="page-header"><h1>Animations</h1></header>
 
-
-<p>These are some animations I made during the early stages of the pandemic when I started messing around with the wonderful <a href="https://www.manim.community/">manim</a> <code>python</code> library.</p>
-
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The first fundamental theorem of calculus</h2>
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Neighborhood bases</h1>
+    <div class="post-meta">January 8, 2022</div>
   </header>
-  <section class="entry-content">
-   <p>This is a video I made using the manim python library based on a proof of the first fundamental theorem of calculus I found lying around in my notes from my first calculus class.
-  ...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 6, 2021</time>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(p\)</span> be a point in a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> <span class="math inline">\((X, \T)\)</span>. A collection of <a href="https://bncling.github.io/math-wiki/open_sets/">open sets</a> <span class="math inline">\(\{U_\alpha\}_{\alpha \in \lambda}\)</span> in <span class="math inline">\(X\)</span> is called a <strong>neighborhood basis</strong> for <span class="math inline">\(p\)</span> if and only if</p>
+<ul>
+<li><span class="math inline">\(p \in U_\alpha\)</span> for all <span class="math inline">\(\alpha \in \lambda\)</span>, and</li>
+<li>for all open sets <span class="math inline">\(V\)</span> with <span class="math inline">\(p \in V\)</span>, there exists a <span class="math inline">\(\beta \in \lambda\)</span> such that <span class="math inline">\(p \in U_\beta \subset V\)</span>.</li>
+</ul>
+<h2 id="properties">Properties</h2>
+<p><a href="\work.pdf#page=45">Theorem 5.15:</a> If <span class="math inline">\(p\)</span> is a point in a topological space with a <a href="https://bncling.github.io/math-wiki/cardinality/">countable</a> neighborhood basis, then <span class="math inline">\(p\)</span> also has a <em>nested</em> neighborhood basis. That is, there is a countable neighborhood basis for <span class="math inline">\(p\)</span>, <span class="math inline">\(\{U_i\}_{i \in \N}\)</span>, such that <span class="math inline">\(U_{n+1} \subset U_n\)</span> for all <span class="math inline">\(n \in \N\)</span>.</p>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/topology">topology</a></li>
+    </ul>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/animations/ftoc1/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>James Garfield&#39;s proof of the Pythagorean Theorem</h2>
-  </header>
-  <section class="entry-content">
-   <p>This was the first video I made with the manim python library.
-  ...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 6, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/animations/garfield/"></a>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\Poly":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathcal{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathcal{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}",
+            "\\Sym":"\\text{Sym}",
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
 </article></main>
 <footer class="footer">
   <span>&copy; 2022 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>

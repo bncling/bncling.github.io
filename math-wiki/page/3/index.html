@@ -100,9 +100,36 @@
 
 <p>This is a collection of several brief explanations of various math concepts / objects I’ve come across, organized into one nice central location for my own use.</p>
 <p>In pages with the <a href="https://bncling.github.io/tags/topology/">“topology” tag</a>, there are sometimes references to theorems, lemmas, and exercises from the book <a href="https://bookstore.ams.org/text-58/"><em>Topology Through Inquiry</em></a> by Michael Starbird and Francis Su that I’ve been working with this summer. The theorems that are referenced in these pages are (usually) ones that I’ve proven (or at least tried to prove—no guarantees all the proofs work), and you can find a compilation of all the work I’ve done <a href="https://bncling.github.io/math-wiki/top_selfstudy/">here</a>.</p>
-<p>In pages with the <a href="https://bncling.github.io/tags/topology/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>. There are also references to theorems and exercises from the book.</p>
+<p>In pages with the <a href="https://bncling.github.io/tags/linear_algebra/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>. There are also references to theorems and exercises from the book.</p>
 <p>The collection is currently organized to have the latest updated pages at the top, but I might be looking to change that at some point. For now, you can look at an alphabetical list of all wiki entries <a href="https://bncling.github.io/alphabetical/">here</a>.</p>
 
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Cosets of a subgroup</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). We say that elements \(a, b \in G\) are left-equivalent, written \(a \sim_L b\), if and only if \(a\inv b \in H\). Similarly, we say they are right-equivalent, written \(a \sim_R b\), if and only if \(ab\inv \in H\). Then \(\sim_L\) and \(\sim_R\) are relations on \(G\), and we have that
+ \(a\inv a = e \in H &lt; G\), meaning \(a \sim_L a\) for all \(a \in G\), \(a \sim_L b\) means \(a\inv b \in H \implies b\inv a = (a\inv b)\inv \in H &lt; G \implies b \sim_L a\) for all \(a,b \in G\), and \(a \sim_L b\) and \(b \sim_L c\) means \(a\inv c = (a\inv b) (b \inv c) \in H &lt; G \implies a \sim_L c\) for all \(a,b,c \in G\),  which means \(\sim_L\) is an equivalence relation on \(G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_cosets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Cyclic groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
+Properties All cyclic groups are abelian.
+If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
+</article>
 <article class="post-entry">
   <header class="entry-header">
     <h2>Definition of a topology</h2>
@@ -208,33 +235,6 @@ For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/gcd/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group automorphisms</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition An automorphism of a group \((G, \cdot)\) is a map \(f: G \to G\) that is an ismorphism.
-An inner automorphism of \(G\) is an automorphism \(i_g: G \to G\) given by conjugation: \(i_g (x) = gxg\inv\).
-Properties Because automorphisms are bijections from the set \(G\) to itself, the set of all automorphisms, denoted \(\Aut (G)\), is a subset of \(\Sym(G)\), the symmetric group on \(G\). In fact, \(\Aut(G)\) is a subgroup of \(\Sym(G)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_auto/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group homomorphisms</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. A map \(\varphi: G \to H\) is called a group homomorphism if it preserves the group operation. That is, \(\varphi\) is a homomorphism if and only if for all \(a,b \in G\) we have \(\varphi(a \cdot b) = \varphi(a) \circ \varphi(b)\).
-If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an epimorphism if it is surjective, and an isomorphism if it is bijective....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/2/">← Prev Page</a>
@@ -242,7 +242,7 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
   </nav>
 </footer></main>
 <footer class="footer">
-  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&copy; 2022 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
   <span>&middot;</span>

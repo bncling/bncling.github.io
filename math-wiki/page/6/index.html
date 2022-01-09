@@ -100,9 +100,37 @@
 
 <p>This is a collection of several brief explanations of various math concepts / objects I’ve come across, organized into one nice central location for my own use.</p>
 <p>In pages with the <a href="https://bncling.github.io/tags/topology/">“topology” tag</a>, there are sometimes references to theorems, lemmas, and exercises from the book <a href="https://bookstore.ams.org/text-58/"><em>Topology Through Inquiry</em></a> by Michael Starbird and Francis Su that I’ve been working with this summer. The theorems that are referenced in these pages are (usually) ones that I’ve proven (or at least tried to prove—no guarantees all the proofs work), and you can find a compilation of all the work I’ve done <a href="https://bncling.github.io/math-wiki/top_selfstudy/">here</a>.</p>
-<p>In pages with the <a href="https://bncling.github.io/tags/topology/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>. There are also references to theorems and exercises from the book.</p>
+<p>In pages with the <a href="https://bncling.github.io/tags/linear_algebra/">“linear_algebra” tag</a>, the symbol <span class="math inline">\(\F\)</span> usually denotes either the field <span class="math inline">\(\R\)</span> or the field <span class="math inline">\(\C\)</span>, following the text <a href="https://link.springer.com/book/10.1007/978-3-319-11080-6"><em>Linear Algebra Done Right</em></a>. There are also references to theorems and exercises from the book.</p>
 <p>The collection is currently organized to have the latest updated pages at the top, but I might be looking to change that at some point. For now, you can look at an alphabetical list of all wiki entries <a href="https://bncling.github.io/alphabetical/">here</a>.</p>
 
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Regular spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X, \T)\) be a topological space. It is regular if and only if for every point \(x \in X\) and closed set \(A \subset X\) with \(x \notin A\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(A \subset V\).
+Properties Theorem 4.8: A space \((X, \T)\) is regular if and only if for each point \(p \in X\) and open set \(U\) with \(p \in U\), there exists an open set \(V\) such that \(p \in V\) and \(\overline{V} \subset U\) (where \(\overline{V}\) is the closure of \(V\) in \((X, \T)\))....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/regular/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Separable spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Defintion A topological space \((X, \T)\) is separable if and only if \(X\) has a countable dense subset.
+Properties Exercise 5.4: A space \((X, \T)\) being separable does not imply that all of its subspaces are separable.
+Theorem 5.5: If two spaces \(X\) and \(Y\) are separable, then \(X \times Y\) with the product topology is separable.
+Examples The space \(\Rs\) is separable, but \(\R\) with the discrete topology is not separable because the reals are uncountable and so for any countable subset, there is point not in the subset, and the set containing this point is open in the discrete topology, meaning not all open sets contain a point in the countable subset and so no countable subset can be dense....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/separable_spaces/"></a>
+</article>
 <article class="post-entry">
   <header class="entry-header">
     <h2>Set partitions</h2>
@@ -212,35 +240,6 @@ Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\).
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The center of a group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
-Properties If \(G\) is an abelian group, then \(Z(G) = G\).
-The center of \(G\) is always a normal subgroup of \(G\).
-The center of \(G\) is the intersection of the centralizers of all of its elements: \[Z(G) = \bigcap_{g \in G} C(g)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_center/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The dihedral group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Symmetries of a polygon.
-Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
-Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/5/">← Prev Page</a>
@@ -248,7 +247,7 @@ Properties The group contains \(n\) rotations (counting the identity as a rotati
   </nav>
 </footer></main>
 <footer class="footer">
-  <span>&copy; 2021 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&copy; 2022 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
   <span>&middot;</span>
