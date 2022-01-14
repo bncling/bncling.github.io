@@ -13,7 +13,7 @@
       <pubDate>Mon, 05 Jul 2021 18:07:46 -0400</pubDate>
       
       <guid>https://bncling.github.io/posts/elliptic_curve_explainer/</guid>
-      <description>The following is an assignment for a writing class aimed at a non-math audience. For a more rigorous look at elliptic curve cryptography, look at… elsewhere, I dunno.
+      <description>The following is an assignment for a writing class aimed at a non-math audience.
 Elliptic curves ​You might not have heard of elliptic curves before, but odds are you’ve used them without knowing it to securely pass information back and forth. Elliptic curves are abstract mathematical objects, and in the same way that you probably learned to represent equations like \(y = x^2\) or \(x^2 + y^2 = 4\) as curves in the \(xy\) plane in high school,​ we can graph elliptic curves.</description>
     </item>
     
