@@ -105,6 +105,20 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>The symmetric group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
+The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
+Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Transpose of a matrix</h2>
   </header>
   <section class="entry-content">
@@ -229,20 +243,6 @@ Properties Since many properties of the vector space \(V\) are inherited, a subs
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_subspaces/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Linear maps</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called linear transformations.
-Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
- additivity: \(T(u &#43; v) = T(u) &#43; T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 15, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_maps/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/7/">← Prev Page</a>
@@ -313,7 +313,9 @@ Definition A linear map from a vector space \(V\) to a vector space \(W\) is a f
             "\\inn":"\\text{Inn}",
             "\\id":"\\text{id}",
             "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
-            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
+            "\\Cov":"\\mathfrak{C}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false

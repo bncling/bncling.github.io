@@ -105,6 +105,32 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Internal direct products</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
+\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Lagrange&#39;s theorem</h2>
+  </header>
+  <section class="entry-content">
+   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
+Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Latin squares</h2>
   </header>
   <section class="entry-content">
@@ -152,19 +178,6 @@ Properties Noncrossing partitions of \([n]\) can be visually represented as a se
     <time>December 22, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/nc_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Normal spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
-Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -219,20 +232,6 @@ Properties The set of all permutation matrices of size \(n\) forms a group isomo
     <time>December 22, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/prime/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Quotient groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called factor groups.
-Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
-Properties The quotient group is a group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -304,7 +303,9 @@ Properties The quotient group is a group....</p>
             "\\inn":"\\text{Inn}",
             "\\id":"\\text{id}",
             "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
-            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
+            "\\Cov":"\\mathfrak{C}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false

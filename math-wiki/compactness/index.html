@@ -5,11 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Sums of subspaces - Ben Clingenpeel</title>
+    <title>Compactness - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition Let \(U_1, \dots, U_m\) be subspaces of a vector space \(V\). The sum of \(U_1, \dots, U_m\) is \[U_1 &#43; \dots &#43; U_m = \{u_1 &#43; \dots &#43; u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\] the set of all possible sums of elements of the \(U_i\).
-Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
- \(0 \in U_i\) for all \(i = 1, \dots, m\), so \(0 = \overbrace{0 &#43; \dots &#43; 0}^{m \text{ times}} \in U_1 &#43; \dots &#43; U_m\).">
+    <meta name="description" content="Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -99,27 +97,26 @@ Properties The sum of subspaces \(U_1 &#43; \dots &#43; U_m\) is a subspace.
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Sums of subspaces</h1>
-    <div class="post-meta">August 12, 2021</div>
+    <h1 class="post-title">Compactness</h1>
+    <div class="post-meta">January 19, 2022</div>
   </header>
-  <div class="post-content"><h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\(U_1, \dots, U_m\)</span> be <a href="https://bncling.github.io/math-wiki/linalg_subspaces/">subspaces</a> of a <a href="https://bncling.github.io/math-wiki/vector_space/">vector space</a> <span class="math inline">\(V\)</span>. The <strong>sum</strong> of <span class="math inline">\(U_1, \dots, U_m\)</span> is <span class="math display">\[U_1 + \dots + U_m = \{u_1 + \dots + u_m \mid u_1 \in U_1, \dots, u_m \in U_m\},\]</span> the set of all possible sums of elements of the <span class="math inline">\(U_i\)</span>.</p>
+  <div class="post-content"><h2 id="definitions">Definitions</h2>
+<p>Let <span class="math inline">\((X,\T)\)</span> be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> and with a subset <span class="math inline">\(A \subset X\)</span>. A collection <span class="math inline">\(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\)</span> is called a <strong>cover</strong> of <span class="math inline">\(A\)</span> if and only if <span class="math inline">\(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\)</span>. The collection <span class="math inline">\(\Cov\)</span> is called an <strong>open cover</strong> if each <span class="math inline">\(C_\alpha\)</span> is an <a href="https://bncling.github.io/math-wiki/open_sets/">open set</a>. A collection <span class="math inline">\(\Cov&#39;\)</span> is a <strong>subcover</strong> of <span class="math inline">\(\Cov\)</span> if it is a subset of <span class="math inline">\(\Cov\)</span> and is also a cover of <span class="math inline">\(A\)</span>.</p>
+<p>A space <span class="math inline">\(X\)</span> is called <strong>compact</strong> if and only if every open cover of <span class="math inline">\(X\)</span> has a <a href="https://bncling.github.io/math-wiki/cardinality/">finite</a> subcover.</p>
+<p>A collection of sets has the <strong>finite intersection property</strong> if and only if all finite subcollections have nonempty intersections.</p>
 <h2 id="properties">Properties</h2>
-<p>The sum of subspaces <span class="math inline">\(U_1 + \dots + U_m\)</span> is a subspace.</p>
-<ul>
-<li><span class="math inline">\(0 \in U_i\)</span> for all <span class="math inline">\(i = 1, \dots, m\)</span>, so <span class="math inline">\(0 = \overbrace{0 + \dots + 0}^{m \text{ times}} \in U_1 + \dots + U_m\)</span>.</li>
-<li>If <span class="math inline">\(u, v \in U_1 + \dots + U_m\)</span>, then <span class="math inline">\(u = u_1 + \dots + u_m\)</span> and <span class="math inline">\(v = v_1 + \dots + v_m\)</span> where <span class="math inline">\(u_i, v_i \in U_i\)</span>. Then <span class="math inline">\(u_i + v_i \in U_i\)</span> for all <span class="math inline">\(i = 1, \dots, m\)</span> and therefore <span class="math inline">\(u + v \in U_1 + \dots + U_m\)</span>.</li>
-<li>If <span class="math inline">\(u \in U_1 + \dots + U_m\)</span> and <span class="math inline">\(a \in \F\)</span>, then <span class="math inline">\(u = u_1 + \dots + u_m\)</span> and <span class="math inline">\(au_i \in U_i\)</span> for all <span class="math inline">\(i = 1, \dots, m\)</span>, so <span class="math display">\[au = au_1 + \dots + au_m \in U_1 + \dots + U_m.\]</span></li>
-</ul>
-<p><strong>Exercise:</strong> It is not necessarily the case that if <span class="math inline">\(U_1\)</span>, <span class="math inline">\(U_2\)</span>, and <span class="math inline">\(W\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span> such that <span class="math inline">\(U_1 + W = U_2 + W\)</span>, then <span class="math inline">\(U_1 = U_2\)</span>.</p>
-<p><strong>(2.43) Theorem:</strong> If <span class="math inline">\(U_1\)</span> and <span class="math inline">\(U_2\)</span> are subspaces of a vector space <span class="math inline">\(V\)</span>, then their sum satisfies <span class="math display">\[\dim (U_1 + U_2) = \dim U_1 + \dim U_2 - \dim (U_1 \cap U_2)\]</span> where <span class="math inline">\(\dim U\)</span> is the <a href="https://bncling.github.io/math-wiki/linalg_dimension/">dimension</a> of a space <span class="math inline">\(U\)</span>.</p>
-<h2 id="examples">Examples</h2>
-<p><span class="math inline">\(U = \{(x,0,0) \in \F^3 \mid x \in \F\}\)</span> and <span class="math inline">\(V = \{(0,y,0) \in \F^3 \mid y \in \F\}\)</span> are both subspaces of <span class="math inline">\(\F^3\)</span>, and their sum is <span class="math inline">\(U + V = \{(x,y,0) \in \F^3 \mid x,y \in \F\}\)</span>.</p>
-<p>Similarly, <span class="math inline">\(U = \{(x,0,0) \in \F^3 \mid x \in \F\}\)</span> and <span class="math inline">\(V = \{(y,y,0) \in \F^3 \mid y \in \F\}\)</span> are both subspaces of <span class="math inline">\(\F^3\)</span>, and their sum is <span class="math inline">\(U + V = \{(x,y,0) \in \F^3 \mid x,y \in \F\}\)</span>.</p>
+<p><a href="\work.pdf#page=46">Theorem 6.1:</a> All finite topological spaces are compact.</p>
+<p><a href="\work.pdf#page=46">Theorem 6.3:</a> If <span class="math inline">\(X\)</span> is a compact space, then every infinite subset of <span class="math inline">\(X\)</span> has a <a href="https://bncling.github.io/math-wiki/limit_points/">limit point</a>.</p>
+<p><a href="\work.pdf#page=47">Theorem 6.5:</a> An equivalent characterization of a space <span class="math inline">\(X\)</span> being compact is that all collections of <a href="https://bncling.github.io/math-wiki/closed_sets/">closed sets</a> with the finite intersection property have nonempty intersection.</p>
+<p><a href="\work.pdf#page=49">Theorem 6.8:</a> If <span class="math inline">\(X\)</span> is compact, then closed subsets of <span class="math inline">\(X\)</span> are compact.</p>
+<p><a href="\work.pdf#page=49">Theorem 6.9:</a> If <span class="math inline">\(X\)</span> is <a href="https://bncling.github.io/math-wiki/hausdorff/">Hausdorff</a>, then compact subsets of <span class="math inline">\(X\)</span> are closed.</p>
+<p><a href="\work.pdf#page=49">Exercise 6.7:</a> The union of finitely many compact sets is compact.</p>
+<p><a href="\work.pdf#page=50">Exercise 6.11:</a> If <span class="math inline">\(X\)</span> is Hausdorff, then the intersection of an arbitrary number of compact sets is compact.</p>
+<p><a href="\work.pdf#page=50">Theorem 6.12:</a> If <span class="math inline">\(X\)</span> is compact and Hausdorff, then <span class="math inline">\(X\)</span> is also <a href="https://bncling.github.io/math-wiki/normal/">normal</a>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://bncling.github.io/tags/linear_algebra">linear_algebra</a></li>
+      <li><a href="https://bncling.github.io/tags/topology">topology</a></li>
     </ul>
   </footer>
   

@@ -105,6 +105,31 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>External direct products</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
+For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Fineness and coarseness</h2>
+  </header>
+  <section class="entry-content">
+   <p>Given two topologies on a set \(X\), we can compare them with the notions of fineness and coarseness. You can think about the fineness of a topology determining the amount you can see (you “see” the open sets) when looking at the set \(X\). If a topology is very fine, you can see a lot of open sets, but if the topology is very coarse, things are “blurry” because there are few open sets....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/fine_coarse/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Greatest common divisors</h2>
   </header>
   <section class="entry-content">
@@ -210,32 +235,6 @@ Properties The number of ways to partition the number \(n\) into \(k\) positive 
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Internal direct products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
-\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lagrange&#39;s theorem</h2>
-  </header>
-  <section class="entry-content">
-   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
-Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/3/">← Prev Page</a>
@@ -306,7 +305,9 @@ Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint
             "\\inn":"\\text{Inn}",
             "\\id":"\\text{id}",
             "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
-            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}"
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
+            "\\Cov":"\\mathfrak{C}",
+            "\\im":"\\text{im}"
           },
           
           throwOnError : false
