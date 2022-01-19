@@ -1485,16 +1485,6 @@ The \(\varepsilon\)-\(\delta\) definition of a limit (and variants) Let \(f: \ma
     </item>
     
     <item>
-      <title>Rings</title>
-      <link>https://bncling.github.io/math-wiki/rings/</link>
-      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/rings/</guid>
-      <description>Definition A ring \((R, +, \cdot)\) is a set \(R\) together with binary operations \(+: R \times R \to R\) and \(\cdot: R \times R \to R\) such that
- \((R, +)\) is an abelian group (we denote the identity element by \(0\)); The operation \(\cdot\) is associative; The operation \(\cdot\) distributes over the operation \(+\), that is, for all \(a,b,c \in R\), \[\begin{align*} a(b + c) &amp;amp;= ab + ac \\ (a + b)c &amp;amp;= ac + bc.</description>
-    </item>
-    
-    <item>
       <title>Closed sets</title>
       <link>https://bncling.github.io/math-wiki/closed_sets/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
