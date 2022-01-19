@@ -324,5 +324,15 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
  The group operation is associative: \((ab)c = a(bc)\) for all \(a,b,c \in G\); \(G\) has an identity element: there exists \(e \in G\) such that \(ae = a = ea\) for all \(a \in G\); Every element is invertible: for all \(a \in G\), there exists a \(b \in G\) such that \(ab = e = ba\).</description>
     </item>
     
+    <item>
+      <title>Rings</title>
+      <link>https://bncling.github.io/math-wiki/rings/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/rings/</guid>
+      <description>Definition A ring \((R, +, \cdot)\) is a set \(R\) together with binary operations \(+: R \times R \to R\) and \(\cdot: R \times R \to R\) such that
+ \((R, +)\) is an abelian group (we denote the identity element by \(0\)); The operation \(\cdot\) is associative; The operation \(\cdot\) distributes over the operation \(+\), that is, for all \(a,b,c \in R\), \[\begin{align*} a(b + c) &amp;amp;= ab + ac \\ (a + b)c &amp;amp;= ac + bc.</description>
+    </item>
+    
   </channel>
 </rss>
