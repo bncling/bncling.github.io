@@ -10,10 +10,20 @@
     <item>
       <title>Compactness</title>
       <link>https://bncling.github.io/math-wiki/compactness/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/compactness/</guid>
       <description>Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&amp;#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\).</description>
+    </item>
+    
+    <item>
+      <title>Rings</title>
+      <link>https://bncling.github.io/math-wiki/rings/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/rings/</guid>
+      <description>Definition A ring \((R, +, \cdot)\) is a set \(R\) together with binary operations \(+: R \times R \to R\) and \(\cdot: R \times R \to R\) such that
+ \((R, +)\) is an abelian group (we denote the identity element by \(0\)); The operation \(\cdot\) is associative; The operation \(\cdot\) distributes over the operation \(+\), that is, for all \(a,b,c \in R\), \[\begin{align*} a(b + c) &amp;amp;= ab + ac \\ (a + b)c &amp;amp;= ac + bc.</description>
     </item>
     
     <item>
