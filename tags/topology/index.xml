@@ -6,14 +6,36 @@
     <description>Recent content in topology on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compactness</title>
       <link>https://bncling.github.io/math-wiki/compactness/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/compactness/</guid>
       <description>Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&amp;#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\).</description>
+    </item>
+    
+    <item>
+      <title>Continuity</title>
+      <link>https://bncling.github.io/math-wiki/continuity/</link>
+      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
+      <description>Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
+    </item>
+    
+    <item>
+      <title>First countable spaces</title>
+      <link>https://bncling.github.io/math-wiki/first_countable/</link>
+      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/first_countable/</guid>
+      <description>Definitions A topological space \((X, \T)\) is called 1st countable if and only if every point in \(X\) has a countable neighborhood basis.
+Properties Theorem 5.14: Every 2nd countable space is also 1st countable.
+Theorem 5.18: In a 1st countable space, any set \(A\) with a limit point \(p\) has a sequence of points in \(A\) that converges to \(p\).
+Theorem 5.19: Every 1st countable space is hereditarily 1st countable.</description>
     </item>
     
     <item>
@@ -24,18 +46,6 @@
       <guid>https://bncling.github.io/math-wiki/normal/</guid>
       <description>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
 Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\).</description>
-    </item>
-    
-    <item>
-      <title>First countable spaces</title>
-      <link>https://bncling.github.io/math-wiki/first_countable/</link>
-      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/first_countable/</guid>
-      <description>Definitions A topological space \((X, \T)\) is called 1st countable if and only if every point in \(X\) has a countable neighborhood basis.
-Properties Theorem 5.14: Every 2nd countable space is also 1st countable.
-Theorem 5.19: Every 1st countable space is hereditarily 1st countable.
-Examples The standard topology on \(\R\) is 1st countable, as is the lower limit topology on \(\R\).</description>
     </item>
     
     <item>

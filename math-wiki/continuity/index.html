@@ -7,8 +7,8 @@
     
     <title>Continuity - Ben Clingenpeel</title>
     
-    <meta name="description" content="Continuous functions can be drawn without picking up your pencil.
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous if and only if it is continuous at the point \(c\) for all \(c \in \mathcal{D}\).">
+    <meta name="description" content="Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(\vert x - c \vert &lt; \delta\) implies \(\vert f(x) - f(c) \vert &lt; \varepsilon\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -99,20 +99,31 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Continuity</h1>
-    <div class="post-meta">July 7, 2021</div>
+    <div class="post-meta">January 29, 2022</div>
   </header>
-  <div class="post-content"><p>Continuous functions can be drawn without picking up your pencil.</p>
+  <div class="post-content"><p>Continuous functions can be drawn without picking up your pencil…?</p>
 <h2 id="the-varepsilon-delta-limit-related-definition">The <span class="math inline">\(\varepsilon\)</span>-<span class="math inline">\(\delta\)</span>, limit related definition</h2>
-<p>A <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: \mathcal{D} \to \mathbb{R}\)</span> is <strong>continuous at a point <span class="math inline">\(c \in \mathcal{D}\)</span></strong> if and only if the <a href="https://bncling.github.io/math-wiki/limits/">limit</a> of <span class="math inline">\(f\)</span> at <span class="math inline">\(c\)</span> exists and <span class="math inline">\(\lim \limits_{x \to c} f(x) = f(c)\)</span>. A function <span class="math inline">\(f: \mathcal{D} \to \mathbb{R}\)</span> is <strong>continuous</strong> if and only if it is continuous at the point <span class="math inline">\(c\)</span> for all <span class="math inline">\(c \in \mathcal{D}\)</span>.</p>
-<h2 id="examples">Examples</h2>
+<p>A <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: \mathcal{D} \to \mathbb{R}\)</span> is <strong>continuous at a point <span class="math inline">\(c \in \mathcal{D}\)</span></strong> if and only if the <a href="https://bncling.github.io/math-wiki/limits/">limit</a> of <span class="math inline">\(f\)</span> at <span class="math inline">\(c\)</span> exists and <span class="math inline">\(\lim \limits_{x \to c} f(x) = f(c)\)</span>. That is, for every <span class="math inline">\(\varepsilon &gt; 0\)</span>, there exists a <span class="math inline">\(\delta &gt; 0\)</span> such that <span class="math inline">\(\vert x - c \vert &lt; \delta\)</span> implies <span class="math inline">\(\vert f(x) - f(c) \vert &lt; \varepsilon\)</span>. A function <span class="math inline">\(f: \mathcal{D} \to \mathbb{R}\)</span> is <strong>continuous</strong> if and only if it is continuous at the point <span class="math inline">\(c\)</span> for all <span class="math inline">\(c \in \mathcal{D}\)</span>.</p>
+<h2 id="the-topological-definition">The topological definition</h2>
+<p>A function <span class="math inline">\(f: X \to Y\)</span> for <a href="https://bncling.github.io/math-wiki/topology_def/">topological spaces</a> <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> is <strong>continuous</strong> if and only if for every <span class="math inline">\(V\)</span> <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> in <span class="math inline">\(Y\)</span>, the <a href="https://bncling.github.io/math-wiki/function/">preimage</a> <span class="math inline">\(f\inv(V)\)</span> is open in <span class="math inline">\(X\)</span>. A function <span class="math inline">\(f: X \to Y\)</span> is <strong>continuous at a point</strong> <span class="math inline">\(x \in X\)</span> if and only if for every <span class="math inline">\(V\)</span> open in <span class="math inline">\(Y\)</span> and containing <span class="math inline">\(f(x)\)</span>, there exists a <span class="math inline">\(U\)</span> open in <span class="math inline">\(X\)</span> that contains <span class="math inline">\(x\)</span> such that <span class="math inline">\(f(U) \subset V\)</span>.</p>
+<h2 id="properties">Properties</h2>
+<p><a href="\work.pdf#page=58">Theorem 7.1:</a> The following are all equivalent characterizations of continuity for maps <span class="math inline">\(f: X \to Y\)</span> between topological spaces <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>:</p>
 <ul>
-<li>Every rational function is continuous at every point in its domain.</li>
-<li><a href="https://bncling.github.io/math-wiki/thomae/">Thomae’s function</a> is continuous at every irrational point and <a href="https://bncling.github.io/math-wiki/discontinuities/">discontinuous</a> at every rational point.</li>
+<li>For every <a href="https://bncling.github.io/math-wiki/closed_sets/">closed set</a> <span class="math inline">\(K\)</span> in <span class="math inline">\(Y\)</span>, the inverse image <span class="math inline">\(f\inv(K)\)</span> is closed in <span class="math inline">\(X\)</span>.</li>
+<li>For every <a href="https://bncling.github.io/math-wiki/limit_points/">limit point</a> <span class="math inline">\(p\)</span> of a set <span class="math inline">\(A\)</span> in <span class="math inline">\(X\)</span>, the image <span class="math inline">\(f(p) \in \overline{f(A)}\)</span>.</li>
+<li>For every <span class="math inline">\(x \in X\)</span> and open set <span class="math inline">\(V\)</span> with <span class="math inline">\(f(x) \in V\)</span>, there exists an open set <span class="math inline">\(U\)</span> containing <span class="math inline">\(x\)</span> such that <span class="math inline">\(f(U) \subset V\)</span>.</li>
 </ul>
+<p><a href="\work.pdf#page=60">Theorem 7.5</a> The <span class="math inline">\(\varepsilon\)</span>-<span class="math inline">\(\delta\)</span> definition given above is equivalent to the topological definition for maps <span class="math inline">\(f: \Rs \to \Rs\)</span> where <span class="math inline">\(\Rs\)</span> is the set of real numbers with the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a>.</p>
+<p><a href="\work.pdf#page=61">Theorem 7.6</a> If <span class="math inline">\(X\)</span> is <a href="https://bncling.github.io/math-wiki/first_countable/">1<sup>st</sup> countable</a>, then a map <span class="math inline">\(f: X \to Y\)</span> for some topological space <span class="math inline">\(Y\)</span> is continuous if and only if for every <a href="https://bncling.github.io/math-wiki/limits/">convergent</a> <a href="https://bncling.github.io/math-wiki/sequence/">sequence</a> <span class="math inline">\(x_n \to x\)</span> in <span class="math inline">\(X\)</span>, the sequence <span class="math inline">\((f(x_n))_{n \in \N}\)</span> converges to <span class="math inline">\(f(x)\)</span> in <span class="math inline">\(Y\)</span>. Note that becuase <span class="math inline">\(\Rs\)</span> is 1<sup>st</sup> countable, this gives another equivalent characterization of continuity for functions <span class="math inline">\(f: \Rs \to \Rs\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>Every rational function is continuous at every point in its domain.</p>
+<p><a href="https://bncling.github.io/math-wiki/thomae/">Thomae’s function</a> is continuous at every irrational point and <a href="https://bncling.github.io/math-wiki/discontinuities/">discontinuous</a> at every rational point.</p>
+<p>Some maps between topological spaces are always continuous. For example, the constant map <span class="math inline">\(f: X \to Y\)</span> defined by <span class="math inline">\(f(x) = y_0\)</span> for some <span class="math inline">\(y_0 \in Y\)</span> is continuous; if <span class="math inline">\(A \subset X\)</span> and <span class="math inline">\(f\)</span> is continuous, then the restriction map <span class="math inline">\(f\vert_A: A \to Y\)</span> defined by <span class="math inline">\(f\vert_A(a) = f(a)\)</span> is also continuous; and if we assume <span class="math inline">\(X \subset Y\)</span>, then the inclusion map <span class="math inline">\(i: X \to Y\)</span> defined by <span class="math inline">\(i(x) = x\)</span> is continuous.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://bncling.github.io/tags/calculus">calculus</a></li>
+      <li><a href="https://bncling.github.io/tags/topology">topology</a></li>
     </ul>
   </footer>
   
@@ -155,7 +166,7 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}",
+            "\\Sub":"\\mathscr{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
             "\\Lin":"\\mathcal{L}",
@@ -169,7 +180,7 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
             "\\id":"\\text{id}",
             "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
-            "\\Cov":"\\mathfrak{C}",
+            "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}"
           },
           
@@ -229,7 +240,7 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
             "\\Hbub":"\\mathbb{H}_\\text{bub}",
             "\\Zar":"\\mathbb{Z}_\\text{arith}",
             "\\lcm":"\\text{lcm}",
-            "\\Sub":"\\mathcal{S}",
+            "\\Sub":"\\mathscr{S}",
             "\\Cl":"\\text{Cl}",
             "\\Span":"\\text{span}",
             "\\Lin":"\\mathcal{L}",
@@ -243,7 +254,7 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
             "\\id":"\\text{id}",
             "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
-            "\\Cov":"\\mathfrak{C}",
+            "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}"
           },
           

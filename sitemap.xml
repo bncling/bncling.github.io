@@ -2,26 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bncling.github.io/tags/algebra/</loc>
-    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+    <loc>https://bncling.github.io/tags/calculus/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/compactness/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/continuity/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/first_countable/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/topology/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/algebra/</loc>
     <lastmod>2022-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/rings/</loc>
     <lastmod>2022-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
-    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/topology/</loc>
-    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/normal/</loc>
     <lastmod>2022-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/first_countable/</loc>
-    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/second_countable/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
@@ -263,9 +269,6 @@
     <loc>https://bncling.github.io/math-wiki/affine_subsets/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/tags/calculus/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/function/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -456,9 +459,6 @@
     <lastmod>2021-07-06T20:03:43-04:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/boundary/</loc>
-    <lastmod>2021-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/continuity/</loc>
     <lastmod>2021-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/interior/</loc>
