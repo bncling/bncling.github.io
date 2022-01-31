@@ -101,6 +101,33 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Subbasis for a topological space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X, \T)\) be a topological space and let \(\Sub \subset \T\). \(\Sub\) is a subbasis for the topology \(\T\) if and only if the collection \(\B\) of all finite intersections of sets in \(\Sub\) is a basis for \(\T\).
+If \(\Sub\) is a subbasis, we call \(S \in \Sub\) a subbasic open set.
+Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is also a subbasis....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subbasis/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Subspaces in topology</h2>
+  </header>
+  <section class="entry-content">
+   <p>Much like in other areas, a subspace is a subset that still has extra structure.
+Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \(X\). The collection \[\T_Y = \{ U \mid U = V \cap Y \text{ for some } V \in \T \}\] is a topology on \(Y\) called the subspace topology or the relative topology on \(Y\) inherited from \(X\). The space \((Y, \T_Y)\) is called a (topological) subspace of \((X, \T)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_subspaces/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>The box topology</h2>
   </header>
   <section class="entry-content">
@@ -210,33 +237,6 @@ Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/closure/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>A big table of spaces and properties</h2>
-  </header>
-  <section class="entry-content">
-   <p>In spaces where the base set \(X\) is not given, \(X\) is assumed to be uncountably infinite, and in the row for the product topology on \(X \times Y\), it is assumed that both \(X\) and \(Y\) have the property of interest. The labels 2nd and 1st are abbreviations for the countability properties.
-  Topological space \(T_1\) Hausdorff Regular Normal Separable 2nd 1st    \(\Rs\) ✓ ✓ ✓ ✓ ✓ ✓ ✓  \(\Rs^n\) ✓ ✓ ✓ ✓ ✓ ✓ ✓  Indiscrete topology ✗ ✗ ✓ ✓ ✓ ✓ ✓  Discrete topology ✓ ✓ ✓ ✓ ✗ ✗ ✓  Finite complement ✓ ✗ ✗ ✗ ✓ ✗ ✗  Countable complement ✓ ✗ ✗ ✗ ✗ ✗ ✗  Sorgenfrey line ✓ ✓ ✓ ✓ ✓ ✗ ✓  Double Headed Snake ✓ ✗ ✗ ✗ ✓ ✓ ✓  K-topology ✓ ✓ ✗ ✗ ✓ ✓ ✓  \(\Hbub\) ✓ ✓ ✓  ✓ ✗ ✓  Arithmetic progressions ✓ ✓ ✓ ✓ ✓ ✓ ✓  Lexicographically ordered square ✓ ✓ ✓ ✓ ✗ ✗   Order topologies ✓ ✓ ✓ ✓ ✗ ✗   Product topology ✓ ✓ ✓ ✗ ✓ ✓ ✓    ...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 9, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/posts/space_table/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>$T_1$ spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is a \(T_1\)-space if and only if for every pair of distinct points \(x\) and \(y\), there exist open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\) but \(x \notin V\) and \(y \notin U\).
-Properties Theorem 4.1: A space \((X, \T)\) is \(T_1\) if and only if singletons are closed.
-Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is also \(T_1\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 9, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t1/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/tags/topology/page/3/">← Prev Page</a>
@@ -286,7 +286,7 @@ Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is als
             "\\Rs":"\\mathbb{R}_\\text{std}",
             "\\inv":"^{-1}",
             "\\dg":"\\^{circ}",
-            "\\B":"\\mathcal{B}",
+            "\\B":"\\mathscr{B}",
             "\\BLL":"\\mathcal{B}_\\text{LL}",
             "\\RLL":"\\mathbb{R}_\\text{LL}",
             "\\TLL":"\\mathcal{T}_\\text{LL}",

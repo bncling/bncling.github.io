@@ -105,6 +105,48 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Cyclic groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
+Properties All cyclic groups are abelian.
+If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>DeMorgan&#39;s laws</h2>
+  </header>
+  <section class="entry-content">
+   <p>DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]
+Proof The proof here is for a weaker version of the laws for a finite collection of sets, written as an exercise for my topology work....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/demorgan/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Dense subsets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subset \(A \subset X\) in a topological space \((X, \T)\) is dense in \(X\) if and only if \(\overline{A} = X\), where \(\overline{A}\) is the closure of \(A\) in \((X, \T)\).
+Properties Exercise 5.1 A subset \(A \subset X\) is dense in \(X\) if and only if every open set in \((X, \T)\) contains a point in \(A\).
+Examples The rationals are dense in the reals with the standard topology \(\Rs\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dense_subsets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Equivalence relations</h2>
   </header>
   <section class="entry-content">
@@ -194,45 +236,6 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group isomorphism theorems</h2>
-  </header>
-  <section class="entry-content">
-   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_iso_thms/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group presentations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_presentations/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Hausdorff spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called \(T_2\)-spaces.
-Definition Let \((X, \T)\) be a topological space. It is Hausdorff if and only if for every pair of distinct points \(x\) and \(y\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\).
-Properties Theorem 4.7: If a space \((X, \T)\) is \(T_3\), or \(T_4\), it is also Hausdorff and therefore also \(T_1\).
-Theorem 4.16:) The product of Hausdorff spaces is product, even for a possibly uncountable product....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/hausdorff/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/3/">← Prev Page</a>
@@ -282,7 +285,7 @@ Theorem 4.16:) The product of Hausdorff spaces is product, even for a possibly u
             "\\Rs":"\\mathbb{R}_\\text{std}",
             "\\inv":"^{-1}",
             "\\dg":"\\^{circ}",
-            "\\B":"\\mathcal{B}",
+            "\\B":"\\mathscr{B}",
             "\\BLL":"\\mathcal{B}_\\text{LL}",
             "\\RLL":"\\mathbb{R}_\\text{LL}",
             "\\TLL":"\\mathcal{T}_\\text{LL}",

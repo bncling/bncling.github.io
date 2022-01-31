@@ -6,11 +6,11 @@
     <description>Recent content in topology on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compactness</title>
       <link>https://bncling.github.io/math-wiki/compactness/</link>
-      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/compactness/</guid>
       <description>Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&amp;#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\).</description>
@@ -19,11 +19,43 @@
     <item>
       <title>Continuity</title>
       <link>https://bncling.github.io/math-wiki/continuity/</link>
-      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/continuity/</guid>
       <description>Continuous functions can be drawn without picking up your pencil…?
 The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
+    </item>
+    
+    <item>
+      <title>Countably compact spaces</title>
+      <link>https://bncling.github.io/math-wiki/countably_compact/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/countably_compact/</guid>
+      <description>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
+Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.</description>
+    </item>
+    
+    <item>
+      <title>Definition of a topology</title>
+      <link>https://bncling.github.io/math-wiki/topology_def/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/topology_def/</guid>
+      <description>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
+Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:</description>
+    </item>
+    
+    <item>
+      <title>Lindelöf spaces</title>
+      <link>https://bncling.github.io/math-wiki/lindel%C3%B6f/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lindel%C3%B6f/</guid>
+      <description>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
+Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.</description>
     </item>
     
     <item>
@@ -224,16 +256,6 @@ Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a collectio
       <description>Definitions Two sets \(A\) and \(B\) in a topological space are separated if and only if \(\overline{A} \cap B = \emptyset\) and \(A \cap \overline{B} = \emptyset\).
 A topological space \((X, \T)\) is completely normal if and only if for any two separated sets \(A\) and \(B\), there exist open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset A\).
 Properties Theorem 4.26: A topological space \((X, \T)\) is completely normal if and only if it is hereditarily normal.</description>
-    </item>
-    
-    <item>
-      <title>Definition of a topology</title>
-      <link>https://bncling.github.io/math-wiki/topology_def/</link>
-      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/topology_def/</guid>
-      <description>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
-Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:</description>
     </item>
     
     <item>

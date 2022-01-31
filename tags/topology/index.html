@@ -107,7 +107,7 @@
    <p>Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>January 29, 2022</time>
+    <time>January 30, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/compactness/"></a>
 </article>
@@ -120,9 +120,50 @@
 The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(\vert x - c \vert &lt; \delta\) implies \(\vert f(x) - f(c) \vert &lt; \varepsilon\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>January 29, 2022</time>
+    <time>January 30, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/continuity/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Countably compact spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
+Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 30, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/countably_compact/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Definition of a topology</h2>
+  </header>
+  <section class="entry-content">
+   <p>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
+Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 30, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/topology_def/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Lindelöf spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
+Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 30, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lindel%C3%B6f/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -196,51 +237,6 @@ For a countable set, the countable complement topology is just the discrete topo
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/countable_complement_topology/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Finite complement topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Basically what the name makes it sound like. Similar in definition to the countable complement topology.
-Definition Let \(X\) be a set. A set \(U\) is in the finite complement topology if and only if \(X - U\) is finite or if \(U = \emptyset\). This topology is also called the cofinite topology.
-Properties Finite sets are closed in the finite complement topology.
-For a finite set, the finite complement topology is just the discrete topology....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 9, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/finite_complement_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Indiscrete topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>The coarsest possible topology on a set \(X\).
-Definition Let \(X\) be a set. The indiscrete topology is \(\mathcal{T} = \{\emptyset, X\}\). The topological space \((X, \{\emptyset, X\})\) is called an indiscrete space.
-Properties By definition, the only sets in the indiscrete topology that are open are \(X\) and \(\emptyset\), and these are also the only closed sets.
-Separation Properties  Not a \(T_1\)-space Not Hausdorff Regular but not a \(T_3\)-space Normal but not a \(T_4\)-space  The indiscrete topology is regular and normal vacuously....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 9, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/indiscrete_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>K-topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Denoted \(\Rh\) in the textbook I’ve been using, the K-topology is a topology on \(\mathbb{R}\).
-Definition Let \(K = \{1/n\}_{n \in \mathbb{N}}\) be the harmonic sequence. The K-topology on \(\mathbb{R}\) is generated by the basis containing sets of the form \((a,b)\) and sets of the form \((a,b) - K\) where \(a, b \in \mathbb{R}\) with \(a &lt; b\).
-Properties \(\Rh\) is finer than the standard topology.
-Separation properties  \(T_1\)-space Hausdorff Not regular or \(T_3\) (can’t separate \(0\) and \(K\)) Not normal or \(T_4\)  Countability Properties  Separable 2nd countable 1st countable  ...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 9, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/k_topology/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="next" href="/tags/topology/page/2/">Next Page →</a>
@@ -289,7 +285,7 @@ Separation properties  \(T_1\)-space Hausdorff Not regular or \(T_3\) (can’t s
             "\\Rs":"\\mathbb{R}_\\text{std}",
             "\\inv":"^{-1}",
             "\\dg":"\\^{circ}",
-            "\\B":"\\mathcal{B}",
+            "\\B":"\\mathscr{B}",
             "\\BLL":"\\mathcal{B}_\\text{LL}",
             "\\RLL":"\\mathbb{R}_\\text{LL}",
             "\\TLL":"\\mathcal{T}_\\text{LL}",

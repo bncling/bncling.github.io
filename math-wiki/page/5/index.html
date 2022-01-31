@@ -105,6 +105,45 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Group isomorphism theorems</h2>
+  </header>
+  <section class="entry-content">
+   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_iso_thms/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Group presentations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_presentations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Hausdorff spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Also called \(T_2\)-spaces.
+Definition Let \((X, \T)\) be a topological space. It is Hausdorff if and only if for every pair of distinct points \(x\) and \(y\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\).
+Properties Theorem 4.7: If a space \((X, \T)\) is \(T_3\), or \(T_4\), it is also Hausdorff and therefore also \(T_1\).
+Theorem 4.16:) The product of Hausdorff spaces is product, even for a possibly uncountable product....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/hausdorff/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Heredity</h2>
   </header>
   <section class="entry-content">
@@ -195,47 +234,6 @@ The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/top_selfstudy/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Noncrossing partitions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Noncrossing partitions of \([n]\) are partitions of \([n]\) into parts \(\{B_1, \dots, B_k\}\) such that if \(a &lt; b &lt; c &lt; d\) are elements of \([n]\) with \(a,c \in B_i\) and \(b,d \in B_j\), then \(i = j\). Otherwise, a partition is crossing.
-Properties Noncrossing partitions of \([n]\) can be visually represented as a series of \(n\) labeled dots with partitions represented by arcs connecting the dots that belong to a given part....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/nc_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Normal subgroups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
-Properties Proposition: The following are equivalent.
- \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Order of an element in a group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
-Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
-If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/4/">← Prev Page</a>
@@ -285,7 +283,7 @@ If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
             "\\Rs":"\\mathbb{R}_\\text{std}",
             "\\inv":"^{-1}",
             "\\dg":"\\^{circ}",
-            "\\B":"\\mathcal{B}",
+            "\\B":"\\mathscr{B}",
             "\\BLL":"\\mathcal{B}_\\text{LL}",
             "\\RLL":"\\mathbb{R}_\\text{LL}",
             "\\TLL":"\\mathcal{T}_\\text{LL}",
