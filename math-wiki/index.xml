@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Countably compact spaces</title>
+      <link>https://bncling.github.io/math-wiki/countably_compact/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/countably_compact/</guid>
+      <description>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
+Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.
+Theorem 6.26: If \(X\) is a \(T_1\)-space,</description>
+    </item>
+    
+    <item>
       <title>Compactness</title>
       <link>https://bncling.github.io/math-wiki/compactness/</link>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
@@ -24,17 +36,6 @@
       <guid>https://bncling.github.io/math-wiki/continuity/</guid>
       <description>Continuous functions can be drawn without picking up your pencil…?
 The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
-    </item>
-    
-    <item>
-      <title>Countably compact spaces</title>
-      <link>https://bncling.github.io/math-wiki/countably_compact/</link>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/countably_compact/</guid>
-      <description>Similar to being compact, but weaker…
-Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
-Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.</description>
     </item>
     
     <item>
