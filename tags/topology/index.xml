@@ -19,6 +19,26 @@ Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is als
     </item>
     
     <item>
+      <title>Closed functions</title>
+      <link>https://bncling.github.io/math-wiki/closed_functions/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/closed_functions/</guid>
+      <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called closed if and only for every closed set \(A \subset X\), the image \(f(A)\) is closed in \(Y\).
+Examples </description>
+    </item>
+    
+    <item>
+      <title>Continuity</title>
+      <link>https://bncling.github.io/math-wiki/continuity/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
+      <description>Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
+    </item>
+    
+    <item>
       <title>Countably compact spaces</title>
       <link>https://bncling.github.io/math-wiki/countably_compact/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
@@ -31,22 +51,33 @@ Theorem 6.26: If \(X\) is a \(T_1\) space, \(X\) is countably compact if and onl
     </item>
     
     <item>
+      <title>Lindelöf spaces</title>
+      <link>https://bncling.github.io/math-wiki/lindel%C3%B6f/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lindel%C3%B6f/</guid>
+      <description>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
+Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.
+Theorem 6.27: All uncountable sets in a Lindelöf space have limit points.</description>
+    </item>
+    
+    <item>
+      <title>Open functions</title>
+      <link>https://bncling.github.io/math-wiki/open_functions/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/open_functions/</guid>
+      <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called open if and only for every open set \(U \subset X\), the image \(f(U)\) is open in \(Y\).</description>
+    </item>
+    
+    <item>
       <title>Compactness</title>
       <link>https://bncling.github.io/math-wiki/compactness/</link>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/compactness/</guid>
       <description>Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&amp;#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\).</description>
-    </item>
-    
-    <item>
-      <title>Continuity</title>
-      <link>https://bncling.github.io/math-wiki/continuity/</link>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
-      <description>Continuous functions can be drawn without picking up your pencil…?
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
     </item>
     
     <item>
@@ -57,17 +88,6 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
       <guid>https://bncling.github.io/math-wiki/topology_def/</guid>
       <description>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
 Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:</description>
-    </item>
-    
-    <item>
-      <title>Lindelöf spaces</title>
-      <link>https://bncling.github.io/math-wiki/lindel%C3%B6f/</link>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/lindel%C3%B6f/</guid>
-      <description>Similar to being compact, but weaker…
-Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
-Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.</description>
     </item>
     
     <item>
