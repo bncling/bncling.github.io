@@ -2,31 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bncling.github.io/math-wiki/t1/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
+    <loc>https://bncling.github.io/math-wiki/top_basis/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/calculus/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/closed_functions/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/continuity/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/open_functions/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/topology/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/t1/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/countably_compact/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/lindel%C3%B6f/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/open_functions/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/topology/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/compactness/</loc>
@@ -421,9 +424,6 @@
   </url><url>
     <loc>https://bncling.github.io/math-wiki/evt/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/top_basis/</loc>
-    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/closure/</loc>
     <lastmod>2021-07-11T00:00:00+00:00</lastmod>

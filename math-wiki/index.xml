@@ -8,6 +8,48 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Basis for a topological space</title>
+      <link>https://bncling.github.io/math-wiki/top_basis/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_basis/</guid>
+      <description>Similar to the ideas behind bases in other areas of math.
+Definition Let \((X, \T)\) be a topological space and let \(\B \subset \T\). \(\B\) is a basis for the topology \(\T\) if and only if every open set is the union of elements of \(\B\).
+If \(\B\) is a basis, we call \(B \in \B\) a basic open set.
+Properties Theorem 3.1: A set \(\mathcal{B}\) is the basis for a given topology \(\mathcal{T}\) on a set \(X\) if and only if</description>
+    </item>
+    
+    <item>
+      <title>Closed functions</title>
+      <link>https://bncling.github.io/math-wiki/closed_functions/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/closed_functions/</guid>
+      <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called closed if and only for every closed set \(A \subset X\), the image \(f(A)\) is closed in \(Y\).
+Properties Theorem 7.21: If \(X\) is normal and \(f: X \to Y\) is continuous, surjective, and closed, then \(Y\) is normal.</description>
+    </item>
+    
+    <item>
+      <title>Continuity</title>
+      <link>https://bncling.github.io/math-wiki/continuity/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
+      <description>Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
+    </item>
+    
+    <item>
+      <title>Open functions</title>
+      <link>https://bncling.github.io/math-wiki/open_functions/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/open_functions/</guid>
+      <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called open if and only for every open set \(U \subset X\), the image \(f(U)\) is open in \(Y\).
+Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\) and \(f: X \to Y\) is continuous, surjective, and open, then \(Y\) has a basis \(\{f(B_\alpha)\}_{\alpha \in \lambda}\).</description>
+    </item>
+    
+    <item>
       <title>$T_1$ spaces</title>
       <link>https://bncling.github.io/math-wiki/t1/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
@@ -16,26 +58,6 @@
       <description>Definition Let \((X, \T)\) be a topological space. It is a \(T_1\)-space if and only if for every pair of distinct points \(x\) and \(y\), there exist open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\) but \(x \notin V\) and \(y \notin U\).
 Properties Theorem 4.1: A space \((X, \T)\) is \(T_1\) if and only if singletons are closed.
 Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is also \(T_1\).</description>
-    </item>
-    
-    <item>
-      <title>Closed functions</title>
-      <link>https://bncling.github.io/math-wiki/closed_functions/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/closed_functions/</guid>
-      <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called closed if and only for every closed set \(A \subset X\), the image \(f(A)\) is closed in \(Y\).
-Examples </description>
-    </item>
-    
-    <item>
-      <title>Continuity</title>
-      <link>https://bncling.github.io/math-wiki/continuity/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
-      <description>Continuous functions can be drawn without picking up your pencil…?
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
     </item>
     
     <item>
@@ -60,15 +82,6 @@ Theorem 6.26: If \(X\) is a \(T_1\) space, \(X\) is countably compact if and onl
 Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
 Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.
 Theorem 6.27: All uncountable sets in a Lindelöf space have limit points.</description>
-    </item>
-    
-    <item>
-      <title>Open functions</title>
-      <link>https://bncling.github.io/math-wiki/open_functions/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/open_functions/</guid>
-      <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called open if and only for every open set \(U \subset X\), the image \(f(U)\) is open in \(Y\).</description>
     </item>
     
     <item>
@@ -1388,18 +1401,6 @@ Proof 1: Let \(\varepsilon = 1\). By the continuity of \(f\) at \(a\), choose \(
       <guid>https://bncling.github.io/math-wiki/evt/</guid>
       <description>Theorem statement If \(f: [a,b] \to \R\) be a continuous function, then there exist \(c,d \in [a,b]\) such that \(f(c) \leq f(x) \leq f(d)\) for all \(x \in [a,b]\).
 Proof Suppose \(f: [a,b] \to \R\) be a continuous function. Then by the boundedness theorem, the set \(A = \{f(x) \mid x \in [a,b]\}\) is bounded and nonempty. By the completeness axiom, the set \(A\) has a supremum, say \(\sup A = M\).</description>
-    </item>
-    
-    <item>
-      <title>Basis for a topological space</title>
-      <link>https://bncling.github.io/math-wiki/top_basis/</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/top_basis/</guid>
-      <description>Similar to the ideas behind bases in other areas of math.
-Definition Let \((X, \T)\) be a topological space and let \(\B \subset \T\). \(\B\) is a basis for the topology \(\T\) if and only if every open set is the union of elements of \(\B\).
-If \(\mathcal{B}\) is a basis, we call \(B \in \B\) a basic open set.
-Properties Theorem 3.1: A set \(\mathcal{B}\) is the basis for a given topology \(\mathcal{T}\) on a set \(X\) if and only if</description>
     </item>
     
     <item>
