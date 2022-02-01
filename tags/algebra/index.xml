@@ -334,5 +334,14 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
  The group operation is associative: \((ab)c = a(bc)\) for all \(a,b,c \in G\); \(G\) has an identity element: there exists \(e \in G\) such that \(ae = a = ea\) for all \(a \in G\); Every element is invertible: for all \(a \in G\), there exists a \(b \in G\) such that \(ab = e = ba\).</description>
     </item>
     
+    <item>
+      <title>Polynomial Rings</title>
+      <link>https://bncling.github.io/math-wiki/poly_rings/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/poly_rings/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
   </channel>
 </rss>

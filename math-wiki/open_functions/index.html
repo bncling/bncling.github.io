@@ -8,7 +8,7 @@
     <title>Open functions - Ben Clingenpeel</title>
     
     <meta name="description" content="Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called open if and only for every open set \(U \subset X\), the image \(f(U)\) is open in \(Y\).
-Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\) and \(f: X \to Y\) is continuous, surjective, and open, then \(Y\) has a basis \(\{f(B_\alpha)\}_{\alpha \in \lambda}\).">
+Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\) and \(f: X \to Y\) is continuous, surjective, and open, then \(Y\) has a basis \(\{f(B_\alpha)\}_{\alpha \in \lambda}\). This also means that if \(X\) is 2st countable, then so is \(Y\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -104,7 +104,7 @@ Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>A <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: X \to Y\)</span> for <a href="https://bncling.github.io/math-wiki/topology_def/">topological spaces</a> <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> is called <strong>open</strong> if and only for every <a href="https://bncling.github.io/math-wiki/open_sets/">open set</a> <span class="math inline">\(U \subset X\)</span>, the image <span class="math inline">\(f(U)\)</span> is open in <span class="math inline">\(Y\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p><a href="\work.pdf#page=69">Theorem 7.22:</a> If <span class="math inline">\(X\)</span> has <a href="https://bncling.github.io/math-wiki/top_basis/">basis</a> <span class="math inline">\(\{B_\alpha\}_{\alpha \in \lambda}\)</span> and <span class="math inline">\(f: X \to Y\)</span> is <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a>, <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjective</a>, and open, then <span class="math inline">\(Y\)</span> has a basis <span class="math inline">\(\{f(B_\alpha)\}_{\alpha \in \lambda}\)</span>.</p>
+<p><a href="\work.pdf#page=69">Theorem 7.22:</a> If <span class="math inline">\(X\)</span> has <a href="https://bncling.github.io/math-wiki/top_basis/">basis</a> <span class="math inline">\(\{B_\alpha\}_{\alpha \in \lambda}\)</span> and <span class="math inline">\(f: X \to Y\)</span> is <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a>, <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjective</a>, and open, then <span class="math inline">\(Y\)</span> has a basis <span class="math inline">\(\{f(B_\alpha)\}_{\alpha \in \lambda}\)</span>. This also means that if <span class="math inline">\(X\)</span> is 2<sup>st</sup> countable, then so is <span class="math inline">\(Y\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
@@ -166,7 +166,8 @@ Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\
             "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
-            "\\im":"\\text{im}"
+            "\\im":"\\text{im}",
+            "\\pring":"{#1}[{#2}]"
           },
           
           throwOnError : false
@@ -240,7 +241,8 @@ Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\
             "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
-            "\\im":"\\text{im}"
+            "\\im":"\\text{im}",
+            "\\pring":"{#1}[{#2}]"
           },
           
           throwOnError : false

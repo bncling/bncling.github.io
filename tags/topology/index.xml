@@ -46,7 +46,7 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
       
       <guid>https://bncling.github.io/math-wiki/open_functions/</guid>
       <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called open if and only for every open set \(U \subset X\), the image \(f(U)\) is open in \(Y\).
-Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\) and \(f: X \to Y\) is continuous, surjective, and open, then \(Y\) has a basis \(\{f(B_\alpha)\}_{\alpha \in \lambda}\).</description>
+Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\) and \(f: X \to Y\) is continuous, surjective, and open, then \(Y\) has a basis \(\{f(B_\alpha)\}_{\alpha \in \lambda}\). This also means that if \(X\) is 2st countable, then so is \(Y\).</description>
     </item>
     
     <item>

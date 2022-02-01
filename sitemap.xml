@@ -14,6 +14,9 @@
     <loc>https://bncling.github.io/math-wiki/continuity/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bncling.github.io/math-wiki/function/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/math-wiki/open_functions/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -36,9 +39,6 @@
     <lastmod>2022-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/topology_def/</loc>
-    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/function/</loc>
     <lastmod>2022-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/first_countable/</loc>
@@ -511,5 +511,11 @@
   </url><url>
     <loc>https://bncling.github.io/</loc>
     <lastmod>2021-07-04T15:02:17-04:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/alg_geo/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/poly_rings/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
 </urlset>

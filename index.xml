@@ -40,13 +40,25 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
     </item>
     
     <item>
+      <title>Functions</title>
+      <link>https://bncling.github.io/math-wiki/function/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/function/</guid>
+      <description>Also called maps.
+Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\). If \((a,b) \in f\), we write \(f(a)=b\).
+We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
+We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im f\).</description>
+    </item>
+    
+    <item>
       <title>Open functions</title>
       <link>https://bncling.github.io/math-wiki/open_functions/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/open_functions/</guid>
       <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called open if and only for every open set \(U \subset X\), the image \(f(U)\) is open in \(Y\).
-Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\) and \(f: X \to Y\) is continuous, surjective, and open, then \(Y\) has a basis \(\{f(B_\alpha)\}_{\alpha \in \lambda}\).</description>
+Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\) and \(f: X \to Y\) is continuous, surjective, and open, then \(Y\) has a basis \(\{f(B_\alpha)\}_{\alpha \in \lambda}\). This also means that if \(X\) is 2st countable, then so is \(Y\).</description>
     </item>
     
     <item>
@@ -101,18 +113,6 @@ Theorem 6.27: All uncountable sets in a Lindelöf space have limit points.</desc
       <guid>https://bncling.github.io/math-wiki/topology_def/</guid>
       <description>A topology on a set is a way of determining which subsets are open, closed, neither, or both. Elements of open sets can be thought of as being “close” in a way that isn’t dependent on notions of distance. If \(X\) is a set and \(\mathcal{T}\) is a topology on \(X\), then we call \((X, \mathcal{T})\) a topological space.
 Definition Let \(X\) be a set. Then \(\mathcal{T}\) is a topology on \(X\) if and only if \(\mathcal{T}\) is a collection of subsets of \(X\) such that:</description>
-    </item>
-    
-    <item>
-      <title>Functions</title>
-      <link>https://bncling.github.io/math-wiki/function/</link>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/function/</guid>
-      <description>Also called maps.
-Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\). If \((a,b) \in f\), we write \(f(a)=b\).
-We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
-We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im f\).</description>
     </item>
     
     <item>
@@ -1618,6 +1618,15 @@ Examples In the topological space defined by \(X = \{a,b,c,d\}\) and \(\mathcal{
       <guid>https://bncling.github.io/math-wiki/limit_points/</guid>
       <description>Generalizing more things from calculus – this time the idea of a point being “arbitrarily close” to a set.
 Definition Let \((X, \mathcal{T})\) be a topological space, let \(A \subset X\) be a subset, and let \(p \in X\) be a point. We say that \(p\) is a limit point of \(A\) if and only if for each open set \(U\) containing \(p\), \((U - \{p\}) \cap A \neq \emptyset\).</description>
+    </item>
+    
+    <item>
+      <title>Polynomial Rings</title>
+      <link>https://bncling.github.io/math-wiki/poly_rings/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/poly_rings/</guid>
+      <description>Content coming soon.</description>
     </item>
     
   </channel>
