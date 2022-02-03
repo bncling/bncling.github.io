@@ -105,6 +105,48 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Heredity</h2>
+  </header>
+  <section class="entry-content">
+   <p>What properties do subspaces inherit?
+Definition Let \(P\) be a property of a topological space \((X, \T)\). Then the space is hereditarily \(P\) if and only if every subspace \(Y \subset X\) with the relative topology \(\T_Y\) also has the property \(P\).
+Properties Theorem 4.26: A topological space \((X, \T)\) is hereditarily normal if and only if it is completely normal.
+Examples Theorem 4.19: Hausdorff spaces are hereditarily Hausdorff.
+Theorem 4....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/heredity/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Integer partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
+Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the partition function \(p_k(n)\), which satisfies \[\begin{align*} &amp;p_n(n) = 1 \\ &amp;p_0(n) = 0 \quad n \geq 1 \\ &amp;p_k(n) = 0 \quad k &gt; n \\ &amp;p_{n-1}(n) = 1 \\ &amp;p_1(n) = 1 \\ &amp;p_{n-2}(n) = 2 \\ &amp;p_2(n) = \bigg \lfloor \frac{n}{2} \bigg \rfloor, \end{align*}\] along with the recursion \(p_k(n) = p_k(n-k) &#43; p_{k-1}(n-1)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Internal direct products</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
+\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Lagrange&#39;s theorem</h2>
   </header>
   <section class="entry-content">
@@ -194,46 +236,6 @@ If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Permutation matrices</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
-Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
-Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Prime numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/prime/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Quotient groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called factor groups.
-Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
-Properties The quotient group is a group....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/5/">← Prev Page</a>
@@ -307,7 +309,8 @@ Properties The quotient group is a group....</p>
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
-            "\\pring":"{#1}[{#2}]"
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
           },
           
           throwOnError : false

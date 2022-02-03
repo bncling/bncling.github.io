@@ -105,6 +105,73 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Discontinuities</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A function \(f: \mathcal{D} \to \mathbb{R}\) is discontinuous at a point \(c \in \mathcal{D}\) if and only if \(f\) is not continuous at \(c\). That is, if the limit \(\lim \limits_{x \to c} f(x)\) does not exist or is not equal to \(f(c)\).
+Types of discontinuities Let \(f: \mathcal{D} \to \mathbb{R}\) be a function and \(c \in \mathcal{D}\). Then
+ \(f\) has an infinite discontinuity at \(c\) if and only if \(\lim \limits_{x \to c} f(x) = \pm \infty\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 6, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/discontinuities/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Isolated points</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X,\mathcal{T})\) be a topological space, \(A\) a subset of \(X\), and \(p \in A\) a point. We say \(p\) is an isolated point if it is not a limit point of \(A\).
+Properties If \(p\) is an isolated point of a set \(A\) in a topological space \((X, \mathcal{T})\), then there exists an open set \(U\) such that \(U \cap A = \{p\}\).
+Examples In the topological space defined by \(X = \{a,b,c,d\}\) and \(\mathcal{T} = \{\emptyset, X, \{a\},\{a,b\}\}\), the point \(b\) is in the set \(A = \{b,c\}\), but is not a limit point of \(A\) since \(\{a,b\}\) is open but \((\{a,b\} - \{b\}) \cap A = \emptyset\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/isolated_point/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Limit points</h2>
+  </header>
+  <section class="entry-content">
+   <p>Generalizing more things from calculus – this time the idea of a point being “arbitrarily close” to a set.
+Definition Let \((X, \mathcal{T})\) be a topological space, let \(A \subset X\) be a subset, and let \(p \in X\) be a point. We say that \(p\) is a limit point of \(A\) if and only if for each open set \(U\) containing \(p\), \((U - \{p\}) \cap A \neq \emptyset\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/limit_points/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Ideals of a ring</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A left ideal of a ring \((R, &#43;, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 2, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ideals/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Subrings</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subring of a ring \((R, &#43;, \cdot)\) is a subset \(S \subset R\) such that \((S, &#43;, \cdot)\) is also a ring.
+Properties A set \(S\) is a subring of a ring \(R\) if and only if
+ \(S \neq \emptyset\); \(rs \in S\) for all \(r,s \in S\); \(r - s \in S\) for all \(r,s \in S\).  ...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 2, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subrings/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Polynomial Rings</h2>
   </header>
   <section class="entry-content">
@@ -187,7 +254,8 @@
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
-            "\\pring":"{#1}[{#2}]"
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
           },
           
           throwOnError : false

@@ -8,6 +8,47 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Affine spaces</title>
+      <link>https://bncling.github.io/math-wiki/affine_space/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/affine_space/</guid>
+      <description>Definition Let \(k\) be a field. An \(n\)-dimensional affine space \(k^n\) is the set of length \(n\) lists of elements of \(k\), that is, \(k^n = \{(a_1, \dots, a_n) \mid a_1, \dots, a_n \in k\}\).
+Examples The set \(\R^n\) is an affine space.</description>
+    </item>
+    
+    <item>
+      <title>Affine varieties</title>
+      <link>https://bncling.github.io/math-wiki/affine_variety/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/affine_variety/</guid>
+      <description>Definition Let \(k\) be a field and let \(f_1, \dots, f_s\) be polynomials in the ring \(\pring{k}{x_1, \dots, x_n}\). Then the affine variety defined by \(f_1, \dots, f_s\), denoted \(\V(f_1, \dots, f_s\)) is the set \[\V(f_1, \dots, f_s) = \{(a_1, \dots, a_n) \in k^n \mid f_i(a_1, \dots, a_n) = 0, i = 1, \dots, s\},\] that is, the set of points in the affine space over \(k\) at which all of the polynomials vanish simultaneously.</description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>https://bncling.github.io/math-wiki/function/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/function/</guid>
+      <description>Also called maps.
+Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\). If \((a,b) \in f\), we write \(f(a)=b\).
+We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
+We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im f\).</description>
+    </item>
+    
+    <item>
+      <title>Polynomials</title>
+      <link>https://bncling.github.io/math-wiki/polynomials/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/polynomials/</guid>
+      <description>Definitions A monomial in variables \(x_1, \dots, x_n\) is a product of the form \(x_1^{\alpha_1} \dots x_n^{\alpha_n}\) for nonnegative integers \(\alpha_i\), often written as \(x^\alpha\) where \(\alpha\) is a list \(\alpha = (\alpha_1, \dots, \alpha_n)\), of powers \(\alpha_i \in \Z_\geq\). The sum \(\vert \alpha \vert = \alpha_1 + \dots + \alpha_n\) is called the total degree of the monomial.
+A polynomial in variables \(x_1, \dots, x_n\) is a finite linear combination of monomials with coefficients in some field \(k\).</description>
+    </item>
+    
+    <item>
       <title>Basis for a topological space</title>
       <link>https://bncling.github.io/math-wiki/top_basis/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
@@ -37,18 +78,6 @@ Properties Theorem 7.21: If \(X\) is normal and \(f: X \to Y\) is continuous, su
       <guid>https://bncling.github.io/math-wiki/continuity/</guid>
       <description>Continuous functions can be drawn without picking up your pencil…?
 The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
-    </item>
-    
-    <item>
-      <title>Functions</title>
-      <link>https://bncling.github.io/math-wiki/function/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/function/</guid>
-      <description>Also called maps.
-Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\). If \((a,b) \in f\), we write \(f(a)=b\).
-We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
-We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im f\).</description>
     </item>
     
     <item>
@@ -1578,6 +1607,26 @@ Examples In the topological space defined by \(X = \{a,b,c,d\}\) and \(\mathcal{
       <guid>https://bncling.github.io/math-wiki/limit_points/</guid>
       <description>Generalizing more things from calculus – this time the idea of a point being “arbitrarily close” to a set.
 Definition Let \((X, \mathcal{T})\) be a topological space, let \(A \subset X\) be a subset, and let \(p \in X\) be a point. We say that \(p\) is a limit point of \(A\) if and only if for each open set \(U\) containing \(p\), \((U - \{p\}) \cap A \neq \emptyset\).</description>
+    </item>
+    
+    <item>
+      <title>Ideals of a ring</title>
+      <link>https://bncling.github.io/math-wiki/ideals/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/ideals/</guid>
+      <description>Definition A left ideal of a ring \((R, +, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal.</description>
+    </item>
+    
+    <item>
+      <title>Subrings</title>
+      <link>https://bncling.github.io/math-wiki/subrings/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/subrings/</guid>
+      <description>Definition A subring of a ring \((R, +, \cdot)\) is a subset \(S \subset R\) such that \((S, +, \cdot)\) is also a ring.
+Properties A set \(S\) is a subring of a ring \(R\) if and only if
+ \(S \neq \emptyset\); \(rs \in S\) for all \(r,s \in S\); \(r - s \in S\) for all \(r,s \in S\).  </description>
     </item>
     
     <item>

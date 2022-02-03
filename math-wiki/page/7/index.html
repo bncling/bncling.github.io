@@ -105,6 +105,46 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Permutation matrices</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
+Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
+Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Prime numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/prime/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Quotient groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Also called factor groups.
+Definition Let \((G, \cdot)\) be a group with normal subgroup \(N\). Then its corresponding quotient group, denoted \(G/N\), is the set of all left cosets of \(G\) (though \(N \triangleleft G\) means these are the same as the right cosets) together with group operation \(\cdot: G/N \times G/N\) given as follows. If \(aN, bN \in G/N\), then \(aN \cdot bN = (ab) N\).
+Properties The quotient group is a group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Rank of a matrix</h2>
   </header>
   <section class="entry-content">
@@ -198,46 +238,6 @@ The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/syt/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Stirling numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions The unsigned Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number permutations of \([n]\) with \(k\) cycles in their disjoint cycle decompositions. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
-Properties The (unsigned) Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-1}{k-1} &#43; (n-1) \stirlingI{n-1}{k},\] and we also have the following: \[\begin{align*} &amp;\stirlingI{n}{n} = 1 \\ &amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;\stirlingI{n}{k} = 0 \quad k &gt; n \end{align*}\]...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/stirling_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Subbasis for a topological space</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space and let \(\Sub \subset \T\). \(\Sub\) is a subbasis for the topology \(\T\) if and only if the collection \(\B\) of all finite intersections of sets in \(\Sub\) is a basis for \(\T\).
-If \(\Sub\) is a subbasis, we call \(S \in \Sub\) a subbasic open set.
-Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is also a subbasis....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subbasis/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Subspaces in topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Much like in other areas, a subspace is a subset that still has extra structure.
-Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \(X\). The collection \[\T_Y = \{ U \mid U = V \cap Y \text{ for some } V \in \T \}\] is a topology on \(Y\) called the subspace topology or the relative topology on \(Y\) inherited from \(X\). The space \((Y, \T_Y)\) is called a (topological) subspace of \((X, \T)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_subspaces/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/6/">← Prev Page</a>
@@ -311,7 +311,8 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
-            "\\pring":"{#1}[{#2}]"
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
           },
           
           throwOnError : false

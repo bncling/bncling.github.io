@@ -105,6 +105,49 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>The Klein four-group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The Klein four-group is a group that can be thought of in many ways, one of which is as the external direct product \(\Z_2 \times \Z_2\), and is typically denoted by \(V\).
+Properties The group is abelian.
+Every non-identity element has order \(2\).
+Examples The group can also be thought of as being given by the group presentation \(\langle a,b \mid a^2, b^2, (ab)^2 \rangle\).
+Alternatively, the group can be thought of as the subgroup of the general linear group \(GL_2(\R)\) given by \[V = \left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} \right\}....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/klein4/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The special linear group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The special linear group denoted \(SL_n(\F)\) is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\) with determinant \(1\).
+Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the general linear group \(GL_n(\F)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/special_linear/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The symmetric group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions The symmetric group on a set \(X\) is the group of bijections \[\Sym(X) = \{f: X \to X \mid f \text{ is bijective}\}\] together with the group operation of composition of mappings.
+The symmetric group on \(n\) symbols, denoted \(S_n\), is the symmetric group on the set \([n] := \{1, \dots, n\}\), the group of permutations.
+Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Transpose of a matrix</h2>
   </header>
   <section class="entry-content">
@@ -200,49 +243,6 @@ For \(v \in V\) and \(U\) a subspace of \(V\), we say that the affine subset \(v
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/affine_subsets/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Subspaces of a vector space</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space. A subset \(U\) of \(V\) is a subspace of \(V\) if and only if it is also a vector space.
-Properties Since many properties of the vector space \(V\) are inherited, a subset \(U\) is a subspace provided it satisfies the following:
- additive identity: \(0 \in U\); closed under addition: \(u,v \in U\) implies \(u &#43; v \in U\); closed under scalar multiplication: \(a \in \F\), \(v \in V\) implies \(av \in U\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 16, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_subspaces/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Linear maps</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called linear transformations.
-Definition A linear map from a vector space \(V\) to a vector space \(W\) is a function \(T: V \to W\) with the following properties:
- additivity: \(T(u &#43; v) = T(u) &#43; T(v)\) for all \(u,v \in V\); homogeneity: \(T(av) = aT(v)\) for all \(v \in V\) and \(a \in \F\).  We denote the set of all linear maps from \(V\) to \(W\) by \(\Lin (V, W)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 15, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_maps/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Permutations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A permutation on a set \(X\) is a bijection \(\sigma: X \to X\). The set of all permutations on the set \([n]\) is a group under composition and is called the symmetric group on \(n\) symbols.
-A fixed point of a permutation \(\sigma\) is an element \(i \in X\) such that \(\sigma(i) = i\).
-Two permutations are called discordant if they disagree everywhere.
-Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic shifts and reorderings) as the product of disjoint cycles....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 10, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/permutations/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/8/">← Prev Page</a>
@@ -316,7 +316,8 @@ Cycle Notation A permutation \(\sigma\) can be written uniquely (up to cyclic sh
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
-            "\\pring":"{#1}[{#2}]"
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
           },
           
           throwOnError : false

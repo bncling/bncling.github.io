@@ -105,6 +105,47 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Range</h2>
+  </header>
+  <section class="entry-content">
+   <p>Also known as the image…
+Definition Let \(T \in \Lin(V,W)\) be a linear map between vector spaces \(V\) and \(W\). The range of \(T\), denoted \(\range T\), is the subset of \(W\) containing vectors of the form \(Tv\) for some \(v \in V\), that is, \[\range T = \{Tv \mid v \in V\}.\]
+Properties (3.19) Proposition: If \(T \in \Lin(V,W)\), then \(\range T\) is a subspace of \(W\).
+(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T &#43; \dim \, \range T,\] where \(\nl T\) denotes the null space of \(T\) and \(\dim V\) is the dimension of the space \(V\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 5, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/range/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Coprime numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Two numbers \(a,b \in \N\) are said to be coprime or relatively prime if their greatest common divisor is 1.
+Properties Because the gcd of two numbers \(a\) and \(b\) can always be written as an integral linear combination of \(a\) and \(b\), there always exist \(s,t \in \Z\) such that \(as &#43; bt = 1\) if and only if \(a\) and \(b\) are coprime....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 3, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/coprime/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Matrices</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp; \dots &amp; a_{1,n} \\ \vdots &amp; \ddots &amp; \vdots \\ a_{m,1} &amp; \dots &amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
+For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 3, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrices/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Relations</h2>
   </header>
   <section class="entry-content">
@@ -197,48 +238,6 @@ Properties (1.44) Proposition: Let \(U_1, \dots, U_n\) be subspaces of a vector 
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/subspace_direct_sums/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Operators</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space. An operator on \(V\) is a linear map from \(V\) to itself. We denote the space of operators on \(V\) by \(\Lin (V)\) (shortening the notation from \(\Lin (V, V))\).
-Properties (3.69) Theorem: Let \(V\) be a finite-dimensional vector space. For an operator \(T \in \Lin(V)\), the following are equivalent:
- \(T\) is invertible; \(T\) is injective; \(T\) is surjective.  ...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 14, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/operators/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Products of vector spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Guess what? They are also vector spaces.
-Definition Let \(V_1, \dots, V_n\) be vector spaces over \(\F\). The product of these spaces, denoted \(V_1 \times \dots \times V_n\) is the set \[\{(v_1, \dots, v_n) \mid v_1 \in V_1, \dots, v_n \in V_n\}.\] (This is the same way we define finite cartesian products.)
-Properties We define addition and scalar multiplication on \(V_1 \times \dots \times V_n\) as follows: \[\begin{gather*} (a_1, \dots, a_n) &#43; (b_1, \dots, b_n) = (a_1 &#43; b_1, \dots, a_n &#43; b_n); \\ c (a_1, \dots, a_n) = (ca_1, \dots, ca_n)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 14, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/vspace_products/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Invertibility of linear maps</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \(V\) and \(W\) be vector spaces. A linear map \(T \in \Lin (V, W)\) is called invertible if there exists a map \(S \in \Lin(W, V)\) such that the products \(ST\) and \(TS\) are the identity maps on \(V\) and \(W\), respectively.
-We call the map \(S\) the inverse of \(T\), denoted \(T\inv\) (see the uniqueness property below).
-An invertible linear map \(T \in \Lin(V, W)\) is called an isomorphism, and the spaces \(V\) and \(W\) are called isomorphic to one another....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 13, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/invertibility/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/10/">← Prev Page</a>
@@ -312,7 +311,8 @@ An invertible linear map \(T \in \Lin(V, W)\) is called an isomorphism, and the 
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
-            "\\pring":"{#1}[{#2}]"
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
           },
           
           throwOnError : false

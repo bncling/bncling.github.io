@@ -105,6 +105,46 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Equivalence relations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
+The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
+Properties The equivalence classes of a relation \(R\) partition the set \(S\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/equiv_rels/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Euler&#39;s totient function</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Euler’s totient function is a function \(\phi: \N \to \N\) such that \(\phi(n)\) is the number of numbers that are less than or equal to \(n\) and relatively prime to \(n\). That is, \[\phi(n) = \# \{m \in \N \mid m \leq n \text{ and } \gcd(m,n) = 1\}.\]
+Properties If \(p\) is a prime number, then \(\phi(p) = p-1\) because every natural number less than or equal to \(p\) is relatively prime to it except \(p\) itself....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/totient/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>External direct products</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
+For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Fineness and coarseness</h2>
   </header>
   <section class="entry-content">
@@ -193,48 +233,6 @@ Theorem 4.16:) The product of Hausdorff spaces is product, even for a possibly u
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/hausdorff/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Heredity</h2>
-  </header>
-  <section class="entry-content">
-   <p>What properties do subspaces inherit?
-Definition Let \(P\) be a property of a topological space \((X, \T)\). Then the space is hereditarily \(P\) if and only if every subspace \(Y \subset X\) with the relative topology \(\T_Y\) also has the property \(P\).
-Properties Theorem 4.26: A topological space \((X, \T)\) is hereditarily normal if and only if it is completely normal.
-Examples Theorem 4.19: Hausdorff spaces are hereditarily Hausdorff.
-Theorem 4....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/heredity/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Integer partitions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
-Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the partition function \(p_k(n)\), which satisfies \[\begin{align*} &amp;p_n(n) = 1 \\ &amp;p_0(n) = 0 \quad n \geq 1 \\ &amp;p_k(n) = 0 \quad k &gt; n \\ &amp;p_{n-1}(n) = 1 \\ &amp;p_1(n) = 1 \\ &amp;p_{n-2}(n) = 2 \\ &amp;p_2(n) = \bigg \lfloor \frac{n}{2} \bigg \rfloor, \end{align*}\] along with the recursion \(p_k(n) = p_k(n-k) &#43; p_{k-1}(n-1)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Internal direct products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(G\) be a group with subgroups \(H\) and \(K\). We say that \(G\) is the internal direct product of \(H\) and \(K\) if and only if the follow three conditions hold:
-\(H\) and \(K\) are normal in \(G\) (\(H, K \triangleleft G\)), \(H\) and \(K\) intersect trivially (\(H \cap K = \{e\}\)), \(G\) is the set \(HK = \{hk \mid h \in H, k \in K\}\).  Properties Lemma: If \(H,K \triangleleft G\) and \(H \cap K = \{e\}\), then for all \(h \in H\) and \(k \in K\), \(hk = kh\), that is, elements in \(H\) commute with elements in \(K\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_idp/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/4/">← Prev Page</a>
@@ -308,7 +306,8 @@ Properties The number of ways to partition the number \(n\) into \(k\) positive 
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
-            "\\pring":"{#1}[{#2}]"
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
           },
           
           throwOnError : false

@@ -105,6 +105,46 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Intermediate Value Theorem (IVT)</h2>
+  </header>
+  <section class="entry-content">
+   <p>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
+Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &lt; L\) (\(f(a) &gt; L\)). Then there exists a \(\delta &gt; 0\) such that \(\vert x - a \vert &lt; \delta\) implies that \(f(x) &lt; L\) (\(f(x) &gt; L\))....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ivt/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Open sets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
+Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_sets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Real number exponents</h2>
+  </header>
+  <section class="entry-content">
+   <p>If \(a&gt;0\) and \(r\) are real numbers, does \(a^r\) make sense? We need to extend exponentiation beyond repeated multiplication…
+\(n\)th roots Let \(n \in \N\) be a natural number and let \(a &gt; 0\). Then we define the \(n\)th root of \(a\), written \(a^{\frac{1}{n}}\) or \(\sqrt[n]{a}\) to be the unique positive real number whose \(n\)th power is \(a\).
+Proposition: Such a number \(\sqrt[n]{a}\) exists for all \(a&gt;0\) and \(n \in \N\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/real_exponents/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>The boundedness theorem</h2>
   </header>
   <section class="entry-content">
@@ -194,42 +234,6 @@ An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/dirichlet_function/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Natural numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/natural_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Order relations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/orderings/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Rational numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/rational_numbers/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/math-wiki/page/13/">← Prev Page</a>
@@ -303,7 +307,8 @@ An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
-            "\\pring":"{#1}[{#2}]"
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
           },
           
           throwOnError : false

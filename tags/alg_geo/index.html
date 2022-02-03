@@ -101,6 +101,56 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Affine spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(k\) be a field. An \(n\)-dimensional affine space \(k^n\) is the set of length \(n\) lists of elements of \(k\), that is, \(k^n = \{(a_1, \dots, a_n) \mid a_1, \dots, a_n \in k\}\).
+Examples The set \(\R^n\) is an affine space....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 2, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/affine_space/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Affine varieties</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(k\) be a field and let \(f_1, \dots, f_s\) be polynomials in the ring \(\pring{k}{x_1, \dots, x_n}\). Then the affine variety defined by \(f_1, \dots, f_s\), denoted \(\V(f_1, \dots, f_s\)) is the set \[\V(f_1, \dots, f_s) = \{(a_1, \dots, a_n) \in k^n \mid f_i(a_1, \dots, a_n) = 0, i = 1, \dots, s\},\] that is, the set of points in the affine space over \(k\) at which all of the polynomials vanish simultaneously....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 2, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/affine_variety/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Polynomials</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A monomial in variables \(x_1, \dots, x_n\) is a product of the form \(x_1^{\alpha_1} \dots x_n^{\alpha_n}\) for nonnegative integers \(\alpha_i\), often written as \(x^\alpha\) where \(\alpha\) is a list \(\alpha = (\alpha_1, \dots, \alpha_n)\), of powers \(\alpha_i \in \Z_\geq\). The sum \(\vert \alpha \vert = \alpha_1 &#43; \dots &#43; \alpha_n\) is called the total degree of the monomial.
+A polynomial in variables \(x_1, \dots, x_n\) is a finite linear combination of monomials with coefficients in some field \(k\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 2, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/polynomials/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Ideals of a ring</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A left ideal of a ring \((R, &#43;, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 2, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ideals/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Polynomial Rings</h2>
   </header>
   <section class="entry-content">
@@ -178,7 +228,8 @@
             "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
-            "\\pring":"{#1}[{#2}]"
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
           },
           
           throwOnError : false
