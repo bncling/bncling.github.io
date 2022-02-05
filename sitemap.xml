@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/tags/calculus/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/continuity/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/top_embeddings/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/homeomorphisms/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/topology/</loc>
+    <lastmod>2022-02-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/math-wiki/affine_space/</loc>
     <lastmod>2022-02-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,16 +29,10 @@
     <loc>https://bncling.github.io/tags/alg_geo/</loc>
     <lastmod>2022-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/tags/calculus/</loc>
-    <lastmod>2022-02-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/function/</loc>
     <lastmod>2022-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/polynomials/</loc>
-    <lastmod>2022-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
     <lastmod>2022-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/top_basis/</loc>
@@ -29,13 +41,7 @@
     <loc>https://bncling.github.io/math-wiki/closed_functions/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/continuity/</loc>
-    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/open_functions/</loc>
-    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/topology/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/t1/</loc>

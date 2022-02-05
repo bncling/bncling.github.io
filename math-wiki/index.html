@@ -105,6 +105,46 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Continuity</h2>
+  </header>
+  <section class="entry-content">
+   <p>Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(\vert x - c \vert &lt; \delta\) implies \(\vert f(x) - f(c) \vert &lt; \varepsilon\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 5, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/continuity/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Embeddings</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is an embedding if and only if the function \(f: X \to f(X)\) is a homeomorphism where \(f(X)\) has the relative topology from \(Y\).
+Properties Corollary 7.31: Let \(X\) be compact and \(Y\) be Hausdorff. Then if \(f: X \to Y\) is an injective and continuous map, it is an embedding....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 5, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_embeddings/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Homeomorphisms</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is called a homeomorphism if it is bijective and both \(f\) and \(f\inv\) are continuous. When there exists a homeomorphism \(f: X \to Y\), we say the two spaces \(X\) and \(Y\) are homeomorphic or that they are topologically equivalent.
+Properties Theorem 7.26: Being homeomorphic is an equivalence relation on topological spaces.
+Theorem 7.28: If \(f: X \to Y\) is a continuous bijection, then being open or closed is equivalent to being a homeomorphism....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 5, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/homeomorphisms/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Affine spaces</h2>
   </header>
   <section class="entry-content">
@@ -186,19 +226,6 @@ Properties Theorem 7.21: If \(X\) is normal and \(f: X \to Y\) is continuous, su
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Continuity</h2>
-  </header>
-  <section class="entry-content">
-   <p>Continuous functions can be drawn without picking up your pencil…?
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(\vert x - c \vert &lt; \delta\) implies \(\vert f(x) - f(c) \vert &lt; \varepsilon\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>February 1, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/continuity/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
     <h2>Open functions</h2>
   </header>
   <section class="entry-content">
@@ -209,35 +236,6 @@ Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\
     <time>February 1, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/open_functions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>$T_1$ spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is a \(T_1\)-space if and only if for every pair of distinct points \(x\) and \(y\), there exist open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\) but \(x \notin V\) and \(y \notin U\).
-Properties Theorem 4.1: A space \((X, \T)\) is \(T_1\) if and only if singletons are closed.
-Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is also \(T_1\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 31, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t1/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Countably compact spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Similar to being compact, but weaker…
-Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
-Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.
-Theorem 6.26: If \(X\) is a \(T_1\) space, \(X\) is countably compact if and only if all infinite subsets of \(X\) have limit points....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 31, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/countably_compact/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

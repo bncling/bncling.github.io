@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Homeomorphisms - Ben Clingenpeel</title>
+    
+    <meta name="description" content="Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is called a homeomorphism if it is bijective and both \(f\) and \(f\inv\) are continuous. When there exists a homeomorphism \(f: X \to Y\), we say the two spaces \(X\) and \(Y\) are homeomorphic or that they are topologically equivalent.
+Properties Theorem 7.26: Being homeomorphic is an equivalence relation on topological spaces.
+Theorem 7.28: If \(f: X \to Y\) is a continuous bijection, then being open or closed is equivalent to being a homeomorphism.">
+    <meta name="author" content="">
+    
+    <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://bncling.github.io/style.css" rel="stylesheet">
+    <link href="https://bncling.github.io/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="generator" content="Hugo 0.84.4" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('light');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('light');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://bncling.github.io/">Ben Clingenpeel</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/animations/">Animations</a>
+          </li>
+          <li>
+            <a href="/math-wiki/">Math Wikis</a>
+          </li>
+          <li>
+            <a href="/posts/">Posts</a>
+          </li>
+          <li>
+            <a href="/tags/">Tags</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Homeomorphisms</h1>
+    <div class="post-meta">February 5, 2022</div>
+  </header>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be <a href="https://bncling.github.io/math-wiki/topology_def/">topological spaces</a>. A <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: X \to Y\)</span> is called a <strong>homeomorphism</strong> if it is <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">bijective</a> and both <span class="math inline">\(f\)</span> and <span class="math inline">\(f\inv\)</span> are <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a>. When there exists a homeomorphism <span class="math inline">\(f: X \to Y\)</span>, we say the two spaces <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are <strong>homeomorphic</strong> or that they are <strong>topologically equivalent</strong>.</p>
+<h2 id="properties">Properties</h2>
+<p><a href="\work.pdf#page=73">Theorem 7.26:</a> Being homeomorphic is an <a href="https://bncling.github.io/math-wiki/equiv_rels/">equivalence relation</a> on topological spaces.</p>
+<p><a href="\work.pdf#page=74">Theorem 7.28:</a> If <span class="math inline">\(f: X \to Y\)</span> is a continuous bijection, then being <a href="https://bncling.github.io/math-wiki/open_functions/">open</a> or <a href="https://bncling.github.io/math-wiki/closed_functions/">closed</a> is equivalent to being a homeomorphism.</p>
+<p><a href="\work.pdf#page=74">Theorem 7.29:</a> If <span class="math inline">\(X\)</span> is a <a href="https://bncling.github.io/math-wiki/compactness/">compact space</a> and <span class="math inline">\(Y\)</span> is <a href="https://bncling.github.io/math-wiki/hausdorff/">Hausdorff</a>, then all continuous bijections <span class="math inline">\(f: X \to Y\)</span> are homeomorphisms.</p>
+<p><a href="\work.pdf#page=75">Corollary 7.31:</a> Let <span class="math inline">\(X\)</span> be compact and <span class="math inline">\(Y\)</span> be Hausdorff. Then if <span class="math inline">\(f: X \to Y\)</span> is an <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> and continuous map, it is an <a href="https://bncling.github.io/math-wiki/top_embeddings/">embedding</a>.</p>
+<h2 id="examples">Examples</h2>
+<p>If <span class="math inline">\(a &lt; b\)</span>, then the interval <span class="math inline">\((a,b)\)</span> as a <a href="https://bncling.github.io/math-wiki/top_subspaces/">subspace</a> of <span class="math inline">\(\Rs\)</span> (<span class="math inline">\(\R\)</span> with the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a>) is homeomorphic to <span class="math inline">\(\Rs\)</span>.</p>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/topology">topology</a></li>
+    </ul>
+  </footer>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\Poly":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathscr{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathscr{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}",
+            "\\Sym":"\\text{Sym}",
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
+            "\\Cov":"\\mathscr{C}",
+            "\\im":"\\text{im}",
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</article></main>
+<footer class="footer">
+  <span>&copy; 2022 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://bncling.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\Poly":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathscr{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathscr{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}",
+            "\\Sym":"\\text{Sym}",
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
+            "\\Cov":"\\mathscr{C}",
+            "\\im":"\\text{im}",
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</html>
+

@@ -8,6 +8,37 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Continuity</title>
+      <link>https://bncling.github.io/math-wiki/continuity/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
+      <description>Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
+    </item>
+    
+    <item>
+      <title>Embeddings</title>
+      <link>https://bncling.github.io/math-wiki/top_embeddings/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_embeddings/</guid>
+      <description>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is an embedding if and only if the function \(f: X \to f(X)\) is a homeomorphism where \(f(X)\) has the relative topology from \(Y\).
+Properties Corollary 7.31: Let \(X\) be compact and \(Y\) be Hausdorff. Then if \(f: X \to Y\) is an injective and continuous map, it is an embedding.</description>
+    </item>
+    
+    <item>
+      <title>Homeomorphisms</title>
+      <link>https://bncling.github.io/math-wiki/homeomorphisms/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/homeomorphisms/</guid>
+      <description>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is called a homeomorphism if it is bijective and both \(f\) and \(f\inv\) are continuous. When there exists a homeomorphism \(f: X \to Y\), we say the two spaces \(X\) and \(Y\) are homeomorphic or that they are topologically equivalent.
+Properties Theorem 7.26: Being homeomorphic is an equivalence relation on topological spaces.
+Theorem 7.28: If \(f: X \to Y\) is a continuous bijection, then being open or closed is equivalent to being a homeomorphism.</description>
+    </item>
+    
+    <item>
       <title>Affine spaces</title>
       <link>https://bncling.github.io/math-wiki/affine_space/</link>
       <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
@@ -68,16 +99,6 @@ Properties Theorem 3.1: A set \(\mathcal{B}\) is the basis for a given topology 
       <guid>https://bncling.github.io/math-wiki/closed_functions/</guid>
       <description>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called closed if and only for every closed set \(A \subset X\), the image \(f(A)\) is closed in \(Y\).
 Properties Theorem 7.21: If \(X\) is normal and \(f: X \to Y\) is continuous, surjective, and closed, then \(Y\) is normal.</description>
-    </item>
-    
-    <item>
-      <title>Continuity</title>
-      <link>https://bncling.github.io/math-wiki/continuity/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
-      <description>Continuous functions can be drawn without picking up your pencil…?
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
     </item>
     
     <item>
