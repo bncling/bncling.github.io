@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/box_topology/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/topology/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/tags/calculus/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,13 +20,7 @@
     <loc>https://bncling.github.io/math-wiki/homeomorphisms/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/product_topology/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/topology/</loc>
     <lastmod>2022-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/top_embeddings/</loc>
@@ -296,9 +299,6 @@
     <loc>https://bncling.github.io/math-wiki/power_set/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/box_topology/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bncling.github.io/math-wiki/annihilators/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -529,6 +529,9 @@
   </url><url>
     <loc>https://bncling.github.io/</loc>
     <lastmod>2021-07-04T15:02:17-04:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/cantor_set/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/ideals/</loc>
     <lastmod>2021-02-02T00:00:00+00:00</lastmod>
