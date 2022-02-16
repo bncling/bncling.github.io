@@ -6,7 +6,28 @@
     <description>Recent content in topology on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identification spaces</title>
+      <link>https://bncling.github.io/math-wiki/identification_spaces/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/identification_spaces/</guid>
+      <description>Definitions Let \((X, \T)\) be a topological space and let \(X^*\) be a partition of \(X\). The identification map \(f: X \to X^*\) is the surjective map that takes each point of \(X\) to the part of the partition \(X^*\) containing it.
+The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a topology defined as follows: a set \(U \subset X^*\) is open in \(X^*\) if and only if the preimage \(f\inv(U)\) is open in \(X\).</description>
+    </item>
+    
+    <item>
+      <title>Quotient spaces</title>
+      <link>https://bncling.github.io/math-wiki/top_quotients/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_quotients/</guid>
+      <description>Generalizing identification spaces.
+Definitions Let \((X,\T)\) be a topological spaces, let \(Y\) be a set, and let \(f: X \to Y\) be a surjection. Define the quotient topology on \(Y\) to be the topology in which \(U \subset Y\) is open if and only if \(f\inv(U)\) is open in \(X\).
+Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\), we call \(f\) a quotient map and \(Y\) a quotient space if and only if the topology on \(Y\) is the quotient topology with respect to \(Y\).</description>
+    </item>
+    
     <item>
       <title>The box topology</title>
       <link>https://bncling.github.io/math-wiki/box_topology/</link>
