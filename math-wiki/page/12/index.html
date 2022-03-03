@@ -105,6 +105,74 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Coprime numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Two numbers \(a,b \in \N\) are said to be coprime or relatively prime if their greatest common divisor is 1.
+Properties Because the gcd of two numbers \(a\) and \(b\) can always be written as an integral linear combination of \(a\) and \(b\), there always exist \(s,t \in \Z\) such that \(as &#43; bt = 1\) if and only if \(a\) and \(b\) are coprime....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 3, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/coprime/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Matrices</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A matrix is a rectangular array with \(m\) rows and \(n\) columns for positive integers \(m\) and \(n\). \[\begin{bmatrix} a_{1,1} &amp; \dots &amp; a_{1,n} \\ \vdots &amp; \ddots &amp; \vdots \\ a_{m,1} &amp; \dots &amp; a_{m,n} \end{bmatrix}\] A generic matrix looks like the above, where \(a_{i,j}\) are usually elements of \(\F\), either the reals or the complex numbers.
+For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by \(A_{i,j}\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 3, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrices/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Relations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A relation on a set \(S\) is a subset \(R \subset S \times S\). Two elements \(a,b \in S\) are related if and only if \((a,b) \in R\), and this is sometimes written \(aRb\).
+Relations are called
+ reflexive if \((a,a) \in R\) for all \(a \in S\) (\(a\) is related to itself); irreflexive if \((a,a) \notin R\) for all \(a \in S\); symmetric if \((a,b) \in R\) implies \((b,a) \in R\); asymmetric if \((a,b) \in R\) implies \((b,a) \notin R\); antisymmetric if \((a,b),(b,a) \in R\) implies that \(a = b\); transitive if \((a,b),(b,c) \in R\) implies that \((a,c) \in R\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 3, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/relations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Injectivity, surjectivity, and bijectivity</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A function or map \(f: \mathcal{D} \to \mathcal{C}\) is called injective if and only if for all \(a,b \in \mathcal{D}\) such that \(a \neq b\), we have that \(f(a) \neq f(b)\).
+It is called surjective if and only if for all \(y \in \mathcal{C}\), there exists an \(x \in \mathcal{D}\) such that \(f(x) = y\).
+It is called bijective if and only if it is both injective and surjective....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>November 21, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/inj_surj_bij/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Quotients of vector spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>They are themselves also vector spaces.
+Definitions Let \(U\) be a subspace of a vector space \(V\). The quotient space \(V / U\) is the set of all affine subsets of \(V\) parallel to \(U\). That is, \[V / U = \{v &#43; U \mid v \in V\}.\]
+For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\) is a linear map defined by \(\pi(v) = v &#43; U\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>August 18, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/vspace_quotients/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Systems of linear equations</h2>
   </header>
   <section class="entry-content">
@@ -168,76 +236,6 @@ Properties (3.69) Theorem: Let \(V\) be a finite-dimensional vector space. For a
     <time>August 14, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/operators/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Products of vector spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Guess what? They are also vector spaces.
-Definition Let \(V_1, \dots, V_n\) be vector spaces over \(\F\). The product of these spaces, denoted \(V_1 \times \dots \times V_n\) is the set \[\{(v_1, \dots, v_n) \mid v_1 \in V_1, \dots, v_n \in V_n\}.\] (This is the same way we define finite cartesian products.)
-Properties We define addition and scalar multiplication on \(V_1 \times \dots \times V_n\) as follows: \[\begin{gather*} (a_1, \dots, a_n) &#43; (b_1, \dots, b_n) = (a_1 &#43; b_1, \dots, a_n &#43; b_n); \\ c (a_1, \dots, a_n) = (ca_1, \dots, ca_n)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 14, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/vspace_products/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Invertibility of linear maps</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \(V\) and \(W\) be vector spaces. A linear map \(T \in \Lin (V, W)\) is called invertible if there exists a map \(S \in \Lin(W, V)\) such that the products \(ST\) and \(TS\) are the identity maps on \(V\) and \(W\), respectively.
-We call the map \(S\) the inverse of \(T\), denoted \(T\inv\) (see the uniqueness property below).
-An invertible linear map \(T \in \Lin(V, W)\) is called an isomorphism, and the spaces \(V\) and \(W\) are called isomorphic to one another....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 13, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/invertibility/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Basis of a vector space</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(V\) be a vector space. A basis of \(V\) is a list of vectors in \(V\) that is linearly independent and spans \(V\).
-Properties (2.29) Proposition: A list \((v_1, \dots, v_n)\) is a basis of \(V\) if and only if every \(v \in V\) can be uniquely expressed as a linear combination of \((v_1, \dots, v_n)\).
-(2.31) Theorem: Every spanning list \((v_1, \dots, v_n)\) of \(V\) can be reduced to a basis by removing some of the \(v_i\) from the list....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_basis/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Dimension of a vector space</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The dimension of a finite dimensional vector space \(V\), denoted \(\dim V\), is the length of any basis of \(V\).
-Properties (2.43) Theorem: If \(U_1\) and \(U_2\) are subspaces of a vector space \(V\), then their sum satisfies \[\dim (U_1 &#43; U_2) = \dim U_1 &#43; \dim U_2 - \dim (U_1 \cap U_2).\]
-(3.22) Fundamental Theorem of Linear Maps: If \(V\) is a finite-dimensional vector space and \(T \in \Lin(V,W)\) is a linear map, then \[\dim V = \dim \, \nl T &#43; \dim \, \range T,\] where \(\nl T\) and \(\range T\) denote the null space and range of \(T\), respectively....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linalg_dimension/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Linear (in)dependence</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A list of vectors \((v_1, \dots, v_n)\) in a vector space \(V\) is linearly independent if and only if \(a_1 v_1 &#43; \dots &#43; a_n v_n = 0\) implies that \(a_1 = \dots = a_n = 0\).
-The list is linearly dependent if and only if it is not linearly independent.
-Note: These definitions follow Sheldon Axler’s book Linear Algebra Done Right, in which linear (in)dependence is defined in terms of lists of vectors, and not sets of vectors....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_independence/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

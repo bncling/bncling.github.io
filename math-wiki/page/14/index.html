@@ -105,6 +105,72 @@
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Complex numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/complex_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Linear combinations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(V\) be a vector space over \(\F\) and let \((v_1, \dots, v_n)\) be a list of vectors in \(V\). A linear combination of this list is a vector of the form \[a_1 v_1 &#43; \dots &#43; a_n v_n\] where \(a_1, \dots, a_n \in \F\).
+Examples The vector \((7,2,9) \in \R^3\) is a linear combination of the vectors \((2,1,3)\) and \((1,0,1)\) since \[(7,2,9) = 2(2,1,3) &#43; 3(1,0,1)\]...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_combo/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Lists</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(n\) be a nonnegative integer. Then a list of length \(n\) is an ordered collection of \(n\) objects, \((x_1, \dots, x_n)\).
+For \(j \in \{1, \dots, n\}\), we call the element \(x_j\) the \(j\)th coordinate of the list.
+Properties Two lists are equal if and only if they have the same length and the same coordinates in the same order. That is \((x_1, \dots, x_n) = (y_1, \dots, y_m)\) if and only if \(n = m\) and \(x_j = y_j\) for all \(j = 1, \dots, n\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lists/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Sequences</h2>
+  </header>
+  <section class="entry-content">
+   <p>They’re like lists but they’re infinitely long.
+Definitions For real numbers, a sequence is a function \(f: \mathbb{N} \to \mathbb{R}\), where the image of the number \(n\) under \(f\) is typically called \(a_n\). The sequence is written by listing its images: \(a_1, a_2, \dots\) or for short, \(\{a_n\}\).
+In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \mathbb{N} \to X\), where the image of the number \(i\) under \(f\) is typically called \(x_i\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/sequence/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Span</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(v_1, \dots, v_n \in V\) be vectors in a vector space over \(\F\). The span of the list \((v_1, \dots, v_n)\), denoted \(\Span(v_1, \dots, v_n)\), is the set of all linear combinations, that is \[\Span(v_1, \dots, v_n) = \{a_1 v_1 &#43; \dots &#43; a_n v_n \mid a_1, \dots, a_n \in \F \}.\]
+Properties For a list of vectors \((v_1, \dots, v_n)\) in \(V\), \(\Span(v_1, \dots, v_n)\) is a subspace of \(V\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/span/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>The topologist&#39;s sine curve</h2>
   </header>
   <section class="entry-content">
@@ -169,74 +235,6 @@ Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous
     <time>July 12, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/ivt/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Open sets</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
-Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_sets/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Real number exponents</h2>
-  </header>
-  <section class="entry-content">
-   <p>If \(a&gt;0\) and \(r\) are real numbers, does \(a^r\) make sense? We need to extend exponentiation beyond repeated multiplication…
-\(n\)th roots Let \(n \in \N\) be a natural number and let \(a &gt; 0\). Then we define the \(n\)th root of \(a\), written \(a^{\frac{1}{n}}\) or \(\sqrt[n]{a}\) to be the unique positive real number whose \(n\)th power is \(a\).
-Proposition: Such a number \(\sqrt[n]{a}\) exists for all \(a&gt;0\) and \(n \in \N\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/real_exponents/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The boundedness theorem</h2>
-  </header>
-  <section class="entry-content">
-   <p>Theorem statement If \(f: [a,b] \to \R\) is a continuous function, then \(f\) is bounded.
-Lemmata Lemma 1: If \(f: \mathcal{D} \to \R\) is continuous at \(a \in \mathcal{D}\), then there exists a \(\delta &gt; 0\) such that \(f\) is bounded on \((a - \delta, a &#43; \delta)\).
-Proof 1: Let \(\varepsilon = 1\). By the continuity of \(f\) at \(a\), choose \(\delta &gt; 0\) such that \(\vert x - a \vert &lt; \delta\) implies \(\vert f(x) - f(a) \vert &lt; \varepsilon = 1\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/boundedness_thm/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Extreme Value Theorem (EVT)</h2>
-  </header>
-  <section class="entry-content">
-   <p>Theorem statement If \(f: [a,b] \to \R\) be a continuous function, then there exist \(c,d \in [a,b]\) such that \(f(c) \leq f(x) \leq f(d)\) for all \(x \in [a,b]\).
-Proof Suppose \(f: [a,b] \to \R\) be a continuous function. Then by the boundedness theorem, the set \(A = \{f(x) \mid x \in [a,b]\}\) is bounded and nonempty. By the completeness axiom, the set \(A\) has a supremum, say \(\sup A = M\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 12, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/evt/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Closures</h2>
-  </header>
-  <section class="entry-content">
-   <p>Taking a set and adding a few points to make it closed.
-Definition Let \((X, \mathcal{T})\) be a topological space with \(A \subset X\). The closure of \(A\) in \(X\), denoted \(\overline{A}\), Cl\((A)\), or Cl\(_X(A)\) is the set \(A\) together with all its limit points in \(X\).
-Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\) in a topological space \((X, \mathcal{T})\), we have that \(\overline{\overline{A}} = \overline{A}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 11, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/closure/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -8,6 +8,90 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Connected components</title>
+      <link>https://bncling.github.io/math-wiki/connected_components/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/connected_components/</guid>
+      <description>Definition Let \(p\) be a point in a topological space \((X, \T)\). The component of \(p\) in \(X\) is the union of all connected subsets of \(X\) that contain \(p\).
+Properties Theorem 8.18: Given a space \(X\), every component in \(X\) is connected, closed, and not contained in any strictly larger connected set.
+Theorem 8.19: Given a space \(X\), the set of components of \(X\) is a partition of \(X\).</description>
+    </item>
+    
+    <item>
+      <title>Connectedness</title>
+      <link>https://bncling.github.io/math-wiki/connectedness/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/connectedness/</guid>
+      <description>Definition A topological space \((X, \T)\) is connected if and only if \(X\) cannot be written as the disjoint union of two nonempty open sets.
+Properties Theorem 8.1 A space \(X\) being connected is equivalent to the following conditions:
+ There does not exist a continuous function \(f: X \to \Rs\) such that \(f(X) = \{0,1\}\). \(X\) cannot be written as the disjoint union of two nonempty separated sets. \(X\) cannot be written as the disjoint union of two nonempty closed sets.</description>
+    </item>
+    
+    <item>
+      <title>Continuity</title>
+      <link>https://bncling.github.io/math-wiki/continuity/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
+      <description>Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
+    </item>
+    
+    <item>
+      <title>Cone over a topological space </title>
+      <link>https://bncling.github.io/math-wiki/top_cones/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_cones/</guid>
+      <description>Definition Let \((X, \T)\) be a topological space. Then the cone over \(X\) is the identification space \(X^*\) of the product \(X \times [0,1]\) where \[X^* = \{\{(x,t)\} \mid x \in X, t \in (0,1]\} \cup \{\{(x,0) \mid x \in X\}\}.\]
+Examples If \(X\) is a compact subset of \(\R^n\) with the standard topology, then the cone over \(X\) is homeomorphic to the space \(C\) constructed in the following way: view \(\R^n\) as a subset of \(\R^{n+1}\), let \(x_0 \in \R^{n+1} - \R^n\), and define \(C\) to be the union of all line segments from \(x_0\) to points \(x \in X\).</description>
+    </item>
+    
+    <item>
+      <title>Normal spaces</title>
+      <link>https://bncling.github.io/math-wiki/normal/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/normal/</guid>
+      <description>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
+Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\).</description>
+    </item>
+    
+    <item>
+      <title>Quotient spaces</title>
+      <link>https://bncling.github.io/math-wiki/top_quotients/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/top_quotients/</guid>
+      <description>Generalizing identification spaces.
+Definitions Let \((X,\T)\) be a topological spaces, let \(Y\) be a set, and let \(f: X \to Y\) be a surjection. Define the quotient topology on \(Y\) to be the topology in which \(U \subset Y\) is open if and only if \(f\inv(U)\) is open in \(X\).
+Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\), we call \(f\) a quotient map and \(Y\) a quotient space if and only if the topology on \(Y\) is the quotient topology with respect to \(Y\).</description>
+    </item>
+    
+    <item>
+      <title>Retractions</title>
+      <link>https://bncling.github.io/math-wiki/retractions/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/retractions/</guid>
+      <description>Definition Let \(A\) be a subset of a topological space \((X, \T)\). A continuous function \(r: X \to A\) is called a retraction and \(A\) is called a retract if and only if for all \(a \in A\), we have that \(r(a) = a\).
+Properties Theorem 7.64: Let \(X\) be a normal space and let \(A \subset X\) be closed and homeomorphic to \([0,1]\) as a subspace of \(\Rs\). Then there exists a retraction \(r: X \to A\).</description>
+    </item>
+    
+    <item>
+      <title>Wedge sums</title>
+      <link>https://bncling.github.io/math-wiki/wedge_sum/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/wedge_sum/</guid>
+      <description>Gluing two spaces together at a point.
+Definition Let \(A\) and \(B\) be disjoint topological spaces with points \(p \in A\) and \(q \in B\). We define the wedge sum of \(A\) and \(B\) relative to the points \(p\) and \(q\), denoted \(A \vee B\) to be the quotient space \(A \cup B / p \sim q\).
+Examples The bouquet of \(n\) circles is the result of gluing together \(n\) circles at one point.</description>
+    </item>
+    
+    <item>
       <title>Identification spaces</title>
       <link>https://bncling.github.io/math-wiki/identification_spaces/</link>
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
@@ -15,17 +99,6 @@
       <guid>https://bncling.github.io/math-wiki/identification_spaces/</guid>
       <description>Definitions Let \((X, \T)\) be a topological space and let \(X^*\) be a partition of \(X\). The identification map \(f: X \to X^*\) is the surjective map that takes each point of \(X\) to the part of the partition \(X^*\) containing it.
 The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a topology defined as follows: a set \(U \subset X^*\) is open in \(X^*\) if and only if the preimage \(f\inv(U)\) is open in \(X\).</description>
-    </item>
-    
-    <item>
-      <title>Quotient spaces</title>
-      <link>https://bncling.github.io/math-wiki/top_quotients/</link>
-      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/top_quotients/</guid>
-      <description>Generalizing identification spaces.
-Definitions Let \((X,\T)\) be a topological spaces, let \(Y\) be a set, and let \(f: X \to Y\) be a surjection. Define the quotient topology on \(Y\) to be the topology in which \(U \subset Y\) is open if and only if \(f\inv(U)\) is open in \(X\).
-Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\), we call \(f\) a quotient map and \(Y\) a quotient space if and only if the topology on \(Y\) is the quotient topology with respect to \(Y\).</description>
     </item>
     
     <item>
@@ -37,16 +110,6 @@ Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\)
       <description>Another, weirder topology on an infinite product.
 Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a (possibly infinite) collection of topological spaces. The box topology on the product \(\prod_{\alpha \in \lambda} X_\alpha\) is the topology generated by a basis consisting of sets of the form \(\prod_{\alpha \in \lambda} U_\alpha\) where \(U_\alpha\) is open in \((X_\alpha, \T_\alpha)\) for each \(\alpha\).
 Properties As a consequence of Theorem 3.27, if the collection \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) is finite, the box topology on \(\prod_{\alpha \in \lambda} X_\alpha\) is the same as the product topology.</description>
-    </item>
-    
-    <item>
-      <title>Continuity</title>
-      <link>https://bncling.github.io/math-wiki/continuity/</link>
-      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
-      <description>Continuous functions can be drawn without picking up your pencil…?
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
     </item>
     
     <item>
@@ -227,16 +290,6 @@ Theorem 5.19: Every 1st countable space is hereditarily 1st countable.</descript
       <guid>https://bncling.github.io/math-wiki/rings/</guid>
       <description>Definition A ring \((R, +, \cdot)\) is a set \(R\) together with binary operations \(+: R \times R \to R\) and \(\cdot: R \times R \to R\) such that
  \((R, +)\) is an abelian group (we denote the identity element by \(0\)); The operation \(\cdot\) is associative; The operation \(\cdot\) distributes over the operation \(+\), that is, for all \(a,b,c \in R\), \[\begin{align*} a(b + c) &amp;amp;= ab + ac \\ (a + b)c &amp;amp;= ac + bc.</description>
-    </item>
-    
-    <item>
-      <title>Normal spaces</title>
-      <link>https://bncling.github.io/math-wiki/normal/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/normal/</guid>
-      <description>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
-Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\).</description>
     </item>
     
     <item>

@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Quotient spaces - Ben Clingenpeel</title>
+    <title>Connectedness - Ben Clingenpeel</title>
     
-    <meta name="description" content="Generalizing identification spaces.
-Definitions Let \((X,\T)\) be a topological spaces, let \(Y\) be a set, and let \(f: X \to Y\) be a surjection. Define the quotient topology on \(Y\) to be the topology in which \(U \subset Y\) is open if and only if \(f\inv(U)\) is open in \(X\).
-Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\), we call \(f\) a quotient map and \(Y\) a quotient space if and only if the topology on \(Y\) is the quotient topology with respect to \(Y\).">
+    <meta name="description" content="Definition A topological space \((X, \T)\) is connected if and only if \(X\) cannot be written as the disjoint union of two nonempty open sets.
+Properties Theorem 8.1 A space \(X\) being connected is equivalent to the following conditions:
+ There does not exist a continuous function \(f: X \to \Rs\) such that \(f(X) = \{0,1\}\). \(X\) cannot be written as the disjoint union of two nonempty separated sets. \(X\) cannot be written as the disjoint union of two nonempty closed sets.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -99,19 +99,30 @@ Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\)
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Quotient spaces</h1>
-    <div class="post-meta">March 2, 2022</div>
+    <h1 class="post-title">Connectedness</h1>
+    <div class="post-meta">March 3, 2022</div>
   </header>
-  <div class="post-content"><p>Generalizing <a href="https://bncling.github.io/math-wiki/identification_spaces/">identification spaces</a>.</p>
-<h2 id="definitions">Definitions</h2>
-<p>Let <span class="math inline">\((X,\T)\)</span> be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological spaces</a>, let <span class="math inline">\(Y\)</span> be a set, and let <span class="math inline">\(f: X \to Y\)</span> be a <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjection</a>. Define the <strong>quotient topology</strong> on <span class="math inline">\(Y\)</span> to be the topology in which <span class="math inline">\(U \subset Y\)</span> is <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> if and only if <span class="math inline">\(f\inv(U)\)</span> is open in <span class="math inline">\(X\)</span>.</p>
-<p>Given a surjective map <span class="math inline">\(f: X \to Y\)</span> between topological spaces <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>, we call <span class="math inline">\(f\)</span> a <strong>quotient map</strong> and <span class="math inline">\(Y\)</span> a <strong>quotient space</strong> if and only if the topology on <span class="math inline">\(Y\)</span> is the quotient topology with respect to <span class="math inline">\(Y\)</span>.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>A <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> <span class="math inline">\((X, \T)\)</span> is <strong>connected</strong> if and only if <span class="math inline">\(X\)</span> cannot be written as the disjoint union of two nonempty <a href="https://bncling.github.io/math-wiki/open_sets/">open sets</a>.</p>
 <h2 id="properties">Properties</h2>
-<p><a href="\work.pdf#page=82">Theorem 7.48:</a> The quotient topology on <span class="math inline">\(Y\)</span> with respect to a surjection <span class="math inline">\(f: X \to Y\)</span> is the <a href="https://bncling.github.io/math-wiki/fine_coarse/">finest</a> topology on <span class="math inline">\(Y\)</span> such that the map <span class="math inline">\(f\)</span> is <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a>.</p>
-<p><a href="\work.pdf#page=83">Theorems 7.49 and 7.50:</a> If <span class="math inline">\(f: X \to Y\)</span> is a continuous surjection between topological spaces <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>, <span class="math inline">\(f\)</span> being an <a href="https://bncling.github.io/math-wiki/open_functions/">open map</a> implies that <span class="math inline">\(f\)</span> is a quotient map, and <span class="math inline">\(f\)</span> being a <a href="https://bncling.github.io/math-wiki/closed_functions/">closed map</a> implies that <span class="math inline">\(f\)</span> is a quotient map.</p>
-<p><a href="\work.pdf#page=84">Theorem 7.53:</a> If <span class="math inline">\(f: X \to Y\)</span> is a quotient map, then a map <span class="math inline">\(g: Y \to Z\)</span> out of the quotient space <span class="math inline">\(Y\)</span> is continuous if and only of <span class="math inline">\(g \circ f: X \to Z\)</span> is continuous.</p>
+<p><a href="\work.pdf#page=91">Theorem 8.1</a> A space <span class="math inline">\(X\)</span> being connected is equivalent to the following conditions:</p>
+<ul>
+<li>There does not exist a <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: X \to \Rs\)</span> such that <span class="math inline">\(f(X) = \{0,1\}\)</span>.</li>
+<li><span class="math inline">\(X\)</span> cannot be written as the disjoint union of two nonempty <a href="https://bncling.github.io/math-wiki/completely_normal/">separated sets</a>.</li>
+<li><span class="math inline">\(X\)</span> cannot be written as the disjoint union of two nonempty <a href="https://bncling.github.io/math-wiki/closed_sets/">closed sets</a>.</li>
+<li>The only subsets of <span class="math inline">\(X\)</span> that are closed and open are <span class="math inline">\(X\)</span> and the empty set.</li>
+<li>For every pair of points <span class="math inline">\(p,q \in X\)</span> and every <a href="https://bncling.github.io/math-wiki/compactness/">open cover</a> <span class="math inline">\(\{U_\alpha\}_{\alpha \in \lambda}\)</span> of <span class="math inline">\(X\)</span>, there exists a finite subcollection <span class="math inline">\(\{U_{\alpha_1}, \dots, U_{\alpha_n}\}\)</span> such that <span class="math inline">\(p \in U_{\alpha_1}\)</span>, <span class="math inline">\(q \in U_{\alpha_n}\)</span>, and for all <span class="math inline">\(i &lt; n\)</span>, <span class="math inline">\(U_{\alpha_i} \cap U_{\alpha_{i+1}} \neq \emptyset\)</span>.</li>
+</ul>
+<p><a href="\work.pdf#page=94">Theorem 8.4:</a> If <span class="math inline">\(A,B \subset X\)</span> are separated and <span class="math inline">\(C \subset A \cup B\)</span> is connected, then either <span class="math inline">\(C \subset A\)</span> or <span class="math inline">\(C \subset B\)</span>.</p>
+<p><a href="\work.pdf#page=94">Theorem 8.5:</a> Let <span class="math inline">\(\{C_\alpha\}_{\alpha \in \lambda}\)</span> be a collection of connected subsets of a space <span class="math inline">\(X\)</span>, and let <span class="math inline">\(E\)</span> also be a connected subset of <span class="math inline">\(X\)</span>. If <span class="math inline">\(E \cap U_{\alpha} \neq \emptyset\)</span> for all <span class="math inline">\(\alpha \in \lambda\)</span>, then <span class="math inline">\(E \cup \left( \bigcup_{\alpha \in \lambda} C_\alpha \right)\)</span> is connected.</p>
+<p><a href="\work.pdf#page=94">Theorem 8.6:</a> Let <span class="math inline">\(C \subset X\)</span> be connected and <span class="math inline">\(D \subset X\)</span> satisfies <span class="math inline">\(C \subset D \subset \overline{C}\)</span>, then <span class="math inline">\(D\)</span> is connected as well.</p>
+<p><a href="\work.pdf#page=95">Theorem 8.8:</a> If <span class="math inline">\(C \subset X\)</span> is connected such that <span class="math inline">\(X - C\)</span> is the union of separated sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, then <span class="math inline">\(A \cup C\)</span> and <span class="math inline">\(B \cup C\)</span> are also connected.</p>
+<p><a href="\work.pdf#page=96">Theorem 8.9:</a> If <span class="math inline">\(f: X \to Y\)</span> is continuous and <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjective</a>, then <span class="math inline">\(X\)</span> being connected implies that <span class="math inline">\(Y\)</span> is connected as well.</p>
+<p><a href="\work.pdf#page=98">Theorem 8.12:</a> If <span class="math inline">\(\{X_\alpha\}_{\alpha \in \lambda}\)</span> is a collection of topological spaces, then their <a href="https://bncling.github.io/math-wiki/cartesian/">product</a> <span class="math inline">\(\prod_{\alpha \in \lambda} X_\alpha\)</span> with the <a href="https://bncling.github.io/math-wiki/product_topology/">product topology</a> is connected if and only if <span class="math inline">\(X_\alpha\)</span> is connected for all <span class="math inline">\(\alpha \in \lambda\)</span>.</p>
 <h2 id="examples">Examples</h2>
-<p><a href="https://bncling.github.io/math-wiki/identification_spaces/">Identification maps</a> are quotient maps, as are <a href="https://bncling.github.io/math-wiki/cartesian/">projection maps</a>.</p>
+<p><span class="math inline">\(\Rs\)</span> (the real line with the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a>) is connected.</p>
+<p>The <a href="https://bncling.github.io/math-wiki/closure/">closure</a> of the <a href="https://bncling.github.io/math-wiki/top_sine/">topologist’s sine curve</a> is connected.</p>
+<p>The product of countably many copies of <span class="math inline">\(\Rs\)</span> is connected when given the product topology by Theorem 8.12 above, but is not connected when given the <a href="https://bncling.github.io/math-wiki/box_topology/">box topology</a>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

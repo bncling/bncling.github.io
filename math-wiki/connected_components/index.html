@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Quotient spaces - Ben Clingenpeel</title>
+    <title>Connected components - Ben Clingenpeel</title>
     
-    <meta name="description" content="Generalizing identification spaces.
-Definitions Let \((X,\T)\) be a topological spaces, let \(Y\) be a set, and let \(f: X \to Y\) be a surjection. Define the quotient topology on \(Y\) to be the topology in which \(U \subset Y\) is open if and only if \(f\inv(U)\) is open in \(X\).
-Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\), we call \(f\) a quotient map and \(Y\) a quotient space if and only if the topology on \(Y\) is the quotient topology with respect to \(Y\).">
+    <meta name="description" content="Definition Let \(p\) be a point in a topological space \((X, \T)\). The component of \(p\) in \(X\) is the union of all connected subsets of \(X\) that contain \(p\).
+Properties Theorem 8.18: Given a space \(X\), every component in \(X\) is connected, closed, and not contained in any strictly larger connected set.
+Theorem 8.19: Given a space \(X\), the set of components of \(X\) is a partition of \(X\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -99,19 +99,14 @@ Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\)
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Quotient spaces</h1>
-    <div class="post-meta">March 2, 2022</div>
+    <h1 class="post-title">Connected components</h1>
+    <div class="post-meta">March 3, 2022</div>
   </header>
-  <div class="post-content"><p>Generalizing <a href="https://bncling.github.io/math-wiki/identification_spaces/">identification spaces</a>.</p>
-<h2 id="definitions">Definitions</h2>
-<p>Let <span class="math inline">\((X,\T)\)</span> be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological spaces</a>, let <span class="math inline">\(Y\)</span> be a set, and let <span class="math inline">\(f: X \to Y\)</span> be a <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">surjection</a>. Define the <strong>quotient topology</strong> on <span class="math inline">\(Y\)</span> to be the topology in which <span class="math inline">\(U \subset Y\)</span> is <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> if and only if <span class="math inline">\(f\inv(U)\)</span> is open in <span class="math inline">\(X\)</span>.</p>
-<p>Given a surjective map <span class="math inline">\(f: X \to Y\)</span> between topological spaces <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>, we call <span class="math inline">\(f\)</span> a <strong>quotient map</strong> and <span class="math inline">\(Y\)</span> a <strong>quotient space</strong> if and only if the topology on <span class="math inline">\(Y\)</span> is the quotient topology with respect to <span class="math inline">\(Y\)</span>.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(p\)</span> be a point in a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> <span class="math inline">\((X, \T)\)</span>. The <strong>component</strong> of <span class="math inline">\(p\)</span> in <span class="math inline">\(X\)</span> is the union of all <a href="https://bncling.github.io/math-wiki/connectedness/">connected</a> subsets of <span class="math inline">\(X\)</span> that contain <span class="math inline">\(p\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p><a href="\work.pdf#page=82">Theorem 7.48:</a> The quotient topology on <span class="math inline">\(Y\)</span> with respect to a surjection <span class="math inline">\(f: X \to Y\)</span> is the <a href="https://bncling.github.io/math-wiki/fine_coarse/">finest</a> topology on <span class="math inline">\(Y\)</span> such that the map <span class="math inline">\(f\)</span> is <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a>.</p>
-<p><a href="\work.pdf#page=83">Theorems 7.49 and 7.50:</a> If <span class="math inline">\(f: X \to Y\)</span> is a continuous surjection between topological spaces <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>, <span class="math inline">\(f\)</span> being an <a href="https://bncling.github.io/math-wiki/open_functions/">open map</a> implies that <span class="math inline">\(f\)</span> is a quotient map, and <span class="math inline">\(f\)</span> being a <a href="https://bncling.github.io/math-wiki/closed_functions/">closed map</a> implies that <span class="math inline">\(f\)</span> is a quotient map.</p>
-<p><a href="\work.pdf#page=84">Theorem 7.53:</a> If <span class="math inline">\(f: X \to Y\)</span> is a quotient map, then a map <span class="math inline">\(g: Y \to Z\)</span> out of the quotient space <span class="math inline">\(Y\)</span> is continuous if and only of <span class="math inline">\(g \circ f: X \to Z\)</span> is continuous.</p>
-<h2 id="examples">Examples</h2>
-<p><a href="https://bncling.github.io/math-wiki/identification_spaces/">Identification maps</a> are quotient maps, as are <a href="https://bncling.github.io/math-wiki/cartesian/">projection maps</a>.</p>
+<p><a href="\work.pdf#page=99">Theorem 8.18:</a> Given a space <span class="math inline">\(X\)</span>, every component in <span class="math inline">\(X\)</span> is connected, <a href="https://bncling.github.io/math-wiki/closed_sets/">closed</a>, and not contained in any strictly larger connected set.</p>
+<p><a href="\work.pdf#page=100">Theorem 8.19:</a> Given a space <span class="math inline">\(X\)</span>, the set of components of <span class="math inline">\(X\)</span> is a <a href="https://bncling.github.io/math-wiki/set_partitions/">partition</a> of <span class="math inline">\(X\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
