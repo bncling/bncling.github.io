@@ -6,7 +6,17 @@
     <description>Recent content in miscmath on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/miscmath/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Metrics on a set</title>
+      <link>https://bncling.github.io/math-wiki/metrics/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/metrics/</guid>
+      <description>Definition A metric on a set \(X\) is a function \(d: X \times X \to \R_\geq\) (the nonnegative real numbers) such that for all \(a,b,c \in M\), we have the following three properties:
+positive definiteness: \(d(a,b) \geq 0\) and equality holds if and only if \(a = b\); symmetry: \(d(a,b) = d(b,a)\); the triangle inequality: \(d(a,c) \leq d(a,b) + d(b,c)\).  Properties Theorem 9.3: If \(d\) is a metric on \(X\), then the collection \(\B\) of sets of the form \(B(p,\varepsilon) = \{x \in X \mid d(p,x) &amp;lt; \varepsilon\}\) for \(p \in X\) and \(\varepsilon &amp;gt; 0\) forms a basis for a topology on \(X\).</description>
+    </item>
+    
     <item>
       <title>DeMorgan&#39;s laws</title>
       <link>https://bncling.github.io/math-wiki/demorgan/</link>
