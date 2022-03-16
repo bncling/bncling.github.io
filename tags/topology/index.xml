@@ -19,6 +19,16 @@ Theorem 8.19: Given a space \(X\), the set of components of \(X\) is a partition
     </item>
     
     <item>
+      <title>Continuity</title>
+      <link>https://bncling.github.io/math-wiki/continuity/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
+      <description>Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
+    </item>
+    
+    <item>
       <title>Identification spaces</title>
       <link>https://bncling.github.io/math-wiki/identification_spaces/</link>
       <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
@@ -36,6 +46,16 @@ The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a 
       <guid>https://bncling.github.io/math-wiki/metric_spaces/</guid>
       <description>Definition A topological space \((X,\T)\) is written as \((X,d)\) and called a metric space if and only if there exists a metric \(d\) on \(X\) such that the \(d\)-metric topology is \(\T\). In this case, \((X, \T)\) is also called metrizable.
 Properties Theorem 9.7: If \((X,\T)\) is a metric space and \(Y\) is a subset of \(X\), then \((Y,\T_Y)\) is a metric space (where \(\T_Y\) is the subspace topology inherited from \(\T\)).</description>
+    </item>
+    
+    <item>
+      <title>Normal spaces</title>
+      <link>https://bncling.github.io/math-wiki/normal/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/normal/</guid>
+      <description>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
+Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\).</description>
     </item>
     
     <item>
@@ -60,16 +80,6 @@ Properties Theorem 8.1 A space \(X\) being connected is equivalent to the follow
     </item>
     
     <item>
-      <title>Continuity</title>
-      <link>https://bncling.github.io/math-wiki/continuity/</link>
-      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/continuity/</guid>
-      <description>Continuous functions can be drawn without picking up your pencil…?
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &amp;gt; 0\), there exists a \(\delta &amp;gt; 0\) such that \(\vert x - c \vert &amp;lt; \delta\) implies \(\vert f(x) - f(c) \vert &amp;lt; \varepsilon\).</description>
-    </item>
-    
-    <item>
       <title>Cone over a topological space </title>
       <link>https://bncling.github.io/math-wiki/top_cones/</link>
       <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
@@ -77,16 +87,6 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
       <guid>https://bncling.github.io/math-wiki/top_cones/</guid>
       <description>Definition Let \((X, \T)\) be a topological space. Then the cone over \(X\) is the identification space \(X^*\) of the product \(X \times [0,1]\) where \[X^* = \{\{(x,t)\} \mid x \in X, t \in (0,1]\} \cup \{\{(x,0) \mid x \in X\}\}.\]
 Examples If \(X\) is a compact subset of \(\R^n\) with the standard topology, then the cone over \(X\) is homeomorphic to the space \(C\) constructed in the following way: view \(\R^n\) as a subset of \(\R^{n+1}\), let \(x_0 \in \R^{n+1} - \R^n\), and define \(C\) to be the union of all line segments from \(x_0\) to points \(x \in X\).</description>
-    </item>
-    
-    <item>
-      <title>Normal spaces</title>
-      <link>https://bncling.github.io/math-wiki/normal/</link>
-      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/normal/</guid>
-      <description>Definition Let \((X, \T)\) be a topological space. It is normal if and only if for every pair of disjoint, closed sets \(A\) and \(B\), there are disjoint open sets \(U\) and \(V\) such that \(A \subset U\) and \(B \subset V\).
-Properties Theorem 4.9: A space \((X, \T)\) is normal if and only if for every closed set \(A \subset X\) and open set \(U\) containing \(A\), there exists an open set \(V\) such that \(A \subset V\) and \(\overline{V} \subset U\).</description>
     </item>
     
     <item>
