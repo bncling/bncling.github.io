@@ -19,6 +19,16 @@ Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alph
     </item>
     
     <item>
+      <title>Completely regular spaces</title>
+      <link>https://bncling.github.io/math-wiki/completely_regular/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/completely_regular/</guid>
+      <description>Definition A topological space \((X,\T)\) is completely regular if and only if for each \(p \in X\) and closed set \(A \subset X\) with \(p \notin A\), there exists a continuous function \(f: X \to [0,1]\) such that \(f(p) = 0\) and \(f(x) = 1\) for all \(x \in A\).
+Properties Scholium 7.70: A space \(X\) is completely regular and \(T_1\) if and only if it can be embedded in the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\).</description>
+    </item>
+    
+    <item>
       <title>Connected components</title>
       <link>https://bncling.github.io/math-wiki/connected_components/</link>
       <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>

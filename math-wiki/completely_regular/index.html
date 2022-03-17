@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Embeddings - Ben Clingenpeel</title>
+    <title>Completely regular spaces - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is an embedding if and only if the function \(f: X \to f(X)\) is a homeomorphism where \(f(X)\) has the relative topology from \(Y\).
-Properties Corollary 7.31: Let \(X\) be compact and \(Y\) be Hausdorff. Then if \(f: X \to Y\) is an injective and continuous map, it is an embedding.
-Examples Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\).">
+    <meta name="description" content="Definition A topological space \((X,\T)\) is completely regular if and only if for each \(p \in X\) and closed set \(A \subset X\) with \(p \notin A\), there exists a continuous function \(f: X \to [0,1]\) such that \(f(p) = 0\) and \(f(x) = 1\) for all \(x \in A\).
+Properties Scholium 7.70: A space \(X\) is completely regular and \(T_1\) if and only if it can be embedded in the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -124,16 +123,13 @@ if (!doNotTrack) {
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Embeddings</h1>
+    <h1 class="post-title">Completely regular spaces</h1>
     <div class="post-meta">March 16, 2022</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
-<p>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be <a href="https://bncling.github.io/math-wiki/topology_def/">topological spaces</a>. A <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: X \to Y\)</span> is an <strong>embedding</strong> if and only if the function <span class="math inline">\(f: X \to f(X)\)</span> is a <a href="https://bncling.github.io/math-wiki/homeomorphisms/">homeomorphism</a> where <span class="math inline">\(f(X)\)</span> has the <a href="https://bncling.github.io/math-wiki/top_subspaces/">relative topology</a> from <span class="math inline">\(Y\)</span>.</p>
+<p>A <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> <span class="math inline">\((X,\T)\)</span> is <strong>completely regular</strong> if and only if for each <span class="math inline">\(p \in X\)</span> and <a href="https://bncling.github.io/math-wiki/closed_sets/">closed set</a> <span class="math inline">\(A \subset X\)</span> with <span class="math inline">\(p \notin A\)</span>, there exists a <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: X \to [0,1]\)</span> such that <span class="math inline">\(f(p) = 0\)</span> and <span class="math inline">\(f(x) = 1\)</span> for all <span class="math inline">\(x \in A\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p><a href="\work.pdf#page=75">Corollary 7.31:</a> Let <span class="math inline">\(X\)</span> be <a href="https://bncling.github.io/math-wiki/compactness/">compact</a> and <span class="math inline">\(Y\)</span> be <a href="https://bncling.github.io/math-wiki/hausdorff/">Hausdorff</a>. Then if <span class="math inline">\(f: X \to Y\)</span> is an <a href="https://bncling.github.io/math-wiki/inj_surj_bij/">injective</a> and <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> map, it is an embedding.</p>
-<h2 id="examples">Examples</h2>
-<p><a href="\work.pdf#page=96">Theorem 7.69:</a> All <a href="https://bncling.github.io/math-wiki/t4/"><span class="math inline">\(T_4\)</span> spaces</a> can be embedded into the <a href="https://bncling.github.io/math-wiki/product_topology/">product</a> <span class="math inline">\(\prod_{\alpha \in \lambda} [0,1]_\alpha\)</span> where the copies of <span class="math inline">\([0,1]\)</span> have the <a href="https://bncling.github.io/math-wiki/top_subspaces/">subspace topology</a> inherited from <a href="https://bncling.github.io/math-wiki/standard_topology/"><span class="math inline">\(\Rs\)</span></a>.</p>
-<p><a href="\work.pdf#page=97">Scholium 7.70:</a> A space <span class="math inline">\(X\)</span> can be embedded in the product <span class="math inline">\(\prod_{\alpha \in \lambda} [0,1]_\alpha\)</span> where the copies of <span class="math inline">\([0,1]\)</span> have the standard topology inherited from <span class="math inline">\(\Rs\)</span> if and only if <span class="math inline">\(X\)</span> is <a href="https://bncling.github.io/math-wiki/completely_regular/">completely regular</a> and <a href="https://bncling.github.io/math-wiki/t1/"><span class="math inline">\(T_1\)</span></a>.</p>
+<p><a href="\work.pdf#page=97">Scholium 7.70:</a> A space <span class="math inline">\(X\)</span> is completely regular and <a href="https://bncling.github.io/math-wiki/t1/"><span class="math inline">\(T_1\)</span></a> if and only if it can be <a href="https://bncling.github.io/math-wiki/top_embeddings/">embedded</a> in the <a href="https://bncling.github.io/math-wiki/product_topology/">product</a> <span class="math inline">\(\prod_{\alpha \in \lambda} [0,1]_\alpha\)</span> where the copies of <span class="math inline">\([0,1]\)</span> have the <a href="https://bncling.github.io/math-wiki/top_subspaces/">subspace topology</a> inherited from <a href="https://bncling.github.io/math-wiki/standard_topology/"><span class="math inline">\(\Rs\)</span></a>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
