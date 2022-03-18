@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Connected components</title>
+      <link>https://bncling.github.io/math-wiki/connected_components/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/connected_components/</guid>
+      <description>Definition Let \(p\) be a point in a topological space \((X, \T)\). The component of \(p\) in \(X\) is the union of all connected subsets of \(X\) that contain \(p\).
+Properties Theorem 8.18: Given a space \(X\), every component in \(X\) is connected, closed, and not contained in any strictly larger connected set.
+Theorem 8.19: Given a space \(X\), the set of components of \(X\) is a partition of \(X\).</description>
+    </item>
+    
+    <item>
       <title>$T_4$ spaces</title>
       <link>https://bncling.github.io/math-wiki/t4/</link>
       <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
@@ -26,17 +37,6 @@ Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alph
       <guid>https://bncling.github.io/math-wiki/completely_regular/</guid>
       <description>Definition A topological space \((X,\T)\) is completely regular if and only if for each \(p \in X\) and closed set \(A \subset X\) with \(p \notin A\), there exists a continuous function \(f: X \to [0,1]\) such that \(f(p) = 0\) and \(f(x) = 1\) for all \(x \in A\).
 Properties Scholium 7.70: A space \(X\) is completely regular and \(T_1\) if and only if it can be embedded in the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\).</description>
-    </item>
-    
-    <item>
-      <title>Connected components</title>
-      <link>https://bncling.github.io/math-wiki/connected_components/</link>
-      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/connected_components/</guid>
-      <description>Definition Let \(p\) be a point in a topological space \((X, \T)\). The component of \(p\) in \(X\) is the union of all connected subsets of \(X\) that contain \(p\).
-Properties Theorem 8.18: Given a space \(X\), every component in \(X\) is connected, closed, and not contained in any strictly larger connected set.
-Theorem 8.19: Given a space \(X\), the set of components of \(X\) is a partition of \(X\).</description>
     </item>
     
     <item>
