@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>The topologist&#39;s sine curve - Ben Clingenpeel</title>
+    <title>Path connectedness - Ben Clingenpeel</title>
     
-    <meta name="description" content="A set in the standard topology on \(\mathbb{R}^2\).
-Definition In \((\mathbb{R}^2, \mathcal{T}_\text{std})\), the topologist’s sine curve is the set \[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]
-Properties Every point in the set \(\{(0,y) \mid -1 \leq y \leq 1 \}\) is a limit point of the topologist’s sine curve.
-Since none of the above points are in \(S\), \(S\) is not closed.">
+    <meta name="description" content="Definitions Let \((X,\T)\) be a topological space. A path from \(x\) to \(y\) for points \(x,y \in X\) is a continuous function \(f: [0,1] \to X\) such that \(f(0) = x\) and \(f(1) = y\).
+A space \(X\) is path connected if and only if for all \(p,q \in X\) there exists a path from \(p\) to \(q\).
+Properties Theorem 8.35: All path connected spaces are connected.
+Theorem 8.38: The product of path connected spaces with the product topology is path connected.">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -125,16 +125,17 @@ if (!doNotTrack) {
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">The topologist&#39;s sine curve</h1>
+    <h1 class="post-title">Path connectedness</h1>
     <div class="post-meta">March 19, 2022</div>
   </header>
-  <div class="post-content"><p>A set in the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a> on <span class="math inline">\(\mathbb{R}^2\)</span>.</p>
-<h2 id="definition">Definition</h2>
-<p>In <span class="math inline">\((\mathbb{R}^2, \mathcal{T}_\text{std})\)</span>, the <strong>topologist’s sine curve</strong> is the set <span class="math display">\[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]</span></p>
+  <div class="post-content"><h2 id="definitions">Definitions</h2>
+<p>Let <span class="math inline">\((X,\T)\)</span> be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a>. A <strong>path</strong> from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span> for points <span class="math inline">\(x,y \in X\)</span> is a <a href="https://bncling.github.io/math-wiki/continuity/">continuous</a> <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f: [0,1] \to X\)</span> such that <span class="math inline">\(f(0) = x\)</span> and <span class="math inline">\(f(1) = y\)</span>.</p>
+<p>A space <span class="math inline">\(X\)</span> is <strong>path connected</strong> if and only if for all <span class="math inline">\(p,q \in X\)</span> there exists a path from <span class="math inline">\(p\)</span> to <span class="math inline">\(q\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p>Every point in the set <span class="math inline">\(\{(0,y) \mid -1 \leq y \leq 1 \}\)</span> is a <a href="https://bncling.github.io/math-wiki/limit_points/">limit point</a> of the topologist’s sine curve.</p>
-<p>Since none of the above points are in <span class="math inline">\(S\)</span>, <span class="math inline">\(S\)</span> is not <a href="https://bncling.github.io/math-wiki/closed_sets/">closed</a>. It is also not <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> in this <a href="https://bncling.github.io/math-wiki/topology_def/">topology</a> since it is not the union of the open balls that form the <a href="https://bncling.github.io/math-wiki/top_basis/">basis</a> of the topology.</p>
-<p>Its <a href="https://bncling.github.io/math-wiki/closure/">closure</a> in <span class="math inline">\((\mathbb{R}^2, \mathcal{T}_\text{std})\)</span> is <span class="math inline">\(S \cup \{(0,y) \mid -1 \leq y \leq 1 \}\)</span>, which is <a href="https://bncling.github.io/math-wiki/connectedness/">connected</a> but not <a href="https://bncling.github.io/math-wiki/path_connectedness/">path connected</a>.</p>
+<p><a href="\work.pdf#page=114">Theorem 8.35:</a> All path connected spaces are <a href="https://bncling.github.io/math-wiki/connectedness/">connected</a>.</p>
+<p><a href="\work.pdf#page=115">Theorem 8.38:</a> The <a href="https://bncling.github.io/math-wiki/cartesian/">product</a> of path connected spaces with the <a href="https://bncling.github.io/math-wiki/product_topology/">product topology</a> is path connected.</p>
+<h2 id="examples">Examples</h2>
+<p>The <a href="https://bncling.github.io/math-wiki/closure/">closure</a> of the <a href="https://bncling.github.io/math-wiki/top_sine/">topologist’s sine curve</a> is connected but not path connected.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
