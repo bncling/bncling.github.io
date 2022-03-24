@@ -6,12 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>The topologist&#39;s sine curve - Ben Clingenpeel</title>
+    <title>Path components - Ben Clingenpeel</title>
     
-    <meta name="description" content="A set in the standard topology on \(\mathbb{R}^2\).
-Definition In \((\mathbb{R}^2, \mathcal{T}_\text{std})\), the topologist’s sine curve is the set \[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]
-Properties Every point in the set \(\{(0,y) \mid -1 \leq y \leq 1 \}\) is a limit point of the topologist’s sine curve.
-Since none of the above points are in \(S\), \(S\) is not closed.">
+    <meta name="description" content="Definition Let \((X,\T)\) be a topological space with an equivalence relation \(\sim\) on \(X\) such that \(x \sim y\) if and only if there is a path connected subset of \(X\) that contains both \(x\) and \(y\).
+Examples The path components of the closure of the topologist’s sine curve are the sine curve itself and the set \(\{(0,y) \mid y \in [-1,1]\}\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -125,16 +123,13 @@ if (!doNotTrack) {
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">The topologist&#39;s sine curve</h1>
+    <h1 class="post-title">Path components</h1>
     <div class="post-meta">March 23, 2022</div>
   </header>
-  <div class="post-content"><p>A set in the <a href="https://bncling.github.io/math-wiki/standard_topology/">standard topology</a> on <span class="math inline">\(\mathbb{R}^2\)</span>.</p>
-<h2 id="definition">Definition</h2>
-<p>In <span class="math inline">\((\mathbb{R}^2, \mathcal{T}_\text{std})\)</span>, the <strong>topologist’s sine curve</strong> is the set <span class="math display">\[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]</span></p>
-<h2 id="properties">Properties</h2>
-<p>Every point in the set <span class="math inline">\(\{(0,y) \mid -1 \leq y \leq 1 \}\)</span> is a <a href="https://bncling.github.io/math-wiki/limit_points/">limit point</a> of the topologist’s sine curve.</p>
-<p>Since none of the above points are in <span class="math inline">\(S\)</span>, <span class="math inline">\(S\)</span> is not <a href="https://bncling.github.io/math-wiki/closed_sets/">closed</a>. It is also not <a href="https://bncling.github.io/math-wiki/open_sets/">open</a> in this <a href="https://bncling.github.io/math-wiki/topology_def/">topology</a> since it is not the union of the open balls that form the <a href="https://bncling.github.io/math-wiki/top_basis/">basis</a> of the topology.</p>
-<p>Its <a href="https://bncling.github.io/math-wiki/closure/">closure</a> in <span class="math inline">\((\mathbb{R}^2, \mathcal{T}_\text{std})\)</span> is <span class="math inline">\(S \cup Y\)</span> where <span class="math inline">\(Y = \{(0,y) \mid -1 \leq y \leq 1 \}\)</span>. This closure is <a href="https://bncling.github.io/math-wiki/connectedness/">connected</a> but not <a href="https://bncling.github.io/math-wiki/path_connectedness/">path connected</a> (it has two <a href="https://bncling.github.io/math-wiki/path_components/">path components</a>, <span class="math inline">\(S\)</span> and <span class="math inline">\(Y\)</span>).</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\((X,\T)\)</span> be a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> with an <a href="https://bncling.github.io/math-wiki/equiv_rels/">equivalence relation</a> <span class="math inline">\(\sim\)</span> on <span class="math inline">\(X\)</span> such that <span class="math inline">\(x \sim y\)</span> if and only if there is a <a href="https://bncling.github.io/math-wiki/path_connectedness/">path connected</a> subset of <span class="math inline">\(X\)</span> that contains both <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>.</p>
+<h2 id="examples">Examples</h2>
+<p>The path components of the <a href="https://bncling.github.io/math-wiki/closure/">closure</a> of the <a href="https://bncling.github.io/math-wiki/top_sine/">topologist’s sine curve</a> are the sine curve itself and the set <span class="math inline">\(\{(0,y) \mid y \in [-1,1]\}\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">

@@ -130,6 +130,63 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Countably compact spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
+Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.
+Theorem 6.26: If \(X\) is a \(T_1\) space, \(X\) is countably compact if and only if all infinite subsets of \(X\) have limit points....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/countably_compact/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Identification spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((X, \T)\) be a topological space and let \(X^*\) be a partition of \(X\). The identification map \(f: X \to X^*\) is the surjective map that takes each point of \(X\) to the part of the partition \(X^*\) containing it.
+The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a topology defined as follows: a set \(U \subset X^*\) is open in \(X^*\) if and only if the preimage \(f\inv(U)\) is open in \(X\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/identification_spaces/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Lindelöf spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
+Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.
+Theorem 6.27: All uncountable sets in a Lindelöf space have limit points.
+Theorem 6.29: If \(A\) is a closed subset of a Lindelöf space \(X\), \(A\) is Lindelöf....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lindel%C3%B6f/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Path components</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X,\T)\) be a topological space with an equivalence relation \(\sim\) on \(X\) such that \(x \sim y\) if and only if there is a path connected subset of \(X\) that contains both \(x\) and \(y\).
+Examples The path components of the closure of the topologist’s sine curve are the sine curve itself and the set \(\{(0,y) \mid y \in [-1,1]\}\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/path_components/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Path connectedness</h2>
   </header>
   <section class="entry-content">
@@ -139,9 +196,39 @@ Properties Theorem 8.35: All path connected spaces are connected.
 Theorem 8.38: The product of path connected spaces with the product topology is path connected....</p>
   </section>
   <footer class="entry-footer">
-    <time>March 19, 2022</time>
+    <time>March 23, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/path_connectedness/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Second countable spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A topological space \((X, \T)\) is called 2nd countable if and only if it has a countable basis.
+Properties Theorem 5.9: All 2nd countable spaces are separable.
+Theorem 5.11: All uncountable sets in a 2nd countable space have a limit point.
+Exercise 5.12: Every 2nd countable space is hereditarily 2nd countable .
+Exercise 5.13: If \(X\) and \(Y\) are 2nd countable spaces, then \(X \times Y\) is 2nd countable under the product topology....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/second_countable/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The standard topology</h2>
+  </header>
+  <section class="entry-content">
+   <p>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
+Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
+An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &lt; \varepsilon\}\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/standard_topology/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -154,7 +241,7 @@ Properties Every point in the set \(\{(0,y) \mid -1 \leq y \leq 1 \}\) is a limi
 Since none of the above points are in \(S\), \(S\) is not closed....</p>
   </section>
   <footer class="entry-footer">
-    <time>March 19, 2022</time>
+    <time>March 23, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/top_sine/"></a>
 </article>
@@ -185,85 +272,6 @@ Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alph
     <time>March 16, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/t4/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Completely regular spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A topological space \((X,\T)\) is completely regular if and only if for each \(p \in X\) and closed set \(A \subset X\) with \(p \notin A\), there exists a continuous function \(f: X \to [0,1]\) such that \(f(p) = 0\) and \(f(x) = 1\) for all \(x \in A\).
-Properties Scholium 7.70: A space \(X\) is completely regular and \(T_1\) if and only if it can be embedded in the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/completely_regular/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Continuity</h2>
-  </header>
-  <section class="entry-content">
-   <p>Continuous functions can be drawn without picking up your pencil…?
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(\vert x - c \vert &lt; \delta\) implies \(\vert f(x) - f(c) \vert &lt; \varepsilon\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/continuity/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Embeddings</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is an embedding if and only if the function \(f: X \to f(X)\) is a homeomorphism where \(f(X)\) has the relative topology from \(Y\).
-Properties Corollary 7.31: Let \(X\) be compact and \(Y\) be Hausdorff. Then if \(f: X \to Y\) is an injective and continuous map, it is an embedding.
-Examples Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_embeddings/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Identification spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((X, \T)\) be a topological space and let \(X^*\) be a partition of \(X\). The identification map \(f: X \to X^*\) is the surjective map that takes each point of \(X\) to the part of the partition \(X^*\) containing it.
-The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a topology defined as follows: a set \(U \subset X^*\) is open in \(X^*\) if and only if the preimage \(f\inv(U)\) is open in \(X\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/identification_spaces/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Metric spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A topological space \((X,\T)\) is written as \((X,d)\) and called a metric space if and only if there exists a metric \(d\) on \(X\) such that the \(d\)-metric topology is \(\T\). In this case, \((X, \T)\) is also called metrizable.
-Properties Theorem 9.7: If \((X,\T)\) is a metric space and \(Y\) is a subset of \(X\), then \((Y,\T_Y)\) is a metric space (where \(\T_Y\) is the subspace topology inherited from \(\T\))....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/metric_spaces/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Metrics on a set</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A metric on a set \(X\) is a function \(d: X \times X \to \R_\geq\) (the nonnegative real numbers) such that for all \(a,b,c \in M\), we have the following three properties:
-positive definiteness: \(d(a,b) \geq 0\) and equality holds if and only if \(a = b\); symmetry: \(d(a,b) = d(b,a)\); the triangle inequality: \(d(a,c) \leq d(a,b) &#43; d(b,c)\).  Properties Theorem 9.3: If \(d\) is a metric on \(X\), then the collection \(\B\) of sets of the form \(B(p,\varepsilon) = \{x \in X \mid d(p,x) &lt; \varepsilon\}\) for \(p \in X\) and \(\varepsilon &gt; 0\) forms a basis for a topology on \(X\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/metrics/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

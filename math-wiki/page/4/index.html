@@ -130,6 +130,46 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Closed functions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called closed if and only for every closed set \(A \subset X\), the image \(f(A)\) is closed in \(Y\).
+Properties Theorem 7.21: If \(X\) is normal and \(f: X \to Y\) is continuous, surjective, and closed, then \(Y\) is normal....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 1, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/closed_functions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Open functions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A function \(f: X \to Y\) for topological spaces \(X\) and \(Y\) is called open if and only for every open set \(U \subset X\), the image \(f(U)\) is open in \(Y\).
+Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\) and \(f: X \to Y\) is continuous, surjective, and open, then \(Y\) has a basis \(\{f(B_\alpha)\}_{\alpha \in \lambda}\). This also means that if \(X\) is 2st countable, then so is \(Y\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 1, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_functions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>$T_1$ spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X, \T)\) be a topological space. It is a \(T_1\)-space if and only if for every pair of distinct points \(x\) and \(y\), there exist open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\) but \(x \notin V\) and \(y \notin U\).
+Properties Theorem 4.1: A space \((X, \T)\) is \(T_1\) if and only if singletons are closed.
+Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is also \(T_1\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 31, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/t1/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Compactness</h2>
   </header>
   <section class="entry-content">
@@ -183,22 +223,6 @@ Theorem 5.19: Every 1st countable space is hereditarily 1st countable....</p>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Second countable spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A topological space \((X, \T)\) is called 2nd countable if and only if it has a countable basis.
-Properties Theorem 5.9: All 2nd countable spaces are separable.
-Theorem 5.11: All uncountable sets in a 2nd countable space have a limit point.
-Exercise 5.12: Every 2nd countable space is hereditarily 2nd countable .
-Exercise 5.13: If \(X\) and \(Y\) are 2nd countable spaces, then \(X \times Y\) is 2nd countable under the product topology....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 15, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/second_countable/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
     <h2>Arithmetic progression topology</h2>
   </header>
   <section class="entry-content">
@@ -239,36 +263,6 @@ For a finite set, the finite complement topology is just the discrete topology..
     <time>January 9, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/finite_complement_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Indiscrete topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>The coarsest possible topology on a set \(X\).
-Definition Let \(X\) be a set. The indiscrete topology is \(\mathcal{T} = \{\emptyset, X\}\). The topological space \((X, \{\emptyset, X\})\) is called an indiscrete space.
-Properties By definition, the only sets in the indiscrete topology that are open are \(X\) and \(\emptyset\), and these are also the only closed sets.
-Separation Properties  Not a \(T_1\)-space Not Hausdorff Regular but not a \(T_3\)-space Normal but not a \(T_4\)-space  The indiscrete topology is regular and normal vacuously....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 9, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/indiscrete_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>K-topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Denoted \(\Rh\) in the textbook I’ve been using, the K-topology is a topology on \(\mathbb{R}\).
-Definition Let \(K = \{1/n\}_{n \in \mathbb{N}}\) be the harmonic sequence. The K-topology on \(\mathbb{R}\) is generated by the basis containing sets of the form \((a,b)\) and sets of the form \((a,b) - K\) where \(a, b \in \mathbb{R}\) with \(a &lt; b\).
-Properties \(\Rh\) is finer than the standard topology.
-Separation properties  \(T_1\)-space Hausdorff Not regular or \(T_3\) (can’t separate \(0\) and \(K\)) Not normal or \(T_4\)  Countability Properties  Separable 2nd countable 1st countable  ...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 9, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/k_topology/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

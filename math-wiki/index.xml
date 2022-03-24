@@ -8,9 +8,54 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Countably compact spaces</title>
+      <link>https://bncling.github.io/math-wiki/countably_compact/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/countably_compact/</guid>
+      <description>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
+Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.
+Theorem 6.26: If \(X\) is a \(T_1\) space, \(X\) is countably compact if and only if all infinite subsets of \(X\) have limit points.</description>
+    </item>
+    
+    <item>
+      <title>Identification spaces</title>
+      <link>https://bncling.github.io/math-wiki/identification_spaces/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/identification_spaces/</guid>
+      <description>Definitions Let \((X, \T)\) be a topological space and let \(X^*\) be a partition of \(X\). The identification map \(f: X \to X^*\) is the surjective map that takes each point of \(X\) to the part of the partition \(X^*\) containing it.
+The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a topology defined as follows: a set \(U \subset X^*\) is open in \(X^*\) if and only if the preimage \(f\inv(U)\) is open in \(X\).</description>
+    </item>
+    
+    <item>
+      <title>Lindelöf spaces</title>
+      <link>https://bncling.github.io/math-wiki/lindel%C3%B6f/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/lindel%C3%B6f/</guid>
+      <description>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
+Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.
+Theorem 6.27: All uncountable sets in a Lindelöf space have limit points.
+Theorem 6.29: If \(A\) is a closed subset of a Lindelöf space \(X\), \(A\) is Lindelöf.</description>
+    </item>
+    
+    <item>
+      <title>Path components</title>
+      <link>https://bncling.github.io/math-wiki/path_components/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/path_components/</guid>
+      <description>Definition Let \((X,\T)\) be a topological space with an equivalence relation \(\sim\) on \(X\) such that \(x \sim y\) if and only if there is a path connected subset of \(X\) that contains both \(x\) and \(y\).
+Examples The path components of the closure of the topologist’s sine curve are the sine curve itself and the set \(\{(0,y) \mid y \in [-1,1]\}\).</description>
+    </item>
+    
+    <item>
       <title>Path connectedness</title>
       <link>https://bncling.github.io/math-wiki/path_connectedness/</link>
-      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/path_connectedness/</guid>
       <description>Definitions Let \((X,\T)\) be a topological space. A path from \(x\) to \(y\) for points \(x,y \in X\) is a continuous function \(f: [0,1] \to X\) such that \(f(0) = x\) and \(f(1) = y\).
@@ -20,9 +65,33 @@ Theorem 8.38: The product of path connected spaces with the product topology is 
     </item>
     
     <item>
+      <title>Second countable spaces</title>
+      <link>https://bncling.github.io/math-wiki/second_countable/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/second_countable/</guid>
+      <description>Definition A topological space \((X, \T)\) is called 2nd countable if and only if it has a countable basis.
+Properties Theorem 5.9: All 2nd countable spaces are separable.
+Theorem 5.11: All uncountable sets in a 2nd countable space have a limit point.
+Exercise 5.12: Every 2nd countable space is hereditarily 2nd countable .
+Exercise 5.13: If \(X\) and \(Y\) are 2nd countable spaces, then \(X \times Y\) is 2nd countable under the product topology.</description>
+    </item>
+    
+    <item>
+      <title>The standard topology</title>
+      <link>https://bncling.github.io/math-wiki/standard_topology/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/standard_topology/</guid>
+      <description>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
+Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
+An open ball of radius \(\varepsilon &amp;gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &amp;lt; \varepsilon\}\).</description>
+    </item>
+    
+    <item>
       <title>The topologist&#39;s sine curve</title>
       <link>https://bncling.github.io/math-wiki/top_sine/</link>
-      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/top_sine/</guid>
       <description>A set in the standard topology on \(\mathbb{R}^2\).
@@ -82,16 +151,6 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
       <description>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is an embedding if and only if the function \(f: X \to f(X)\) is a homeomorphism where \(f(X)\) has the relative topology from \(Y\).
 Properties Corollary 7.31: Let \(X\) be compact and \(Y\) be Hausdorff. Then if \(f: X \to Y\) is an injective and continuous map, it is an embedding.
 Examples Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\).</description>
-    </item>
-    
-    <item>
-      <title>Identification spaces</title>
-      <link>https://bncling.github.io/math-wiki/identification_spaces/</link>
-      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/identification_spaces/</guid>
-      <description>Definitions Let \((X, \T)\) be a topological space and let \(X^*\) be a partition of \(X\). The identification map \(f: X \to X^*\) is the surjective map that takes each point of \(X\) to the part of the partition \(X^*\) containing it.
-The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a topology defined as follows: a set \(U \subset X^*\) is open in \(X^*\) if and only if the preimage \(f\inv(U)\) is open in \(X\).</description>
     </item>
     
     <item>
@@ -304,30 +363,6 @@ Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is als
     </item>
     
     <item>
-      <title>Countably compact spaces</title>
-      <link>https://bncling.github.io/math-wiki/countably_compact/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/countably_compact/</guid>
-      <description>Similar to being compact, but weaker…
-Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
-Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.
-Theorem 6.26: If \(X\) is a \(T_1\) space, \(X\) is countably compact if and only if all infinite subsets of \(X\) have limit points.</description>
-    </item>
-    
-    <item>
-      <title>Lindelöf spaces</title>
-      <link>https://bncling.github.io/math-wiki/lindel%C3%B6f/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/lindel%C3%B6f/</guid>
-      <description>Similar to being compact, but weaker…
-Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
-Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.
-Theorem 6.27: All uncountable sets in a Lindelöf space have limit points.</description>
-    </item>
-    
-    <item>
       <title>Compactness</title>
       <link>https://bncling.github.io/math-wiki/compactness/</link>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
@@ -366,19 +401,6 @@ Theorem 5.19: Every 1st countable space is hereditarily 1st countable.</descript
       <guid>https://bncling.github.io/math-wiki/rings/</guid>
       <description>Definition A ring \((R, +, \cdot)\) is a set \(R\) together with binary operations \(+: R \times R \to R\) and \(\cdot: R \times R \to R\) such that
  \((R, +)\) is an abelian group (we denote the identity element by \(0\)); The operation \(\cdot\) is associative; The operation \(\cdot\) distributes over the operation \(+\), that is, for all \(a,b,c \in R\), \[\begin{align*} a(b + c) &amp;amp;= ab + ac \\ (a + b)c &amp;amp;= ac + bc.</description>
-    </item>
-    
-    <item>
-      <title>Second countable spaces</title>
-      <link>https://bncling.github.io/math-wiki/second_countable/</link>
-      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/second_countable/</guid>
-      <description>Definition A topological space \((X, \T)\) is called 2nd countable if and only if it has a countable basis.
-Properties Theorem 5.9: All 2nd countable spaces are separable.
-Theorem 5.11: All uncountable sets in a 2nd countable space have a limit point.
-Exercise 5.12: Every 2nd countable space is hereditarily 2nd countable .
-Exercise 5.13: If \(X\) and \(Y\) are 2nd countable spaces, then \(X \times Y\) is 2nd countable under the product topology.</description>
     </item>
     
     <item>
@@ -470,17 +492,6 @@ Properties Separation properties  \(T_1\)-space Not Hausdorff (can’t separate 
       <description>It’s like \(\R\) but finer and… worse. It’s a topological space also known as the lower limit topology on \(\R\), sometimes denoted \(\RLL\) or \(\mathbb{R}_{\text{bad}}^1\).
 Definition The Sorgenfrey Line is the topological space on \(\mathbb{R}\) generated by the basis of sets of the form \([a, b) = \{x \in \mathbb{R} \mid a \leq x &amp;lt; b\}\) for \(a, b \in \mathbb{R}\).
 Properties Separation properties  \(T_1\)-space Hausdorff Regular and a \(T_3\)-space Normal and a \(T_4\)-space  Countability Properties  Separable Not 2nd countable 1st countable  </description>
-    </item>
-    
-    <item>
-      <title>The standard topology</title>
-      <link>https://bncling.github.io/math-wiki/standard_topology/</link>
-      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/standard_topology/</guid>
-      <description>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
-Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
-An open ball of radius \(\varepsilon &amp;gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &amp;lt; \varepsilon\}\).</description>
     </item>
     
     <item>
