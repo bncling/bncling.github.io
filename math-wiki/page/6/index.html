@@ -130,6 +130,20 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Bell numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The \(n\)th Bell number, denoted \(B_n\) is the total number of ways of partitioning the set \([n]\).
+Properties The Bell numbers are given by the formula \[B_n = \sum_{k=0}^n \stirlingII{n}{k}\] where \(\stirlingII{n}{k}\) is the Stirling number of the second kind which counts the number of ways to partition \([n]\) into \(k\) nonempty parts.
+Theorem: For \(n \geq 1\), the bell numbers satisfy the recursion \[B_n = \sum_{k=0}^{n-1} \binom{n-1}{k} B_k.\]...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/bell_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Catalan numbers</h2>
   </header>
   <section class="entry-content">
@@ -247,19 +261,6 @@ Properties If \(p\) is a prime number, then \(\phi(p) = p-1\) because every natu
     <time>December 22, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/totient/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>External direct products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) and \((H, \circ)\) be groups. The external direct product of \(G\) and \(H\), is the set \(G \times H\), the cartesian product of \(G\) and \(H\) as sets, together with a group operation given by performing the group operations of \(G\) and \(H\) component-wise. That is, \((g_1,h_1) (g_2,h_2) = (g_1 \cdot g_2, h_1 \circ h_2)\) for elements \(g_1,g_2 \in G\) and \(h_1, h_2 \in H\).
-For an arbitrary collection of groups \(\{(G_\alpha, \circ_\alpha)\}_{\alpha \in \lambda}\), the external direct product is defined analogously as the set \(G = \prod_{\alpha \in \lambda} G_\alpha\) together with the group operation \(\circ\) defined so that if \(x,y \in G\), then the projections satisfy \(\pi_\beta (x \circ y) = \pi_\beta(x) \circ_\beta \pi_\beta(y)\) for all \(\beta \in \lambda\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_edp/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
