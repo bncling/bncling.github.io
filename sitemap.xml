@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bncling.github.io/tags/</loc>
-    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
+    <loc>https://bncling.github.io/tags/combinatorics/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bncling.github.io/math-wiki/top_comb/</loc>
-    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
+    <loc>https://bncling.github.io/tags/coming_soon/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/connected_sums/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/manifolds/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/open_sets/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/polygonal_presentations/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/tags/topology/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/triangulations/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/top_comb/</loc>
     <lastmod>2022-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/countably_compact/</loc>
@@ -177,12 +198,6 @@
     <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/cayley_thm/</loc>
-    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/combinatorics/</loc>
-    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/coming_soon/</loc>
     <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/completely_normal/</loc>
@@ -468,9 +483,6 @@
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/ivt/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/math-wiki/open_sets/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/real_exponents/</loc>

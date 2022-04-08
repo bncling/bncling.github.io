@@ -130,6 +130,60 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Intermediate Value Theorem (IVT)</h2>
+  </header>
+  <section class="entry-content">
+   <p>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
+Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &lt; L\) (\(f(a) &gt; L\)). Then there exists a \(\delta &gt; 0\) such that \(\vert x - a \vert &lt; \delta\) implies that \(f(x) &lt; L\) (\(f(x) &gt; L\))....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ivt/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Real number exponents</h2>
+  </header>
+  <section class="entry-content">
+   <p>If \(a&gt;0\) and \(r\) are real numbers, does \(a^r\) make sense? We need to extend exponentiation beyond repeated multiplication…
+\(n\)th roots Let \(n \in \N\) be a natural number and let \(a &gt; 0\). Then we define the \(n\)th root of \(a\), written \(a^{\frac{1}{n}}\) or \(\sqrt[n]{a}\) to be the unique positive real number whose \(n\)th power is \(a\).
+Proposition: Such a number \(\sqrt[n]{a}\) exists for all \(a&gt;0\) and \(n \in \N\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/real_exponents/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The boundedness theorem</h2>
+  </header>
+  <section class="entry-content">
+   <p>Theorem statement If \(f: [a,b] \to \R\) is a continuous function, then \(f\) is bounded.
+Lemmata Lemma 1: If \(f: \mathcal{D} \to \R\) is continuous at \(a \in \mathcal{D}\), then there exists a \(\delta &gt; 0\) such that \(f\) is bounded on \((a - \delta, a &#43; \delta)\).
+Proof 1: Let \(\varepsilon = 1\). By the continuity of \(f\) at \(a\), choose \(\delta &gt; 0\) such that \(\vert x - a \vert &lt; \delta\) implies \(\vert f(x) - f(a) \vert &lt; \varepsilon = 1\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/boundedness_thm/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Extreme Value Theorem (EVT)</h2>
+  </header>
+  <section class="entry-content">
+   <p>Theorem statement If \(f: [a,b] \to \R\) be a continuous function, then there exist \(c,d \in [a,b]\) such that \(f(c) \leq f(x) \leq f(d)\) for all \(x \in [a,b]\).
+Proof Suppose \(f: [a,b] \to \R\) be a continuous function. Then by the boundedness theorem, the set \(A = \{f(x) \mid x \in [a,b]\}\) is bounded and nonempty. By the completeness axiom, the set \(A\) has a supremum, say \(\sup A = M\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 12, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/evt/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Closures</h2>
   </header>
   <section class="entry-content">
@@ -203,54 +257,6 @@ An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or
     <time>July 8, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/natural_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Order relations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/orderings/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Rational numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/rational_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Real numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/real_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The completeness axiom</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/completeness_axiom/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -326,7 +332,10 @@ An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
-            "\\V":"\\mathbf{V}"
+            "\\V":"\\mathbf{V}",
+            "\\Tor":"\\mathbb{T}",
+            "\\Sp":"\\mathbb{S}",
+            "\\RP":"\\mathbb{R}\\text{P}"
           },
           
           throwOnError : false

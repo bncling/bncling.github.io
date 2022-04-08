@@ -8,6 +8,56 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 09:48:03 -0400</lastBuildDate><atom:link href="https://bncling.github.io/math-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Connected sums</title>
+      <link>https://bncling.github.io/math-wiki/connected_sums/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/connected_sums/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Manifolds</title>
+      <link>https://bncling.github.io/math-wiki/manifolds/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/manifolds/</guid>
+      <description>Definition A topological space is an \(n\)-manifold if an only if it is a separable, metrizable space in which every point has a neighborhood that is homeomorphic to an open ball in \(\R^n\) with the standard topology.
+Properties Because manifolds are metrizable, they are also 1st countable, Hausdorff, regular, and normal.
+Theorems 11.25-11.27: A space \(M\) is a compact, connected, triangulable 2-manifold if and only if \(M\) is homeomorphic to a polygonal presentation.</description>
+    </item>
+    
+    <item>
+      <title>Open sets</title>
+      <link>https://bncling.github.io/math-wiki/open_sets/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/open_sets/</guid>
+      <description>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
+If \(p\) is a point in \(X\) and \(U\) is an open set containing \(p\), then \(U\) is called a neighborhood of \(p\).
+Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\).</description>
+    </item>
+    
+    <item>
+      <title>Polygonal Presentations</title>
+      <link>https://bncling.github.io/math-wiki/polygonal_presentations/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/polygonal_presentations/</guid>
+      <description>Definition Viewing a polygon \(P\) in the plane \(\R^2\) as a topological space with the subspace topology allows us to construct a polygonal presentation as an identification space of \(P\) obtained by identifying the edges in pairs.
+A polygonal presentation can be specified by a word, which is a string of length \(2n\) made up of letters, each of which corresponds to a pair of edges identified. The word is formed by beginning at any edge and moving clockwise, with letters appearing alone if they are oriented clockwise and with superscripts \(-1\) if they are oriented counterclockwise.</description>
+    </item>
+    
+    <item>
+      <title>Triangulations</title>
+      <link>https://bncling.github.io/math-wiki/triangulations/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/triangulations/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
       <title>The topologist&#39;s comb</title>
       <link>https://bncling.github.io/math-wiki/top_comb/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
@@ -1548,16 +1598,6 @@ Properties Theorem 4.7: If a space \((X, \T)\) is \(T_5\), it is also completely
       <guid>https://bncling.github.io/math-wiki/ivt/</guid>
       <description>Theorem statement Let \(f: [a,b] \to \mathbb{R}\) be continuous and let \(L \in \mathbb{R}\) be a number strictly between \(f(a)\) and \(f(b)\). Then there exists a \(c \in (a,b)\) such that \(f(c) = L\).
 Lemma Let \(a, L \in \mathbb{R}\) and let \(f\) be a function that is continuous at \(a\) with \(f(a) &amp;lt; L\) (\(f(a) &amp;gt; L\)). Then there exists a \(\delta &amp;gt; 0\) such that \(\vert x - a \vert &amp;lt; \delta\) implies that \(f(x) &amp;lt; L\) (\(f(x) &amp;gt; L\)).</description>
-    </item>
-    
-    <item>
-      <title>Open sets</title>
-      <link>https://bncling.github.io/math-wiki/open_sets/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/open_sets/</guid>
-      <description>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
-Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open.</description>
     </item>
     
     <item>

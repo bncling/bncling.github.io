@@ -6,7 +6,47 @@
     <description>Recent content in topology on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connected sums</title>
+      <link>https://bncling.github.io/math-wiki/connected_sums/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/connected_sums/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Manifolds</title>
+      <link>https://bncling.github.io/math-wiki/manifolds/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/manifolds/</guid>
+      <description>Definition A topological space is an \(n\)-manifold if an only if it is a separable, metrizable space in which every point has a neighborhood that is homeomorphic to an open ball in \(\R^n\) with the standard topology.
+Properties Because manifolds are metrizable, they are also 1st countable, Hausdorff, regular, and normal.
+Theorems 11.25-11.27: A space \(M\) is a compact, connected, triangulable 2-manifold if and only if \(M\) is homeomorphic to a polygonal presentation.</description>
+    </item>
+    
+    <item>
+      <title>Open sets</title>
+      <link>https://bncling.github.io/math-wiki/open_sets/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/open_sets/</guid>
+      <description>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
+If \(p\) is a point in \(X\) and \(U\) is an open set containing \(p\), then \(U\) is called a neighborhood of \(p\).
+Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\).</description>
+    </item>
+    
+    <item>
+      <title>Triangulations</title>
+      <link>https://bncling.github.io/math-wiki/triangulations/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/triangulations/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
     <item>
       <title>The topologist&#39;s comb</title>
       <link>https://bncling.github.io/math-wiki/top_comb/</link>
@@ -602,16 +642,6 @@ In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \math
       <guid>https://bncling.github.io/math-wiki/t5/</guid>
       <description>Definition Let \((X, \T)\) be a topological space. It is \(T_5\) if and only if it is both \(T_1\) and completely normal.
 Properties Theorem 4.7: If a space \((X, \T)\) is \(T_5\), it is also completely normal by definition, normal since disjoint closed sets are separated, \(T_3\), regular, Hausdorff, and \(T_1\).</description>
-    </item>
-    
-    <item>
-      <title>Open sets</title>
-      <link>https://bncling.github.io/math-wiki/open_sets/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/open_sets/</guid>
-      <description>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
-Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\). If \(\{U_\alpha\}_{\alpha \in \lambda}\) is a collection of open sets, then \(\bigcup_{\alpha \in \lambda} A_\alpha\) is open, but \(\bigcap_{\alpha \in \lambda} A_\alpha\) need not be open.</description>
     </item>
     
     <item>

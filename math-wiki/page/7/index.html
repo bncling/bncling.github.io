@@ -130,6 +130,75 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Cyclic groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A group \((G, \cdot)\) is a cyclic group if there exists an element \(a \in G\) such that every element of \(G\) can be written as \(a^k\) for some \(k \in \Z\). In this case, we write \(G = \langle a \rangle := \{a^k \mid k \in \Z \}\).
+Properties All cyclic groups are abelian.
+If \(G\) is an infinite cyclic group, then it is isomorphic to the integers, \((\Z, &#43;)\), and if it is a finite cyclic group, then it is isomorphic to \(\Z_n\), the group of equivalence classes mod \(n\) where \(n = \vert G \vert\) is the order of the group....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/cyclic/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>DeMorgan&#39;s laws</h2>
+  </header>
+  <section class="entry-content">
+   <p>DeMorgan’s Laws relate complements of unions and intersections.
+Statement Let \(X\) be a set and let \(\lbrace A_\alpha \rbrace_{\alpha \in \lambda}\) be a collection of subsets of \(X\). Then \[X - \left( \bigcup_{\alpha \in \lambda} A_\alpha \right) = \bigcap_{\alpha \in \lambda} (X - A_\alpha)\] and \[X - \left( \bigcap_{\alpha \in \lambda} A_\alpha \right) = \bigcup_{\alpha \in \lambda} (X - A_\alpha).\]
+Proof The proof here is for a weaker version of the laws for a finite collection of sets, written as an exercise for my topology work....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/demorgan/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Dense subsets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subset \(A \subset X\) in a topological space \((X, \T)\) is dense in \(X\) if and only if \(\overline{A} = X\), where \(\overline{A}\) is the closure of \(A\) in \((X, \T)\).
+Properties Exercise 5.1 A subset \(A \subset X\) is dense in \(X\) if and only if every open set in \((X, \T)\) contains a point in \(A\).
+Examples The rationals are dense in the reals with the standard topology \(\Rs\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dense_subsets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Equivalence relations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A relation \(R\) on a set \(S\) is called an equivalence relation if it is reflexive, symmetric, and transitive. When \((a,b) \in R\), we write \(a \sim b\).
+The equivalence class of an element \(a \in S\) with equivalence relation \(R\) is the set \([a] := \{b \in S \mid a \sim b\}\) of elements equivalent to \(a\).
+Properties The equivalence classes of a relation \(R\) partition the set \(S\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/equiv_rels/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Euler&#39;s totient function</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Euler’s totient function is a function \(\phi: \N \to \N\) such that \(\phi(n)\) is the number of numbers that are less than or equal to \(n\) and relatively prime to \(n\). That is, \[\phi(n) = \# \{m \in \N \mid m \leq n \text{ and } \gcd(m,n) = 1\}.\]
+Properties If \(p\) is a prime number, then \(\phi(p) = p-1\) because every natural number less than or equal to \(p\) is relatively prime to it except \(p\) itself....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/totient/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>External direct products</h2>
   </header>
   <section class="entry-content">
@@ -191,74 +260,6 @@ If a homomorphism \(\varphi\) is called a monomorphism if it is injective, an ep
     <time>December 22, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_morph/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group isomorphism theorems</h2>
-  </header>
-  <section class="entry-content">
-   <p>The First Isomorphism Theorem Let \(G\) and \(H\) be groups and let \(\varphi: G \to H\) be a homomorphism with kernel \(K\). Let \(\pi: G \to G/K\) be the canonical homomorphism from the group \(G\) to the quotient group \(G/K\). Then there is a unique isomorphism \(\tilde\varphi: G/K \to \im(G)\) such that \(\varphi = \tilde\varphi \circ \pi\). We have the following diagram:   Corollary: If \(\varphi\) is surjective, then \(G/K \cong H\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_iso_thms/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Group presentations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_presentations/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Hausdorff spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Also called \(T_2\)-spaces.
-Definition Let \((X, \T)\) be a topological space. It is Hausdorff if and only if for every pair of distinct points \(x\) and \(y\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\).
-Properties Theorem 4.7: If a space \((X, \T)\) is \(T_3\), or \(T_4\), it is also Hausdorff and therefore also \(T_1\).
-Theorem 4.16:) The product of Hausdorff spaces is product, even for a possibly uncountable product....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/hausdorff/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Heredity</h2>
-  </header>
-  <section class="entry-content">
-   <p>What properties do subspaces inherit?
-Definition Let \(P\) be a property of a topological space \((X, \T)\). Then the space is hereditarily \(P\) if and only if every subspace \(Y \subset X\) with the relative topology \(\T_Y\) also has the property \(P\).
-Properties Theorem 4.26: A topological space \((X, \T)\) is hereditarily normal if and only if it is completely normal.
-Examples Theorem 4.19: Hausdorff spaces are hereditarily Hausdorff.
-Theorem 4....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/heredity/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Integer partitions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition An integer partition of the number \(n\) into \(k\) parts is a writing of \(n\) as a sum of \(k\) positive integers \(n = a_1 &#43; a_2 &#43; \dots &#43; a_k\) where \(a_1 \geq a_2 \geq \dots \geq a_k \geq 1\).
-Properties The number of ways to partition the number \(n\) into \(k\) positive parts is given by the partition function \(p_k(n)\), which satisfies \[\begin{align*} &amp;p_n(n) = 1 \\ &amp;p_0(n) = 0 \quad n \geq 1 \\ &amp;p_k(n) = 0 \quad k &gt; n \\ &amp;p_{n-1}(n) = 1 \\ &amp;p_1(n) = 1 \\ &amp;p_{n-2}(n) = 2 \\ &amp;p_2(n) = \bigg \lfloor \frac{n}{2} \bigg \rfloor, \end{align*}\] along with the recursion \(p_k(n) = p_k(n-k) &#43; p_{k-1}(n-1)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_partitions/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -334,7 +335,10 @@ Properties The number of ways to partition the number \(n\) into \(k\) positive 
             "\\Cov":"\\mathscr{C}",
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
-            "\\V":"\\mathbf{V}"
+            "\\V":"\\mathbf{V}",
+            "\\Tor":"\\mathbb{T}",
+            "\\Sp":"\\mathbb{S}",
+            "\\RP":"\\mathbb{R}\\text{P}"
           },
           
           throwOnError : false
