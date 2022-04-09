@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Polygonal presentations - Ben Clingenpeel</title>
+    <title>The Euler characteristic - Ben Clingenpeel</title>
     
-    <meta name="description" content="Definition Viewing a polygon \(P\) in the plane \(\R^2\) as a topological space with the subspace topology allows us to construct a polygonal presentation as an identification space of \(P\) obtained by identifying the edges in pairs.
-A polygonal presentation can be specified by a word, which is a string of length \(2n\) made up of letters, each of which corresponds to a pair of edges identified. The word is formed by beginning at any edge and moving clockwise, with letters appearing alone if they are oriented clockwise and with superscripts \(-1\) if they are oriented counterclockwise.">
+    <meta name="description" content="Definition Let \(M_T\) be a compact, triangulated 2-manifold \(M\) with triangulation \(T\). In this triangulation, let \(V\) denote the number of vertices in the triangulation, \(E\) the number of edges, and \(F\) the number of \(2\)-simplices (faces). The Euler characteristic of \(M_T\), denoted \(\chi(M_T)\) or just \(\chi(M)\), is \(\chi(M_T) = V - E &#43; F\).
+Properties Lemma 11.44: If \(M_1\) and \(M_2\) are compact 2-manifolds and \(M_1 \# M_2\) is any choice for the connected sum of \(M_1\) and \(M_2\), then the Euler characteristic of the connected sum is \(\chi(M_1 \# M_2) = \chi(M_1) &#43; \chi(M_2) - 2\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -123,22 +123,19 @@ if (!doNotTrack) {
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Polygonal presentations</h1>
+    <h1 class="post-title">The Euler characteristic</h1>
     <div class="post-meta">April 9, 2022</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
-<p>Viewing a polygon <span class="math inline">\(P\)</span> in the plane <span class="math inline">\(\R^2\)</span> as a <a href="https://bncling.github.io/math-wiki/topology_def/">topological space</a> with the <a href="https://bncling.github.io/math-wiki/top_subspaces/">subspace topology</a> allows us to construct a <strong>polygonal presentation</strong> as an <a href="https://bncling.github.io/math-wiki/identification_spaces/">identification space</a> of <span class="math inline">\(P\)</span> obtained by identifying the edges in pairs.</p>
-<p>A polygonal presentation can be specified by a <strong>word</strong>, which is a string of length <span class="math inline">\(2n\)</span> made up of letters, each of which corresponds to a pair of edges identified. The word is formed by beginning at any edge and moving clockwise, with letters appearing alone if they are oriented clockwise and with superscripts <span class="math inline">\(-1\)</span> if they are oriented counterclockwise.</p>
+<p>Let <span class="math inline">\(M_T\)</span> be a <a href="https://bncling.github.io/math-wiki/compactness/">compact</a>, <a href="https://bncling.github.io/math-wiki/triangulations/">triangulated</a> <a href="https://bncling.github.io/math-wiki/manifolds/">2-manifold</a> <span class="math inline">\(M\)</span> with triangulation <span class="math inline">\(T\)</span>. In this triangulation, let <span class="math inline">\(V\)</span> denote the number of vertices in the triangulation, <span class="math inline">\(E\)</span> the number of edges, and <span class="math inline">\(F\)</span> the number of <span class="math inline">\(2\)</span>-simplices (faces). The <strong>Euler characteristic</strong> of <span class="math inline">\(M_T\)</span>, denoted <span class="math inline">\(\chi(M_T)\)</span> or just <span class="math inline">\(\chi(M)\)</span>, is <span class="math inline">\(\chi(M_T) = V - E + F\)</span>.</p>
 <h2 id="properties">Properties</h2>
-<p><a href="\work.pdf#page=125">Theorems 11.25-11.27:</a> A space <span class="math inline">\(M\)</span> is a <a href="https://bncling.github.io/math-wiki/compactness/">compact</a>, <a href="https://bncling.github.io/math-wiki/connectedness/">connected</a>, <a href="https://bncling.github.io/math-wiki/triangulations/">triangulable</a> <a href="https://bncling.github.io/math-wiki/manifolds/">2-manifold</a> if and only if <span class="math inline">\(M\)</span> is <a href="https://bncling.github.io/math-wiki/homeomorphisms/">homeomorphic</a> to a polygonal presentation.</p>
-<p><a href="\work.pdf#page=138">Theorem 11.33:</a> Any polygonal presentation is homeomorphic to one obtained from one of the following words: <span class="math inline">\(aa\inv\)</span>, <span class="math inline">\(a_1 a_1 \dots a_n a_n\)</span> (<span class="math inline">\(n \geq 1\)</span>) or <span class="math inline">\(a_1 a_2 a_1\inv a_2\inv \dots a_{n-1} a_n a_{n-1}\inv a_n\inv\)</span> (<span class="math inline">\(n \geq 2\)</span> an even number).</p>
+<p><a href="\work.pdf#page=141">Lemma 11.44:</a> If <span class="math inline">\(M_1\)</span> and <span class="math inline">\(M_2\)</span> are compact 2-manifolds and <span class="math inline">\(M_1 \# M_2\)</span> is any choice for the <a href="https://bncling.github.io/math-wiki/connected_sums/">connected sum</a> of <span class="math inline">\(M_1\)</span> and <span class="math inline">\(M_2\)</span>, then the Euler characteristic of the connected sum is <span class="math inline">\(\chi(M_1 \# M_2) = \chi(M_1) + \chi(M_2) - 2\)</span>.</p>
 <h2 id="examples">Examples</h2>
-<p>The torus is homeomorphic to the polygonal presentation obtained from the word <span class="math inline">\(aba\inv b\inv\)</span>, because this word represents a square with opposite pairs of edges identified in the same direction.</p>
+<p>If <span class="math inline">\(\Sp^2\)</span> is the 2-sphere and <span class="math inline">\(\Tor^2\)</span> is the torus, then <span class="math inline">\(\chi(\Sp^2) = 2\)</span> and <span class="math inline">\(\chi(\Tor^2) = 0\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://bncling.github.io/tags/topology">topology</a></li>
-      <li><a href="https://bncling.github.io/tags/coming_soon">coming_soon</a></li>
     </ul>
   </footer>
   

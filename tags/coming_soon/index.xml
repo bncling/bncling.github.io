@@ -6,7 +6,17 @@
     <description>Recent content in coming_soon on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/coming_soon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/coming_soon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polygonal presentations</title>
+      <link>https://bncling.github.io/math-wiki/polygonal_presentations/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/polygonal_presentations/</guid>
+      <description>Definition Viewing a polygon \(P\) in the plane \(\R^2\) as a topological space with the subspace topology allows us to construct a polygonal presentation as an identification space of \(P\) obtained by identifying the edges in pairs.
+A polygonal presentation can be specified by a word, which is a string of length \(2n\) made up of letters, each of which corresponds to a pair of edges identified. The word is formed by beginning at any edge and moving clockwise, with letters appearing alone if they are oriented clockwise and with superscripts \(-1\) if they are oriented counterclockwise.</description>
+    </item>
+    
     <item>
       <title>Connected sums</title>
       <link>https://bncling.github.io/math-wiki/connected_sums/</link>
@@ -14,16 +24,6 @@
       
       <guid>https://bncling.github.io/math-wiki/connected_sums/</guid>
       <description>Content coming soon.</description>
-    </item>
-    
-    <item>
-      <title>Polygonal Presentations</title>
-      <link>https://bncling.github.io/math-wiki/polygonal_presentations/</link>
-      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/polygonal_presentations/</guid>
-      <description>Definition Viewing a polygon \(P\) in the plane \(\R^2\) as a topological space with the subspace topology allows us to construct a polygonal presentation as an identification space of \(P\) obtained by identifying the edges in pairs.
-A polygonal presentation can be specified by a word, which is a string of length \(2n\) made up of letters, each of which corresponds to a pair of edges identified. The word is formed by beginning at any edge and moving clockwise, with letters appearing alone if they are oriented clockwise and with superscripts \(-1\) if they are oriented counterclockwise.</description>
     </item>
     
     <item>

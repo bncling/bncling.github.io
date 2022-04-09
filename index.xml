@@ -8,6 +8,26 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Polygonal presentations</title>
+      <link>https://bncling.github.io/math-wiki/polygonal_presentations/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/polygonal_presentations/</guid>
+      <description>Definition Viewing a polygon \(P\) in the plane \(\R^2\) as a topological space with the subspace topology allows us to construct a polygonal presentation as an identification space of \(P\) obtained by identifying the edges in pairs.
+A polygonal presentation can be specified by a word, which is a string of length \(2n\) made up of letters, each of which corresponds to a pair of edges identified. The word is formed by beginning at any edge and moving clockwise, with letters appearing alone if they are oriented clockwise and with superscripts \(-1\) if they are oriented counterclockwise.</description>
+    </item>
+    
+    <item>
+      <title>The Euler characteristic</title>
+      <link>https://bncling.github.io/math-wiki/euler_characteristic/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/euler_characteristic/</guid>
+      <description>Definition Let \(M_T\) be a compact, triangulated 2-manifold \(M\) with triangulation \(T\). In this triangulation, let \(V\) denote the number of vertices in the triangulation, \(E\) the number of edges, and \(F\) the number of \(2\)-simplices (faces). The Euler characteristic of \(M_T\), denoted \(\chi(M_T)\) or just \(\chi(M)\), is \(\chi(M_T) = V - E + F\).
+Properties Lemma 11.44: If \(M_1\) and \(M_2\) are compact 2-manifolds and \(M_1 \# M_2\) is any choice for the connected sum of \(M_1\) and \(M_2\), then the Euler characteristic of the connected sum is \(\chi(M_1 \# M_2) = \chi(M_1) + \chi(M_2) - 2\).</description>
+    </item>
+    
+    <item>
       <title>Connected sums</title>
       <link>https://bncling.github.io/math-wiki/connected_sums/</link>
       <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
@@ -36,16 +56,6 @@ Theorems 11.25-11.27: A space \(M\) is a compact, connected, triangulable 2-mani
       <description>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
 If \(p\) is a point in \(X\) and \(U\) is an open set containing \(p\), then \(U\) is called a neighborhood of \(p\).
 Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\).</description>
-    </item>
-    
-    <item>
-      <title>Polygonal Presentations</title>
-      <link>https://bncling.github.io/math-wiki/polygonal_presentations/</link>
-      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/polygonal_presentations/</guid>
-      <description>Definition Viewing a polygon \(P\) in the plane \(\R^2\) as a topological space with the subspace topology allows us to construct a polygonal presentation as an identification space of \(P\) obtained by identifying the edges in pairs.
-A polygonal presentation can be specified by a word, which is a string of length \(2n\) made up of letters, each of which corresponds to a pair of edges identified. The word is formed by beginning at any edge and moving clockwise, with letters appearing alone if they are oriented clockwise and with superscripts \(-1\) if they are oriented counterclockwise.</description>
     </item>
     
     <item>
