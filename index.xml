@@ -13,9 +13,9 @@
       <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bncling.github.io/math-wiki/fundamental_group/</guid>
-      <description>Definitions The fundamental group of \(X\) based at \(p\), denoted \(\pi_1(X,p)\) is the set of loop equivalence classes with binary operation \([\alpha] \cdot [\beta] = [\alpha \cdot \beta]\).
+      <description>Definitions For a topological space \((X, \T)\), the fundamental group of \(X\) based at \(p\), denoted \(\pi_1(X,p)\) is the set of equivalence classes of loops in \(X\) with binary operation \([\alpha] \cdot [\beta] = [\alpha \cdot \beta]\).
 Properties Theorem 12.9: The fundamental group \(\pi_1(X,p)\) is a group with identity element \([e_p]\).
-Theorem 12.10: Let \(p,q \in X\) such that there is a path from \(p\) to \(q\). Then \(\pi_1(X,p) \cong \pi_1(X,q)\). For a path connected space \(X\), this holds for any \(p\) and \(q\).</description>
+Theorem 12.10: Let \(p,q \in X\) such that there is a path from \(p\) to \(q\). Then \(\pi_1(X,p) \cong \pi_1(X,q)\).</description>
     </item>
     
     <item>
