@@ -8,7 +8,8 @@
     
     <title>Order relations - Ben Clingenpeel</title>
     
-    <meta name="description" content="Content coming soon.">
+    <meta name="description" content="Definitions Let \(X\) be a set. A partial order \(\leq\) on \(X\) is a relation that is reflexive, antisymmetric, and transitive. A partially ordered set or poset is a pair \((X, \leq)\) where \(\leq\) is a partial order on \(X\). Within a poset, if \(x \leq y\) and \(x \neq y\), we write that \(x &lt; y\).
+If in addition, all elements of of \(X\) are comparable, that is if for all \(x,y \in X\), either \(x \leq y\) or \(y \leq x\), we call \(\leq\) a total order on \(X\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -123,14 +124,24 @@ if (!doNotTrack) {
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Order relations</h1>
-    <div class="post-meta">July 8, 2021</div>
+    <div class="post-meta">May 9, 2022</div>
   </header>
-  <div class="post-content"><p>Content coming soon.</p>
+  <div class="post-content"><h2 id="definitions">Definitions</h2>
+<p>Let <span class="math inline">\(X\)</span> be a set. A <strong>partial order</strong> <span class="math inline">\(\leq\)</span> on <span class="math inline">\(X\)</span> is a <a href="https://bncling.github.io/math-wiki/relations/">relation</a> that is reflexive, antisymmetric, and transitive. A <strong>partially ordered set</strong> or <strong>poset</strong> is a pair <span class="math inline">\((X, \leq)\)</span> where <span class="math inline">\(\leq\)</span> is a partial order on <span class="math inline">\(X\)</span>. Within a poset, if <span class="math inline">\(x \leq y\)</span> and <span class="math inline">\(x \neq y\)</span>, we write that <span class="math inline">\(x &lt; y\)</span>.</p>
+<p>If in addition, all elements of of <span class="math inline">\(X\)</span> are comparable, that is if for all <span class="math inline">\(x,y \in X\)</span>, either <span class="math inline">\(x \leq y\)</span> or <span class="math inline">\(y \leq x\)</span>, we call <span class="math inline">\(\leq\)</span> a <strong>total order</strong> on <span class="math inline">\(X\)</span>.</p>
+<p>Given a poset <span class="math inline">\((X, \leq)\)</span> we define a <strong>least element</strong> to be an element <span class="math inline">\(a \in X\)</span> such that <span class="math inline">\(x \leq a\)</span> implies <span class="math inline">\(x = a\)</span>, and we define a <strong>maximal</strong> element to be an element <span class="math inline">\(m \in X\)</span> such that <span class="math inline">\(m \leq x\)</span> implies that <span class="math inline">\(x = m\)</span>. Given a subset <span class="math inline">\(P \subset X\)</span>, we say that an <strong>upper bound</strong> of <span class="math inline">\(P\)</span> is an element <span class="math inline">\(b \in X\)</span> such that <span class="math inline">\(a \leq b\)</span> for all <span class="math inline">\(a \in P\)</span>.</p>
+<p>We call a poset <span class="math inline">\((X, \leq)\)</span> <strong>well-ordered</strong> if and only if <span class="math inline">\(\leq\)</span> is a total order on <span class="math inline">\(X\)</span> and every nonempty subset of <span class="math inline">\(X\)</span> has a least element.</p>
+<h2 id="properties">Properties</h2>
+<p>The following two properties are equivalent to the Axiom of Choice:</p>
+<ul>
+<li><strong>Zorn’s Lemma:</strong> Let <span class="math inline">\((X, \leq)\)</span> be a poset. If every totally ordered subset <span class="math inline">\(T \subset X\)</span> has a least upper bound in <span class="math inline">\(X\)</span>, then the poset <span class="math inline">\(X\)</span> has a maximal element.</li>
+<li><strong>The Well-Ordering Theorem:</strong> Every set can be put in a one-to-one correspondence with a well-ordered set.</li>
+</ul>
+<p>Given a totally ordered set <span class="math inline">\((X, \leq)\)</span>, there is a natural <a href="https://bncling.github.io/math-wiki/topology_def/">topology</a> on <span class="math inline">\(X\)</span> called the <a href="https://bncling.github.io/math-wiki/order_topology/">order topology</a>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://bncling.github.io/tags/miscmath">miscmath</a></li>
-      <li><a href="https://bncling.github.io/tags/coming_soon">coming_soon</a></li>
     </ul>
   </footer>
   
@@ -191,6 +202,7 @@ if (!doNotTrack) {
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"
@@ -270,6 +282,7 @@ if (!doNotTrack) {
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

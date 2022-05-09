@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Monomial orderings - Ben Clingenpeel</title>
+    
+    <meta name="description" content="Definition Let \(\pring{k}{x_1, \dots, x_n}\) denote the ring of polynomials over the field \(k\). A monomial ordering \(&gt;\) on \(\pring{k}{x_1, \dots, x_n}\) is a relation on \(\Z_\geq^n\) (the set of nonnegative integers) satisfying
+\(&gt;\) is a well-order on \(\Z_\geq^n\) (and so also a total order). If \(\alpha &gt; \beta\) and \(\gamma \in \Z_\geq^n\), then \(\alpha &#43; \gamma &gt; \beta &#43; \gamma\).  This is called a monomial ordering because the set \(\Z_\geq^n\) is in one-to-one correspondence with the set of monomials in \(\pring{k}{x_1, \dots, x_n}\).">
+    <meta name="author" content="">
+    
+    <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://bncling.github.io/style.css" rel="stylesheet">
+    <link href="https://bncling.github.io/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="generator" content="Hugo 0.84.4" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('light');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('light');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YFLN397NB8"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-YFLN397NB8', { 'anonymize_ip': false });
+}
+</script>
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-YFLN397NB8', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://bncling.github.io/">Ben Clingenpeel</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/animations/">Animations</a>
+          </li>
+          <li>
+            <a href="/math-wiki/">Math Wikis</a>
+          </li>
+          <li>
+            <a href="/posts/">Posts</a>
+          </li>
+          <li>
+            <a href="/tags/">Tags</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Monomial orderings</h1>
+    <div class="post-meta">May 9, 2022</div>
+  </header>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Let <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span> denote the <a href="https://bncling.github.io/math-wiki/rings/">ring</a> of <a href="https://bncling.github.io/math-wiki/polynomials/">polynomials</a> over the <a href="https://bncling.github.io/math-wiki/fields/">field</a> <span class="math inline">\(k\)</span>. A <strong>monomial ordering</strong> <span class="math inline">\(&gt;\)</span> on <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span> is a <a href="https://bncling.github.io/math-wiki/relations/">relation</a> on <span class="math inline">\(\Z_\geq^n\)</span> (the set of nonnegative integers) satisfying</p>
+<ol type="1">
+<li><span class="math inline">\(&gt;\)</span> is a <a href="https://bncling.github.io/math-wiki/orderings/">well-order</a> on <span class="math inline">\(\Z_\geq^n\)</span> (and so also a <a href="https://bncling.github.io/math-wiki/orderings/">total order</a>).</li>
+<li>If <span class="math inline">\(\alpha &gt; \beta\)</span> and <span class="math inline">\(\gamma \in \Z_\geq^n\)</span>, then <span class="math inline">\(\alpha + \gamma &gt; \beta + \gamma\)</span>.</li>
+</ol>
+<p>This is called a monomial ordering because the set <span class="math inline">\(\Z_\geq^n\)</span> is in one-to-one correspondence with the set of <a href="https://bncling.github.io/math-wiki/polynomials/">monomials</a> in <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span>.</p>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://bncling.github.io/tags/alg_geo">alg_geo</a></li>
+    </ul>
+  </footer>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\Poly":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathscr{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathscr{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}",
+            "\\Sym":"\\text{Sym}",
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
+            "\\Cov":"\\mathscr{C}",
+            "\\im":"\\text{im}",
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
+            "\\Tor":"\\mathbb{T}",
+            "\\Sp":"\\mathbb{S}",
+            "\\RP":"\\mathbb{R}\\text{P}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</article></main>
+<footer class="footer">
+  <span>&copy; 2022 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="https://bncling.github.io/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          macros: {
+            "\\Ts": "\\mathcal{T}_{\\text{std}}",
+            "\\R":"\\mathbb{R}",
+            "\\N":"\\mathbb{N}",
+            "\\Z":"\\mathbb{Z}",
+            "\\Q":"\\mathbb{Q}",
+            "\\F":"\\mathbb{F}",
+            "\\C":"\\mathbb{C}",
+            "\\Even":"\\mathbb{E}",
+            "\\Odd":"\\mathbb{O}",
+            "\\Poly":"\\mathcal{P}",
+            "\\st":"\\text{ s.t. }",
+            "\\T":"\\mathcal{T}",
+            "\\Ts":"\\mathcal{T}_\\text{std}",
+            "\\Rs":"\\mathbb{R}_\\text{std}",
+            "\\inv":"^{-1}",
+            "\\dg":"\\^{circ}",
+            "\\B":"\\mathscr{B}",
+            "\\BLL":"\\mathcal{B}_\\text{LL}",
+            "\\RLL":"\\mathbb{R}_\\text{LL}",
+            "\\TLL":"\\mathcal{T}_\\text{LL}",
+            "\\Rh":"\\mathbb{R}_\\text{har}",
+            "\\Hbub":"\\mathbb{H}_\\text{bub}",
+            "\\Zar":"\\mathbb{Z}_\\text{arith}",
+            "\\lcm":"\\text{lcm}",
+            "\\Sub":"\\mathscr{S}",
+            "\\Cl":"\\text{Cl}",
+            "\\Span":"\\text{span}",
+            "\\Lin":"\\mathcal{L}",
+            "\\nl":"\\text{null }",
+            "\\range":"\\text{range }",
+            "\\M":"\\mathcal{M}",
+            "\\Sym":"\\text{Sym}",
+            "\\Aut":"\\text{Aut}",
+            "\\im":"\\text{im}",
+            "\\inn":"\\text{Inn}",
+            "\\id":"\\text{id}",
+            "\\stirlingI":"\\genfrac{[}{]}{0pt}{}{#1}{#2}",
+            "\\stirlingII":"\\genfrac{\\{}{\\}}{0pt}{}{#1}{#2}",
+            "\\Cov":"\\mathscr{C}",
+            "\\im":"\\text{im}",
+            "\\pring":"{#1}[{#2}]",
+            "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
+            "\\Tor":"\\mathbb{T}",
+            "\\Sp":"\\mathbb{S}",
+            "\\RP":"\\mathbb{R}\\text{P}"
+          },
+          
+          throwOnError : false
+        });
+    });
+</script>
+</html>
+

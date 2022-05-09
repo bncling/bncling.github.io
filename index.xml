@@ -8,6 +8,96 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ideal of a set</title>
+      <link>https://bncling.github.io/math-wiki/ideal_of_a_set/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/ideal_of_a_set/</guid>
+      <description>Definition Let \(S\) be a subset of the affine space \(k^n\) for some field \(k\). The ideal of \(S\), denoted \(\I(S)\), is the set \[\I(S) = \{f \in \pring{k}{x_1, \dots, x_n} \mid f(a) = 0 \text{ for all } a \in S\}\] where \(\pring{k}{x_1, \dots, x_n}\) is the ring of polynomials in \(n\) variables over the field \(k\). For a set \(S\), the ideal of \(S\) is the collection of polynomials that vanish at all points of \(S\).</description>
+    </item>
+    
+    <item>
+      <title>Ideals of a ring</title>
+      <link>https://bncling.github.io/math-wiki/ideals/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/ideals/</guid>
+      <description>Definition A left ideal of a ring \((R, +, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal.</description>
+    </item>
+    
+    <item>
+      <title>Maximal ideals</title>
+      <link>https://bncling.github.io/math-wiki/maximal_ideals/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/maximal_ideals/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Monomial orderings</title>
+      <link>https://bncling.github.io/math-wiki/monomial_orderings/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/monomial_orderings/</guid>
+      <description>Definition Let \(\pring{k}{x_1, \dots, x_n}\) denote the ring of polynomials over the field \(k\). A monomial ordering \(&amp;gt;\) on \(\pring{k}{x_1, \dots, x_n}\) is a relation on \(\Z_\geq^n\) (the set of nonnegative integers) satisfying
+\(&amp;gt;\) is a well-order on \(\Z_\geq^n\) (and so also a total order). If \(\alpha &amp;gt; \beta\) and \(\gamma \in \Z_\geq^n\), then \(\alpha + \gamma &amp;gt; \beta + \gamma\).  This is called a monomial ordering because the set \(\Z_\geq^n\) is in one-to-one correspondence with the set of monomials in \(\pring{k}{x_1, \dots, x_n}\).</description>
+    </item>
+    
+    <item>
+      <title>Order relations</title>
+      <link>https://bncling.github.io/math-wiki/orderings/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/orderings/</guid>
+      <description>Definitions Let \(X\) be a set. A partial order \(\leq\) on \(X\) is a relation that is reflexive, antisymmetric, and transitive. A partially ordered set or poset is a pair \((X, \leq)\) where \(\leq\) is a partial order on \(X\). Within a poset, if \(x \leq y\) and \(x \neq y\), we write that \(x &amp;lt; y\).
+If in addition, all elements of of \(X\) are comparable, that is if for all \(x,y \in X\), either \(x \leq y\) or \(y \leq x\), we call \(\leq\) a total order on \(X\).</description>
+    </item>
+    
+    <item>
+      <title>Path connectedness</title>
+      <link>https://bncling.github.io/math-wiki/path_connectedness/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/path_connectedness/</guid>
+      <description>Definitions A topological space \((X,\T)\) is path connected if and only if for all \(p,q \in X\) there exists a path from \(p\) to \(q\).
+Properties Theorem 8.35: All path connected spaces are connected.
+Theorem 8.38: The product of path connected spaces with the product topology is path connected.
+Examples The closure of the topologist’s sine curve is connected but not path connected.
+Every nonempty open set in \(\R^n\) with the standard topology that is connected is path connected.</description>
+    </item>
+    
+    <item>
+      <title>Polynomial rings</title>
+      <link>https://bncling.github.io/math-wiki/poly_rings/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/poly_rings/</guid>
+      <description>Definition Given a field \(k\), the polynomial ring in \(n\) variables over \(k\) is a commutative ring denoted by \(\pring{k}{x_1, \dots, x_n}\) containing all polynomials over \(k\) in \(n\) variables.
+Properties The Hilbert Basis Theorem: Every ideal in the ring \(\pring{k}{x_1, \dots, x_n}\) is finitely generated. That is, given an ideal \(I \subset \pring{k}{x_1, \dots, x_n}\), there exist finitely many polynomials \(f_i \in \pring{k}{x_1, \dots, x_n}\) such that \(I = \langle f_1, \dots, f_s \rangle\).</description>
+    </item>
+    
+    <item>
+      <title>Polynomials</title>
+      <link>https://bncling.github.io/math-wiki/polynomials/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/polynomials/</guid>
+      <description>Definitions A monomial in variables \(x_1, \dots, x_n\) is a product of the form \(x_1^{\alpha_1} \dots x_n^{\alpha_n}\) for nonnegative integers \(\alpha_i\), often written as \(x^\alpha\) where \(\alpha\) is a list \(\alpha = (\alpha_1, \dots, \alpha_n)\), of powers \(\alpha_i \in \Z_\geq\). The sum \(\vert \alpha \vert = \alpha_1 + \dots + \alpha_n\) is called the total degree of the monomial.
+A polynomial in variables \(x_1, \dots, x_n\) is a finite linear combination of monomials with coefficients in some field \(k\).</description>
+    </item>
+    
+    <item>
+      <title>Radical ideals</title>
+      <link>https://bncling.github.io/math-wiki/radical_ideals/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/radical_ideals/</guid>
+      <description>Definition An ideal \(I\) of a ring \(R\) is called a radical ideal if \(a^m \in I\) for some integer \(m \geq 1\) implies that \(a \in I\).
+Properties All maximal ideals are radical ideals.</description>
+    </item>
+    
+    <item>
       <title>The fundamental group</title>
       <link>https://bncling.github.io/math-wiki/fundamental_group/</link>
       <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
@@ -16,6 +106,27 @@
       <description>Definitions For a topological space \((X, \T)\), the fundamental group of \(X\) based at \(p\), denoted \(\pi_1(X,p)\) is the set of equivalence classes of loops in \(X\) with binary operation \([\alpha] \cdot [\beta] = [\alpha \cdot \beta]\).
 Properties Theorem 12.9: The fundamental group \(\pi_1(X,p)\) is a group with identity element \([e_p]\).
 Theorem 12.10: Let \(p,q \in X\) such that there is a path from \(p\) to \(q\). Then \(\pi_1(X,p) \cong \pi_1(X,q)\).</description>
+    </item>
+    
+    <item>
+      <title>The radical of an ideal</title>
+      <link>https://bncling.github.io/math-wiki/radical_of_an_ideal/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/radical_of_an_ideal/</guid>
+      <description>Definition Let \(I\) be an ideal of the polynomial ring \(\pring{k}{x_1, \dots, x_n}\). The radical of \(I\) is the set \[\sqrt{I} = \{f \mid f^m \in I \text{ for some integer } m \geq 1\}.\]
+Properties If \(I \subset \pring{k}{x_1, \dots, x_n}\) is an ideal, then \(\sqrt{I}\) is also an ideal in \(\pring{k}{x_1, \dots, x_n}\) and contains \(I\).
+If \(I \subset \pring{k}{x_1, \dots, x_n}\) is an ideal, then \(\sqrt{I}\) is a radical ideal.</description>
+    </item>
+    
+    <item>
+      <title>Variety of an ideal</title>
+      <link>https://bncling.github.io/math-wiki/variety_of_an_ideal/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/variety_of_an_ideal/</guid>
+      <description>Definition Let \(I\) be an ideal of the polynomial ring \(\pring{k}{x_1, \dots, x_n}\). The variety of \(I\), denoted by \(\V(I)\) is the set \[\V(I) = \{(a_1, \dots, a_n) \in k^n \mid f(a_1, \dots, a_n) = 0 \text{ for all} f \in I\},\] where \(k^n\) is the \(n\)-dimensional affine space over the field \(k\).
+Properties Given an ideal \(I\), the set \(\V(I)\) is an affine variety, and if \(I = \langle f_1, \dots, f_s \rangle\), then \(\V(I) = \V(f_1, \dots, f_s)\).</description>
     </item>
     
     <item>
@@ -45,19 +156,6 @@ If \(f \simeq g\) and \(g\) is constant function, we say that \(f\) is null-homo
       <guid>https://bncling.github.io/math-wiki/metric_spaces/</guid>
       <description>Definition A topological space \((X,\T)\) is written as \((X,d)\) and called a metric space if and only if there exists a metric \(d\) on \(X\) such that the \(d\)-metric topology is \(\T\). In this case, \((X, \T)\) is also called metrizable.
 Properties Theorem 9.7: If \((X,\T)\) is a metric space and \(Y\) is a subset of \(X\), then \((Y,\T_Y)\) is a metric space (where \(\T_Y\) is the subspace topology inherited from \(\T\)).</description>
-    </item>
-    
-    <item>
-      <title>Path connectedness</title>
-      <link>https://bncling.github.io/math-wiki/path_connectedness/</link>
-      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/path_connectedness/</guid>
-      <description>Definitions A space \(X\) is path connected if and only if for all \(p,q \in X\) there exists a path from \(p\) to \(q\).
-Properties Theorem 8.35: All path connected spaces are connected.
-Theorem 8.38: The product of path connected spaces with the product topology is path connected.
-Examples The closure of the topologist’s sine curve is connected but not path connected.
-Every nonempty open set in \(\R^n\) with the standard topology that is connected is path connected.</description>
     </item>
     
     <item>
@@ -428,16 +526,6 @@ Examples The set \(\R^n\) is an affine space.</description>
 Definitions A function \(f: \mathcal{D} \to \mathcal{C}\) is a set of ordered pairs \((a,b)\) where \(a \in \mathcal{D}\) and \(b \in \mathcal{C}\) with the property that if \((a,b) \in f\) and \((a,c) \in f\), then \(b=c\). If \((a,b) \in f\), we write \(f(a)=b\).
 We call the set \(\mathcal{D}\) the domain of \(f\) and the set \(\mathcal{C}\) the codomain of \(f\).
 We call the set \(\{f(x) \mid x \in \mathcal{D}\}\) the image of \(f\), denoted \(\im f\).</description>
-    </item>
-    
-    <item>
-      <title>Polynomials</title>
-      <link>https://bncling.github.io/math-wiki/polynomials/</link>
-      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/polynomials/</guid>
-      <description>Definitions A monomial in variables \(x_1, \dots, x_n\) is a product of the form \(x_1^{\alpha_1} \dots x_n^{\alpha_n}\) for nonnegative integers \(\alpha_i\), often written as \(x^\alpha\) where \(\alpha\) is a list \(\alpha = (\alpha_1, \dots, \alpha_n)\), of powers \(\alpha_i \in \Z_\geq\). The sum \(\vert \alpha \vert = \alpha_1 + \dots + \alpha_n\) is called the total degree of the monomial.
-A polynomial in variables \(x_1, \dots, x_n\) is a finite linear combination of monomials with coefficients in some field \(k\).</description>
     </item>
     
     <item>
@@ -1753,15 +1841,6 @@ An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or
     </item>
     
     <item>
-      <title>Order relations</title>
-      <link>https://bncling.github.io/math-wiki/orderings/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/orderings/</guid>
-      <description>Content coming soon.</description>
-    </item>
-    
-    <item>
       <title>Rational numbers</title>
       <link>https://bncling.github.io/math-wiki/rational_numbers/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
@@ -1912,15 +1991,6 @@ Properties Exercise 7.42: The cantor set is homeomorphic to the product \(\prod_
     </item>
     
     <item>
-      <title>Ideals of a ring</title>
-      <link>https://bncling.github.io/math-wiki/ideals/</link>
-      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/ideals/</guid>
-      <description>Definition A left ideal of a ring \((R, +, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal.</description>
-    </item>
-    
-    <item>
       <title>Subrings</title>
       <link>https://bncling.github.io/math-wiki/subrings/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
@@ -1929,15 +1999,6 @@ Properties Exercise 7.42: The cantor set is homeomorphic to the product \(\prod_
       <description>Definition A subring of a ring \((R, +, \cdot)\) is a subset \(S \subset R\) such that \((S, +, \cdot)\) is also a ring.
 Properties A set \(S\) is a subring of a ring \(R\) if and only if
  \(S \neq \emptyset\); \(rs \in S\) for all \(r,s \in S\); \(r - s \in S\) for all \(r,s \in S\).  </description>
-    </item>
-    
-    <item>
-      <title>Polynomial Rings</title>
-      <link>https://bncling.github.io/math-wiki/poly_rings/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/poly_rings/</guid>
-      <description>Content coming soon.</description>
     </item>
     
   </channel>

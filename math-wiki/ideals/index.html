@@ -123,7 +123,7 @@ if (!doNotTrack) {
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Ideals of a ring</h1>
-    <div class="post-meta">February 2, 2021</div>
+    <div class="post-meta">May 9, 2022</div>
   </header>
   <div class="post-content"><h2 id="definition">Definition</h2>
 <p>A <strong>left ideal</strong> of a <a href="https://bncling.github.io/math-wiki/rings/">ring</a> <span class="math inline">\((R, +, \cdot)\)</span> is a <a href="https://bncling.github.io/math-wiki/subrings/">subring</a> <span class="math inline">\(I \subset R\)</span> with the additional property that for all <span class="math inline">\(a \in I\)</span> and <span class="math inline">\(r \in R\)</span>, <span class="math inline">\(ra \in I\)</span>, that is, the ideal absorbs elements from the ring multiplied on the left. A <strong>right ideal</strong> is defined analogously. A <strong>two-sided ideal</strong>, or just an <strong>ideal</strong>, is a subring that is both a left and right ideal.</p>
@@ -132,6 +132,7 @@ if (!doNotTrack) {
 <h2 id="examples">Examples</h2>
 <p>For any ring <span class="math inline">\(R\)</span>, both the empty set and the whole ring are ideals.</p>
 <p>Sets of the form <span class="math inline">\(\langle a \rangle := \{ra \mid r \in R\}\)</span> are always ideals, and if <span class="math inline">\(R\)</span> is a commutative ring with identity, they are called <strong>principal ideals</strong>. In some rings like <span class="math inline">\((\Z, + , \cdot)\)</span> or the <a href="https://bncling.github.io/math-wiki/polynomials/">polynomial ring</a> <span class="math inline">\(\pring{k}{x}\)</span> for a <a href="https://bncling.github.io/math-wiki/fields/">field</a> <span class="math inline">\(k\)</span>, all ideals are principal ideals, and such rings are called <strong>principal ideal domains</strong>.</p>
+<p>Similarly, the sets of the form <span class="math display">\[\langle f_1, \dots, f_s \rangle = \left\{ \sum_{i=1}^s h_i f_i \, \bigg \vert \, h_1, \dots, h_s \in \pring{k}{x_1, \dots, x_n} \right\}\]</span> are ideals in the polynomial ring <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
@@ -197,6 +198,7 @@ if (!doNotTrack) {
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"
@@ -276,6 +278,7 @@ if (!doNotTrack) {
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

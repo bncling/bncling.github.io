@@ -130,6 +130,123 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Lagrange&#39;s theorem</h2>
+  </header>
+  <section class="entry-content">
+   <p>Statement Let \((G, \cdot)\) be a finite group and let \(H\) be a subgroup of \(G\). Then \(\vert G \vert = [G:H] \vert H \vert\), and therefore the order of \(H\) divides the order of \(G\).
+Proof Since the cosets of \(H\) in \(G\) partition \(G\) into \([G:H]\) disjoint subsets, all of which have the same size, we have that \[G = \bigsqcup_{\text{distinct cosets } H_i} H_i \implies \vert G \vert = \sum_{\text{distinct cosets } H_i} \vert H_i \vert = [G:H] \vert H \vert....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lagrange/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Latin squares</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A Latin square of order \(n\) is an \(n \times n\) array such that each row is a permutation of \([n]\) and all rows are pairwise discordant. (Though Latin squares can be formed out of any set of \(n\) elements, not just \([n]\)).
+The juxtaposition of two Latin squares \(A\) and \(B\) of order \(n\), denoted \(A \otimes B\), has entries in \([n] \times [n]\) where \((A \otimes B)_{ij}\) is the pair \((A_{ij}, B_{ij})\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/latin_squares/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Least common multiples</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lcm/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>My topology self-study work</h2>
+  </header>
+  <section class="entry-content">
+   <p>I’ve been using the book Topology Through Inquiry and proofs and exercises I’ve done from the book can be found here....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_selfstudy/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Noncrossing partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Noncrossing partitions of \([n]\) are partitions of \([n]\) into parts \(\{B_1, \dots, B_k\}\) such that if \(a &lt; b &lt; c &lt; d\) are elements of \([n]\) with \(a,c \in B_i\) and \(b,d \in B_j\), then \(i = j\). Otherwise, a partition is crossing.
+Properties Noncrossing partitions of \([n]\) can be visually represented as a series of \(n\) labeled dots with partitions represented by arcs connecting the dots that belong to a given part....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/nc_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Normal subgroups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subgroup \(H\) of a group \((G,\cdot)\) is said to be normal, written \(H \triangleleft G\), if and only if its left and right cosets are equal. That is, if and only if \(gH = Hg\) for all \(g \in G\).
+Properties Proposition: The following are equivalent.
+ \(H \triangleleft G\); \(gH = Hg\) for all \(g \in G\); \(gHg\inv = H\) for all \(g \in G\); \(gHg\inv \subset H\) for all \(g \in G\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/normal_subgroups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Order of an element in a group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((G, \cdot)\) be a group and let \(g \in G\). The order of \(g\), denoted \(\vert g \vert\) is the smallest positive integer \(n\) such that \(g^n = e\), the identity element of \(G\). If such an \(n\) exists, \(g\) has finite order. Otherwise, \(g\) has infinite order.
+Properties By Lagrange’s Theorem, the order of \(g\) always divides the order of the group, \(\vert G \vert\).
+If \(g^m = e\), then the order of \(g\) divides \(m\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_element_order/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Permutation matrices</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A permutation matrix of size \(n\) is a \(0/1\) matrix with entries all \(0\) except for a single \(1\) in each row and each column.
+Given a permutation \(\sigma\) on \([n]\), its associated permutation matrix \(A_\sigma\) is a \(0/1\) matrix in which the \(j\)th column is all \(0\) aside from a single \(1\) in the \(\sigma(j)\)th row.
+Properties The set of all permutation matrices of size \(n\) forms a group isomorphic to \(S_n\), the symmetric group on \(n\) symbols....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/perm_matrices/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Prime numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/prime/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Quotient groups</h2>
   </header>
   <section class="entry-content">
@@ -141,128 +258,6 @@ Properties The quotient group is a group....</p>
     <time>December 22, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/quotient_groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Rank of a matrix</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \(A \in \F^{m,n}\) be a matrix. Then the row rank of \(A\) is the dimension of the span of the rows of \(A\) (thought of as matrices in \(\F^{1,n}\)), and the column rank of \(A\) is the dimension of the span of the columns of \(A\) (thought of as matrices in \(\F^{m,1}\)).
-Properties (3.117) Proposition: The column rank of \(A\) is the dimension of the range of \(T\), where \(T\) is the linear map that \(A\) represents....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrix_rank/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Regular spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is regular if and only if for every point \(x \in X\) and closed set \(A \subset X\) with \(x \notin A\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(A \subset V\).
-Properties Theorem 4.8: A space \((X, \T)\) is regular if and only if for each point \(p \in X\) and open set \(U\) with \(p \in U\), there exists an open set \(V\) such that \(p \in V\) and \(\overline{V} \subset U\) (where \(\overline{V}\) is the closure of \(V\) in \((X, \T)\))....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/regular/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Separable spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Defintion A topological space \((X, \T)\) is separable if and only if \(X\) has a countable dense subset.
-Properties Exercise 5.4: A space \((X, \T)\) being separable does not imply that all of its subspaces are separable.
-Theorem 5.5: If two spaces \(X\) and \(Y\) are separable, then \(X \times Y\) with the product topology is separable.
-Examples The space \(\Rs\) is separable, but \(\R\) with the discrete topology is not separable because the reals are uncountable and so for any countable subset, there is point not in the subset, and the set containing this point is open in the discrete topology, meaning not all open sets contain a point in the countable subset and so no countable subset can be dense....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/separable_spaces/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Set partitions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A partition on a set \(X\) is a set \(\mathcal{P}\) of disjoint subsets of \(X\) such that \(X = \bigsqcup_{P \in \mathcal{P}} P\) where the sets \(P \in \mathcal{P}\) are called the parts of \(\mathcal{P}\).
-Properties The number of ways to partition a set of size \(n\) into exactly \(k\) nonempty parts is given by the stirling number of the second kind, \(\stirlingII{n}{k}\).
-The total number of ways to partition a set of size \(n\) is the \(n\)th Bell number....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/set_partitions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Simple groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Building blocks.
-Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial proper normal subgroups.
-Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
-Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
-The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Solvable groups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/solvable_groups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Standard young tableaux</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A Young tableau is a Ferrers diagram filled in with all numbers \(1, \dots, n\). A standard Young tableau is a Young tableau in which the numbers \(1, \dots, n\) are arranged so that they are increasing left to right along rows and increasing top to bottom along columns. The tableau is said to have shape \(\lambda = (a_1, \dots, a_k)\) where \(n = a_1 &#43; \dots &#43; a_k\) is a partition of \(n\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/syt/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Stirling numbers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions The unsigned Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number permutations of \([n]\) with \(k\) cycles in their disjoint cycle decompositions. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
-Properties The (unsigned) Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-1}{k-1} &#43; (n-1) \stirlingI{n-1}{k},\] and we also have the following: \[\begin{align*} &amp;\stirlingI{n}{n} = 1 \\ &amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;\stirlingI{n}{k} = 0 \quad k &gt; n \end{align*}\]...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/stirling_numbers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Subbasis for a topological space</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space and let \(\Sub \subset \T\). \(\Sub\) is a subbasis for the topology \(\T\) if and only if the collection \(\B\) of all finite intersections of sets in \(\Sub\) is a basis for \(\T\).
-If \(\Sub\) is a subbasis, we call \(S \in \Sub\) a subbasic open set.
-Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is also a subbasis....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subbasis/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -339,6 +334,7 @@ Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

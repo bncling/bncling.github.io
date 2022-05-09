@@ -126,6 +126,109 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Ideal of a set</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(S\) be a subset of the affine space \(k^n\) for some field \(k\). The ideal of \(S\), denoted \(\I(S)\), is the set \[\I(S) = \{f \in \pring{k}{x_1, \dots, x_n} \mid f(a) = 0 \text{ for all } a \in S\}\] where \(\pring{k}{x_1, \dots, x_n}\) is the ring of polynomials in \(n\) variables over the field \(k\). For a set \(S\), the ideal of \(S\) is the collection of polynomials that vanish at all points of \(S\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ideal_of_a_set/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Ideals of a ring</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A left ideal of a ring \((R, &#43;, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/ideals/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Monomial orderings</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(\pring{k}{x_1, \dots, x_n}\) denote the ring of polynomials over the field \(k\). A monomial ordering \(&gt;\) on \(\pring{k}{x_1, \dots, x_n}\) is a relation on \(\Z_\geq^n\) (the set of nonnegative integers) satisfying
+\(&gt;\) is a well-order on \(\Z_\geq^n\) (and so also a total order). If \(\alpha &gt; \beta\) and \(\gamma \in \Z_\geq^n\), then \(\alpha &#43; \gamma &gt; \beta &#43; \gamma\).  This is called a monomial ordering because the set \(\Z_\geq^n\) is in one-to-one correspondence with the set of monomials in \(\pring{k}{x_1, \dots, x_n}\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/monomial_orderings/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Polynomial rings</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Given a field \(k\), the polynomial ring in \(n\) variables over \(k\) is a commutative ring denoted by \(\pring{k}{x_1, \dots, x_n}\) containing all polynomials over \(k\) in \(n\) variables.
+Properties The Hilbert Basis Theorem: Every ideal in the ring \(\pring{k}{x_1, \dots, x_n}\) is finitely generated. That is, given an ideal \(I \subset \pring{k}{x_1, \dots, x_n}\), there exist finitely many polynomials \(f_i \in \pring{k}{x_1, \dots, x_n}\) such that \(I = \langle f_1, \dots, f_s \rangle\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/poly_rings/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Polynomials</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A monomial in variables \(x_1, \dots, x_n\) is a product of the form \(x_1^{\alpha_1} \dots x_n^{\alpha_n}\) for nonnegative integers \(\alpha_i\), often written as \(x^\alpha\) where \(\alpha\) is a list \(\alpha = (\alpha_1, \dots, \alpha_n)\), of powers \(\alpha_i \in \Z_\geq\). The sum \(\vert \alpha \vert = \alpha_1 &#43; \dots &#43; \alpha_n\) is called the total degree of the monomial.
+A polynomial in variables \(x_1, \dots, x_n\) is a finite linear combination of monomials with coefficients in some field \(k\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/polynomials/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Radical ideals</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition An ideal \(I\) of a ring \(R\) is called a radical ideal if \(a^m \in I\) for some integer \(m \geq 1\) implies that \(a \in I\).
+Properties All maximal ideals are radical ideals....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/radical_ideals/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The radical of an ideal</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(I\) be an ideal of the polynomial ring \(\pring{k}{x_1, \dots, x_n}\). The radical of \(I\) is the set \[\sqrt{I} = \{f \mid f^m \in I \text{ for some integer } m \geq 1\}.\]
+Properties If \(I \subset \pring{k}{x_1, \dots, x_n}\) is an ideal, then \(\sqrt{I}\) is also an ideal in \(\pring{k}{x_1, \dots, x_n}\) and contains \(I\).
+If \(I \subset \pring{k}{x_1, \dots, x_n}\) is an ideal, then \(\sqrt{I}\) is a radical ideal....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/radical_of_an_ideal/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Variety of an ideal</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(I\) be an ideal of the polynomial ring \(\pring{k}{x_1, \dots, x_n}\). The variety of \(I\), denoted by \(\V(I)\) is the set \[\V(I) = \{(a_1, \dots, a_n) \in k^n \mid f(a_1, \dots, a_n) = 0 \text{ for all} f \in I\},\] where \(k^n\) is the \(n\)-dimensional affine space over the field \(k\).
+Properties Given an ideal \(I\), the set \(\V(I)\) is an affine variety, and if \(I = \langle f_1, \dots, f_s \rangle\), then \(\V(I) = \V(f_1, \dots, f_s)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/variety_of_an_ideal/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Affine spaces</h2>
   </header>
   <section class="entry-content">
@@ -148,43 +251,6 @@ Examples The set \(\R^n\) is an affine space....</p>
     <time>February 2, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/affine_variety/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Polynomials</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A monomial in variables \(x_1, \dots, x_n\) is a product of the form \(x_1^{\alpha_1} \dots x_n^{\alpha_n}\) for nonnegative integers \(\alpha_i\), often written as \(x^\alpha\) where \(\alpha\) is a list \(\alpha = (\alpha_1, \dots, \alpha_n)\), of powers \(\alpha_i \in \Z_\geq\). The sum \(\vert \alpha \vert = \alpha_1 &#43; \dots &#43; \alpha_n\) is called the total degree of the monomial.
-A polynomial in variables \(x_1, \dots, x_n\) is a finite linear combination of monomials with coefficients in some field \(k\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>February 2, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/polynomials/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Ideals of a ring</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A left ideal of a ring \((R, &#43;, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>February 2, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/ideals/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Polynomial Rings</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>February 1, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/poly_rings/"></a>
 </article></main>
 <footer class="footer">
   <span>&copy; 2022 <a href="https://bncling.github.io/">Ben Clingenpeel</a></span>
@@ -255,6 +321,7 @@ A polynomial in variables \(x_1, \dots, x_n\) is a finite linear combination of 
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

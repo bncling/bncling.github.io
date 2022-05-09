@@ -130,6 +130,128 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Rank of a matrix</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \(A \in \F^{m,n}\) be a matrix. Then the row rank of \(A\) is the dimension of the span of the rows of \(A\) (thought of as matrices in \(\F^{1,n}\)), and the column rank of \(A\) is the dimension of the span of the columns of \(A\) (thought of as matrices in \(\F^{m,1}\)).
+Properties (3.117) Proposition: The column rank of \(A\) is the dimension of the range of \(T\), where \(T\) is the linear map that \(A\) represents....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/matrix_rank/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Regular spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X, \T)\) be a topological space. It is regular if and only if for every point \(x \in X\) and closed set \(A \subset X\) with \(x \notin A\), there exist disjoint open sets \(U\) and \(V\) such that \(x \in U\) and \(A \subset V\).
+Properties Theorem 4.8: A space \((X, \T)\) is regular if and only if for each point \(p \in X\) and open set \(U\) with \(p \in U\), there exists an open set \(V\) such that \(p \in V\) and \(\overline{V} \subset U\) (where \(\overline{V}\) is the closure of \(V\) in \((X, \T)\))....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/regular/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Separable spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Defintion A topological space \((X, \T)\) is separable if and only if \(X\) has a countable dense subset.
+Properties Exercise 5.4: A space \((X, \T)\) being separable does not imply that all of its subspaces are separable.
+Theorem 5.5: If two spaces \(X\) and \(Y\) are separable, then \(X \times Y\) with the product topology is separable.
+Examples The space \(\Rs\) is separable, but \(\R\) with the discrete topology is not separable because the reals are uncountable and so for any countable subset, there is point not in the subset, and the set containing this point is open in the discrete topology, meaning not all open sets contain a point in the countable subset and so no countable subset can be dense....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/separable_spaces/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Set partitions</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A partition on a set \(X\) is a set \(\mathcal{P}\) of disjoint subsets of \(X\) such that \(X = \bigsqcup_{P \in \mathcal{P}} P\) where the sets \(P \in \mathcal{P}\) are called the parts of \(\mathcal{P}\).
+Properties The number of ways to partition a set of size \(n\) into exactly \(k\) nonempty parts is given by the stirling number of the second kind, \(\stirlingII{n}{k}\).
+The total number of ways to partition a set of size \(n\) is the \(n\)th Bell number....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/set_partitions/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Simple groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Building blocks.
+Definition A group \((G, \cdot)\) is simple if and only if it has no nontrivial proper normal subgroups.
+Properties If \(G\) is a simple group that is not abelian, then \(G\) is not solvable.
+Examples The only abelian simple groups are the cyclic groups of prime order, isomorphic to \(\Z_p\) for a prime \(p\).
+The alternating group \(A_n\) is simple for \(n \geq 5\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/simple_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Solvable groups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/solvable_groups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Standard young tableaux</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A Young tableau is a Ferrers diagram filled in with all numbers \(1, \dots, n\). A standard Young tableau is a Young tableau in which the numbers \(1, \dots, n\) are arranged so that they are increasing left to right along rows and increasing top to bottom along columns. The tableau is said to have shape \(\lambda = (a_1, \dots, a_k)\) where \(n = a_1 &#43; \dots &#43; a_k\) is a partition of \(n\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/syt/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Stirling numbers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions The unsigned Stirling numbers of the first kind, denoted \(\stirlingI{n}{k}\), count the number permutations of \([n]\) with \(k\) cycles in their disjoint cycle decompositions. The Stirling numbers of the second kind, denoted \(\stirlingII{n}{k}\), count the number of ways sets \([n]\) can be partitioned into \(k\) nonempty parts.
+Properties The (unsigned) Stirling numbers of the first kind satisfy the following recursion: \[\stirlingI{n}{k} = \stirlingI{n-1}{k-1} &#43; (n-1) \stirlingI{n-1}{k},\] and we also have the following: \[\begin{align*} &amp;\stirlingI{n}{n} = 1 \\ &amp;\stirlingI{n}{0} = 0 \quad n \geq 1 \\ &amp;\stirlingI{n}{k} = 0 \quad k &gt; n \end{align*}\]...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/stirling_numbers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Subbasis for a topological space</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X, \T)\) be a topological space and let \(\Sub \subset \T\). \(\Sub\) is a subbasis for the topology \(\T\) if and only if the collection \(\B\) of all finite intersections of sets in \(\Sub\) is a basis for \(\T\).
+If \(\Sub\) is a subbasis, we call \(S \in \Sub\) a subbasic open set.
+Properties Exercise 3.13: If \(\B\) is a basis for a topology \(\T\), then it is also a subbasis....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subbasis/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Subspaces in topology</h2>
   </header>
   <section class="entry-content">
@@ -140,133 +262,6 @@ Definition Let \((X, \T)\) be a topological space and let \(Y\) be a subset of \
     <time>December 22, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/top_subspaces/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The alternating group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The alternating group, denoted \(A_n\), is the normal subgroup of \(S_n\) containing all even permutations.
-Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).
-Because \([S_n:A_n] = 2\), \(A_n\) is normal in \(S_n\).
-Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\). This is because if \(H\) is a subgroup of order \(6\), it contains at least two \(3\)-cycles because \(A_4\) contains all eight \(3\)-cycles (since all odd-length cycles are even)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The center of a group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
-Properties If \(G\) is an abelian group, then \(Z(G) = G\).
-The center of \(G\) is always a normal subgroup of \(G\).
-The center of \(G\) is the intersection of the centralizers of all of its elements: \[Z(G) = \bigcap_{g \in G} C(g)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_center/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The dihedral group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Symmetries of a polygon.
-Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
-Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The general linear group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The general linear group, denoted \(GL_n(\F)\), is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/gen_linear/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The group of integers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The set of integers, \(\Z\), together with the operation addition forms an infinite group.
-Properties The group is cyclic generated by \(\pm 1\), and abelian since addition is commutative.
-Every subgroup of \(\Z\) has the form \(n\Z = \langle n \rangle = \{nz \mid z \in \Z\}\) for some \(n \in \Z\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/integer_group/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The group of units</h2>
-  </header>
-  <section class="entry-content">
-   <p>Sometimes denoted \(\Z_n^\times\).
-Definition The group of units mod \(n\), denoted \(U(n)\), is a finite group formed by removing the non-invertible elements of \(\Z_n\) (which are equivalence classes) under multiplication.
-Properties The group of units is an abelian group since multiplcation of equivalence classes is commutative.
-The group of units mod \(n\) is not always cyclic in general, but if \(n\) is \(2\), \(4\), \(p^k\), or \(2p^k\) for a prime \(p\) and natural number \(k\), then it is cyclic becuase the group has a generator....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/unit_grp/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The integers mod $n$</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The set of equivalence classes on \(\Z\) modulo \(n\) forms a finite group.
-Properties The group is cyclic generated by the equivalence classes of numbers relatively prime to \(n\), and abelian since addition of equivalence classes is commutative....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/ints_modn/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Klein four-group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The Klein four-group is a group that can be thought of in many ways, one of which is as the external direct product \(\Z_2 \times \Z_2\), and is typically denoted by \(V\).
-Properties The group is abelian.
-Every non-identity element has order \(2\).
-Examples The group can also be thought of as being given by the group presentation \(\langle a,b \mid a^2, b^2, (ab)^2 \rangle\).
-Alternatively, the group can be thought of as the subgroup of the general linear group \(GL_2(\R)\) given by \[V = \left\{ \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}, \begin{pmatrix} -1 &amp; 0 \\ 0 &amp; -1 \end{pmatrix} \right\}....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/klein4/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The special linear group</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The special linear group denoted \(SL_n(\F)\) is the group of \(n\)-by-\(n\) invertible matrices over the field \(\F\) with determinant \(1\).
-Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the general linear group \(GL_n(\F)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 22, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/special_linear/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -343,6 +338,7 @@ Properties The special linear group \(SL_n(\F)\) is a normal subgroup of the gen
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

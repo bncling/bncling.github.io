@@ -126,6 +126,50 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>The alternating group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The alternating group, denoted \(A_n\), is the normal subgroup of \(S_n\) containing all even permutations.
+Properties The group has order \(n! / 2\). It is not abelian or cyclic for \(n \geq 4\), and it is simple for \(n \geq 5\).
+Because \([S_n:A_n] = 2\), \(A_n\) is normal in \(S_n\).
+Examples The group \(A_4\) has order \(12\) but has no subgroups of order \(6\). This is because if \(H\) is a subgroup of order \(6\), it contains at least two \(3\)-cycles because \(A_4\) contains all eight \(3\)-cycles (since all odd-length cycles are even)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/alternating/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The center of a group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((G, \cdot)\) be a group. The center of \(G\) is the set \(\{x \in G \mid gx = xg \,\, \forall g \in G\}\), denoted \(Z(G)\), of elements in \(G\) that commute with all other elements.
+Properties If \(G\) is an abelian group, then \(Z(G) = G\).
+The center of \(G\) is always a normal subgroup of \(G\).
+The center of \(G\) is the intersection of the centralizers of all of its elements: \[Z(G) = \bigcap_{g \in G} C(g)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/grp_center/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The dihedral group</h2>
+  </header>
+  <section class="entry-content">
+   <p>Symmetries of a polygon.
+Definition The dihedral group \(D_n\) is the group of symmetries of a regular \(n\)-gon. The elements of the group are the rigid motions that act on the \(n\)-gon with barycenter at the origin, together with composition as the group operation.
+Properties The group contains \(n\) rotations (counting the identity as a rotation by \(0\) radians), written as \(r^j\) for \(0 \leq j &lt; n\) and \(n\) reflections, all of which have order \(2\) and can be written as \(sr^j\) for a given reflection \(s\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 22, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/dihedral/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>The general linear group</h2>
   </header>
   <section class="entry-content">
@@ -221,43 +265,6 @@ Properties The group \(S_n\) is not cyclic or abelian for \(n \geq 3\)....</p>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/symm_group/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Centralizers</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/centralizers/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Subgroups</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &lt; G\) if \(H\) is a subgroup of \(G\).
-Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 7, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Fields</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 5, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/fields/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/tags/algebra/page/2/">← Prev Page</a>
@@ -333,6 +340,7 @@ Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

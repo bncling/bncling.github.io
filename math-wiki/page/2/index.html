@@ -130,35 +130,124 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Manifolds</h2>
+    <h2>The radical of an ideal</h2>
   </header>
   <section class="entry-content">
-   <p>Definition A topological space is an \(n\)-manifold if an only if it is a separable, metrizable space in which every point has a neighborhood that is homeomorphic to an open ball in \(\R^n\) with the standard topology.
-Properties Because manifolds are metrizable, they are also 1st countable, Hausdorff, regular, and normal.
-Theorems 11.25-11.27: A space \(M\) is a compact, connected, triangulable 2-manifold if and only if \(M\) is homeomorphic to a polygonal presentation....</p>
+   <p>Definition Let \(I\) be an ideal of the polynomial ring \(\pring{k}{x_1, \dots, x_n}\). The radical of \(I\) is the set \[\sqrt{I} = \{f \mid f^m \in I \text{ for some integer } m \geq 1\}.\]
+Properties If \(I \subset \pring{k}{x_1, \dots, x_n}\) is an ideal, then \(\sqrt{I}\) is also an ideal in \(\pring{k}{x_1, \dots, x_n}\) and contains \(I\).
+If \(I \subset \pring{k}{x_1, \dots, x_n}\) is an ideal, then \(\sqrt{I}\) is a radical ideal....</p>
   </section>
   <footer class="entry-footer">
-    <time>April 7, 2022</time>
+    <time>May 9, 2022</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/manifolds/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/radical_of_an_ideal/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Open sets</h2>
+    <h2>Variety of an ideal</h2>
   </header>
   <section class="entry-content">
-   <p>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
-If \(p\) is a point in \(X\) and \(U\) is an open set containing \(p\), then \(U\) is called a neighborhood of \(p\).
-Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\)....</p>
+   <p>Definition Let \(I\) be an ideal of the polynomial ring \(\pring{k}{x_1, \dots, x_n}\). The variety of \(I\), denoted by \(\V(I)\) is the set \[\V(I) = \{(a_1, \dots, a_n) \in k^n \mid f(a_1, \dots, a_n) = 0 \text{ for all} f \in I\},\] where \(k^n\) is the \(n\)-dimensional affine space over the field \(k\).
+Properties Given an ideal \(I\), the set \(\V(I)\) is an affine variety, and if \(I = \langle f_1, \dots, f_s \rangle\), then \(\V(I) = \V(f_1, \dots, f_s)\)....</p>
   </section>
   <footer class="entry-footer">
-    <time>April 7, 2022</time>
+    <time>May 9, 2022</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_sets/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/variety_of_an_ideal/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Triangulations</h2>
+    <h2>Compactness</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 8, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/compactness/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Homotopy</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \(X\) and \(Y\) be topological spaces and let \(f,g: X \to Y\) be continuous functions. A homotopy between \(f\) and \(g\) is a continuous map \(H: X \times [0,1] \to Y\) such that \(H(x,0) = f(x)\) and \(H(x,1) = g(x)\) for all \(x \in X\). If a homotopy between \(f\) and \(g\) exists, we write \(f \simeq g\) and say that \(f\) is homotopic to \(g\).
+If \(f \simeq g\) and \(g\) is constant function, we say that \(f\) is null-homotopic....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 8, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/homotopy/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Metric spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A topological space \((X,\T)\) is written as \((X,d)\) and called a metric space if and only if there exists a metric \(d\) on \(X\) such that the \(d\)-metric topology is \(\T\). In this case, \((X, \T)\) is also called metrizable.
+Properties Theorem 9.7: If \((X,\T)\) is a metric space and \(Y\) is a subset of \(X\), then \((Y,\T_Y)\) is a metric space (where \(\T_Y\) is the subspace topology inherited from \(\T\))....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 8, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/metric_spaces/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Paths</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((X,\T)\) be a topological space. A path from \(x\) to \(y\) for points \(x,y \in X\) is a continuous function \(f: [0,1] \to X\) such that \(f(0) = x\) and \(f(1) = y\).
+We say that two paths \(\alpha\) and \(\beta\) are equivalent and write \(\alpha \sim \beta\) if and only if they are homotopic relative to \(\{0,1\}\).
+We define the product of two paths \(\alpha\) and \(\beta\) in a space \(X\) to be the path \(\alpha \cdot \beta: [0,1] \to X\) given by \[(\alpha \cdot \beta)(s) = \begin{cases} \alpha(2s) &amp; 0 \leq s \leq 1/2 \\ \beta(2s - 1) &amp; 1/2 \leq s \leq 1....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 8, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/paths/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Star-like spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subspace \(X \subset \R^n\) with the standard topology is called star-like if there exists a point \(x_0 \in X\) such that for all \(y \in X\), the line segment between \(x_0\) and \(y\) is entirely contained in \(X\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>May 8, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/star_like/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Polygonal presentations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Viewing a polygon \(P\) in the plane \(\R^2\) as a topological space with the subspace topology allows us to construct a polygonal presentation as an identification space of \(P\) obtained by identifying the edges in pairs.
+A polygonal presentation can be specified by a word, which is a string of length \(2n\) made up of letters, each of which corresponds to a pair of edges identified. The word is formed by beginning at any edge and moving clockwise, with letters appearing alone if they are oriented clockwise and with superscripts \(-1\) if they are oriented counterclockwise....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>April 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/polygonal_presentations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Euler characteristic</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(M_T\) be a compact, triangulated 2-manifold \(M\) with triangulation \(T\). In this triangulation, let \(V\) denote the number of vertices in the triangulation, \(E\) the number of edges, and \(F\) the number of \(2\)-simplices (faces). The Euler characteristic of \(M_T\), denoted \(\chi(M_T)\) or just \(\chi(M)\), is \(\chi(M_T) = V - E &#43; F\).
+Properties Lemma 11.44: If \(M_1\) and \(M_2\) are compact 2-manifolds and \(M_1 \# M_2\) is any choice for the connected sum of \(M_1\) and \(M_2\), then the Euler characteristic of the connected sum is \(\chi(M_1 \# M_2) = \chi(M_1) &#43; \chi(M_2) - 2\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>April 9, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/euler_characteristic/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Connected sums</h2>
   </header>
   <section class="entry-content">
    <p>Content coming soon....</p>
@@ -166,107 +255,7 @@ Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for eac
   <footer class="entry-footer">
     <time>April 7, 2022</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/triangulations/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The topologist&#39;s comb</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition The topologist’s comb \(C\) is a subspace of the topological space \(\Rs^2\) given by \[C = \{(x,0) \mid x \in [0,1]\} \cup \bigcup_{n=1}^\infty \left\{ \left( \frac{1}{n},y \right) \bigg \vert y \in [0,1] \right\},\] that is, \(C\) is the \(x\)-axis from \(0\) to \(1\) along with infinitely many comb “teeth” that get increasingly close to \(x = 0\).
-The flea and comb space is \(C\) together with the point \((0,1)\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 26, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_comb/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Countably compact spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Similar to being compact, but weaker…
-Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
-Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.
-Theorem 6.26: If \(X\) is a \(T_1\) space, \(X\) is countably compact if and only if all infinite subsets of \(X\) have limit points....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 23, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/countably_compact/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Identification spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((X, \T)\) be a topological space and let \(X^*\) be a partition of \(X\). The identification map \(f: X \to X^*\) is the surjective map that takes each point of \(X\) to the part of the partition \(X^*\) containing it.
-The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a topology defined as follows: a set \(U \subset X^*\) is open in \(X^*\) if and only if the preimage \(f\inv(U)\) is open in \(X\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 23, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/identification_spaces/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Lindelöf spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Similar to being compact, but weaker…
-Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
-Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.
-Theorem 6.27: All uncountable sets in a Lindelöf space have limit points.
-Theorem 6.29: If \(A\) is a closed subset of a Lindelöf space \(X\), \(A\) is Lindelöf....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 23, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/lindel%C3%B6f/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Path components</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X,\T)\) be a topological space with an equivalence relation \(\sim\) on \(X\) such that \(x \sim y\) if and only if there is a path connected subset of \(X\) that contains both \(x\) and \(y\).
-Examples The path components of the closure of the topologist’s sine curve are the sine curve itself and the set \(\{(0,y) \mid y \in [-1,1]\}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 23, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/path_components/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Second countable spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A topological space \((X, \T)\) is called 2nd countable if and only if it has a countable basis.
-Properties Theorem 5.9: All 2nd countable spaces are separable.
-Theorem 5.11: All uncountable sets in a 2nd countable space have a limit point.
-Exercise 5.12: Every 2nd countable space is hereditarily 2nd countable .
-Exercise 5.13: If \(X\) and \(Y\) are 2nd countable spaces, then \(X \times Y\) is 2nd countable under the product topology....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 23, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/second_countable/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The standard topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>The standard topology is a topology defined on \(\mathbb{R}^n\) for \(n \in \mathbb{N}\).
-Definitions The Euclidean distance between two points \(x = (x_1, x_2, \dots, x_n)\) and \(y = (y_1, y_2, \dots, y_n)\) is defined as \[d(x,y) = \left( \sum_{i = 1}^n (x_i - y_i)^2 \right)^{\frac{1}{2}}.\]
-An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^n\) is the set \(B(p, \varepsilon) = \{x \mid d(p,x) &lt; \varepsilon\}\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 23, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/standard_topology/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/connected_sums/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -343,6 +332,7 @@ An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

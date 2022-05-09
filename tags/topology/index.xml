@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/topology/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Path connectedness</title>
+      <link>https://bncling.github.io/math-wiki/path_connectedness/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/path_connectedness/</guid>
+      <description>Definitions A topological space \((X,\T)\) is path connected if and only if for all \(p,q \in X\) there exists a path from \(p\) to \(q\).
+Properties Theorem 8.35: All path connected spaces are connected.
+Theorem 8.38: The product of path connected spaces with the product topology is path connected.
+Examples The closure of the topologist’s sine curve is connected but not path connected.
+Every nonempty open set in \(\R^n\) with the standard topology that is connected is path connected.</description>
+    </item>
+    
+    <item>
       <title>The fundamental group</title>
       <link>https://bncling.github.io/math-wiki/fundamental_group/</link>
       <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
@@ -45,19 +58,6 @@ If \(f \simeq g\) and \(g\) is constant function, we say that \(f\) is null-homo
       <guid>https://bncling.github.io/math-wiki/metric_spaces/</guid>
       <description>Definition A topological space \((X,\T)\) is written as \((X,d)\) and called a metric space if and only if there exists a metric \(d\) on \(X\) such that the \(d\)-metric topology is \(\T\). In this case, \((X, \T)\) is also called metrizable.
 Properties Theorem 9.7: If \((X,\T)\) is a metric space and \(Y\) is a subset of \(X\), then \((Y,\T_Y)\) is a metric space (where \(\T_Y\) is the subspace topology inherited from \(\T\)).</description>
-    </item>
-    
-    <item>
-      <title>Path connectedness</title>
-      <link>https://bncling.github.io/math-wiki/path_connectedness/</link>
-      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/path_connectedness/</guid>
-      <description>Definitions A space \(X\) is path connected if and only if for all \(p,q \in X\) there exists a path from \(p\) to \(q\).
-Properties Theorem 8.35: All path connected spaces are connected.
-Theorem 8.38: The product of path connected spaces with the product topology is path connected.
-Examples The closure of the topologist’s sine curve is connected but not path connected.
-Every nonempty open set in \(\R^n\) with the standard topology that is connected is path connected.</description>
     </item>
     
     <item>

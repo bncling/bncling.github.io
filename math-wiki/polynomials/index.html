@@ -124,13 +124,13 @@ if (!doNotTrack) {
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Polynomials</h1>
-    <div class="post-meta">February 2, 2022</div>
+    <div class="post-meta">May 9, 2022</div>
   </header>
   <div class="post-content"><h2 id="definitions">Definitions</h2>
 <p>A <strong>monomial</strong> in variables <span class="math inline">\(x_1, \dots, x_n\)</span> is a product of the form <span class="math inline">\(x_1^{\alpha_1} \dots x_n^{\alpha_n}\)</span> for nonnegative integers <span class="math inline">\(\alpha_i\)</span>, often written as <span class="math inline">\(x^\alpha\)</span> where <span class="math inline">\(\alpha\)</span> is a <a href="https://bncling.github.io/math-wiki/lists/">list</a> <span class="math inline">\(\alpha = (\alpha_1, \dots, \alpha_n)\)</span>, of powers <span class="math inline">\(\alpha_i \in \Z_\geq\)</span>. The sum <span class="math inline">\(\vert \alpha \vert = \alpha_1 + \dots + \alpha_n\)</span> is called the <strong>total degree</strong> of the monomial.</p>
 <p>A <strong>polynomial</strong> in variables <span class="math inline">\(x_1, \dots, x_n\)</span> is a <a href="https://bncling.github.io/math-wiki/cardinality/">finite</a> <a href="https://bncling.github.io/math-wiki/linear_combo/">linear combination</a> of monomials with coefficients in some <a href="https://bncling.github.io/math-wiki/fields/">field</a> <span class="math inline">\(k\)</span>. We can write an arbitrary polynomial <span class="math inline">\(f\)</span> in <span class="math inline">\(x_1, \dots, x_n\)</span> as <span class="math display">\[f = \sum_{\alpha} a_\alpha x^\alpha\]</span> where <span class="math inline">\(a_\alpha \in k\)</span> are the <strong>coefficients</strong> of the polynomial and the sum is taken over a finite number of lists <span class="math inline">\(\alpha\)</span>. We define the <strong>total degree</strong> of a polynomial <span class="math inline">\(f\)</span> to be <span class="math inline">\(\deg(f) = \max \{\vert \alpha \vert: a_\alpha \neq 0\}\)</span>, that is, the largest total degree of the monomials that make up the polynomial.</p>
 <h2 id="properties">Properties</h2>
-<p>For a field <span class="math inline">\(k\)</span>, the set of all polynomials in <span class="math inline">\(x_1, \dots, x_n\)</span> with coefficients in <span class="math inline">\(k\)</span> is denoted <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span>, and this set forms a <a href="https://bncling.github.io/math-wiki/rings/">ring</a>.</p>
+<p>For a field <span class="math inline">\(k\)</span>, the set of all polynomials in <span class="math inline">\(x_1, \dots, x_n\)</span> with coefficients in <span class="math inline">\(k\)</span> is denoted <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span>, and this set forms a <a href="https://bncling.github.io/math-wiki/poly_rings/">ring</a>.</p>
 <p>A polynomial <span class="math inline">\(f \in \pring{k}{x_1, \dots, x_n}\)</span> can also be thought of as a <a href="https://bncling.github.io/math-wiki/function/">function</a> <span class="math inline">\(f:k^n \to k\)</span> (where <span class="math inline">\(k^n\)</span> is the <span class="math inline">\(n\)</span>-dimensional <a href="https://bncling.github.io/math-wiki/affine_space/">affine space</a> over <span class="math inline">\(k\)</span>) that takes a list <span class="math inline">\((a_1, \dots, a_n)\)</span> in <span class="math inline">\(k^n\)</span> and maps it to an element in <span class="math inline">\(k\)</span> by replacing all of the indeterminate <span class="math inline">\(x_i\)</span> with the corresponding <span class="math inline">\(a_i\)</span> from the list. (Though note that the associated function isn’t necessarily unique–this depends on the field <span class="math inline">\(k\)</span>.)</p>
 <h2 id="examples">Examples</h2>
 <p>The list <span class="math inline">\(\alpha = (2, 2, 0, 5)\)</span> corresponds to the monomial <span class="math inline">\(x_1^2 x_2^2 x_4^5\)</span> and has total degree <span class="math inline">\(2 + 2 + 5 = 9\)</span>.</p>
@@ -199,6 +199,7 @@ if (!doNotTrack) {
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"
@@ -278,6 +279,7 @@ if (!doNotTrack) {
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Polynomial Rings - Ben Clingenpeel</title>
+    <title>Polynomial rings - Ben Clingenpeel</title>
     
-    <meta name="description" content="Content coming soon.">
+    <meta name="description" content="Definition Given a field \(k\), the polynomial ring in \(n\) variables over \(k\) is a commutative ring denoted by \(\pring{k}{x_1, \dots, x_n}\) containing all polynomials over \(k\) in \(n\) variables.
+Properties The Hilbert Basis Theorem: Every ideal in the ring \(\pring{k}{x_1, \dots, x_n}\) is finitely generated. That is, given an ideal \(I \subset \pring{k}{x_1, \dots, x_n}\), there exist finitely many polynomials \(f_i \in \pring{k}{x_1, \dots, x_n}\) such that \(I = \langle f_1, \dots, f_s \rangle\).">
     <meta name="author" content="">
     
     <link href="https://bncling.github.io/an-old-hope.min.css" rel="stylesheet">
@@ -122,16 +123,21 @@ if (!doNotTrack) {
 
 <article class="post-single">
   <header class="post-header">
-    <h1 class="post-title">Polynomial Rings</h1>
-    <div class="post-meta">February 1, 2021</div>
+    <h1 class="post-title">Polynomial rings</h1>
+    <div class="post-meta">May 9, 2022</div>
   </header>
-  <div class="post-content"><p>Content coming soon.</p>
+  <div class="post-content"><h2 id="definition">Definition</h2>
+<p>Given a <a href="https://bncling.github.io/math-wiki/fields/">field</a> <span class="math inline">\(k\)</span>, the <strong>polynomial ring</strong> in <span class="math inline">\(n\)</span> variables over <span class="math inline">\(k\)</span> is a <a href="https://bncling.github.io/math-wiki/rings/">commutative ring</a> denoted by <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span> containing all <a href="https://bncling.github.io/math-wiki/polynomials/">polynomials</a> over <span class="math inline">\(k\)</span> in <span class="math inline">\(n\)</span> variables.</p>
+<h2 id="properties">Properties</h2>
+<p><strong>The Hilbert Basis Theorem:</strong> Every <a href="https://bncling.github.io/math-wiki/ideals/">ideal</a> in the ring <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span> is finitely generated. That is, given an ideal <span class="math inline">\(I \subset \pring{k}{x_1, \dots, x_n}\)</span>, there exist finitely many polynomials <span class="math inline">\(f_i \in \pring{k}{x_1, \dots, x_n}\)</span> such that <span class="math inline">\(I = \langle f_1, \dots, f_s \rangle\)</span>.</p>
+<p><strong>The Ascending Chain Condition:</strong> Let <span class="math inline">\(I_1 \subset I_2 \subset I_3 \subset \dots\)</span> be an ascending chain of ideals in <span class="math inline">\(\pring{k}{x_1, \dots, x_n}\)</span>. Then there exists some <span class="math inline">\(N \geq 1\)</span> such that <span class="math inline">\(I_N = I_{N+1} = I_{N+2} = \dots\)</span></p>
+<p><strong>The Weak Nullstellensatz:</strong> Let <span class="math inline">\(k\)</span> be an <a href="https://bncling.github.io/math-wiki/fields/">algebraically closed field</a> and let <span class="math inline">\(I \subset \pring{k}{x_1, \dots, x_n}\)</span> be an ideal such that the <a href="https://bncling.github.io/math-wiki/variety_of_an_ideal/">variety of <span class="math inline">\(I\)</span></a> is <span class="math inline">\(\V(I) = \emptyset\)</span>. Then <span class="math inline">\(I = \pring{k}{x_1, \dots, x_n}\)</span>.</p>
+<p><strong>Hilbert’s Nullstellensatz:</strong> Let <span class="math inline">\(k\)</span> be an algebraically closed field. If <span class="math inline">\(f, f_1, \dots, f_s \in \pring{k}{x_1, \dots, x_n}\)</span>, then <span class="math inline">\(f \in \I(\V(f_1, \dots, f_s))\)</span> if and only if there exists some <span class="math inline">\(m \geq 1\)</span> such that <span class="math inline">\(f^m \in \langle f_1, \dots, f_s \rangle\)</span>, where <span class="math inline">\(\I(\V(f_1, \dots, f_s))\)</span> is the <a href="https://bncling.github.io/math-wiki/ideal_of_a_set/">ideal of the variety</a> <span class="math inline">\(\V(f_1, \dots, f_s)\)</span>.</p>
+<p><strong>The Strong Nullstellensatz:</strong> Let <span class="math inline">\(k\)</span> be an algebraically closed field and let <span class="math inline">\(I \subset \pring{k}{x_1, \dots, x_n}\)</span>. Then <span class="math inline">\(\I(\V(I)) = \sqrt{I}\)</span>, where <span class="math inline">\(\sqrt{I}\)</span> is the <a href="https://bncling.github.io/math-wiki/radical_of_an_ideal/">radical of <span class="math inline">\(I\)</span></a>.</p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://bncling.github.io/tags/alg_geo">alg_geo</a></li>
-      <li><a href="https://bncling.github.io/tags/algebra">algebra</a></li>
-      <li><a href="https://bncling.github.io/tags/coming_soon">coming_soon</a></li>
     </ul>
   </footer>
   
@@ -192,6 +198,7 @@ if (!doNotTrack) {
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"
@@ -271,6 +278,7 @@ if (!doNotTrack) {
             "\\im":"\\text{im}",
             "\\pring":"{#1}[{#2}]",
             "\\V":"\\mathbf{V}",
+            "\\I":"\\mathbf{I}",
             "\\Tor":"\\mathbb{T}",
             "\\Sp":"\\mathbb{S}",
             "\\RP":"\\mathbb{R}\\text{P}"

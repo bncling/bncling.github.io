@@ -6,7 +6,35 @@
     <description>Recent content in algebra on Ben Clingenpeel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bncling.github.io/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ideals of a ring</title>
+      <link>https://bncling.github.io/math-wiki/ideals/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/ideals/</guid>
+      <description>Definition A left ideal of a ring \((R, +, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal.</description>
+    </item>
+    
+    <item>
+      <title>Maximal ideals</title>
+      <link>https://bncling.github.io/math-wiki/maximal_ideals/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/maximal_ideals/</guid>
+      <description>Content coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Radical ideals</title>
+      <link>https://bncling.github.io/math-wiki/radical_ideals/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/radical_ideals/</guid>
+      <description>Definition An ideal \(I\) of a ring \(R\) is called a radical ideal if \(a^m \in I\) for some integer \(m \geq 1\) implies that \(a \in I\).
+Properties All maximal ideals are radical ideals.</description>
+    </item>
+    
     <item>
       <title>Rings</title>
       <link>https://bncling.github.io/math-wiki/rings/</link>
@@ -335,15 +363,6 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
     </item>
     
     <item>
-      <title>Ideals of a ring</title>
-      <link>https://bncling.github.io/math-wiki/ideals/</link>
-      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/ideals/</guid>
-      <description>Definition A left ideal of a ring \((R, +, \cdot)\) is a subring \(I \subset R\) with the additional property that for all \(a \in I\) and \(r \in R\), \(ra \in I\), that is, the ideal absorbs elements from the ring multiplied on the left. A right ideal is defined analogously. A two-sided ideal, or just an ideal, is a subring that is both a left and right ideal.</description>
-    </item>
-    
-    <item>
       <title>Subrings</title>
       <link>https://bncling.github.io/math-wiki/subrings/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
@@ -352,15 +371,6 @@ Definitions A group \((G, \cdot)\) is a set \(G\) together with a binary operati
       <description>Definition A subring of a ring \((R, +, \cdot)\) is a subset \(S \subset R\) such that \((S, +, \cdot)\) is also a ring.
 Properties A set \(S\) is a subring of a ring \(R\) if and only if
  \(S \neq \emptyset\); \(rs \in S\) for all \(r,s \in S\); \(r - s \in S\) for all \(r,s \in S\).  </description>
-    </item>
-    
-    <item>
-      <title>Polynomial Rings</title>
-      <link>https://bncling.github.io/math-wiki/poly_rings/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/poly_rings/</guid>
-      <description>Content coming soon.</description>
     </item>
     
   </channel>
