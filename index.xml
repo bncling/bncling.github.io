@@ -8,6 +8,79 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Jul 2021 15:02:17 -0400</lastBuildDate><atom:link href="https://bncling.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The fundamental group</title>
+      <link>https://bncling.github.io/math-wiki/fundamental_group/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/fundamental_group/</guid>
+      <description>Definitions The fundamental group of \(X\) based at \(p\), denoted \(\pi_1(X,p)\) is the set of loop equivalence classes with binary operation \([\alpha] \cdot [\beta] = [\alpha \cdot \beta]\).
+Properties Theorem 12.9: The fundamental group \(\pi_1(X,p)\) is a group with identity element \([e_p]\).
+Theorem 12.10: Let \(p,q \in X\) such that there is a path from \(p\) to \(q\). Then \(\pi_1(X,p) \cong \pi_1(X,q)\). For a path connected space \(X\), this holds for any \(p\) and \(q\).</description>
+    </item>
+    
+    <item>
+      <title>Compactness</title>
+      <link>https://bncling.github.io/math-wiki/compactness/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/compactness/</guid>
+      <description>Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&amp;#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\).</description>
+    </item>
+    
+    <item>
+      <title>Homotopy</title>
+      <link>https://bncling.github.io/math-wiki/homotopy/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/homotopy/</guid>
+      <description>Definitions Let \(X\) and \(Y\) be topological spaces and let \(f,g: X \to Y\) be continuous functions. A homotopy between \(f\) and \(g\) is a continuous map \(H: X \times [0,1] \to Y\) such that \(H(x,0) = f(x)\) and \(H(x,1) = g(x)\) for all \(x \in X\). If a homotopy between \(f\) and \(g\) exists, we write \(f \simeq g\) and say that \(f\) is homotopic to \(g\).
+If \(f \simeq g\) and \(g\) is constant function, we say that \(f\) is null-homotopic.</description>
+    </item>
+    
+    <item>
+      <title>Metric spaces</title>
+      <link>https://bncling.github.io/math-wiki/metric_spaces/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/metric_spaces/</guid>
+      <description>Definition A topological space \((X,\T)\) is written as \((X,d)\) and called a metric space if and only if there exists a metric \(d\) on \(X\) such that the \(d\)-metric topology is \(\T\). In this case, \((X, \T)\) is also called metrizable.
+Properties Theorem 9.7: If \((X,\T)\) is a metric space and \(Y\) is a subset of \(X\), then \((Y,\T_Y)\) is a metric space (where \(\T_Y\) is the subspace topology inherited from \(\T\)).</description>
+    </item>
+    
+    <item>
+      <title>Path connectedness</title>
+      <link>https://bncling.github.io/math-wiki/path_connectedness/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/path_connectedness/</guid>
+      <description>Definitions A space \(X\) is path connected if and only if for all \(p,q \in X\) there exists a path from \(p\) to \(q\).
+Properties Theorem 8.35: All path connected spaces are connected.
+Theorem 8.38: The product of path connected spaces with the product topology is path connected.
+Examples The closure of the topologist’s sine curve is connected but not path connected.
+Every nonempty open set in \(\R^n\) with the standard topology that is connected is path connected.</description>
+    </item>
+    
+    <item>
+      <title>Paths</title>
+      <link>https://bncling.github.io/math-wiki/paths/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/paths/</guid>
+      <description>Definitions Let \((X,\T)\) be a topological space. A path from \(x\) to \(y\) for points \(x,y \in X\) is a continuous function \(f: [0,1] \to X\) such that \(f(0) = x\) and \(f(1) = y\).
+We say that two paths \(\alpha\) and \(\beta\) are equivalent and write \(\alpha \sim \beta\) if and only if they are homotopic relative to \(\{0,1\}\).
+We define the product of two paths \(\alpha\) and \(\beta\) in a space \(X\) to be the path \(\alpha \cdot \beta: [0,1] \to X\) given by \[(\alpha \cdot \beta)(s) = \begin{cases} \alpha(2s) &amp;amp; 0 \leq s \leq 1/2 \\ \beta(2s - 1) &amp;amp; 1/2 \leq s \leq 1.</description>
+    </item>
+    
+    <item>
+      <title>Star-like spaces</title>
+      <link>https://bncling.github.io/math-wiki/star_like/</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bncling.github.io/math-wiki/star_like/</guid>
+      <description>Definition A subspace \(X \subset \R^n\) with the standard topology is called star-like if there exists a point \(x_0 \in X\) such that for all \(y \in X\), the line segment between \(x_0\) and \(y\) is entirely contained in \(X\).</description>
+    </item>
+    
+    <item>
       <title>Polygonal presentations</title>
       <link>https://bncling.github.io/math-wiki/polygonal_presentations/</link>
       <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
@@ -123,18 +196,6 @@ Examples The path components of the closure of the topologist’s sine curve are
     </item>
     
     <item>
-      <title>Path connectedness</title>
-      <link>https://bncling.github.io/math-wiki/path_connectedness/</link>
-      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/path_connectedness/</guid>
-      <description>Definitions Let \((X,\T)\) be a topological space. A path from \(x\) to \(y\) for points \(x,y \in X\) is a continuous function \(f: [0,1] \to X\) such that \(f(0) = x\) and \(f(1) = y\).
-A space \(X\) is path connected if and only if for all \(p,q \in X\) there exists a path from \(p\) to \(q\).
-Properties Theorem 8.35: All path connected spaces are connected.
-Theorem 8.38: The product of path connected spaces with the product topology is path connected.</description>
-    </item>
-    
-    <item>
       <title>Second countable spaces</title>
       <link>https://bncling.github.io/math-wiki/second_countable/</link>
       <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
@@ -221,16 +282,6 @@ The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathca
       <description>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is an embedding if and only if the function \(f: X \to f(X)\) is a homeomorphism where \(f(X)\) has the relative topology from \(Y\).
 Properties Corollary 7.31: Let \(X\) be compact and \(Y\) be Hausdorff. Then if \(f: X \to Y\) is an injective and continuous map, it is an embedding.
 Examples Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\).</description>
-    </item>
-    
-    <item>
-      <title>Metric spaces</title>
-      <link>https://bncling.github.io/math-wiki/metric_spaces/</link>
-      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/metric_spaces/</guid>
-      <description>Definition A topological space \((X,\T)\) is written as \((X,d)\) and called a metric space if and only if there exists a metric \(d\) on \(X\) such that the \(d\)-metric topology is \(\T\). In this case, \((X, \T)\) is also called metrizable.
-Properties Theorem 9.7: If \((X,\T)\) is a metric space and \(Y\) is a subset of \(X\), then \((Y,\T_Y)\) is a metric space (where \(\T_Y\) is the subspace topology inherited from \(\T\)).</description>
     </item>
     
     <item>
@@ -430,15 +481,6 @@ Properties Theorem 7.22: If \(X\) has basis \(\{B_\alpha\}_{\alpha \in \lambda}\
       <description>Definition Let \((X, \T)\) be a topological space. It is a \(T_1\)-space if and only if for every pair of distinct points \(x\) and \(y\), there exist open sets \(U\) and \(V\) such that \(x \in U\) and \(y \in V\) but \(x \notin V\) and \(y \notin U\).
 Properties Theorem 4.1: A space \((X, \T)\) is \(T_1\) if and only if singletons are closed.
 Theorem 4.7: If a space \((X, \T)\) is Hausdorff, \(T_3\), or \(T_4\), it is also \(T_1\).</description>
-    </item>
-    
-    <item>
-      <title>Compactness</title>
-      <link>https://bncling.github.io/math-wiki/compactness/</link>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bncling.github.io/math-wiki/compactness/</guid>
-      <description>Definitions Let \((X,\T)\) be a topological space and with a subset \(A \subset X\). A collection \(\Cov = \{C_\alpha\}_{\alpha \in \lambda}\) is called a cover of \(A\) if and only if \(A \subset \bigcup_{\alpha \in \lambda} C_\alpha\). The collection \(\Cov\) is called an open cover if each \(C_\alpha\) is an open set. A collection \(\Cov&amp;#39;\) is a subcover of \(\Cov\) if it is a subset of \(\Cov\) and is also a cover of \(A\).</description>
     </item>
     
     <item>

@@ -130,6 +130,56 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Vector spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions A vector space over a field \(\F\) (here either \(\R\) or \(\C\)) is a set \(V\), together with addition (\(&#43;\)) and scalar multiplication (\(\cdot\)) operations such that the following properties hold:
+ commutativity: \(u &#43; v = v &#43; u\) for all \(u, v \in V\); associativity: \((u &#43; v) &#43; w = u &#43; (v &#43; w)\) and \((ab)v = a(bv)\) for all \(u,v,w \in V\), \(a,b \in \F\); additive identity: there exists an element \(0 \in V\) such that \(v &#43; 0 = v\) for all \(v \in V\); additive inverse: for every \(v \in V\), there exists an element \(w \in V\) such that \(v &#43; w = 0\); multiplicative identity: \(1v = v\) for all \(v \in V\); distributive properties: \(a(u &#43; v) = au &#43; av\) and \((a &#43; b)v = av &#43; bv\) for all \(v,w \in V\) and \(a,b \in \F\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 9, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/vector_space/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Combinations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 8, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/combinations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Centralizers</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((G, \cdot)\) be a group with a subgroup \(H\). The centralizer of the subgroup \(H\) in \(G\), denoted \(C(H)\), is the set of elements of \(G\) that commute with all elements of \(H\). That is, \(C(H) = \{g \in G \mid gh = hg \,\, \forall h \in H\}\). For an element \(x \in G\), the centralizer of the element \(x\) in \(G\), denoted \(C(x)\) is the set of elements of \(G\) that commute with the element \(x\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/centralizers/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Subgroups</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A subgroup of a group \((G,\cdot)\) is a subset \(H \subset G\) such that \((H, \cdot)\) is a group under the same operation as \(G\). We write \(H &lt; G\) if \(H\) is a subgroup of \(G\).
+Properties The sets \(\{e\}\) and \(G\) are subgroups of \(G\) for all groups \(G\). Subgroups that are not \(\{e\}\) are called nontrivial, and subgroups that are not \(G\) are called proper subgroups....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>December 7, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/subgroups/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Determinants</h2>
   </header>
   <section class="entry-content">
@@ -206,61 +256,6 @@ For a matrix \(A\), we denote the entry in the \(i\)th row and \(j\)th column by
     <time>December 3, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/matrices/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Relations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A relation on a set \(S\) is a subset \(R \subset S \times S\). Two elements \(a,b \in S\) are related if and only if \((a,b) \in R\), and this is sometimes written \(aRb\).
-Relations are called
- reflexive if \((a,a) \in R\) for all \(a \in S\) (\(a\) is related to itself); irreflexive if \((a,a) \notin R\) for all \(a \in S\); symmetric if \((a,b) \in R\) implies \((b,a) \in R\); asymmetric if \((a,b) \in R\) implies \((b,a) \notin R\); antisymmetric if \((a,b),(b,a) \in R\) implies that \(a = b\); transitive if \((a,b),(b,c) \in R\) implies that \((a,c) \in R\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>December 3, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/relations/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Injectivity, surjectivity, and bijectivity</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A function or map \(f: \mathcal{D} \to \mathcal{C}\) is called injective if and only if for all \(a,b \in \mathcal{D}\) such that \(a \neq b\), we have that \(f(a) \neq f(b)\).
-It is called surjective if and only if for all \(y \in \mathcal{C}\), there exists an \(x \in \mathcal{D}\) such that \(f(x) = y\).
-It is called bijective if and only if it is both injective and surjective....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>November 21, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/inj_surj_bij/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Quotients of vector spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>They are themselves also vector spaces.
-Definitions Let \(U\) be a subspace of a vector space \(V\). The quotient space \(V / U\) is the set of all affine subsets of \(V\) parallel to \(U\). That is, \[V / U = \{v &#43; U \mid v \in V\}.\]
-For a subspace \(U\) of \(V\), the quotient map, denoted by \(\pi: V \to V / U\) is a linear map defined by \(\pi(v) = v &#43; U\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 18, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/vspace_quotients/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Systems of linear equations</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions A homogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= 0 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= 0 \end{align*}\] where \(A_j,k \in \F\) for \(j=1, \dots m\) and \(k=1, \dots n\).
-An inhomogeneous system of linear equations is a system consisting of \(m\) linear equations in \(n\) variables for some positive integers \(m\) and \(n\) of the form \[\begin{align*} \sum_{k=1}^n A_{1,k} x_k &amp;= c_1 \\ &amp;\vdots \\ \sum_{k=1}^n A_{m,k} x_k &amp;= c_m \end{align*}\] where \(A_{j,k}, c_j \in \F\) for \(j=1, \dots m\), \(k=1, \dots n\), and the \(c_j\) are not all zero....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>August 18, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/linear_systems/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

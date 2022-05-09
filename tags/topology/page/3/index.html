@@ -126,16 +126,86 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
-    <h2>Metric spaces</h2>
+    <h2>The topologist&#39;s sine curve</h2>
   </header>
   <section class="entry-content">
-   <p>Definition A topological space \((X,\T)\) is written as \((X,d)\) and called a metric space if and only if there exists a metric \(d\) on \(X\) such that the \(d\)-metric topology is \(\T\). In this case, \((X, \T)\) is also called metrizable.
-Properties Theorem 9.7: If \((X,\T)\) is a metric space and \(Y\) is a subset of \(X\), then \((Y,\T_Y)\) is a metric space (where \(\T_Y\) is the subspace topology inherited from \(\T\))....</p>
+   <p>A set in the standard topology on \(\mathbb{R}^2\).
+Definition In \((\mathbb{R}^2, \mathcal{T}_\text{std})\), the topologist’s sine curve is the set \[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]
+Properties Every point in the set \(\{(0,y) \mid -1 \leq y \leq 1 \}\) is a limit point of the topologist’s sine curve.
+Since none of the above points are in \(S\), \(S\) is not closed....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_sine/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Connected components</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(p\) be a point in a topological space \((X, \T)\). The component of \(p\) in \(X\) is the union of all connected subsets of \(X\) that contain \(p\).
+Properties Theorem 8.18: Given a space \(X\), every component in \(X\) is connected, closed, and not contained in any strictly larger connected set.
+Theorem 8.19: Given a space \(X\), the set of components of \(X\) is a partition of \(X\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 18, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/connected_components/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>$T_4$ spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X, \T)\) be a topological space. It is \(T_4\) if and only if it is both \(T_1\) and normal.
+Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also normal, \(T_3\), regular, Hausdorff, and \(T_1\).
+Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\)....</p>
   </section>
   <footer class="entry-footer">
     <time>March 16, 2022</time>
   </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/metric_spaces/"></a>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/t4/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Completely regular spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A topological space \((X,\T)\) is completely regular if and only if for each \(p \in X\) and closed set \(A \subset X\) with \(p \notin A\), there exists a continuous function \(f: X \to [0,1]\) such that \(f(p) = 0\) and \(f(x) = 1\) for all \(x \in A\).
+Properties Scholium 7.70: A space \(X\) is completely regular and \(T_1\) if and only if it can be embedded in the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 16, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/completely_regular/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Continuity</h2>
+  </header>
+  <section class="entry-content">
+   <p>Continuous functions can be drawn without picking up your pencil…?
+The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(\vert x - c \vert &lt; \delta\) implies \(\vert f(x) - f(c) \vert &lt; \varepsilon\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 16, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/continuity/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Embeddings</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is an embedding if and only if the function \(f: X \to f(X)\) is a homeomorphism where \(f(X)\) has the relative topology from \(Y\).
+Properties Corollary 7.31: Let \(X\) be compact and \(Y\) be Hausdorff. Then if \(f: X \to Y\) is an injective and continuous map, it is an embedding.
+Examples Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 16, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_embeddings/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -189,75 +259,6 @@ Examples If \(X\) is a compact subset of \(\R^n\) with the standard topology, th
     <time>March 2, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/top_cones/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Quotient spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Generalizing identification spaces.
-Definitions Let \((X,\T)\) be a topological spaces, let \(Y\) be a set, and let \(f: X \to Y\) be a surjection. Define the quotient topology on \(Y\) to be the topology in which \(U \subset Y\) is open if and only if \(f\inv(U)\) is open in \(X\).
-Given a surjective map \(f: X \to Y\) between topological spaces \(X\) and \(Y\), we call \(f\) a quotient map and \(Y\) a quotient space if and only if the topology on \(Y\) is the quotient topology with respect to \(Y\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 2, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_quotients/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Retractions</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(A\) be a subset of a topological space \((X, \T)\). A continuous function \(r: X \to A\) is called a retraction and \(A\) is called a retract if and only if for all \(a \in A\), we have that \(r(a) = a\).
-Properties Theorem 7.64: Let \(X\) be a normal space and let \(A \subset X\) be closed and homeomorphic to \([0,1]\) as a subspace of \(\Rs\). Then there exists a retraction \(r: X \to A\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 2, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/retractions/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Wedge sums</h2>
-  </header>
-  <section class="entry-content">
-   <p>Gluing two spaces together at a point.
-Definition Let \(A\) and \(B\) be disjoint topological spaces with points \(p \in A\) and \(q \in B\). We define the wedge sum of \(A\) and \(B\) relative to the points \(p\) and \(q\), denoted \(A \vee B\) to be the quotient space \(A \cup B / p \sim q\).
-Examples The bouquet of \(n\) circles is the result of gluing together \(n\) circles at one point....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 2, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/wedge_sum/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The box topology</h2>
-  </header>
-  <section class="entry-content">
-   <p>Another, weirder topology on an infinite product.
-Definition Let \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) be a (possibly infinite) collection of topological spaces. The box topology on the product \(\prod_{\alpha \in \lambda} X_\alpha\) is the topology generated by a basis consisting of sets of the form \(\prod_{\alpha \in \lambda} U_\alpha\) where \(U_\alpha\) is open in \((X_\alpha, \T_\alpha)\) for each \(\alpha\).
-Properties As a consequence of Theorem 3.27, if the collection \(\{(X_\alpha, \T_\alpha)\}_{\alpha \in \lambda}\) is finite, the box topology on \(\prod_{\alpha \in \lambda} X_\alpha\) is the same as the product topology....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>February 11, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/box_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Homeomorphisms</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is called a homeomorphism if it is bijective and both \(f\) and \(f\inv\) are continuous. When there exists a homeomorphism \(f: X \to Y\), we say the two spaces \(X\) and \(Y\) are homeomorphic or that they are topologically equivalent.
-Properties Theorem 7.26: Being homeomorphic is an equivalence relation on topological spaces.
-Theorem 7.28: If \(f: X \to Y\) is a continuous bijection, then being open or closed is equivalent to being a homeomorphism....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>February 9, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/homeomorphisms/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

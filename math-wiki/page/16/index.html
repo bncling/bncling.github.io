@@ -130,6 +130,60 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Lists</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(n\) be a nonnegative integer. Then a list of length \(n\) is an ordered collection of \(n\) objects, \((x_1, \dots, x_n)\).
+For \(j \in \{1, \dots, n\}\), we call the element \(x_j\) the \(j\)th coordinate of the list.
+Properties Two lists are equal if and only if they have the same length and the same coordinates in the same order. That is \((x_1, \dots, x_n) = (y_1, \dots, y_m)\) if and only if \(n = m\) and \(x_j = y_j\) for all \(j = 1, \dots, n\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lists/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Sequences</h2>
+  </header>
+  <section class="entry-content">
+   <p>They’re like lists but they’re infinitely long.
+Definitions For real numbers, a sequence is a function \(f: \mathbb{N} \to \mathbb{R}\), where the image of the number \(n\) under \(f\) is typically called \(a_n\). The sequence is written by listing its images: \(a_1, a_2, \dots\) or for short, \(\{a_n\}\).
+In a topological space \((X, \mathcal{T})\), a sequence is a function \(f: \mathbb{N} \to X\), where the image of the number \(i\) under \(f\) is typically called \(x_i\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/sequence/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Span</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \(v_1, \dots, v_n \in V\) be vectors in a vector space over \(\F\). The span of the list \((v_1, \dots, v_n)\), denoted \(\Span(v_1, \dots, v_n)\), is the set of all linear combinations, that is \[\Span(v_1, \dots, v_n) = \{a_1 v_1 &#43; \dots &#43; a_n v_n \mid a_1, \dots, a_n \in \F \}.\]
+Properties For a list of vectors \((v_1, \dots, v_n)\) in \(V\), \(\Span(v_1, \dots, v_n)\) is a subspace of \(V\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 17, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/span/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>$T_5$ spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition Let \((X, \T)\) be a topological space. It is \(T_5\) if and only if it is both \(T_1\) and completely normal.
+Properties Theorem 4.7: If a space \((X, \T)\) is \(T_5\), it is also completely normal by definition, normal since disjoint closed sets are separated, \(T_3\), regular, Hausdorff, and \(T_1\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>July 14, 2021</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/t5/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Infimum and supremum</h2>
   </header>
   <section class="entry-content">
@@ -208,56 +262,6 @@ Properties Theorem 2.13: The closure of a set is closed, that is, for a set \(A\
     <time>July 11, 2021</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/closure/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>$T_3$ spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is \(T_3\) if and only if it is both \(T_1\) and regular.
-Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also \(T_3\), and therefore also regular, Hausdorff, and \(T_1\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 9, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t3/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cardinality and sizes of infinity</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/infty_sizes/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cartesian products</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions (two sets) Let \(A\) and \(B\) be sets. Their Cartesian product, \(A \times B\), is the set \(\{(a,b) \mid a \in A, b \in B\}\).
-An element \((a,b)\) of \(A \times B\) can be projected back to the set \(A\) or \(B\) with the projection functions \(\pi_X : X \times Y \to X\) and \(\pi_Y : X \times Y \to Y\) defined as \(\pi_X (a,b) = a\) and \(\pi_Y (a,b) = b\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/cartesian/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Dirichlet&#39;s function</h2>
-  </header>
-  <section class="entry-content">
-   <p>Content coming soon....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>July 8, 2021</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/dirichlet_function/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

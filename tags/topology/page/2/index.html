@@ -126,6 +126,103 @@ if (!doNotTrack) {
 
 <article class="post-entry">
   <header class="entry-header">
+    <h2>Manifolds</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition A topological space is an \(n\)-manifold if an only if it is a separable, metrizable space in which every point has a neighborhood that is homeomorphic to an open ball in \(\R^n\) with the standard topology.
+Properties Because manifolds are metrizable, they are also 1st countable, Hausdorff, regular, and normal.
+Theorems 11.25-11.27: A space \(M\) is a compact, connected, triangulable 2-manifold if and only if \(M\) is homeomorphic to a polygonal presentation....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>April 7, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/manifolds/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Open sets</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition In a topological space \((X, \mathcal{T})\), an open set \(U\) is a set with \(U \in \mathcal{T}\).
+If \(p\) is a point in \(X\) and \(U\) is an open set containing \(p\), then \(U\) is called a neighborhood of \(p\).
+Properties of open sets  Theorem 2.3: A set \(U\) is open if and only if for each point \(p \in U\), there exists an open set \(U_p\) such that \(p \in U_p \subset U\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>April 7, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/open_sets/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Triangulations</h2>
+  </header>
+  <section class="entry-content">
+   <p>Content coming soon....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>April 7, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/triangulations/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The topologist&#39;s comb</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definition The topologist’s comb \(C\) is a subspace of the topological space \(\Rs^2\) given by \[C = \{(x,0) \mid x \in [0,1]\} \cup \bigcup_{n=1}^\infty \left\{ \left( \frac{1}{n},y \right) \bigg \vert y \in [0,1] \right\},\] that is, \(C\) is the \(x\)-axis from \(0\) to \(1\) along with infinitely many comb “teeth” that get increasingly close to \(x = 0\).
+The flea and comb space is \(C\) together with the point \((0,1)\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 26, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_comb/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Countably compact spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is countably compact if and only if every countable open cover has a finite subcover.
+Properties Theorem 6.25: If, in addition to being countably compact, a space \(X\) is Lindelöf, \(X\) is also compact.
+Theorem 6.26: If \(X\) is a \(T_1\) space, \(X\) is countably compact if and only if all infinite subsets of \(X\) have limit points....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/countably_compact/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Identification spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Definitions Let \((X, \T)\) be a topological space and let \(X^*\) be a partition of \(X\). The identification map \(f: X \to X^*\) is the surjective map that takes each point of \(X\) to the part of the partition \(X^*\) containing it.
+The identification space of \(X\) under the map \(f\) is the set \(X^*\) with a topology defined as follows: a set \(U \subset X^*\) is open in \(X^*\) if and only if the preimage \(f\inv(U)\) is open in \(X\)....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/identification_spaces/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Lindelöf spaces</h2>
+  </header>
+  <section class="entry-content">
+   <p>Similar to being compact, but weaker…
+Definition A topological space \((X, \T)\) is Lindelöf if and only if every open cover has a countable subcover.
+Properties Theorem 6.25: If, in addition to being Lindelöf, a space \(X\) is countably compact, \(X\) is also compact.
+Theorem 6.27: All uncountable sets in a Lindelöf space have limit points.
+Theorem 6.29: If \(A\) is a closed subset of a Lindelöf space \(X\), \(A\) is Lindelöf....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>March 23, 2022</time>
+  </footer>
+  <a class="entry-link" href="https://bncling.github.io/math-wiki/lindel%C3%B6f/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
     <h2>Path components</h2>
   </header>
   <section class="entry-content">
@@ -136,21 +233,6 @@ Examples The path components of the closure of the topologist’s sine curve are
     <time>March 23, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/path_components/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Path connectedness</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definitions Let \((X,\T)\) be a topological space. A path from \(x\) to \(y\) for points \(x,y \in X\) is a continuous function \(f: [0,1] \to X\) such that \(f(0) = x\) and \(f(1) = y\).
-A space \(X\) is path connected if and only if for all \(p,q \in X\) there exists a path from \(p\) to \(q\).
-Properties Theorem 8.35: All path connected spaces are connected.
-Theorem 8.38: The product of path connected spaces with the product topology is path connected....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 23, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/path_connectedness/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
@@ -181,89 +263,6 @@ An open ball of radius \(\varepsilon &gt; 0\) around a point \(p \in \mathbb{R}^
     <time>March 23, 2022</time>
   </footer>
   <a class="entry-link" href="https://bncling.github.io/math-wiki/standard_topology/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The topologist&#39;s sine curve</h2>
-  </header>
-  <section class="entry-content">
-   <p>A set in the standard topology on \(\mathbb{R}^2\).
-Definition In \((\mathbb{R}^2, \mathcal{T}_\text{std})\), the topologist’s sine curve is the set \[S = \left\{ \left( x, \sin \left(\frac{1}{x}\right) \right) \, \bigg \vert \, x \in (0,1) \right\}.\]
-Properties Every point in the set \(\{(0,y) \mid -1 \leq y \leq 1 \}\) is a limit point of the topologist’s sine curve.
-Since none of the above points are in \(S\), \(S\) is not closed....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 23, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_sine/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Connected components</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(p\) be a point in a topological space \((X, \T)\). The component of \(p\) in \(X\) is the union of all connected subsets of \(X\) that contain \(p\).
-Properties Theorem 8.18: Given a space \(X\), every component in \(X\) is connected, closed, and not contained in any strictly larger connected set.
-Theorem 8.19: Given a space \(X\), the set of components of \(X\) is a partition of \(X\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 18, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/connected_components/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>$T_4$ spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \((X, \T)\) be a topological space. It is \(T_4\) if and only if it is both \(T_1\) and normal.
-Properties Theorem 4.7: If a space \((X, \T)\) is \(T_4\), it is also normal, \(T_3\), regular, Hausdorff, and \(T_1\).
-Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/t4/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Completely regular spaces</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition A topological space \((X,\T)\) is completely regular if and only if for each \(p \in X\) and closed set \(A \subset X\) with \(p \notin A\), there exists a continuous function \(f: X \to [0,1]\) such that \(f(p) = 0\) and \(f(x) = 1\) for all \(x \in A\).
-Properties Scholium 7.70: A space \(X\) is completely regular and \(T_1\) if and only if it can be embedded in the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/completely_regular/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Continuity</h2>
-  </header>
-  <section class="entry-content">
-   <p>Continuous functions can be drawn without picking up your pencil…?
-The \(\varepsilon\)-\(\delta\), limit related definition A function \(f: \mathcal{D} \to \mathbb{R}\) is continuous at a point \(c \in \mathcal{D}\) if and only if the limit of \(f\) at \(c\) exists and \(\lim \limits_{x \to c} f(x) = f(c)\). That is, for every \(\varepsilon &gt; 0\), there exists a \(\delta &gt; 0\) such that \(\vert x - c \vert &lt; \delta\) implies \(\vert f(x) - f(c) \vert &lt; \varepsilon\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/continuity/"></a>
-</article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Embeddings</h2>
-  </header>
-  <section class="entry-content">
-   <p>Definition Let \(X\) and \(Y\) be topological spaces. A function \(f: X \to Y\) is an embedding if and only if the function \(f: X \to f(X)\) is a homeomorphism where \(f(X)\) has the relative topology from \(Y\).
-Properties Corollary 7.31: Let \(X\) be compact and \(Y\) be Hausdorff. Then if \(f: X \to Y\) is an injective and continuous map, it is an embedding.
-Examples Theorem 7.69: All \(T_4\) spaces can be embedded into the product \(\prod_{\alpha \in \lambda} [0,1]_\alpha\) where the copies of \([0,1]\) have the subspace topology inherited from \(\Rs\)....</p>
-  </section>
-  <footer class="entry-footer">
-    <time>March 16, 2022</time>
-  </footer>
-  <a class="entry-link" href="https://bncling.github.io/math-wiki/top_embeddings/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
