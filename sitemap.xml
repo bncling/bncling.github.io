@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bncling.github.io/tags/misc_math/</loc>
+    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/tags/</loc>
+    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bncling.github.io/math-wiki/knot_sketches/</loc>
+    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bncling.github.io/tags/alg_geo/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,9 +48,6 @@
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/radical_ideals/</loc>
-    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bncling.github.io/tags/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bncling.github.io/math-wiki/fundamental_group/</loc>
