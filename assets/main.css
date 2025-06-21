@@ -143,6 +143,10 @@ summary {
   padding-bottom: 2px;
 }
 
+span.disable-links {
+  pointer-events: none;
+}
+
 /*
 .line-clamp {
   display: -webkit-box;
