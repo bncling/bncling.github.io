@@ -15,9 +15,13 @@ layout: wrapper
 								<li class="list-group-item"><b>{{ item[0] }}:</b> {{ item[1] }}</li>
 							{% endfor %}
 						</ul><br>
+						{% assign tab_links_id = page.uniqname | append: "_tab_links" %}
 						{% assign links_id = page.uniqname | append: "_links" %}
 						<h5 class="card-title"><b>Useful links</b></h5>
 						<ul class="list-group list-group-flush">
+							{% for item in site.data.course_info[tab_links_id] %}
+								<li class="list-group-item"><a href="{{ item[1] }}" target="_blank"><b>{{ item[0] }}</b></a></li>
+							{% endfor %}
 							{% for item in site.data.course_info[links_id] %}
 								<li class="list-group-item"><a href="{{ item[1] }}"><b>{{ item[0] }}</b></a></li>
 							{% endfor %}
@@ -35,3 +39,4 @@ layout: wrapper
 </section>
 
 <section class="mt-5"></section>
+
