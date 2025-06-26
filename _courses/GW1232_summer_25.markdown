@@ -29,3 +29,45 @@ In addition to the above, you can also get started reading new material from the
 
 <b>Finally, everyone should read over the syllabus before the first day of class.</b>
 
+</details>
+
+Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenStax 0.3.7' refers to '3.7 Derivatives of Inverse Funtions' from the Calc I textbook, whereas 'OpenStax 3.7' refers to '3.7 Improper Integrals' from the Calc II textbook.  
+
+
+<details markdown="1" open>
+<summary><b>Week 1: June 30 - July 3</b></summary>
+
+###### **June 30:** Invertible functions
+- Read before class
+	- [Course syllabus](/assets/documents/1232-summer-25/GW1232_summer_25_syllabus.pdf)
+	- OpenStax 0.1.4 
+	- OpenStax 0.3.7
+
+###### **July 1:** Inverse trig, exponentials, and logarithms
+- Read before class
+	- OpenStax 0.1.4 on inverse trig
+	- OpenStax 0.1.5 
+- Due
+	- WeBWorK *0 Tutorial*
+
+###### **July 2:** Calculus with exponentials and logarithms
+- Read before class
+	- OpenStax 0.3.9
+	- OpenStax 1.6
+- Due
+	- WeBWorK *0.1.4 Inverse Functions* 
+
+###### **July 3:** Calculus with inverse trig functions
+- Read before class
+	- OpenStax 0.3.7
+	- OpenStax 1.7
+- Due 
+	- Mastery Quiz 1 (due in class)
+		- Topics: M1, S1
+		- [Single sheet](/assets/documents/1232-summer-25/mq1_single_sheet.pdf)
+		- [Answer blanks](/assets/documents/1232-summer-25/mq1_answer_blanks.pdf)
+	- WeBWorK *0.1.5 Logarithms*
+
+</details>
+
+
