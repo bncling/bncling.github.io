@@ -70,4 +70,13 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 
 </details>
 
+<br>
+
+<h3 id="mastery-quizzes">Mastery Quizzes</h3>
+
+###### Mastery Quiz 1
+- Topics: M1, S1
+- [Single sheet](/assets/documents/1232-summer-25/mq1_single_sheet.pdf)
+- [Answer blanks](/assets/documents/1232-summer-25/mq1_answer_blanks.pdf)
+
 
