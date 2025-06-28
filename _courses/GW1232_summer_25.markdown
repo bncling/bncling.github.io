@@ -41,7 +41,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Read before class
 	- [Course syllabus](/assets/documents/1232-summer-25/GW1232_summer_25_syllabus.pdf)
 	- OpenStax 0.1.4 
-	- OpenStax 0.3.7
+	- OpenStax 0.3.7, ignore inverse trig derivatives
 
 ###### **July 1:** Inverse trig, exponentials, and logarithms
 - Read before class
@@ -59,7 +59,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 
 ###### **July 3:** Calculus with inverse trig functions
 - Read before class
-	- OpenStax 0.3.7
+	- OpenStax 0.3.7 on inverse trig derivatives
 	- OpenStax 1.7
 - Due 
 	- Mastery Quiz 1 (due in class)
