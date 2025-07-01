@@ -7,7 +7,7 @@ uniqname: GW1232_summer_25
 ---
 
 ---
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 0: Optional review</b></summary>
 
 <br>
