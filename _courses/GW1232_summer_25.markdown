@@ -31,6 +31,8 @@ In addition to the above, you can also get started reading new material from the
 
 </details>
 
+<br>
+
 Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenStax 0.3.7' refers to '3.7 Derivatives of Inverse Funtions' from the Calc I textbook, whereas 'OpenStax 3.7' refers to '3.7 Improper Integrals' from the Calc II textbook.  
 
 
