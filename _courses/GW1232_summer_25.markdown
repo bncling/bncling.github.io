@@ -70,15 +70,63 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- [Answer blanks](/assets/documents/1232-summer-25/mq1_answer_blanks.pdf)
 	- WeBWorK *0.1.5 Logarithms*
 
+<br>
+
 </details>
+
+<details markdown="1">
+<summary><b>Week 2: July 7 - 10</b></summary>
+
+###### **July 7:** L'Hôpital's rule
+- Read before class
+	- OpenStax 0.4.8
+- Due 
+	- WeBWorK *0.3.9 Log and Exp Derivatives*
+	- WeBWorK *1.6 Log and Exp Integrals*
+
+###### **July 8:** Integration by parts
+- Read before class
+	- OpenStax 3.1 
+- Due
+	- Mastery Quiz 2 (due in class)
+		- Topics: M1, S1, S2
+		- [Single sheet](/assets/documents/1232-summer-25/mq2_single_sheet.pdf)
+		- [Answer blanks](/assets/documents/1232-summer-25/mq2_answer_blanks.pdf)
+	- WeBWorK *1.7 Inverse Trig*
+
+###### **July 9:** Trig integrals, trig substitution
+- Read before class
+	- OpenStax 3.2
+	- OpenStax 3.3
+- Due
+	- WeBWorK *0.4.8 LHospitals Rule*
+
+###### **July 10:** Partial fractions
+- Read before class 
+	- OpenStax 3.4
+- Due 
+	- Mastery Quiz 3 (due in class)
+		- Topics: M1, M2, S2
+	- WeBWorK *3.1 Integration by Parts*
+
 
 <br>
 
+</details>
+
+
+<br>
 <h3 id="mastery-quizzes">Mastery Quizzes</h3>
 
 ###### Mastery Quiz 1
 - Topics: M1, S1
 - [Single sheet](/assets/documents/1232-summer-25/mq1_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq1_answer_blanks.pdf)
+
+
+###### Mastery Quiz 2
+- Topics: M1, S1, S2
+- [Single sheet](/assets/documents/1232-summer-25/mq2_single_sheet.pdf)
+- [Answer blanks](/assets/documents/1232-summer-25/mq2_answer_blanks.pdf)
 
 
