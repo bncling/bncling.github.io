@@ -31,12 +31,11 @@ In addition to the above, you can also get started reading new material from the
 
 </details>
 
-<br>
 
 Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenStax 0.3.7' refers to '3.7 Derivatives of Inverse Funtions' from the Calc I textbook, whereas 'OpenStax 3.7' refers to '3.7 Improper Integrals' from the Calc II textbook.  
 
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 1: June 30 - July 3</b></summary>
 
 ###### **June 30:** Invertible functions
@@ -75,7 +74,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 
 </details>
 
-<details markdown="1">
+<details markdown="1" open>
 <summary><b>Week 2: July 7 - 10</b></summary>
 
 ###### **July 7:** L'Hôpital's rule
