@@ -107,6 +107,8 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Due 
 	- Mastery Quiz 3 (due in class)
 		- Topics: M1, M2, S2
+		- [Single sheet](/assets/documents/1232-summer-25/mq3_single_sheet.pdf)
+		- [Answer blanks](/assets/documents/1232-summer-25/mq3_answer_blanks.pdf)
 	- WeBWorK *3.1 Integration by Parts*
 
 
@@ -129,5 +131,10 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M1, S1, S2
 - [Single sheet](/assets/documents/1232-summer-25/mq2_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq2_answer_blanks.pdf)
+
+###### Mastery Quiz 2
+- Topics: M1, M2, S2
+- [Single sheet](/assets/documents/1232-summer-25/mq3_single_sheet.pdf)
+- [Answer blanks](/assets/documents/1232-summer-25/mq3_answer_blanks.pdf)
 
 
