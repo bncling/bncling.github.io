@@ -92,6 +92,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- Topics: M1, S1, S2
 		- [Single sheet](/assets/documents/1232-summer-25/mq2_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq2_answer_blanks.pdf)
+		- [Solutions](/assets/documents/1232-summer-25/mq2_solutions.pdf)
 	- WeBWorK *1.7 Inverse Trig*
 
 ###### **July 9:** Trig integrals, trig substitution
@@ -116,6 +117,46 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 
 </details>
 
+<details markdown="1" open>
+<summary><b>Week 3: July 14 - 17</b></summary>
+
+###### **July 14:** Improper integrals
+- Read before class
+	- OpenStax 3.7
+- Due 
+	- WeBWorK *3.2 Trig Integrals*
+	- WeBWorK *3.3 Trig Substitution*
+
+###### **July 15:** Arc length and surface area
+- Read before class
+	- OpenStax 2.4
+- Due 
+	- Mastery Quiz 4 (due in class)
+		- Topics: M1, M2, S3
+	- WeBWorK *3.4 Partial Fractions*
+
+###### **July 16:** Exponential growth, intro to differential equations
+- Read before class
+	- OpenStax 2.8
+	- OpenStax 4.1
+- Due
+	- WeBWorK *3.7 Improper Integrals*
+
+###### **July 17:** Separable differential equations
+- Read before class
+	- OpenStax 4.3
+	- OpenStax 4.4
+- Due 
+	- Mastery Quiz 5 (due in class)
+		- Topics: M2, S3, S4
+	- WeBWorK *2.4a Arc Length*
+	- WeBWorK *2.4b Surface Area*
+
+
+
+<br>
+</details>
+
 
 <br>
 <h3 id="mastery-quizzes">Mastery Quizzes</h3>
@@ -131,6 +172,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M1, S1, S2
 - [Single sheet](/assets/documents/1232-summer-25/mq2_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq2_answer_blanks.pdf)
+- [Solutions](/assets/documents/1232-summer-25/mq2_solutions.pdf)
 
 ###### Mastery Quiz 2
 - Topics: M1, M2, S2
