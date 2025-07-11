@@ -74,7 +74,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 
 </details>
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 2: July 7 - 10</b></summary>
 
 ###### **July 7:** L'Hôpital's rule
@@ -110,6 +110,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- Topics: M1, M2, S2
 		- [Single sheet](/assets/documents/1232-summer-25/mq3_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq3_answer_blanks.pdf)
+		- [Solutions](/assets/documents/1232-summer-25/mq3_solutions.pdf)
 	- WeBWorK *3.1 Integration by Parts*
 
 
@@ -180,10 +181,19 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M1, M2, S2
 - [Single sheet](/assets/documents/1232-summer-25/mq3_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq3_answer_blanks.pdf)
+- [Solutions](/assets/documents/1232-summer-25/mq3_solutions.pdf)
 
 ###### Mastery Quiz 4
 - Topics: M1, M2, S3
 - [Single sheet](/assets/documents/1232-summer-25/mq4_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq4_answer_blanks.pdf)
+
+
+<br> 
+<h3 id="practice-exams">Practice Exams</h3>
+
+###### Midterm
+- Topics: M1, M2, S1, S2, S3, S4
+- [Practice exam](/assets/documents/1232-summer-25/practice_midterm.pdf)
 
 
