@@ -158,8 +158,41 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 	- WeBWorK *2.4b Surface Area*
 
 
-
 <br>
+</details>
+
+<details markdown="1" open>
+<summary><b>Week 4: July 21-24</b></summary>
+
+###### **July 21:** Midterm
+- Look at the practice exam
+	- Topics: M1, M2, S1, S2, S3, S4
+	- [Practice exam](/assets/documents/1232-summer-25/practice_midterm.pdf)
+- No WeBWorK due
+
+###### **July 22:** Sequences
+- Read before class
+	- OpenStax 5.1
+- Due
+	- Mastery Quiz 6 (due in class)
+		- Topics: M2, S4, S5
+	- WeBWorK *4.3 Differential Equations*
+
+###### **July 23:** Series; divergence and integral tests
+- Read before class
+	- OpenStax 5.2
+	- OpenStax 5.3
+- No WeBWorK due
+
+###### **July 24:** Comparison tests, alternating series test
+- Read before class
+	- OpenStax 5.4
+	- OpenStax 5.5
+- Due
+	- Mastery Quiz 7 (due in class)
+		- Topics: S5, S6
+	- WeBWorK *5.1 Sequences*
+
 </details>
 
 
