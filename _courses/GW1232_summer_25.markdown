@@ -136,6 +136,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- Topics: M1, M2, S3
 		- [Single sheet](/assets/documents/1232-summer-25/mq4_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq4_answer_blanks.pdf)
+		- [Solutions](/assets/documents/1232-summer-25/mq4_solutions.pdf)
 	- WeBWorK *3.4 Partial Fractions*
 
 ###### **July 16:** Exponential growth, intro to differential equations
@@ -222,6 +223,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M1, M2, S3
 - [Single sheet](/assets/documents/1232-summer-25/mq4_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq4_answer_blanks.pdf)
+- [Solutions](/assets/documents/1232-summer-25/mq4_solutions.pdf)
 
 ###### Mastery Quiz 5
 - Topics: M2, S3, S4
