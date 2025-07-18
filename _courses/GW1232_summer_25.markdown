@@ -118,7 +118,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 
 </details>
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 3: July 14 - 17</b></summary>
 
 ###### **July 14:** Improper integrals
@@ -177,6 +177,8 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Due
 	- Mastery Quiz 6 (due in class)
 		- Topics: M2, S4, S5
+		- [Single sheet](/assets/documents/1232-summer-25/mq6_single_sheet.pdf)
+		- [Answer blanks](/assets/documents/1232-summer-25/mq6_answer_blanks.pdf)
 	- WeBWorK *4.3 Differential Equations*
 
 ###### **July 23:** Series; divergence and integral tests
@@ -229,6 +231,11 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M2, S3, S4
 - [Single sheet](/assets/documents/1232-summer-25/mq5_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq5_answer_blanks.pdf)
+
+###### Mastery Quiz 6 
+- Topics: M2, S4, S5
+- [Single sheet](/assets/documents/1232-summer-25/mq6_single_sheet.pdf)
+- [Answer blanks](/assets/documents/1232-summer-25/mq6_answer_blanks.pdf)
 
 
 <br> 
