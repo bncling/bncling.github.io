@@ -155,6 +155,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- Topics: M2, S3, S4
 		- [Single sheet](/assets/documents/1232-summer-25/mq5_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq5_answer_blanks.pdf)
+		- [Solutions](/assets/documents/1232-summer-25/mq5_solutions.pdf)
 	- WeBWorK *2.4a Arc Length*
 	- WeBWorK *2.4b Surface Area*
 
@@ -232,6 +233,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M2, S3, S4
 - [Single sheet](/assets/documents/1232-summer-25/mq5_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq5_answer_blanks.pdf)
+- [Solutions](/assets/documents/1232-summer-25/mq5_solutions.pdf)
 
 ###### Mastery Quiz 6 
 - Topics: M2, S4, S5
@@ -246,5 +248,6 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M1, M2, S1, S2, S3, S4
 - [Practice exam](/assets/documents/1232-summer-25/practice_midterm.pdf)
 - [Solutions](/assets/documents/1232-summer-25/practice_midterm_solutions.pdf)
+
 
 
