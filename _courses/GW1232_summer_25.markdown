@@ -169,6 +169,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Look at the practice exam
 	- Topics: M1, M2, S1, S2, S3, S4
 	- [Practice exam](/assets/documents/1232-summer-25/practice_midterm.pdf)
+	- [Solutions](/assets/documents/1232-summer-25/practice_midterm_solutions.pdf)
 - No WeBWorK due
 
 ###### **July 22:** Sequences
@@ -244,5 +245,6 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 ###### Midterm
 - Topics: M1, M2, S1, S2, S3, S4
 - [Practice exam](/assets/documents/1232-summer-25/practice_midterm.pdf)
+- [Solutions](/assets/documents/1232-summer-25/practice_midterm_solutions.pdf)
 
 
