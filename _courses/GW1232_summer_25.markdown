@@ -181,6 +181,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- Topics: M2, S4, S5
 		- [Single sheet](/assets/documents/1232-summer-25/mq6_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq6_answer_blanks.pdf)
+		- [Solutions](/assets/documents/1232-summer-25/mq6_solutions.pdf)
 	- WeBWorK *4.3 Differential Equations*
 
 ###### **July 23:** Series; divergence and integral tests
@@ -241,6 +242,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M2, S4, S5
 - [Single sheet](/assets/documents/1232-summer-25/mq6_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq6_answer_blanks.pdf)
+- [Solutions](/assets/documents/1232-summer-25/mq6_solutions.pdf)
 
 ###### Mastery Quiz 7
 - Topics: S5, S6
@@ -255,6 +257,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M1, M2, S1, S2, S3, S4
 - [Practice exam](/assets/documents/1232-summer-25/practice_midterm.pdf)
 - [Solutions](/assets/documents/1232-summer-25/practice_midterm_solutions.pdf)
+- [Midterm solutions](/assets/documents/1232-summer-25/midterm_solutions.pdf)
 
 
 
