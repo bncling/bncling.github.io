@@ -201,7 +201,50 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- [Answer blanks](/assets/documents/1232-summer-25/mq7_answer_blanks.pdf)
 	- WeBWorK *5.1 Sequences*
 
+<br>
+
 </details>
+
+<details markdown="1" open>
+<summary><b>Week 5: July 28-31</b></summary>
+
+###### **July 28:** Ratio and root tests, intro to power series
+- Read before class
+	- OpenStax 5.6
+	- OpenStax 6.1
+- Due
+	- WeBWorK *5.2 Infinite Series*
+	- WeBWorK *5.3 Divergence and Integral Tests*
+
+###### **July 29:** Properties of power series
+- Read before class
+	- OpenStax 6.2
+- Due 
+	- Mastery Quiz 8 (due in class)
+		- Topics: M3, S6
+	- WeBWorK *5.4 Comparison Tests*
+	- WeBWorK *5.5 Alternating Series*
+
+###### **July 30:** Taylor series
+- Read before class
+	- OpenStax 6.3
+- Due 
+	- WeBWorK *5.6 Ratio and Root Tests*
+	- WeBWorK *6.1 Power Series*
+
+###### **July 31:** Working with Taylor series
+- Read before class
+	- OpenStax 6.4
+- Due
+	- Mastery Quiz 9 (due in class)
+		- Topics: M3, M4, S7
+	- WeBWorK *6.2 Properties of Power Series*
+
+
+<br>
+
+</details>
+
 
 
 <br>
