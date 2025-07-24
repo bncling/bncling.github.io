@@ -222,6 +222,8 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Due 
 	- Mastery Quiz 8 (due in class)
 		- Topics: M3, S6
+		- [Single sheet](/assets/documents/1232-summer-25/mq8_single_sheet.pdf)
+		- [Answer blanks](/assets/documents/1232-summer-25/mq8_answer_blanks.pdf)
 	- WeBWorK *5.4 Comparison Tests*
 	- WeBWorK *5.5 Alternating Series*
 
@@ -291,6 +293,11 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: S5, S6
 - [Single sheet](/assets/documents/1232-summer-25/mq7_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq7_answer_blanks.pdf)
+
+###### Mastery Quiz 8 
+- Topics: M3, S6
+- [Single sheet](/assets/documents/1232-summer-25/mq8_single_sheet.pdf)
+- [Answer blanks](/assets/documents/1232-summer-25/mq8_answer_blanks.pdf)
 
 
 <br> 
