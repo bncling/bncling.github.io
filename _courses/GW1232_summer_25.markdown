@@ -190,15 +190,16 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 	- OpenStax 5.3
 - No WeBWorK due
 
-###### **July 24:** Comparison tests, alternating series test
+###### **July 24:** Comparison tests, alternating series test **(did not discuss)**
 - Read before class
 	- OpenStax 5.4
-	- OpenStax 5.5
+	- OpenStax 5.5 **(did not discuss)**
 - Due
 	- Mastery Quiz 7 (due in class)
 		- Topics: S5, S6
 		- [Single sheet](/assets/documents/1232-summer-25/mq7_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq7_answer_blanks.pdf)
+		- [Solutions](/assets/documents/1232-summer-25/mq7_solutions.pdf)
 	- WeBWorK *5.1 Sequences*
 
 <br>
@@ -208,16 +209,17 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 <details markdown="1" open>
 <summary><b>Week 5: July 28-31</b></summary>
 
-###### **July 28:** Ratio and root tests, intro to power series
+###### **July 28:** Alternating series, ratio and root tests
 - Read before class
+	- OpenStax 5.5
 	- OpenStax 5.6
-	- OpenStax 6.1
 - Due
 	- WeBWorK *5.2 Infinite Series*
 	- WeBWorK *5.3 Divergence and Integral Tests*
 
-###### **July 29:** Properties of power series
+###### **July 29:** Power series
 - Read before class
+	- OpenStax 6.1
 	- OpenStax 6.2
 - Due 
 	- Mastery Quiz 8 (due in class)
@@ -225,14 +227,13 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- [Single sheet](/assets/documents/1232-summer-25/mq8_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq8_answer_blanks.pdf)
 	- WeBWorK *5.4 Comparison Tests*
-	- WeBWorK *5.5 Alternating Series*
 
 ###### **July 30:** Taylor series
 - Read before class
 	- OpenStax 6.3
 - Due 
+	- WeBWorK *5.5 Alternating Series*
 	- WeBWorK *5.6 Ratio and Root Tests*
-	- WeBWorK *6.1 Power Series*
 
 ###### **July 31:** Working with Taylor series
 - Read before class
@@ -240,6 +241,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Due
 	- Mastery Quiz 9 (due in class)
 		- Topics: M3, M4, S7
+	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
 
 
@@ -293,6 +295,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: S5, S6
 - [Single sheet](/assets/documents/1232-summer-25/mq7_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq7_answer_blanks.pdf)
+- [Solutions](/assets/documents/1232-summer-25/mq7_solutions.pdf)
 
 ###### Mastery Quiz 8 
 - Topics: M3, S6
