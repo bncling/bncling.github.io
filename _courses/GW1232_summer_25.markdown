@@ -163,7 +163,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 <br>
 </details>
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 4: July 21-24</b></summary>
 
 ###### **July 21:** Midterm
@@ -241,6 +241,8 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Due
 	- Mastery Quiz 9 (due in class)
 		- Topics: M3, M4, S7
+		- [Single sheet](/assets/documents/1232-summer-25/mq9_single_sheet.pdf)
+		- [Answer blanks](/assets/documents/1232-summer-25/mq9_answer_blanks.pdf)
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
 
@@ -301,6 +303,11 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M3, S6
 - [Single sheet](/assets/documents/1232-summer-25/mq8_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq8_answer_blanks.pdf)
+
+###### Mastery Quiz 9 
+- Topics: M3, M4, S7
+- [Single sheet](/assets/documents/1232-summer-25/mq9_single_sheet.pdf)
+- [Answer blanks](/assets/documents/1232-summer-25/mq9_answer_blanks.pdf)
 
 
 <br> 
