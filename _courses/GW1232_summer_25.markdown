@@ -171,6 +171,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 	- Topics: M1, M2, S1, S2, S3, S4
 	- [Practice exam](/assets/documents/1232-summer-25/practice_midterm.pdf)
 	- [Solutions](/assets/documents/1232-summer-25/practice_midterm_solutions.pdf)
+	- [Midterm solutions](/assets/documents/1232-summer-25/midterm_solutions.pdf)
 - No WeBWorK due
 
 ###### **July 22:** Sequences
@@ -226,6 +227,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- Topics: M3, S6
 		- [Single sheet](/assets/documents/1232-summer-25/mq8_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq8_answer_blanks.pdf)
+		- [Solutions](/assets/documents/1232-summer-25/mq8_solutions.pdf)
 	- WeBWorK *5.4 Comparison Tests*
 
 ###### **July 30:** Taylor series
@@ -246,6 +248,49 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
 
+
+<br>
+
+</details>
+
+
+<details markdown="1" open>
+<summary><b>Week 6: August 4-7</b></summary>
+
+###### **August 4:** Calculus with parametric equations
+- Read before class
+	- OpenStax 7.1
+	- OpenStax 7.2
+- Due 
+	- Mastery Quiz 10 (due in class)
+		- Topics: M3, M4, S7
+	- WeBWorK *6.3 Taylor Series*
+
+###### **August 5:** Calculus with polar coordinates
+- Read before class
+	- OpenStax 7.3
+	- OpenStax 7.4
+- Due 
+	- WeBWorK *6.4 Working with Taylor Series*
+	- WeBWorK *6.x Taylor Series Applications*
+
+###### **August 6:** Review day 
+- Bring some questions to discuss
+- Due
+	- Mastery Quiz 11 (due in class)
+		- Topics: M3, M4, S8
+	- WeBWorK *7.1 Parametric Equations*
+
+###### **August 7:** Final exam
+- Look at the practice exam and prepare your (two-sided) notes sheet
+	- Topics: all!
+	- [Practice exam](/assets/documents/1232-summer-25/practice_final.pdf)
+
+###### **August 9:** Official last day of the course
+- This is the last day to turn in any remaning work for the course, including
+	- Optional Mastery Quiz 12 (Blackboard)
+		- Topics: M4, S8
+	- Any of the last few WeBWorK sets that are still in the grace period
 
 <br>
 
@@ -303,6 +348,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M3, S6
 - [Single sheet](/assets/documents/1232-summer-25/mq8_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq8_answer_blanks.pdf)
+- [Solutions](/assets/documents/1232-summer-25/mq8_solutions.pdf)
 
 ###### Mastery Quiz 9 
 - Topics: M3, M4, S7
@@ -318,6 +364,10 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - [Practice exam](/assets/documents/1232-summer-25/practice_midterm.pdf)
 - [Solutions](/assets/documents/1232-summer-25/practice_midterm_solutions.pdf)
 - [Midterm solutions](/assets/documents/1232-summer-25/midterm_solutions.pdf)
+
+###### Final 
+- Topics: all!
+- [Practice exam](/assets/documents/1232-summer-25/practice_final.pdf)
 
 
 
