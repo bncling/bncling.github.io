@@ -207,7 +207,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 
 </details>
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 5: July 28-31</b></summary>
 
 ###### **July 28:** Alternating series, ratio and root tests
@@ -245,6 +245,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 		- Topics: M3, M4, S7
 		- [Single sheet](/assets/documents/1232-summer-25/mq9_single_sheet.pdf)
 		- [Answer blanks](/assets/documents/1232-summer-25/mq9_answer_blanks.pdf)
+		- [Solutions](/assets/documents/1232-summer-25/mq9_solutions.pdf)
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
 
@@ -356,6 +357,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M3, M4, S7
 - [Single sheet](/assets/documents/1232-summer-25/mq9_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq9_answer_blanks.pdf)
+- [Solutions](/assets/documents/1232-summer-25/mq9_solutions.pdf)
 
 ###### Mastery Quiz 10 
 - Topics: M3, M4, S7
