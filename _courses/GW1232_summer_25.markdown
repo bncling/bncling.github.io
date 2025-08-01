@@ -290,6 +290,8 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Look at the practice exam and prepare your (two-sided) notes sheet
 	- Topics: all!
 	- [Practice exam](/assets/documents/1232-summer-25/practice_final.pdf)
+- Due 
+	- WeBWorK *7.3 Polar Coordinates*
 
 ###### **August 9:** Official last day of the course
 - This is the last day to turn in any remaning work for the course, including
