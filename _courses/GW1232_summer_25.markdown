@@ -290,6 +290,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Look at the practice exam and prepare your (two-sided) notes sheet
 	- Topics: all!
 	- [Practice exam](/assets/documents/1232-summer-25/practice_final.pdf)
+	- [Solutions](/assets/documents/1232-summer-25/practice_final_solutions.pdf)
 - Due 
 	- WeBWorK *7.3 Polar Coordinates*
 
@@ -388,6 +389,6 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 ###### Final 
 - Topics: all!
 - [Practice exam](/assets/documents/1232-summer-25/practice_final.pdf)
-
+- [Solutions](/assets/documents/1232-summer-25/practice_final_solutions.pdf)
 
 
