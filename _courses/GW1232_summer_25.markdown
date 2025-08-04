@@ -334,7 +334,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - [Answer blanks](/assets/documents/1232-summer-25/mq4_answer_blanks.pdf)
 - [Solutions](/assets/documents/1232-summer-25/mq4_solutions.pdf)
 
-###### Mastery Quiz 5 
+###### Mastery Quiz 5
 - Topics: M2, S3, S4
 - [Single sheet](/assets/documents/1232-summer-25/mq5_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq5_answer_blanks.pdf)
