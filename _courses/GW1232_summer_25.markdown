@@ -299,6 +299,8 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - This is the last day to turn in any remaning work for the course, including
 	- Optional Mastery Quiz 12 (Blackboard)
 		- Topics: M4, S8
+		- [Single sheet](/assets/documents/1232-summer-25/mq12_single_sheet.pdf)
+		- [Answer blanks](/assets/documents/1232-summer-25/mq12_answer_blanks.pdf)
 	- Any of the last few WeBWorK sets that are still in the grace period
 
 <br>
@@ -375,6 +377,11 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 - Topics: M3, M4, S8
 - [Single sheet](/assets/documents/1232-summer-25/mq11_single_sheet.pdf)
 - [Answer blanks](/assets/documents/1232-summer-25/mq11_answer_blanks.pdf)
+
+###### Mastery Quiz 12
+- Topics: M4, S8
+- [Single sheet](/assets/documents/1232-summer-25/mq12_single_sheet.pdf)
+- [Answer blanks](/assets/documents/1232-summer-25/mq12_answer_blanks.pdf)
 
 
 
