@@ -164,7 +164,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 </details>
 
 <details markdown="1">
-<summary><b>Week 4: July 21-24</b></summary>
+<summary><b>Week 4: July 21 - 24</b></summary>
 
 ###### **July 21:** Midterm
 - Look at the practice exam
@@ -208,7 +208,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 </details>
 
 <details markdown="1">
-<summary><b>Week 5: July 28-31</b></summary>
+<summary><b>Week 5: July 28 - 31</b></summary>
 
 ###### **July 28:** Alternating series, ratio and root tests
 - Read before class
@@ -256,7 +256,7 @@ Note: Sections in the OpenStax Calc I textbook have a '0.' prefix. E.g. 'OpenSta
 
 
 <details markdown="1" open>
-<summary><b>Week 6: August 4-7</b></summary>
+<summary><b>Week 6: August 4 - 7</b></summary>
 
 ###### **August 4:** Calculus with parametric equations
 - Read before class
