@@ -1,0 +1,46 @@
+---
+layout: wrapper
+title: Posts
+---
+
+<section class="mt-5">
+	<div class="container">
+		<div class="row px-2">
+			<div class="col-sm-0 col-md-1"></div>
+			<div class="col-sm-12 col-md-10">
+				<h1><b>Papers and preprints</b></h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="mt-1">
+	<div class="container">
+		<div class="row px-2">
+			{% for paper in site.data.paper_info %}
+				<div class="row p-2">
+					<div class="col-sm-0 col-md-1"></div>
+					<div class="col-sm-12 col-md-10">
+						<div class="card border-white px-4 pt-4 pb-2">
+							<h5 class="px-2 pt-1"><a href="journal_link" target="_blank"><b>{{ paper[1].title }}</b></h5>
+							<div class="px-2 text-secondary excerpt">
+								{% if paper[1].coauthors != 'n/a' %}
+								<p><b>Joint with {{ paper[1].coauthors }}</b></p>
+								{% endif %}
+								<p>{{ paper[1].abstract }}</p>
+							</div>
+							<p style="font-size: .75em;" class="text-secondary px-2">
+							{% if paper[1].journal != 'n/a' %}
+							<a href="{{ paper[1].journal_link }}" target="_blank"><b>{{ paper[1].journal }},</b></a> published {{ paper[1].pub_year }}<br>
+							{% endif %}
+							<a href="{{ paper[1].arXiv_link }}" target="_blank"><b>arXiv preprint</b></a> posted {{ paper[1].arXiv_date }}</p>
+						</div>
+					</div>
+					<div class="col-1"></div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="mt-5"></section>

@@ -4,9 +4,6 @@ import shutil
 SYLLABUS_PATH = "/Users/benclingenpeel/Desktop/GW/Summer 2025/Math 1232/Syllabus/1232_Syllabus_Summer_25.pdf"
 WEB_SYLLABUS_PATH = "/Users/benclingenpeel/Desktop/Projects/bncl/assets/documents/1232-summer-25/GW1232_summer_25_syllabus.pdf"
 
-BIRD_PATH = "/Users/benclingenpeel/Desktop/Projects/Bird/birdMap.html"
-WEB_BIRD_PATH = "/Users/benclingenpeel/Desktop/Projects/bncl/birdMap.html"
-
 CV_PATH = "/Users/benclingenpeel/Desktop/CV/Current/Ben_Clingenpeel_CV.pdf"
 WEB_CV_PATH = "/Users/benclingenpeel/Desktop/Projects/bncl/assets/documents"
 
@@ -15,17 +12,9 @@ WEB_CV_PATH = "/Users/benclingenpeel/Desktop/Projects/bncl/assets/documents"
 
 # copy things over
 shutil.copy(SYLLABUS_PATH, WEB_SYLLABUS_PATH)
-shutil.copy(BIRD_PATH, WEB_BIRD_PATH)
 shutil.copy(CV_PATH, WEB_CV_PATH)
 #shutil.copy(NOTES_PATH, WEB_NOTES_PATH)
 
-# set the front matter on the bird map
-with open(WEB_BIRD_PATH,'r') as contents:
-      save = contents.read()
-with open(WEB_BIRD_PATH,'w') as contents:
-      contents.write("---\nlayout: wrapper\ntitle: Bird Map\n---\n")
-with open(WEB_BIRD_PATH, 'a') as contents:
-      contents.write(save)
 
 print("Successfully updated files!")
 
