@@ -5,7 +5,7 @@ Homology_BMQs:
   arXiv_date: 08/28/25
   arXiv_link: https://arxiv.org/abs/2508.21268
   journal: n/a
-  pub_year: n/a
+  pub_date: n/a
   journal_link: n/a
 
 Colorings_SUs_Partial_Knots:
@@ -14,9 +14,9 @@ Colorings_SUs_Partial_Knots:
   abstract: Motivated by work of Kinoshita and Terasaka, Lamm introduced the notion of a symmetric union, which can be constructed from a partial knot $J$ by introducing additional crossings to a diagram of $J \# -J$ along its axis of symmetry. If both $J$ and $J'$ are partial knots for different summetric union presentations of the same ribbon knot $K$, the knots $J$ and $J'$ are said to be symmetrically related. Lamm proved that if $J$ and $J'$ are summetrically related, then $\det J = \det J'$, asking whether the converse is true. In this article, we give a negative answer to Lamm's question, constructing for any natural number $m$ a family of $2^m$ knots with the same determinant but such that no two knots in the family are symmetrically related. This result is a corollary to our main theorem, that if $J$ is the partial knot in a symmetric union presentation for $K$, then $\col_p(J) \leq \col_p(K) \leq \frac{(\col_p(J))^2}{p}$, where $\col_p(\cdot)$ denotes the number of $p$-colorings of a knot.
   arXiv_date: 04/11/25
   arXiv_link: https://arxiv.org/abs/2504.08589
-  journal: n/a
-  pub_year: n/a
-  journal_link: n/a
+  journal: Journal of Knot Theory and Its Ramifications
+  pub_date: May 2026
+  journal_link: https://dx.doi.org/10.1142/S0218216525500944
 
 Low_Dim_YB_Homology:
   title: Low Dimensional Homology of the Yang-Baxter Operators Yielding the HOMFLYPT Polynomial
@@ -24,6 +24,6 @@ Low_Dim_YB_Homology:
   abstract: Homology of Yang-Baxter operators were introduced independently by Victoria Lebed and Józef Przytycki in 2012. We analyze the homology of the Yang-Baxter Operators $R_{(m)}$ yielding the HOMFLYPT polynomial, reducing the computation of the $n$-th homology of $R_{(m)}$ for arbitrary $m$ to the computation of $n+1$ initial conditions. We then produce the explicit formulas for the third and fourth homology.
   arXiv_date: 02/28/25
   arXiv_link: https://arxiv.org/abs/2502.20659
-  journal: n/a
+  journal: Homology, Homotopy, and Applications
   pub_date: n/a 
-  journal_link: #
+  journal_link: n/a

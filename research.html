@@ -30,8 +30,10 @@ title: Posts
 								<p>{{ paper[1].abstract }}</p>
 							</div>
 							<p style="font-size: .75em;" class="text-secondary px-2">
-							{% if paper[1].journal != 'n/a' %}
-							<a href="{{ paper[1].journal_link }}" target="_blank"><b>{{ paper[1].journal }},</b></a> published {{ paper[1].pub_year }}<br>
+							{% if paper[1].pub_date != 'n/a' %}
+							<a href="{{ paper[1].journal_link }}" target="_blank"><b>{{ paper[1].journal }},</b></a> published {{ paper[1].pub_date }}<br>
+							{% elsif paper[1].journal != 'n/a' %}
+							To appear in <b>{{ paper[1].journal }}</b><br>
 							{% endif %}
 							<a href="{{ paper[1].arXiv_link }}" target="_blank"><b>arXiv preprint</b></a> posted {{ paper[1].arXiv_date }}</p>
 						</div>
