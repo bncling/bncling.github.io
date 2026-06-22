@@ -2,7 +2,7 @@
 layout: course
 title: "Math 1232-20: Single Variable Calculus II"
 subtitle: "GWU Summer 2025 Session II"
-slug: Math 1232
+slug: Math 1232 2025
 uniqname: GW1232_summer_25
 ---
 
