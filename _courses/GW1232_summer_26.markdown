@@ -132,11 +132,16 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 13:** Improper integrals
 - Watch before class
+	- <b>Improper integrals (type I)</b> -- 3.7 \| [YouTube](https://youtu.be/dQNS3j904Fs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Improper_integrals_type_I.pdf)
+	- <b>Improper integrals (type II)</b> -- 3.7 \| [YouTube](https://youtu.be/nqerXj6-2iA) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Improper_integrals_type_II.pdf)
+	- <b>Integral comparison test</b> -- 3.7 \| [YouTube](https://youtu.be/mPzeq0WsWSA) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integral_comparison_test.pdf)
 - Due
 	- WeBWorK *3.3 Trig Substitution*
 
 ###### **July 14:** Arc length and surface area
 - Watch before class
+	- <b>The arc length formula</b> -- 3.7 \| [YouTube](https://youtu.be/aDMQPaOy2Ns) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_arc_length_formula.pdf)
+	- <b>Arc length examples</b> -- 3.7 \| [YouTube](https://youtu.be/wMwqHUfIFv0) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_examples.pdf)
 - Due
 	- WeBWorK *3.4 Partial Fractions*
 
@@ -291,6 +296,13 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Quadratic factors</b> -- 3.4 \| [YouTube](https://youtu.be/8gn4J7l4uO8) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Quadratic_factors.pdf)
 
 ---
+- <b>Improper integrals (type I)</b> -- 3.7 \| [YouTube](https://youtu.be/dQNS3j904Fs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Improper_integrals_type_I.pdf)
+- <b>Improper integrals (type II)</b> -- 3.7 \| [YouTube](https://youtu.be/nqerXj6-2iA) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Improper_integrals_type_II.pdf)
+- <b>Integral comparison test</b> -- 3.7 \| [YouTube](https://youtu.be/mPzeq0WsWSA) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integral_comparison_test.pdf)
+
+---
+- <b>The arc length formula</b> -- 3.7 \| [YouTube](https://youtu.be/aDMQPaOy2Ns) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_arc_length_formula.pdf)
+- <b>Arc length examples</b> -- 3.7 \| [YouTube](https://youtu.be/wMwqHUfIFv0) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_examples.pdf)
 
 
 <br>
