@@ -140,8 +140,10 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 14:** Arc length and surface area
 - Watch before class
-	- <b>The arc length formula</b> -- 3.7 \| [YouTube](https://youtu.be/aDMQPaOy2Ns) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_arc_length_formula.pdf)
-	- <b>Arc length examples</b> -- 3.7 \| [YouTube](https://youtu.be/wMwqHUfIFv0) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_examples.pdf)
+	- <b>The arc length formula</b> -- 2.4 \| [YouTube](https://youtu.be/aDMQPaOy2Ns) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_arc_length_formula.pdf)
+	- <b>Arc length examples</b> -- 2.4 \| [YouTube](https://youtu.be/wMwqHUfIFv0) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_examples.pdf)
+	- <b>The surface area formula</b> -- 2.4 \| [YouTube](https://youtu.be/MwuBbrqaJIs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_surface_area_formula.pdf)
+	- <b>Surface area examples</b> -- 2.4 \| [YouTube](https://youtu.be/8fILLtrdGjU) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Surface_area_examples.pdf)
 - Due
 	- WeBWorK *3.4 Partial Fractions*
 
@@ -301,8 +303,10 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Integral comparison test</b> -- 3.7 \| [YouTube](https://youtu.be/mPzeq0WsWSA) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integral_comparison_test.pdf)
 
 ---
-- <b>The arc length formula</b> -- 3.7 \| [YouTube](https://youtu.be/aDMQPaOy2Ns) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_arc_length_formula.pdf)
-- <b>Arc length examples</b> -- 3.7 \| [YouTube](https://youtu.be/wMwqHUfIFv0) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_examples.pdf)
+- <b>The arc length formula</b> -- 2.4 \| [YouTube](https://youtu.be/aDMQPaOy2Ns) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_arc_length_formula.pdf)
+- <b>Arc length examples</b> -- 2.4 \| [YouTube](https://youtu.be/wMwqHUfIFv0) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_examples.pdf)
+- <b>The surface area formula</b> -- 2.4 \| [YouTube](https://youtu.be/MwuBbrqaJIs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_surface_area_formula.pdf)
+- <b>Surface area examples</b> -- 2.4 \| [YouTube](https://youtu.be/8fILLtrdGjU) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Surface_area_examples.pdf)
 
 
 <br>
