@@ -149,6 +149,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 15:** Intro to differential equations
 - Watch before class
+	- <b>Exponential growth and decay</b> -- 2.8 \| [YouTube](https://youtu.be/aCe5utmAsUc) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Exponential_growth_and_decay.pdf)
+	- <b>Differential equations</b> -- 4.1 \| [YouTube](https://youtu.be/CDguM826rIs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Differential_equations.pdf)
+	- <b>Separable equations</b> -- 4.3 \| [YouTube](https://youtu.be/S3ATBPIMRtM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Separable_equations.pdf)
 - Due
 	- WeBWorK *3.7 Improper Integrals*
 
@@ -308,6 +311,10 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>The surface area formula</b> -- 2.4 \| [YouTube](https://youtu.be/MwuBbrqaJIs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_surface_area_formula.pdf)
 - <b>Surface area examples</b> -- 2.4 \| [YouTube](https://youtu.be/8fILLtrdGjU) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Surface_area_examples.pdf)
 
+---
+- <b>Exponential growth and decay</b> -- 2.8 \| [YouTube](https://youtu.be/aCe5utmAsUc) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Exponential_growth_and_decay.pdf)
+- <b>Differential equations</b> -- 4.1 \| [YouTube](https://youtu.be/CDguM826rIs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Differential_equations.pdf)
+- <b>Separable equations</b> -- 4.3 \| [YouTube](https://youtu.be/S3ATBPIMRtM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Separable_equations.pdf)
 
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
