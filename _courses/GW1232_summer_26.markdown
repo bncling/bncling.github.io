@@ -172,6 +172,10 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 20:** Sequences
 - Watch before class
+	- <b>Sequences</b> -- 5.1 \| [YouTube](https://youtu.be/7R0va4PwWRg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Sequences.pdf)
+	- <b>Limits of sequences</b> -- 5.1 \| [YouTube](https://youtu.be/OrAX8lqU9PY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limits_of_sequences.pdf)
+	- <b>Monotone convergence theorem</b> -- 5.1 \| [YouTube](https://youtu.be/Z3Hcnsxiz3E) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Monotone_convergence_theorem.pdf)
+	- <b>Formal definition of a limit</b> -- 5.1 \| [YouTube](https://youtu.be/Zi7m3fl4unE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Formal_definition_of_a_limit.pdf)
 - Due 
 	- WeBWorK *4.3 Differential Equations*
 
@@ -315,6 +319,12 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Exponential growth and decay</b> -- 2.8 \| [YouTube](https://youtu.be/aCe5utmAsUc) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Exponential_growth_and_decay.pdf)
 - <b>Differential equations</b> -- 4.1 \| [YouTube](https://youtu.be/CDguM826rIs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Differential_equations.pdf)
 - <b>Separable equations</b> -- 4.3 \| [YouTube](https://youtu.be/S3ATBPIMRtM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Separable_equations.pdf)
+
+---
+- <b>Sequences</b> -- 5.1 \| [YouTube](https://youtu.be/7R0va4PwWRg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Sequences.pdf)
+- <b>Limits of sequences</b> -- 5.1 \| [YouTube](https://youtu.be/OrAX8lqU9PY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limits_of_sequences.pdf)
+- <b>Monotone convergence theorem</b> -- 5.1 \| [YouTube](https://youtu.be/Z3Hcnsxiz3E) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Monotone_convergence_theorem.pdf)
+- <b>Formal definition of a limit</b> -- 5.1 \| [YouTube](https://youtu.be/Zi7m3fl4unE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Formal_definition_of_a_limit.pdf)
 
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
