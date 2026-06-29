@@ -43,6 +43,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ###### **June 29:** Introduction to the course
 - Read before class
 	- [Course syllabus](/assets/documents/1232-summer-26/GW1232_summer_26_syllabus.pdf)
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/6_29_worksheet.pdf)
 
 ###### **June 30:** Invertible functions
 - Watch before class
@@ -181,6 +182,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 21:** Series
 - Watch before class
+	- <b>Series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Series.pdf)
 
 ###### **July 22:** Comparison tests
 - Watch before class
@@ -325,6 +327,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Limits of sequences</b> -- 5.1 \| [YouTube](https://youtu.be/OrAX8lqU9PY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limits_of_sequences.pdf)
 - <b>Monotone convergence theorem</b> -- 5.1 \| [YouTube](https://youtu.be/Z3Hcnsxiz3E) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Monotone_convergence_theorem.pdf)
 - <b>Formal definition of a limit</b> -- 5.1 \| [YouTube](https://youtu.be/Zi7m3fl4unE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Formal_definition_of_a_limit.pdf)
+
+---
+- <b>Series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Series.pdf)
 
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
