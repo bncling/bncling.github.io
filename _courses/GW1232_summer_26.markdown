@@ -51,6 +51,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Graphs of inverse functions</b> -- 0.1.4 \| [YouTube](https://youtu.be/bbgE3IaBo0g) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Graphs_of_inverse_functions.pdf)
 	- <b>One-to-one functions</b> -- 0.1.4 \| [YouTube](https://youtu.be/dT6KB0WUK90) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/One-to-one_functions.pdf)
 	- <b>Derivatives of inverse functions</b> -- 0.3.7 \| [YouTube](https://youtu.be/si8anC2uvi4) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Derivatives_of_inverse_functions.pdf)
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/6_30_worksheet.pdf)
 
 ###### **July 1:** Exponentials and logarithms, differentiation
 - Watch before class
@@ -335,10 +336,12 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Telescoping series</b> -- 5.2 \| [YouTube](https://youtu.be/ydR1Qr2N-jY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Telescoping_series.pdf)
 - <b>Geometric series</b> -- 5.2 \| [YouTube](https://youtu.be/b_4rsCjkBqE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Geometric_series.pdf)
 
+
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
 
 - June 29: [Calc I skills review](/assets/documents/1232-summer-26/worksheets/6_29_worksheet.pdf)
+- June 30: [Invertible functions](/assets/documents/1232-summer-26/worksheets/6_30_worksheet.pdf)
 
 
 <br> 
