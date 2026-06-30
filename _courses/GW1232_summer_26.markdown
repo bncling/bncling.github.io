@@ -183,6 +183,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ###### **July 21:** Series
 - Watch before class
 	- <b>Series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Series.pdf)
+	- <b>Telescoping series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Telescoping_series.pdf)
 
 ###### **July 22:** Comparison tests
 - Watch before class
@@ -334,7 +335,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
 
-Nothing yet to see here!
+- June 29: [Calc I skills review](/assets/documents/1232-summer-26/worksheets/6_29_worksheet.pdf)
 
 
 <br> 
