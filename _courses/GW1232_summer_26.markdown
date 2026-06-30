@@ -183,7 +183,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ###### **July 21:** Series
 - Watch before class
 	- <b>Series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Series.pdf)
-	- <b>Telescoping series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Telescoping_series.pdf)
+	- <b>Telescoping series</b> -- 5.2 \| [YouTube](https://youtu.be/ydR1Qr2N-jY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Telescoping_series.pdf)
+	- <b>Geometric series</b> -- 5.2 \| [YouTube](https://youtu.be/b_4rsCjkBqE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Geometric_series.pdf)
 
 ###### **July 22:** Comparison tests
 - Watch before class
@@ -331,6 +332,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ---
 - <b>Series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Series.pdf)
+- <b>Telescoping series</b> -- 5.2 \| [YouTube](https://youtu.be/ydR1Qr2N-jY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Telescoping_series.pdf)
+- <b>Geometric series</b> -- 5.2 \| [YouTube](https://youtu.be/b_4rsCjkBqE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Geometric_series.pdf)
 
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
