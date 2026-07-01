@@ -7,7 +7,7 @@ uniqname: GW1232_summer_26
 ---
 
 ---
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 0: Optional review</b></summary>
 
 <br>
@@ -79,7 +79,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 </details>
 
-<!--
+
 <details markdown="1">
 <summary><b>Week 2: July 6 - 9</b></summary>
 
@@ -128,7 +128,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 </details>
 
-
+<!--
 <details markdown="1">
 <summary><b>Week 3: July 13 - 16</b></summary>
 
@@ -186,9 +186,13 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Series.pdf)
 	- <b>Telescoping series</b> -- 5.2 \| [YouTube](https://youtu.be/ydR1Qr2N-jY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Telescoping_series.pdf)
 	- <b>Geometric series</b> -- 5.2 \| [YouTube](https://youtu.be/b_4rsCjkBqE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Geometric_series.pdf)
+	- <b>Divergence test</b> -- 5.3 \| [YouTube](https://youtu.be/8TwwpVIex6M) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Divergence_test.pdf)
 
-###### **July 22:** Comparison tests
+###### **July 22:** Integral and comparison tests
 - Watch before class
+	- <b>Integral test</b> -- 5.3 \| [YouTube](https://youtu.be/D3L6Bmc-aHc) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integral_test.pdf)
+	- <b>Direct comparison test</b> -- 5.4 \| [YouTube](https://youtu.be/VhFfwg7LBPg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Direct_comparison_test.pdf)
+	- <b>Limit comparison test</b> -- 5.4 \| [YouTube](https://youtu.be/70JYxv4BItw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limit_comparison_test.pdf)
 - Due 
 	- WeBWorK *5.1 Sequences*
 
@@ -197,7 +201,6 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Quiz! Possible new topics: differential equations, sequences, series and their convergence
 - Due 
 	- WeBWorK *5.2 Series*
-	- WeBWorK *5.3 Divergence and Integral Tests*
 
 <br>
 </details>
@@ -210,6 +213,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ###### **July 27:** Ratio and root tests
 - Watch before class
 - Due 
+	- WeBWorK *5.3 Divergence and Integral Tests*
 	- WeBWorK *5.4 Comparison Tests*
 
 ###### **July 28:** Power series
@@ -335,6 +339,12 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Series</b> -- 5.2 \| [YouTube](https://youtu.be/A7ms53rtUKM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Series.pdf)
 - <b>Telescoping series</b> -- 5.2 \| [YouTube](https://youtu.be/ydR1Qr2N-jY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Telescoping_series.pdf)
 - <b>Geometric series</b> -- 5.2 \| [YouTube](https://youtu.be/b_4rsCjkBqE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Geometric_series.pdf)
+- <b>Divergence test</b> -- 5.3 \| [YouTube](https://youtu.be/8TwwpVIex6M) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Divergence_test.pdf)
+
+---
+- <b>Integral test</b> -- 5.3 \| [YouTube](https://youtu.be/D3L6Bmc-aHc) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integral_test.pdf)
+- <b>Direct comparison test</b> -- 5.4 \| [YouTube](https://youtu.be/VhFfwg7LBPg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Direct_comparison_test.pdf)
+- <b>Limit comparison test</b> -- 5.4 \| [YouTube](https://youtu.be/70JYxv4BItw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limit_comparison_test.pdf)
 
 
 <br>
