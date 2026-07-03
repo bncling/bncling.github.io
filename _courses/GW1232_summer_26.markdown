@@ -76,6 +76,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- [Solutions](/assets/documents/1232-summer-26/Q1_solutions.pdf)
 - WeBWorK due
 	- *0.1.4 Inverse Functions*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_2_worksheet.pdf)
 
 <br>
 
