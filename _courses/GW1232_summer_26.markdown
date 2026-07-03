@@ -354,7 +354,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - June 29: [Calc I skills review](/assets/documents/1232-summer-26/worksheets/6_29_worksheet.pdf)
 - June 30: [Invertible functions](/assets/documents/1232-summer-26/worksheets/6_30_worksheet.pdf)
 - July 1: [Derivatives with exp and log](/assets/documents/1232-summer-26/worksheets/7_1_worksheet.pdf)
-- July 2: [Integrals, inverse trig](/assets/documents/1232-summer-26/worksheets/7_2_worksheet.pdf))
+- July 2: [Integrals, inverse trig](/assets/documents/1232-summer-26/worksheets/7_2_worksheet.pdf)
 
 
 <br> 
