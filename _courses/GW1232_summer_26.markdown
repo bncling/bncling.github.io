@@ -73,6 +73,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Integrating with exponentials and logarithms</b> -- 0.5.6 / 1.6 \| [YouTube](https://youtu.be/4oFjqRtHe9o) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integrating_with_exponentials_and_logarithms.pdf)
 	- <b>Integrating with inverse trig</b> -- 0.5.7 / 1.7 \| [YouTube](https://youtu.be/2dHH-k-tJ-o) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integrating_with_inverse_trig.pdf)
 - Quiz on inverse functions, exponential functions, and logarithmic functions
+	- [Solutions](/assets/documents/1232-summer-26/Q1_solutions.pdf)
 - WeBWorK due
 	- *0.1.4 Inverse Functions*
 
