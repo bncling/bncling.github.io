@@ -372,7 +372,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 <br> 
 <h3 id="practice-exams">Practice Exams</h3>
 
-Nothing yet to see here!
+Nothing yet to see here! 
 
 
 
