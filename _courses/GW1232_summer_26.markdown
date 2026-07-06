@@ -37,7 +37,7 @@ To distinguish sections in our two textbooks, sections in the OpenStax Calc I te
 Below is a week-by-week schedule of the course. All videos for a given day should be viewed before coming to class (bring notes!) and all WeBWorK assignments are due at the end of the day (11:59pm) on which they are listed. 
 
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 1: June 29 - July 2</b></summary>
 
 ###### **June 29:** Introduction to the course
@@ -83,7 +83,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
 <summary><b>Week 2: July 6 - 9</b></summary>
 
 ###### **July 6:** L'Hôpital's rule
