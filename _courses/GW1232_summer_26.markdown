@@ -199,8 +199,11 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Due 
 	- WeBWorK *5.1 Sequences*
 
-###### **July 23:** Alternating series
+###### **July 23:** Series with negative terms
 - Watch before class
+	- <b>Alternating series test</b> -- 5.5 \| [YouTube](https://youtu.be/GMtyEUC2yOM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Alternating_series_test.pdf)
+	- <b>Alternating series error bound</b> -- 5.5 \| [YouTube](https://youtu.be/LRwlQgyAnsw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Alternating_series_error_bound.pdf)
+	- <b>Absolute and conditional convergence</b> -- 5.5 \| [YouTube](https://youtu.be/wHCSIjgZtJQ) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Absolute_and_conditional_convergence.pdf)
 - Quiz! Possible new topics: differential equations, sequences, series and their convergence
 - Due 
 	- WeBWorK *5.2 Series*
@@ -348,6 +351,11 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Integral test</b> -- 5.3 \| [YouTube](https://youtu.be/D3L6Bmc-aHc) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integral_test.pdf)
 - <b>Direct comparison test</b> -- 5.4 \| [YouTube](https://youtu.be/VhFfwg7LBPg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Direct_comparison_test.pdf)
 - <b>Limit comparison test</b> -- 5.4 \| [YouTube](https://youtu.be/70JYxv4BItw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limit_comparison_test.pdf)
+
+---
+- <b>Alternating series test</b> -- 5.5 \| [YouTube](https://youtu.be/GMtyEUC2yOM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Alternating_series_test.pdf)
+- <b>Alternating series error bound</b> -- 5.5 \| [YouTube](https://youtu.be/LRwlQgyAnsw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Alternating_series_error_bound.pdf)
+- <b>Absolute and conditional convergence</b> -- 5.5 \| [YouTube](https://youtu.be/wHCSIjgZtJQ) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Absolute_and_conditional_convergence.pdf)
 
 
 <br>
