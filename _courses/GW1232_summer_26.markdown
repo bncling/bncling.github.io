@@ -107,6 +107,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Due
 	- WeBWorK *1.6 Log and Exp Integrals*
 	- WeBWorK *1.7 Inverse Trig*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_7_worksheet.pdf)
 
 ###### **July 8:** Trig substitution
 - Watch before class
@@ -367,6 +368,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 1: [Derivatives with exp and log](/assets/documents/1232-summer-26/worksheets/7_1_worksheet.pdf)
 - July 2: [Integrals, inverse trig](/assets/documents/1232-summer-26/worksheets/7_2_worksheet.pdf)
 - July 6: [L'Hôpital's rule](/assets/documents/1232-summer-26/worksheets/7_6_worksheet.pdf)
+- July 7: [Integrating products](/assets/documents/1232-summer-26/worksheets/7_7_worksheet.pdf)
 
 
 <br> 
