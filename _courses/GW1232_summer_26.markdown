@@ -117,6 +117,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Secant substitution</b> -- 3.3 \| [YouTube](https://youtu.be/lVqPBmg3RQA) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Secant_substitution.pdf)
 - Due
 	- WeBWorK *0.4.8 LHospitals Rule*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_8_worksheet.pdf)
 
 ###### **July 9:** Partial fractions
 - Watch before class
@@ -369,6 +370,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 2: [Integrals, inverse trig](/assets/documents/1232-summer-26/worksheets/7_2_worksheet.pdf)
 - July 6: [L'Hôpital's rule](/assets/documents/1232-summer-26/worksheets/7_6_worksheet.pdf)
 - July 7: [Integrating products](/assets/documents/1232-summer-26/worksheets/7_7_worksheet.pdf)
+- July 8: [Trig substitution](/assets/documents/1232-summer-26/worksheets/7_8_worksheet.pdf)
 
 
 <br> 
