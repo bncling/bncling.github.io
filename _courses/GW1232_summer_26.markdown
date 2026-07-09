@@ -129,12 +129,13 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Due 
 	- WeBWorK *3.1 Integration by Parts*
 	- WeBWorK *3.2 Trig Integrals*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_9_worksheet.pdf)
 
 <br>
 
 </details>
 
-<!--
+
 <details markdown="1">
 <summary><b>Week 3: July 13 - 16</b></summary>
 
@@ -174,7 +175,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-
+<!--
 <details markdown="1">
 <summary><b>Week 4: July 20 - 23</b></summary>
 
@@ -371,6 +372,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 6: [L'Hôpital's rule](/assets/documents/1232-summer-26/worksheets/7_6_worksheet.pdf)
 - July 7: [Integrating products](/assets/documents/1232-summer-26/worksheets/7_7_worksheet.pdf)
 - July 8: [Trig substitution](/assets/documents/1232-summer-26/worksheets/7_8_worksheet.pdf)
+- July 9: [Partial fractions](/assets/documents/1232-summer-26/worksheets/7_9_worksheet.pdf)
 
 
 <br> 
