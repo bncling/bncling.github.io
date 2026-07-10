@@ -379,7 +379,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 <br> 
 <h3 id="practice-exams">Practice Exams</h3>
 
-Nothing yet to see here! 
+- Midterm
+	- [Practice exam](/assets/documents/1232-summer-26/practice_midterm.pdf) 
 
 
 
