@@ -126,7 +126,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Repeated linear factors</b> -- 3.4 \| [YouTube](https://youtu.be/Okeip-Pjg6Y) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Repeated_linear_factors.pdf)
 	- <b>Quadratic factors</b> -- 3.4 \| [YouTube](https://youtu.be/8gn4J7l4uO8) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Quadratic_factors.pdf)
 - Quiz! Possible new topics: inverse trig, L'Hôpital's rule, and advanced integration techniques (not including partial fractions)
-	- [Solutions](/assets/documents/1232-summer-26/Q1_solutions.pdf)
+	- [Solutions](/assets/documents/1232-summer-26/Q2_solutions.pdf)
 - Due 
 	- WeBWorK *3.1 Integration by Parts*
 	- WeBWorK *3.2 Trig Integrals*
