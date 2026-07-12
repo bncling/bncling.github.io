@@ -168,7 +168,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- WeBWorK *3.7 Improper Integrals*
 
 ###### **July 16:** Midterm exam
-- Try the [Practice exam](#) (coming soon)
+- Try the [Practice exam](/assets/documents/1232-summer-26/practice_midterm.pdf)
 - Due
 	- WeBWorK *2.4a Arc Length*
 	- WeBWorK *2.4b Surface Area*
