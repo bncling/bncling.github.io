@@ -73,6 +73,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Integrating with exponentials and logarithms</b> -- 0.5.6 / 1.6 \| [YouTube](https://youtu.be/4oFjqRtHe9o) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integrating_with_exponentials_and_logarithms.pdf)
 	- <b>Integrating with inverse trig</b> -- 0.5.7 / 1.7 \| [YouTube](https://youtu.be/2dHH-k-tJ-o) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integrating_with_inverse_trig.pdf)
 - Quiz on inverse functions, exponential functions, and logarithmic functions
+	- [Blank](/assets/documents/1232-summer-26/Q1.pdf)
 	- [Solutions](/assets/documents/1232-summer-26/Q1_solutions.pdf)
 - WeBWorK due
 	- *0.1.4 Inverse Functions*
@@ -83,7 +84,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 2: July 6 - 9</b></summary>
 
 ###### **July 6:** L'Hôpital's rule
@@ -126,6 +127,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Repeated linear factors</b> -- 3.4 \| [YouTube](https://youtu.be/Okeip-Pjg6Y) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Repeated_linear_factors.pdf)
 	- <b>Quadratic factors</b> -- 3.4 \| [YouTube](https://youtu.be/8gn4J7l4uO8) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Quadratic_factors.pdf)
 - Quiz! Possible new topics: inverse trig, L'Hôpital's rule, and advanced integration techniques (not including partial fractions)
+	- [Blank](/assets/documents/1232-summer-26/Q2.pdf)
 	- [Solutions](/assets/documents/1232-summer-26/Q2_solutions.pdf)
 - Due 
 	- WeBWorK *3.1 Integration by Parts*
@@ -137,7 +139,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-<details markdown="1">
+<details markdown="1" open>
 <summary><b>Week 3: July 13 - 16</b></summary>
 
 ###### **July 13:** Improper integrals
@@ -223,6 +225,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 27:** Ratio and root tests
 - Watch before class
+	- <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/-30Hodylthk) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test.pdf)
+	- <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/2Qc6Fl8rwuY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test_can't_handle_everything.pdf)
+	- <b>Root test can't handle everything</b> -- 5.6 \| [YouTube](https://youtu.be/dfrgJxZVkIE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Root_test.pdf)
 - Due 
 	- WeBWorK *5.3 Divergence and Integral Tests*
 	- WeBWorK *5.4 Comparison Tests*
@@ -361,6 +366,11 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Alternating series test</b> -- 5.5 \| [YouTube](https://youtu.be/GMtyEUC2yOM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Alternating_series_test.pdf)
 - <b>Alternating series error bound</b> -- 5.5 \| [YouTube](https://youtu.be/LRwlQgyAnsw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Alternating_series_error_bound.pdf)
 - <b>Absolute and conditional convergence</b> -- 5.5 \| [YouTube](https://youtu.be/wHCSIjgZtJQ) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Absolute_and_conditional_convergence.pdf)
+
+---
+- <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/-30Hodylthk) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test.pdf)
+- <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/2Qc6Fl8rwuY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test_can't_handle_everything.pdf)
+- <b>Root test can't handle everything</b> -- 5.6 \| [YouTube](https://youtu.be/dfrgJxZVkIE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Root_test.pdf)
 
 
 <br>
