@@ -226,8 +226,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ###### **July 27:** Ratio and root tests
 - Watch before class
 	- <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/-30Hodylthk) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test.pdf)
-	- <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/2Qc6Fl8rwuY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test_can't_handle_everything.pdf)
-	- <b>Root test can't handle everything</b> -- 5.6 \| [YouTube](https://youtu.be/dfrgJxZVkIE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Root_test.pdf)
+	- <b>Ratio test can't handle everything</b> -- 5.6 \| [YouTube](https://youtu.be/2Qc6Fl8rwuY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test_can't_handle_everything.pdf)
+	- <b>Root test</b> -- 5.6 \| [YouTube](https://youtu.be/dfrgJxZVkIE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Root_test.pdf)
 - Due 
 	- WeBWorK *5.3 Divergence and Integral Tests*
 	- WeBWorK *5.4 Comparison Tests*
@@ -369,8 +369,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ---
 - <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/-30Hodylthk) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test.pdf)
-- <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/2Qc6Fl8rwuY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test_can't_handle_everything.pdf)
-- <b>Root test can't handle everything</b> -- 5.6 \| [YouTube](https://youtu.be/dfrgJxZVkIE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Root_test.pdf)
+- <b>Ratio test can't handle everything</b> -- 5.6 \| [YouTube](https://youtu.be/2Qc6Fl8rwuY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test_can't_handle_everything.pdf)
+- <b>Root test</b> -- 5.6 \| [YouTube](https://youtu.be/dfrgJxZVkIE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Root_test.pdf)
 
 
 <br>
