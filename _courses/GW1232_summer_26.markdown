@@ -378,7 +378,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ---
 - <b>Power series</b> -- 6.1 \| [YouTube](https://youtu.be/CEHA9WRGdUY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Power_series.pdf)
 - <b>Power series convergence</b> -- 6.1 \| [YouTube](https://youtu.be/oxkSutffBsI) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Power_series_convergence.pdf)
-- <b>New_power_series_from_old</b> -- 6.2 \| [YouTube](https://youtu.be/GAUemriIRqg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/New_power_series_from_old.pdf)
+- <b>New power series from old</b> -- 6.2 \| [YouTube](https://youtu.be/GAUemriIRqg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/New_power_series_from_old.pdf)
 
 
 <br>
