@@ -234,6 +234,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 28:** Power series
 - Watch before class
+	- <b>Power series</b> -- 6.1 \| [YouTube](https://youtu.be/CEHA9WRGdUY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Power_series.pdf)
+	- <b>Power series convergence</b> -- 6.1 \| [YouTube](https://youtu.be/oxkSutffBsI) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Power_series_convergence.pdf)
+	- <b>New_power_series_from_old</b> -- 6.2 \| [YouTube](https://youtu.be/GAUemriIRqg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/New_power_series_from_old.pdf)
 - Due
 	- WeBWorK *5.5 Alternating Series*
 
@@ -371,6 +374,11 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Ratio test</b> -- 5.6 \| [YouTube](https://youtu.be/-30Hodylthk) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test.pdf)
 - <b>Ratio test can't handle everything</b> -- 5.6 \| [YouTube](https://youtu.be/2Qc6Fl8rwuY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Ratio_test_can't_handle_everything.pdf)
 - <b>Root test</b> -- 5.6 \| [YouTube](https://youtu.be/dfrgJxZVkIE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Root_test.pdf)
+
+---
+- <b>Power series</b> -- 6.1 \| [YouTube](https://youtu.be/CEHA9WRGdUY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Power_series.pdf)
+- <b>Power series convergence</b> -- 6.1 \| [YouTube](https://youtu.be/oxkSutffBsI) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Power_series_convergence.pdf)
+- <b>New_power_series_from_old</b> -- 6.2 \| [YouTube](https://youtu.be/GAUemriIRqg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/New_power_series_from_old.pdf)
 
 
 <br>
