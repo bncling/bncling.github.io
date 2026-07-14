@@ -149,6 +149,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Integral comparison test</b> -- 3.7 \| [YouTube](https://youtu.be/mPzeq0WsWSA) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Integral_comparison_test.pdf)
 - Due
 	- WeBWorK *3.3 Trig Substitution*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_13_worksheet.pdf)
 
 ###### **July 14:** Arc length and surface area
 - Watch before class
@@ -168,7 +169,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- WeBWorK *3.7 Improper Integrals*
 
 ###### **July 16:** Midterm exam
-- Try the [Practice exam](/assets/documents/1232-summer-26/practice_midterm.pdf)
+- Try the [practice exam](/assets/documents/1232-summer-26/practice_midterm.pdf)
+- Look at the [practice exam solutions](/assets/documents/1232-summer-26/practice_midterm_solutions.pdf)
 - Due
 	- WeBWorK *2.4a Arc Length*
 	- WeBWorK *2.4b Surface Area*
@@ -392,6 +394,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 7: [Integrating products](/assets/documents/1232-summer-26/worksheets/7_7_worksheet.pdf)
 - July 8: [Trig substitution](/assets/documents/1232-summer-26/worksheets/7_8_worksheet.pdf)
 - July 9: [Partial fractions](/assets/documents/1232-summer-26/worksheets/7_9_worksheet.pdf)
+- July 13: [Improper integrals](/assets/documents/1232-summer-26/worksheets/7_13_worksheet.pdf)
 
 
 <br> 
@@ -399,6 +402,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 - Midterm
 	- [Practice exam](/assets/documents/1232-summer-26/practice_midterm.pdf) 
+	- [Solutions](/assets/documents/1232-summer-26/practice_midterm_solutions.pdf)
 
 
 
