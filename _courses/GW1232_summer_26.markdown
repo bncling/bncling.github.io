@@ -159,6 +159,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Surface area examples</b> -- 2.4 \| [YouTube](https://youtu.be/8fILLtrdGjU) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Surface_area_examples.pdf)
 - Due
 	- WeBWorK *3.4 Partial Fractions*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_14_worksheet.pdf)
 
 ###### **July 15:** Intro to differential equations
 - Watch before class
@@ -395,6 +396,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 8: [Trig substitution](/assets/documents/1232-summer-26/worksheets/7_8_worksheet.pdf)
 - July 9: [Partial fractions](/assets/documents/1232-summer-26/worksheets/7_9_worksheet.pdf)
 - July 13: [Improper integrals](/assets/documents/1232-summer-26/worksheets/7_13_worksheet.pdf)
+- July 14: [Arc length and surface area](/assets/documents/1232-summer-26/worksheets/7_14_worksheet.pdf)
 
 
 <br> 
