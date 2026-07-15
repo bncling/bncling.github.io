@@ -168,8 +168,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Separable equations</b> -- 4.3 \| [YouTube](https://youtu.be/S3ATBPIMRtM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Separable_equations.pdf)
 - Due
 	- WeBWorK *3.7 Improper Integrals*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_15_worksheet.pdf)
 
-###### **July 16:** Midterm exam
+###### **July 16:** Midterm exam: all topics up to and including 7/14
 - Try the [practice exam](/assets/documents/1232-summer-26/practice_midterm.pdf)
 - Look at the [practice exam solutions](/assets/documents/1232-summer-26/practice_midterm_solutions.pdf)
 - Due
@@ -397,6 +398,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 9: [Partial fractions](/assets/documents/1232-summer-26/worksheets/7_9_worksheet.pdf)
 - July 13: [Improper integrals](/assets/documents/1232-summer-26/worksheets/7_13_worksheet.pdf)
 - July 14: [Arc length and surface area](/assets/documents/1232-summer-26/worksheets/7_14_worksheet.pdf)
+- July 15: [Differential equations](/assets/documents/1232-summer-26/worksheets/7_15_worksheet.pdf)
 
 
 <br> 
