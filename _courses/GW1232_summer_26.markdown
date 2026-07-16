@@ -406,7 +406,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 - Midterm
 	- [Practice exam](/assets/documents/1232-summer-26/practice_midterm.pdf) 
-	- [Solutions](/assets/documents/1232-summer-26/practice_midterm_solutions.pdf)
+	- [Practice exam solutions](/assets/documents/1232-summer-26/practice_midterm_solutions.pdf)
+	- [Midterm exam](/assets/documents/1232-summer-26/midterm.pdf)
 
 
 
