@@ -139,7 +139,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 3: July 13 - 16</b></summary>
 
 ###### **July 13:** Improper integrals
@@ -182,8 +182,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-<!--
-<details markdown="1">
+
+<details markdown="1" open>
 <summary><b>Week 4: July 20 - 23</b></summary>
 
 ###### **July 20:** Sequences
@@ -223,7 +223,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-
+<!--
 <details markdown="1">
 <summary><b>Week 5: July 27 - 30</b></summary>
 
@@ -246,6 +246,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 29:** Taylor series
 - Watch before class
+	- <b>Taylor series</b> -- 6.3 \| [YouTube](https://youtu.be/R9Ap8f-DuOY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Taylor_series.pdf)
+	- <b>Taylor polynomials and remainder</b> -- 6.3 \| [YouTube](https://youtu.be/sVJpueaVAkQ) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Taylor_polynomials_and_remainder.pdf)
 - Due
 	- WeBWorK *5.6 Ratio and Root Tests*
 
@@ -384,6 +386,10 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Power series convergence</b> -- 6.1 \| [YouTube](https://youtu.be/oxkSutffBsI) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Power_series_convergence.pdf)
 - <b>New power series from old</b> -- 6.2 \| [YouTube](https://youtu.be/GAUemriIRqg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/New_power_series_from_old.pdf)
 
+---
+- <b>Taylor series</b> -- 6.3 \| [YouTube](https://youtu.be/R9Ap8f-DuOY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Taylor_series.pdf)
+- <b>Taylor polynomials and remainder</b> -- 6.3 \| [YouTube](https://youtu.be/sVJpueaVAkQ) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Taylor_polynomials_and_remainder.pdf)
+
 
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
@@ -408,6 +414,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- [Practice exam](/assets/documents/1232-summer-26/practice_midterm.pdf) 
 	- [Practice exam solutions](/assets/documents/1232-summer-26/practice_midterm_solutions.pdf)
 	- [Midterm exam](/assets/documents/1232-summer-26/midterm.pdf)
+	- [Midterm solutions](/assets/documents/1232-summer-26/midterm_solutions.pdf)
 
 
 
