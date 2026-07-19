@@ -59,7 +59,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>The number e</b> -- 0.1.5 \| [YouTube](https://youtu.be/KvEBGSgYL-E) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_number_e.pdf)
 	- <b>Logarithms</b> -- 0.1.5 \| [YouTube](https://youtu.be/vJMcLVEq4_U) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Logarithms.pdf)
 	- <b>Limits of exponentials and logarithms</b> -- 0.1.5 \| [YouTube](https://youtu.be/tH0-sBgj1lI) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limits_of_exponentials_and_logarithms.pdf)
-	- <b>The derivative of e^x</b> -- 0.3.9 \| [YouTube](https://youtu.be/SOQ9ZDcYxrU) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_derivative_of_e^x.pdf)
+	- <b>The derivative of e^x (optional)</b> -- 0.3.9 \| [YouTube](https://youtu.be/SOQ9ZDcYxrU) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/The_derivative_of_e^x.pdf)
 	- <b>Differentiating with exponentials and logarithms</b> -- 0.3.9 \| [YouTube](https://youtu.be/5FnWe1fPbLc) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Differentiating_with_exponentials_and_logarithms.pdf)
 	- <b>Logarithmic differentiation</b> -- 0.3.9 \| [YouTube](https://youtu.be/wzuOC1Clpn4) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Logarithmic_differentiation.pdf)
 - WeBWorK due
@@ -191,7 +191,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Sequences</b> -- 5.1 \| [YouTube](https://youtu.be/7R0va4PwWRg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Sequences.pdf)
 	- <b>Limits of sequences</b> -- 5.1 \| [YouTube](https://youtu.be/OrAX8lqU9PY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limits_of_sequences.pdf)
 	- <b>Monotone convergence theorem</b> -- 5.1 \| [YouTube](https://youtu.be/Z3Hcnsxiz3E) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Monotone_convergence_theorem.pdf)
-	- <b>Formal definition of a limit</b> -- 5.1 \| [YouTube](https://youtu.be/Zi7m3fl4unE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Formal_definition_of_a_limit.pdf)
+	- <b>Formal definition of a limit (optional)</b> -- 5.1 \| [YouTube](https://youtu.be/Zi7m3fl4unE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Formal_definition_of_a_limit.pdf)
 - Due 
 	- WeBWorK *4.3 Differential Equations*
 
