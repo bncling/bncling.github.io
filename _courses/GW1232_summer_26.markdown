@@ -194,6 +194,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Formal definition of a limit (optional)</b> -- 5.1 \| [YouTube](https://youtu.be/Zi7m3fl4unE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Formal_definition_of_a_limit.pdf)
 - Due 
 	- WeBWorK *4.3 Differential Equations*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_20_worksheet.pdf)
 
 ###### **July 21:** Series
 - Watch before class
@@ -201,6 +202,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Telescoping series</b> -- 5.2 \| [YouTube](https://youtu.be/ydR1Qr2N-jY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Telescoping_series.pdf)
 	- <b>Geometric series</b> -- 5.2 \| [YouTube](https://youtu.be/b_4rsCjkBqE) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Geometric_series.pdf)
 	- <b>Divergence test</b> -- 5.3 \| [YouTube](https://youtu.be/8TwwpVIex6M) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Divergence_test.pdf)
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_21_worksheet.pdf)
 
 ###### **July 22:** Integral and comparison tests
 - Watch before class
@@ -253,6 +255,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **July 30:** Working with Taylor series
 - Watch before class
+	- <b>Binomial series</b> -- 6.4 \| [YouTube](https://youtu.be/Ud-bGc85CAs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Binomial_series.pdf)
 - Due 
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
@@ -405,6 +408,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 13: [Improper integrals](/assets/documents/1232-summer-26/worksheets/7_13_worksheet.pdf)
 - July 14: [Arc length and surface area](/assets/documents/1232-summer-26/worksheets/7_14_worksheet.pdf)
 - July 15: [Differential equations](/assets/documents/1232-summer-26/worksheets/7_15_worksheet.pdf)
+- July 20: [Sequences](/assets/documents/1232-summer-26/worksheets/7_20_worksheet.pdf)
+- July 21: [Series](/assets/documents/1232-summer-26/worksheets/7_21_worksheet.pdf)
 
 
 <br> 
