@@ -211,6 +211,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Limit comparison test</b> -- 5.4 \| [YouTube](https://youtu.be/70JYxv4BItw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Limit_comparison_test.pdf)
 - Due 
 	- WeBWorK *5.1 Sequences*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_22_worksheet.pdf)
 
 ###### **July 23:** Series with negative terms
 - Watch before class
@@ -410,6 +411,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 15: [Differential equations](/assets/documents/1232-summer-26/worksheets/7_15_worksheet.pdf)
 - July 20: [Sequences](/assets/documents/1232-summer-26/worksheets/7_20_worksheet.pdf)
 - July 21: [Series](/assets/documents/1232-summer-26/worksheets/7_21_worksheet.pdf)
+- July 22: [Integral and comparison tests](/assets/documents/1232-summer-26/worksheets/7_22_worksheet.pdf)
 
 
 <br> 
