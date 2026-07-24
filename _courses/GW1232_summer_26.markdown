@@ -221,6 +221,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Quiz! Possible new topics: differential equations, sequences, series and their convergence
 - Due 
 	- WeBWorK *5.2 Series*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_23_worksheet.pdf)
 
 <br>
 </details>
@@ -412,6 +413,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 20: [Sequences](/assets/documents/1232-summer-26/worksheets/7_20_worksheet.pdf)
 - July 21: [Series](/assets/documents/1232-summer-26/worksheets/7_21_worksheet.pdf)
 - July 22: [Integral and comparison tests](/assets/documents/1232-summer-26/worksheets/7_22_worksheet.pdf)
+- July 23: [Alternating series](/assets/documents/1232-summer-26/worksheets/7_23_worksheet.pdf)
 
 
 <br> 
