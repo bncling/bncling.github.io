@@ -183,7 +183,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 4: July 20 - 23</b></summary>
 
 ###### **July 20:** Sequences
@@ -227,8 +227,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-<!--
-<details markdown="1">
+<details markdown="1" open>
 <summary><b>Week 5: July 27 - 30</b></summary>
 
 ###### **July 27:** Ratio and root tests
@@ -258,6 +257,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ###### **July 30:** Working with Taylor series
 - Watch before class
 	- <b>Binomial series</b> -- 6.4 \| [YouTube](https://youtu.be/Ud-bGc85CAs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Binomial_series.pdf)
+	- <b>Approximating function values</b> -- 6.4 \| [YouTube](#) \| [Notes](#)
+	- <b>Computing limits</b> -- 6.4 \| [YouTube](#) \| [Notes](#)
+	- <b>Finding derivatives</b> -- 6.4 \| [YouTube](#) \| [Notes](#)
 - Due 
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
@@ -266,7 +268,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-
+<!--
 <details markdown="1">
 <summary><b>Week 6: August 3 - 6</b></summary>
 
