@@ -257,9 +257,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ###### **July 30:** Working with Taylor series
 - Watch before class
 	- <b>Binomial series</b> -- 6.4 \| [YouTube](https://youtu.be/Ud-bGc85CAs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Binomial_series.pdf)
-	- <b>Approximating function values</b> -- 6.4 \| [YouTube](#) \| [Notes](#)
-	- <b>Computing limits</b> -- 6.4 \| [YouTube](#) \| [Notes](#)
-	- <b>Finding derivatives</b> -- 6.4 \| [YouTube](#) \| [Notes](#)
+	- <b>Approximating function values</b> -- 6.4 \| [YouTube](https://youtu.be/lEnyTvySe4c) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Approximating_function_values.pdf)
+	- <b>Computing limits</b> -- 6.4 \| [YouTube](https://youtu.be/UbCrlglPc0c) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_limits.pdf)
+	- <b>Finding derivatives</b> -- 6.4 \| [YouTube](https://youtu.be/QVD6m5Wd8Is) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_derivatives.pdf)
 - Due 
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
@@ -396,6 +396,12 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ---
 - <b>Taylor series</b> -- 6.3 \| [YouTube](https://youtu.be/R9Ap8f-DuOY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Taylor_series.pdf)
 - <b>Taylor polynomials and remainder</b> -- 6.3 \| [YouTube](https://youtu.be/sVJpueaVAkQ) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Taylor_polynomials_and_remainder.pdf)
+
+---
+- <b>Binomial series</b> -- 6.4 \| [YouTube](https://youtu.be/Ud-bGc85CAs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Binomial_series.pdf)
+- <b>Approximating function values</b> -- 6.4 \| [YouTube](https://youtu.be/lEnyTvySe4c) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Approximating_function_values.pdf)
+- <b>Computing limits</b> -- 6.4 \| [YouTube](https://youtu.be/UbCrlglPc0c) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_limits.pdf)
+- <b>Finding derivatives</b> -- 6.4 \| [YouTube](https://youtu.be/QVD6m5Wd8Is) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_derivatives.pdf)
 
 
 <br>
