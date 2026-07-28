@@ -238,6 +238,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Due 
 	- WeBWorK *5.3 Divergence and Integral Tests*
 	- WeBWorK *5.4 Comparison Tests*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_27_worksheet.pdf)
 
 ###### **July 28:** Power series
 - Watch before class
@@ -422,6 +423,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 21: [Series](/assets/documents/1232-summer-26/worksheets/7_21_worksheet.pdf)
 - July 22: [Integral and comparison tests](/assets/documents/1232-summer-26/worksheets/7_22_worksheet.pdf)
 - July 23: [Alternating series](/assets/documents/1232-summer-26/worksheets/7_23_worksheet.pdf)
+- July 27: [Ratio and root tests](/assets/documents/1232-summer-26/worksheets/7_27_worksheet.pdf)
 
 
 <br> 
