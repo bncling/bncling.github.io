@@ -247,6 +247,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>New power series from old</b> -- 6.2 \| [YouTube](https://youtu.be/GAUemriIRqg) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/New_power_series_from_old.pdf)
 - Due
 	- WeBWorK *5.5 Alternating Series*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_28_worksheet.pdf)
 
 ###### **July 29:** Taylor series
 - Watch before class
@@ -275,6 +276,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **August 3:** Calculus with parametric equations
 - Watch before class
+	- <b>Parametric curves</b> -- 7.1 \| [YouTube]() \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Parametric_curves.pdf)
 - Due 
 	- WeBWorK *6.3 Taylor Series*
 
@@ -404,6 +406,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Computing limits</b> -- 6.4 \| [YouTube](https://youtu.be/UbCrlglPc0c) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_limits.pdf)
 - <b>Finding derivatives</b> -- 6.4 \| [YouTube](https://youtu.be/QVD6m5Wd8Is) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_derivatives.pdf)
 
+---
+
+
 
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
@@ -424,6 +429,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 22: [Integral and comparison tests](/assets/documents/1232-summer-26/worksheets/7_22_worksheet.pdf)
 - July 23: [Alternating series](/assets/documents/1232-summer-26/worksheets/7_23_worksheet.pdf)
 - July 27: [Ratio and root tests](/assets/documents/1232-summer-26/worksheets/7_27_worksheet.pdf)
+- July 28: [Power series](/assets/documents/1232-summer-26/worksheets/7_28_worksheet.pdf)
 
 
 <br> 
