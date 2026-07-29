@@ -257,6 +257,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Taylor polynomials and remainder</b> -- 6.3 \| [YouTube](https://youtu.be/sVJpueaVAkQ) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Taylor_polynomials_and_remainder.pdf)
 - Due
 	- WeBWorK *5.6 Ratio and Root Tests*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_29_worksheet.pdf)
 
 ###### **July 30:** Working with Taylor series
 - Watch before class
@@ -278,7 +279,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **August 3:** Calculus with parametric equations
 - Watch before class
-	- <b>Parametric curves</b> -- 7.1 \| [YouTube]() \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Parametric_curves.pdf)
+	- <b>Parametric curves</b> -- 7.1 \| [YouTube](https://youtu.be/cfpjWESP7zw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Parametric_curves.pdf)
+	- <b>Tangents to parametric curves</b> -- 7.2 \| [YouTube](https://youtu.be/cLyWbFglTHY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Tangents_to_parametric_curves.pdf)
+	- <b>Arc length of parametric curves</b> -- 7.2 \| [YouTube](https://youtu.be/m3Bmobeq56U) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_of_parametric_curves.pdf)
 - Due 
 	- WeBWorK *6.3 Taylor Series*
 
@@ -409,7 +412,11 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Finding derivatives</b> -- 6.4 \| [YouTube](https://youtu.be/QVD6m5Wd8Is) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_derivatives.pdf)
 
 ---
+- <b>Parametric curves</b> -- 7.1 \| [YouTube](https://youtu.be/cfpjWESP7zw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Parametric_curves.pdf)
+- <b>Tangents to parametric curves</b> -- 7.2 \| [YouTube](https://youtu.be/cLyWbFglTHY) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Tangents_to_parametric_curves.pdf)
+- <b>Arc length of parametric curves</b> -- 7.2 \| [YouTube](https://youtu.be/m3Bmobeq56U) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_of_parametric_curves.pdf)
 
+---
 
 
 <br>
@@ -432,6 +439,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 23: [Alternating series](/assets/documents/1232-summer-26/worksheets/7_23_worksheet.pdf)
 - July 27: [Ratio and root tests](/assets/documents/1232-summer-26/worksheets/7_27_worksheet.pdf)
 - July 28: [Power series](/assets/documents/1232-summer-26/worksheets/7_28_worksheet.pdf)
+- July 29: [Taylor series](/assets/documents/1232-summer-26/worksheets/7_29_worksheet.pdf)
 
 
 <br> 
