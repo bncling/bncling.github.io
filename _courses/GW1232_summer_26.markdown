@@ -219,6 +219,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Alternating series error bound</b> -- 5.5 \| [YouTube](https://youtu.be/LRwlQgyAnsw) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Alternating_series_error_bound.pdf)
 	- <b>Absolute and conditional convergence</b> -- 5.5 \| [YouTube](https://youtu.be/wHCSIjgZtJQ) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Absolute_and_conditional_convergence.pdf)
 - Quiz! Possible new topics: differential equations, sequences, series and their convergence
+	- [Blank](/assets/documents/1232-summer-26/Q3.pdf)
+	- [Solutions](/assets/documents/1232-summer-26/Q3_solutions.pdf)
 - Due 
 	- WeBWorK *5.2 Series*
 - [Worksheet](/assets/documents/1232-summer-26/worksheets/7_23_worksheet.pdf)
@@ -287,7 +289,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- WeBWorK *6.x Taylor Series Applications*
 
 ###### **August 5:** Review day
-- Try the [practice final](#) (coming soon)
+- Try the [practice final](/assets/documents/1232-summer-26/practice_final.pdf) 
 - Due
 	- WeBWorK *7.1 Parametric Equations*
 
