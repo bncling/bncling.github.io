@@ -265,6 +265,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Approximating function values</b> -- 6.4 \| [YouTube](https://youtu.be/lEnyTvySe4c) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Approximating_function_values.pdf)
 	- <b>Computing limits</b> -- 6.4 \| [YouTube](https://youtu.be/UbCrlglPc0c) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_limits.pdf)
 	- <b>Finding derivatives</b> -- 6.4 \| [YouTube](https://youtu.be/QVD6m5Wd8Is) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_derivatives.pdf)
+- Quiz! Possible new topics include alternating series, ratio and root tests, power series, and Taylor series
 - Due 
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
