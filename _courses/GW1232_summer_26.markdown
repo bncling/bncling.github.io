@@ -288,6 +288,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 ###### **August 4:** Calculus with polar coordinates
 - Watch before class
+	- <b>Polar coordinates</b> -- 7.3 \| [YouTube](https://youtu.be/IWY3yp-mSRM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Polar_coordinates.pdf)
+	- <b>Functions in polar coordinates</b> -- 7.3 \| [YouTube](https://youtu.be/12YpRYddRRs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Functions_in_polar_coordinates.pdf)
 - Due
 	- WeBWorK *6.4 Working with Taylor Series*
 	- WeBWorK *6.x Taylor Series Applications*
@@ -418,6 +420,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - <b>Arc length of parametric curves</b> -- 7.2 \| [YouTube](https://youtu.be/m3Bmobeq56U) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_of_parametric_curves.pdf)
 
 ---
+- <b>Polar coordinates</b> -- 7.3 \| [YouTube](https://youtu.be/IWY3yp-mSRM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Polar_coordinates.pdf)
+- <b>Functions in polar coordinates</b> -- 7.3 \| [YouTube](https://youtu.be/12YpRYddRRs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Functions_in_polar_coordinates.pdf)
 
 
 <br>
