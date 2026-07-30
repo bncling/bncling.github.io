@@ -269,6 +269,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Due 
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/7_30_worksheet.pdf)
 
 <br>
 </details>
@@ -445,6 +446,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 27: [Ratio and root tests](/assets/documents/1232-summer-26/worksheets/7_27_worksheet.pdf)
 - July 28: [Power series](/assets/documents/1232-summer-26/worksheets/7_28_worksheet.pdf)
 - July 29: [Taylor series](/assets/documents/1232-summer-26/worksheets/7_29_worksheet.pdf)
+- July 30: [Applications of Taylor series](/assets/documents/1232-summer-26/worksheets/7_30_worksheet.pdf)
 
 
 <br> 
