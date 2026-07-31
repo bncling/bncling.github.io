@@ -266,6 +266,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Computing limits</b> -- 6.4 \| [YouTube](https://youtu.be/UbCrlglPc0c) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_limits.pdf)
 	- <b>Finding derivatives</b> -- 6.4 \| [YouTube](https://youtu.be/QVD6m5Wd8Is) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Finding_derivatives.pdf)
 - Quiz! Possible new topics include alternating series, ratio and root tests, power series, and Taylor series
+	- [Blank](/assets/documents/1232-summer-26/Q4.pdf)
+	- [Solutions](/assets/documents/1232-summer-26/Q4_solutions.pdf)
 - Due 
 	- WeBWorK *6.1 Power Series*
 	- WeBWorK *6.2 Properties of Power Series*
@@ -275,8 +277,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-<!--
-<details markdown="1">
+<details markdown="1" open>
 <summary><b>Week 6: August 3 - 6</b></summary>
 
 ###### **August 3:** Calculus with parametric equations
@@ -291,6 +292,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Watch before class
 	- <b>Polar coordinates</b> -- 7.3 \| [YouTube](https://youtu.be/IWY3yp-mSRM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Polar_coordinates.pdf)
 	- <b>Functions in polar coordinates</b> -- 7.3 \| [YouTube](https://youtu.be/12YpRYddRRs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Functions_in_polar_coordinates.pdf)
+	- <b>Tangents to polar curves</b> -- 7.4 \| [YouTube](https://youtu.be/fh5WAoQy1cs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Tangents_to_polar_curves.pdf)
+	- <b>Arc length of polar curves</b> -- 7.4 \| [YouTube](https://youtu.be/oVfSnej0PpU) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_of_polar_curves.pdf)
+	- <b>Polar areas</b> -- 7.4 \| [YouTube](https://youtu.be/7PlPIRCL8W4) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Polar_areas.pdf)
 - Due
 	- WeBWorK *6.4 Working with Taylor Series*
 	- WeBWorK *6.x Taylor Series Applications*
@@ -306,7 +310,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 
 <br>
 </details>
---->
+
 
 
 <br>
@@ -423,7 +427,9 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 ---
 - <b>Polar coordinates</b> -- 7.3 \| [YouTube](https://youtu.be/IWY3yp-mSRM) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Polar_coordinates.pdf)
 - <b>Functions in polar coordinates</b> -- 7.3 \| [YouTube](https://youtu.be/12YpRYddRRs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Functions_in_polar_coordinates.pdf)
-
+- <b>Tangents to polar curves</b> -- 7.4 \| [YouTube](https://youtu.be/fh5WAoQy1cs) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Tangents_to_polar_curves.pdf)
+- <b>Arc length of polar curves</b> -- 7.4 \| [YouTube](https://youtu.be/oVfSnej0PpU) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_of_polar_curves.pdf)
+- <b>Polar areas</b> -- 7.4 \| [YouTube](https://youtu.be/7PlPIRCL8W4) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Polar_areas.pdf)
 
 <br>
 <h3 id="group-worksheets">Group worksheets</h3>
