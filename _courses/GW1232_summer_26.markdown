@@ -229,7 +229,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 </details>
 
 
-<details markdown="1" open>
+<details markdown="1">
 <summary><b>Week 5: July 27 - 30</b></summary>
 
 ###### **July 27:** Ratio and root tests
