@@ -287,6 +287,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- <b>Arc length of parametric curves</b> -- 7.2 \| [YouTube](https://youtu.be/m3Bmobeq56U) \| [Notes](/assets/documents/1232-summer-26/lecture-notes/Arc_length_of_parametric_curves.pdf)
 - Due 
 	- WeBWorK *6.3 Taylor Series*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/8_3worksheet.pdf)
 
 ###### **August 4:** Calculus with polar coordinates
 - Watch before class
@@ -454,6 +455,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 28: [Power series](/assets/documents/1232-summer-26/worksheets/7_28_worksheet.pdf)
 - July 29: [Taylor series](/assets/documents/1232-summer-26/worksheets/7_29_worksheet.pdf)
 - July 30: [Applications of Taylor series](/assets/documents/1232-summer-26/worksheets/7_30_worksheet.pdf)
+- August 3: [Parametric curves](/assets/documents/1232-summer-26/worksheets/8_3worksheet.pdf)
 
 
 <br> 
