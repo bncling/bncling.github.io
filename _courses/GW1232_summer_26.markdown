@@ -305,6 +305,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- WeBWorK *7.1 Parametric Equations*
 
 ###### **August 6:** Final exam
+- Look at the [practice final solutions](/assets/documents/1232-summer-26/practice_final_solutions.pdf) 
 - Due 
 	- WeBWorK *7.3 Polar Coordinates*
 
@@ -465,6 +466,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 	- [Midterm solutions](/assets/documents/1232-summer-26/midterm_solutions.pdf)
 - Final 
 	- [Practice exam](/assets/documents/1232-summer-26/practice_final.pdf)
+	- [Practice exam solutions](/assets/documents/1232-summer-26/practice_final_solutions.pdf)
 
 
 
