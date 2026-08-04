@@ -299,6 +299,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Due
 	- WeBWorK *6.4 Working with Taylor Series*
 	- WeBWorK *6.x Taylor Series Applications*
+- [Worksheet](/assets/documents/1232-summer-26/worksheets/8_4_worksheet.pdf)
 
 ###### **August 5:** Review day
 - Try the [practice final](/assets/documents/1232-summer-26/practice_final.pdf) 
@@ -455,7 +456,8 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 28: [Power series](/assets/documents/1232-summer-26/worksheets/7_28_worksheet.pdf)
 - July 29: [Taylor series](/assets/documents/1232-summer-26/worksheets/7_29_worksheet.pdf)
 - July 30: [Applications of Taylor series](/assets/documents/1232-summer-26/worksheets/7_30_worksheet.pdf)
-- August 3: [Parametric curves](/assets/documents/1232-summer-26/worksheets/8_3worksheet.pdf)
+- August 3: [Parametric curves](/assets/documents/1232-summer-26/worksheets/8_3_worksheet.pdf)
+- August 4: [Polar curves](/assets/documents/1232-summer-26/worksheets/8_4_worksheet.pdf)
 
 
 <br> 
