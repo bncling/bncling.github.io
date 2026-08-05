@@ -305,6 +305,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - Try the [practice final](/assets/documents/1232-summer-26/practice_final.pdf) 
 - Due
 	- WeBWorK *7.1 Parametric Equations*
+[Worksheet](/assets/documents/1232-summer-26/worksheets/8_5_worksheet.pdf)
 
 ###### **August 6:** Final exam
 - Look at the [practice final solutions](/assets/documents/1232-summer-26/practice_final_solutions.pdf) 
@@ -458,6 +459,7 @@ Below is a week-by-week schedule of the course. All videos for a given day shoul
 - July 30: [Applications of Taylor series](/assets/documents/1232-summer-26/worksheets/7_30_worksheet.pdf)
 - August 3: [Parametric curves](/assets/documents/1232-summer-26/worksheets/8_3_worksheet.pdf)
 - August 4: [Polar curves](/assets/documents/1232-summer-26/worksheets/8_4_worksheet.pdf)
+- August 5: [Review](/assets/documents/1232-summer-26/worksheets/8_5_worksheet.pdf)
 
 
 <br> 
